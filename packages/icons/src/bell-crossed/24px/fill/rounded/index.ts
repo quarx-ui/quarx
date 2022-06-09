@@ -1,0 +1,1 @@
+export { BellCrossedIcon } from './BellCrossedIcon';

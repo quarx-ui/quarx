@@ -1,0 +1,1 @@
+export { RectangleOnRectangleIcon } from './RectangleOnRectangleIcon';

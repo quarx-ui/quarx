@@ -1,0 +1,1 @@
+export { UserOfficialIcon } from './UserOfficialIcon';

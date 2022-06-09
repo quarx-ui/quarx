@@ -1,0 +1,17 @@
+packages/**/build
+packages/core/styles/engine
+
+.eslintrc.js
+
+LICENSE
+LICENSE_RUS
+
+*.png
+*.svg
+*.otf
+*.md
+*.css
+*.json
+*.lock
+*.log
+*.spec.*

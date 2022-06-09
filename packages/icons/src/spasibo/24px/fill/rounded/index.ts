@@ -1,0 +1,1 @@
+export { SpasiboIcon } from './SpasiboIcon';

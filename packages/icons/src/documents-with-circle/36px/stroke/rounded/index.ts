@@ -1,0 +1,1 @@
+export { DocumentsWithCircleIcon } from './DocumentsWithCircleIcon';

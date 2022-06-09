@@ -1,0 +1,1 @@
+export { PaperClipIcon } from './PaperClipIcon';
