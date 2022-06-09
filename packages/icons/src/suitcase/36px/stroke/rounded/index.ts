@@ -1,0 +1,1 @@
+export { SuitcaseIcon } from './SuitcaseIcon';

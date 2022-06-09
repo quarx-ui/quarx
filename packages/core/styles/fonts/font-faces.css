@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "SB Sans Text";
+  src: url("SBSansText/SBSansText-Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "SB Sans Text";
+  src: url("SBSansText/SBSansText-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SB Sans Text Mono";
+  src: url("SBSansText/SBSansTextMono-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SB Sans Text";
+  src: url("SBSansText/SBSansText-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SB Sans Text";
+  src: url("SBSansText/SBSansText-Semibold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SB Sans Text";
+  src: url("SBSansDisplay/SBSansDisplay-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SB Sans Display";
+  src: url("SBSansDisplay/SBSansDisplay-Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "SB Sans Display";
+  src: url("SBSansDisplay/SBSansDisplay-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SB Sans Display";
+  src: url("SBSansDisplay/SBSansDisplay-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SB Sans Display";
+  src: url("SBSansDisplay/SBSansDisplay-Bold.otf") format("opentype");
+  font-weight: 700;
+}

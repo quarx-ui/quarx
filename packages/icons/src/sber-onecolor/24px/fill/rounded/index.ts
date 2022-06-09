@@ -1,0 +1,1 @@
+export { SberOnecolorIcon } from './SberOnecolorIcon';

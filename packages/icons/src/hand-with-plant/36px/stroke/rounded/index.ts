@@ -1,0 +1,1 @@
+export { HandWithPlantIcon } from './HandWithPlantIcon';

@@ -1,0 +1,23 @@
+name: Assign new issues to organization project
+
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  assign-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |-
+           gh api graphql -F contentId=$ISSUE_ID -F projectId=$PROJECT_ID -f query='
+             mutation($projectId: ID!, $contentId: ID!) {
+               addProjectV2ItemById(input: {projectId: $projectId contentId: $contentId}) {
+                 item {
+                   id
+                 }
+             }
+           }'
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_ACCESS_TOKEN }}
+          ISSUE_ID: ${{ github.event.issue.node_id }}
+          PROJECT_ID: ${{ secrets.QUARX_PROJECT_ID }}

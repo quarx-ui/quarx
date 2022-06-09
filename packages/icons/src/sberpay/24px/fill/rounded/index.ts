@@ -1,0 +1,1 @@
+export { SberpayIcon } from './SberpayIcon';

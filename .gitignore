@@ -1,0 +1,21 @@
+# development
+.idea
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+test-results
+
+.env
+.env.local
+.secrets
+
+# dependencies
+/node_modules
+**/node_modules
+
+# production
+**/build
+
+# storyBook
+/storybook-static
+packages/core/coverage/

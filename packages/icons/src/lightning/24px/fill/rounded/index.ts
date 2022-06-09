@@ -1,0 +1,1 @@
+export { LightningIcon } from './LightningIcon';

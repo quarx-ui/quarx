@@ -1,0 +1,1 @@
+export { SberIdIcon } from './SberIdIcon';

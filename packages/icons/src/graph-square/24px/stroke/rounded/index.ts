@@ -1,0 +1,1 @@
+export { GraphSquareIcon } from './GraphSquareIcon';

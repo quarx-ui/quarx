@@ -1,0 +1,1 @@
+export { HourglassLessIcon } from './HourglassLessIcon';

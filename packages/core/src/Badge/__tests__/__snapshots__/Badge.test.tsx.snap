@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge default 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-97t127-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge default with counter 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-97t127-SxBadge-root"
+  >
+    Статус
+    <span
+      class="SxCounter SxCounter_type_filled SxCounter_size_small SxCounter_color_brand SxBadge-counter css-vw1vwz-SxCounter-root-SxBadge-counter"
+    >
+      55
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge large 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_large SxBadge_borderRadius_rounded SxBadge_color_brand css-1f5zn2u-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge outline 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_outline SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-1cxgfvt-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge smooth 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_smooth SxBadge_color_brand css-15up183-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge square 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_square SxBadge_color_brand css-xgs9a9-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge warning 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_warning css-12u09t3-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;

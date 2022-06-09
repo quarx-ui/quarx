@@ -1,0 +1,1 @@
+export { FireIcon } from './FireIcon';

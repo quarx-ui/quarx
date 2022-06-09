@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./build"
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./build",
+    "./storybook",
+    "**/*.test.tsx",
+    "**/*.test.ts",
+    "**/*.story.ts",
+    "**/*.story.tsx",
+    "./*.config.*"
+  ]
+}
+

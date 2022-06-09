@@ -1,0 +1,1 @@
+export { DocumentFullIcon } from './DocumentFullIcon';

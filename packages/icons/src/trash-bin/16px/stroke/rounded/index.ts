@@ -1,0 +1,1 @@
+export { TrashBinIcon } from './TrashBinIcon';

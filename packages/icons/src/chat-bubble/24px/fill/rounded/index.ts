@@ -1,0 +1,1 @@
+export { ChatBubbleIcon } from './ChatBubbleIcon';

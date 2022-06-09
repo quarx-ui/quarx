@@ -1,0 +1,1 @@
+export { AttentionIcon } from './AttentionIcon';

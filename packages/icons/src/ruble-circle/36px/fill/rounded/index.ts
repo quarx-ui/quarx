@@ -1,0 +1,1 @@
+export { RubleCircleIcon } from './RubleCircleIcon';

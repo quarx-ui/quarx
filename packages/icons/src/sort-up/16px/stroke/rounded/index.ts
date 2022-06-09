@@ -1,0 +1,1 @@
+export { SortUpIcon } from './SortUpIcon';
