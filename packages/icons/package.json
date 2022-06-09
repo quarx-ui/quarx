@@ -1,0 +1,24 @@
+{
+  "name": "@quarx-ui/icons",
+  "version": "1.0.1",
+  "description": "Icons library",
+  "license": "Sber Public License at-nc-sa",
+  "private": true,
+  "publishConfig": {
+    "directory": "build",
+    "access": "public"
+  },
+  "repository": "https://github.com/quarx-ui/quarx",
+  "files": [
+    "**/*"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "yarn run build:js && yarn run build:d.ts",
+    "build:js": "BABEL_ENV=build babel ./src --out-dir build --copy-files --no-copy-ignored --extensions .ts,.tsx --delete-dir-on-start --no-comments",
+    "build:d.ts": "ttsc --outDir build --emitDeclarationOnly true"
+  }
+}

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge color2 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color2 css-19rpkpt-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge critical 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_critical css-1ox9uf3-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge default 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color1 css-noz8kp-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge default with counter 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color1 css-noz8kp-SxBadge-root"
+  >
+    Статус
+    <span
+      class="SxCounter SxCounter_type_filled SxCounter_size_small SxCounter_color_color1 SxBadge-counter css-k0w3km-SxCounter-root-SxBadge-counter"
+    >
+      55
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge large 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_large SxBadge_borderRadius_rounded SxBadge_color_color1 css-8pbxxt-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge outline 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_outline SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color1 css-10bskkl-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge smooth 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_smooth SxBadge_color_color1 css-1hmwsuv-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge square 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_square SxBadge_color_color1 css-1qnnx5w-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge warning 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_warning css-lmmryu-SxBadge-root"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;

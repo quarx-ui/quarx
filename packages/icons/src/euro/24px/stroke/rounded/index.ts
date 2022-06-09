@@ -1,0 +1,1 @@
+export { EuroIcon } from './EuroIcon';

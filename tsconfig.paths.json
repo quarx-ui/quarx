@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@quarx/*": [
+        "packages/*"
+      ],
+      "@core": [
+        "packages/core/index"
+      ],
+      "@core/*": [
+        "packages/core/*"
+      ]
+    }
+  }
+}

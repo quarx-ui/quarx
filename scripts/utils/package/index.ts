@@ -1,0 +1,1 @@
+export { packageNameFromFolder } from './packageNameFromFolder';

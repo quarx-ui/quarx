@@ -1,0 +1,1 @@
+export { TemplateIcon } from './TemplateIcon';

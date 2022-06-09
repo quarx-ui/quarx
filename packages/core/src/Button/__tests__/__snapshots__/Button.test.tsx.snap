@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshots critical 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_critical SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-yqdd2j-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots default 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1p31dct-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots disabled 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_disabled SxButton SxButton_size_medium css-12g8dqf-SxBaseButton-root-SxButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots large 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_large SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_large css-1a4w8qt-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots loading 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_loading SxButton SxButton_size_medium SxButton_loading css-e2p2bd-SxBaseButton-root-SxButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="SxButton-content css-16bg0a3-SxButton-content"
+    >
+      Button
+    </div>
+    <div
+      class="SxLoader SxLoader_size_base SxButton-loader css-111dice-SxLoader-root-SxButton-loader"
+    >
+      <div
+        class="SxLoader-dot css-197lm1k-SxLoader-dot"
+      />
+      <div
+        class="SxLoader-dot css-197lm1k-SxLoader-dot"
+      />
+      <div
+        class="SxLoader-dot css-197lm1k-SxLoader-dot"
+      />
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots outlined 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_outlined SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1a8kyto-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots rounded 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_rounded SxButton SxButton_size_medium css-siro20-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots secondary 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_secondary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1m3odtl-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots small 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_small SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_small css-wcjvof-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots square 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_square SxButton SxButton_size_medium css-zz8uz9-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots text 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_text SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1lr8joc-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots xSmall 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_xSmall SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_xSmall css-geidal-SxBaseButton-root-SxButton-root"
+    type="button"
+  >
+    <div
+      class="SxButton-content css-15h85ex-SxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots critical 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_critical SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-z87h61-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots default 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-1020a0c-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots disabled 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_disabled SxIconButton SxIconButton_size_medium css-gnyjwk-SxBaseButton-root-SxIconButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots large 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_large SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_large css-1l1e3tl-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots loading 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_loading SxIconButton SxIconButton_size_medium SxIconButton_loading css-k49hcl-SxBaseButton-root-SxIconButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-qudlwq-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="SxLoader SxLoader_size_base SxIconButton-loader css-wt9n0q-SxLoader-root-SxIconButton-loader"
+    >
+      <div
+        class="SxLoader-dot css-197lm1k-SxLoader-dot"
+      />
+      <div
+        class="SxLoader-dot css-197lm1k-SxLoader-dot"
+      />
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots outlined 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_outlined SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-1s61f79-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots rounded 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_rounded SxIconButton SxIconButton_size_medium css-15h8z39-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots secondary 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_secondary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-99eq65-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots small 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_small SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_small css-5fymdi-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots square 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_square SxIconButton SxIconButton_size_medium css-cizewi-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots text 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_primary SxBaseButton_type_text SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-rdxhd9-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots xSmall 1`] = `
+<DocumentFragment>
+  <button
+    class="SxBaseButton SxBaseButton_size_xSmall SxBaseButton_color_primary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_xSmall css-1aej5w6-SxBaseButton-root-SxIconButton-root"
+    type="button"
+  >
+    <div
+      class="SxIconButton-icon css-rgplqb-SxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,1 @@
+export { ThreeDotsCircleIcon } from './ThreeDotsCircleIcon';

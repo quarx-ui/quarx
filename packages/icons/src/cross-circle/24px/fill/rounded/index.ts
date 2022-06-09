@@ -1,0 +1,1 @@
+export { CrossCircleIcon } from './CrossCircleIcon';

@@ -1,0 +1,1 @@
+export { CirclesOnCircleIcon } from './CirclesOnCircleIcon';
