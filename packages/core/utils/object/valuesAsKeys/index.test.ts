@@ -12,7 +12,7 @@ describe('valuesAsKeys', () => {
     });
 
     it('from array', () => {
-        const result = valuesAsKeysFromArray(['foo', 'bar'] as const);
+        const result = valuesAsKeysFromArray(['foo', 'bar']);
         expect(result).toStrictEqual(expected);
     });
 });

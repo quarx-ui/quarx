@@ -88,5 +88,6 @@ module.exports = {
         'no-use-before-define': 'off',
         'react/prop-types': 0,
         '@typescript-eslint/consistent-type-exports': 2,
+        'jest/valid-title': [2, { ignoreTypeOfDescribeName: true }]
     },
 };

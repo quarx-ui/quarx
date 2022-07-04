@@ -1,8 +1,7 @@
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { CSSObject } from '@emotion/react';
-import { typography } from '@core/styles';
+import { KeysFromUseStyles, makeStyles, typography } from '@core';
 import { BadgeStyleParams } from './types';
-import { KeysFromUseStyles, makeStyles } from '../../emotion-styles';
 
 export const useStyles = makeStyles((
     { palette },
@@ -64,46 +63,13 @@ export const useStyles = makeStyles((
 
             ...paramsToCss(type)({
                 filled: {
-                    color: palette.Text.mainInverse,
-                    borderColor: 'transparent',
+                    color: palette.colors[color].contrastText,
+                    backgroundColor: palette.colors[color].default,
                 },
                 outline: {
                     backgroundColor: 'transparent',
-                },
-            }),
-
-            ...paramsToCss(type, color)({
-                filled: {
-                    color1: {
-                        backgroundColor: palette.LabelTag.color1.main,
-                    },
-                    color2: {
-                        backgroundColor: palette.LabelTag.color2.main,
-                    },
-                    warning: {
-                        backgroundColor: palette.LabelTag.warning.main,
-                    },
-                    critical: {
-                        backgroundColor: palette.LabelTag.critical.main,
-                    },
-                },
-                outline: {
-                    color1: {
-                        borderColor: palette.LabelTag.color1.secondary,
-                        color: palette.LabelTag.color1.main,
-                    },
-                    color2: {
-                        borderColor: palette.LabelTag.color2.secondary,
-                        color: palette.LabelTag.color2.main,
-                    },
-                    warning: {
-                        borderColor: palette.LabelTag.warning.secondary,
-                        color: palette.LabelTag.warning.main,
-                    },
-                    critical: {
-                        borderColor: palette.LabelTag.critical.secondary,
-                        color: palette.LabelTag.critical.main,
-                    },
+                    borderColor: palette.colors[color].default,
+                    color: palette.colors[color].default,
                 },
             }),
         },

@@ -5,7 +5,7 @@ export const SX_DEVICE = valuesAsKeysFromArray([
     'tablet',
     'smallDesktop',
     'desktop',
-] as const);
+]);
 
 export type SxDevice = Values<typeof SX_DEVICE>;
 

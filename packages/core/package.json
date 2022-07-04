@@ -1,6 +1,6 @@
 {
   "name": "@quarx-ui/core",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Basic component library",
   "license": "Sber Public License at-nc-sa",
   "private": true,
@@ -17,6 +17,11 @@
   "module": "esm/index",
   "sideEffects": false,
   "dependencies": {
+    "@bem-react/classname": "^1.5.12",
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/uuid": "^8.3.1",
+    "clsx": "^1.1.1",
+    "hoist-non-react-statics": "^3.3.1",
     "jss": "^10.9.0",
     "jss-plugin-camel-case": "^10.9.0",
     "jss-plugin-default-unit": "^10.9.0",
@@ -25,18 +30,13 @@
     "jss-plugin-props-sort": "^10.9.0",
     "jss-plugin-rule-value-function": "^10.9.0",
     "jss-plugin-vendor-prefixer": "^10.9.0",
-    "@types/hoist-non-react-statics": "^3.3.1",
-    "@types/uuid": "^8.3.1",
-    "clsx": "^1.1.1",
-    "hoist-non-react-statics": "^3.3.1",
-    "uuid": "^3.4.0",
-    "@bem-react/classname": "^1.5.12"
+    "uuid": "^3.4.0"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
     "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0"
+    "@emotion/styled": "^11.6.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "gitHead": "baae451910c5f79946136e5498a22c3cf1c18af7",
   "scripts": {

@@ -1,5 +1,5 @@
 import { ChangeEventHandler, ReactNode, RefObject } from 'react';
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
+import { WithClassesAndStyles } from '@core';
 import { BaseProps } from '@core/types';
 import { SelectionProps } from '@core/src';
 import { SelectionSize } from '@core/src/Selection/types';
@@ -27,7 +27,7 @@ export interface RadioButtonStyleParams {
 
 export interface RadioButtonPropsWithoutHtml extends
     RadioButtonStyleParams,
-    WithClassesAndStyles<RadioButtonStyleKeys>,
+    WithClassesAndStyles<RadioButtonStyleKeys, RadioButtonStyleParams>,
     BaseProps<HTMLLabelElement>
 {
     /** Дочерний элемент */

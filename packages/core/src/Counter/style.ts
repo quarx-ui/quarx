@@ -1,6 +1,5 @@
-import { typography } from '@core';
-import { KeysFromUseStyles, makeStyles } from '../../emotion-styles';
-import { paramsToCss } from '../../utils/paramsToCss';
+import { KeysFromUseStyles, makeStyles, typography } from '@core/styles';
+import { paramsToCss } from '@core/utils/paramsToCss';
 import { CounterStyleParams } from './types';
 
 export const useStyles = makeStyles((
@@ -25,42 +24,14 @@ export const useStyles = makeStyles((
             },
         }),
 
-        ...paramsToCss(type, color)({
+        ...paramsToCss(type)({
             filled: {
-                color1: {
-                    color: palette.LabelTag.color1.main,
-                    backgroundColor: palette.Background.main,
-                },
-                color2: {
-                    color: palette.LabelTag.color2.main,
-                    backgroundColor: palette.Background.main,
-                },
-                warning: {
-                    color: palette.LabelTag.warning.main,
-                    backgroundColor: palette.Background.main,
-                },
-                critical: {
-                    color: palette.LabelTag.critical.main,
-                    backgroundColor: palette.Background.main,
-                },
+                color: palette.colors[color].default,
+                backgroundColor: palette.background.main,
             },
             outline: {
-                color1: {
-                    backgroundColor: palette.LabelTag.color1.main,
-                    color: palette.Text.mainInverse,
-                },
-                color2: {
-                    backgroundColor: palette.LabelTag.color2.main,
-                    color: palette.Text.mainInverse,
-                },
-                warning: {
-                    backgroundColor: palette.LabelTag.warning.main,
-                    color: palette.Text.mainInverse,
-                },
-                critical: {
-                    backgroundColor: palette.LabelTag.critical.main,
-                    color: palette.Text.mainInverse,
-                },
+                color: palette.background.main,
+                backgroundColor: palette.colors[color].default,
             },
         }),
     },

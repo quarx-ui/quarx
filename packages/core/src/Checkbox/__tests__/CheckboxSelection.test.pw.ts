@@ -9,7 +9,7 @@ test.describe(component, () => {
             size: ['small', 'medium', 'large'],
             borderRadius: ['square', 'smooth'],
             disabled: ['true'],
-            hasError: ['true'],
+            color: ['brand', 'success', 'warning', 'danger'],
             reverse: ['true'],
         },
         sxClassname: 'SxCheckboxSelection',

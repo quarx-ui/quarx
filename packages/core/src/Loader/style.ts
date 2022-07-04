@@ -1,4 +1,4 @@
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { LoaderStyleParams } from '@core/src/Loader/types';
 import { keyframes } from '@emotion/react';

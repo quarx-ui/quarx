@@ -1,5 +1,4 @@
-import { makeStyles } from '@core/emotion-styles';
-import { typography } from '@core';
+import { typography, makeStyles } from '@core';
 import { CSSObject } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { StyledProps } from './types';

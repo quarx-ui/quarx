@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { SX_SIZE } from '@core/enums';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core';
 import { useStyles } from './style';
 import { RadioButtonProps } from './types';
 

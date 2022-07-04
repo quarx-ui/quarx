@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { makeStylesKit } from '@core/styles';
 import { getDisplayName } from '@core/styles/engine/utils';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
@@ -7,6 +6,7 @@ import hoistNonReactStatics from 'hoist-non-react-statics';
 import { Ref } from 'react';
 import { CreateCSSProperties, Overwrite, StyledComponentProps, WithStylesOptions, StyledComponent } from './types';
 import { Theme as DefaultTheme } from '../theme';
+import { makeStylesKit } from './makeStylesKit';
 
 export default function chainPropTypes<A, B>(
     propType1: PropTypes.Validator<A>,
@@ -103,7 +103,7 @@ export function styledKit<ComponentType extends React.ElementType>(Component: Co
             ? (theme : any) => ({ root: (props: any) => style({ theme, ...props }) })
             : { root: style };
 
-    // @ts-ignore
+        // @ts-ignore
         const useStyles = makeStylesKit(stylesOrCreator, { Component, name: name || Component.displayName,
         classNamePrefix,
         ...stylesOptions,

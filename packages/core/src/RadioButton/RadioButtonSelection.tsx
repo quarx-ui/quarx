@@ -1,10 +1,12 @@
 import React, { createRef, FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { Selection } from '@core/src';
-import { RadioButton } from '@core';
+import { RadioButton, usePropsOverwrites } from '@core';
 import { RadioButtonSelectionProps } from '@core/src/RadioButton/types';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
 
-export const RadioButtonSelection: FC<RadioButtonSelectionProps> = forwardRef<HTMLDivElement, RadioButtonSelectionProps>((
+export const RadioButtonSelection: FC<RadioButtonSelectionProps> = forwardRef<
+HTMLDivElement,
+RadioButtonSelectionProps
+>((
     initialProps,
     ref,
 ) => {

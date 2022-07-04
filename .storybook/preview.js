@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArgsTable, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
-import { dark, light } from '@core/styles/engine/theme/palette/default';
+import { DEFAULT_COLORS } from '@core/styles/engine/theme/palette';
 import '../packages/core/styles/fonts/font-faces.css';
 
 export const parameters = {
@@ -38,11 +38,11 @@ export const parameters = {
         values: [
             {
                 name: 'light',
-                value: light.Background.main,
+                value: DEFAULT_COLORS.light.background.main,
             },
             {
                 name: 'dark',
-                value: dark.Background.main,
+                value: DEFAULT_COLORS.dark.background.main,
             },
         ],
     },

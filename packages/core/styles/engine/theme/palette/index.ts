@@ -1,3 +1,3 @@
-export type { Palette, PaletteColors } from './default';
-export type { CreatePaletteArg } from './types';
-export { createPalette } from './createPalette';
+export * from './createPalette';
+export * from './types';
+export * from './defaultColors';

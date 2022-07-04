@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core/styles';
 import { LoaderProps } from '.';
 import { useStyles } from './style';
 

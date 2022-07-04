@@ -1,16 +1,19 @@
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
-import { BaseProps } from '@core/types';
+import { BaseProps, Values } from '@core/types';
 import { ChangeEventHandler, RefObject } from 'react';
 import { SelectionProps } from '@core/src';
 import { SelectionBorderRadius, SelectionSize } from '@core/src/Selection/types';
+import { WithClassesAndStyles } from '@core/styles';
+import { CHECKBOX_COLOR } from './constants';
 import { CheckboxStyleKeys } from './style';
+
+export type CheckboxColor = Values<typeof CHECKBOX_COLOR>;
 
 export interface CheckboxStyleParams {
     /** Состояние наведения */
     hover?: boolean,
 
-    /** Наличие ошибки */
-    hasError?: boolean
+    /** Цвет компонента */
+    color?: CheckboxColor
 
     /** Размер компонента */
     size?: SelectionSize,
@@ -33,7 +36,7 @@ export interface CheckboxStyleParams {
 
 export interface CheckboxPropsWithoutHtml extends
     CheckboxStyleParams,
-    WithClassesAndStyles<CheckboxStyleKeys>,
+    WithClassesAndStyles<CheckboxStyleKeys, CheckboxStyleParams>,
     BaseProps<HTMLLabelElement>
 {
     /** Дочерний элемент */

@@ -1,5 +1,4 @@
-import { colors, SWITCHER_POSITION, SwitcherStyleParams, typography } from '@core';
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
+import { colors, SWITCHER_POSITION, SwitcherStyleParams, typography, KeysFromUseStyles, makeStyles } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 // TODO: colors from palette
 
@@ -28,8 +27,8 @@ export const useStyles = makeStyles((
         },
         !disableFocus && {
             '&:focus-visible + .SxSwitcher-toggleContainer': {
-                borderColor: palette.ContainerState.focus2,
-                boxShadow: `inset 0 0 0 1px ${palette.ContainerState.focus2}`,
+                borderColor: palette.border.focus.dark,
+                boxShadow: `inset 0 0 0 1px ${palette.border.focus.dark}`,
                 outline: 'none',
             },
         },
@@ -48,7 +47,7 @@ export const useStyles = makeStyles((
             }),
             border: '1px solid',
             borderColor: colors.Black[24],
-            backgroundColor: palette.Background.main,
+            backgroundColor: palette.background.main,
         },
         hover && {
             borderColor: colors.Black[32],
@@ -147,7 +146,7 @@ export const useStyles = makeStyles((
     ],
 
     content: [
-        { color: palette.Text.main },
+        { color: palette.text.main },
         paramsToCss(size)({
             small: typography.Text.M.Regular,
             medium: typography.Text.L.Regular,

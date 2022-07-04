@@ -2,8 +2,8 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
 import clsx from 'clsx';
-import { BaseButton, Loader } from '@core/src';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { Loader, usePropsOverwrites } from '@core';
+import { BaseButton } from '../BaseButton/BaseButton';
 import { useStyles } from './style';
 import { ButtonProps } from './types';
 

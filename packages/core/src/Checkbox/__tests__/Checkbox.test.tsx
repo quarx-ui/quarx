@@ -1,21 +1,21 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { CheckboxStyleParams } from '@core/src/Checkbox/types';
 import React, { FC } from 'react';
-import { Checkbox } from '@core';
+import { Checkbox, CHECKBOX_COLOR } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '../../../../../test-utils/jest';
 
 const checkPropsInClasses = (props: CheckboxStyleParams) => {
     const {
         size = 'medium',
-        hasError = false,
+        color = 'brand',
         disabled = false,
         borderRadius = 'smooth',
         indeterminate = false,
     } = props;
     const checkbox = document.querySelector('.SxCheckbox');
     if (!checkbox) { return; }
-    const propsWithDefault = { size, disabled, hasError, borderRadius, indeterminate };
+    const propsWithDefault = { size, disabled, color, borderRadius, indeterminate };
 
     expectPropsMapInClasses(checkbox as HTMLElement)(propsWithDefault);
 };
@@ -43,7 +43,11 @@ describe('Checkbox snapshots', () => {
     it('indeterminate', checkRadioProps({ indeterminate: true }));
     it('checked', checkRadioProps({ checked: true }));
     it('disabled', checkRadioProps({ disabled: true }));
-    it('hasError', checkRadioProps({ hasError: true }));
+
+    // colors
+    Object.values(CHECKBOX_COLOR).forEach((color) => (
+        it(`color-${color}`, checkRadioProps({ color }))
+    ));
 });
 
 describe('Checkbox', () => {

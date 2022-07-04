@@ -1,6 +1,6 @@
 import { Ref } from 'react';
 import { PickSxSize } from '@core/enums';
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
+import { WithClassesAndStyles } from '@core/styles';
 import { LoaderStyleKeys } from './style';
 
 export type LoaderSizes = PickSxSize<'xSmall' | 'small' | 'base' | 'large' | 'xLarge'>
@@ -10,7 +10,10 @@ export interface LoaderStyleParams {
     size?: LoaderSizes,
 }
 
-export interface LoaderPropsWithoutHtml extends LoaderStyleParams, WithClassesAndStyles<LoaderStyleKeys> {
+export interface LoaderPropsWithoutHtml extends
+    LoaderStyleParams,
+    WithClassesAndStyles<LoaderStyleKeys, LoaderStyleParams>
+{
     /** Пользовательский CSS-класс для корневого элемента */
     className?: string,
 

@@ -1,5 +1,4 @@
 import { GenerateId } from 'jss';
-import { nested } from '../theme';
 import { GenerateClassNameOptions } from './types';
 
 /**
@@ -21,6 +20,10 @@ const pseudoClasses = [
     'expanded',
     'selected',
 ];
+
+const hasSymbol = typeof Symbol === 'function' && Symbol.for;
+
+const nested = hasSymbol ? Symbol.for('mui.nested') : '__THEME_NESTED__';
 
 // Returns a function which generates unique class names based on counters.
 // When new generator function is created, rule counter is reset.

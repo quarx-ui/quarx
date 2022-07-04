@@ -9,7 +9,7 @@ const defaultArgs: CounterProps = {
     children: 9,
     size: 'large',
     type: 'outline',
-    color: 'color1',
+    color: 'brand',
     maxDigits: 2,
 };
 
@@ -48,7 +48,7 @@ export const Sandbox = Template.bind({});
 Sandbox.storyName = 'Компонент';
 
 const TYPES: CounterType[] = ['filled', 'outline'];
-const COLORS: CounterColor[] = ['color1', 'color2', 'warning', 'critical'];
+const COLORS: CounterColor[] = ['brand', 'secondary', 'warning', 'danger', 'info'];
 const SIZES: CounterSize[] = ['small', 'large'];
 
 export const Types: Story<CounterProps> = (props) => DisplayVariants({

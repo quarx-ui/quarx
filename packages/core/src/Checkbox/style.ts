@@ -1,7 +1,6 @@
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
+import { CHECKBOX_COLOR, KeysFromUseStyles, makeStyles, typography } from '@core';
 import { CheckboxStyleParams } from '@core/src/Checkbox/types';
 import { keyframes } from '@emotion/react';
-import { typography } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 
 export const useStyles = makeStyles((
@@ -9,7 +8,7 @@ export const useStyles = makeStyles((
     {
         size,
         borderRadius,
-        hasError,
+        color,
         disabled,
         checked,
         hover,
@@ -28,7 +27,7 @@ export const useStyles = makeStyles((
     return ({
         root: [
             {
-                color: palette.Checkbox.active.bg,
+                color: palette.colors.brand.default,
                 position: 'relative',
                 display: 'flex',
                 alignItems: 'center',
@@ -47,12 +46,37 @@ export const useStyles = makeStyles((
                 position: 'relative',
                 boxSizing: 'border-box',
                 background: 'transparent',
-                border: `1px solid ${palette.Checkbox.enabled.stroke}`,
 
                 transition: transitions.create(['border-color', 'background-color', 'box-shadow'], {
                     duration: transitions.duration.short,
                 }),
+
+                border: '2px solid',
+                backgroundColor: palette.background.main,
+                borderColor: palette.colors[color].default,
+                ...checked && {
+                    backgroundColor: palette.colors[color].default,
+                },
+                ...checked && hover && {
+                    borderColor: palette.colors[color].hover,
+                    backgroundColor: palette.colors[color].hover,
+                },
             },
+            paramsToCss(color)({
+                [CHECKBOX_COLOR.brand]: {
+                    border: '1px solid',
+                    backgroundColor: palette.background.main,
+                    borderColor: palette.border.secondary,
+                    ...checked && {
+                        backgroundColor: palette.colors[color].default,
+                        borderColor: palette.colors[color].default,
+                    },
+                    ...checked && hover && {
+                        borderColor: palette.colors[color].hover,
+                        backgroundColor: palette.colors[color].hover,
+                    },
+                },
+            }),
             paramsToCss(size)({
                 small: {
                     width: 16,
@@ -91,23 +115,13 @@ export const useStyles = makeStyles((
                     },
                 },
             }),
-            checked && {
-                borderColor: palette.Checkbox.active.bg,
-                backgroundColor: palette.Checkbox.active.bg,
-            },
-            checked && hover && {
-                borderColor: palette.Checkbox.active.bgHover,
-                backgroundColor: palette.Checkbox.active.bgHover,
-            },
-            hasError && {
-                borderColor: palette.Checkbox.critical.stroke,
-            },
-            hasError && checked && {
-                backgroundColor: palette.Checkbox.critical.bg,
-            },
             disabled && {
+                borderColor: palette.disabled.bg,
+                backgroundColor: palette.background.main,
+            },
+            disabled && checked && {
                 borderColor: 'transparent',
-                backgroundColor: palette.Checkbox.disabled.bg,
+                backgroundColor: palette.disabled.bg,
             },
         ],
         icon: [
@@ -115,44 +129,43 @@ export const useStyles = makeStyles((
                 position: 'absolute',
                 display: 'block',
                 top: '50%',
-                transform: 'translateY(-50%)',
-                left: 3,
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
                 opacity: 0,
                 fill: 'currentColor',
-                color: palette.Checkbox.enabled.iconHover,
+                color: palette.border.secondary,
 
                 transition: transitions.create(['border-color', 'background-color', 'opacity'], {
                     duration: transitions.duration.short,
                 }),
+
+                ...checked && {
+                    color: palette.colors[color].contrastText,
+                },
+                ...indeterminate && {
+                    backgroundColor: palette.colors[color].contrastText,
+                },
             },
-            size === 'small' && {
-                left: 2,
+            (checked || hover) && {
+                opacity: 1,
             },
+
+            disabled && {
+                color: palette.disabled.main,
+            },
+
             indeterminate && {
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 width: 8,
                 height: 2,
                 borderRadius: 4,
-                backgroundColor: palette.Checkbox.enabled.iconHover,
             },
-            indeterminate && size === 'large' && {
-                width: 10,
-            },
-            (checked || hover) && {
-                opacity: 1,
-            },
-            checked && {
-                color: palette.Checkbox.active.icon,
-            },
-            disabled && {
-                color: palette.Checkbox.disabled.icon,
-            },
-            indeterminate && checked && {
-                backgroundColor: palette.Checkbox.active.icon,
+            indeterminate && hover && !checked && {
+                backgroundColor: palette.border.secondary,
             },
             indeterminate && disabled && {
-                backgroundColor: palette.Checkbox.disabled.icon,
+                backgroundColor: palette.disabled.main,
             },
         ],
         overlay: [
@@ -162,7 +175,6 @@ export const useStyles = makeStyles((
                 width: 0,
                 height: '100%',
                 overflow: 'hidden',
-                backgroundColor: 'transparent',
             },
             hover && !disabled && {
                 width: '100%',
@@ -183,19 +195,19 @@ export const useStyles = makeStyles((
             },
             !disableFocus && {
                 '&:focus-visible + .SxCheckbox-checkboxContainer': {
-                    boxShadow: `inset 0 0 0 1px ${palette.ContainerState.focus2}`,
-                    borderColor: palette.ContainerState.focus2,
+                    boxShadow: `inset 0 0 0 1px ${palette.border.focus.dark}`,
+                    borderColor: palette.border.focus.dark,
                     outline: 'none',
                 },
             },
         ],
         content: [
             {
-                color: palette.Text.main,
+                color: palette.text.main,
                 marginLeft: 12,
             },
             disabled && {
-                color: palette.Text.secondary,
+                color: palette.text.secondary,
             },
             paramsToCss(size)({
                 small: typography.Text.M.Regular,

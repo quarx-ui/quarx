@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { forwardRef } from 'react';
 import { Counter } from '@core/src/Counter';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core/styles';
 import clsx from 'clsx';
 import { BadgeHtmlAttributes, BadgeProps } from './types';
 import { useStyles } from './style';
@@ -16,7 +16,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps & BadgeHtmlAttributes
     const {
         children,
         borderRadius = 'rounded',
-        color = 'color1',
+        color = 'brand',
         type = 'filled',
         size = 'small',
         counter,

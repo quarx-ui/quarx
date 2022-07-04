@@ -1,29 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Badge color2 1`] = `
-<DocumentFragment>
-  <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color2 css-19rpkpt-SxBadge-root"
-  >
-    Статус
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Badge critical 1`] = `
-<DocumentFragment>
-  <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_critical css-1ox9uf3-SxBadge-root"
-  >
-    Статус
-  </div>
-</DocumentFragment>
-`;
-
 exports[`Badge default 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color1 css-noz8kp-SxBadge-root"
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-97t127-SxBadge-root"
   >
     Статус
   </div>
@@ -33,11 +13,11 @@ exports[`Badge default 1`] = `
 exports[`Badge default with counter 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color1 css-noz8kp-SxBadge-root"
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-97t127-SxBadge-root"
   >
     Статус
     <span
-      class="SxCounter SxCounter_type_filled SxCounter_size_small SxCounter_color_color1 SxBadge-counter css-k0w3km-SxCounter-root-SxBadge-counter"
+      class="SxCounter SxCounter_type_filled SxCounter_size_small SxCounter_color_brand SxBadge-counter css-vw1vwz-SxCounter-root-SxBadge-counter"
     >
       55
     </span>
@@ -48,7 +28,7 @@ exports[`Badge default with counter 1`] = `
 exports[`Badge large 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_large SxBadge_borderRadius_rounded SxBadge_color_color1 css-8pbxxt-SxBadge-root"
+    class="SxBadge SxBadge_type_filled SxBadge_size_large SxBadge_borderRadius_rounded SxBadge_color_brand css-1f5zn2u-SxBadge-root"
   >
     Статус
   </div>
@@ -58,7 +38,7 @@ exports[`Badge large 1`] = `
 exports[`Badge outline 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_outline SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_color1 css-10bskkl-SxBadge-root"
+    class="SxBadge SxBadge_type_outline SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-1cxgfvt-SxBadge-root"
   >
     Статус
   </div>
@@ -68,7 +48,7 @@ exports[`Badge outline 1`] = `
 exports[`Badge smooth 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_smooth SxBadge_color_color1 css-1hmwsuv-SxBadge-root"
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_smooth SxBadge_color_brand css-15up183-SxBadge-root"
   >
     Статус
   </div>
@@ -78,7 +58,7 @@ exports[`Badge smooth 1`] = `
 exports[`Badge square 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_square SxBadge_color_color1 css-1qnnx5w-SxBadge-root"
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_square SxBadge_color_brand css-xgs9a9-SxBadge-root"
   >
     Статус
   </div>
@@ -88,7 +68,7 @@ exports[`Badge square 1`] = `
 exports[`Badge warning 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_warning css-lmmryu-SxBadge-root"
+    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_warning css-12u09t3-SxBadge-root"
   >
     Статус
   </div>

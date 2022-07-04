@@ -1,10 +1,9 @@
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
 import { SelectionStyleParams } from '@core/src/Selection/types';
 import { paramsToCss } from '@core/utils/paramsToCss';
-import { typography } from '@core';
+import { typography, KeysFromUseStyles, makeStyles } from '@core';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { transitions },
     { size, borderRadius, disabled, styleHover, focused, subShown }: Required<SelectionStyleParams>,
 ) => ({
     root: [
@@ -25,16 +24,16 @@ export const useStyles = makeStyles((
         styleHover === 'smooth' && !disabled && {
             '&:hover': {
                 cursor: 'pointer',
-                backgroundColor: palette.ContainerState.hover,
+                // backgroundColor: palette.ContainerState.hover,
             },
         },
         focused && {
-            boxShadow: `inset 0 0 0 2px ${palette.ContainerState.focus2}`,
+            // boxShadow: `inset 0 0 0 2px ${palette.ContainerState.focus2}`,
             border: 'none',
             outline: 'none',
         },
         disabled && {
-            color: palette.Text.secondary,
+            // color: palette.Text.secondary,
             cursor: 'not-allowed',
         },
     ],
@@ -101,7 +100,7 @@ export const useStyles = makeStyles((
         }),
     ],
     subTitleText: [
-        { color: palette.Text.secondary },
+        // { color: palette.Text.secondary },
         paramsToCss(size)({
             large: typography.Text.L.Regular,
             medium: typography.Text.M.Regular,
@@ -109,7 +108,7 @@ export const useStyles = makeStyles((
         }),
     ],
     errorText: [
-        { color: palette.Text.critical },
+        // { color: palette.Text.critical },
         paramsToCss(size)({
             large: typography.Text.L.Regular,
             medium: typography.Text.M.Regular,

@@ -1,10 +1,8 @@
-export function valuesAsKeysFromArray<T extends Readonly<string[]>>(arr: Readonly<T>): { [k in T[number]]: k } {
-    type R = { [k in T[number]]: k };
-    const result = {} as R;
-    (arr).forEach((key: keyof R) => {
-        result[key] = key;
-    });
-    return result;
+export function valuesAsKeysFromArray<T extends string>(array: readonly T[]): { [key in T]: key } {
+    return array.reduce((acc, key) => {
+        acc[key] = key;
+        return acc;
+    }, {} as { [key in T]: key });
 }
 
 export function valuesAsKeys<T extends { [k: string]: unknown }>(obj: T): { [k in keyof T]: k } {

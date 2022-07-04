@@ -1,11 +1,11 @@
 import { ReactNode, Ref } from 'react';
-import { CounterProps, PickSxBorderSize, PickSxSize } from '@core';
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
+import { CounterProps, PaletteColor, PickSxBorderSize, PickSxSize } from '@core';
+import { WithClassesAndStyles } from '@core/styles';
 import { BadgeStyleKeys } from './style';
 
 export type BadgeSize = PickSxSize<'small' | 'large'>;
 export type BadgeBorderRadius = PickSxBorderSize<'square' | 'smooth' | 'rounded'>;
-export type BadgeColor = 'color1' | 'color2' | 'warning' | 'critical';
+export type BadgeColor = PaletteColor;
 export type BadgeType = 'filled' | 'outline';
 
 export interface BadgeStyleParams {
@@ -37,7 +37,7 @@ export interface BadgeStyleParams {
     borderRadius?: BadgeBorderRadius,
 }
 
-export interface BadgeProps extends BadgeStyleParams, WithClassesAndStyles<BadgeStyleKeys> {
+export interface BadgeProps extends BadgeStyleParams, WithClassesAndStyles<BadgeStyleKeys, BadgeStyleParams> {
     children: ReactNode,
 
     /** Элемент, отображаемый с левой стороны компонента */

@@ -1,10 +1,10 @@
-import { PickSxSize } from '@core';
-import { WithClassesAndStyles } from '../../emotion-styles/types';
+import { PaletteColor, PickSxSize } from '@core';
+import { WithClassesAndStyles } from '@core/styles';
 import { CounterStyleKeys } from './style';
 
 export type CounterSize = PickSxSize<'small' | 'large'>
 export type CounterType = 'filled' | 'outline';
-export type CounterColor = 'color1' | 'color2' | 'warning' | 'critical';
+export type CounterColor = PaletteColor;
 export type MaxDigits = 1 | 2 | 3 | 4;
 
 export interface CounterStyleParams {
@@ -13,7 +13,7 @@ export interface CounterStyleParams {
     color?: CounterColor,
 }
 
-export interface CounterProps extends CounterStyleParams, WithClassesAndStyles<CounterStyleKeys> {
+export interface CounterProps extends CounterStyleParams, WithClassesAndStyles<CounterStyleKeys, CounterStyleParams> {
     /** Максимальное количество цифр в счетчике, после превышения этого значения выводятся девятки
      * со знаком "+" на конце */
     maxDigits?: MaxDigits,

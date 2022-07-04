@@ -1,7 +1,6 @@
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
+import { KeysFromUseStyles, makeStyles, typography } from '@core';
 import { RadioButtonStyleParams } from '@core/src/RadioButton/types';
 import { paramsToCss } from '@core/utils/paramsToCss';
-import { typography } from '@core';
 
 export const useStyles = makeStyles((
     { palette, transitions },
@@ -28,7 +27,7 @@ export const useStyles = makeStyles((
         !disableFocus && {
             '&:focus-visible + .SxRadioButton-marker': {
                 borderWidth: 2,
-                borderColor: palette.ContainerState.focus2,
+                borderColor: palette.border.focus.dark,
             },
         },
         !checked && !hasError && !disableFocus && !disabled && {
@@ -38,12 +37,12 @@ export const useStyles = makeStyles((
         },
         checked && !hasError && !disableFocus && {
             '&:focus-visible + .SxRadioButton-marker': {
-                backgroundColor: palette.Checkbox.active.bg,
+                backgroundColor: palette.colors.brand.default,
             },
         },
         checked && hasError && !disableFocus && {
             '&:focus-visible + .SxRadioButton-marker': {
-                backgroundColor: palette.Checkbox.critical.stroke,
+                backgroundColor: palette.colors.danger.default,
             },
         },
     ],
@@ -55,8 +54,8 @@ export const useStyles = makeStyles((
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: palette.RadioButton.enabled.bg,
-            border: `1px solid ${palette.RadioButton.enabled.stroke}`,
+            // backgroundColor: palette.RadioButton.enabled.bg,
+            border: `1px solid ${palette.border.secondary}`,
             transition: transitions.create(['background-color', 'border-color']),
         },
         paramsToCss(size)({
@@ -75,24 +74,24 @@ export const useStyles = makeStyles((
         }),
 
         checked && {
-            backgroundColor: palette.RadioButton.active.bg,
+            backgroundColor: palette.colors.brand.default,
             borderColor: 'transparent',
         },
         hover && checked && {
-            backgroundColor: palette.Checkbox.active.bgHover,
+            backgroundColor: palette.colors.brand.hover,
         },
         hasError && {
-            borderColor: palette.RadioButton.critical.bg,
+            borderColor: palette.colors.danger.default,
         },
         hasError && checked && {
-            backgroundColor: palette.RadioButton.critical.bg,
+            backgroundColor: palette.colors.danger.default,
         },
         (disabled || (disabled && hasError)) && {
-            backgroundColor: palette.Checkbox.disabled.bg,
+            backgroundColor: palette.text.tertiary,
             borderColor: 'transparent',
         },
         disabled && checked && {
-            backgroundColor: palette.Checkbox.disabled.bg,
+            backgroundColor: palette.text.tertiary,
         },
     ],
     markerDot: [
@@ -113,10 +112,10 @@ export const useStyles = makeStyles((
         },
         (checked || (checked && !hasError) || (checked && disabled))
             && {
-                backgroundColor: palette.Checkbox.active.icon,
+                backgroundColor: palette.text.constant,
             },
         !checked && !disabled && hover && {
-            backgroundColor: palette.Checkbox.enabled.iconHover,
+            backgroundColor: palette.border.secondary,
         },
     ],
     content: [

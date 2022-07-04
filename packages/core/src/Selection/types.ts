@@ -1,7 +1,7 @@
 import { SelectionStyleKeys } from '@core/src/Selection/style';
 import { ReactNode } from 'react';
 import { PickSxBorderSize, PickSxSize } from '@core/enums';
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
+import { WithClassesAndStyles } from '@core';
 import { BaseProps } from '@core/types';
 
 export type SelectionSize = PickSxSize<'small' | 'medium' | 'large'>;
@@ -30,7 +30,7 @@ export interface SelectionStyleParams extends OmittedStyleParams {
 
 export interface SelectionPropsWithoutHtml extends
     Omit<SelectionStyleParams, keyof OmittedStyleParams>,
-    WithClassesAndStyles<SelectionStyleKeys>,
+    WithClassesAndStyles<SelectionStyleKeys, SelectionStyleParams>,
     BaseProps<HTMLDivElement>
 {
     /** Включить/Отключить обратный порядок элементов */

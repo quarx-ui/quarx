@@ -3,7 +3,7 @@
 import React from 'react';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import { getDisplayName } from '../utils';
-import { makeStylesKit } from '@core/styles';
+import { makeStylesKit } from './';
 import {
     ClassKeyOfStyles,
     PropInjector,

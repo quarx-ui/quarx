@@ -3,7 +3,7 @@
 exports[`Counter Snapshot 1`] = `
 <DocumentFragment>
   <span
-    class="SxCounter SxCounter_type_filled SxCounter_size_large SxCounter_color_color1 css-ri1j0g-SxCounter-root"
+    class="SxCounter SxCounter_type_filled SxCounter_size_large SxCounter_color_brand css-9229zm-SxCounter-root"
   >
     99
   </span>

@@ -1,11 +1,10 @@
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
-import { BaseButtonStyleParams } from '@core/src/Button/BaseButton/types';
+import { KeysFromUseStyles, makeStyles, ButtonStyleParams } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { CSSObject } from '@emotion/react';
 
 export const useStyles = makeStyles((
     theme,
-    { size, loading }: Required<Pick<BaseButtonStyleParams, 'size' | 'loading'>>,
+    { size, loading }: Required<ButtonStyleParams>,
 ) => {
     const flexCenter: CSSObject = {
         display: 'flex',

@@ -10,7 +10,7 @@ module.exports = {
             {
                 root: ['.'],
                 alias: {
-                    '@quarx': './packages',
+                    '@quarx-ui': './packages',
                     '@core': './packages/core',
                 },
             },

@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { forwardRef } from 'react';
+import { usePropsOverwrites } from '@core/styles';
+import { limitDigitsCount } from '@core/utils/limitDigitsCount';
 import { useStyles } from './style';
 import { CounterHtmlAttributes, CounterProps } from './types';
-import { usePropsOverwrites } from '../../emotion-styles/theme';
-import { limitDigitsCount } from '../../utils/limitDigitsCount';
 
 export const Counter = forwardRef<HTMLSpanElement, CounterProps & CounterHtmlAttributes>((
     initialProps,
@@ -15,7 +15,7 @@ export const Counter = forwardRef<HTMLSpanElement, CounterProps & CounterHtmlAtt
     const {
         size = 'large',
         type = 'filled',
-        color = 'color1',
+        color = 'brand',
         maxDigits = 2,
         children,
         styles: externalStyles,

@@ -1,6 +1,5 @@
 import { ChangeEventHandler, RefObject } from 'react';
-import { BaseProps, SelectionProps, Values } from '@core';
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
+import { BaseProps, SelectionProps, Values, WithClassesAndStyles } from '@core';
 import { SWITCHER_POSITION } from '@core/src/Switcher/constants';
 import { SelectionSize } from '@core/src/Selection/types';
 import { SwitcherStyleKeys } from './style';
@@ -32,7 +31,7 @@ export interface SwitcherStyleParams {
 
 export interface SwitcherPropsWithoutHtml extends
     SwitcherStyleParams,
-    WithClassesAndStyles<SwitcherStyleKeys>,
+    WithClassesAndStyles<SwitcherStyleKeys, SwitcherStyleParams>,
     BaseProps<HTMLLabelElement>
 {
     /** Обработчик изменения состояния элемента `input` */

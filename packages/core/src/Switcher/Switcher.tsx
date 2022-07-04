@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
-import { SWITCHER_POSITION, SX_SIZE } from '@core';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { SWITCHER_POSITION, SX_SIZE, usePropsOverwrites } from '@core';
 import { SwitcherProps } from './types';
 import { useStyles } from './style';
 

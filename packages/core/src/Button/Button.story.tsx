@@ -3,10 +3,8 @@ import { Story } from '@storybook/react/types-6-0';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, designParams, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { ReactComponent as PaperClipIcon } from './assets/paperClip24.svg';
-import { ReactComponent as SmallPaperClipIcon } from './assets/paperClip16.svg';
-import { ReactComponent as ChevronDownIcon } from './assets/chevronDown24.svg';
 import { Button, IconButton, ButtonProps, ButtonSize, ButtonBorderRadius, ButtonColor, ButtonType } from '.';
+import { PaperClipIcon, SmallPaperClipIcon, ChevronDownIcon } from './assets';
 
 const defaultArgs: ButtonProps = {
     buttonType: 'button',
@@ -15,7 +13,7 @@ const defaultArgs: ButtonProps = {
     borderRadius: 'smooth',
     disabled: false,
     loading: false,
-    color: 'primary',
+    color: 'brand',
     type: 'contained',
     leftIcon: <PaperClipIcon />,
     rightIcon: <ChevronDownIcon />,
@@ -103,7 +101,7 @@ export const Sandbox: Story<StoryButtonProps> = ({
             marginBottom: 10,
         }}
         >
-            <IconButton {...args}>{args.size === 'xSmall' ? <SmallPaperClipIcon /> : <PaperClipIcon /> }</IconButton>
+            <IconButton {...args}>{args.size === 'xSmall' ? <SmallPaperClipIcon /> : <PaperClipIcon />}</IconButton>
         </div>
         <div style={{ display: 'flex' }}>
             <Button
@@ -123,7 +121,7 @@ Sandbox.args = {
 
 const SIZES: ButtonSize[] = ['xSmall', 'small', 'medium', 'large'];
 const BORDER_RADIUS: ButtonBorderRadius[] = ['square', 'smooth', 'rounded'];
-const COLOR: ButtonColor[] = ['primary', 'secondary', 'critical'];
+const COLOR: ButtonColor[] = ['brand', 'secondary', 'danger'];
 const TYPES: ButtonType[] = ['contained', 'outlined', 'text'];
 
 export const BooleanProps: Story<ButtonProps> = (props) => (DisplayVariantsMap({

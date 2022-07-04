@@ -1,5 +1,6 @@
-import { BaseButtonProps } from '@core';
 import { IconButtonStyleKeys } from '@core/src/Button/IconButton/style';
-import { WithClassesAndStyles } from '@core/emotion-styles/types';
+import { WithClassesAndStyles } from '@core/styles';
+import { BaseButtonProps, ButtonStyleParams } from '@core/src';
 
-export type IconButtonProps = Omit<BaseButtonProps, 'classes'> & WithClassesAndStyles<IconButtonStyleKeys>
+export type IconButtonProps = Omit<BaseButtonProps, 'classes'>
+& WithClassesAndStyles<IconButtonStyleKeys, ButtonStyleParams>

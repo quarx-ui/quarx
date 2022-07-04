@@ -1,6 +1,6 @@
 import React, { createRef, FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { Selection, Switcher, SwitcherSelectionProps } from '@core';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core/styles';
 
 export const SwitcherSelection: FC<SwitcherSelectionProps> = forwardRef<HTMLDivElement, SwitcherSelectionProps>((
     initialProps,

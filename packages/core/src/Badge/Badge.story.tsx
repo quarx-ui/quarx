@@ -3,11 +3,8 @@ import React from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, designParams, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { ReactComponent as AttentionIconSmall } from './assets/attention16.svg';
-import { ReactComponent as AttentionIconLarge } from './assets/attention24.svg';
-import { ReactComponent as InfoIconSmall } from './assets/info16.svg';
-import { ReactComponent as InfoIconLarge } from './assets/info24.svg';
-import { Badge, BadgeProps } from '.';
+import { AttentionIconSmall, InfoIconLarge, InfoIconSmall, AttentionIconLarge } from './assets';
+import { Badge, BadgeColor, BadgeProps } from '.';
 
 export default {
     title: 'core/Badge',
@@ -75,7 +72,7 @@ const defaultArgs: BadgeProps = {
     children: 'Статус',
     size: 'large',
     borderRadius: 'rounded',
-    color: 'color1',
+    color: 'brand',
     type: 'filled',
     counter: 999,
 };
@@ -105,7 +102,7 @@ export const Sandbox: Story<StoryType> = ({
 const SIZES = ['small', 'large'];
 const TYPES = ['filled', 'outline'];
 const BORDER_RADIUS = ['square', 'smooth', 'rounded'];
-const COLORS = ['color1', 'color2', 'warning', 'critical'];
+const COLORS: BadgeColor[] = ['brand', 'secondary', 'info', 'warning', 'danger'];
 
 export const Size: Story<BadgeProps> = (props) => DisplayVariants({
     property: 'size',

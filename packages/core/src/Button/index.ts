@@ -1,13 +1,8 @@
-export { Button } from './Button/Button';
-export { BaseButton } from './BaseButton/BaseButton';
-export { IconButton } from './IconButton/IconButton';
+export * from './Button/Button';
+export * from './BaseButton/BaseButton';
+export * from './IconButton/IconButton';
 
-export type {
-    BaseButtonProps, BaseButtonSize, BaseButtonType, BaseButtonBorderRadius, BaseButtonColor,
-} from './BaseButton/types';
-
-export type {
-    ButtonProps, ButtonSize, ButtonBorderRadius, ButtonColor, ButtonType,
-} from './Button/types';
-
-export type { IconButtonProps } from './IconButton/types';
+export * from './BaseButton/types';
+export * from './Button/types';
+export * from './IconButton/types';
+export * from './types';

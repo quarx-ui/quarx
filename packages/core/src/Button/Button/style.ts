@@ -1,11 +1,10 @@
-import { KeysFromUseStyles, makeStyles } from '@core/emotion-styles';
 import { CSSObject } from '@emotion/react';
-import { BaseButtonStyleParams } from '@core/src/Button/BaseButton/types';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { makeStyles, KeysFromUseStyles, ButtonStyleParams } from '@core';
 
 export const useStyles = makeStyles((
     theme,
-    { size, loading }: Required<Pick<BaseButtonStyleParams, 'size' | 'loading'>>,
+    { size, loading }: Required<ButtonStyleParams>,
 ) => {
     const flexCenter: CSSObject = {
         display: 'flex',
@@ -20,20 +19,6 @@ export const useStyles = makeStyles((
     return ({
         root: [
             flexCenter,
-            paramsToCss(size)({
-                xSmall: {
-                    padding: '4px 10px',
-                },
-                small: {
-                    padding: '6px 14px',
-                },
-                medium: {
-                    padding: '12px 18px',
-                },
-                large: {
-                    padding: '14px 22px',
-                },
-            }),
         ],
         icon: [
             flexCenter,

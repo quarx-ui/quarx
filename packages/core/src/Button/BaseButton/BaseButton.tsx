@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core/styles';
 import { useStyles } from './style';
 import { BaseButtonProps } from './types';
 
@@ -14,7 +14,7 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
         buttonType = 'button',
         children,
         size = 'medium',
-        color = 'primary',
+        color = 'brand',
         type = 'contained',
         borderRadius = 'smooth',
         disabled = false,

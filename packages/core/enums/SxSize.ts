@@ -7,7 +7,7 @@ export const SX_SIZE = valuesAsKeysFromArray([
     'medium',
     'large',
     'xLarge',
-] as const);
+]);
 
 export type SxSize = Values<typeof SX_SIZE>;
 

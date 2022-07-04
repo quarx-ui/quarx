@@ -1,7 +1,7 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import React from 'react';
 import userEvent from '@testing-library/user-event';
-import { CheckboxSelection } from '@core/src/Checkbox/CheckboxSelection';
+import { CheckboxSelection } from '../CheckboxSelection';
 
 describe('CheckboxSelection', () => {
     it('default snapshot', () => {

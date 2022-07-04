@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { CheckboxProps, Checkbox } from '.';
+import { CheckboxProps, Checkbox, CHECKBOX_COLOR } from '.';
 
 export default {
     title: 'core/Checkbox',
@@ -12,8 +12,8 @@ export default {
         borderRadius: {
             description: 'Скругление',
         },
-        hasError: {
-            description: 'Изменяет цвет компонента уведомляя об ошибке',
+        color: {
+            description: 'Изменяет цвет компонента',
         },
         disabled: {
             description: 'Изменяет состояние компонента на активное/неактивное',
@@ -27,7 +27,7 @@ export default {
         ...BASE_ARG_TYPES,
     },
     args: {
-        hasError: false,
+        color: CHECKBOX_COLOR.brand,
         disabled: false,
         indeterminate: false,
         borderRadius: 'smooth',
@@ -39,12 +39,11 @@ export default {
     },
 };
 
-export const Sandbox: Story<CheckboxProps> = ({ hasError, ...props }) => {
+export const Sandbox: Story<CheckboxProps> = ({ ...props }) => {
     const [bool, setBool] = useState(false);
     return (
         <div style={{ width: 'max-content' }}>
             <Checkbox
-                hasError={hasError}
                 onChange={(e) => setBool(e.currentTarget.checked)}
                 checked={bool}
                 {...props}
@@ -59,7 +58,6 @@ export const BooleanParams: Story<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
     return DisplayVariantsMap({
         variants: {
-            hasError: [true],
             disabled: [true],
             indeterminate: [true],
         },
@@ -67,6 +65,21 @@ export const BooleanParams: Story<CheckboxProps> = (props) => {
         optionTitle: {
             isShown: false,
         },
+        component: Checkbox,
+        componentProps: {
+            ...props,
+            checked: bool,
+            children: bool.toString(),
+            onChange: (e) => setBool(e.currentTarget.checked),
+        },
+    });
+};
+
+export const ColorsParams: Story<CheckboxProps> = (props) => {
+    const [bool, setBool] = useState(false);
+    return DisplayVariants({
+        property: 'color',
+        values: Object.values(CHECKBOX_COLOR),
         component: Checkbox,
         componentProps: {
             ...props,
@@ -109,9 +122,11 @@ export const BorderRadius: Story<CheckboxProps> = (props) => {
 
 Sandbox.storyName = 'Компонент';
 BooleanParams.storyName = 'Boolean параметры';
+ColorsParams.storyName = 'Цвета';
 Sizes.storyName = 'Размеры';
 BorderRadius.storyName = 'Скругления';
 
-BooleanParams.argTypes = excludeProp(['hasError', 'disabled', 'indeterminate']);
+BooleanParams.argTypes = excludeProp(['disabled', 'indeterminate']);
+ColorsParams.argTypes = excludeProp(['color']);
 Sizes.argTypes = excludeProp(['size']);
 BorderRadius.argTypes = excludeProp(['borderRadius']);

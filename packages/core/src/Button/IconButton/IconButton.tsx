@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
 import { BaseButton } from '@core/src/Button/BaseButton/BaseButton';
 import { Loader } from '@core/src';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core/styles';
 import { useStyles } from './style';
 import { IconButtonProps } from './types';
 

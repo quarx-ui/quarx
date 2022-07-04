@@ -3,22 +3,22 @@
 exports[`Checkbox snapshots checked 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_checked SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_checked SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
   >
     <input
       checked=""
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-1kbhvam-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-taee0p-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-p949me-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-16x9btp-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-15w963i-SxCheckbox-icon"
+          class="SxCheckbox-icon css-1ibkuv8-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -34,7 +34,171 @@ exports[`Checkbox snapshots checked 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
+    >
+      Checkbox
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Checkbox snapshots color-brand 1`] = `
+<DocumentFragment>
+  <label
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
+  >
+    <input
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxCheckbox-checkboxContainer css-z2fv0j-SxCheckbox-checkboxContainer"
+    >
+      <div
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
+      >
+        <svg
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
+          fill="currentcolor"
+          height="8"
+          viewBox="0 0 11 8"
+          width="11"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
+    >
+      Checkbox
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Checkbox snapshots color-danger 1`] = `
+<DocumentFragment>
+  <label
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_danger SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
+  >
+    <input
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxCheckbox-checkboxContainer css-1d461s2-SxCheckbox-checkboxContainer"
+    >
+      <div
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
+      >
+        <svg
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
+          fill="currentcolor"
+          height="8"
+          viewBox="0 0 11 8"
+          width="11"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
+    >
+      Checkbox
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Checkbox snapshots color-success 1`] = `
+<DocumentFragment>
+  <label
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_success SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
+  >
+    <input
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxCheckbox-checkboxContainer css-1ujgms5-SxCheckbox-checkboxContainer"
+    >
+      <div
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
+      >
+        <svg
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
+          fill="currentcolor"
+          height="8"
+          viewBox="0 0 11 8"
+          width="11"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
+    >
+      Checkbox
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Checkbox snapshots color-warning 1`] = `
+<DocumentFragment>
+  <label
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_warning SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
+  >
+    <input
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxCheckbox-checkboxContainer css-yc8hmp-SxCheckbox-checkboxContainer"
+    >
+      <div
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
+      >
+        <svg
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
+          fill="currentcolor"
+          height="8"
+          viewBox="0 0 11 8"
+          width="11"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -45,21 +209,21 @@ exports[`Checkbox snapshots checked 1`] = `
 exports[`Checkbox snapshots default 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-1qxi1cn-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-z2fv0j-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-1odqndd-SxCheckbox-icon"
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -75,7 +239,7 @@ exports[`Checkbox snapshots default 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -86,22 +250,22 @@ exports[`Checkbox snapshots default 1`] = `
 exports[`Checkbox snapshots disabled 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_disabled SxCheckbox_borderRadius_smooth css-87ab7o-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_disabled SxCheckbox_borderRadius_smooth css-e7gz1o-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       disabled=""
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-mf4wm0-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-14di1xc-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-qgmw0t-SxCheckbox-icon"
+          class="SxCheckbox-icon css-1y8u7qq-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -117,48 +281,7 @@ exports[`Checkbox snapshots disabled 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-1kxq84n-SxCheckbox-content"
-    >
-      Checkbox
-    </span>
-  </label>
-</DocumentFragment>
-`;
-
-exports[`Checkbox snapshots hasError 1`] = `
-<DocumentFragment>
-  <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_hasError SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
-  >
-    <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
-      type="checkbox"
-      value=""
-    />
-    <div
-      class="SxCheckbox-checkboxContainer css-1isffri-SxCheckbox-checkboxContainer"
-    >
-      <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
-      >
-        <svg
-          class="SxCheckbox-icon css-1odqndd-SxCheckbox-icon"
-          fill="currentcolor"
-          height="8"
-          viewBox="0 0 11 8"
-          width="11"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            clip-rule="evenodd"
-            d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
-            fill-rule="evenodd"
-          />
-        </svg>
-      </div>
-    </div>
-    <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-eu8vm3-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -169,26 +292,26 @@ exports[`Checkbox snapshots hasError 1`] = `
 exports[`Checkbox snapshots indeterminate 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_borderRadius_smooth SxCheckbox_indeterminate css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_smooth SxCheckbox_indeterminate css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-1qxi1cn-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-z2fv0j-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <div
-          class="SxCheckbox-icon css-1g9nxc8-SxCheckbox-icon"
+          class="SxCheckbox-icon css-x431jg-SxCheckbox-icon"
         />
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -199,21 +322,21 @@ exports[`Checkbox snapshots indeterminate 1`] = `
 exports[`Checkbox snapshots large 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_large SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_large SxCheckbox_color_brand SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-1rwqs82-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-r1vsyw-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-1odqndd-SxCheckbox-icon"
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
           fill="currentcolor"
           height="9"
           viewBox="0 0 12 9"
@@ -229,7 +352,7 @@ exports[`Checkbox snapshots large 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-1jq4sjl-SxCheckbox-content"
+      class="SxCheckbox-content css-cm3ghj-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -240,21 +363,21 @@ exports[`Checkbox snapshots large 1`] = `
 exports[`Checkbox snapshots medium 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-1qxi1cn-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-z2fv0j-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-1odqndd-SxCheckbox-icon"
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -270,7 +393,7 @@ exports[`Checkbox snapshots medium 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -281,21 +404,21 @@ exports[`Checkbox snapshots medium 1`] = `
 exports[`Checkbox snapshots small 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_small SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_small SxCheckbox_color_brand SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-r7vv4f-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-1qe0gbv-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-11zbrxe-SxCheckbox-icon"
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 10 8"
@@ -311,7 +434,7 @@ exports[`Checkbox snapshots small 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-161kurl-SxCheckbox-content"
+      class="SxCheckbox-content css-dxf6ba-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -322,21 +445,21 @@ exports[`Checkbox snapshots small 1`] = `
 exports[`Checkbox snapshots smooth 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_borderRadius_smooth css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_smooth css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-1qxi1cn-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-z2fv0j-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-1odqndd-SxCheckbox-icon"
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -352,7 +475,7 @@ exports[`Checkbox snapshots smooth 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
     >
       Checkbox
     </span>
@@ -363,21 +486,21 @@ exports[`Checkbox snapshots smooth 1`] = `
 exports[`Checkbox snapshots square 1`] = `
 <DocumentFragment>
   <label
-    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_borderRadius_square css-luchv2-SxCheckbox-root"
+    class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_square css-1ltgxet-SxCheckbox-root"
   >
     <input
-      class="SxCheckbox-input css-yqvvid-SxCheckbox-input"
+      class="SxCheckbox-input css-1oqv4jf-SxCheckbox-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxCheckbox-checkboxContainer css-2msabe-SxCheckbox-checkboxContainer"
+      class="SxCheckbox-checkboxContainer css-i3pz43-SxCheckbox-checkboxContainer"
     >
       <div
-        class="SxCheckbox-overlay css-1q8f3fw-SxCheckbox-overlay"
+        class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
       >
         <svg
-          class="SxCheckbox-icon css-1odqndd-SxCheckbox-icon"
+          class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -393,7 +516,7 @@ exports[`Checkbox snapshots square 1`] = `
       </div>
     </div>
     <span
-      class="SxCheckbox-content css-109spz4-SxCheckbox-content"
+      class="SxCheckbox-content css-119u27e-SxCheckbox-content"
     >
       Checkbox
     </span>

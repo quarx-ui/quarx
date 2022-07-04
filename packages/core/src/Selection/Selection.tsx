@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler } from 'react';
 import { SX_BORDER_SIZE, SX_SIZE } from '@core/enums';
-import { usePropsOverwrites } from '@core/emotion-styles/theme';
+import { usePropsOverwrites } from '@core';
 import { useStyles } from './style';
 import { SelectionProps } from './types';
 

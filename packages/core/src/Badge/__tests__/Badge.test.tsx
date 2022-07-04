@@ -17,7 +17,7 @@ const checkPropsInClasses = (propsWithLabel: CheckPropsInClasses) => {
     const {
         size = 'small',
         borderRadius = 'rounded',
-        color = 'color1',
+        color = 'brand',
         type = 'filled',
         label = 'Статус',
     } = propsWithLabel;
@@ -39,9 +39,9 @@ const checkProps = (props: CheckProps) => () => {
 
 describe('Badge', () => {
     it('default', checkProps({}));
-    it('color2', checkProps({ color: 'color2' }));
+    // it('color2', checkProps({ color: 'color2' }));
     it('warning', checkProps({ color: 'warning' }));
-    it('critical', checkProps({ color: 'critical' }));
+    // it('critical', checkProps({ color: 'critical' }));
     it('outline', checkProps({ type: 'outline' }));
     it('large', checkProps({ size: 'large' }));
     it('square', checkProps({ borderRadius: 'square' }));

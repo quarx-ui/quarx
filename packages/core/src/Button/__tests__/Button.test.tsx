@@ -1,16 +1,15 @@
 import React, { FC, ReactNode } from 'react';
-import { BaseButtonProps, BaseButtonStyleParams } from '@core/src/Button/BaseButton/types';
 import { cleanup, render, screen } from '@testing-library/react';
-import { Button, IconButton } from '@core';
 import userEvent from '@testing-library/user-event';
-import { ReactComponent as PaperClipIcon } from '../assets/paperClip24.svg';
+import { Button, IconButton, BaseButtonProps, ButtonStyleParams } from '..';
+import { PaperClipIcon } from '../assets';
 import { expectPropsMapInClasses } from '../../../../../test-utils/jest';
 
-const checkPropsInClasses = (props: BaseButtonStyleParams) => {
+const checkPropsInClasses = (props: ButtonStyleParams) => {
     const {
         size = 'medium',
         borderRadius = 'smooth',
-        color = 'primary',
+        color = 'brand',
         type = 'contained',
         loading = false,
         disabled = false,
@@ -21,7 +20,7 @@ const checkPropsInClasses = (props: BaseButtonStyleParams) => {
     expectPropsMapInClasses(buttonElement)(propsWithDefault);
 };
 
-const checkProps = (Component: FC, renderedProps?: BaseButtonProps) => (checkedProps?: BaseButtonStyleParams) => () => {
+const checkProps = (Component: FC, renderedProps?: BaseButtonProps) => (checkedProps?: ButtonStyleParams) => () => {
     const { asFragment } = render(<Component {...renderedProps} {...checkedProps} />);
 
     checkPropsInClasses(checkedProps ?? {});
@@ -34,7 +33,6 @@ const checkSnapshotsOf = (Component: FC, children: ReactNode) => {
     it('default', checkButtonProps());
 
     it('secondary', checkButtonProps({ color: 'secondary' }));
-    it('critical', checkButtonProps({ color: 'critical' }));
 
     it('xSmall', checkButtonProps({ size: 'xSmall' }));
     it('small', checkButtonProps({ size: 'small' }));

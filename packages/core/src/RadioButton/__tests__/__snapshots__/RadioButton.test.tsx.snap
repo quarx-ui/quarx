@@ -7,12 +7,12 @@ exports[`RadioButton snapshots checked 1`] = `
   >
     <input
       checked=""
-      class="SxRadioButton-input css-1t9v770-SxRadioButton-input"
+      class="SxRadioButton-input css-1hik84s-SxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-1vycm4y-SxRadioButton-marker"
+      class="SxRadioButton-marker css-onplbh-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-3mtgan-SxRadioButton-markerDot"
@@ -33,12 +33,12 @@ exports[`RadioButton snapshots default 1`] = `
     class="SxRadioButton SxRadioButton_size_medium css-43x8eg-SxRadioButton-root"
   >
     <input
-      class="SxRadioButton-input css-ligi5k-SxRadioButton-input"
+      class="SxRadioButton-input css-4aocnp-SxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-r86qs6-SxRadioButton-marker"
+      class="SxRadioButton-marker css-1389et7-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-nhzvrs-SxRadioButton-markerDot"
@@ -64,7 +64,7 @@ exports[`RadioButton snapshots disableFocus 1`] = `
       value=""
     />
     <div
-      class="SxRadioButton-marker css-r86qs6-SxRadioButton-marker"
+      class="SxRadioButton-marker css-1389et7-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-nhzvrs-SxRadioButton-markerDot"
@@ -85,13 +85,13 @@ exports[`RadioButton snapshots disabled 1`] = `
     class="SxRadioButton SxRadioButton_size_medium SxRadioButton_disabled css-w2gy44-SxRadioButton-root"
   >
     <input
-      class="SxRadioButton-input css-xlfk0t-SxRadioButton-input"
+      class="SxRadioButton-input css-1ykv6uc-SxRadioButton-input"
       disabled=""
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-14h345d-SxRadioButton-marker"
+      class="SxRadioButton-marker css-1oszh0m-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-1kzafsd-SxRadioButton-markerDot"
@@ -112,12 +112,12 @@ exports[`RadioButton snapshots hasError 1`] = `
     class="SxRadioButton SxRadioButton_size_medium SxRadioButton_hasError css-43x8eg-SxRadioButton-root"
   >
     <input
-      class="SxRadioButton-input css-xlfk0t-SxRadioButton-input"
+      class="SxRadioButton-input css-1ykv6uc-SxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-1e7k5on-SxRadioButton-marker"
+      class="SxRadioButton-marker css-4e3bbu-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-nhzvrs-SxRadioButton-markerDot"
@@ -138,12 +138,12 @@ exports[`RadioButton snapshots large 1`] = `
     class="SxRadioButton SxRadioButton_size_large css-43x8eg-SxRadioButton-root"
   >
     <input
-      class="SxRadioButton-input css-ligi5k-SxRadioButton-input"
+      class="SxRadioButton-input css-4aocnp-SxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-1nhokxf-SxRadioButton-marker"
+      class="SxRadioButton-marker css-6fp4t9-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-nhzvrs-SxRadioButton-markerDot"
@@ -164,12 +164,12 @@ exports[`RadioButton snapshots medium 1`] = `
     class="SxRadioButton SxRadioButton_size_medium css-43x8eg-SxRadioButton-root"
   >
     <input
-      class="SxRadioButton-input css-ligi5k-SxRadioButton-input"
+      class="SxRadioButton-input css-4aocnp-SxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-r86qs6-SxRadioButton-marker"
+      class="SxRadioButton-marker css-1389et7-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-nhzvrs-SxRadioButton-markerDot"
@@ -190,12 +190,12 @@ exports[`RadioButton snapshots small 1`] = `
     class="SxRadioButton SxRadioButton_size_small css-43x8eg-SxRadioButton-root"
   >
     <input
-      class="SxRadioButton-input css-ligi5k-SxRadioButton-input"
+      class="SxRadioButton-input css-4aocnp-SxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="SxRadioButton-marker css-bhlb98-SxRadioButton-marker"
+      class="SxRadioButton-marker css-yddzja-SxRadioButton-marker"
     >
       <div
         class="SxRadioButton-markerDot css-uvghps-SxRadioButton-markerDot"

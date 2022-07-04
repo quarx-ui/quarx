@@ -17,7 +17,7 @@ exports[`RadioButtonSelection default snapshot 1`] = `
           value=""
         />
         <div
-          class="SxRadioButton-marker css-r86qs6-SxRadioButton-marker"
+          class="SxRadioButton-marker css-1389et7-SxRadioButton-marker"
         >
           <div
             class="SxRadioButton-markerDot css-nhzvrs-SxRadioButton-markerDot"

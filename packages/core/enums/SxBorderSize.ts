@@ -9,7 +9,7 @@ export const SX_BORDER_SIZE = valuesAsKeysFromArray([
     'rounded',
     'square',
     'smooth',
-] as const);
+]);
 
 export type SxBorderSize = Values<typeof SX_BORDER_SIZE>;
 
