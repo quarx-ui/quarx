@@ -1,6 +1,6 @@
 {
   "name": "@quarx-ui/core",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Basic component library",
   "license": "Sber Public License at-nc-sa",
   "private": true,
@@ -47,7 +47,6 @@
     "build:clean": "rm -rf build/esm/build && rm -f build/tsconfig.json && rm -f build/*.log && rm -f build/esm/tsconfig.json && rm -f build/esm/*.log"
   },
   "devDependencies": {
-    "@types/moment": "^2.13.0",
     "@types/react-input-mask": "^3.0.0"
   }
 }
