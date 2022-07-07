@@ -10,6 +10,23 @@
       ],
       "@core/*": [
         "packages/core/*"
+      ],
+
+      // for pw tests
+      "@e2e/*": [
+        "e2e/*"
+      ],
+      "@kit": [
+        "e2e/builds/kit/index"
+      ],
+      "@kit/*": [
+        "e2e/builds/kit/*"
+      ],
+      "@kit-icons": [
+        "e2e/builds/kit-icons/index"
+      ],
+      "@kit-icons/*": [
+        "e2e/builds/kit-icons/*"
       ]
     }
   }

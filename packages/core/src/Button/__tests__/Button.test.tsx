@@ -1,9 +1,9 @@
 import React, { FC, ReactNode } from 'react';
 import { cleanup, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { expectPropsMapInClasses } from '@core/test-utils';
 import { Button, IconButton, BaseButtonProps, ButtonStyleParams } from '..';
 import { PaperClipIcon } from '../assets';
-import { expectPropsMapInClasses } from '../../../../../test-utils/jest';
 
 const checkPropsInClasses = (props: ButtonStyleParams) => {
     const {

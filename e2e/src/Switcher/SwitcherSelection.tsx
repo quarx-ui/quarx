@@ -1,0 +1,18 @@
+import React, { FC } from 'react';
+import { SwitcherSelection as KitSwitcherSelection } from '@kit';
+import { PaperClipIcon } from '@kit-icons/paper-clip/24px/stroke/rounded';
+import { TestSelectionProps } from '@e2e/src/Selection/types';
+
+export const SwitcherSelection: FC<TestSelectionProps> = ({
+    rightAdornment,
+    hasError,
+    ...props
+}) => (
+    <KitSwitcherSelection
+        switcherProps={{
+            hasError,
+        }}
+        rightAdornment={rightAdornment === true ? <PaperClipIcon /> : undefined}
+        {...props}
+    />
+);
