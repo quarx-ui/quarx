@@ -16,7 +16,15 @@ jobs:
       branch: ${{ steps.stepvar.outputs.branch }}
     steps:
       - id: stepvar
-        run: if [[ '${{ github.event_name }}' == 'pull_request' ]]; then echo "::set-output name=branch::${{ github.head_ref }}"; else echo "::set-output name=branch::${{ github.ref_name }}"; fi
+        run: |
+          if [[ '${{ github.event_name }}' == 'pull_request' ]];
+          then
+            branch="${{ github.head_ref }}";
+          else
+            branch="${{ github.ref_name }}";
+          fi
+          branch=$(node -e "console.log('${branch}'.replace('#', ''))")
+          echo "::set-output name=branch::$branch";
 
       - if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2.2.0

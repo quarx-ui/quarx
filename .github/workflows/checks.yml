@@ -31,7 +31,7 @@ jobs:
           node-version: 14
           cache: yarn
       - run: yarn install --production=false
-      - run: yarn build
+      - run: yarn run build
 
   linter:
     name: Run Linters
@@ -45,7 +45,7 @@ jobs:
           node-version: 14
           cache: yarn
       - run: yarn install --production=false
-      - run: yarn lint
+      - run: yarn run lint:branch
 
   tests:
     name: Run Tests
@@ -59,4 +59,4 @@ jobs:
           node-version: 14
           cache: yarn
       - run: yarn install --production=false
-      - run: yarn test
+      - run: yarn run test
