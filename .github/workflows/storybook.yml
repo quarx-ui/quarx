@@ -1,0 +1,52 @@
+name: Storybook
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  push:
+    branches:
+      - main
+
+permissions:
+  pull-requests: write
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    outputs:
+      branch: ${{ steps.stepvar.outputs.branch }}
+    steps:
+      - id: stepvar
+        run: if [[ '${{ github.event_name }}' == 'pull_request' ]]; then echo "::set-output name=branch::${{ github.head_ref }}"; else echo "::set-output name=branch::${{ github.ref_name }}"; fi
+
+      - if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2.2.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/${{ steps.stepvar.outputs.branch }}?label=Storybook&color=orange&sha=${{ github.sha }})](https://quarx-ui.github.io/quarx/storybook/${{ steps.stepvar.outputs.branch }}/)
+
+  build:
+    name: Build storybook
+    runs-on: ubuntu-latest
+    needs: [prepare]
+    steps:
+      - uses: actions/checkout@v2.4.2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: yarn
+      - run: yarn install --production=false
+      - run: yarn run storybook:build
+      - uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          branch: github-pages
+          folder: storybook-static
+          target-folder: storybook/${{ needs.prepare.outputs.branch }}
+          force: true
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+      - if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2.2.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/${{ needs.prepare.outputs.branch }}?label=Storybook&sha=${{ github.sha }})](https://quarx-ui.github.io/quarx/storybook/${{ needs.prepare.outputs.branch }}/)
