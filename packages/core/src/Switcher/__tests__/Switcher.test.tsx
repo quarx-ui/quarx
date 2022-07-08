@@ -3,7 +3,7 @@ import { SwitcherStyleParams } from '@core/src/Switcher/types';
 import React, { FC } from 'react';
 import { Switcher, SWITCHER_POSITION } from '@core';
 import userEvent from '@testing-library/user-event';
-import { expectPropsMapInClasses } from '../../../../../test-utils/jest';
+import { expectPropsMapInClasses } from '@core/test-utils';
 
 const checkPropsInClasses = (props: SwitcherStyleParams) => {
     const {

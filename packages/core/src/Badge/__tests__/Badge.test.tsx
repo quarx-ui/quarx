@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Badge, BadgeSize, BadgeBorderRadius, BadgeColor, BadgeType } from '@core';
-import { expectPropsMapInClasses } from '../../../../../test-utils/jest';
+import { expectPropsMapInClasses } from '@core/test-utils';
 
 interface CheckPropsInClasses {
     size?: BadgeSize,
