@@ -43,6 +43,7 @@ yarn add @quarx-ui/icons
 ```
 
 ### Использование
+[![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/main?label=Storybook)](https://quarx-ui.github.io/quarx/storybook/main/)
 
 ```jsx
 // ./src/App.jsx
