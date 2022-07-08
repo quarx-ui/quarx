@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import { Counter } from '@core';
-import { testRootCn } from '../../../../../test-utils/jest';
+import { testRootCn } from '@core/test-utils';
 
 describe('Counter', () => {
     it('Snapshot', () => {
