@@ -45,6 +45,7 @@ jobs:
           node-version: 14
           cache: yarn
       - run: yarn install --production=false
+      - run: yarn run e2e:build
       - run: yarn lint
 
   tests:

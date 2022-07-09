@@ -91,5 +91,6 @@ module.exports = {
         'jest/valid-title': ['warn', { ignoreTypeOfDescribeName: true }],
         'jest/no-done-callback': ['warn'],
         'jest/no-export': 0,
+        'jest/expect-expect': 0,
     },
 };
