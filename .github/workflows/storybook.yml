@@ -39,10 +39,12 @@ jobs:
     needs: [prepare]
     steps:
       - uses: actions/checkout@v2.4.2
-      - uses: actions/setup-node@v3
+      - uses: actions/cache@v2
         with:
-          node-version: 14
-          cache: yarn
+          path: |
+            **/node_modules
+            ./node_modules
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn install --production=false
       - run: yarn run storybook:build
       - uses: JamesIves/github-pages-deploy-action@v4.3.4

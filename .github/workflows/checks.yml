@@ -13,10 +13,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/cache@v2
         with:
-          node-version: 14
-          cache: yarn
+          path: |
+            **/node_modules
+            ./node_modules
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn install --production=false
 
   build:
@@ -26,11 +28,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/cache@v2
         with:
-          node-version: 14
-          cache: yarn
-      - run: yarn install --production=false
+          path: |
+            **/node_modules
+            ./node_modules
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn run build
 
   linter:
@@ -40,11 +43,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/cache@v2
         with:
-          node-version: 14
-          cache: yarn
-      - run: yarn install --production=false
+          path: |
+            **/node_modules
+            ./node_modules
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn run lint:branch
 
   tests:
@@ -54,9 +58,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/cache@v2
         with:
-          node-version: 14
-          cache: yarn
-      - run: yarn install --production=false
+          path: |
+            **/node_modules
+            ./node_modules
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn run test
