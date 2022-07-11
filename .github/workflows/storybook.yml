@@ -16,7 +16,15 @@ jobs:
       branch: ${{ steps.stepvar.outputs.branch }}
     steps:
       - id: stepvar
-        run: if [[ '${{ github.event_name }}' == 'pull_request' ]]; then echo "::set-output name=branch::${{ github.head_ref }}"; else echo "::set-output name=branch::${{ github.ref_name }}"; fi
+        run: |
+          if [[ '${{ github.event_name }}' == 'pull_request' ]];
+          then
+            branch="${{ github.head_ref }}";
+          else
+            branch="${{ github.ref_name }}";
+          fi
+          branch=$(node -e "console.log('${branch}'.replace('#', ''))")
+          echo "::set-output name=branch::$branch";
 
       - if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2.2.0
@@ -31,10 +39,12 @@ jobs:
     needs: [prepare]
     steps:
       - uses: actions/checkout@v2.4.2
-      - uses: actions/setup-node@v3
+      - uses: actions/cache@v2
         with:
-          node-version: 14
-          cache: yarn
+          path: |
+            **/node_modules
+            ./node_modules
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn install --production=false
       - run: yarn run storybook:build
       - uses: JamesIves/github-pages-deploy-action@v4.3.4
