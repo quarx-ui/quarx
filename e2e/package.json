@@ -1,0 +1,23 @@
+{
+  "name": "e2e",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "e2e:serve": "webpack-dev-server",
+    "e2e:build:kit": "rm -Rf builds/kit && mv ../packages/core/build builds/kit",
+    "e2e:build:icons": "rm -Rf builds/kit-icons && mv ../packages/icons/build builds/kit-icons",
+    "e2e:build": "cd .. && yarn run build && cd e2e && mkdir -p builds && yarn run e2e:build:kit && yarn run e2e:build:icons",
+    "test:init": "npx playwright install",
+    "test": "npx playwright test",
+    "test:chrome": "yarn test --project=chromium",
+    "test:firefox": "yarn test --project=firefox",
+    "test:webkit": "yarn test --project=webkit"
+  },
+  "dependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "html-webpack-plugin": "^5.5.0",
+    "@playwright/test": "^1.19.2"
+  }
+}
