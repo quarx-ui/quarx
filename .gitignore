@@ -3,7 +3,6 @@
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-test-results
 
 .env
 .env.local
@@ -19,3 +18,8 @@ test-results
 # storyBook
 /storybook-static
 packages/core/coverage/
+
+# e2e
+/e2e/builds
+/test-results
+**/test-results

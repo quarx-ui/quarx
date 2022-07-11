@@ -3,7 +3,7 @@ import { CheckboxStyleParams } from '@core/src/Checkbox/types';
 import React, { FC } from 'react';
 import { Checkbox, CHECKBOX_COLOR } from '@core';
 import userEvent from '@testing-library/user-event';
-import { expectPropsMapInClasses } from '../../../../../test-utils/jest';
+import { expectPropsMapInClasses } from '@core/test-utils';
 
 const checkPropsInClasses = (props: CheckboxStyleParams) => {
     const {

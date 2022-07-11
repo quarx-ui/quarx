@@ -12,6 +12,7 @@ const ignoredFiles = [
 const buildIgnoredFiles = [
     '**/*.story.png',
     '**/storybook',
+    '**/test-utils',
     '**/__tests__',
     '**/*.test.ts',
     '**/*.test.tsx',

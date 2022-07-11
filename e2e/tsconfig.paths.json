@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@e2e/*": [
+        "./*"
+      ],
+      "@kit": [
+        "builds/kit/index"
+      ],
+      "@kit/*": [
+        "builds/kit/*"
+      ],
+      "@kit-icons": [
+        "builds/kit-icons/index"
+      ],
+      "@kit-icons/*": [
+        "builds/kit-icons/*"
+      ]
+    }
+  }
+}
