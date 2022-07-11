@@ -55,7 +55,6 @@ jobs:
           folder: storybook-static
           target-folder: ${{ needs.prepare.outputs.branch }}
           force: true
-          ssh-key: ${{ secrets.DEPLOY_KEY_STORYBOOK }}
           token: ${{ secrets.ORG_ACCESS_TOKEN }}
           repository-name: quarx-ui/quarx-storybook
           git-config-email: quarx.bot@gmail.com
