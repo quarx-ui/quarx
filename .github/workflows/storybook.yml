@@ -1,4 +1,5 @@
 name: Storybook
+
 on:
   pull_request:
     types: [opened, reopened, synchronize]
@@ -31,7 +32,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: |
-            [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/${{ steps.stepvar.outputs.branch }}?label=Storybook&color=orange&sha=${{ github.sha }})](https://quarx-ui.github.io/quarx/storybook/${{ steps.stepvar.outputs.branch }}/)
+            [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/${{ steps.stepvar.outputs.branch }}?label=Storybook&color=orange&sha=${{ github.sha }})](https://quarx-ui.github.io/quarx-storybook/${{ steps.stepvar.outputs.branch }}/)
 
   build:
     name: Build storybook
@@ -49,14 +50,18 @@ jobs:
       - run: yarn run storybook:build
       - uses: JamesIves/github-pages-deploy-action@v4.3.4
         with:
-          branch: github-pages
+          branch: main
           folder: storybook-static
-          target-folder: storybook/${{ needs.prepare.outputs.branch }}
+          target-folder: ${{ needs.prepare.outputs.branch }}
           force: true
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          ssh-key: ${{ secrets.DEPLOY_KEY_STORYBOOK }}
+          token: ${{ secrets.ORG_ACCESS_TOKEN }}
+          repository-name: quarx-ui/quarx-storybook
+          git-config-email: quarx.bot@gmail.com
+          git-config-name: QuarX-UI-bot
       - if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2.2.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: |
-            [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/${{ needs.prepare.outputs.branch }}?label=Storybook&sha=${{ github.sha }})](https://quarx-ui.github.io/quarx/storybook/${{ needs.prepare.outputs.branch }}/)
+            [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/${{ needs.prepare.outputs.branch }}?label=Storybook&sha=${{ github.sha }})](https://quarx-ui.github.io/quarx-storybook/${{ needs.prepare.outputs.branch }}/)
