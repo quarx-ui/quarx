@@ -23,6 +23,10 @@ import {
     CreateTransitionArg,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
+import {
+    ReturnedBorderRadii,
+    CreateBorderRadiusArg
+} from '@core/styles/engine/theme/borderRadii';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>
@@ -52,6 +56,7 @@ export type Theme = {
     transitions: Transitions,
     elevations: Elevations,
     borders: ReturnedBorders,
+    borderRadii: ReturnedBorderRadii,
     defaultProps?: DefaultProps
 }
 
@@ -61,5 +66,6 @@ export interface CreateThemeArg {
     transitions?: CreateTransitionArg,
     elevations?: CreateElevationArg,
     borders?: CreateBorderArg,
+    borderRadii?: CreateBorderRadiusArg,
     defaultProps?: DefaultProps
 }

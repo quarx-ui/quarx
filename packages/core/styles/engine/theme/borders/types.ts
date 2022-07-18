@@ -7,13 +7,16 @@ export type BordersSide = 'top' | 'right' | 'bottom' | 'left' | 'all';
 export type BorderType = Pick<CSSObject, 'borderWidth' | 'borderStyle' | 'borderColor'>
 
 export type Borders = Record<BordersSize, BorderType>
-export type BordersWithStyle = Borders & Record<BordersStyle, Borders>
-export type BordersWithSide = BordersWithStyle & Record<BordersSide, BordersWithStyle>
 
-export type BordersColorFC = (color: CSSObject['borderColor']) => BordersWithSide
+export type BordersCreateFC = (options: {
+        size?: BordersSize,
+        color?: CSSObject['borderColor'],
+        side?: BordersSide,
+        style?: BordersStyle,
+    }) => BorderType
 
-export interface ReturnedBorders extends BordersWithSide {
-    setColor: BordersColorFC
+export interface ReturnedBorders extends Borders {
+    create: BordersCreateFC,
 }
 
 export interface BorderOptionObj {

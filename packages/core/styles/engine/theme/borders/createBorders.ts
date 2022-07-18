@@ -2,12 +2,9 @@ import {
     BorderOptionArr,
     BorderOptionObj,
     Borders,
-    BordersColorFC,
-    BordersWithSide,
-    BordersWithStyle,
+    BordersCreateFC,
     BordersSide,
     BordersSize,
-    BordersStyle,
     BorderType,
     CreateBorders
 } from './types';
@@ -17,17 +14,17 @@ export const DEFAULT_BORDERS_OBJ: Record<BordersSize, BorderOptionObj> = {
     small: {
         width: 1,
         style: 'solid',
-        side: 'all',
+        side: 'all'
     },
     medium: {
         width: 2,
         style: 'solid',
-        side: 'all',
+        side: 'all'
     },
     large: {
         width: 3,
         style: 'solid',
-        side: 'all',
+        side: 'all'
     },
 }
 
@@ -40,7 +37,7 @@ const mapSideToWidth = (width = 0): Record<BordersSide, string | number> => ({
 });
 
 const widthValueFromBorder = (width: string) => {
-    const pxsRegex = new RegExp(/(\d+)(?=px)/g);
+    const pxsRegex = new RegExp(/(\d+)(?=px|%|em|rem)/g);
     const psxMatches = width.match(pxsRegex);
 
     return psxMatches ?? [];
@@ -109,55 +106,6 @@ const getBorder = (
     }
 }
 
-const getBorderStyle = (borders: Borders, style: BordersStyle): Borders => {
-    return Object.entries(borders)
-        .reduce((acc, [size, border]) => ({
-            ...acc,
-            [size]: {
-                ...border,
-                borderStyle: style,
-            },
-        }), {} as Borders)
-}
-
-const getSide = (borders: Borders, side: BordersSide): BordersWithStyle => {
-    const bordersWithSide = Object.entries(borders)
-        .reduce((acc, [size, border]) => {
-            const width = typeof border.borderWidth === 'number'
-                ? border.borderWidth
-                : widthValueFromBorder(border.borderWidth as string)[0]
-
-            return ({
-                ...acc,
-                [size]: {
-                    ...border,
-                    borderWidth: mapSideToWidth(Number(width))[side]
-                },
-            });
-        }, {} as Borders);
-
-    return {
-        ...bordersWithSide,
-        ...getBorderStyles(bordersWithSide),
-    }
-}
-
-const getBorderStyles = (borders: Borders): Omit<BordersWithStyle, keyof Borders> => ({
-    solid: getBorderStyle(borders, 'solid'),
-    dashed: getBorderStyle(borders, 'dashed'),
-    dotted: getBorderStyle(borders, 'dotted'),
-    double: getBorderStyle(borders, 'double'),
-    ridge: getBorderStyle(borders, 'ridge'),
-});
-
-const getBorderSides = (borders: Borders): Omit<BordersWithSide, keyof Borders | keyof BordersWithStyle> => ({
-    all: getSide(borders, 'all'),
-    top: getSide(borders, 'top'),
-    right: getSide(borders, 'right'),
-    bottom: getSide(borders, 'bottom'),
-    left: getSide(borders, 'left'),
-});
-
 export const createBorders: CreateBorders = (options, palette) => {
     const computedPalette = createPalette(palette);
 
@@ -172,36 +120,28 @@ export const createBorders: CreateBorders = (options, palette) => {
         large: getBorder(defaultOps.large, DEFAULT_BORDERS_OBJ.large, computedPalette.border.main),
     };
 
-    const styles = getBorderStyles(borders);
-    const sides = getBorderSides(borders)
+    const create: BordersCreateFC = (options) => {
+        const {
+            size = 'medium',
+            color = computedPalette.border.main,
+            side = 'all',
+            style = 'solid'
+        } = options;
 
-    const setColor: BordersColorFC = (
-        color
-    ) => {
-        const colorizedBorders = Object.entries(borders)
-            .reduce((acc, [size, border]) => ({
-                ...acc,
-                [size]: {
-                    ...border,
-                    borderColor: color,
-                },
-            }), {} as Borders);
+        const width = typeof borders[size].borderWidth === 'number'
+            ? borders[size].borderWidth
+            : widthValueFromBorder(borders[size].borderWidth as string)[0]
 
-        const colorizedStyles = getBorderStyles(colorizedBorders);
-        const colorizedSides = getBorderSides(colorizedBorders);
-
-        return {
-            ...colorizedBorders,
-            ...colorizedStyles,
-            ...colorizedSides,
-        }
-    };
+        return ({
+            borderWidth: mapSideToWidth(Number(width))[side],
+            borderColor: color,
+            borderStyle: style,
+        });
+    }
 
     return {
         ...borders,
-        ...styles,
-        ...sides,
-        setColor,
+        create,
     }
 }
 

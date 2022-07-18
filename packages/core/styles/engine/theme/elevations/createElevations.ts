@@ -1,13 +1,14 @@
 import {
     CreateElevationArg,
     CreateElevations,
-    ElevationsCreateFc,
+    ElevationsColorFc,
     ElevationOption,
     ElevationOptions,
     ElevationStrings
 } from '@core/styles/engine/theme/elevations/types';
 import { changeOpacity, valuesFromShadow } from '../../utils';
 import { DARKEST } from '../palette';
+import { CSSObject } from '@emotion/react';
 
 const getDefaultColor = (opacity: number) => changeOpacity(DARKEST, opacity / 100)
 
@@ -64,56 +65,58 @@ export const DEFAULT_ELEVATIONS_OBJ: Required<CreateElevationArg> = {
 
 const getPx = (value?: string | number) => typeof value === 'string' ? value : `${value ?? 0}px`;
 
-export const getShadow = (options: ElevationOption | string, paletteColor: string) => {
+export const getShadow = (options: ElevationOption | string, paletteColor: CSSObject['color'], inset?: boolean) => {
     if (typeof options === 'string') {
         return options;
     }
 
     const {
-        color = changeOpacity(paletteColor, 0.12),
+        color = changeOpacity(paletteColor as string, 0.12),
     } = options;
 
     const x = getPx(options.x);
     const y = getPx(options.y);
     const b = getPx(options.b);
     const s = getPx(options.s);
-    const inset = options.inset ? 'inset' : '';
+    const localInset = (inset ?? options.inset) ? 'inset' : '';
 
-    return [x, y, b, s, color, inset].join(' ');
+    return [x, y, b, s, color, localInset]
+        .filter((el) => el)
+        .join(' ');
 }
 
-export const getShadows = (options: ElevationOptions, color: string) => {
+export const getShadows = (options: ElevationOptions, color: string, inset?: boolean) => {
     if (Array.isArray(options)) {
         return options
-            .map((option) => getShadow(option, color))
+            .map((option) => getShadow(option, color, inset))
             .join(', ')
     }
 
-    return getShadow(options, color);
+    return getShadow(options, color, inset);
 }
 
-const getShadowsObj = (options: Required<CreateElevationArg>, color: string): ElevationStrings => ({
-    xSmall: getShadows(options.xSmall, color),
-    small: getShadows(options.small, color),
-    medium: getShadows(options.medium, color),
-    large: getShadows(options.large, color),
-    xLarge: getShadows(options.xLarge, color),
+const getShadowsObj = (options: Required<CreateElevationArg>, color: string, inset?: boolean): ElevationStrings => ({
+    xSmall: getShadows(options.xSmall, color, inset),
+    small: getShadows(options.small, color, inset),
+    medium: getShadows(options.medium, color, inset),
+    large: getShadows(options.large, color, inset),
+    xLarge: getShadows(options.xLarge, color, inset),
 })
 
 export const DEFAULT_ELEVATIONS = getShadowsObj(DEFAULT_ELEVATIONS_OBJ, DARKEST);
 
-const getShadowFromColor = (color: string, option: ElevationOptions, paletteColor: string) => {
+const getShadowFromColor = (color: CSSObject['color'], option: ElevationOptions, paletteColor: string, inset?: boolean) => {
     if (typeof option === 'string') {
-        return getShadow({ ...valuesFromShadow(option), color }, paletteColor);
+        return getShadow({ ...valuesFromShadow(option), color: color as string }, paletteColor, inset);
     }
 
     if (Array.isArray(option)) {
         return option
-            .map((optionItem) => getShadow({ ...optionItem, color }, paletteColor))
+            .map((optionItem) => getShadow({ ...optionItem, color: color as string }, paletteColor, inset))
             .join(', ');
     }
 
-    return getShadow({ ...option, color }, paletteColor);
+    return getShadow({ ...option, color: color as string }, paletteColor, inset);
 }
 
 export const createElevations: CreateElevations = (elevationsOps, palette) => {
@@ -126,20 +129,28 @@ export const createElevations: CreateElevations = (elevationsOps, palette) => {
         ...(elevationsOps ?? {}),
     }
 
-    const create: ElevationsCreateFc = (color) => ({
+    const setColor: ElevationsColorFc = (color) => ({
         xSmall: getShadowFromColor(color, defaultOps.xSmall, paletteColor),
         small: getShadowFromColor(color, defaultOps.small, paletteColor),
         medium: getShadowFromColor(color, defaultOps.medium, paletteColor),
         large: getShadowFromColor(color, defaultOps.large, paletteColor),
         xLarge: getShadowFromColor(color, defaultOps.xLarge, paletteColor),
+        inset: {
+            xSmall: getShadowFromColor(color, defaultOps.xSmall, paletteColor, true),
+            small: getShadowFromColor(color, defaultOps.small, paletteColor, true),
+            medium: getShadowFromColor(color, defaultOps.medium, paletteColor, true),
+            large: getShadowFromColor(color, defaultOps.large, paletteColor, true),
+            xLarge: getShadowFromColor(color, defaultOps.xLarge, paletteColor, true),
+        },
     });
 
     const elevations = getShadowsObj(defaultOps, paletteColor)
 
     return {
-        create,
+        setColor,
         ...DEFAULT_ELEVATIONS,
         ...elevations,
+        inset: getShadowsObj(defaultOps, paletteColor, true),
     }
 }
 

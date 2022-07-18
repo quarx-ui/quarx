@@ -1,4 +1,5 @@
 import { CreatePaletteArg, PickSxSize } from '@core';
+import { CSSObject } from '@emotion/react';
 
 export type ElevationSize = PickSxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'>
 
@@ -15,10 +16,11 @@ export type ElevationOption = {
 
 export type ElevationOptions = ElevationOption | Array<ElevationOption> | string
 
-export type ElevationsCreateFc = (color: string) => ElevationStrings;
+export type ElevationsColorFc = (color: CSSObject['color']) => Omit<Elevations, 'setColor'>;
 
 export type CreateElevationArg = Partial<Record<ElevationSize, ElevationOptions>>
 export interface Elevations extends ElevationStrings {
-    create: ElevationsCreateFc,
+    setColor: ElevationsColorFc,
+    inset: ElevationStrings,
 }
 export type CreateElevations = (options?: CreateElevationArg, palette?: CreatePaletteArg) => Elevations
