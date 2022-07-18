@@ -43,7 +43,7 @@ const Configuration: UserConfig = {
                         ];
                     }
 
-                    const issueReg = /(#\d{1,5}|[A-z]+-\d{1,5})/g;
+                    const issueReg = /^(#\d+|[A-z]+-\d+)/g;
                     const clearSubject = subject
                         .replace(issueReg, '')
                         .replace(/(^\s?-\s?)/g, '');
