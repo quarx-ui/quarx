@@ -5,3 +5,4 @@ export * from './hooks';
 export * from './elevations';
 export * from './palette';
 export * from './borders';
+export * from './borderRadii';

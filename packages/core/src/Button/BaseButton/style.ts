@@ -12,7 +12,7 @@ export const useStyles = makeStyles((
             alignItems: 'center',
             justifyContent: 'center',
             boxSizing: 'border-box',
-            ...borders.setColor('transparent').small,
+            ...borders.create({ color: 'transparent', size: 'small' }),
             position: 'relative',
             cursor: 'pointer',
             backgroundColor: 'transparent',
@@ -104,8 +104,6 @@ export const useStyles = makeStyles((
                     small: {
                         borderRadius: 10,
                     },
-                    medium: {},
-                    large: {},
                 }),
             },
             rounded: paramsToCss(size)({

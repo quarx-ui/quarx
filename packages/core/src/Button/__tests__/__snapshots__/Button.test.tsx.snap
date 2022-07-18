@@ -3,7 +3,7 @@
 exports[`Button snapshots default 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-3d2dfn-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-ng48aa-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -18,7 +18,7 @@ exports[`Button snapshots default 1`] = `
 exports[`Button snapshots disabled 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_disabled SxButton SxButton_size_medium css-j12tu0-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_disabled SxButton SxButton_size_medium css-qjzcnu-SxBaseButton-root-SxButton-root"
     disabled=""
     type="button"
   >
@@ -34,7 +34,7 @@ exports[`Button snapshots disabled 1`] = `
 exports[`Button snapshots large 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_large SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_large css-12umxut-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_large SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_large css-3np4vf-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -49,7 +49,7 @@ exports[`Button snapshots large 1`] = `
 exports[`Button snapshots loading 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_loading SxButton SxButton_size_medium SxButton_loading css-g2nmvz-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_loading SxButton SxButton_size_medium SxButton_loading css-hcfw9w-SxBaseButton-root-SxButton-root"
     disabled=""
     type="button"
   >
@@ -78,7 +78,7 @@ exports[`Button snapshots loading 1`] = `
 exports[`Button snapshots outlined 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_outlined SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-5wy14x-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_outlined SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-19iu357-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -93,7 +93,7 @@ exports[`Button snapshots outlined 1`] = `
 exports[`Button snapshots rounded 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_rounded SxButton SxButton_size_medium css-wx8y1m-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_rounded SxButton SxButton_size_medium css-k2teqg-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -108,7 +108,7 @@ exports[`Button snapshots rounded 1`] = `
 exports[`Button snapshots secondary 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_secondary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1o41i9p-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_secondary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1i6nrwk-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -123,7 +123,7 @@ exports[`Button snapshots secondary 1`] = `
 exports[`Button snapshots small 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_small SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_small css-12os09q-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_small SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_small css-16p8ewv-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -138,7 +138,7 @@ exports[`Button snapshots small 1`] = `
 exports[`Button snapshots square 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_square SxButton SxButton_size_medium css-1buc2yd-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_square SxButton SxButton_size_medium css-1ynsr45-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -153,7 +153,7 @@ exports[`Button snapshots square 1`] = `
 exports[`Button snapshots text 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_text SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1dmblyo-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_text SxBaseButton_borderRadius_smooth SxButton SxButton_size_medium css-1fzzc4u-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -168,7 +168,7 @@ exports[`Button snapshots text 1`] = `
 exports[`Button snapshots xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_xSmall SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_xSmall css-7g23n0-SxBaseButton-root-SxButton-root"
+    class="SxBaseButton SxBaseButton_size_xSmall SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxButton SxButton_size_xSmall css-12r39qq-SxBaseButton-root-SxButton-root"
     type="button"
   >
     <div
@@ -183,7 +183,7 @@ exports[`Button snapshots xSmall 1`] = `
 exports[`IconButton snapshots default 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-1mecpj1-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-w2te5c-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -211,7 +211,7 @@ exports[`IconButton snapshots default 1`] = `
 exports[`IconButton snapshots disabled 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_disabled SxIconButton SxIconButton_size_medium css-ysshz5-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_disabled SxIconButton SxIconButton_size_medium css-9ffatv-SxBaseButton-root-SxIconButton-root"
     disabled=""
     type="button"
   >
@@ -240,7 +240,7 @@ exports[`IconButton snapshots disabled 1`] = `
 exports[`IconButton snapshots large 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_large SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_large css-1ghzjzg-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_large SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_large css-2k8e2s-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -268,7 +268,7 @@ exports[`IconButton snapshots large 1`] = `
 exports[`IconButton snapshots loading 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_loading SxIconButton SxIconButton_size_medium SxIconButton_loading css-1k77p9v-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxBaseButton_loading SxIconButton SxIconButton_size_medium SxIconButton_loading css-77j2zw-SxBaseButton-root-SxIconButton-root"
     disabled=""
     type="button"
   >
@@ -307,7 +307,7 @@ exports[`IconButton snapshots loading 1`] = `
 exports[`IconButton snapshots outlined 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_outlined SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-y5hfjn-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_outlined SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-12vgk1d-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -335,7 +335,7 @@ exports[`IconButton snapshots outlined 1`] = `
 exports[`IconButton snapshots rounded 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_rounded SxIconButton SxIconButton_size_medium css-1lpimna-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_rounded SxIconButton SxIconButton_size_medium css-1f0bvwl-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -363,7 +363,7 @@ exports[`IconButton snapshots rounded 1`] = `
 exports[`IconButton snapshots secondary 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_secondary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-u3lvmm-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_secondary SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-1qlu4rm-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -391,7 +391,7 @@ exports[`IconButton snapshots secondary 1`] = `
 exports[`IconButton snapshots small 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_small SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_small css-153m9cl-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_small SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_small css-1803srf-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -419,7 +419,7 @@ exports[`IconButton snapshots small 1`] = `
 exports[`IconButton snapshots square 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_square SxIconButton SxIconButton_size_medium css-xo0ul8-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_square SxIconButton SxIconButton_size_medium css-19k0olp-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -447,7 +447,7 @@ exports[`IconButton snapshots square 1`] = `
 exports[`IconButton snapshots text 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_text SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-2gi83a-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_medium SxBaseButton_color_brand SxBaseButton_type_text SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_medium css-l0xbj0-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div
@@ -475,7 +475,7 @@ exports[`IconButton snapshots text 1`] = `
 exports[`IconButton snapshots xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="SxBaseButton SxBaseButton_size_xSmall SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_xSmall css-fn6ci0-SxBaseButton-root-SxIconButton-root"
+    class="SxBaseButton SxBaseButton_size_xSmall SxBaseButton_color_brand SxBaseButton_type_contained SxBaseButton_borderRadius_smooth SxIconButton SxIconButton_size_xSmall css-ob0zb5-SxBaseButton-root-SxIconButton-root"
     type="button"
   >
     <div

@@ -4,6 +4,7 @@ import { createElevations } from '../elevations';
 import { createPalette } from '../palette';
 import { createTransitions } from '../transitions';
 import { createBorders } from '../borders';
+import { createBorderRadii } from '../borderRadii';
 
 export function createTheme({
     palette,
@@ -11,7 +12,8 @@ export function createTheme({
     transitions,
     defaultProps,
     elevations,
-    borders
+    borders,
+    borderRadii,
 }: CreateThemeArg = {}): Theme {
     return {
         palette: createPalette(palette),
@@ -19,6 +21,7 @@ export function createTheme({
         transitions: createTransitions(transitions),
         elevations: createElevations(elevations, palette),
         borders: createBorders(borders, palette),
+        borderRadii: createBorderRadii(borderRadii),
         defaultProps,
     };
 }
