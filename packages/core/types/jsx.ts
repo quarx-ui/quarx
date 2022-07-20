@@ -5,3 +5,13 @@ export interface Clickable {
 }
 
 export type SVGIcon = ReactElement<SVGProps<SVGElement>>;
+
+export type ComponentHTMLAttributes<
+    Props,
+    Element extends keyof JSX.IntrinsicElements = 'div'
+> = Omit<JSX.IntrinsicElements[Element], keyof Props | 'ref'>
+
+export type ComponentPropsWithHTML<
+    Props,
+    Element extends keyof JSX.IntrinsicElements = 'div'
+> = Props & ComponentHTMLAttributes<Props, Element>

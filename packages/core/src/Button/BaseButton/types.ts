@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { BaseProps } from '@core/types';
+import { BaseProps, ComponentPropsWithHTML } from '@core/types';
 import { WithClassesAndStyles } from '@core/styles';
 import { ButtonStyleParams } from '@core/src';
 import { BaseButtonStyleKeys } from './style';
@@ -16,6 +16,4 @@ export interface BaseButtonPropsWithoutHtml extends
     children?: ReactNode,
 }
 
-export type BaseButtonHtmlAttributes = Omit<JSX.IntrinsicElements['button'], keyof BaseButtonPropsWithoutHtml>
-
-export type BaseButtonProps = BaseButtonPropsWithoutHtml & BaseButtonHtmlAttributes;
+export type BaseButtonProps = ComponentPropsWithHTML<BaseButtonPropsWithoutHtml, 'button'>;

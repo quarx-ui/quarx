@@ -6,7 +6,7 @@ const { test } = initTest<TestButtonProps>('Button');
 test('Button', async ({ compareSnapshotsMap, compareSnapshots }) => {
     await compareSnapshotsMap({
         targetProps: {
-            borderRadius: ['square', 'rounded'],
+            borderRadius: ['xSmall', 'small', 'large', 'xLarge'],
             size: ['xSmall', 'small', 'medium', 'large'],
             color: ['secondary', 'success', 'info', 'warning', 'danger'],
         },
