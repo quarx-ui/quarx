@@ -3,12 +3,12 @@ import { cleanup, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 import { Button, IconButton, BaseButtonProps, ButtonStyleParams } from '..';
-import { PaperClipIcon } from '../assets';
+import { PaperClipIcon } from '../stories/assets';
 
 const checkPropsInClasses = (props: ButtonStyleParams) => {
     const {
         size = 'medium',
-        borderRadius = 'smooth',
+        borderRadius = 'medium',
         color = 'brand',
         type = 'contained',
         loading = false,
@@ -33,13 +33,19 @@ const checkSnapshotsOf = (Component: FC, children: ReactNode) => {
     it('default', checkButtonProps());
 
     it('secondary', checkButtonProps({ color: 'secondary' }));
+    it('success', checkButtonProps({ color: 'success' }));
+    it('info', checkButtonProps({ color: 'info' }));
+    it('warning', checkButtonProps({ color: 'warning' }));
+    it('danger', checkButtonProps({ color: 'danger' }));
 
-    it('xSmall', checkButtonProps({ size: 'xSmall' }));
-    it('small', checkButtonProps({ size: 'small' }));
-    it('large', checkButtonProps({ size: 'large' }));
+    it('size-xSmall', checkButtonProps({ size: 'xSmall' }));
+    it('size-small', checkButtonProps({ size: 'small' }));
+    it('size-large', checkButtonProps({ size: 'large' }));
 
-    it('square', checkButtonProps({ borderRadius: 'square' }));
-    it('rounded', checkButtonProps({ borderRadius: 'rounded' }));
+    it('borderRadius-xSmall', checkButtonProps({ borderRadius: 'xSmall' }));
+    it('borderRadius-small', checkButtonProps({ borderRadius: 'small' }));
+    it('borderRadius-large', checkButtonProps({ borderRadius: 'large' }));
+    it('borderRadius-xLarge', checkButtonProps({ borderRadius: 'xLarge' }));
 
     it('outlined', checkButtonProps({ type: 'outlined' }));
     it('text', checkButtonProps({ type: 'text' }));

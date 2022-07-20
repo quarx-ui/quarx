@@ -3,14 +3,14 @@ import { Story } from '@storybook/react/types-6-0';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, designParams, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { Button, IconButton, ButtonProps, ButtonSize, ButtonBorderRadius, ButtonColor, ButtonType } from '.';
+import { Button, IconButton, ButtonProps, ButtonSize, ButtonColor, ButtonType, ButtonBorderRadius } from '.';
 import { PaperClipIcon, SmallPaperClipIcon, ChevronDownIcon } from './assets';
 
 const defaultArgs: ButtonProps = {
     buttonType: 'button',
     children: 'Перейти',
     size: 'medium',
-    borderRadius: 'smooth',
+    borderRadius: 'medium',
     disabled: false,
     loading: false,
     color: 'brand',
@@ -120,8 +120,8 @@ Sandbox.args = {
 };
 
 const SIZES: ButtonSize[] = ['xSmall', 'small', 'medium', 'large'];
-const BORDER_RADIUS: ButtonBorderRadius[] = ['square', 'smooth', 'rounded'];
-const COLOR: ButtonColor[] = ['brand', 'secondary', 'danger'];
+const BORDER_RADIUS: ButtonBorderRadius[] = ['xSmall', 'small', 'medium', 'large', 'xLarge'];
+const COLOR: ButtonColor[] = ['brand', 'secondary', 'success', 'info', 'warning', 'danger'];
 const TYPES: ButtonType[] = ['contained', 'outlined', 'text'];
 
 export const BooleanProps: Story<ButtonProps> = (props) => (DisplayVariantsMap({
@@ -195,13 +195,8 @@ Types.parameters = {
 Color.parameters = {
     docs: {
         description: {
-            story: 'Для каждого типа кнопки есть три варианта цвета:'
-                + '<br/>'
-                + '`primary` — основной брендовый,'
-                + '<br/>'
-                + '`secondary` — дополнительный нейтральный,'
-                + '<br/>'
-                + '`critical` — цвет для негативных действий, например удаление.',
+            story: 'Компонент `Button` использует все основные цвета библиотеки (`palette.colors`):'
+                + ' `brand`, `secondary`, `success`, `info`, `warning`, `danger`.',
         },
     },
 };
@@ -209,13 +204,7 @@ Color.parameters = {
 BorderRadius.parameters = {
     docs: {
         description: {
-            story: 'Можно передать один из трех вариантов скругления:'
-                + '<br/>'
-                + '`square` — минимальный радиус скругления и почти острые углы,'
-                + '<br/>'
-                + '`smooth` — среднее скругление,'
-                + '<br/>'
-                + '`rounded` — максимальный радиус скругления, который можно использовать в любом стиле бренда.',
+            story: 'Свойство `borderRadius` использует все стандартные варианты скругления объекта `borderRadii`: `xSmall`, `small`, `medium`, `large`, `xLarge`.',
         },
     },
 };

@@ -1,9 +1,9 @@
-import { PaletteColor, PickSxBorderSize, PickSxSize } from '@core';
+import { BorderRadiusSize, PaletteColor, PickSxSize } from '@core';
 
 export type ButtonSize = PickSxSize<'xSmall' | 'small' | 'medium' | 'large'>;
 export type ButtonType = 'contained' | 'outlined' | 'text';
-export type ButtonBorderRadius = PickSxBorderSize<'square' | 'smooth' | 'rounded'>;
 export type ButtonColor = PaletteColor;
+export type ButtonBorderRadius = BorderRadiusSize;
 
 export interface ButtonStyleParams {
     /** Цветовая палитра компонента
