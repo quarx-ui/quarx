@@ -4,7 +4,7 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, designParams, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { AttentionIconSmall, InfoIconLarge, InfoIconSmall, AttentionIconLarge } from './assets';
-import { Badge, BadgeColor, BadgeProps } from '.';
+import { Badge, BadgeColor, BadgeProps } from '..';
 
 export default {
     title: 'core/Badge',

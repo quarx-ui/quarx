@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { SX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core';
-import { useStyles } from './style';
+import { useStyles } from './styles';
 import { RadioButtonProps } from './types';
 
 export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, RadioButtonProps>((

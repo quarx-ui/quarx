@@ -1,7 +1,7 @@
 import { CHECKBOX_COLOR, KeysFromUseStyles, makeStyles, typography } from '@core';
-import { CheckboxStyleParams } from '@core/src/Checkbox/types';
 import { keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { CheckboxStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette, transitions },
@@ -219,3 +219,5 @@ export const useStyles = makeStyles((
 }, { name: 'SxCheckbox' });
 
 export type CheckboxStyleKeys = KeysFromUseStyles<typeof useStyles>;
+
+export * from './types';

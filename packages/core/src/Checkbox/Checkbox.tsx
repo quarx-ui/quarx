@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { CHECKBOX_COLOR } from '@core/src';
-import { useStyles } from './style';
+import { useStyles } from './styles';
 import { CheckboxProps } from './types';
 import { CheckIconSmall, CheckIconMedium, CheckIconLarge } from './assets';
 

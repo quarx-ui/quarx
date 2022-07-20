@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { SWITCHER_POSITION, SX_SIZE, usePropsOverwrites } from '@core';
 import { SwitcherProps } from './types';
-import { useStyles } from './style';
+import { useStyles } from './styles';
 
 export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, SwitcherProps>((
     initialProps,

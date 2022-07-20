@@ -1,29 +1,8 @@
 import { ChangeEventHandler, ReactNode, RefObject } from 'react';
-import { WithClassesAndStyles } from '@core';
+import { ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
 import { BaseProps } from '@core/types';
 import { SelectionProps } from '@core/src';
-import { SelectionSize } from '@core/src/Selection/types';
-import { RadioButtonStyleKeys } from './style';
-
-export interface RadioButtonStyleParams {
-    /** Состояние наведения */
-    hover?: boolean,
-
-    /** Состояние компонента */
-    checked?: boolean,
-
-    /** Наличие ошибки */
-    hasError?: boolean,
-
-    /** Размер компонента */
-    size?: SelectionSize,
-
-    /** Отключение возможности фокуса */
-    disableFocus?: boolean,
-
-    /** Изменяет состояние компонента на активное/неактивное */
-    disabled?: boolean,
-}
+import { RadioButtonStyleKeys, RadioButtonStyleParams } from './styles';
 
 export interface RadioButtonPropsWithoutHtml extends
     RadioButtonStyleParams,
@@ -49,8 +28,7 @@ export interface RadioButtonPropsWithoutHtml extends
     value?: string,
 }
 
-export type RadioButtonHtmlAttributes = Omit<JSX.IntrinsicElements['label'], keyof RadioButtonPropsWithoutHtml>
-export type RadioButtonProps = RadioButtonPropsWithoutHtml & RadioButtonHtmlAttributes;
+export type RadioButtonProps = ComponentPropsWithHTML<RadioButtonPropsWithoutHtml, 'label'>;
 
 export interface RadioButtonSelectionProps extends
     SelectionProps,
@@ -59,3 +37,5 @@ export interface RadioButtonSelectionProps extends
     /** Объект с параметрами для компонента `checkbox` */
     radioButtonProps?: RadioButtonProps,
 }
+
+export * from './styles/types';

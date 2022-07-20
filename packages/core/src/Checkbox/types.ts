@@ -1,38 +1,8 @@
-import { BaseProps, Values } from '@core/types';
+import { BaseProps, ComponentPropsWithHTML } from '@core/types';
 import { ChangeEventHandler, RefObject } from 'react';
 import { SelectionProps } from '@core/src';
-import { SelectionBorderRadius, SelectionSize } from '@core/src/Selection/types';
 import { WithClassesAndStyles } from '@core/styles';
-import { CHECKBOX_COLOR } from './constants';
-import { CheckboxStyleKeys } from './style';
-
-export type CheckboxColor = Values<typeof CHECKBOX_COLOR>;
-
-export interface CheckboxStyleParams {
-    /** Состояние наведения */
-    hover?: boolean,
-
-    /** Цвет компонента */
-    color?: CheckboxColor
-
-    /** Размер компонента */
-    size?: SelectionSize,
-
-    /** Скругление компонента */
-    borderRadius?: SelectionBorderRadius,
-
-    /** Состояние компонента */
-    checked?: boolean,
-
-    /** Отключение возможности фокуса */
-    disableFocus?: boolean,
-
-    /** Изменяет состояние компонента на активное/неактивное */
-    disabled?: boolean,
-
-    /** Состояние неопределенности (неполный выбор) */
-    indeterminate?: boolean,
-}
+import { CheckboxStyleKeys, CheckboxStyleParams } from './styles';
 
 export interface CheckboxPropsWithoutHtml extends
     CheckboxStyleParams,
@@ -58,9 +28,7 @@ export interface CheckboxPropsWithoutHtml extends
     value?: string,
 }
 
-export type CheckboxHtmlAttributes = Omit<JSX.IntrinsicElements['label'], keyof CheckboxPropsWithoutHtml>;
-
-export type CheckboxProps = CheckboxPropsWithoutHtml & CheckboxHtmlAttributes;
+export type CheckboxProps = ComponentPropsWithHTML<CheckboxPropsWithoutHtml, 'label'>;
 
 export interface CheckboxSelectionProps extends
     SelectionProps,
@@ -69,3 +37,5 @@ export interface CheckboxSelectionProps extends
     /** Объект с параметрами для компонента `checkbox` */
     checkboxProps?: CheckboxProps,
 }
+
+export * from './styles/types';

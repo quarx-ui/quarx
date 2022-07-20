@@ -1,5 +1,6 @@
-import { colors, SWITCHER_POSITION, SwitcherStyleParams, typography, KeysFromUseStyles, makeStyles } from '@core';
+import { colors, SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { SwitcherStyleParams } from './types';
 // TODO: colors from palette
 
 export const useStyles = makeStyles((

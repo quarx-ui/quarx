@@ -3,10 +3,10 @@ import { jsx } from '@emotion/react';
 import React, { forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { limitDigitsCount } from '@core/utils/limitDigitsCount';
-import { useStyles } from './style';
-import { CounterHtmlAttributes, CounterProps } from './types';
+import { useStyles } from './styles';
+import { CounterProps } from './types';
 
-export const Counter = forwardRef<HTMLSpanElement, CounterProps & CounterHtmlAttributes>((
+export const Counter = forwardRef<HTMLSpanElement, CounterProps>((
     initialProps,
     ref,
 ) => {

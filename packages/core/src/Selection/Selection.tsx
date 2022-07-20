@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler } from 'react';
 import { SX_BORDER_SIZE, SX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core';
-import { useStyles } from './style';
+import { useStyles } from './styles';
 import { SelectionProps } from './types';
 
 export const Selection: FC<SelectionProps> = forwardRef<HTMLDivElement, SelectionProps>((
