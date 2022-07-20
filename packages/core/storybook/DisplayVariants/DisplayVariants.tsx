@@ -155,3 +155,40 @@ export function DisplayVariantsMap<Props>(options: DisplayVariantsMapProps<Props
 DisplayVariantsMap.defaultProps = {
     componentProps: {},
 };
+
+interface DisplayBooleanVariantsProps<VariantProps> extends Omit<DisplayVariantsMapProps<VariantProps>, 'variants'> {
+    /** Массив булевых свойств, которые необходимо вывести в качестве примера
+     * @example
+     * ['size', 'color'] */
+    properties: Array<string>,
+}
+
+/** Функция предназначена для генерации различных вариантов компонента с булевыми свойствами.
+ * Принимает сразу несколько булевых свойств.
+ * По умолчанию установлено вертикальное направление, но возможен выбор горизонтального.
+ * Названия значений свойств по умолчанию не выводятся, но это можно изменить.
+ * @return
+ * Будут выведены варианты компонента, где для каждого булевого свойства установлено значение `true` */
+export function DisplayBooleanVariants<Props>(options: DisplayBooleanVariantsProps<Props>) {
+    const {
+        properties,
+        direction = 'vertical',
+        optionTitle = {
+            size: 'secondary',
+            isShown: false,
+            type: 'value',
+        },
+        ...restOptions
+    } = options;
+    const variants: Record<string, Array<ValuesType>> = {};
+
+    properties.forEach((prop) => {
+        variants[prop] = [true];
+    });
+    return DisplayVariantsMap({
+        variants,
+        direction,
+        optionTitle,
+        ...restOptions,
+    });
+}

@@ -10,7 +10,7 @@ export function withDocsPage(Documentation: React.ComponentType) {
             <Subtitle>Описание пропсов</Subtitle>
             <ArgsTable story={PRIMARY_STORY} />
             <div style={{ ...typography.Text.M.Regular }}><Documentation /></div>
-            <Stories />
+            <Stories title="Примеры использования" />
         </>
     );
 }

@@ -7,3 +7,4 @@ export * from './Loader';
 export * from './RadioButton';
 export * from './Selection';
 export * from './Switcher';
+export * from './TextField';
