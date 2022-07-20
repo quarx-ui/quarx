@@ -1,43 +1,16 @@
 import { ReactNode, Ref } from 'react';
-import { CounterProps, PaletteColor, PickSxBorderSize, PickSxSize } from '@core';
+import { CounterProps } from '@core';
 import { WithClassesAndStyles } from '@core/styles';
-import { BadgeStyleKeys } from './style';
+import { BadgeStyleKeys, BadgeStyleParams } from './style';
 
-export type BadgeSize = PickSxSize<'small' | 'large'>;
-export type BadgeBorderRadius = PickSxBorderSize<'square' | 'smooth' | 'rounded'>;
-export type BadgeColor = PaletteColor;
-export type BadgeType = 'filled' | 'outline';
+export type BadgeSize = BadgeStyleParams['size'];
+export type BadgeBorderRadius = BadgeStyleParams['borderRadius']
+export type BadgeColor = BadgeStyleParams['color'];
+export type BadgeType = BadgeStyleParams['type'];
 
-export interface BadgeStyleParams {
-    /** Размер компонента */
-    size?: BadgeSize,
+export type BadgeStyleProps = Partial<BadgeStyleParams>;
 
-    /** Тип заливки компонента.
-     * Определяет фон компонента, а также цвет его внутренних элементов
-     *
-     * @param filled залитый компонент, цвет используемых иконок и фон Counter будет белым (по умолчанию)
-     * @param outline фон компонента прозрачный,
-     * цвет используемых иконок и фон Counter определяется в соответствии со свойством `color */
-    type?: BadgeType,
-
-    /** Цветовое решение компонента.
-     * Определяет цвет фона или обводки (в зависимости от выбранного `type`) компонента,
-     * а также цвет его внутренних элементов
-     *
-     * @param color1 основной светлый цвет
-     * @param color2 основной темный цвет
-     * @param warning цвет предупреждения
-     * @param critical цвет ошибки */
-    color?: BadgeColor,
-
-    /** Скругление компонента
-     * @param square минимальный радиус скругления и почти острые углы
-     * @param smooth среднее скругление
-     * @param rounded максимальный радиус скругления, который можно использовать в любом стиле бренда (по умолчанию) */
-    borderRadius?: BadgeBorderRadius,
-}
-
-export interface BadgeProps extends BadgeStyleParams, WithClassesAndStyles<BadgeStyleKeys, BadgeStyleParams> {
+export interface BadgeProps extends BadgeStyleProps, WithClassesAndStyles<BadgeStyleKeys, BadgeStyleParams> {
     children: ReactNode,
 
     /** Элемент, отображаемый с левой стороны компонента */

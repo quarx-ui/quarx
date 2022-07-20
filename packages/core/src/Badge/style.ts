@@ -1,7 +1,35 @@
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { CSSObject } from '@emotion/react';
-import { KeysFromUseStyles, makeStyles, typography } from '@core';
-import { BadgeStyleParams } from './types';
+import { KeysFromUseStyles, makeStyles, PaletteColor, PickSxBorderSize, PickSxSize, typography } from '@core';
+
+export interface BadgeStyleParams {
+    /** Тип заливки компонента.
+     * Определяет фон компонента, а также цвет его внутренних элементов
+     *
+     * @param filled залитый компонент, цвет используемых иконок и фон Counter будет белым (по умолчанию)
+     * @param outline фон компонента прозрачный,
+     * цвет используемых иконок и фон Counter определяется в соответствии со свойством `color */
+    type: 'filled' | 'outline',
+
+    /** Размер компонента */
+    size: PickSxSize<'small' | 'large'>,
+
+    /** Цветовое решение компонента.
+     * Определяет цвет фона или обводки (в зависимости от выбранного `type`) компонента,
+     * а также цвет его внутренних элементов
+     *
+     * @param color1 основной светлый цвет
+     * @param color2 основной темный цвет
+     * @param warning цвет предупреждения
+     * @param critical цвет ошибки */
+    color: PaletteColor,
+
+    /** Скругление компонента
+     * @param square минимальный радиус скругления и почти острые углы
+     * @param smooth среднее скругление
+     * @param rounded максимальный радиус скругления, который можно использовать в любом стиле бренда (по умолчанию) */
+    borderRadius: PickSxBorderSize<'square' | 'smooth' | 'rounded'>,
+}
 
 export const useStyles = makeStyles((
     { palette },
