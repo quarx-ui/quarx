@@ -1,1 +1,1 @@
-export { DisplayVariants, DisplayVariantsMap } from './DisplayVariants';
+export { DisplayVariants, DisplayVariantsMap, DisplayBooleanVariants } from './DisplayVariants';

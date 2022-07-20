@@ -22,6 +22,7 @@ import {
     Transitions,
     CreateTransitionArg,
     LinkProps,
+    TextFieldProps,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import {
@@ -47,7 +48,8 @@ export interface ComponentsProps {
     RadioButtonSelection: RadioButtonSelectionProps,
     Selection: SelectionProps,
     Switcher: SwitcherProps,
-    SwitcherSelection: SwitcherSelectionProps
+    SwitcherSelection: SwitcherSelectionProps,
+    TextField: TextFieldProps,
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>
