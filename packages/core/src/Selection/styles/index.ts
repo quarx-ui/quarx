@@ -1,6 +1,6 @@
-import { SelectionStyleParams } from '@core/src/Selection/types';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { typography, KeysFromUseStyles, makeStyles } from '@core';
+import { SelectionStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { transitions },
@@ -119,3 +119,5 @@ export const useStyles = makeStyles((
 }), { name: 'SxSelection' });
 
 export type SelectionStyleKeys = KeysFromUseStyles<typeof useStyles>;
+
+export * from './types';

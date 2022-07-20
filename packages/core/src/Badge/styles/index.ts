@@ -116,3 +116,4 @@ export const useStyles = makeStyles((
 }, { name: 'SxBadge' });
 
 export type BadgeStyleKeys = KeysFromUseStyles<typeof useStyles>;
+export * from './types';

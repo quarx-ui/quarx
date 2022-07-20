@@ -1,7 +1,7 @@
 import { KeysFromUseStyles, makeStyles } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
-import { LoaderStyleParams } from '@core/src/Loader/types';
 import { keyframes } from '@emotion/react';
+import { LoaderStyleParams } from './types';
 
 export const useStyles = makeStyles((
     theme,
@@ -67,3 +67,5 @@ export const useStyles = makeStyles((
 }, { name: 'SxLoader' });
 
 export type LoaderStyleKeys = KeysFromUseStyles<typeof useStyles>;
+
+export * from './types';

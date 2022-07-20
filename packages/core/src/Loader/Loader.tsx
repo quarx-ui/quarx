@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { LoaderProps } from '.';
-import { useStyles } from './style';
+import { useStyles } from './styles';
 
 export const Loader: FC<LoaderProps> = forwardRef<HTMLDivElement, LoaderProps>((
     initialProps,

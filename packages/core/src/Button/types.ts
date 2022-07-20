@@ -6,29 +6,23 @@ export type ButtonColor = PaletteColor;
 export type ButtonBorderRadius = BorderRadiusSize;
 
 export interface ButtonStyleParams {
-    /** Цветовая палитра компонента
-     * @param primary основной цвет бренда
-     * @param secondary дополнительный нейтральный
-     * @param critical цвет для негативных действий, например удаление */
+    /** Цветовая палитра компонента. Значения соответствуют токенам объекта `palette.colors` */
     color?: ButtonColor,
 
     /** Размер компонента. Влияет на высоту и размер текста
-     * @param xSmall минимальный размер
-     * @param small маленький
-     * @param medium средний
-     * @param large наибольший размер */
+     * @property xSmall минимальный размер
+     * @property small маленький
+     * @property medium средний
+     * @property large наибольший размер */
     size?: ButtonSize,
 
-    /** Скругление компонента
-     * @param square минимальный радиус скругления и почти острые углы
-     * @param smooth среднее скругление
-     * @param rounded максимальный радиус скругления, который можно использовать в любом стиле бренда */
+    /** Скругление компонента. Значения соответствуют токенам объекта `borderRadii` */
     borderRadius?: ButtonBorderRadius,
 
     /** Тип заливки компонента
-     * @param contained используется, чтобы усилить акцент на основном действии
-     * @param outlined используется для дополнительных действий или в элементах, где не нужен максимальный акцент
-     * @param text текстовые кнопки обычно используются для не самых важных действий */
+     * @property contained используется, чтобы усилить акцент на основном действии
+     * @property outlined используется для дополнительных действий или в элементах, где не нужен максимальный акцент
+     * @property text текстовые кнопки обычно используются для не самых важных действий */
     type?: ButtonType,
 
     /** Анимация загрузки */

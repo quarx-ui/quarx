@@ -4,10 +4,10 @@ import React, { forwardRef } from 'react';
 import { Counter } from '@core/src/Counter';
 import { usePropsOverwrites } from '@core/styles';
 import clsx from 'clsx';
-import { BadgeHtmlAttributes, BadgeProps } from './types';
-import { useStyles } from './style';
+import { BadgeProps } from './types';
+import { useStyles } from './styles';
 
-export const Badge = forwardRef<HTMLDivElement, BadgeProps & BadgeHtmlAttributes>((
+export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
     initialProps,
     ref,
 ) => {

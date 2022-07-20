@@ -1,6 +1,6 @@
 import { KeysFromUseStyles, makeStyles, typography } from '@core';
-import { RadioButtonStyleParams } from '@core/src/RadioButton/types';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { RadioButtonStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette, transitions },
@@ -131,3 +131,5 @@ export const useStyles = makeStyles((
 }), { name: 'SxRadioButton' });
 
 export type RadioButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
+
+export * from './types';

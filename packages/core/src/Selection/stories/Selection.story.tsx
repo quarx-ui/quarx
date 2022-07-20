@@ -8,7 +8,7 @@ import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { SwitcherSelection } from '@core/src/Switcher/SwitcherSelection';
 import styled from '@emotion/styled';
 import { SquaresIcon } from './assets';
-import { Selection, SelectionProps } from '.';
+import { Selection, SelectionProps } from '..';
 
 const defaultArgTypes = {
     ...defineCategory('Стилизация', {

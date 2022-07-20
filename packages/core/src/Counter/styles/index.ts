@@ -38,3 +38,5 @@ export const useStyles = makeStyles((
 }), { name: 'SxCounter' });
 
 export type CounterStyleKeys = KeysFromUseStyles<typeof useStyles>
+
+export * from './types';

@@ -1,32 +1,7 @@
-import { SelectionStyleKeys } from '@core/src/Selection/style';
 import { ReactNode } from 'react';
-import { PickSxBorderSize, PickSxSize } from '@core/enums';
-import { WithClassesAndStyles } from '@core';
+import { ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
 import { BaseProps } from '@core/types';
-
-export type SelectionSize = PickSxSize<'small' | 'medium' | 'large'>;
-export type SelectionBorderRadius = PickSxBorderSize<'square' | 'smooth'>;
-
-export interface OmittedStyleParams {
-    subShown?: boolean,
-}
-
-export interface SelectionStyleParams extends OmittedStyleParams {
-    /** Размер компонента */
-    size?: SelectionSize,
-
-    /** Отключить компонент */
-    disabled?: boolean,
-
-    /** Состояние фокуса */
-    focused?: boolean,
-
-    /** Фон при наведении */
-    styleHover?: 'default' | 'smooth',
-
-    /** Скругление компонента */
-    borderRadius?: SelectionBorderRadius,
-}
+import { OmittedStyleParams, SelectionStyleKeys, SelectionStyleParams } from './styles';
 
 export interface SelectionPropsWithoutHtml extends
     Omit<SelectionStyleParams, keyof OmittedStyleParams>,
@@ -52,5 +27,6 @@ export interface SelectionPropsWithoutHtml extends
     errorText?: string,
 }
 
-export type SelectionHtmlAttributes = Omit<JSX.IntrinsicElements['div'], keyof SelectionPropsWithoutHtml>
-export type SelectionProps = SelectionPropsWithoutHtml & SelectionHtmlAttributes
+export type SelectionProps = ComponentPropsWithHTML<SelectionPropsWithoutHtml>
+
+export * from './styles/types';
