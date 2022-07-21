@@ -4,7 +4,7 @@ import { RadioButtonStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette, transitions },
-    { size, hover, disableFocus, hasError, disabled, checked }: Required<RadioButtonStyleParams>,
+    { size, hover, disableFocus, hasError, disabled, checked }: RadioButtonStyleParams,
 ) => ({
     root: [
         {

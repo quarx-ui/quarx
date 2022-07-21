@@ -5,7 +5,7 @@ export type CounterType = 'filled' | 'outline';
 export type CounterColor = PaletteColor;
 
 export interface CounterStyleParams {
-    size?: CounterSize,
-    type?: CounterType,
-    color?: CounterColor,
+    size: CounterSize,
+    type: CounterType,
+    color: CounterColor,
 }

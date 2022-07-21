@@ -4,7 +4,7 @@ import { CounterStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette },
-    { type, size, color }: Required<CounterStyleParams>,
+    { type, size, color }: CounterStyleParams,
 ) => ({
     root: {
         display: 'block',

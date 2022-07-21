@@ -4,7 +4,7 @@ import { WithClassesAndStyles } from '@core/styles';
 import { BadgeStyleParams, BadgeStyleKeys } from './styles';
 
 export interface BadgePropsWithoutHTML extends
-    BadgeStyleParams,
+    Partial<BadgeStyleParams>,
     WithClassesAndStyles<BadgeStyleKeys, BadgeStyleParams>
 {
     children: ReactNode,

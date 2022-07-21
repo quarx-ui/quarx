@@ -6,23 +6,23 @@ export type SwitcherPositionType = Values<typeof SWITCHER_POSITION>;
 
 export interface SwitcherStyleParams {
     /** Состояние наведения */
-    hover?: boolean,
+    hover: boolean,
 
     /** Размер компонента */
-    size?: SelectionSize,
+    size: SelectionSize,
 
     /** Изменяет цвет компонента уведомляя об ошибке */
-    hasError?: boolean,
+    hasError: boolean,
 
     /** Изменяет состояние компонента на активное/неактивное */
-    disabled?: boolean,
+    disabled: boolean,
 
     /** Отключение возможности фокуса */
-    disableFocus?: boolean,
+    disableFocus: boolean,
 
     /** Позиция переключателя относительно текста */
-    position?: SwitcherPositionType,
+    position: SwitcherPositionType,
 
     /** Состояние компонента */
-    checked?: boolean,
+    checked: boolean,
 }

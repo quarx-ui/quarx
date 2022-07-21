@@ -5,7 +5,7 @@ import { BadgeStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette },
-    { type, size, color, borderRadius }: Required<BadgeStyleParams>,
+    { type, size, color, borderRadius }: BadgeStyleParams,
 ) => {
     const flexCenter: CSSObject = {
         display: 'flex',

@@ -5,7 +5,7 @@ import { Checkbox, CHECKBOX_COLOR } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 
-const checkPropsInClasses = (props: CheckboxStyleParams) => {
+const checkPropsInClasses = (props: Partial<CheckboxStyleParams>) => {
     const {
         size = 'medium',
         color = 'brand',
@@ -20,7 +20,7 @@ const checkPropsInClasses = (props: CheckboxStyleParams) => {
     expectPropsMapInClasses(checkbox as HTMLElement)(propsWithDefault);
 };
 
-const checkProps = (Component: FC) => (checkedProps?: CheckboxStyleParams) => () => {
+const checkProps = (Component: FC) => (checkedProps?: Partial<CheckboxStyleParams>) => () => {
     const { asFragment } = render(<Component {...checkedProps}>{Component.displayName}</Component>);
 
     checkPropsInClasses(checkedProps ?? {});

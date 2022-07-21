@@ -4,7 +4,7 @@ import { makeStyles, KeysFromUseStyles, ButtonStyleParams } from '@core';
 
 export const useStyles = makeStyles((
     theme,
-    { size, loading }: Required<ButtonStyleParams>,
+    { size, loading }: Pick<ButtonStyleParams, 'size' | 'loading'>,
 ) => {
     const flexCenter: CSSObject = {
         display: 'flex',

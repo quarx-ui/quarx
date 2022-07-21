@@ -4,7 +4,7 @@ import { CSSObject } from '@emotion/react';
 
 export const useStyles = makeStyles((
     theme,
-    { size, loading }: Required<ButtonStyleParams>,
+    { size, loading }: Pick<ButtonStyleParams, 'size' | 'loading'>,
 ) => {
     const flexCenter: CSSObject = {
         display: 'flex',

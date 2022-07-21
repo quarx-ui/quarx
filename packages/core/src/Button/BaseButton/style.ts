@@ -4,7 +4,7 @@ import { paramsToCss } from '@core/utils/paramsToCss';
 
 export const useStyles = makeStyles((
     { palette, transitions, borders, borderRadii },
-    { type, size, color, borderRadius, loading, disabled }: Required<ButtonStyleParams>,
+    { type, size, color, borderRadius, loading, disabled }: ButtonStyleParams,
 ) => {
     const focusShadow = (shadowColor: string) => `0px 0px 0px 2px ${shadowColor} inset`;
 

@@ -5,7 +5,7 @@ import { LoaderStyleParams } from './types';
 
 export const useStyles = makeStyles((
     theme,
-    { size }: Required<LoaderStyleParams>,
+    { size }: LoaderStyleParams,
 ) => {
     const loaderScale = keyframes({
         '0%': {

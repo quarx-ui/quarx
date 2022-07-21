@@ -14,7 +14,7 @@ export const useStyles = makeStyles((
         hover,
         indeterminate,
         disableFocus,
-    }: Required<CheckboxStyleParams>,
+    }: CheckboxStyleParams,
 ) => {
     const checkboxCheck = keyframes({
         '33%': {

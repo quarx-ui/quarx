@@ -5,7 +5,7 @@ import { RadioButton } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 
-const checkPropsInClasses = (props: RadioButtonStyleParams) => {
+const checkPropsInClasses = (props: Partial<RadioButtonStyleParams>) => {
     const {
         size = 'medium',
         hasError = false,
@@ -19,7 +19,7 @@ const checkPropsInClasses = (props: RadioButtonStyleParams) => {
     expectPropsMapInClasses(radioButton)(propsWithDefault);
 };
 
-const checkProps = (Component: FC) => (checkedProps?: RadioButtonStyleParams) => () => {
+const checkProps = (Component: FC) => (checkedProps?: Partial<RadioButtonStyleParams>) => () => {
     const { asFragment } = render(<Component {...checkedProps}>{Component.displayName}</Component>);
 
     checkPropsInClasses(checkedProps ?? {});

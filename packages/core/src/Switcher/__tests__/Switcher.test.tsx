@@ -5,7 +5,7 @@ import { Switcher, SWITCHER_POSITION } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 
-const checkPropsInClasses = (props: SwitcherStyleParams) => {
+const checkPropsInClasses = (props: Partial<SwitcherStyleParams>) => {
     const {
         size = 'medium',
         hasError = false,
@@ -19,7 +19,7 @@ const checkPropsInClasses = (props: SwitcherStyleParams) => {
     expectPropsMapInClasses(checkbox as HTMLElement)(propsWithDefault);
 };
 
-const checkProps = (Component: FC) => (checkedProps?: SwitcherStyleParams) => () => {
+const checkProps = (Component: FC) => (checkedProps?: Partial<SwitcherStyleParams>) => () => {
     const { asFragment } = render(<Component {...checkedProps}>{Component.displayName}</Component>);
 
     checkPropsInClasses(checkedProps ?? {});

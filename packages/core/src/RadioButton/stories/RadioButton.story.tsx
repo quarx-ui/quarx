@@ -5,7 +5,7 @@ import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Button } from '@core/src/Button';
 import { SX_SIZE } from '@core/enums';
-import { RadioButton, RadioButtonProps } from '.';
+import { RadioButton, RadioButtonProps } from '..';
 
 export default {
     title: 'core/RadioButton',

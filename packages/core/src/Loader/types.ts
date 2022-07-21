@@ -4,7 +4,7 @@ import { ComponentPropsWithHTML } from '@core/types';
 import { LoaderStyleKeys, LoaderStyleParams } from './styles';
 
 export interface LoaderPropsWithoutHtml extends
-    LoaderStyleParams,
+    Partial<LoaderStyleParams>,
     WithClassesAndStyles<LoaderStyleKeys, LoaderStyleParams>
 {
     /** Пользовательский CSS-класс для корневого элемента */

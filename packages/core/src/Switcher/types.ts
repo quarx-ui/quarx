@@ -4,7 +4,7 @@ import { SwitcherStyleParams } from '@core/src/Switcher/styles/types';
 import { SwitcherStyleKeys } from './styles';
 
 export interface SwitcherPropsWithoutHtml extends
-    SwitcherStyleParams,
+    Partial<SwitcherStyleParams>,
     WithClassesAndStyles<SwitcherStyleKeys, SwitcherStyleParams>,
     BaseProps<HTMLLabelElement>
 {

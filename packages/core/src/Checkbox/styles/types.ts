@@ -6,26 +6,26 @@ export type CheckboxColor = Values<typeof CHECKBOX_COLOR>;
 
 export interface CheckboxStyleParams {
     /** Состояние наведения */
-    hover?: boolean,
+    hover: boolean,
 
     /** Цвет компонента */
-    color?: CheckboxColor
+    color: CheckboxColor
 
     /** Размер компонента */
-    size?: SelectionSize,
+    size: SelectionSize,
 
     /** Скругление компонента */
-    borderRadius?: SelectionBorderRadius,
+    borderRadius: SelectionBorderRadius,
 
     /** Состояние компонента */
-    checked?: boolean,
+    checked: boolean,
 
     /** Отключение возможности фокуса */
-    disableFocus?: boolean,
+    disableFocus: boolean,
 
     /** Изменяет состояние компонента на активное/неактивное */
-    disabled?: boolean,
+    disabled: boolean,
 
     /** Состояние неопределенности (неполный выбор) */
-    indeterminate?: boolean,
+    indeterminate: boolean,
 }

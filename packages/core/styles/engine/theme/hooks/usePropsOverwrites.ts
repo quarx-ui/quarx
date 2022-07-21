@@ -4,7 +4,7 @@ import { deepmerge, extractStyles } from '@core/styles/engine/utils';
 import { Permissions } from '@core/types';
 import { useTheme } from './useTheme';
 import { TypedCnFormatter } from './types';
-import { Classes } from '@core/styles/engine';
+import { Classes, Styles } from '@core/styles/engine';
 import { ComponentsProps } from '@core/styles';
 
 /**
@@ -28,7 +28,9 @@ export function usePropsOverwrites<T, StyleKey extends string>(
     name: keyof ComponentsProps,
     props: T & { classes?: Classes<StyleKey> },
 ): {
-        props: T extends Permissions ? Omit<T, 'permissions'> & Permissions['permissions'] : T, // TODO что-то не так с Permissions
+        props: T extends Permissions
+            ? Omit<T, 'permissions'> & Permissions['permissions'] & { styles: Partial<Styles<StyleKey>> }
+            : T & { styles: Partial<Styles<StyleKey>> }, // TODO что-то не так с Permissions
         cn: TypedCnFormatter<StyleKey>,
         name: string
     } {

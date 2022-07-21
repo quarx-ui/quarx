@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { CheckboxProps, Checkbox, CHECKBOX_COLOR } from '.';
+import { CheckboxProps, Checkbox, CHECKBOX_COLOR } from '..';
 
 export default {
     title: 'core/Checkbox',
