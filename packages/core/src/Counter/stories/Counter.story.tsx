@@ -2,8 +2,8 @@ import React from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
-import { Counter, CounterColor, CounterProps, CounterSize, CounterType } from '.';
-import { DisplayVariants } from '../../storybook/DisplayVariants';
+import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { Counter, CounterColor, CounterProps, CounterSize, CounterType } from '..';
 
 const defaultArgs: CounterProps = {
     children: 9,

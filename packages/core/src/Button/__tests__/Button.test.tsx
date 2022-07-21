@@ -5,7 +5,7 @@ import { expectPropsMapInClasses } from '@core/test-utils';
 import { Button, IconButton, BaseButtonProps, ButtonStyleParams } from '..';
 import { PaperClipIcon } from '../stories/assets';
 
-const checkPropsInClasses = (props: ButtonStyleParams) => {
+const checkPropsInClasses = (props: Partial<ButtonStyleParams>) => {
     const {
         size = 'medium',
         borderRadius = 'medium',
@@ -20,7 +20,7 @@ const checkPropsInClasses = (props: ButtonStyleParams) => {
     expectPropsMapInClasses(buttonElement)(propsWithDefault);
 };
 
-const checkProps = (Component: FC, renderedProps?: BaseButtonProps) => (checkedProps?: ButtonStyleParams) => () => {
+const checkProps = (Component: FC, renderedProps?: BaseButtonProps) => (checkedProps?: Partial<ButtonStyleParams>) => () => {
     const { asFragment } = render(<Component {...renderedProps} {...checkedProps} />);
 
     checkPropsInClasses(checkedProps ?? {});

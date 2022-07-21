@@ -5,7 +5,7 @@ import { CounterStyleKeys, CounterStyleParams } from './styles';
 export type MaxDigits = 1 | 2 | 3 | 4;
 
 export interface CounterPropsWithoutHTML extends
-    CounterStyleParams,
+    Partial<CounterStyleParams>,
     WithClassesAndStyles<CounterStyleKeys, CounterStyleParams>
 {
     /** Максимальное количество цифр в счетчике, после превышения этого значения выводятся девятки

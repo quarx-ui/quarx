@@ -8,7 +8,7 @@ export function extractStyles<
     props: Required<Props>,
     theme: Theme,
     styles: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props, Theme>
-) {
+): Partial<Styles<ClassKey>> {
     return typeof styles === 'function'
         ? styles(theme, props)
         : Object

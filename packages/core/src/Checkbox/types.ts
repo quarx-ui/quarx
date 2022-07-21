@@ -5,7 +5,7 @@ import { WithClassesAndStyles } from '@core/styles';
 import { CheckboxStyleKeys, CheckboxStyleParams } from './styles';
 
 export interface CheckboxPropsWithoutHtml extends
-    CheckboxStyleParams,
+    Partial<CheckboxStyleParams>,
     WithClassesAndStyles<CheckboxStyleKeys, CheckboxStyleParams>,
     BaseProps<HTMLLabelElement>
 {

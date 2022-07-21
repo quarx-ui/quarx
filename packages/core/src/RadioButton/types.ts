@@ -5,7 +5,7 @@ import { SelectionProps } from '@core/src';
 import { RadioButtonStyleKeys, RadioButtonStyleParams } from './styles';
 
 export interface RadioButtonPropsWithoutHtml extends
-    RadioButtonStyleParams,
+    Partial<RadioButtonStyleParams>,
     WithClassesAndStyles<RadioButtonStyleKeys, RadioButtonStyleParams>,
     BaseProps<HTMLLabelElement>
 {

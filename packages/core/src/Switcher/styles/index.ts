@@ -5,7 +5,7 @@ import { SwitcherStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette, transitions },
-    { size, checked, hasError, disabled, hover, position, disableFocus }: Required<SwitcherStyleParams>,
+    { size, checked, hasError, disabled, hover, position, disableFocus }: SwitcherStyleParams,
 ) => ({
     wrapper: { display: 'inline-flex' },
 
@@ -161,3 +161,4 @@ export const useStyles = makeStyles((
 }), { name: 'SxSwitcher' });
 
 export type SwitcherStyleKeys = KeysFromUseStyles<typeof useStyles>;
+export * from './types';

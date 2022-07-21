@@ -5,7 +5,7 @@ import { ButtonStyleParams } from '@core/src';
 import { BaseButtonStyleKeys } from './style';
 
 export interface BaseButtonPropsWithoutHtml extends
-    ButtonStyleParams,
+    Partial<ButtonStyleParams>,
     WithClassesAndStyles<BaseButtonStyleKeys, ButtonStyleParams>,
     BaseProps<HTMLButtonElement>
 {
