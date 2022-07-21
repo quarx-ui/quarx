@@ -21,6 +21,7 @@ import {
     Breakpoints,
     Transitions,
     CreateTransitionArg,
+    LinkProps,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import {
@@ -33,18 +34,19 @@ export type DeepPartialWithStyles<Props extends Record<string, any>> = {
 }
 
 export interface ComponentsProps {
-    Counter: CounterProps,
     Badge: BadgeProps,
-    BaseButton: BaseButtonProps,
     Button: ButtonProps,
+    BaseButton: BaseButtonProps,
     IconButton: IconButtonProps,
-    Loader: LoaderProps,
     Checkbox: CheckboxProps,
-    Switcher: SwitcherProps,
-    RadioButton: RadioButtonProps,
-    Selection: SelectionProps,
     CheckboxSelection: CheckboxSelectionProps,
+    Counter: CounterProps,
+    Link: LinkProps,
+    Loader: LoaderProps,
+    RadioButton: RadioButtonProps,
     RadioButtonSelection: RadioButtonSelectionProps,
+    Selection: SelectionProps,
+    Switcher: SwitcherProps,
     SwitcherSelection: SwitcherSelectionProps
 }
 
