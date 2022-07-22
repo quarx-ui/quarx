@@ -1,5 +1,5 @@
-import { ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
-import { ReactChild } from 'react';
+import { OverridableProps, WithClassesAndStyles } from '@core';
+import { ElementType, ReactChild } from 'react';
 import { LinkStyleKeys, LinkStyleParams } from './styles';
 
 export interface LinkPropsWithoutHtml extends
@@ -16,5 +16,5 @@ export interface LinkPropsWithoutHtml extends
     rightItem?: ReactChild,
 }
 
-export type LinkProps = ComponentPropsWithHTML<LinkPropsWithoutHtml, 'a'>
+export type LinkProps<C extends ElementType = 'a'> = OverridableProps<LinkPropsWithoutHtml, C>
 export * from './styles/types';

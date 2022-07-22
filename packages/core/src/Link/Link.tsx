@@ -1,14 +1,15 @@
 /** @jsx jsx */
-import React, { forwardRef } from 'react';
+import React, { ElementType, forwardRef } from 'react';
 import { jsx } from '@emotion/react';
 import { usePropsOverwrites } from '@core/styles';
-import { LinkProps } from './types';
+import { OverridableComponent, OverridableComponentRef } from '@core/types';
+import { LinkProps, LinkPropsWithoutHtml } from './types';
 import { useStyles } from './styles';
 
 /** Ссылка связывает веб-страницы или выступает как более легкий аналог кнопки */
-export const Link = forwardRef<HTMLAnchorElement, LinkProps>((
-    initialProps,
-    ref,
+export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(<C extends ElementType = 'a'>(
+    initialProps: LinkProps<C>,
+    ref: OverridableComponentRef<C>,
 ) => {
     const { props, cn } = usePropsOverwrites('Link', initialProps);
 
@@ -20,9 +21,8 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>((
         leftItem,
         rightItem,
         children,
-        href,
-        hidden,
         styles: externalStyles,
+        component = 'a',
         ...restProps
     } = props;
 
@@ -30,18 +30,20 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>((
 
     const styles = useStyles({ ...params, styles: externalStyles });
 
-    if (hidden) {
+    if (props.hidden) {
         return null;
     }
 
+    const Component = component;
+
     return (
-        <a
+        <Component
             ref={ref}
             className={cn('root', params)}
             css={styles.root}
             aria-disabled={disabled}
+            tabIndex={0}
             {...restProps}
-            href={disabled ? undefined : href}
         >
             {leftItem && (
                 <span
@@ -65,6 +67,6 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>((
                     {rightItem}
                 </span>
             )}
-        </a>
+        </Component>
     );
 });

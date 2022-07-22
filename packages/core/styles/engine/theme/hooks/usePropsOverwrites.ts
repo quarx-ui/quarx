@@ -28,9 +28,7 @@ export function usePropsOverwrites<T, StyleKey extends string>(
     name: keyof ComponentsProps,
     props: T & { classes?: Classes<StyleKey> },
 ): {
-        props: T extends Permissions
-            ? Omit<T, 'permissions'> & Permissions['permissions'] & { styles: Partial<Styles<StyleKey>> }
-            : T & { styles: Partial<Styles<StyleKey>> }, // TODO что-то не так с Permissions
+        props: T & Permissions & { styles: Partial<Styles<StyleKey>> },
         cn: TypedCnFormatter<StyleKey>,
         name: string
     } {
