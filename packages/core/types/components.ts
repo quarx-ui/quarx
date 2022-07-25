@@ -1,16 +1,18 @@
 import { Ref } from 'react';
 
 export interface Permissions {
+    disabled?: boolean,
+    hidden?: boolean,
+}
+
+export interface WithPermissions {
     /** Объект с правами доступа к компоненту
      * @param disabled Изменяет состояние компонента на активное/неактивное
      * @param hidden Удаляет элемент со страницы */
-    permissions?: {
-        disabled?: boolean,
-        hidden?: boolean,
-    },
+    permissions?: Permissions,
 }
 
-export interface BaseProps<ElementType> extends Permissions {
+export interface BaseProps<ElementType> extends WithPermissions {
     /** Ссылка к корневому элементу */
     ref?: Ref<ElementType>,
 
