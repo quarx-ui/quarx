@@ -1,15 +1,12 @@
-import { Values } from '@core/types';
 import { SelectionBorderRadius, SelectionSize } from '@core/src/Selection/types';
-import { CHECKBOX_COLOR } from '../constants';
-
-export type CheckboxColor = Values<typeof CHECKBOX_COLOR>;
+import { PaletteColor } from '@core/styles';
 
 export interface CheckboxStyleParams {
     /** Состояние наведения */
     hover: boolean,
 
     /** Цвет компонента */
-    color: CheckboxColor
+    color?: PaletteColor
 
     /** Размер компонента */
     size: SelectionSize,

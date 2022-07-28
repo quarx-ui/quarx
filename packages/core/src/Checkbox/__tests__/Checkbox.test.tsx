@@ -1,7 +1,7 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { CheckboxStyleParams } from '@core/src/Checkbox/types';
 import React, { FC } from 'react';
-import { Checkbox, CHECKBOX_COLOR } from '@core';
+import { PALETTE_COLORS, Checkbox } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 
@@ -45,8 +45,8 @@ describe('Checkbox snapshots', () => {
     it('disabled', checkRadioProps({ disabled: true }));
 
     // colors
-    Object.values(CHECKBOX_COLOR).forEach((color) => (
-        it(`color-${color}`, checkRadioProps({ color }))
+    Object.values(PALETTE_COLORS).forEach((color) => (
+        it(`color_${color}`, checkRadioProps({ color }))
     ));
 });
 

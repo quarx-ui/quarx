@@ -12,7 +12,7 @@ exports[`CheckboxSelection default snapshot 1`] = `
         class="SxCheckbox SxCheckbox_size_medium SxCheckbox_color_brand SxCheckbox_borderRadius_smooth SxCheckbox_disableFocus css-1ltgxet-SxCheckbox-root"
       >
         <input
-          class="SxCheckbox-input css-947y0r-SxCheckbox-input"
+          class="SxCheckbox-input css-hbt4o1-SxCheckbox-input"
           type="checkbox"
           value=""
         />
@@ -20,10 +20,10 @@ exports[`CheckboxSelection default snapshot 1`] = `
           class="SxCheckbox-checkboxContainer css-z2fv0j-SxCheckbox-checkboxContainer"
         >
           <div
-            class="SxCheckbox-overlay css-18ron9d-SxCheckbox-overlay"
+            class="SxCheckbox-overlay css-210v0f-SxCheckbox-overlay"
           >
             <svg
-              class="SxCheckbox-icon css-mvhp1b-SxCheckbox-icon"
+              class="SxCheckbox-icon css-2t7ry-SxCheckbox-icon"
               fill="currentcolor"
               height="8"
               viewBox="0 0 11 8"

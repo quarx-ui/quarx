@@ -1,9 +1,7 @@
 import React, { createRef, FC, forwardRef, MouseEventHandler, useState } from 'react';
-import { CHECKBOX_COLOR, Selection } from '@core';
+import { Selection } from '@core';
 import { usePropsOverwrites } from '@core/styles';
 import { Checkbox, CheckboxSelectionProps } from '.';
-
-// TODO: После всех видов кнопок доработать
 
 export const CheckboxSelection: FC<CheckboxSelectionProps> = forwardRef<HTMLDivElement, CheckboxSelectionProps>((
     initialProps,
@@ -11,7 +9,6 @@ export const CheckboxSelection: FC<CheckboxSelectionProps> = forwardRef<HTMLDivE
 ) => {
     const { props, cn } = usePropsOverwrites('CheckboxSelection', initialProps);
     const {
-        errorText,
         size,
         borderRadius,
         disabled,
@@ -50,9 +47,7 @@ export const CheckboxSelection: FC<CheckboxSelectionProps> = forwardRef<HTMLDivE
                 <Checkbox
                     inputRef={checkboxRef}
                     checked={checked}
-                    color={errorText
-                        ? CHECKBOX_COLOR.danger
-                        : CHECKBOX_COLOR.brand}
+                    color={checkboxProps?.color}
                     size={size}
                     hover={hover}
                     disabled={checkboxRef.current?.disabled || disabled}
