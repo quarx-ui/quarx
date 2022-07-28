@@ -12,7 +12,6 @@ RadioButtonSelectionProps
 ) => {
     const { props, cn } = usePropsOverwrites('RadioButtonSelection', initialProps);
     const {
-        errorText,
         disabled,
         size,
         focused: externalFocus,
@@ -49,9 +48,9 @@ RadioButtonSelectionProps
             leftAdornment={(
                 <RadioButton
                     inputRef={radioButtonRef}
-                    hasError={!!errorText}
                     disabled={radioButtonRef.current?.disabled || disabled}
                     disableFocus
+                    color={radioButtonProps?.color}
                     checked={checked}
                     hover={hover}
                     size={size}

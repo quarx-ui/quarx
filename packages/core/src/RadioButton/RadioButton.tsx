@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { SX_SIZE } from '@core/enums';
-import { usePropsOverwrites } from '@core';
+import { PALETTE_COLORS, usePropsOverwrites } from '@core';
 import { useStyles } from './styles';
 import { RadioButtonProps } from './types';
 
@@ -13,7 +13,7 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
     const { props, cn } = usePropsOverwrites('RadioButton', initialProps);
     const {
         children,
-        hasError = false,
+        color = PALETTE_COLORS.brand,
         styles: externalStyles,
         disableFocus = false,
         size = SX_SIZE.medium,
@@ -35,9 +35,9 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
 
     const params = {
         size,
+        color,
         disableFocus,
         hover: externalHover ?? hover,
-        hasError,
         disabled,
         checked: checked ?? false,
     };
