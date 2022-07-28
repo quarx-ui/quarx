@@ -1,2 +1,2 @@
-export { testRootCn } from './testRootCn';
+export { expectRootCn } from './expectRootCn';
 export * from './testBEM';

@@ -64,7 +64,7 @@ module.exports = {
                 ignorePattern: 'd="(.)*$',
             },
         ],
-        indent: [...indent, { SwitchCase: 1 }],
+        indent: 'off',
         'react/jsx-indent': indent,
         'react/jsx-indent-props': indent,
         curly: ['error', 'all'],

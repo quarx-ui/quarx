@@ -44,7 +44,7 @@ export const useStyles = makeStyles((
                     [underlineColor]: 'transparent',
                 },
             }),
-            size && typography.Text[size].Medium,
+            size && size !== 'inherit' && typography.Text[size].Medium,
             disabled && {
                 '&&': {
                     cursor: 'not-allowed',

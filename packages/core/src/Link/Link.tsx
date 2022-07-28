@@ -16,8 +16,8 @@ export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(
     const {
         underline = 'always',
         color = 'info',
-        size,
-        disabled,
+        size = 'inherit',
+        disabled = false,
         leftItem,
         rightItem,
         children,
