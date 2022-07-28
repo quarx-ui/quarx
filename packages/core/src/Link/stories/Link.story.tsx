@@ -71,6 +71,7 @@ interface StoryType extends LinkProps {
 }
 
 const sizeToLeftItem: Record<LinkSize, ReactChild> = {
+    inherit: <Gear16 />,
     S: <Gear16 />,
     M: <Gear16 />,
     L: <Gear24 />,
@@ -78,6 +79,7 @@ const sizeToLeftItem: Record<LinkSize, ReactChild> = {
 };
 
 const sizeToRightItem: Record<LinkSize, ReactChild> = {
+    inherit: <ChevronRight16 />,
     S: <ChevronRight16 />,
     M: <ChevronRight16 />,
     L: <ChevronRight24 />,
@@ -196,7 +198,8 @@ UseInText.parameters = {
         description: {
             story: 'При использовании внутри предложения ссылка может принимать стили шрифта того текста, '
                 + 'в котором она расположена.<br/>'
-                + 'Для достижения этого поведения достаточно не указывать параметр `size`.',
+                + 'Для достижения этого поведения достаточно не указывать параметр `size`'
+                + ' или указать значение `inherit`.',
         },
     },
 };

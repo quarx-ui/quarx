@@ -1,7 +1,7 @@
 import { PaletteColor, Typography } from '@core';
 import { LINK_UNDERLINE } from '../constants';
 
-export type LinkSize = keyof Typography['Text'];
+export type LinkSize = keyof Typography['Text'] | 'inherit';
 export type LinkColor = PaletteColor;
 export type LinkUnderline = keyof typeof LINK_UNDERLINE;
 
@@ -24,9 +24,12 @@ export interface LinkStyleParams {
 
     /** Размер и стили текста в ссылке
      *
-     * По умолчанию стили текста наследуются от родительского блока */
-    size?: LinkSize,
+     * По умолчанию стили текста наследуются от родительского блока
+     * @default inherit */
+    size: LinkSize,
 
-    /** Изменяет состояние компонента на активное/неактивное. Отключает обработчики событий */
-    disabled?: boolean,
+    /** Изменяет состояние компонента на активное/неактивное. Отключает обработчики событий
+     *
+     * @default false */
+    disabled: boolean,
 }
