@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { CheckboxProps, Checkbox, CHECKBOX_COLOR } from '..';
+import { PALETTE_COLORS } from '@core/styles';
+import { CheckboxProps, Checkbox } from '..';
 
 export default {
     title: 'core/Checkbox',
@@ -27,7 +28,7 @@ export default {
         ...BASE_ARG_TYPES,
     },
     args: {
-        color: CHECKBOX_COLOR.brand,
+        color: PALETTE_COLORS.brand,
         disabled: false,
         indeterminate: false,
         borderRadius: 'smooth',
@@ -79,7 +80,7 @@ export const ColorsParams: Story<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
     return DisplayVariants({
         property: 'color',
-        values: Object.values(CHECKBOX_COLOR),
+        values: Object.values(PALETTE_COLORS),
         component: Checkbox,
         componentProps: {
             ...props,

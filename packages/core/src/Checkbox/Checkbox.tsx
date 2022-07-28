@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
-import { usePropsOverwrites } from '@core/styles';
-import { CHECKBOX_COLOR } from '@core/src';
+import { usePropsOverwrites, PALETTE_COLORS } from '@core/styles';
 import { useStyles } from './styles';
 import { CheckboxProps } from './types';
 import { CheckIconSmall, CheckIconMedium, CheckIconLarge } from './assets';
@@ -30,7 +29,7 @@ export const Checkbox: FC<CheckboxProps> = forwardRef<HTMLLabelElement, Checkbox
     const { props, cn } = usePropsOverwrites('Checkbox', initialProps);
     const {
         hover: externalHover,
-        color = CHECKBOX_COLOR.brand,
+        color = PALETTE_COLORS.brand,
         styles: externalStyles,
         children,
         size = 'medium',
