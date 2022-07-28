@@ -1,20 +1,20 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { SwitcherStyleParams } from '@core/src/Switcher/types';
 import React, { FC } from 'react';
-import { Switcher, SWITCHER_POSITION } from '@core';
+import { PALETTE_COLORS, Switcher, SWITCHER_POSITION } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 
 const checkPropsInClasses = (props: Partial<SwitcherStyleParams>) => {
     const {
         size = 'medium',
-        hasError = false,
+        color = PALETTE_COLORS.brand,
         disabled = false,
         position = SWITCHER_POSITION.left,
     } = props;
     const checkbox = document.querySelector('label');
     if (!checkbox) { return; }
-    const propsWithDefault = { size, disabled, hasError, position };
+    const propsWithDefault = { size, disabled, color, position };
 
     expectPropsMapInClasses(checkbox as HTMLElement)(propsWithDefault);
 };
@@ -39,7 +39,10 @@ describe('Switcher snapshots', () => {
     it('right', checkSwitcherProps({ position: SWITCHER_POSITION.right }));
     it('checked', checkSwitcherProps({ checked: true }));
     it('disabled', checkSwitcherProps({ disabled: true }));
-    it('hasError', checkSwitcherProps({ hasError: true }));
+
+    Object.values(PALETTE_COLORS).forEach((color) => (
+        it(`color_${color}`, checkSwitcherProps({ color }))
+    ));
 });
 
 describe('Switcher', () => {

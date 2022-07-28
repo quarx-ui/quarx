@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
-import { SWITCHER_POSITION, SX_SIZE, usePropsOverwrites } from '@core';
+import { PALETTE_COLORS, SWITCHER_POSITION, SX_SIZE, usePropsOverwrites } from '@core';
 import { SwitcherProps } from './types';
 import { useStyles } from './styles';
 
@@ -14,7 +14,7 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
         styles: externalStyles,
         checked = false,
         size = SX_SIZE.medium,
-        hasError = false,
+        color = PALETTE_COLORS.brand,
         disabled = false,
         hidden = false,
         hover: externalHover,
@@ -37,7 +37,7 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
     const params = {
         size,
         checked,
-        hasError,
+        color,
         disabled,
         disableFocus,
         hover: externalHover ?? hover,

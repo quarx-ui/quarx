@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
-import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
+import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { PALETTE_COLORS } from '@core/styles';
 import { Switcher, SWITCHER_POSITION, SwitcherProps } from '..';
 
 export default {
@@ -16,7 +17,7 @@ export default {
     },
     argTypes: {
         size: { description: 'Размер компонента' },
-        hasError: { description: 'Изменяет цвет компонента уведомляя об ошибке' },
+        color: { description: 'Изменяет цвет компонента' },
         disabled: { description: 'Изменяет состояние компонента на активное/неактивное' },
         position: {
             description: 'Позиция переключателя относительно текста',
@@ -25,22 +26,22 @@ export default {
         ...BASE_ARG_TYPES,
     },
     args: {
-        hasError: false,
         size: 'medium',
+        color: PALETTE_COLORS.brand,
         disabled: false,
         position: SWITCHER_POSITION.left,
     },
 };
 
-export const Sandbox: Story<SwitcherProps> = (props) => {
-    const [checked, setChecked] = useState(false);
+export const Sandbox: Story<SwitcherProps> = ({ checked: externalChecked, ...props }) => {
+    const [checked, setChecked] = useState(externalChecked);
 
     return (
         <div style={{ width: 'max-content' }}>
             <Switcher
                 {...props}
                 checked={checked}
-                onChange={(e) => setChecked(e.currentTarget.checked)}
+                onChange={() => setChecked(!checked)}
             >
                 Switcher
             </Switcher>
@@ -64,16 +65,33 @@ export const Sizes: Story<SwitcherProps> = (props) => {
     });
 };
 
-export const BooleanParams: Story<SwitcherProps> = (props) => {
+export const DisabledParam: Story<SwitcherProps> = (props) => {
     const [checked, setChecked] = useState(false);
 
-    return DisplayVariantsMap({
-        variants: {
-            disabled: [true],
-            hasError: [true],
+    return DisplayVariants({
+        property: 'disabled',
+        title: {
+            type: 'value',
+            isShown: true,
+            size: 'primary',
         },
-        optionTitle: { isShown: false },
-        direction: 'vertical',
+        values: [false, true],
+        component: Switcher,
+        componentProps: {
+            ...props,
+            checked,
+            onChange: (e) => setChecked(e.currentTarget.checked),
+            children: 'Switcher',
+        },
+    });
+};
+
+export const ColorParam: Story<SwitcherProps> = (props) => {
+    const [checked, setChecked] = useState(false);
+
+    return DisplayVariants({
+        property: 'color',
+        values: Object.values(PALETTE_COLORS),
         component: Switcher,
         componentProps: {
             ...props,
@@ -86,7 +104,9 @@ export const BooleanParams: Story<SwitcherProps> = (props) => {
 
 Sandbox.storyName = 'Компонент';
 Sizes.storyName = 'Размеры';
-BooleanParams.storyName = 'Boolean параметры';
+DisabledParam.storyName = 'Disabled параметр';
+ColorParam.storyName = 'Цветовая палитра';
 
 Sizes.argTypes = excludeProp(['size']);
-BooleanParams.argTypes = excludeProp(['disabled', 'hasError']);
+DisabledParam.argTypes = excludeProp(['disabled']);
+ColorParam.argTypes = excludeProp(['color']);

@@ -1,4 +1,4 @@
-import { Values } from '@core';
+import { PaletteColor, Values } from '@core';
 import { SWITCHER_POSITION } from '@core/src/Switcher/constants';
 import { SelectionSize } from '@core/src/Selection/types';
 
@@ -11,8 +11,8 @@ export interface SwitcherStyleParams {
     /** Размер компонента */
     size: SelectionSize,
 
-    /** Изменяет цвет компонента уведомляя об ошибке */
-    hasError: boolean,
+    /** Цвет компонента */
+    color?: PaletteColor
 
     /** Изменяет состояние компонента на активное/неактивное */
     disabled: boolean,

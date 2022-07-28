@@ -3,19 +3,175 @@
 exports[`Switcher snapshots checked 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_checked SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_checked SxSwitcher_color_brand SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
   >
     <input
       checked=""
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-l734dd-SxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-1ngaasa-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-1nbamv2-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-1ptvyo4-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-1t5k4kc-SxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
+    >
+      Switcher
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher snapshots color_brand 1`] = `
+<DocumentFragment>
+  <label
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_brand SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+  >
+    <input
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxSwitcher-toggleContainer css-8xldro-SxSwitcher-toggleContainer"
+    >
+      <div
+        class="SxSwitcher-toggle css-t65zul-SxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
+    >
+      Switcher
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher snapshots color_danger 1`] = `
+<DocumentFragment>
+  <label
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_danger SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+  >
+    <input
+      class="SxSwitcher-input css-3nzwjc-SxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxSwitcher-toggleContainer css-1ez7a4f-SxSwitcher-toggleContainer"
+    >
+      <div
+        class="SxSwitcher-toggle css-kswp3k-SxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
+    >
+      Switcher
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher snapshots color_info 1`] = `
+<DocumentFragment>
+  <label
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_info SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+  >
+    <input
+      class="SxSwitcher-input css-3nzwjc-SxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxSwitcher-toggleContainer css-d9c9gc-SxSwitcher-toggleContainer"
+    >
+      <div
+        class="SxSwitcher-toggle css-16w0ojw-SxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
+    >
+      Switcher
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher snapshots color_secondary 1`] = `
+<DocumentFragment>
+  <label
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_secondary SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+  >
+    <input
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxSwitcher-toggleContainer css-8xldro-SxSwitcher-toggleContainer"
+    >
+      <div
+        class="SxSwitcher-toggle css-t65zul-SxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
+    >
+      Switcher
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher snapshots color_success 1`] = `
+<DocumentFragment>
+  <label
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_success SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+  >
+    <input
+      class="SxSwitcher-input css-3nzwjc-SxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxSwitcher-toggleContainer css-17qetkm-SxSwitcher-toggleContainer"
+    >
+      <div
+        class="SxSwitcher-toggle css-1o8o7jk-SxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
+    >
+      Switcher
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher snapshots color_warning 1`] = `
+<DocumentFragment>
+  <label
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_warning SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+  >
+    <input
+      class="SxSwitcher-input css-3nzwjc-SxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="SxSwitcher-toggleContainer css-85tozd-SxSwitcher-toggleContainer"
+    >
+      <div
+        class="SxSwitcher-toggle css-1vfzg2j-SxSwitcher-toggle"
       />
     </div>
     <div
@@ -30,18 +186,18 @@ exports[`Switcher snapshots checked 1`] = `
 exports[`Switcher snapshots default 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_brand SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
   >
     <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-1mgcxk5-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-8xldro-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-1x8frt1-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-t65zul-SxSwitcher-toggle"
       />
     </div>
     <div
@@ -56,45 +212,19 @@ exports[`Switcher snapshots default 1`] = `
 exports[`Switcher snapshots disabled 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_disabled SxSwitcher_position_left css-1k2y62n-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_brand SxSwitcher_disabled SxSwitcher_position_left css-1k2y62n-SxSwitcher-root"
   >
     <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
       disabled=""
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-c6essj-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-1a6eus6-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-1od9uj4-SxSwitcher-toggle"
-      />
-    </div>
-    <div
-      class="SxSwitcher-content css-1l3e5z1-SxSwitcher-content"
-    >
-      Switcher
-    </div>
-  </label>
-</DocumentFragment>
-`;
-
-exports[`Switcher snapshots hasError 1`] = `
-<DocumentFragment>
-  <label
-    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_hasError SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
-  >
-    <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
-      type="checkbox"
-      value=""
-    />
-    <div
-      class="SxSwitcher-toggleContainer css-mt5fuv-SxSwitcher-toggleContainer"
-    >
-      <div
-        class="SxSwitcher-toggle css-1x8frt1-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-18nmlbv-SxSwitcher-toggle"
       />
     </div>
     <div
@@ -109,18 +239,18 @@ exports[`Switcher snapshots hasError 1`] = `
 exports[`Switcher snapshots large 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_large SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_large SxSwitcher_color_brand SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
   >
     <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-1kgkia8-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-1oh5429-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-lc2zte-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-tf5mmy-SxSwitcher-toggle"
       />
     </div>
     <div
@@ -135,18 +265,18 @@ exports[`Switcher snapshots large 1`] = `
 exports[`Switcher snapshots medium 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_brand SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
   >
     <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-1mgcxk5-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-8xldro-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-1x8frt1-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-t65zul-SxSwitcher-toggle"
       />
     </div>
     <div
@@ -161,7 +291,7 @@ exports[`Switcher snapshots medium 1`] = `
 exports[`Switcher snapshots right 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_position_right css-vhioa4-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_brand SxSwitcher_position_right css-vhioa4-SxSwitcher-root"
   >
     <div
       class="SxSwitcher-content css-62pq4b-SxSwitcher-content"
@@ -169,15 +299,15 @@ exports[`Switcher snapshots right 1`] = `
       Switcher
     </div>
     <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-1mgcxk5-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-8xldro-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-1x8frt1-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-t65zul-SxSwitcher-toggle"
       />
     </div>
   </label>
@@ -187,18 +317,18 @@ exports[`Switcher snapshots right 1`] = `
 exports[`Switcher snapshots small 1`] = `
 <DocumentFragment>
   <label
-    class="SxSwitcher SxSwitcher_size_small SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+    class="SxSwitcher SxSwitcher_size_small SxSwitcher_color_brand SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
   >
     <input
-      class="SxSwitcher-input css-140mpmz-SxSwitcher-input"
+      class="SxSwitcher-input css-nqu1gl-SxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="SxSwitcher-toggleContainer css-1uhjeho-SxSwitcher-toggleContainer"
+      class="SxSwitcher-toggleContainer css-1rut7ph-SxSwitcher-toggleContainer"
     >
       <div
-        class="SxSwitcher-toggle css-1edh9e7-SxSwitcher-toggle"
+        class="SxSwitcher-toggle css-19tqbzf-SxSwitcher-toggle"
       />
     </div>
     <div
