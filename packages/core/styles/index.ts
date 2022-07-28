@@ -1,4 +1,5 @@
 export * from './typography';
 export * from './engine';
 
-export { colors } from './colors';
+export { colors, BASE_COLORS } from './colors';
+export type { BaseColors } from './colors';

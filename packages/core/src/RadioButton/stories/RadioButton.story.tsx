@@ -1,18 +1,19 @@
-import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
+import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Button } from '@core/src/Button';
 import { SX_SIZE } from '@core/enums';
+import { BASE_COLORS } from '@core/styles';
 import { RadioButton, RadioButtonProps } from '..';
 
 export default {
     title: 'core/RadioButton',
     component: RadioButton,
     argTypes: {
-        hasError: {
-            description: 'Изменяет цвет компонента уведомляя об ошибке',
+        color: {
+            description: 'Изменяет цвет компонента',
         },
         size: {
             description: 'Размер компонента',
@@ -26,11 +27,11 @@ export default {
         ...BASE_ARG_TYPES,
     },
     args: {
-        hasError: false,
         size: 'medium',
         disableFocus: false,
         disabled: false,
         children: 'Доставка на дом',
+        color: BASE_COLORS.brand,
     },
     parameters: {
         actions: { disable: true },
@@ -38,24 +39,20 @@ export default {
     },
 };
 
-export const Sandbox: Story<RadioButtonProps> = ({ hasError, ...props }) => (
+export const Sandbox: Story<RadioButtonProps> = ({ checked, ...props }) => (
     <>
-        <RadioButton
-            hasError={hasError}
-            {...props}
-        >
-            <>{props.checked?.toString()}</>
+        <RadioButton checked={checked} {...props}>
+            <>{checked?.toString()}</>
         </RadioButton>
     </>
 );
 
-export const OuterCheckedState: Story<RadioButtonProps> = ({ hasError, ...props }) => {
+export const OuterCheckedState: Story<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
 
     return (
         <>
             <RadioButton
-                hasError={hasError}
                 name="StoryBool"
                 onChange={() => {
                     setBool((prevState) => !prevState);
@@ -81,22 +78,32 @@ export const OuterCheckedState: Story<RadioButtonProps> = ({ hasError, ...props 
 export const BooleanParams: Story<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
 
-    return DisplayVariantsMap({
-        variants: {
-            hasError: [true],
-            disabled: [true],
-        },
-        optionTitle: {
-            isShown: false,
-        },
-        direction: 'vertical',
-        component: RadioButton,
-        componentProps: {
-            ...props,
-            checked: bool,
-            onChange: () => setBool((prev) => !prev),
-        },
-    });
+    return (
+        <>
+            {DisplayVariantsMap({
+                variants: {
+                    disabled: [true],
+                },
+                optionTitle: {
+                    isShown: false,
+                },
+                direction: 'vertical',
+                component: RadioButton,
+                componentProps: {
+                    ...props,
+                    checked: bool,
+                    onChange: () => setBool((prev) => !prev),
+                },
+            })}
+            <Button
+                onClick={() => { setBool((prevState) => !prevState); }}
+                style={{ marginTop: 10 }}
+                size={SX_SIZE.small}
+            >
+                {bool ? 'Деактивировать' : 'Активировать'}
+            </Button>
+        </>
+    );
 };
 
 export const Sizes: Story<RadioButtonProps> = (props) => {
@@ -119,5 +126,5 @@ OuterCheckedState.storyName = 'Внешнее управление компон�
 BooleanParams.storyName = 'Boolean параметры';
 Sizes.storyName = 'Размеры';
 
-BooleanParams.argTypes = excludeProp(['hasError', 'disabled']);
+BooleanParams.argTypes = excludeProp(['disabled']);
 Sizes.argTypes = excludeProp(['size']);

@@ -1,4 +1,4 @@
-import { valuesAsKeysFromArray } from '@core';
+import { valuesAsKeysFromArray } from '@core/utils';
 
 export const CHECKBOX_COLOR = valuesAsKeysFromArray([
     'brand',

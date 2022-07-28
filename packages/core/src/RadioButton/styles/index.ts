@@ -1,10 +1,18 @@
 import { KeysFromUseStyles, makeStyles, typography } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { BASE_COLORS } from '@core/styles';
 import { RadioButtonStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette, transitions },
-    { size, hover, disableFocus, hasError, disabled, checked }: RadioButtonStyleParams,
+    {
+        color = BASE_COLORS.brand,
+        size,
+        hover,
+        disableFocus,
+        disabled,
+        checked,
+    }: RadioButtonStyleParams,
 ) => ({
     root: [
         {
@@ -26,23 +34,15 @@ export const useStyles = makeStyles((
         },
         !disableFocus && {
             '&:focus-visible + .SxRadioButton-marker': {
-                borderWidth: 2,
+                borderWidth: 3,
                 borderColor: palette.border.focus.dark,
+                outline: 'none',
             },
         },
-        !checked && !hasError && !disableFocus && !disabled && {
+        !checked && !disableFocus && !disabled && {
             '&:focus-visible + .SxRadioButton-marker': {
                 backgroundColor: 'transparent',
-            },
-        },
-        checked && !hasError && !disableFocus && {
-            '&:focus-visible + .SxRadioButton-marker': {
-                backgroundColor: palette.colors.brand.default,
-            },
-        },
-        checked && hasError && !disableFocus && {
-            '&:focus-visible + .SxRadioButton-marker': {
-                backgroundColor: palette.colors.danger.default,
+                outline: 'none',
             },
         },
     ],
@@ -54,10 +54,9 @@ export const useStyles = makeStyles((
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            // backgroundColor: palette.RadioButton.enabled.bg,
-            border: `1px solid ${palette.border.secondary}`,
             transition: transitions.create(['background-color', 'border-color']),
         },
+
         paramsToCss(size)({
             small: {
                 height: 16,
@@ -73,51 +72,74 @@ export const useStyles = makeStyles((
             },
         }),
 
-        checked && {
-            backgroundColor: palette.colors.brand.default,
-            borderColor: 'transparent',
-        },
-        hover && checked && {
-            backgroundColor: palette.colors.brand.hover,
-        },
-        hasError && {
-            borderColor: palette.colors.danger.default,
-        },
-        hasError && checked && {
-            backgroundColor: palette.colors.danger.default,
-        },
-        (disabled || (disabled && hasError)) && {
-            backgroundColor: palette.text.tertiary,
-            borderColor: 'transparent',
+        paramsToCss(color)({
+            [color]: {
+                border: '2px solid',
+                borderColor: palette.colors[color].default,
+                ...checked && {
+                    backgroundColor: palette.colors[color].default,
+                    borderColor: 'transparent',
+                },
+                ...checked && hover && {
+                    backgroundColor: palette.colors[color].hover,
+                },
+            },
+            [BASE_COLORS.brand]: {
+                border: '1px solid',
+                borderColor: palette.border.secondary,
+                ...checked && {
+                    backgroundColor: palette.colors[color].default,
+                    borderColor: palette.colors[color].default,
+                },
+                ...checked && hover && {
+                    borderColor: palette.colors[color].hover,
+                    backgroundColor: palette.colors[color].hover,
+                },
+            },
+        }),
+
+        disabled && {
+            border: '1px solid',
+            borderColor: palette.disabled.border,
         },
         disabled && checked && {
-            backgroundColor: palette.text.tertiary,
+            borderColor: 'transparent',
+            backgroundColor: palette.disabled.bg,
         },
     ],
+
     markerDot: [
         {
             position: 'absolute',
             borderRadius: '100%',
-            width: 8,
-            height: 8,
             backgroundColor: 'transparent',
             transition: transitions.create('background-color'),
         },
-        size === 'small' && {
-            width: 6,
-            height: 6,
-        },
-        disabled && {
-            backgroundColor: 'transparent',
-        },
-        (checked || (checked && !hasError) || (checked && disabled))
-            && {
-                backgroundColor: palette.text.constant,
+
+        paramsToCss(size)({
+            [size]: {
+                width: 8,
+                height: 8,
             },
-        !checked && !disabled && hover && {
-            backgroundColor: palette.border.secondary,
-        },
+            small: {
+                width: 6,
+                height: 6,
+            },
+        }),
+
+        paramsToCss(color)({
+            [color]: {
+                backgroundColor: palette.colors[color].contrastText,
+                ...hover && !checked && {
+                    backgroundColor: palette.text.tertiary,
+                },
+                ...disabled && {
+                    backgroundColor: palette.colors[color].contrastText,
+                },
+            },
+        }),
     ],
+
     content: [
         {
             marginLeft: 12,
