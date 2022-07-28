@@ -9,7 +9,7 @@ exports[`SwitcherSelection default snapshot 1`] = `
       class="SxSelection-leftAdornment css-wgw2ok-SxSelection-leftAdornment"
     >
       <label
-        class="SxSwitcher SxSwitcher_size_medium SxSwitcher_disableFocus SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
+        class="SxSwitcher SxSwitcher_size_medium SxSwitcher_color_brand SxSwitcher_disableFocus SxSwitcher_position_left css-vhioa4-SxSwitcher-root"
       >
         <input
           class="SxSwitcher-input css-e36pxu-SxSwitcher-input"
@@ -17,10 +17,10 @@ exports[`SwitcherSelection default snapshot 1`] = `
           value=""
         />
         <div
-          class="SxSwitcher-toggleContainer css-1mgcxk5-SxSwitcher-toggleContainer"
+          class="SxSwitcher-toggleContainer css-8xldro-SxSwitcher-toggleContainer"
         >
           <div
-            class="SxSwitcher-toggle css-1x8frt1-SxSwitcher-toggle"
+            class="SxSwitcher-toggle css-t65zul-SxSwitcher-toggle"
           />
         </div>
       </label>
