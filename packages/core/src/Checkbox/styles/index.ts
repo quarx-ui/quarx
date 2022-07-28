@@ -1,14 +1,34 @@
-import { CHECKBOX_COLOR, KeysFromUseStyles, makeStyles, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, typography } from '@core';
 import { keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { BASE_COLORS } from '@core/styles';
+import { SelectionSize } from '@core/src/Selection/styles';
 import { CheckboxStyleParams } from './types';
+
+const CheckMarkOffset: Record<
+SelectionSize,
+Record<'base' | 'brandColor', number>
+> = {
+    small: {
+        base: 1,
+        brandColor: 2,
+    },
+    medium: {
+        base: 1.5,
+        brandColor: 2.5,
+    },
+    large: {
+        base: 2,
+        brandColor: 3,
+    },
+};
 
 export const useStyles = makeStyles((
     { palette, transitions },
     {
         size,
         borderRadius,
-        color,
+        color = BASE_COLORS.brand,
         disabled,
         checked,
         hover,
@@ -24,6 +44,7 @@ export const useStyles = makeStyles((
             width: '100%',
         },
     });
+
     return ({
         root: [
             {
@@ -63,7 +84,7 @@ export const useStyles = makeStyles((
                 },
             },
             paramsToCss(color)({
-                [CHECKBOX_COLOR.brand]: {
+                [BASE_COLORS.brand]: {
                     border: '1px solid',
                     backgroundColor: palette.background.main,
                     borderColor: palette.border.secondary,
@@ -94,13 +115,13 @@ export const useStyles = makeStyles((
             paramsToCss(borderRadius, size)({
                 square: {
                     small: {
-                        borderRadius: 2,
+                        borderRadius: 4,
                     },
                     medium: {
-                        borderRadius: 2,
+                        borderRadius: 4,
                     },
                     large: {
-                        borderRadius: 2,
+                        borderRadius: 4,
                     },
                 },
                 smooth: {
@@ -129,8 +150,7 @@ export const useStyles = makeStyles((
                 position: 'absolute',
                 display: 'block',
                 top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
+                transform: 'translateY(-50%)',
                 opacity: 0,
                 fill: 'currentColor',
                 color: palette.border.secondary,
@@ -142,10 +162,21 @@ export const useStyles = makeStyles((
                 ...checked && {
                     color: palette.colors[color].contrastText,
                 },
-                ...indeterminate && {
-                    backgroundColor: palette.colors[color].contrastText,
-                },
             },
+
+            paramsToCss(color)({
+                [color]: {
+                    ...paramsToCss(size)({
+                        [size]: { left: CheckMarkOffset[size].base },
+                    }),
+                },
+                [BASE_COLORS.brand]: {
+                    ...paramsToCss(size)({
+                        [size]: { left: CheckMarkOffset[size].brandColor },
+                    }),
+                },
+            }),
+
             (checked || hover) && {
                 opacity: 1,
             },
@@ -155,11 +186,13 @@ export const useStyles = makeStyles((
             },
 
             indeterminate && {
+                top: '50%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 width: 8,
                 height: 2,
                 borderRadius: 4,
+                backgroundColor: palette.colors[color].contrastText,
             },
             indeterminate && hover && !checked && {
                 backgroundColor: palette.border.secondary,
@@ -171,7 +204,6 @@ export const useStyles = makeStyles((
         overlay: [
             {
                 position: 'absolute',
-                left: 0,
                 width: 0,
                 height: '100%',
                 overflow: 'hidden',
@@ -195,11 +227,22 @@ export const useStyles = makeStyles((
             },
             !disableFocus && {
                 '&:focus-visible + .SxCheckbox-checkboxContainer': {
-                    boxShadow: `inset 0 0 0 1px ${palette.border.focus.dark}`,
                     borderColor: palette.border.focus.dark,
                     outline: 'none',
                 },
             },
+            !disableFocus && paramsToCss(color)({
+                [color]: {
+                    '&:focus-visible + .SxCheckbox-checkboxContainer': {
+                        boxShadow: `inset 0px 0px 0px 1px ${palette.border.focus.dark}`,
+                    },
+                },
+                [BASE_COLORS.brand]: {
+                    '&:focus-visible + .SxCheckbox-checkboxContainer': {
+                        boxShadow: `inset 0px 0px 0px 2px ${palette.border.focus.dark}`,
+                    },
+                },
+            }),
         ],
         content: [
             {

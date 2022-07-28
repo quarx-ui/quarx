@@ -2,7 +2,6 @@ import { KeysFromUseStyles, makeStyles, typography } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { BASE_COLORS } from '@core/styles';
 import { RadioButtonStyleParams } from './types';
-import { BASE_COLORS } from '@core/styles';
 
 export const useStyles = makeStyles((
     { palette, transitions },
