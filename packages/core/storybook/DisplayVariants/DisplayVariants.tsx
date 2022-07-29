@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { createID } from '@core';
+import { createID } from '@quarx-ui/core';
 import {
     Title,
     TitleOfContainer,

@@ -10,7 +10,6 @@ export const SwitcherSelection: FC<SwitcherSelectionProps> = forwardRef<HTMLDivE
     const {
         focused: externalFocus,
         switcherProps,
-        errorText,
         disabled,
         size,
         onMouseLeave,
@@ -45,7 +44,7 @@ export const SwitcherSelection: FC<SwitcherSelectionProps> = forwardRef<HTMLDivE
             leftAdornment={(
                 <Switcher
                     inputRef={switcherRef}
-                    hasError={!!errorText}
+                    color={switcherProps?.color}
                     disabled={switcherRef.current?.disabled || disabled}
                     checked={checked}
                     hover={hover}
