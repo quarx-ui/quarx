@@ -5,13 +5,9 @@ import { TestSelectionProps } from '@e2e/src/Selection/types';
 
 export const SwitcherSelection: FC<TestSelectionProps> = ({
     rightAdornment,
-    hasError,
     ...props
 }) => (
     <KitSwitcherSelection
-        switcherProps={{
-            hasError,
-        }}
         rightAdornment={rightAdornment === true ? <PaperClipIcon /> : undefined}
         {...props}
     />

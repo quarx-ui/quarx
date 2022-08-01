@@ -10,7 +10,7 @@ const fromString = (value: string) => {
         return false;
     }
 
-    if (!Number.isNaN(Number(value))) {
+    if (!Number.isNaN(Number(value)) && value !== '') {
         return Number(value);
     }
     return value;

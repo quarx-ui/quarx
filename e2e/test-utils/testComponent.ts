@@ -1,30 +1,9 @@
 import * as pw from '@playwright/test';
 import { ComponentsListTypes } from '@e2e/constants';
-import { ExtendedPropsType, PropsType, TestComponentPropsMapArg } from '@e2e/test-utils/types';
-import { compareSnapshots } from '@e2e/test-utils/compareSnapshots';
-import { joinToName, createCommonScreenNames, runSeriesPromises, runSeriesComparisons } from '@e2e/test-utils/helpers';
+import { PropsType, TestComponentPropsMapArg } from '@e2e/test-utils/types';
+import { runSeriesComparisons } from '@e2e/test-utils/helpers';
 
-export const testComponent = (component: ComponentsListTypes) => (
-    testName: string,
-    props: Array<ExtendedPropsType> | ExtendedPropsType,
-) => {
-    pw.test(testName, async ({ page }) => {
-        const compareSnaps = compareSnapshots(page, component);
-
-        if (Array.isArray(props)) {
-            const propsWithTestName = createCommonScreenNames(component, testName, props);
-
-            await runSeriesPromises(propsWithTestName, compareSnaps);
-        } else {
-            await compareSnaps({
-                ...props,
-                screenName: joinToName([component, testName, props.postfix]),
-            });
-        }
-    });
-};
-
-export function testComponentPropsMap<Props = PropsType>(component: ComponentsListTypes) {
+export function testComponentProps<Props = PropsType>(component: ComponentsListTypes) {
     return (testName: string, options: TestComponentPropsMapArg<Props>) => {
         const {
             targetProps,
@@ -34,6 +13,8 @@ export function testComponentPropsMap<Props = PropsType>(component: ComponentsLi
             beforeSnap,
             state,
             timeout,
+            groupBy,
+            disableSnapIfHeaded,
         } = options;
 
         const commonProps = {
@@ -45,15 +26,17 @@ export function testComponentPropsMap<Props = PropsType>(component: ComponentsLi
             timeout,
         };
 
-        pw.test(testName, async ({ page }) => {
-            await runSeriesComparisons<Props>(
-                page,
+        pw.test(testName, async ({ page, headless }) => {
+            await runSeriesComparisons<Props>({
                 component,
                 targetProps,
                 commonProps,
                 testName,
-                state,
-            );
+                postfix: state,
+                groupBy,
+                disableSnapIfHeaded,
+                testParams: { page, headless },
+            });
         });
     };
 }

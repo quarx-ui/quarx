@@ -15,7 +15,8 @@ export function getStringFromProps<Props = PropsType>(props: Props) {
 
 export function getURLFromProps<Props = PropsType>(
     component: ComponentsListTypes,
-    props: Props,
+    props?: Props,
 ) {
-    return `/${component}--${getStringFromProps(props)}`;
+    const stringFromProps = getStringFromProps(props);
+    return `/${component}${stringFromProps ? `--${stringFromProps}` : ''}`;
 }

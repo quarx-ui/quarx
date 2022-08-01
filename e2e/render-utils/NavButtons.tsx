@@ -16,7 +16,7 @@ export const NavButtons: FC<{ renderProps: Record<string, PropValueType>, compon
         >
             <Button
                 size="small"
-                borderRadius="square"
+                borderRadius="xSmall"
             >
                 Home
             </Button>
@@ -27,7 +27,7 @@ export const NavButtons: FC<{ renderProps: Record<string, PropValueType>, compon
         >
             <Button
                 size="small"
-                borderRadius="square"
+                borderRadius="xSmall"
             >
                 Render
             </Button>

@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig, devices } from '@playwright/test';
 
 const baseURL = 'http://localhost:6013/';
-const deviceScaleFactor = 2;
+const deviceScaleFactor = 3;
 
 const config: PlaywrightTestConfig = {
     timeout: 60000,

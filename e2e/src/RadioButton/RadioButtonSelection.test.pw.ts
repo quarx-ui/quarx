@@ -9,6 +9,7 @@ test('RadioButtonSelection', async ({ compareSnapshotsMap, compareSnapshots }) =
             size: ['small', 'medium', 'large'],
             checked: [false],
             disabled: [true],
+            color: ['secondary', 'success', 'info', 'warning', 'danger'],
         },
         commonProps: {
             title: 'RadioButtonSelection',
@@ -24,6 +25,7 @@ test('RadioButtonSelection', async ({ compareSnapshotsMap, compareSnapshots }) =
         },
         state: 'hover',
         postfix: 'hover',
+        groupBy: ['postfix'],
     });
 
     await compareSnapshots({
@@ -32,5 +34,6 @@ test('RadioButtonSelection', async ({ compareSnapshotsMap, compareSnapshots }) =
         },
         state: 'focus',
         postfix: 'focus',
+        groupBy: ['postfix'],
     });
 });
