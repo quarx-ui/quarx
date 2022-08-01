@@ -8,7 +8,7 @@ test('RadioButton', async ({ compareSnapshotsMap }) => {
         targetProps: {
             checked: [false],
             size: ['small', 'medium', 'large'],
-            hasError: [true],
+            color: ['secondary', 'success', 'info', 'warning', 'danger'],
         },
         commonProps: {
             checked: true,
@@ -19,9 +19,9 @@ test('RadioButton', async ({ compareSnapshotsMap }) => {
     await compareSnapshotsMap({
         targetProps: {
             disabled: [false],
-            hasError: [true],
             hover: [true],
             checked: [false],
+            color: ['secondary', 'success', 'info', 'warning', 'danger'],
         },
         commonProps: {
             disabled: true,
@@ -35,7 +35,7 @@ test('RadioButton', async ({ compareSnapshotsMap }) => {
     await compareSnapshotsMap({
         targetProps: {
             checked: [false],
-            hasError: [true],
+            color: ['secondary', 'success', 'info', 'warning', 'danger'],
         },
         commonProps: {
             checked: true,
@@ -48,7 +48,7 @@ test('RadioButton', async ({ compareSnapshotsMap }) => {
     await compareSnapshotsMap({
         targetProps: {
             checked: [false],
-            hasError: [true],
+            color: ['secondary', 'success', 'info', 'warning', 'danger'],
         },
         commonProps: {
             checked: true,

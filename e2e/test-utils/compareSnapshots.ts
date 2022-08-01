@@ -1,10 +1,17 @@
-import { Page, expect } from '@playwright/test';
+import {
+    expect, Page,
+    PlaywrightTestArgs,
+    PlaywrightWorkerOptions,
+} from '@playwright/test';
 import { ComponentsListTypes } from '@e2e/constants';
 import { CompareSnapshotsMapArg, ExtendedPropsType, PropsType } from '@e2e/test-utils/types';
 import { getURLFromProps } from '@e2e/utils';
-import { joinToName, runSeriesComparisons } from '@e2e/test-utils/helpers';
+import { runSeriesComparisons } from '@e2e/test-utils/helpers';
+import { getScreenPath } from '@e2e/test-utils/screenName';
 
-export function compareSnapshots<Props = PropsType>(page: Page, component: ComponentsListTypes) {
+type CompareSnapshotsOptions = Partial<PlaywrightTestArgs & PlaywrightWorkerOptions> & { page: Page }
+
+export function compareSnapshots<Props = PropsType>({ page, headless }: CompareSnapshotsOptions, component: ComponentsListTypes) {
     return async (options: ExtendedPropsType<Props>) => {
         const {
             postfix,
@@ -14,9 +21,20 @@ export function compareSnapshots<Props = PropsType>(page: Page, component: Compo
             state,
             props,
             beforeSnap,
+            testName,
             timeout,
+            groupBy = {},
+            disableSnapIfHeaded = true,
         } = options;
-        const screenName = extScreenName ?? joinToName([component, postfix]);
+
+        const screenName = typeof extScreenName === 'string'
+            ? `${extScreenName}.jpeg`
+            : extScreenName ?? getScreenPath({
+                component,
+                postfix,
+                testName,
+                groupBy,
+            });
 
         await page.goto(getURLFromProps(component, props));
         const element = await page.locator(uniqSelector);
@@ -43,12 +61,13 @@ export function compareSnapshots<Props = PropsType>(page: Page, component: Compo
 
         await beforeSnap?.(page);
 
+        if (disableSnapIfHeaded && headless === false) { return; }
+
         const screenshot = await element.screenshot({
             type: 'jpeg',
             quality,
         });
-        await expect(await screenshot)
-            .toMatchSnapshot(`${screenName}.jpeg`);
+        await expect(await screenshot).toMatchSnapshot(screenName);
     };
 }
 
@@ -60,11 +79,13 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             uniqSelector,
             commonProps: extCommonProps,
             testName = component,
-            page,
+            testParams,
             state,
             postfix,
             beforeSnap,
             timeout,
+            groupBy,
+            disableSnapIfHeaded = true,
         } = options;
 
         const commonProps = {
@@ -76,13 +97,15 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             timeout,
         };
 
-        await runSeriesComparisons<Props>(
-            page,
+        await runSeriesComparisons<Props>({
+            testParams,
             component,
             targetProps,
             commonProps,
             testName,
             postfix,
-        );
+            groupBy,
+            disableSnapIfHeaded,
+        });
     };
 }

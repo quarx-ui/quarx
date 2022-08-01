@@ -1,11 +1,7 @@
-import { PropsArray, ExtendedPropsType, PropsType } from '@e2e/test-utils/types';
-import { ComponentsListTypes, PropValueType, SEPARATORS } from '@e2e/constants';
+import { PropsArray, ExtendedPropsType, PropsType, TestParams, BaseProps } from '@e2e/test-utils/types';
+import { ComponentsListTypes } from '@e2e/constants';
 import { compareSnapshots } from '@e2e/test-utils/compareSnapshots';
-import { Page } from '@playwright/test';
-
-export const joinToName = (parts: Array<PropValueType>) => parts
-    .filter((part) => part !== undefined)
-    .join(SEPARATORS.NAME);
+import { createScreenNames } from '@e2e/test-utils/screenName';
 
 export async function runSeriesPromises<Props = PropsType>(
     iterable: Array<ExtendedPropsType<Props>>,
@@ -17,16 +13,6 @@ export async function runSeriesPromises<Props = PropsType>(
         await action(x);
     }
 }
-
-export const createCommonScreenNames = (
-    component: ComponentsListTypes,
-    testName: string,
-    props: Array<ExtendedPropsType>,
-) => props
-    .map((propsEl, index) => ({
-        ...propsEl,
-        screenName: joinToName([component, testName, (propsEl.postfix ?? index)]),
-    }));
 
 export const flatArray = (array: Array<any>) => array.reduce((acc, value) => {
     if (Array.isArray(value)) {
@@ -49,24 +35,6 @@ export const convertProps = (props: PropsArray) => {
     return { props: flatArray(convertedProps) };
 };
 
-export function createScreenNames<Props = PropsType>(
-    testName: string,
-    component: string,
-    props: { props: Array<Props> },
-    postfix?: string,
-): Array<ExtendedPropsType<Props>> {
-    return props.props
-        .map((prop) => {
-            const property = Object.entries(prop)
-                .reduce((acc, propEl) => propEl);
-
-            return ({
-                props: prop,
-                screenName: joinToName([testName, (component !== testName ? component : undefined), ...property, postfix]),
-            });
-        });
-}
-
 export function injectCommonProps<Props = PropsType>(
     srcProps: Array<ExtendedPropsType<Props>>,
     commonProps: ExtendedPropsType<Props>,
@@ -82,17 +50,37 @@ export function injectCommonProps<Props = PropsType>(
         }));
 }
 
-export async function runSeriesComparisons<Props = PropsType>(
-    page: Page,
+export interface RunSeriesComparisonsOptions<Props = PropsType> extends Pick<BaseProps, 'groupBy' | 'disableSnapIfHeaded'> {
+    testParams: TestParams,
     component: ComponentsListTypes,
     targetProps: PropsArray<Props>,
     commonProps: ExtendedPropsType<Props>,
     testName: string,
     postfix?: string,
-) {
-    const compareSnaps = compareSnapshots<Props>(page, component);
+}
+
+export async function runSeriesComparisons<Props = PropsType>(options: RunSeriesComparisonsOptions<Props>) {
+    const {
+        testParams,
+        component,
+        targetProps,
+        commonProps,
+        testName,
+        postfix,
+        groupBy = {},
+    } = options;
+
+    const { page, headless } = testParams;
+
+    const compareSnaps = compareSnapshots<Props>({ page, headless }, component);
     const convertedProps = convertProps(targetProps as PropsArray);
-    const propsWithScreenNames = createScreenNames<Props>(testName, component, convertedProps, postfix);
+    const propsWithScreenNames = createScreenNames<Props>({
+        testName,
+        component,
+        props: convertedProps,
+        postfix,
+        groupBy,
+    });
     const propsWithCommon = injectCommonProps<Props>(propsWithScreenNames, commonProps);
 
     await runSeriesPromises<Props>(propsWithCommon, compareSnaps);
