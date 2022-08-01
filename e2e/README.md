@@ -12,6 +12,7 @@
    - [Кастомизация компонентов](#кастомизация-компонентов)
 3. [Использование утилит для написания тестов](#использование-утилит-для-написания-тестов)
     - [initTest](#initTest)
+    - [groupby](#groupby)
     - [test](#test)
         - [compareSnapshotsMap](#compareSnapshotsMap)
         - [compareSnapshots](#compareSnapshots)
@@ -174,14 +175,14 @@ export const Button: FC<TestButtonProps> = ({
 ```ts
 import { ButtonProps } from '@kit';
 
-export interface TestButtonProps extends Omit<ButtonProps, 'leftIcon' | 'rightIcon'> {
+export type TestButtonProps = TestComponentProps<ButtonProps, {
     leftIcon?: boolean,
     rightIcon?: boolean,
-}
+}>
 ```
 
 В данном примере можно отметить сразу несколько моментов:
-* Интерфейс `TestButtonProps` переписывает дефолтный интерфейс компонента `Button`, заменяя тип целевых свойств на  `boolean`, что позволит в тесте путем передачи `true`/`false` включить/отключить иконку.
+* Тип `TestComponentProps` переписывает дефолтный интерфейс `ButtonProps` компонента `Button`, заменяя тип целевых свойств на  `boolean`, что позволит в тесте путем передачи `true`/`false` включить/отключить иконку.
 * Можно установить значения по умолчанию для некоторых свойств, что позволит не передавать в каждом тесте одни и те же состояния, в данном случае для свойства `children` устанавливается строка `'Button'`.
 * Компонент `Button` из данного файла необходимо поместить в объект `COMPONENTS` в файле `src/index.ts` вместо импортируемого из сборки:
 
@@ -204,15 +205,74 @@ export const COMPONENTS = {
 
 ### initTest
 
-В начале теста происходит инициализация с помощью функции `initTest`, которая принимает название тестируемого компонента и возвращает объект с утилитами:
+В начале теста происходит инициализация с помощью функции `initTest`, которая принимает название тестируемого компонента, объект с конфигурацией и возвращает объект с утилитами:
 ```ts
 import { initTest } from '@e2e/test-utils/initTest';
 import { TestButtonProps } from '../types';
 
-const { test, testProps } = initTest<TestButtonProps>('Button'); 
+const { test, testProps } = initTest<TestButtonProps>('Button', {
+    groupBy: ['testName', 'props', 'value', 'postfix'],
+}); 
 ```
 
 Для дополнительной типизации принимаемых утилит можно передать интерфейс тестируемого компонента. В данном случае используется кастомный интерфейс `TestButtonProps`, который был создан в примере выше.
+
+Объект конфигурации можно использовать для настройки сортировки скриншотов по папкам с помощью свойства `groupBy`, которое будет применено ко всем функциям, возвращаемым `initTest` с возможностью переопределения.
+
+---
+
+### groupBy
+
+По умолчанию сортировка происходит по названию свойства (`props`) и значению(`value`), то есть если тестируется свойство `size` со значениями `small`, `medium` и `large` то скриншоты будут отсортированы следующим образом:
+
+```
+└── size
+   ├── small
+      ├── [screen].jpeg
+      ├── [screen].jpeg
+      └── [screen].jpeg
+      
+   ├── medium
+      ├──[screen].jpeg
+      ├──[screen].jpeg
+      └──[screen].jpeg
+      
+   └── large
+      ├──[screen].jpeg
+      ├──[screen].jpeg
+      └──[screen].jpeg
+```
+
+Но при необходимости данное поведение можно переопределить как для всех тестов, так и для конкретного (интерфейс не отличается). Указать нужные ключи можно двумя способами:
+
+```ts
+groupBy = {
+   testName: true,
+   props: true,
+   value: true,
+   postfix: true,
+}
+```
+
+```ts
+groupBy = ['testName', 'props', 'value', 'postfix'];
+```
+
+В первом случае, передается объект с `boolean`-значением для каждого ключа, где `true` включит конкретный ключ в сортировку (непереданные ключи принимают значение `false`). Во втором случае, используется массив ключей, которые будут включены в сортировку. В обоих случаях порядок указания ключей не важен.
+
+При одновременном включении всех ключей будет выстроена следующая структура:
+
+```
+└── testName
+   └── property
+      └── value
+         └── postfix
+            ├── [screen].jpeg
+            ├── [screen].jpeg
+            └── [screen].jpeg
+```
+
+При отсутствии какого-либо ключа или значения он исключается из структуры. Например, если мы указали сортировку по ключу `postfix`, но не передано для него значение, то данный ключ не будет использован.
 
 ---
 
@@ -259,6 +319,7 @@ await compareSnapshotsMap({
     timeout: 100,
     state: 'focus',
     postfix: 'focus',
+    groupBy: ['postfix'],
 });
 ```
 
@@ -269,6 +330,7 @@ await compareSnapshotsMap({
 * `postfix` - строка, которая будет добавлена в названии каждого скриншота
 * `beforeSnap` - функция, которая будет выполнена перед созданием скриншота (если передан `timeout`, функция будет вызвана после него)
 * `quality` - качество создаваемых скриншотов, числовое значение 0-100
+* `groupBy` - разбивка скриншотов по папкам [(см. выше)](#groupBy)
 
 #### compareSnapshots
 ```ts
@@ -287,10 +349,12 @@ await compareSnapshots({
 
 #### toMatchSnapshot
 ```ts
-await toMatchSnapshot('Button-screenName');
-await toMatchSnapshot('Button-screenName-second', '#uniqSelectorToComponent');
+await toMatchSnapshot('screenName');
+await toMatchSnapshot('screenName-second', '#uniqSelectorToComponent');
 ```
-Данная функция создаст скриншот с именем `Button-screenName.jpeg`. Если селектор не указан (второй аргумент), поиск компонента будет осуществлен по имени класса `.SxComponentName`.
+Данная функция создаст скриншот с именем `[testName]-[componentName]-screenName.jpeg`. Если селектор не указан (второй аргумент), поиск компонента будет осуществлен по имени класса `.SxComponentName`.
+
+При указании сортировки скриншотов по ключу `testName`, скриншот будет помещен в папку с названием теста.
 
 #### setProps
 ```ts

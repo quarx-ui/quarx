@@ -24,6 +24,7 @@ test('RadioButtonSelection', async ({ compareSnapshotsMap, compareSnapshots }) =
         },
         state: 'hover',
         postfix: 'hover',
+        groupBy: ['postfix'],
     });
 
     await compareSnapshots({
@@ -32,5 +33,6 @@ test('RadioButtonSelection', async ({ compareSnapshotsMap, compareSnapshots }) =
         },
         state: 'focus',
         postfix: 'focus',
+        groupBy: ['postfix'],
     });
 });
