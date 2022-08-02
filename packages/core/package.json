@@ -32,6 +32,11 @@
     "jss-plugin-vendor-prefixer": "^10.9.0",
     "uuid": "^3.4.0"
   },
+  "devDependencies": {
+    "react-input-mask": "^2.0.4",
+    "react-number-format": "^4.9.1",
+    "@types/react-input-mask": "^2.0.5"
+  },
   "peerDependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -45,8 +50,5 @@
     "build:esm": "BABEL_ENV=buildES babel ./ --root-mode upward --out-dir build/esm --copy-files --no-copy-ignored --extensions .ts,.tsx,.svg,.js,.json,.log,.md,.snap,.png --delete-dir-on-start --no-comments",
     "build:d.ts": "ttsc --outDir build --emitDeclarationOnly true",
     "build:clean": "rm -rf build/esm/build && rm -f build/tsconfig.json && rm -f build/*.log && rm -f build/esm/tsconfig.json && rm -f build/esm/*.log"
-  },
-  "devDependencies": {
-    "@types/react-input-mask": "^3.0.0"
   }
 }
