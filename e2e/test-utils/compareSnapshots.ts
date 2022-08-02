@@ -2,7 +2,8 @@ import { Page, expect } from '@playwright/test';
 import { ComponentsListTypes } from '@e2e/constants';
 import { CompareSnapshotsMapArg, ExtendedPropsType, PropsType } from '@e2e/test-utils/types';
 import { getURLFromProps } from '@e2e/utils';
-import { joinToName, runSeriesComparisons } from '@e2e/test-utils/helpers';
+import { runSeriesComparisons } from '@e2e/test-utils/helpers';
+import { getScreenPath } from '@e2e/test-utils/screenName';
 
 export function compareSnapshots<Props = PropsType>(page: Page, component: ComponentsListTypes) {
     return async (options: ExtendedPropsType<Props>) => {
@@ -14,9 +15,19 @@ export function compareSnapshots<Props = PropsType>(page: Page, component: Compo
             state,
             props,
             beforeSnap,
+            testName,
             timeout,
+            groupBy = {},
         } = options;
-        const screenName = extScreenName ?? joinToName([component, postfix]);
+
+        const screenName = typeof extScreenName === 'string'
+            ? `${extScreenName}.jpeg`
+            : extScreenName ?? getScreenPath({
+                component,
+                postfix,
+                testName,
+                groupBy,
+            });
 
         await page.goto(getURLFromProps(component, props));
         const element = await page.locator(uniqSelector);
@@ -47,8 +58,7 @@ export function compareSnapshots<Props = PropsType>(page: Page, component: Compo
             type: 'jpeg',
             quality,
         });
-        await expect(await screenshot)
-            .toMatchSnapshot(`${screenName}.jpeg`);
+        await expect(await screenshot).toMatchSnapshot(screenName);
     };
 }
 
@@ -65,6 +75,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             postfix,
             beforeSnap,
             timeout,
+            groupBy,
         } = options;
 
         const commonProps = {
@@ -83,6 +94,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             commonProps,
             testName,
             postfix,
+            groupBy,
         );
     };
 }
