@@ -1,14 +1,15 @@
+import { PaletteColor } from '@core/styles';
 import { SelectionSize } from '@core/src/Selection/types';
 
 export interface RadioButtonStyleParams {
     /** Состояние наведения */
     hover: boolean,
 
+    /** Цвет компонента */
+    color?: PaletteColor,
+
     /** Состояние компонента */
     checked: boolean,
-
-    /** Наличие ошибки */
-    hasError: boolean,
 
     /** Размер компонента */
     size: SelectionSize,

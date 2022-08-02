@@ -1,20 +1,20 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { RadioButtonStyleParams } from '@core/src/RadioButton/types';
 import React, { FC } from 'react';
-import { RadioButton } from '@core';
+import { PALETTE_COLORS, RadioButton } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';
 
 const checkPropsInClasses = (props: Partial<RadioButtonStyleParams>) => {
     const {
         size = 'medium',
-        hasError = false,
+        color = 'brand',
         disableFocus = false,
         disabled = false,
     } = props;
     const radioButton = document.querySelector('label');
     if (!radioButton) { return; }
-    const propsWithDefault = { size, disabled, hasError, disableFocus };
+    const propsWithDefault = { size, disabled, color, disableFocus };
 
     expectPropsMapInClasses(radioButton)(propsWithDefault);
 };
@@ -39,7 +39,10 @@ describe('RadioButton snapshots', () => {
     it('checked', checkRadioProps({ checked: true }));
     it('disabled', checkRadioProps({ disabled: true }));
     it('disableFocus', checkRadioProps({ disableFocus: true }));
-    it('hasError', checkRadioProps({ hasError: true }));
+
+    Object.values(PALETTE_COLORS).forEach((color) => (
+        it(`color_${color}`, checkRadioProps({ color }))
+    ));
 });
 
 describe('RadioButton', () => {

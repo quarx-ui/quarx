@@ -1,8 +1,10 @@
 import { valuesAsKeysFromArray } from '@core/utils';
 
-export const CHECKBOX_COLOR = valuesAsKeysFromArray([
+export const PALETTE_COLORS = valuesAsKeysFromArray([
     'brand',
+    'secondary',
+    'info',
     'success',
     'warning',
     'danger',
-]);
+])
