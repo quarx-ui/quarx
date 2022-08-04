@@ -4,7 +4,7 @@ import {
     ElevationsColorFc,
     ElevationOption,
     ElevationOptions,
-    ElevationStrings
+    ElevationStrings, ElevationsInsetFc, ElevationsCreateFc
 } from '@core/styles/engine/theme/elevations/types';
 import { changeOpacity, valuesFromShadow } from '../../utils';
 import { DARKEST } from '../palette';
@@ -129,28 +129,26 @@ export const createElevations: CreateElevations = (elevationsOps, palette) => {
         ...(elevationsOps ?? {}),
     }
 
-    const setColor: ElevationsColorFc = (color) => ({
-        xSmall: getShadowFromColor(color, defaultOps.xSmall, paletteColor),
-        small: getShadowFromColor(color, defaultOps.small, paletteColor),
-        medium: getShadowFromColor(color, defaultOps.medium, paletteColor),
-        large: getShadowFromColor(color, defaultOps.large, paletteColor),
-        xLarge: getShadowFromColor(color, defaultOps.xLarge, paletteColor),
-        inset: {
-            xSmall: getShadowFromColor(color, defaultOps.xSmall, paletteColor, true),
-            small: getShadowFromColor(color, defaultOps.small, paletteColor, true),
-            medium: getShadowFromColor(color, defaultOps.medium, paletteColor, true),
-            large: getShadowFromColor(color, defaultOps.large, paletteColor, true),
-            xLarge: getShadowFromColor(color, defaultOps.xLarge, paletteColor, true),
-        },
-    });
+    const elevations = getShadowsObj(defaultOps, paletteColor);
 
-    const elevations = getShadowsObj(defaultOps, paletteColor)
+    const setColor: ElevationsColorFc = (color, size = 'medium') => getShadowFromColor(color, defaultOps[size], paletteColor);
+    const inset: ElevationsInsetFc = (size = 'medium') => getShadows(defaultOps[size], paletteColor, true);
+    const create: ElevationsCreateFc = (options = {}) => {
+        const {
+            color = paletteColor,
+            size = 'medium',
+            inset = false,
+        } = options;
+
+        return getShadows(defaultOps[size], color, inset);
+    }
 
     return {
-        setColor,
         ...DEFAULT_ELEVATIONS,
         ...elevations,
-        inset: getShadowsObj(defaultOps, paletteColor, true),
+        setColor,
+        inset,
+        create,
     }
 }
 
