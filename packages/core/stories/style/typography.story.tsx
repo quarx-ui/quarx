@@ -137,9 +137,9 @@ export const Examples: Story = () => (
                 <RowContent>
                     <pre>
                         {` 
-         styled.h1(\` 
-            \${typography.Text.L.Regular} 
-         \`) 
+styled.h1(\` 
+\${typography.Text.L.Regular} 
+\`) 
                                 `}
                     </pre>
                 </RowContent>
@@ -149,9 +149,9 @@ export const Examples: Story = () => (
                 <RowContent>
                     <pre>
                         {` 
-         styled.h1({ 
-            ...typography.Text.L.Regular, 
-         }) 
+styled.h1({ 
+...typography.Text.L.Regular, 
+}) 
                                 `}
                     </pre>
                 </RowContent>
@@ -161,9 +161,9 @@ export const Examples: Story = () => (
                 <RowContent>
                     <pre>
                         {` 
-         styled('h1')({ 
-            ...typography.Text.M.Semibold, 
-         }) 
+styled('h1')({ 
+    ...typography.Text.M.Semibold, 
+}) 
                                 `}
                     </pre>
                 </RowContent>
@@ -173,23 +173,11 @@ export const Examples: Story = () => (
                 <RowContent>
                     <pre>
                         {` 
-         makeStylesKit({ 
-            someCssClass: { 
-                ...typography.Text.S.Regular, 
-            } 
-         }) 
-                                `}
-                    </pre>
-                </RowContent>
-            </Row>
-            <Row>
-                <RowTitle>QuarX (styledKit):</RowTitle>
-                <RowContent>
-                    <pre>
-                        {` 
-         styledKit('h1')({ 
-            ...typography.Text.M.Medium, 
-         }) 
+makeStyles({ 
+    someCssClass: { 
+        ...typography.Text.S.Regular, 
+    } 
+})
                                 `}
                     </pre>
                 </RowContent>
@@ -202,14 +190,15 @@ Examples.parameters = {
     docs: {
         description: {
             story: 'Применение объекта typography внутри другого объекта '
-                + '(передаваемого в styled, makeStylesKit и так далее) '
+                + '(передаваемого в styled, makeStyles, и так далее) '
                 + 'осуществляется с помощью spread-оператора, '
                 + 'например, `...typography.Text.XL.Medium`.\n\n'
                 + 'При необходимости можно использовать отдельные свойства из объекта, например, '
                 + '`fontSize: typography.Text.XL.Semibold.fontSize`.\n\n'
-                + 'Далее приведены примеры использования объекта типографики в различных фреймворках:',
+                + 'Далее приведены примеры использования объекта типографики с библиотеками: '
+                + '`emotion`, `material-ui` и `QuarX`:',
         },
     },
 };
 
-Examples.storyName = 'Примеры использования';
+Examples.storyName = 'Применение';
