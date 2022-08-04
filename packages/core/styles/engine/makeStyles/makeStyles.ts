@@ -1,7 +1,7 @@
 import { css, CSSObject } from '@emotion/react';
 import { MakeStylesOptions } from './types';
 import { useTheme, Theme as DefaultTheme } from '../theme';
-import { extractStyles, StylesWithCallback, StylesCallback } from '@core/styles';
+import { extractStyles, StylesWithCallback, StylesCallback, Styles } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
 
 /** Функция для создания стилей компонента с использованием глобальной темы и переданных параметров
@@ -23,7 +23,7 @@ export function makeStyles<
     Props extends {},
     Theme extends DefaultTheme = DefaultTheme,
     ClassKey extends string = string
->(styles: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props, Theme>, options: MakeStylesOptions = {}): keyof Props extends never
+>(styles: Partial<Styles<ClassKey>> | StylesCallback<ClassKey, Props, Theme>, options: MakeStylesOptions = {}): keyof Props extends never
     ? (props?: any) => StylesMap<ClassKey>
     : (props: Props & {
         styles?: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props, Theme>
@@ -33,7 +33,10 @@ export function makeStyles<
 
         const { name = 'makeStyles' } = options;
 
-        const stylesObject = extractStyles(props, theme as Theme, styles);
+        // const stylesObject = extractStyles(props, theme as Theme, styles);
+        const stylesObject = typeof styles === 'function'
+            ? styles(theme as Theme, props)
+            : styles
         const overwrites = extractStyles(props, theme as Theme, props?.styles);
 
         return Object.entries(stylesObject)
