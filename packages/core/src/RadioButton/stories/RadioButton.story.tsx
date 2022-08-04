@@ -9,6 +9,7 @@ import { PALETTE_COLORS } from '@core/styles';
 import { RadioButton, RadioButtonProps } from '..';
 
 export default {
+
     title: 'core/RadioButton',
     component: RadioButton,
     argTypes: {
