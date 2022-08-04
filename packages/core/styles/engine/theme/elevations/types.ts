@@ -16,11 +16,19 @@ export type ElevationOption = {
 
 export type ElevationOptions = ElevationOption | Array<ElevationOption> | string
 
-export type ElevationsColorFc = (color: CSSObject['color']) => Omit<Elevations, 'setColor'>;
+export type ElevationsColorFc = (color: CSSObject['color'], size?: ElevationSize) => string;
+export type ElevationsInsetFc = (size?: ElevationSize) => string
+export interface ElevationsCreateArg {
+    color?: string,
+    size?: ElevationSize,
+    inset?: boolean
+}
+export type ElevationsCreateFc = (options?: ElevationsCreateArg) => string
 
 export type CreateElevationArg = Partial<Record<ElevationSize, ElevationOptions>>
 export interface Elevations extends ElevationStrings {
     setColor: ElevationsColorFc,
-    inset: ElevationStrings,
+    inset: ElevationsInsetFc,
+    create: ElevationsCreateFc
 }
 export type CreateElevations = (options?: CreateElevationArg, palette?: CreatePaletteArg) => Elevations
