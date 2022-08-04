@@ -21,7 +21,7 @@ export default {
                 description: 'Заливка компонента',
             },
             color: {
-                description: 'Цветовое решение',
+                description: 'Цвет',
             },
         }),
         ...defineCategory('Внутренние элементы', {
