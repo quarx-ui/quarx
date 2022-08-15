@@ -69,6 +69,7 @@ export default {
             placeholder: {},
             counter: {},
             counterVisibleOn: {},
+            bottomIsAbsolute: {},
             errorText: {},
             internalErrors: {},
             helperText: {},
