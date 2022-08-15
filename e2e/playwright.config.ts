@@ -4,7 +4,7 @@ const baseURL = 'http://localhost:6013/';
 const deviceScaleFactor = 3;
 
 const config: PlaywrightTestConfig = {
-    timeout: 60000,
+    timeout: 60 * 1000,
     testDir: './',
     projects: [
         {

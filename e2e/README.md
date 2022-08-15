@@ -450,6 +450,12 @@ yarn run e2e:serve
 
 **[http://localhost:6013/Button--color=secondary;size=small;borderRadius=square](http://localhost:6013/Button--color=secondary;size=small;borderRadius=square)**.
 
+Если удобнее после команды `e2e:build` сразу запускать `e2e:serve`, то можно воспользоваться одной командой:
+
+```shell
+yarn run e2e:run
+```
+
 ---
 
 ### Алиасы
