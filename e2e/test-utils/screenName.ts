@@ -14,7 +14,7 @@ export const joinToName = (parts: Array<PropValueType>, component?: ComponentsLi
             const valueArr = String(el)
                 .split(' ');
 
-            if (valueArr.length > 3) {
+            if (valueArr.length > 2) {
                 return 'text';
             }
 
@@ -64,7 +64,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
     const path = externalPath ?? [
         groupByTestName ? testName : undefined,
         groupByProps ? property : undefined,
-        groupByValue ? value : undefined,
+        groupByValue ? joinToName([value]) : undefined,
         groupByPostfix ? postfix : undefined,
     ]
         .filter((el) => el !== undefined)

@@ -33,7 +33,8 @@
     "test:e2e:webkit": "cd e2e && yarn test --project=webkit",
     "e2e:init": "cd e2e && yarn run test:init",
     "e2e:build": "cd e2e && yarn run e2e:build",
-    "e2e:serve": "cd e2e && yarn run e2e:serve"
+    "e2e:serve": "cd e2e && yarn run e2e:serve",
+    "e2e:run": "cd e2e && yarn run e2e:run"
   },
   "workspaces": [
     "packages/*"
