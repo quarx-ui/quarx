@@ -2,14 +2,14 @@ import React, {
     ChangeEventHandler,
     ClipboardEventHandler,
     FC,
-    forwardRef, Ref,
+    forwardRef, Ref, useLayoutEffect,
     useState,
 } from 'react';
 import { BaseTextFieldProps, TextFieldRefType } from '@core/src/TextField/types';
 import { mergeRefs } from '@core/utils/mergeRefs';
 
-const listenRowsChanges = (currentTarget: HTMLTextAreaElement, ref: TextFieldRefType | null, maxRows?: number) => {
-    if (!currentTarget || !ref) { return; }
+const listenRowsChanges = (ref: TextFieldRefType | null, maxRows?: number) => {
+    if (!ref || !maxRows) { return; }
 
     const refStyles = window.getComputedStyle(ref);
     const lineHeight = parseInt(refStyles.lineHeight, 10);
@@ -17,7 +17,7 @@ const listenRowsChanges = (currentTarget: HTMLTextAreaElement, ref: TextFieldRef
     // eslint-disable-next-line no-param-reassign
     ref.style.height = 'unset';
 
-    const { scrollHeight } = currentTarget;
+    const { scrollHeight } = ref;
     const rowsLength = Math.round(scrollHeight / lineHeight);
 
     if (maxRows && rowsLength > maxRows) {
@@ -56,16 +56,20 @@ const BaseTextField: FC<BaseTextFieldProps> = forwardRef<TextFieldRefType, BaseT
     const [innerInputRef, setInnerInputRef] = useState<TextFieldRefType | null>(null);
 
     const onChangeTextArea: ChangeEventHandler<HTMLTextAreaElement> = (e) => {
-        listenRowsChanges(e.currentTarget, innerInputRef, maxRows);
+        listenRowsChanges(innerInputRef, maxRows);
 
         props.onChange?.(e);
     };
 
     const onPasteTextArea: ClipboardEventHandler<HTMLTextAreaElement> = (e) => {
-        listenRowsChanges(e.currentTarget, innerInputRef, maxRows);
+        listenRowsChanges(innerInputRef, maxRows);
 
         props.inputProps?.onPaste?.(e);
     };
+
+    useLayoutEffect(() => {
+        listenRowsChanges(innerInputRef, maxRows);
+    }, [innerInputRef, maxRows]);
 
     if (multiline) {
         return (

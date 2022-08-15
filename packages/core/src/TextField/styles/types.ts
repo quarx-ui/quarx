@@ -27,6 +27,7 @@ export interface OmittedFieldStyleParams {
     overflowed: boolean
     hasValue: boolean
     rightItemIsExist: boolean,
+    bottomIsVisible: boolean,
 }
 
 export interface TextFieldStyleParams extends OmittedFieldStyleParams {
@@ -37,6 +38,11 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      *
      * @default always */
     counterVisibleOn: 'always' | 'focus',
+
+    /** Абсолютное позиционирование `helperText` и `counter`
+     *
+     * @default false */
+    bottomIsAbsolute: boolean,
 
     /** Состояние заполненности поля
      *

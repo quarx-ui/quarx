@@ -16,14 +16,10 @@ export const Bottom: FC<BottomProps> = ({
 }) => {
     const hasErrorText = errorText !== undefined && errorText !== '';
 
-    if (!hasErrorText && !helperText && !counter) {
-        return null;
-    }
-
     return (
         <div
-            css={styles.bottomLine}
-            className={cn('bottomLine')}
+            css={styles.bottom}
+            className={cn('bottom')}
         >
             <div
                 css={styles.bottomText}
@@ -59,8 +55,8 @@ export const Bottom: FC<BottomProps> = ({
                             ? (
                                 <>
                                     <span
-                                        css={styles.slash}
-                                        className={cn('slash')}
+                                        css={styles.counterSlash}
+                                        className={cn('counterSlash')}
                                     >
                                         &nbsp;/&nbsp;
                                     </span>

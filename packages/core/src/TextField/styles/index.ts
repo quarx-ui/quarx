@@ -17,6 +17,8 @@ export const useStyles = makeStyles((
         rightItemIsExist,
         disableHoverStyles,
         counterVisibleOn,
+        bottomIsVisible,
+        bottomIsAbsolute,
     }: BaseTextFieldStyleParams & TextFieldStyleParams,
 ) => {
     const vertCenter: CSSObject = {
@@ -70,6 +72,7 @@ export const useStyles = makeStyles((
                 minWidth: 'fit-content',
                 color: palette.text.main,
                 width: 360,
+                position: 'relative',
             },
         ],
         field: [
@@ -279,10 +282,12 @@ export const useStyles = makeStyles((
 
                 '&::placeholder': {
                     visibility: 'hidden',
+                    opacity: 0, // firefox
                     color: palette.text.tertiary,
 
                     ...(filled || size === 'small' || disableLabel) && {
                         visibility: 'visible',
+                        opacity: 1,
                     },
                 },
             },
@@ -386,16 +391,29 @@ export const useStyles = makeStyles((
                 opacity: hasValue ? 1 : 0,
             },
         ],
-        bottomLine: [
+        bottom: [
             {
-                display: 'inline-flex',
+                display: 'flex',
                 justifyContent: 'space-between',
-                padding: '8px 0',
                 color: palette.text.secondary,
-                transition: transitions.create('color'),
+                transition: transitions.create(['color', 'height', 'padding'], {
+                    duration: transitions.duration.shortest,
+                }),
+                width: '100%',
+                height: 0,
+                padding: 0,
+            },
+            bottomIsVisible && {
+                height: size === 'large' ? 24 : 20,
+                paddingTop: size === 'large' ? 6 : 8,
             },
             disabled && {
                 color: palette.text.tertiary,
+            },
+            bottomIsAbsolute && {
+                position: 'absolute',
+                bottom: 0,
+                transform: 'translateY(100%)',
             },
         ],
         bottomText: [
@@ -426,7 +444,7 @@ export const useStyles = makeStyles((
                 color: palette.colors.danger.press,
             },
         ],
-        slash: [
+        counterSlash: [
             error && overflowed && {
                 color: palette.colors.danger.alpha.middle,
             },

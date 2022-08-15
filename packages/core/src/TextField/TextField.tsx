@@ -61,8 +61,12 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         disableHoverStyles = false,
         clearIconVisibleOn = multiline ? 'none' : 'interact',
         counterVisibleOn = 'focus',
+        maxRows,
+        rows,
+        minRows,
         inputProps,
         inputRef,
+        bottomIsAbsolute = false,
         ...restProps
     } = props;
 
@@ -72,7 +76,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
     const [innerErrorText, setErrorText] = useState(externalErrorText);
     const [innerFocused, setFocused] = useState(externalFocused ?? false);
     const [innerFilled, setFilled] = useState(externalFocused);
-    const [innerLength, setLength] = useState(value?.length ?? 0);
+    const [innerLength, setLength] = useState(value?.length ?? defaultValue?.length ?? 0);
     const [touched, setTouched] = useState(false);
 
     const length = value !== undefined ? value?.length : innerLength;
@@ -95,6 +99,13 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
     const hasError = externalError ?? !!errorText;
     const hasValue = !!(filled && length);
 
+    const bottomIsVisible = Boolean(
+        !!helperText
+        || !!errorText
+        || (counter && counterVisibleOn === 'always')
+        || (counter && counterVisibleOn === 'focus' && filled),
+    );
+
     const params = useMemo(() => ({
         filled: !!filled,
         error: hasError,
@@ -113,8 +124,11 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         hasValue,
         rightItemIsExist: !!rightItem,
         counterVisibleOn,
+        bottomIsVisible,
+        bottomIsAbsolute,
     }), [
         counterVisibleOn,
+        bottomIsAbsolute,
         rightItem,
         borderRadius,
         clearIconVisibleOn,
@@ -132,6 +146,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         multiline,
         readOnly,
         size,
+        bottomIsVisible,
     ]);
 
     const styles = useStyles({ ...params, styles: externalStyles });
@@ -287,9 +302,9 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
                         css={styles.input}
                         className={cn('input')}
                         multiline={multiline}
-                        rows={props.rows}
-                        minRows={props.minRows}
-                        maxRows={props.maxRows}
+                        rows={rows}
+                        minRows={minRows}
+                        maxRows={maxRows}
                         maxLength={overflow ? undefined : maxLength}
                         disabled={disabled || loading}
                         required={required}
