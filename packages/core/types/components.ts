@@ -12,7 +12,7 @@ export interface WithPermissions {
     permissions?: Permissions,
 }
 
-export interface BaseProps<ElementType> extends WithPermissions {
+export interface BaseProps<ElementType extends HTMLElement = HTMLDivElement> extends WithPermissions {
     /** Ссылка к корневому элементу */
     ref?: Ref<ElementType>,
 
