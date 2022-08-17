@@ -19,11 +19,16 @@ export const Counter = forwardRef<HTMLSpanElement, CounterProps>((
         maxDigits = 2,
         children,
         styles: externalStyles,
+        hidden,
         ...restProps
     } = props;
 
     const params = { type, size, color };
     const styles = useStyles({ ...params, styles: externalStyles });
+
+    if (maxDigits < 1 || hidden) {
+        return null;
+    }
 
     return (
         <span
