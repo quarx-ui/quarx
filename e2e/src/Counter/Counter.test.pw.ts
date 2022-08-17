@@ -6,26 +6,37 @@ const { test } = initTest<CounterProps>('Counter');
 test('Counter', async ({ compareSnapshotsMap }) => {
     await compareSnapshotsMap({
         targetProps: {
-            color: ['brand', 'secondary', 'success', 'info', 'warning', 'danger'],
-            type: ['filled'],
+            color: ['brand', 'secondary', 'success', 'info', 'warning', 'danger', 'text'],
+            type: ['white', 'ghosted'],
             children: [9, 999, 9999],
             size: ['small', 'large'],
         },
         commonProps: {
             children: 99,
             maxDigits: 3,
-            type: 'outline',
+            type: 'filled',
         },
     });
 
     await compareSnapshotsMap({
         targetProps: {
-            color: ['secondary', 'success', 'info', 'warning', 'danger'],
+            color: ['secondary', 'success', 'info', 'warning', 'danger', 'text'],
         },
         commonProps: {
             children: 99,
-            type: 'filled',
+            type: 'white',
         },
-        postfix: 'filled',
+        postfix: 'white',
+    });
+
+    await compareSnapshotsMap({
+        targetProps: {
+            color: ['secondary', 'success', 'info', 'warning', 'danger', 'text'],
+        },
+        commonProps: {
+            children: 99,
+            type: 'ghosted',
+        },
+        postfix: 'ghosted',
     });
 });
