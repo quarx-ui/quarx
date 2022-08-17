@@ -18,24 +18,14 @@
   "sideEffects": false,
   "dependencies": {
     "@bem-react/classname": "^1.5.12",
-    "@types/hoist-non-react-statics": "^3.3.1",
     "@types/uuid": "^8.3.1",
     "clsx": "^1.1.1",
-    "hoist-non-react-statics": "^3.3.1",
-    "jss": "^10.9.0",
-    "jss-plugin-camel-case": "^10.9.0",
-    "jss-plugin-default-unit": "^10.9.0",
-    "jss-plugin-global": "^10.9.0",
-    "jss-plugin-nested": "^10.9.0",
-    "jss-plugin-props-sort": "^10.9.0",
-    "jss-plugin-rule-value-function": "^10.9.0",
-    "jss-plugin-vendor-prefixer": "^10.9.0",
     "uuid": "^3.4.0"
   },
   "devDependencies": {
+    "@types/react-input-mask": "^2.0.5",
     "react-input-mask": "^2.0.4",
-    "react-number-format": "^4.9.1",
-    "@types/react-input-mask": "^2.0.5"
+    "react-number-format": "^4.9.1"
   },
   "peerDependencies": {
     "@emotion/react": "^11.7.1",
