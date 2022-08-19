@@ -1,8 +1,9 @@
 import { Story } from '@storybook/react/types-6-0';
 import React from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
-import { defineCategory, designParams, excludeProp } from '@core/storybook/templateParams';
+import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import styled from '@emotion/styled';
 import { AttentionIconSmall, InfoIconLarge, InfoIconSmall, AttentionIconLarge } from './assets';
 import { Badge, BadgeColor, BadgeProps } from '..';
 
@@ -11,35 +12,19 @@ export default {
     component: Badge,
     argTypes: {
         ...defineCategory('Стилизация', {
-            size: {
-                description: 'Размер компонента',
-            },
-            borderRadius: {
-                description: 'Скругление компонента',
-            },
-            type: {
-                description: 'Заливка компонента',
-            },
-            color: {
-                description: 'Цветовое решение',
-            },
+            size: {},
+            borderRadius: {},
+            type: {},
+            color: {},
         }),
         ...defineCategory('Внутренние элементы', {
-            children: {
-                description: 'Дочерний элемент компонента',
-            },
-            counter: {
-                description: 'Число используемое для отображения во внутреннем компоненте Counter',
-            },
-            counterProps: {
-                description: 'Объект параметров для настройки внутреннего компонента Counter',
-            },
+            children: {},
+            counter: {},
+            counterProps: { },
             rightItem: {
-                description: 'Элемент, отображаемый с правой стороны компонента',
                 control: false,
             },
             leftItem: {
-                description: 'Элемент, отображаемый с левой стороны компонента',
                 control: false,
             },
         }),
@@ -58,7 +43,6 @@ export default {
     },
     parameters: {
         actions: { disable: true },
-        design: designParams('https://www.figma.com/file/kqled9AjBtDMRhWKovsgYf/3.1%E3%83%BBControls?node-id=10341%3A159295'),
     },
 };
 
@@ -71,9 +55,9 @@ interface StoryType extends BadgeProps {
 const defaultArgs: BadgeProps = {
     children: 'Статус',
     size: 'large',
-    borderRadius: 'rounded',
+    borderRadius: 'max',
     color: 'brand',
-    type: 'filled',
+    type: 'contained',
     counter: 999,
 };
 
@@ -99,10 +83,10 @@ export const Sandbox: Story<StoryType> = ({
     </Badge>
 );
 
-const SIZES = ['small', 'large'];
-const TYPES = ['filled', 'outline'];
-const BORDER_RADIUS = ['square', 'smooth', 'rounded'];
-const COLORS: BadgeColor[] = ['brand', 'secondary', 'info', 'warning', 'danger'];
+const SIZES = ['small', 'medium', 'large'];
+const TYPES = ['contained', 'outlined', 'ghosted'];
+const BORDER_RADIUS = ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'];
+const COLORS: BadgeColor[] = ['brand', 'secondary', 'info', 'success', 'warning', 'danger', 'text'];
 
 export const Size: Story<BadgeProps> = (props) => DisplayVariants({
     property: 'size',
@@ -125,25 +109,44 @@ export const Type: Story<BadgeProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
+const Flex = styled('div')({
+    display: 'flex',
+    justifyContent: 'space-around',
+});
+
 export const Color: Story<BadgeProps> = (props) => (
-    <div>
-        {DisplayVariants({
+    <Flex>
+        {DisplayVariants<BadgeProps>({
             property: 'color',
             values: COLORS,
             component: Badge,
-            componentProps: props,
+            componentProps: {
+                ...props,
+                type: 'contained',
+            },
+            direction: 'vertical',
         })}
         {DisplayVariants<BadgeProps>({
             property: 'color',
             values: COLORS,
-            title: { isShown: false },
             component: Badge,
+            direction: 'vertical',
             componentProps: {
                 ...props,
-                type: 'outline',
+                type: 'outlined',
             },
         })}
-    </div>
+        {DisplayVariants<BadgeProps>({
+            property: 'color',
+            values: COLORS,
+            component: Badge,
+            direction: 'vertical',
+            componentProps: {
+                ...props,
+                type: 'ghosted',
+            },
+        })}
+    </Flex>
 );
 
 Sandbox.storyName = 'Компонент';
@@ -175,9 +178,10 @@ Size.parameters = {
         description: {
             story: 'Для выбора размера необходимо использовать свойство `size`.'
                 + '<br/>'
-                + 'Для `Badge` доступно 2 варианта размера:'
+                + 'Для `Badge` доступно 3 варианта размера:'
                 + '<br/>'
-                + '`small` - маленький (по умолчанию),'
+                + '`small` - маленький,'
+                + '`medium` - средний (по умолчанию),'
                 + '`large` - большой,',
         },
     },
@@ -186,16 +190,8 @@ Size.parameters = {
 BorderRadius.parameters = {
     docs: {
         description: {
-            story: 'Выбор скругления компонента осуществляется с помощью свойства `borderRadius`.'
-                + '<br/>'
-                + 'Для `Badge` доступно 3 варианта скругления:'
-                + '<br/>'
-                + '`square` - минимальный радиус скругления и почти острые углы,'
-                + '<br/>'
-                + '`smooth` — среднее скругление.'
-                + '<br/>'
-                + '`rounded` — максимальный радиус скругления, который можно использовать в любом стиле бренда '
-                + '(по умолчанию).',
+            story: 'Свойство `borderRadius` использует все стандартные варианты скругления объекта `borderRadii`: '
+                + '`xSmall`, `small`, `medium`, `large`, `xLarge`, `max`.',
         },
     },
 };
@@ -205,12 +201,17 @@ Type.parameters = {
             story: 'Тип заливки (своство `type`) '
                 + 'определяет фон компонента `Badge`, а также цвет его внутренних элементов.'
                 + '<br/>'
-                + 'Доступно 2 варианта типа заливки:'
+                + 'Доступно 3 варианта типа заливки:'
                 + '<br/>'
-                + '`filled` — залитый компонент, цвет используемых иконок и фон `Counter` будет белым (по умолчанию).'
+                + '`contained` — залитый компонент, цвет используемых иконок и фон `Counter` белый (по умолчанию).'
                 + '<br/>'
-                + '`outline` — фон компонента прозрачный, '
-                + 'цвет используемых иконок и фон `Counter` определяется в соответствии со свойством `color.',
+                + '`outlined` — фон компонента прозрачный, '
+                + 'цвета используемых иконок, текста, обводки и фон `Counter` '
+                + 'определяются в соответствии со свойством `color`.'
+                + '<br/>'
+                + '`ghosted` — фон компонента полупрозрачный, '
+                + 'цвета используемых иконок, текста, обводки и фон `Counter` '
+                + 'определяются в соответствии со свойством `color`.',
         },
     },
 };
@@ -221,9 +222,9 @@ Color.parameters = {
                 + 'определяет цвет фона или обводки (в зависимости от выбранного `type`) компонента `Badge`, '
                 + 'а также цвет его внутренних элементов.'
                 + '<br/>'
-                + 'Доступно 4 варианта цвета:'
+                + 'Доступно 7 вариантов цвета:'
                 + '<br/>'
-                + '`color1` (по умолчанию), `color2`, `warning`, `critical`',
+                + '`brand` (по умолчанию), `secondary`, `info`, `success`, `warning`, `danger`, `text`.',
         },
     },
 };

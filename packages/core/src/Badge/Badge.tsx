@@ -1,11 +1,17 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { forwardRef } from 'react';
-import { Counter } from '@core/src/Counter';
+import { Counter, CounterType } from '@core/src/Counter';
 import { usePropsOverwrites } from '@core/styles';
 import clsx from 'clsx';
-import { BadgeProps } from './types';
+import { BadgeProps, BadgeType } from './types';
 import { useStyles } from './styles';
+
+const mapBadgeTypeToCounter: Record<BadgeType, CounterType> = {
+    contained: 'white',
+    outlined: 'filled',
+    ghosted: 'filled',
+};
 
 export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
     initialProps,
@@ -15,10 +21,10 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
 
     const {
         children,
-        borderRadius = 'rounded',
+        borderRadius = 'max',
         color = 'brand',
-        type = 'filled',
-        size = 'small',
+        type = 'contained',
+        size = 'medium',
         counter,
         leftItem,
         rightItem,
@@ -45,28 +51,28 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
         >
             {leftItem && (
                 <div
-                    className={cn('leftItem')}
-                    css={styles.leftItem}
+                    className={clsx(cn('leftItem'), cn('item'))}
+                    css={[styles.leftItem, styles.item]}
                 >
                     {leftItem}
                 </div>
             )}
             {children}
-            {(rightItem && !counter) && (
+            {(rightItem && counter === undefined) && (
                 <div
-                    className={cn('rightItem')}
-                    css={styles.rightItem}
+                    className={clsx(cn('rightItem'), cn('item'))}
+                    css={[styles.rightItem, styles.item]}
                 >
                     {rightItem}
                 </div>
             )}
-            {counter && (
+            {counter !== undefined && (
                 <Counter
-                    className={clsx(cn('counter'), counterProps?.className)}
-                    css={styles.counter}
+                    className={clsx(cn('rightItem'), cn('item'), counterProps?.className)}
+                    css={[styles.rightItem, styles.item]}
                     size={size}
                     color={color}
-                    type={type}
+                    type={mapBadgeTypeToCounter[type]}
                     maxDigits={3}
                     {...counterProps}
                 >

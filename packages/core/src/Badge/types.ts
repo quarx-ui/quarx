@@ -1,12 +1,14 @@
-import { ReactNode, Ref } from 'react';
-import { ComponentPropsWithHTML, CounterProps } from '@core';
+import { ReactNode } from 'react';
+import { BaseProps, ComponentPropsWithHTML, CounterProps } from '@core';
 import { WithClassesAndStyles } from '@core/styles';
 import { BadgeStyleParams, BadgeStyleKeys } from './styles';
 
 export interface BadgePropsWithoutHTML extends
+    Omit<BaseProps, 'permissions'>,
     Partial<BadgeStyleParams>,
     WithClassesAndStyles<BadgeStyleKeys, BadgeStyleParams>
 {
+    /** Дочерний элемент */
     children: ReactNode,
 
     /** Элемент, отображаемый с левой стороны компонента */
@@ -20,12 +22,6 @@ export interface BadgePropsWithoutHTML extends
 
     /** Объект параметров для настройки внутреннего компонента Counter  */
     counterProps?: Omit<CounterProps, 'children'>,
-
-    /** Ссылка к корневому элементу  */
-    ref?: Ref<HTMLDivElement>,
-
-    /** Пользовательский CSS-класс для корневого элемента  */
-    className?: string,
 }
 
 export type BadgeProps = ComponentPropsWithHTML<BadgePropsWithoutHTML>
