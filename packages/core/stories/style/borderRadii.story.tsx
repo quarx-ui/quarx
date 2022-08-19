@@ -28,7 +28,7 @@ const defaultArgTypes = {
     size: {
         description: 'Размер скругления',
         control: { type: 'select' },
-        options: ['xSmall', 'small', 'medium', 'large', 'xLarge'],
+        options: ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'],
     },
     side: {
         description: 'Сторона',
@@ -95,7 +95,7 @@ Sandbox.storyName = 'Скругления';
 
 export const Sizes: Story<BorderRadiiStory> = (props) => DisplayVariantsMap<BorderRadiiStory>({
     variants: {
-        size: ['xSmall', 'small', 'medium', 'large', 'xLarge'],
+        size: ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'],
     },
     component: Template,
     componentProps: props,
@@ -120,7 +120,7 @@ Sides.storyName = 'Стороны';
 Sizes.parameters = {
     docs: {
         description: {
-            story: 'Всего 5 вариантов размера: `xSmall`, `small`, `medium`, `large`, `xLarge`.'
+            story: 'Всего 6 вариантов размера: `xSmall`, `small`, `medium`, `large`, `xLarge`, `max`.'
                 + '<br />'
                 + 'Для выбора размера необходимо указать их в формате: `borderRadii.[size]`',
         },
@@ -131,6 +131,7 @@ small: borderRadii.small
 medium: borderRadii.medium
 large: borderRadii.large
 xLarge: borderRadii.xLarge
+max: borderRadii.max
             `,
         },
     },
