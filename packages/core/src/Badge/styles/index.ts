@@ -4,13 +4,20 @@ import { KeysFromUseStyles, makeStyles, typography } from '@core';
 import { BadgeStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette },
-    { type, size, color, borderRadius }: BadgeStyleParams,
+    { palette, borderRadii },
+    { type, color, size, borderRadius }: BadgeStyleParams,
 ) => {
     const flexCenter: CSSObject = {
         display: 'flex',
         alignItems: 'center',
     };
+
+    const colorValue = color === 'text'
+        ? palette.text.main
+        : palette.colors[color].default;
+
+    const cssItemInsideMargin = '--item-inside-margin';
+    const cssItemOutsideMargin = '--item-outside-margin';
 
     return ({
         root: {
@@ -22,95 +29,59 @@ export const useStyles = makeStyles((
             boxSizing: 'border-box',
             borderWidth: 1,
             borderStyle: 'solid',
+            backgroundColor: colorValue,
+            borderColor: 'transparent',
+            color: palette.text.constant,
+            borderRadius: borderRadii[borderRadius],
+            height: 32,
+            padding: '2px 10px',
+            ...typography.Text.L.Medium,
 
             ...paramsToCss(size)({
                 small: {
                     height: 24,
-                    ...typography.Text.S.Medium,
-                    padding: '3px 7px',
+                    ...typography.Text.M.Medium,
+                    padding: '0px 10px',
                 },
                 large: {
-                    height: 32,
-                    ...typography.Text.L.Medium,
-                    padding: '3px 9px',
-                },
-            }),
-
-            ...paramsToCss(size, borderRadius)({
-                small: {
-                    square: {
-                        borderRadius: 4,
-                    },
-                    smooth: {
-                        borderRadius: 8,
-                    },
-                    rounded: {
-                        borderRadius: 24,
-                    },
-                },
-                large: {
-                    square: {
-                        borderRadius: 4,
-                    },
-                    smooth: {
-                        borderRadius: 12,
-                    },
-                    rounded: {
-                        borderRadius: 24,
-                    },
+                    height: 40,
+                    ...typography.Text.XL.Medium,
+                    padding: '4px 14px',
                 },
             }),
 
             ...paramsToCss(type)({
-                filled: {
-                    color: palette.colors[color].contrastText,
-                    backgroundColor: palette.colors[color].default,
+                outlined: {
+                    color: colorValue,
+                    backgroundColor: palette.background.main,
+                    borderColor: color === 'text'
+                        ? palette.border.secondary
+                        : palette.colors[color].border,
                 },
-                outline: {
-                    backgroundColor: 'transparent',
-                    borderColor: palette.colors[color].default,
-                    color: palette.colors[color].default,
+                ghosted: {
+                    color: colorValue,
+                    backgroundColor: color === 'text'
+                        ? palette.background.secondary
+                        : palette.colors[color].surface,
+                    borderColor: 'transparent',
                 },
             }),
         },
 
         /* Side elements */
-        leftItem: {
-            marginRight: 4,
+        item: {
+            [cssItemInsideMargin]: size === 'small' ? '6px' : '8px',
+            [cssItemOutsideMargin]: '-4px',
 
             ...flexCenter,
-            ...paramsToCss(size)({
-                small: {
-                    marginLeft: '-2px',
-                },
-                large: {
-                    marginLeft: '-4px',
-                },
-            }),
+        },
+        leftItem: {
+            marginRight: `var(${cssItemInsideMargin})`,
+            marginLeft: `var(${cssItemOutsideMargin})`,
         },
         rightItem: {
-            marginLeft: 4,
-
-            ...flexCenter,
-            ...paramsToCss(size)({
-                small: {
-                    marginRight: '-2px',
-                },
-                large: {
-                    marginRight: '-4px',
-                },
-            }),
-        },
-        counter: {
-            marginLeft: 6,
-            ...paramsToCss(size)({
-                small: {
-                    marginRight: '-4px',
-                },
-                large: {
-                    marginRight: '-6px',
-                },
-            }),
+            marginLeft: `var(${cssItemInsideMargin})`,
+            marginRight: `var(${cssItemOutsideMargin})`,
         },
     });
 }, { name: 'SxBadge' });
