@@ -31,7 +31,7 @@ module.exports = {
             directory: path.join(PATH_TO_PROJ, 'dist'),
         },
         historyApiFallback: true,
-        // open: true,
+        open: process.env.OPEN_IN_BROWSER,
     },
     module: {
         rules: [
