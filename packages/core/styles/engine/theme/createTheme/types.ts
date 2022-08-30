@@ -1,4 +1,5 @@
 import {
+    AvatarProps,
     CounterProps,
     DeepPartial,
     BadgeProps,
@@ -35,6 +36,7 @@ export type DeepPartialWithStyles<Props extends Record<string, any>> = {
 }
 
 export interface ComponentsProps {
+    Avatar: AvatarProps,
     Badge: BadgeProps,
     Button: ButtonProps,
     BaseButton: BaseButtonProps,
