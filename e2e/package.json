@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "e2e:serve": "webpack-dev-server",
+    "e2e:serve": "OPEN_IN_BROWSER=true webpack-dev-server",
     "e2e:build:kit": "rm -Rf builds/kit && mv ../packages/core/build builds/kit",
     "e2e:build:icons": "rm -Rf builds/kit-icons && mv ../packages/icons/build builds/kit-icons",
     "e2e:build": "cd .. && yarn run build && cd e2e && mkdir -p builds && yarn run e2e:build:kit && yarn run e2e:build:icons",

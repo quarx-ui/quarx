@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
+import React, { CSSProperties, FC } from 'react';
 import { Routes } from 'react-router-dom';
 import { FRAME_ID } from '@e2e/constants';
-import { CSSProperties } from '@kit/styles/engine/styles/types';
 import { renderComponents } from '@e2e/render-utils/renderComponents';
 import { COMPONENTS } from '@e2e/src';
 import { borderRadii } from '@kit';
+import '@kit/styles/fonts/font-faces.css';
 
 export const App: FC = () => {
     const rootStyle: CSSProperties = {
