@@ -99,5 +99,4 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      *
      * @default interact */
     clearIconVisibleOn: TextFieldClearIconVisibleOn,
-
 }

@@ -1,6 +1,6 @@
 import { css, CSSObject } from '@emotion/react';
 import { MakeStylesOptions } from './types';
-import { useTheme, Theme as DefaultTheme } from '../theme';
+import { useTheme, Theme } from '../theme';
 import { extractStyles, StylesWithCallback, StylesCallback, Styles } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
 
@@ -21,23 +21,26 @@ import { StylesMap } from '@core/styles/engine/types';
 export function makeStyles<
     // eslint-disable-next-line @typescript-eslint/ban-types
     Props extends {},
-    Theme extends DefaultTheme = DefaultTheme,
-    ClassKey extends string = string
->(styles: Partial<Styles<ClassKey>> | StylesCallback<ClassKey, Props, Theme>, options: MakeStylesOptions = {}): keyof Props extends never
+    ClassKey extends string = string,
+    CSSVars extends string = string,
+>(
+    styles: Partial<Styles<ClassKey>> | StylesCallback<ClassKey, Props, CSSVars>,
+    options: MakeStylesOptions = {}
+): keyof Props extends never
     ? (props?: any) => StylesMap<ClassKey>
     : (props: Props & {
-        styles?: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props, Theme>
+        styles?: Partial<StylesWithCallback<ClassKey, Props, CSSVars>> | StylesCallback<ClassKey, Props, CSSVars>,
+        cssVars?: Partial<Record<CSSVars, string>>,
     }) => StylesMap<ClassKey> {
     return (props?: any) => {
         const theme = useTheme();
 
         const { name = 'makeStyles' } = options;
 
-        // const stylesObject = extractStyles(props, theme as Theme, styles);
         const stylesObject = typeof styles === 'function'
-            ? styles(theme as Theme, props)
+            ? styles(theme, props, props.cssVars)
             : styles
-        const overwrites = extractStyles(props, theme as Theme, props?.styles);
+        const overwrites = extractStyles(props, theme, props?.styles, props?.cssVars);
 
         return Object.entries(stylesObject)
             .reduce((acc, [key, cssObject]) => {
