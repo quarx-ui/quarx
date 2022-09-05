@@ -15,13 +15,13 @@ import { Bottom, Label, RightItem } from '@core/src/TextField/elements';
 import clsx from 'clsx';
 import { mergeRefs } from '@core/utils/mergeRefs';
 import { TextFieldProps } from './types';
-import { useStyles } from './styles';
+import { useStyles, TEXT_FIELD_CSS_VARS } from './styles';
 
 export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFieldProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('TextField', initialProps);
+    const { props, cn } = usePropsOverwrites('TextField', initialProps, TEXT_FIELD_CSS_VARS);
     const {
         styles: externalStyles,
         size = SX_SIZE.medium,
@@ -67,6 +67,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         inputProps,
         inputRef,
         bottomIsAbsolute = false,
+        cssVars,
         ...restProps
     } = props;
 
@@ -149,7 +150,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         bottomIsVisible,
     ]);
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
 
     const setValue = useCallback((localValue: string) => {
         if (readOnly) { return; }
