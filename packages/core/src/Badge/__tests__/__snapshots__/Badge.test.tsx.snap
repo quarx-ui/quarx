@@ -1,9 +1,142 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Badge default 1`] = `
+exports[`Badge borderRadius large 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-97t127-SxBadge-root"
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_large SxBadge_color_brand css-iotaji-SxBadge-root"
+    data-testid="testStyleParams-borderRadius-large"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge borderRadius max 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-z98tt1-SxBadge-root"
+    data-testid="testStyleParams-borderRadius-max"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge borderRadius medium 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_medium SxBadge_color_brand css-1vs7daa-SxBadge-root"
+    data-testid="testStyleParams-borderRadius-medium"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge borderRadius small 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_small SxBadge_color_brand css-54p4nd-SxBadge-root"
+    data-testid="testStyleParams-borderRadius-small"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge borderRadius xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_xLarge SxBadge_color_brand css-1vwlczd-SxBadge-root"
+    data-testid="testStyleParams-borderRadius-xLarge"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge borderRadius xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_xSmall SxBadge_color_brand css-1do1b5x-SxBadge-root"
+    data-testid="testStyleParams-borderRadius-xSmall"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-z98tt1-SxBadge-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_danger css-9fno-SxBadge-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color info 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_info css-b5xvm5-SxBadge-root"
+    data-testid="testStyleParams-color-info"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_secondary css-vmumr-SxBadge-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color success 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_success css-jvsela-SxBadge-root"
+    data-testid="testStyleParams-color-success"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color text 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_text css-1rcgd2e-SxBadge-root"
+    data-testid="testStyleParams-color-text"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_warning css-ygoahq-SxBadge-root"
+    data-testid="testStyleParams-color-warning"
   >
     Статус
   </div>
@@ -13,11 +146,11 @@ exports[`Badge default 1`] = `
 exports[`Badge default with counter 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-97t127-SxBadge-root"
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-z98tt1-SxBadge-root"
   >
     Статус
     <span
-      class="SxCounter SxCounter_type_filled SxCounter_size_small SxCounter_color_brand SxBadge-counter css-vw1vwz-SxCounter-root-SxBadge-counter"
+      class="SxCounter SxCounter_type_white SxCounter_size_medium SxCounter_color_brand SxBadge-rightItem SxBadge-item css-vfkoeu-SxCounter-root-SxBadge-rightItem-SxBadge-item"
     >
       55
     </span>
@@ -25,50 +158,66 @@ exports[`Badge default with counter 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge large 1`] = `
+exports[`Badge size large 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_large SxBadge_borderRadius_rounded SxBadge_color_brand css-1f5zn2u-SxBadge-root"
+    class="SxBadge SxBadge_type_contained SxBadge_size_large SxBadge_borderRadius_max SxBadge_color_brand css-1s8gh4e-SxBadge-root"
+    data-testid="testStyleParams-size-large"
   >
     Статус
   </div>
 </DocumentFragment>
 `;
 
-exports[`Badge outline 1`] = `
+exports[`Badge size medium 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_outline SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_brand css-1cxgfvt-SxBadge-root"
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-z98tt1-SxBadge-root"
+    data-testid="testStyleParams-size-medium"
   >
     Статус
   </div>
 </DocumentFragment>
 `;
 
-exports[`Badge smooth 1`] = `
+exports[`Badge size small 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_smooth SxBadge_color_brand css-15up183-SxBadge-root"
+    class="SxBadge SxBadge_type_contained SxBadge_size_small SxBadge_borderRadius_max SxBadge_color_brand css-1nxt58f-SxBadge-root"
+    data-testid="testStyleParams-size-small"
   >
     Статус
   </div>
 </DocumentFragment>
 `;
 
-exports[`Badge square 1`] = `
+exports[`Badge type contained 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_square SxBadge_color_brand css-xgs9a9-SxBadge-root"
+    class="SxBadge SxBadge_type_contained SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-z98tt1-SxBadge-root"
+    data-testid="testStyleParams-type-contained"
   >
     Статус
   </div>
 </DocumentFragment>
 `;
 
-exports[`Badge warning 1`] = `
+exports[`Badge type ghosted 1`] = `
 <DocumentFragment>
   <div
-    class="SxBadge SxBadge_type_filled SxBadge_size_small SxBadge_borderRadius_rounded SxBadge_color_warning css-12u09t3-SxBadge-root"
+    class="SxBadge SxBadge_type_ghosted SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-fuosty-SxBadge-root"
+    data-testid="testStyleParams-type-ghosted"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge type outlined 1`] = `
+<DocumentFragment>
+  <div
+    class="SxBadge SxBadge_type_outlined SxBadge_size_medium SxBadge_borderRadius_max SxBadge_color_brand css-o77fnk-SxBadge-root"
+    data-testid="testStyleParams-type-outlined"
   >
     Статус
   </div>
