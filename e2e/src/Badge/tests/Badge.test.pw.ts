@@ -6,12 +6,38 @@ const { test } = initTest<TestBadgeProps>('Badge');
 test('Badge', async ({ compareSnapshotsMap, compareSnapshots }) => {
     await compareSnapshotsMap({
         targetProps: {
-            borderRadius: ['square', 'rounded'],
+            borderRadius: ['xSmall', 'small', 'medium', 'large', 'xLarge'],
             size: ['small', 'large'],
-            color: ['secondary', 'info', 'success', 'warning', 'danger'],
-            type: ['outline'],
-            counter: [99, 9999],
+            color: ['secondary', 'info', 'success', 'warning', 'danger', 'text'],
+            counter: [0, 9999],
         },
+        commonProps: {
+            counter: 99,
+        },
+    });
+
+    await compareSnapshotsMap({
+        targetProps: {
+            color: ['brand', 'secondary', 'info', 'success', 'warning', 'danger', 'text'],
+        },
+        commonProps: {
+            type: 'ghosted',
+            counter: 999,
+        },
+        postfix: 'ghosted',
+        groupBy: ['postfix', 'props', 'value'],
+    });
+
+    await compareSnapshotsMap({
+        targetProps: {
+            color: ['brand', 'secondary', 'info', 'success', 'warning', 'danger', 'text'],
+        },
+        commonProps: {
+            type: 'outlined',
+            counter: 999,
+        },
+        postfix: 'outlined',
+        groupBy: ['postfix', 'props', 'value'],
     });
 
     await compareSnapshots({

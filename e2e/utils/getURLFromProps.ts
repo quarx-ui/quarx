@@ -6,7 +6,7 @@ export function getStringFromProps<Props = PropsType>(props: Props) {
 
     return Object.entries(props)
         .reduce((acc, [property, value]) => {
-            if (!value) { return acc; }
+            if (value === undefined) { return acc; }
             const prevProp = acc ? `${acc}${SEPARATORS.PROP}` : acc;
 
             return `${prevProp}${property}${SEPARATORS.VALUE}${value}`;
