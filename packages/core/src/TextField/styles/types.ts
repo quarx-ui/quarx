@@ -1,9 +1,8 @@
-import { PickSxSize } from '@core/enums';
-import { BorderRadiusSize } from '@core/styles';
+import { PickSxSize, SxBorderSize } from '@core';
 
-export type TextFieldBorderRadius = BorderRadiusSize
-export type TextFieldSize = PickSxSize<'large' | 'medium' | 'small'>
-export type TextFieldColorBase = 'main' | 'secondary'
+export type TextFieldBorderRadius = SxBorderSize;
+export type TextFieldSize = PickSxSize<'large' | 'medium' | 'small'>;
+export type TextFieldColorBase = 'main' | 'secondary';
 export type TextFieldClearIconVisibleOn = 'always' | 'interact' | 'none';
 
 export interface BaseTextFieldStyleParams {

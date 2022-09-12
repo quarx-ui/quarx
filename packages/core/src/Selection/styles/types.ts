@@ -1,7 +1,7 @@
-import { PickSxBorderSize, PickSxSize } from '@core/enums';
+import { PickSxSize } from '@core/enums';
 
 export type SelectionSize = PickSxSize<'small' | 'medium' | 'large'>;
-export type SelectionBorderRadius = PickSxBorderSize<'square' | 'smooth'>;
+export type SelectionBorderRadius = 'square' | 'smooth'; // TODO refactor
 
 export interface OmittedStyleParams {
     subShown?: boolean,

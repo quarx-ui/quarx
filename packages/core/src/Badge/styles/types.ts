@@ -1,7 +1,7 @@
-import { BorderRadiusSize, CounterColor, PickSxSize } from '@core';
+import { CounterColor, PickSxSize, SxBorderSize } from '@core';
 
 export type BadgeSize = PickSxSize<'small' | 'medium' | 'large'>;
-export type BadgeBorderRadius = BorderRadiusSize;
+export type BadgeBorderRadius = SxBorderSize;
 export type BadgeColor = CounterColor;
 export type BadgeType = 'contained' | 'outlined' | 'ghosted';
 
