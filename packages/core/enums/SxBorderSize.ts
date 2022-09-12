@@ -1,14 +1,12 @@
 import { Narrow, Values, valuesAsKeysFromArray } from '@core';
 
 export const SX_BORDER_SIZE = valuesAsKeysFromArray([
-    'tiny',
+    'xSmall',
     'small',
-    'base',
+    'medium',
     'large',
+    'xLarge',
     'max',
-    'rounded',
-    'square',
-    'smooth',
 ]);
 
 export type SxBorderSize = Values<typeof SX_BORDER_SIZE>;

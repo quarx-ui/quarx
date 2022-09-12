@@ -2,17 +2,18 @@ import { ReactNode } from 'react';
 
 export interface ChildrenProps { children: ReactNode }
 
-export interface StyledProps extends ChildrenProps {
+export interface DisplayVariantsStyledProps extends ChildrenProps {
     optionTitle?: boolean,
     size?: 'primary' | 'secondary',
     direction?: 'vertical' | 'horizontal',
-    center?: boolean,
-    spaceBetween?: boolean,
+    containerAlign?: 'flex-start' | 'center' | 'flex-end',
+    containerJustify?: 'flex-start' | 'center' | 'flex-end' | 'space-between' | 'space-evenly',
+    variantAlign?: 'flex-start' | 'center' | 'flex-end',
 }
 
-export type TitleProps = Pick<StyledProps, 'size'>
-export type VariantProps = Pick<StyledProps, 'optionTitle'>
-export type VariantsProps = Pick<StyledProps, 'direction'>
-export type ContainerProps = Pick<StyledProps, 'direction' | 'center'>
-export type TitleOfContainerProps = Pick<StyledProps, 'direction'>
-export type VerticalContainerProps = Omit<StyledProps, 'size' | 'optionTitle'>
+export type TitleProps = Pick<DisplayVariantsStyledProps, 'size'>
+export type VariantProps = Pick<DisplayVariantsStyledProps, 'optionTitle' | 'variantAlign'>
+export type VariantsProps = Pick<DisplayVariantsStyledProps, 'direction' | 'containerJustify' | 'containerAlign'>
+export type ContainerProps = Pick<DisplayVariantsStyledProps, 'direction' | 'containerJustify' | 'containerAlign'>
+export type TitleOfContainerProps = Pick<DisplayVariantsStyledProps, 'direction'>
+export type VerticalContainerProps = Omit<DisplayVariantsStyledProps, 'size' | 'optionTitle'>

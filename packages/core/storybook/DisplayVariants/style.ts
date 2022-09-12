@@ -1,11 +1,18 @@
 import { typography, makeStyles } from '@core';
 import { CSSObject } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
-import { StyledProps } from './types';
+import { DisplayVariantsStyledProps } from './types';
 
 export const useStyles = makeStyles((
     theme,
-    { size, direction, spaceBetween, center, optionTitle }: Omit<StyledProps, 'children'>,
+    {
+        size,
+        direction = 'horizontal',
+        variantAlign,
+        containerAlign,
+        containerJustify,
+        optionTitle,
+    }: Omit<DisplayVariantsStyledProps, 'children'>,
 ) => {
     const isVertical = direction === 'vertical';
     const verticalContainer: CSSObject = {
@@ -17,27 +24,44 @@ export const useStyles = makeStyles((
         variantsContainer: [
             {
                 display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-evenly',
+                alignItems: containerAlign,
+                justifyContent: containerJustify,
             },
-            isVertical && verticalContainer,
+            paramsToCss(direction)({
+                horizontal: {
+                    flexWrap: 'wrap',
+                    '& > *': {
+                        marginBottom: 12,
+                        marginLeft: 8,
+                        marginRight: 8,
+                    },
+                },
+                vertical: {
+                    flexDirection: 'column',
+                    justifyContent: 'flex-start',
+                    '& > *:not(:last-child)': {
+                        marginBottom: 12,
+                    },
+                },
+            }),
         ],
         variantsMapContainer: [
             {
                 display: 'flex',
-                alignItems: 'center',
-                justifyContent: center ? 'center' : 'space-between',
+                alignItems: containerAlign,
+                justifyContent: containerJustify,
             },
             isVertical && verticalContainer,
         ],
         verticalMapContainer: [
             isVertical && {
                 display: 'flex',
-                justifyContent: spaceBetween ? 'space-between' : 'space-evenly',
+                alignItems: containerAlign,
+                justifyContent: containerJustify,
             },
         ],
         title: [
-            { margin: '0 0 15px' },
+            { margin: '8px 0 12px' },
 
             size && paramsToCss(size)({
                 primary: typography.Text.XL.Semibold,
@@ -48,10 +72,7 @@ export const useStyles = makeStyles((
             {
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'center',
-                paddingRight: 10,
-                paddingBottom: 20,
-                margin: '0 20px 15px',
+                alignItems: variantAlign,
                 ...typography.Text.XL.Semibold,
             },
             !optionTitle && {

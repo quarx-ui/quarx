@@ -12,3 +12,11 @@ export function valuesAsKeys<T extends { [k: string]: unknown }>(obj: T): { [k i
     });
     return result;
 }
+
+export function createValuesAsKeysTypeGuard<T extends string>(
+    object: { [key in keyof Record<T, T>]: key },
+) {
+    return (value: string): value is T => (
+        Object.keys(object).includes(value)
+    );
+}

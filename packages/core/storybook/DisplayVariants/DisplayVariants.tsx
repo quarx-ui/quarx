@@ -8,10 +8,12 @@ import {
     Container,
     VerticalContainer,
 } from './styledComponents';
+import { DisplayVariantsStyledProps } from './types';
 
 type ValuesType = string | boolean | number
 
-interface BaseVariantProps<VariantProps> {
+interface BaseVariantProps<VariantProps> extends
+    Pick<DisplayVariantsStyledProps, 'containerAlign' | 'containerJustify' | 'variantAlign'> {
     /** Компонент, который необходимо отобразить. Не рекомендуется оборачивать его другим компонентом. */
     component: FC<VariantProps>,
 
@@ -66,10 +68,17 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
             size: 'primary',
         },
         direction = 'horizontal',
+        containerAlign,
+        containerJustify,
+        variantAlign,
     } = options;
 
     const examples = values.map((value) => (
-        <Variant key={createID()} optionTitle={title.isShown}>
+        <Variant
+            key={createID()}
+            optionTitle={title.isShown}
+            variantAlign={variantAlign}
+        >
             {title.isShown && (
                 <Title size={title.size}>
                     {title.type === 'value' ? value.toString() : property}
@@ -86,7 +95,11 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
     ));
 
     return (
-        <Variants direction={direction}>
+        <Variants
+            direction={direction}
+            containerAlign={containerAlign}
+            containerJustify={containerJustify}
+        >
             {examples}
         </Variants>
     );
@@ -131,10 +144,28 @@ export function DisplayVariantsMap<Props>(options: DisplayVariantsMapProps<Props
     const keysOfProps = Object.keys(variants);
 
     return (
-        <VerticalContainer direction={direction} spaceBetween={keysOfProps.length > 4}>
+        <VerticalContainer
+            direction={direction}
+            containerJustify={
+                restOptions.containerJustify
+                ?? keysOfProps.length > 4
+                    ? 'space-between'
+                    : 'space-evenly'
+            }
+        >
             {
                 keysOfProps.map((property) => (
-                    <Container direction={direction} center={variants[property].length < 3} key={createID()}>
+                    <Container
+                        direction={direction}
+                        containerAlign={restOptions.containerAlign}
+                        containerJustify={
+                            restOptions.containerJustify
+                            ?? variants[property].length < 3
+                                ? 'center'
+                                : 'space-between'
+                        }
+                        key={createID()}
+                    >
                         {shownTitle && <TitleOfContainer direction={direction}>{property}</TitleOfContainer>}
                         {
                             DisplayVariants({

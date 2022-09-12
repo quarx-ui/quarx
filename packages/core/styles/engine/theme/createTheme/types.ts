@@ -23,6 +23,14 @@ import {
     CreateTransitionArg,
     LinkProps,
     TextFieldProps,
+    TabsProps,
+    TabsContainerProps,
+    TabsContainedProps,
+    TabItemContainedProps,
+    TabsDefaultProps,
+    TabItemDefaultProps,
+    TabsSegmentedProps,
+    TabItemSegmentedProps,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import {
@@ -49,6 +57,14 @@ export interface ComponentsProps {
     Selection: SelectionProps,
     Switcher: SwitcherProps,
     SwitcherSelection: SwitcherSelectionProps,
+    Tabs: TabsProps,
+    TabsContainer: TabsContainerProps,
+    TabsContained: TabsContainedProps,
+    TabItemContained: TabItemContainedProps,
+    TabsDefault: TabsDefaultProps,
+    TabItemDefault: TabItemDefaultProps,
+    TabsSegmented: TabsSegmentedProps,
+    TabItemSegmented: TabItemSegmentedProps,
     TextField: TextFieldProps,
 }
 
