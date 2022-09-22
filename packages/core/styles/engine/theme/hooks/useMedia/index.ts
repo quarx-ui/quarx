@@ -1,4 +1,4 @@
-import { isSxDevice } from '@core/enums';
+import { isQxDevice } from '@core/enums';
 import { useLayoutEffect, useState } from 'react';
 import { useTheme } from '../useTheme';
 import { UseMediaArg } from './types';
@@ -8,7 +8,7 @@ export const useMedia = (media: UseMediaArg): boolean => {
     const { breakpoints } = useTheme();
 
     const getQueryFromString = (query: string) => (
-        isSxDevice(query)
+        isQxDevice(query)
             ? breakpoints.only(deviceToBreakpoint[query])
             : query
     );

@@ -1,14 +1,12 @@
 import { Narrow, Values, valuesAsKeysFromArray } from '@core';
 
 export const QX_BORDER_SIZE = valuesAsKeysFromArray([
-    'tiny',
+    'xSmall',
     'small',
-    'base',
+    'medium',
     'large',
+    'xLarge',
     'max',
-    'rounded',
-    'square',
-    'smooth',
 ]);
 
 export type QxBorderSize = Values<typeof QX_BORDER_SIZE>;

@@ -4,12 +4,12 @@ exports[`Link color brand 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_brand QxLink_size_inherit css-1e9q0sv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_brand QxLink_size_inherit css-xt1m9f-QxLink-root"
     data-testid="testStyleParams-color-brand"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -21,12 +21,12 @@ exports[`Link color danger 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_danger QxLink_size_inherit css-1lns4kr-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_danger QxLink_size_inherit css-5bag7s-QxLink-root"
     data-testid="testStyleParams-color-danger"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -38,12 +38,12 @@ exports[`Link color info 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="testStyleParams-color-info"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -55,12 +55,12 @@ exports[`Link color secondary 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_secondary QxLink_size_inherit css-1tapa6c-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_secondary QxLink_size_inherit css-8v4nea-QxLink-root"
     data-testid="testStyleParams-color-secondary"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -72,12 +72,12 @@ exports[`Link color success 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_success QxLink_size_inherit css-1hstm7y-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_success QxLink_size_inherit css-18bgf36-QxLink-root"
     data-testid="testStyleParams-color-success"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -89,12 +89,12 @@ exports[`Link color warning 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_warning QxLink_size_inherit css-6oglef-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_warning QxLink_size_inherit css-1f7hxvg-QxLink-root"
     data-testid="testStyleParams-color-warning"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -106,12 +106,12 @@ exports[`Link default style props 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="Link"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Перейти
     </span>
@@ -123,12 +123,12 @@ exports[`Link disabled false 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="testStyleParams-disabled-false"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -140,12 +140,12 @@ exports[`Link disabled true 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="true"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit QxLink_disabled css-1rr43tb-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit QxLink_disabled css-1lzvu84-QxLink-root"
     data-testid="testStyleParams-disabled-true"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -157,11 +157,11 @@ exports[`Link icons should be in document 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     tabindex="0"
   >
     <span
-      class="QxLink-leftItem css-kr2lg0-QxLink-leftItem"
+      class="QxLink-leftItem css-anm82p-QxLink-leftItem"
     >
       <svg
         data-testid="gear-icon"
@@ -184,12 +184,12 @@ exports[`Link icons should be in document 1`] = `
       </svg>
     </span>
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
     <span
-      class="QxLink-rightItem css-1hc7tcj-QxLink-rightItem"
+      class="QxLink-rightItem css-19yfd4u-QxLink-rightItem"
     >
       <svg
         data-testid="chevron-right-icon"
@@ -214,12 +214,12 @@ exports[`Link should work with custom Component 1`] = `
 <DocumentFragment>
   <div
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="custom-component"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Перейти
     </span>
@@ -231,12 +231,12 @@ exports[`Link should work with custom tag 1`] = `
 <DocumentFragment>
   <div
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="Link"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Перейти
     </span>
@@ -248,12 +248,12 @@ exports[`Link size L 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_L css-1jzbpmt-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_L css-1ltq3f2-QxLink-root"
     data-testid="testStyleParams-size-L"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -265,12 +265,12 @@ exports[`Link size M 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_M css-5laepb-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_M css-17tloje-QxLink-root"
     data-testid="testStyleParams-size-M"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -282,12 +282,12 @@ exports[`Link size S 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_S css-1m7yx7u-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_S css-mvvzk6-QxLink-root"
     data-testid="testStyleParams-size-S"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -299,12 +299,12 @@ exports[`Link size XL 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_XL css-rdbcmq-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_XL css-w5azfr-QxLink-root"
     data-testid="testStyleParams-size-XL"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -316,12 +316,12 @@ exports[`Link size inherit 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="testStyleParams-size-inherit"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -333,12 +333,12 @@ exports[`Link underline always 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1o531zy-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1h98efm-QxLink-root"
     data-testid="testStyleParams-underline-always"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -350,12 +350,12 @@ exports[`Link underline hover 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_hover QxLink_color_info QxLink_size_inherit css-10mdhht-QxLink-root"
+    class="QxLink QxLink_underline_hover QxLink_color_info QxLink_size_inherit css-57e40e-QxLink-root"
     data-testid="testStyleParams-underline-hover"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-1m8ve7-QxLink-content"
+      class="QxLink-content css-1e5ydaj-QxLink-content"
     >
       Настройки
     </span>
@@ -367,12 +367,12 @@ exports[`Link underline none 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_none QxLink_color_info QxLink_size_inherit css-1tppzxx-QxLink-root"
+    class="QxLink QxLink_underline_none QxLink_color_info QxLink_size_inherit css-huzc5-QxLink-root"
     data-testid="testStyleParams-underline-none"
     tabindex="0"
   >
     <span
-      class="QxLink-content css-tp8yp2-QxLink-content"
+      class="QxLink-content css-1c2nrl-QxLink-content"
     >
       Настройки
     </span>

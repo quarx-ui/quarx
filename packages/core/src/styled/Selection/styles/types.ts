@@ -1,6 +1,6 @@
 import { PickQxSize } from '@core/enums';
 
-export type SelectionSize = PickqxSize<'small' | 'medium' | 'large'>;
+export type SelectionSize = PickQxSize<'small' | 'medium' | 'large'>;
 export type SelectionBorderRadius = 'square' | 'smooth'; // TODO refactor
 
 export interface OmittedStyleParams {

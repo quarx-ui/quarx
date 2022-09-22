@@ -3,11 +3,11 @@
 exports[`Button snapshots borderRadius-large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxButton QxButton_size_medium css-1d3mc0e-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxButton QxButton_size_medium css-16euli0-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -18,11 +18,11 @@ exports[`Button snapshots borderRadius-large 1`] = `
 exports[`Button snapshots borderRadius-small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxButton QxButton_size_medium css-1v9jg59-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxButton QxButton_size_medium css-1eomnsv-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -33,11 +33,11 @@ exports[`Button snapshots borderRadius-small 1`] = `
 exports[`Button snapshots borderRadius-xLarge 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxButton QxButton_size_medium css-49vy11-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxButton QxButton_size_medium css-qpqyq4-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -48,11 +48,11 @@ exports[`Button snapshots borderRadius-xLarge 1`] = `
 exports[`Button snapshots borderRadius-xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxButton QxButton_size_medium css-5a5zi-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxButton QxButton_size_medium css-m5lszx-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -63,11 +63,11 @@ exports[`Button snapshots borderRadius-xSmall 1`] = `
 exports[`Button snapshots danger 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-vv0jgs-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-yqcv4h-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -78,11 +78,11 @@ exports[`Button snapshots danger 1`] = `
 exports[`Button snapshots default 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-zfb1fy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1jb3y7p-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -93,12 +93,12 @@ exports[`Button snapshots default 1`] = `
 exports[`Button snapshots disabled 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_disabled QxButton QxButton_size_medium css-14ynjet-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_disabled QxButton QxButton_size_medium css-3m51vi-QxBaseButton-root-QxButton-root"
     disabled=""
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -109,11 +109,11 @@ exports[`Button snapshots disabled 1`] = `
 exports[`Button snapshots info 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-12pbajn-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1um3imj-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -124,26 +124,26 @@ exports[`Button snapshots info 1`] = `
 exports[`Button snapshots loading 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxButton QxButton_size_medium QxButton_loading css-1dqnff7-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxButton QxButton_size_medium QxButton_loading css-1c6ly0k-QxBaseButton-root-QxButton-root"
     disabled=""
     type="button"
   >
     <div
-      class="QxButton-content css-16bg0a3-QxButton-content"
+      class="QxButton-content css-d2tv5z-QxButton-content"
     >
       Button
     </div>
     <div
-      class="QxLoader QxLoader_size_base QxButton-loader css-1nxool5-QxLoader-root-QxButton-loader"
+      class="QxLoader QxLoader_size_base QxButton-loader css-6triir-QxLoader-root-QxButton-loader"
     >
       <div
-        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+        class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
       />
       <div
-        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+        class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
       />
       <div
-        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+        class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
       />
     </div>
   </button>
@@ -153,11 +153,11 @@ exports[`Button snapshots loading 1`] = `
 exports[`Button snapshots outlined 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-ev2je6-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1novby9-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -168,11 +168,11 @@ exports[`Button snapshots outlined 1`] = `
 exports[`Button snapshots secondary 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-2rlrfs-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-g5834w-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -183,11 +183,11 @@ exports[`Button snapshots secondary 1`] = `
 exports[`Button snapshots size-large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_large css-95u9hd-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_large css-1tb1c8t-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -198,11 +198,11 @@ exports[`Button snapshots size-large 1`] = `
 exports[`Button snapshots size-small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-kml2v-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1o28vx0-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -213,11 +213,11 @@ exports[`Button snapshots size-small 1`] = `
 exports[`Button snapshots size-xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-m89fx2-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-1vmzq96-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -228,11 +228,11 @@ exports[`Button snapshots size-xSmall 1`] = `
 exports[`Button snapshots success 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-19o1xiq-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1oltfen-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -243,11 +243,11 @@ exports[`Button snapshots success 1`] = `
 exports[`Button snapshots text 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-iczf9x-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1gfmb08-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -258,11 +258,11 @@ exports[`Button snapshots text 1`] = `
 exports[`Button snapshots warning 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1sq9k0x-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1yfl5nh-QxBaseButton-root-QxButton-root"
     type="button"
   >
     <div
-      class="QxButton-content css-15h85ex-QxButton-content"
+      class="QxButton-content css-hh58qu-QxButton-content"
     >
       Button
     </div>
@@ -273,11 +273,11 @@ exports[`Button snapshots warning 1`] = `
 exports[`IconButton snapshots borderRadius-large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxIconButton QxIconButton_size_medium css-1hof6pn-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxIconButton QxIconButton_size_medium css-4ca02w-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -301,11 +301,11 @@ exports[`IconButton snapshots borderRadius-large 1`] = `
 exports[`IconButton snapshots borderRadius-small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxIconButton QxIconButton_size_medium css-uieym1-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxIconButton QxIconButton_size_medium css-wb6hmm-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -329,11 +329,11 @@ exports[`IconButton snapshots borderRadius-small 1`] = `
 exports[`IconButton snapshots borderRadius-xLarge 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxIconButton QxIconButton_size_medium css-c84pu3-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxIconButton QxIconButton_size_medium css-1h2c0gv-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -357,11 +357,11 @@ exports[`IconButton snapshots borderRadius-xLarge 1`] = `
 exports[`IconButton snapshots borderRadius-xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxIconButton QxIconButton_size_medium css-cx3ou-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxIconButton QxIconButton_size_medium css-1a21knb-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -385,11 +385,11 @@ exports[`IconButton snapshots borderRadius-xSmall 1`] = `
 exports[`IconButton snapshots danger 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1qjsl3w-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-p298jb-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -413,11 +413,11 @@ exports[`IconButton snapshots danger 1`] = `
 exports[`IconButton snapshots default 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1h9426z-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1ix2ndn-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -441,12 +441,12 @@ exports[`IconButton snapshots default 1`] = `
 exports[`IconButton snapshots disabled 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_disabled QxIconButton QxIconButton_size_medium css-43p6vx-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_disabled QxIconButton QxIconButton_size_medium css-f6u1vb-QxBaseButton-root-QxIconButton-root"
     disabled=""
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -470,11 +470,11 @@ exports[`IconButton snapshots disabled 1`] = `
 exports[`IconButton snapshots info 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-11pr8ho-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1lglsml-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -498,12 +498,12 @@ exports[`IconButton snapshots info 1`] = `
 exports[`IconButton snapshots loading 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxIconButton QxIconButton_size_medium QxIconButton_loading css-z3ph7e-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxIconButton QxIconButton_size_medium QxIconButton_loading css-xxpzpx-QxBaseButton-root-QxIconButton-root"
     disabled=""
     type="button"
   >
     <div
-      class="QxIconButton-icon css-qudlwq-QxIconButton-icon"
+      class="QxIconButton-icon css-l5ijeh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -521,13 +521,13 @@ exports[`IconButton snapshots loading 1`] = `
       </svg>
     </div>
     <div
-      class="QxLoader QxLoader_size_base QxIconButton-loader css-1yd4sv8-QxLoader-root-QxIconButton-loader"
+      class="QxLoader QxLoader_size_base QxIconButton-loader css-19mu6vp-QxLoader-root-QxIconButton-loader"
     >
       <div
-        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+        class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
       />
       <div
-        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+        class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
       />
     </div>
   </button>
@@ -537,11 +537,11 @@ exports[`IconButton snapshots loading 1`] = `
 exports[`IconButton snapshots outlined 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-pzaj9j-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1pf72h7-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -565,11 +565,11 @@ exports[`IconButton snapshots outlined 1`] = `
 exports[`IconButton snapshots secondary 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-wzjao5-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1vdors8-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -593,11 +593,11 @@ exports[`IconButton snapshots secondary 1`] = `
 exports[`IconButton snapshots size-large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_large css-1udosn2-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_large css-1q6j130-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -621,11 +621,11 @@ exports[`IconButton snapshots size-large 1`] = `
 exports[`IconButton snapshots size-small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small css-alslzt-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small css-1k07r08-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -649,11 +649,11 @@ exports[`IconButton snapshots size-small 1`] = `
 exports[`IconButton snapshots size-xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_xSmall css-nb14m-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_xSmall css-ydf3q3-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -677,11 +677,11 @@ exports[`IconButton snapshots size-xSmall 1`] = `
 exports[`IconButton snapshots success 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-zk3m5g-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1x529k5-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -705,11 +705,11 @@ exports[`IconButton snapshots success 1`] = `
 exports[`IconButton snapshots text 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1hyhezo-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-vzqpvn-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"
@@ -733,11 +733,11 @@ exports[`IconButton snapshots text 1`] = `
 exports[`IconButton snapshots warning 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1dz0y02-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-5lqwy3-QxBaseButton-root-QxIconButton-root"
     type="button"
   >
     <div
-      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+      class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
     >
       <svg
         fill="none"

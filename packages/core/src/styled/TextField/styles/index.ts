@@ -1,7 +1,7 @@
 import { changeOpacity, KeysFromUseStyles, makeStyles, typography } from '@core/styles';
 import { CSSObject, keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
-import { TextFieldCSSVarKeys } from '@core/src/TextField/styles/vars';
+import { TextFieldCSSVarKeys } from '@core/src/styled/TextField/styles/vars';
 import { cssVar } from '@core/utils/cssVars';
 import { BaseTextFieldStyleParams, TextFieldStyleParams } from './types';
 
@@ -477,7 +477,7 @@ export const useStyles = makeStyles((
         },
 
     });
-}, { name: 'QxTextField' });
+}, { name: 'SxTextField' });
 
 export type TextFieldStyleKeys = KeysFromUseStyles<typeof useStyles>;
 

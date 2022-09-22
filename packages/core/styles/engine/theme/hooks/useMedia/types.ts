@@ -1,7 +1,7 @@
-import { SxDevice } from '@core/enums';
+import { QxDevice } from '@core/enums';
 import { Breakpoints } from '../../breakpoints';
 
 export type UseMediaArg =
     | string
-    | SxDevice
+    | QxDevice
     | ((breakpoints: Breakpoints) => string)

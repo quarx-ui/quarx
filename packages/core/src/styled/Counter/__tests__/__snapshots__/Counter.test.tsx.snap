@@ -3,7 +3,7 @@
 exports[`Counter Snapshot 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-1wpxzyc-QxCounter-root"
   >
     99
   </span>
@@ -13,7 +13,7 @@ exports[`Counter Snapshot 1`] = `
 exports[`Counter color brand 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-1wpxzyc-QxCounter-root"
     data-testid="testStyleParams-color-brand"
   >
     99
@@ -24,7 +24,7 @@ exports[`Counter color brand 1`] = `
 exports[`Counter color danger 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_danger css-1op0iw-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_danger css-7taqe1-QxCounter-root"
     data-testid="testStyleParams-color-danger"
   >
     99
@@ -35,7 +35,7 @@ exports[`Counter color danger 1`] = `
 exports[`Counter color info 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_info css-g8ttil-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_info css-kcan2j-QxCounter-root"
     data-testid="testStyleParams-color-info"
   >
     99
@@ -46,7 +46,7 @@ exports[`Counter color info 1`] = `
 exports[`Counter color secondary 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_secondary css-kg5qyf-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_secondary css-1kgegnx-QxCounter-root"
     data-testid="testStyleParams-color-secondary"
   >
     99
@@ -57,7 +57,7 @@ exports[`Counter color secondary 1`] = `
 exports[`Counter color success 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_success css-1ohbl6v-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_success css-170hlbl-QxCounter-root"
     data-testid="testStyleParams-color-success"
   >
     99
@@ -68,7 +68,7 @@ exports[`Counter color success 1`] = `
 exports[`Counter color text 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_text css-29q5lz-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_text css-4mbru-QxCounter-root"
     data-testid="testStyleParams-color-text"
   >
     99
@@ -79,7 +79,7 @@ exports[`Counter color text 1`] = `
 exports[`Counter color warning 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_warning css-1uoppil-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_warning css-c883of-QxCounter-root"
     data-testid="testStyleParams-color-warning"
   >
     99
@@ -90,7 +90,7 @@ exports[`Counter color warning 1`] = `
 exports[`Counter size large 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-1wpxzyc-QxCounter-root"
     data-testid="testStyleParams-size-large"
   >
     99
@@ -101,7 +101,7 @@ exports[`Counter size large 1`] = `
 exports[`Counter size medium 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_medium QxCounter_color_brand css-1jmdb1s-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_medium QxCounter_color_brand css-85w8fq-QxCounter-root"
     data-testid="testStyleParams-size-medium"
   >
     99
@@ -112,7 +112,7 @@ exports[`Counter size medium 1`] = `
 exports[`Counter size small 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_small QxCounter_color_brand css-1q23jg2-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_small QxCounter_color_brand css-fqvcu3-QxCounter-root"
     data-testid="testStyleParams-size-small"
   >
     99
@@ -123,7 +123,7 @@ exports[`Counter size small 1`] = `
 exports[`Counter type filled 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-1wpxzyc-QxCounter-root"
     data-testid="testStyleParams-type-filled"
   >
     99
@@ -134,7 +134,7 @@ exports[`Counter type filled 1`] = `
 exports[`Counter type ghosted 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_ghosted QxCounter_size_large QxCounter_color_brand css-1uf3fr4-QxCounter-root"
+    class="QxCounter QxCounter_type_ghosted QxCounter_size_large QxCounter_color_brand css-1xhedyb-QxCounter-root"
     data-testid="testStyleParams-type-ghosted"
   >
     99
@@ -145,7 +145,7 @@ exports[`Counter type ghosted 1`] = `
 exports[`Counter type white 1`] = `
 <DocumentFragment>
   <span
-    class="QxCounter QxCounter_type_white QxCounter_size_large QxCounter_color_brand css-1letqfp-QxCounter-root"
+    class="QxCounter QxCounter_type_white QxCounter_size_large QxCounter_color_brand css-nr005x-QxCounter-root"
     data-testid="testStyleParams-type-white"
   >
     99

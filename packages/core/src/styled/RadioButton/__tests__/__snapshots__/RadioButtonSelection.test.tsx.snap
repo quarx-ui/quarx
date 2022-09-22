@@ -3,33 +3,33 @@
 exports[`RadioButtonSelection default snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxRadioButtonSelection css-17zcez7-QxSelection-root"
+    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxRadioButtonSelection css-1e56tu3-QxSelection-root"
   >
     <div
-      class="QxSelection-leftAdornment css-wgw2ok-QxSelection-leftAdornment"
+      class="QxSelection-leftAdornment css-1xv7td9-QxSelection-leftAdornment"
     >
       <label
-        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus css-43x8eg-QxRadioButton-root"
+        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus css-idaz54-QxRadioButton-root"
       >
         <input
-          class="QxRadioButton-input css-1gxb6w2-QxRadioButton-input"
+          class="QxRadioButton-input css-r2ldcm-QxRadioButton-input"
           type="radio"
           value=""
         />
         <div
-          class="QxRadioButton-marker css-qr8oq0-QxRadioButton-marker"
+          class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
         >
           <div
-            class="QxRadioButton-markerDot css-1qao2rf-QxRadioButton-markerDot"
+            class="QxRadioButton-markerDot css-10yq7yi-QxRadioButton-markerDot"
           />
         </div>
       </label>
     </div>
     <div
-      class="QxSelection-text css-vh17dj-QxSelection-text"
+      class="QxSelection-text css-4p6ohz-QxSelection-text"
     >
       <div
-        class="QxSelection-title css-2ugh8p-QxSelection-title"
+        class="QxSelection-title css-11y2um3-QxSelection-title"
       >
         RadioButtonSelection
       </div>

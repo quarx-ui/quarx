@@ -3,33 +3,33 @@
 exports[`SwitcherSelection default snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxSwitcherSelection css-17zcez7-QxSelection-root"
+    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxSwitcherSelection css-1e56tu3-QxSelection-root"
   >
     <div
-      class="QxSelection-leftAdornment css-wgw2ok-QxSelection-leftAdornment"
+      class="QxSelection-leftAdornment css-1xv7td9-QxSelection-leftAdornment"
     >
       <label
-        class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disableFocus QxSwitcher_position_left css-vhioa4-QxSwitcher-root"
+        class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disableFocus QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
       >
         <input
-          class="QxSwitcher-input css-e36pxu-QxSwitcher-input"
+          class="QxSwitcher-input css-1l6pf64-QxSwitcher-input"
           type="checkbox"
           value=""
         />
         <div
-          class="QxSwitcher-toggleContainer css-8xldro-QxSwitcher-toggleContainer"
+          class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
         >
           <div
-            class="QxSwitcher-toggle css-t65zul-QxSwitcher-toggle"
+            class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
           />
         </div>
       </label>
     </div>
     <div
-      class="QxSelection-text css-vh17dj-QxSelection-text"
+      class="QxSelection-text css-4p6ohz-QxSelection-text"
     >
       <div
-        class="QxSelection-title css-2ugh8p-QxSelection-title"
+        class="QxSelection-title css-11y2um3-QxSelection-title"
       >
         SwitcherSelection
       </div>

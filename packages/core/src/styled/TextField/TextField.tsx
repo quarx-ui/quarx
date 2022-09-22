@@ -10,8 +10,8 @@ import React, {
     useState,
 } from 'react';
 import { Loader, QX_SIZE, usePropsOverwrites } from '@core';
-import BaseTextField from '@quarx-ui/core/src/styled/TextField/BaseTextField';
-import { Bottom, Label, RightItem } from '@quarx-ui/core/src/styled/TextField/elements';
+import BaseTextField from '@core/src/styled/TextField/BaseTextField';
+import { Bottom, Label, RightItem } from '@core/src/styled/TextField/elements';
 import clsx from 'clsx';
 import { mergeRefs } from '@core/utils/mergeRefs';
 import { TextFieldProps } from './types';

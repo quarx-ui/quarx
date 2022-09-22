@@ -3,27 +3,27 @@
 exports[`CheckboxSelection default snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxCheckboxSelection css-17zcez7-QxSelection-root"
+    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxCheckboxSelection css-1e56tu3-QxSelection-root"
   >
     <div
-      class="QxSelection-leftAdornment css-wgw2ok-QxSelection-leftAdornment"
+      class="QxSelection-leftAdornment css-1xv7td9-QxSelection-leftAdornment"
     >
       <label
-        class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_smooth QxCheckbox_disableFocus css-1ltgxet-QxCheckbox-root"
+        class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_smooth QxCheckbox_disableFocus css-1suwtsh-QxCheckbox-root"
       >
         <input
-          class="QxCheckbox-input css-hbt4o1-QxCheckbox-input"
+          class="QxCheckbox-input css-hulrmr-QxCheckbox-input"
           type="checkbox"
           value=""
         />
         <div
-          class="QxCheckbox-checkboxContainer css-z2fv0j-QxCheckbox-checkboxContainer"
+          class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
         >
           <div
-            class="QxCheckbox-overlay css-210v0f-QxCheckbox-overlay"
+            class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
           >
             <svg
-              class="QxCheckbox-icon css-2t7ry-QxCheckbox-icon"
+              class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
               fill="currentcolor"
               height="8"
               viewBox="0 0 11 8"
@@ -41,10 +41,10 @@ exports[`CheckboxSelection default snapshot 1`] = `
       </label>
     </div>
     <div
-      class="QxSelection-text css-vh17dj-QxSelection-text"
+      class="QxSelection-text css-4p6ohz-QxSelection-text"
     >
       <div
-        class="QxSelection-title css-2ugh8p-QxSelection-title"
+        class="QxSelection-title css-11y2um3-QxSelection-title"
       >
         CheckboxSelection
       </div>

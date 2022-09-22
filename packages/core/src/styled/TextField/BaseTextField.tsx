@@ -5,7 +5,7 @@ import React, {
     forwardRef, Ref, useLayoutEffect,
     useState,
 } from 'react';
-import { BaseTextFieldProps, TextFieldRefType } from '@quarx-ui/core/src/styled/TextField/types';
+import { BaseTextFieldProps, TextFieldRefType } from '@core/src/styled/TextField/types';
 import { mergeRefs } from '@core/utils/mergeRefs';
 
 const listenRowsChanges = (ref: TextFieldRefType | null, maxRows?: number) => {
