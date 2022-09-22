@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitcherSelection default snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxSwitcherSelection css-17zcez7-QxSelection-root"
+  >
+    <div
+      class="QxSelection-leftAdornment css-wgw2ok-QxSelection-leftAdornment"
+    >
+      <label
+        class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disableFocus QxSwitcher_position_left css-vhioa4-QxSwitcher-root"
+      >
+        <input
+          class="QxSwitcher-input css-e36pxu-QxSwitcher-input"
+          type="checkbox"
+          value=""
+        />
+        <div
+          class="QxSwitcher-toggleContainer css-8xldro-QxSwitcher-toggleContainer"
+        >
+          <div
+            class="QxSwitcher-toggle css-t65zul-QxSwitcher-toggle"
+          />
+        </div>
+      </label>
+    </div>
+    <div
+      class="QxSelection-text css-vh17dj-QxSelection-text"
+    >
+      <div
+        class="QxSelection-title css-2ugh8p-QxSelection-title"
+      >
+        SwitcherSelection
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

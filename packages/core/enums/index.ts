@@ -1,3 +1,3 @@
-export * from './SxDevice';
-export * from './SxSize';
-export * from './SxBorderSize';
+export * from './QxDevice';
+export * from './QxSize';
+export * from './QxBorderSize';

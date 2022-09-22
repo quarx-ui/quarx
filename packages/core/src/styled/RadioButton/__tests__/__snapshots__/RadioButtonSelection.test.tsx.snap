@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButtonSelection default snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxRadioButtonSelection css-17zcez7-QxSelection-root"
+  >
+    <div
+      class="QxSelection-leftAdornment css-wgw2ok-QxSelection-leftAdornment"
+    >
+      <label
+        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus css-43x8eg-QxRadioButton-root"
+      >
+        <input
+          class="QxRadioButton-input css-1gxb6w2-QxRadioButton-input"
+          type="radio"
+          value=""
+        />
+        <div
+          class="QxRadioButton-marker css-qr8oq0-QxRadioButton-marker"
+        >
+          <div
+            class="QxRadioButton-markerDot css-1qao2rf-QxRadioButton-markerDot"
+          />
+        </div>
+      </label>
+    </div>
+    <div
+      class="QxSelection-text css-vh17dj-QxSelection-text"
+    >
+      <div
+        class="QxSelection-title css-2ugh8p-QxSelection-title"
+      >
+        RadioButtonSelection
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

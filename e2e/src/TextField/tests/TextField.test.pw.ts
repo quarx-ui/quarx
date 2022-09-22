@@ -57,7 +57,7 @@ describe('TextField', () => {
         await toMatchSnapshot('withoutClearIcon', { timeout: 200 });
 
         await getComponent().hover();
-        await getComponent('.SxTextField-closeIcon').click();
+        await getComponent('.QxTextField-closeIcon').click();
         await toMatchSnapshot('afterClear', { timeout: 200 });
 
         await setProps({ clearIconVisibleOn: 'always', value: 'Some text' });

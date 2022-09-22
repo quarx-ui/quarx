@@ -1,8 +1,8 @@
-import { CreatePaletteArg, PickSxSize } from '@core';
+import { CreatePaletteArg, PickQxSize } from '@core';
 import { CSSObject } from '@emotion/react';
 
 export type BordersStyle = 'solid' | 'dashed' | 'dotted' | 'double' | 'ridge';
-export type BordersSize = PickSxSize<'small' | 'medium' | 'large'>;
+export type BordersSize = PickQxSize<'small' | 'medium' | 'large'>;
 export type BordersSide = 'top' | 'right' | 'bottom' | 'left' | 'all';
 export type BorderType = Pick<CSSObject, 'borderWidth' | 'borderStyle' | 'borderColor'>
 

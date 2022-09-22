@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshots borderRadius-large 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxButton QxButton_size_medium css-1d3mc0e-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots borderRadius-small 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxButton QxButton_size_medium css-1v9jg59-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots borderRadius-xLarge 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxButton QxButton_size_medium css-49vy11-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots borderRadius-xSmall 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxButton QxButton_size_medium css-5a5zi-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots danger 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-vv0jgs-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots default 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-zfb1fy-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots disabled 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_disabled QxButton QxButton_size_medium css-14ynjet-QxBaseButton-root-QxButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots info 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-12pbajn-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots loading 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxButton QxButton_size_medium QxButton_loading css-1dqnff7-QxBaseButton-root-QxButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="QxButton-content css-16bg0a3-QxButton-content"
+    >
+      Button
+    </div>
+    <div
+      class="QxLoader QxLoader_size_base QxButton-loader css-1nxool5-QxLoader-root-QxButton-loader"
+    >
+      <div
+        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+      />
+      <div
+        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+      />
+      <div
+        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+      />
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots outlined 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-ev2je6-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots secondary 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-2rlrfs-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots size-large 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_large css-95u9hd-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots size-small 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-kml2v-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots size-xSmall 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-m89fx2-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots success 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-19o1xiq-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots text 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-iczf9x-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots warning 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1sq9k0x-QxBaseButton-root-QxButton-root"
+    type="button"
+  >
+    <div
+      class="QxButton-content css-15h85ex-QxButton-content"
+    >
+      Button
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots borderRadius-large 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxIconButton QxIconButton_size_medium css-1hof6pn-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots borderRadius-small 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxIconButton QxIconButton_size_medium css-uieym1-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots borderRadius-xLarge 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxIconButton QxIconButton_size_medium css-c84pu3-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots borderRadius-xSmall 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxIconButton QxIconButton_size_medium css-cx3ou-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots danger 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1qjsl3w-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots default 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1h9426z-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots disabled 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_disabled QxIconButton QxIconButton_size_medium css-43p6vx-QxBaseButton-root-QxIconButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots info 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-11pr8ho-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots loading 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxIconButton QxIconButton_size_medium QxIconButton_loading css-z3ph7e-QxBaseButton-root-QxIconButton-root"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-qudlwq-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxLoader QxLoader_size_base QxIconButton-loader css-1yd4sv8-QxLoader-root-QxIconButton-loader"
+    >
+      <div
+        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+      />
+      <div
+        class="QxLoader-dot css-197lm1k-QxLoader-dot"
+      />
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots outlined 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-pzaj9j-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots secondary 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-wzjao5-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots size-large 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_large css-1udosn2-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots size-small 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small css-alslzt-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots size-xSmall 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_xSmall css-nb14m-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots success 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-zk3m5g-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots text 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1hyhezo-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`IconButton snapshots warning 1`] = `
+<DocumentFragment>
+  <button
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1dz0y02-QxBaseButton-root-QxIconButton-root"
+    type="button"
+  >
+    <div
+      class="QxIconButton-icon css-rgplqb-QxIconButton-icon"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M18.9755 13.1045C21.5163 10.5637 21.5149 6.44569 18.9746 3.9054C16.434 1.36487 12.315 1.36487 9.77451 3.9054L4.19078 9.48913C3.79993 9.87998 3.79993 10.5137 4.19078 10.9045C4.58163 11.2954 5.21532 11.2954 5.60617 10.9045L11.1899 5.32079C12.9487 3.56196 15.8003 3.56196 17.5592 5.32079C19.3182 7.07985 19.3187 9.9305 17.5601 11.6891L10.0262 19.2231C8.99154 20.2577 7.31534 20.2568 6.27848 19.22C5.24273 18.1842 5.24273 16.5049 6.27849 15.4692L13.5961 8.15158C13.9088 7.8389 14.4157 7.8389 14.7284 8.15158C15.0411 8.46426 15.0411 8.97122 14.7284 9.2839L9.35697 14.6553C8.96612 15.0462 8.96612 15.6799 9.35697 16.0707C9.74782 16.4616 10.3815 16.4616 10.7724 16.0707L16.1438 10.6993C17.2382 9.60491 17.2382 7.83057 16.1438 6.73619C15.0494 5.64181 13.2751 5.6418 12.1807 6.73619L4.86309 14.0538C3.04564 15.8712 3.04564 18.8179 4.86309 20.6354C6.67944 22.4517 9.62302 22.457 11.4416 20.6385L18.9755 13.1045Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;

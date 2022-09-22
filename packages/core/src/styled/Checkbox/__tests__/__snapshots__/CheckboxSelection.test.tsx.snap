@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxSelection default snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelection QxSelection_size_medium QxSelection_styleHover_default QxSelection_borderRadius_smooth QxCheckboxSelection css-17zcez7-QxSelection-root"
+  >
+    <div
+      class="QxSelection-leftAdornment css-wgw2ok-QxSelection-leftAdornment"
+    >
+      <label
+        class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_smooth QxCheckbox_disableFocus css-1ltgxet-QxCheckbox-root"
+      >
+        <input
+          class="QxCheckbox-input css-hbt4o1-QxCheckbox-input"
+          type="checkbox"
+          value=""
+        />
+        <div
+          class="QxCheckbox-checkboxContainer css-z2fv0j-QxCheckbox-checkboxContainer"
+        >
+          <div
+            class="QxCheckbox-overlay css-210v0f-QxCheckbox-overlay"
+          >
+            <svg
+              class="QxCheckbox-icon css-2t7ry-QxCheckbox-icon"
+              fill="currentcolor"
+              height="8"
+              viewBox="0 0 11 8"
+              width="11"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </label>
+    </div>
+    <div
+      class="QxSelection-text css-vh17dj-QxSelection-text"
+    >
+      <div
+        class="QxSelection-title css-2ugh8p-QxSelection-title"
+      >
+        CheckboxSelection
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

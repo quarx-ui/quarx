@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color brand 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color danger 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_danger css-1op0iw-QxCounter-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color info 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_info css-g8ttil-QxCounter-root"
+    data-testid="testStyleParams-color-info"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color secondary 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_secondary css-kg5qyf-QxCounter-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color success 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_success css-1ohbl6v-QxCounter-root"
+    data-testid="testStyleParams-color-success"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color text 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_text css-29q5lz-QxCounter-root"
+    data-testid="testStyleParams-color-text"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter color warning 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_warning css-1uoppil-QxCounter-root"
+    data-testid="testStyleParams-color-warning"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter size large 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    data-testid="testStyleParams-size-large"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter size medium 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_medium QxCounter_color_brand css-1jmdb1s-QxCounter-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter size small 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_small QxCounter_color_brand css-1q23jg2-QxCounter-root"
+    data-testid="testStyleParams-size-small"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter type filled 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_filled QxCounter_size_large QxCounter_color_brand css-14y727w-QxCounter-root"
+    data-testid="testStyleParams-type-filled"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter type ghosted 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_ghosted QxCounter_size_large QxCounter_color_brand css-1uf3fr4-QxCounter-root"
+    data-testid="testStyleParams-type-ghosted"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Counter type white 1`] = `
+<DocumentFragment>
+  <span
+    class="QxCounter QxCounter_type_white QxCounter_size_large QxCounter_color_brand css-1letqfp-QxCounter-root"
+    data-testid="testStyleParams-type-white"
+  >
+    99
+  </span>
+</DocumentFragment>
+`;

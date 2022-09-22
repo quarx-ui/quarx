@@ -1,6 +1,6 @@
-import { PickSxSize } from '@core';
+import { PickQxSize } from '@core';
 
-export type BorderRadiusSize = PickSxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'> | 'max';
+export type BorderRadiusSize = PickQxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'> | 'max';
 
 export type BorderRadiusSide =
     'top' |
