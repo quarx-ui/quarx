@@ -1,6 +1,8 @@
 import { changeOpacity, KeysFromUseStyles, makeStyles, typography } from '@core/styles';
 import { CSSObject, keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { TextFieldCSSVarKeys } from '@core/src/TextField/styles/vars';
+import { cssVar } from '@core/utils/cssVars';
 import { BaseTextFieldStyleParams, TextFieldStyleParams } from './types';
 
 export const useStyles = makeStyles((
@@ -20,6 +22,12 @@ export const useStyles = makeStyles((
         bottomIsVisible,
         bottomIsAbsolute,
     }: BaseTextFieldStyleParams & TextFieldStyleParams,
+    {
+        cssOuterShadowWidth,
+        cssOuterShadowColor,
+        cssBorderShadowWidth,
+        cssBorderShadowColor,
+    }: Record<TextFieldCSSVarKeys, string>,
 ) => {
     const vertCenter: CSSObject = {
         display: 'flex',
@@ -55,13 +63,8 @@ export const useStyles = makeStyles((
         },
     };
 
-    const borderShadowColor = '--border-shadow-color';
-    const outerShadowColor = '--outer-shadow-color';
-    const borderShadowWidth = '--border-shadow-width';
-    const outerShadowWidth = '--outer-shadow-width';
-
-    const shadow = `inset 0 0 0 var(${borderShadowWidth}) var(${borderShadowColor}), 
-    0 0 0 var(${outerShadowWidth}) var(${outerShadowColor})`;
+    const shadow = `inset 0 0 0 ${cssVar(cssBorderShadowWidth)} ${cssVar(cssBorderShadowColor)}, 
+    0 0 0 ${cssVar(cssOuterShadowWidth)} ${cssVar(cssOuterShadowColor)}`;
 
     return ({
         root: [
@@ -86,18 +89,18 @@ export const useStyles = makeStyles((
                 paddingLeft: 14,
                 paddingRight: 14,
 
-                [borderShadowWidth]: '1px',
-                [outerShadowWidth]: '3px',
-                [outerShadowColor]: 'transparent',
-                [borderShadowColor]: 'transparent',
+                [cssBorderShadowWidth]: '1px',
+                [cssOuterShadowWidth]: '3px',
+                [cssOuterShadowColor]: 'transparent',
+                [cssBorderShadowColor]: 'transparent',
                 boxShadow: shadow,
 
                 '&:hover': {
                     ...!disableHoverStyles && {
                         backgroundColor: palette.background.main,
 
-                        [borderShadowColor]: palette.border.secondary,
-                        [outerShadowColor]: changeOpacity(palette.text.main, 0.06),
+                        [cssBorderShadowColor]: palette.border.secondary,
+                        [cssOuterShadowColor]: changeOpacity(palette.text.main, 0.06),
                     },
 
                     '& .QxTextField-closeIcon': {
@@ -114,9 +117,9 @@ export const useStyles = makeStyles((
                 secondary: {
                     backgroundColor: palette.background.main,
 
-                    [borderShadowColor]: 'transparent',
-                    [outerShadowColor]: palette.border.secondary,
-                    [outerShadowWidth]: '1px',
+                    [cssBorderShadowColor]: 'transparent',
+                    [cssOuterShadowColor]: palette.border.secondary,
+                    [cssOuterShadowWidth]: '1px',
                 },
             }),
             paramsToCss(size)({
@@ -137,19 +140,19 @@ export const useStyles = makeStyles((
             focused && !loading && {
                 '&&': {
                     backgroundColor: palette.background.main,
-                    [borderShadowColor]: palette.colors.brand.default,
-                    [outerShadowColor]: palette.colors.brand.alpha.min,
-                    [borderShadowWidth]: '2px',
-                    [outerShadowWidth]: '4px',
+                    [cssBorderShadowColor]: palette.colors.brand.default,
+                    [cssOuterShadowColor]: palette.colors.brand.alpha.min,
+                    [cssBorderShadowWidth]: '2px',
+                    [cssOuterShadowWidth]: '4px',
                 },
             },
             error && {
                 '&&': {
                     backgroundColor: palette.background.main,
-                    [borderShadowColor]: palette.colors.danger.default,
-                    [outerShadowColor]: palette.colors.danger.alpha.min,
-                    [borderShadowWidth]: '2px',
-                    [outerShadowWidth]: '4px',
+                    [cssBorderShadowColor]: palette.colors.danger.default,
+                    [cssOuterShadowColor]: palette.colors.danger.alpha.min,
+                    [cssBorderShadowWidth]: '2px',
+                    [cssOuterShadowWidth]: '4px',
                 },
             },
             disabled && {
@@ -479,3 +482,4 @@ export const useStyles = makeStyles((
 export type TextFieldStyleKeys = KeysFromUseStyles<typeof useStyles>;
 
 export * from './types';
+export * from './vars';

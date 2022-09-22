@@ -7,4 +7,5 @@ export * from './styled/Loader';
 export * from './styled/RadioButton';
 export * from './styled/Selection';
 export * from './styled/Switcher';
+export * from './styled/Tabs';
 export * from './styled/TextField';

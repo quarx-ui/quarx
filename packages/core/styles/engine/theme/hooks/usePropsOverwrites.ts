@@ -16,6 +16,7 @@ import { ComponentsProps } from '@core/styles';
  *
  * @param name имя компонента
  * @param props параметры, переданные в компонент извне
+ * @param cssVars объект с CSS-переменными, где ключ - название переменной, значение - сама переменная
  *
  * @return
  * { props, cn }
@@ -24,9 +25,10 @@ import { ComponentsProps } from '@core/styles';
  *
  * cn – функция для генерации имен классов по БЭМ
  */
-export function usePropsOverwrites<T, StyleKey extends string>(
+export function usePropsOverwrites<T, StyleKey extends string, CSSVars extends Partial<Record<string, string>>>(
     name: keyof ComponentsProps,
-    props: T & { classes?: Classes<StyleKey> },
+    props: T & { classes?: Classes<StyleKey>, cssVars?: CSSVars },
+    cssVars?: CSSVars
 ): {
         props: T & Permissions & { styles: Partial<Styles<StyleKey>> },
         cn: TypedCnFormatter<StyleKey>,
@@ -42,15 +44,24 @@ export function usePropsOverwrites<T, StyleKey extends string>(
     const theme = useTheme();
     const overwrites = theme?.defaultProps?.[name];
 
+    const mergedCssVars: CSSVars = {
+        ...cssVars,
+        ...overwrites?.cssVars,
+        ...restProps.cssVars,
+    };
+
     const mergedProps = {
         ...(overwrites ?? {}),
         ...(restProps ?? {}),
         ...(permissions ?? {}),
+        ...(Object.keys(mergedCssVars).length
+            ? { cssVars: mergedCssVars }
+            : {})
     };
 
     // @ts-ignore
-    const overwritesStyles = overwrites?.styles ? extractStyles(mergedProps, theme, overwrites.styles) : {};
-    const propsStyles = restProps?.styles ? extractStyles(mergedProps, theme, restProps.styles) : {};
+    const overwritesStyles = overwrites?.styles ? extractStyles(mergedProps, theme, overwrites.styles, mergedProps.cssVars) : {};
+    const propsStyles = restProps?.styles ? extractStyles(mergedProps, theme, restProps.styles, mergedProps.cssVars) : {};
 
     if (propsStyles || overwritesStyles) {
         mergedProps.styles = deepmerge(overwritesStyles, propsStyles);

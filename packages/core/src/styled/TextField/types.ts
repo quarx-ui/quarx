@@ -5,7 +5,13 @@ import {
 } from 'react';
 import { BaseProps, ComponentPropsWithHTML } from '@core/types';
 import { WithClassesAndStyles } from '@core/styles';
-import { BaseTextFieldStyleParams, OmittedFieldStyleParams, TextFieldStyleKeys, TextFieldStyleParams } from './styles';
+import {
+    BaseTextFieldStyleParams,
+    OmittedFieldStyleParams,
+    TextFieldCSSVarKeys,
+    TextFieldStyleKeys,
+    TextFieldStyleParams,
+} from './styles';
 
 export type TextFieldRefType = HTMLInputElement | HTMLTextAreaElement
 
@@ -55,7 +61,7 @@ export interface BaseTextFieldProps extends
 export interface TextFieldPropsWithoutHtml extends
     Omit<Partial<TextFieldStyleParams>, keyof OmittedFieldStyleParams>,
     Omit<BaseTextFieldProps, 'className' | 'ref'>,
-    WithClassesAndStyles<TextFieldStyleKeys, TextFieldStyleParams & BaseTextFieldStyleParams>,
+    WithClassesAndStyles<TextFieldStyleKeys, TextFieldStyleParams & BaseTextFieldStyleParams, TextFieldCSSVarKeys>,
     BaseProps<HTMLDivElement>
 {
     /** Заголовок поля */

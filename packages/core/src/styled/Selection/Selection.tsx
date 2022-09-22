@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler } from 'react';
-import { QX_BORDER_SIZE, QX_SIZE } from '@core/enums';
+import { QX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core';
 import { useStyles } from './styles';
 import { SelectionProps } from './types';
@@ -24,7 +24,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLDivElement, Selectio
         disabled = false,
         focused = false,
         styleHover = 'default',
-        borderRadius = QX_BORDER_SIZE.smooth,
+        borderRadius = 'smooth', // TODO refactor
         onClick,
         ...restProps
     } = props;

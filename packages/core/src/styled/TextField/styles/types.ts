@@ -1,9 +1,8 @@
-import { PickQxSize } from '@core/enums';
-import { BorderRadiusSize } from '@core/styles';
+import { PickQxSize, QxBorderSize } from '@core';
 
-export type TextFieldBorderRadius = BorderRadiusSize
-export type TextFieldSize = PickQxSize<'large' | 'medium' | 'small'>
-export type TextFieldColorBase = 'main' | 'secondary'
+export type TextFieldBorderRadius = QxBorderSize;
+export type TextFieldSize = PickQxSize<'large' | 'medium' | 'small'>;
+export type TextFieldColorBase = 'main' | 'secondary';
 export type TextFieldClearIconVisibleOn = 'always' | 'interact' | 'none';
 
 export interface BaseTextFieldStyleParams {
@@ -99,5 +98,4 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      *
      * @default interact */
     clearIconVisibleOn: TextFieldClearIconVisibleOn,
-
 }
