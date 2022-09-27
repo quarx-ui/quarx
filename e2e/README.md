@@ -213,7 +213,7 @@ import { TestButtonProps } from '../types';
 
 const { test, testProps } = initTest<TestButtonProps>('Button', {
     groupBy: ['testName', 'props', 'value', 'postfix'],
-    selector: '.SxButton',
+    selector: '.QxButton',
     snapshot: {
         disableIfHeaded: true,
         quality: 100,
@@ -231,7 +231,7 @@ const { test, testProps } = initTest<TestButtonProps>('Button', {
 
 Объект конфигурации имеет следующие свойства:
 * `groupBy` - Сортировка скриншотов по папкам,
-* `selector` - селектор тестируемого компонента, если он отличается от дефолтного паттерна `.Sx[ComponentName]`,
+* `selector` - селектор тестируемого компонента, если он отличается от дефолтного паттерна `.Qx[ComponentName]`,
 * `snapshot` - настройка создания скриншотов
 
 В объекте `snapshot` можно использовать параметр `disableIfHeaded` для отключения скриншотов в режиме `headed`, а с помощью параметра `quality` можно задать качество создаваемых изображений числом в диапазоне 0-100.
@@ -403,7 +403,7 @@ await getComponent().hover();
 await getComponent('#uniqSelector');
 ```
 
-Данная функция возвращает стандартный **[локатор](https://playwright.dev/docs/locators)** `playwright`. Если селектор не был передан, поиск компонента будет осуществлен по имени класса `.SxComponentName`.
+Данная функция возвращает стандартный **[локатор](https://playwright.dev/docs/locators)** `playwright`. Если селектор не был передан, поиск компонента будет осуществлен по имени класса `.QxComponentName`.
 
 ---
 

@@ -16,7 +16,7 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
         const {
             postfix,
             screenName: extScreenName,
-            uniqSelector = `.Sx${component}`,
+            uniqSelector = `.Qx${component}`,
             quality,
             state,
             props,
