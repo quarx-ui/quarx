@@ -35,7 +35,7 @@ export const initTest = <Props = PropsType>(
     component: ComponentsListTypes,
     {
         groupBy = DEFAULT_GROUP_BY,
-        selector = `.Sx${component}`,
+        selector = `.Qx${component}`,
         snapshot: {
             disableIfHeaded = true,
             quality,
@@ -45,8 +45,8 @@ export const initTest = <Props = PropsType>(
     ...pw.test,
     testProps: (testName, options) => testComponentProps<Props>(component)(testName, {
         groupBy,
-        disableSnapIfHeaded: disableIfHeaded,
-        quality,
+            disableSnapIfHeaded: disableIfHeaded,
+            quality,
         uniqSelector: selector,
         ...options,
     }),
@@ -88,7 +88,7 @@ export const initTest = <Props = PropsType>(
                 await pw.expect(screenshot)
                     .toMatchSnapshot(getScreenPath({
                         groupBy: groupForMatchSnapshots,
-                        testName,
+                            testName,
                         component,
                         postfix,
                         path,

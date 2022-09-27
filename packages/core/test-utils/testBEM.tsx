@@ -3,19 +3,19 @@ import { screen, render } from '@testing-library/react';
 
 export const expectPropsInClasses = (
     element: HTMLElement,
-    sxClassname?: string,
+    qxClassname?: string,
 ) => (
     prop: string,
     value?: string | boolean,
 ) => {
-    const sxSelector = sxClassname ?? element.classList[0];
+    const qxSelector = qxClassname ?? element.classList[0];
 
     const valueIsBoolean = typeof value === 'boolean' || value === 'true' || value === 'false';
-    const booleanClassname = value === true || value === 'true' ? `${sxSelector}_${prop}` : undefined;
+    const booleanClassname = value === true || value === 'true' ? `${qxSelector}_${prop}` : undefined;
 
     const expectedClassname = booleanClassname
         ?? (!valueIsBoolean
-            ? `${sxSelector}_${prop}_${value}`
+            ? `${qxSelector}_${prop}_${value}`
             : undefined);
 
     if (!expectedClassname) {
@@ -25,8 +25,8 @@ export const expectPropsInClasses = (
     return expect(element).toHaveClass(expectedClassname);
 };
 
-export const expectPropsMapInClasses = (element: HTMLElement, sxClassname?: string) => {
-    const expectPropInClasses = expectPropsInClasses(element, sxClassname);
+export const expectPropsMapInClasses = (element: HTMLElement, qxClassname?: string) => {
+    const expectPropInClasses = expectPropsInClasses(element, qxClassname);
 
     return (expectedProps: Record<string, string | boolean>) => {
         Object.keys(expectedProps).forEach((prop) => {

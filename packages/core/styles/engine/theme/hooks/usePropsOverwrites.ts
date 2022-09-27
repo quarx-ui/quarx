@@ -67,7 +67,7 @@ export function usePropsOverwrites<T, StyleKey extends string, CSSVars extends P
         mergedProps.styles = deepmerge(overwritesStyles, propsStyles);
     }
 
-    const bemCn = bem(`Sx${name}`);
+    const bemCn = bem(`Qx${name}`);
 
     const cn: TypedCnFormatter<StyleKey> = (key, ...args: any) => (
         key === 'root'

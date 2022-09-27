@@ -3,7 +3,7 @@ import { jsx } from '@emotion/react';
 import { Story } from '@storybook/react/types-6-0';
 import { withDocsPage } from '@core/storybook/docsPage';
 import React from 'react';
-import { BorderRadiusSide, SxBorderSize, makeStyles } from '@core';
+import { BorderRadiusSide, QxBorderSize, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 
 const Documentation = () => (
@@ -57,7 +57,7 @@ export default {
 };
 
 interface BorderRadiiStory {
-    size?: SxBorderSize,
+    size?: QxBorderSize,
     side?: BorderRadiusSide,
 }
 
