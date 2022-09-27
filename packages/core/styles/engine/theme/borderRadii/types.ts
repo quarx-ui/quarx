@@ -1,4 +1,4 @@
-import { SxBorderSize } from '@core';
+import { QxBorderSize } from '@core';
 
 export type BorderRadiusSide =
     'top' |
@@ -15,9 +15,9 @@ export type BorderRadiusOption = {
     size: number,
     side?: BorderRadiusSide,
 }
-export type BorderRadii = Record<SxBorderSize, number | BorderRadiusOption | string>
-export type BorderRadiusStrings = Record<SxBorderSize, string>
-export type BorderRadiiCreateFC = (side: BorderRadiusSide, size?: SxBorderSize) => string
+export type BorderRadii = Record<QxBorderSize, number | BorderRadiusOption | string>
+export type BorderRadiusStrings = Record<QxBorderSize, string>
+export type BorderRadiiCreateFC = (side: BorderRadiusSide, size?: QxBorderSize) => string
 export interface ReturnedBorderRadii extends BorderRadiusStrings {
     create: BorderRadiiCreateFC
 }

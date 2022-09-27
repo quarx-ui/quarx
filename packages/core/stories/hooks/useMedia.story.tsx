@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { SX_DEVICE, SxDevice, useMedia, useTheme } from '@core';
+import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
 import { deviceToBreakpoint } from '../../styles/engine/theme/hooks/useMedia/helpers';
 
@@ -16,11 +16,11 @@ export default {
             description: 'Тип устройства, который будет преобразован '
                 + 'в соответствующий ему breakpoint (см. тиблицу "Типы устройств")',
             control: {
-                options: Object.keys(SX_DEVICE),
+                options: Object.keys(QX_DEVICE),
                 type: 'select',
             },
             table: {
-                type: { summary: 'SxDevice' },
+                type: { summary: 'QxDevice' },
             },
         },
         callback: {
@@ -77,7 +77,7 @@ const useScreenSize = () => {
 
 type SandboxArgs = {
     stringQuery: string,
-    device: SxDevice,
+    device: QxDevice,
 }
 
 const Grid = styled('div')(({ columns }: { columns: number | string }) => ({
@@ -100,7 +100,7 @@ const GridHead = styled('div')({
 
 export const Sandbox: Story<SandboxArgs> = ({
     stringQuery = '(min-width:600px)',
-    device = SX_DEVICE.mobile,
+    device = QX_DEVICE.mobile,
 }) => {
     const matchString = useMedia(stringQuery);
     const matchDevice = useMedia(device);
@@ -141,7 +141,7 @@ export const Device: Story = () => {
             <GridHead>Breakpoint</GridHead>
             <GridHead>Медиа-запрос</GridHead>
 
-            {Object.values(SX_DEVICE)
+            {Object.values(QX_DEVICE)
                 .map((device) => (
                     <>
                         <Code>{device}</Code>
@@ -157,5 +157,5 @@ Device.storyName = 'Типы устройств';
 
 Sandbox.args = {
     stringQuery: '(min-width:600px)',
-    device: SX_DEVICE.mobile,
+    device: QX_DEVICE.mobile,
 };

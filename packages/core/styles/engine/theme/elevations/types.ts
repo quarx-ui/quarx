@@ -1,7 +1,7 @@
-import { CreatePaletteArg, PickSxSize } from '@core';
+import { CreatePaletteArg, PickQxSize } from '@core';
 import { CSSObject } from '@emotion/react';
 
-export type ElevationSize = PickSxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'>
+export type ElevationSize = PickQxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'>
 
 export type ElevationStrings = Record<ElevationSize, string>
 
