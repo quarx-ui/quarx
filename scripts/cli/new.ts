@@ -1,3 +1,4 @@
+import { program } from 'commander';
 import inquirer, { Answers, Question, QuestionCollection } from 'inquirer';
 import path from 'path';
 import {
@@ -82,8 +83,8 @@ const questions: QuestionCollection<CLIAnswers> = [
     {
         name: 'parent',
         message: [
-            'Введите компонент, в директории которого нужно разместить генерируемый.',
-            'Например: Button, Tabs/TabsDefault. Поддерживает вложенность.',
+            'Введите компонент, в директории которого нужно разместить генерируемый. '
+            + 'Например: Button, Tabs/TabsDefault. Поддерживает вложенность.',
             'Компонент:',
         ].join('\n'),
         type: 'input',
@@ -103,7 +104,7 @@ const confirmQuestion: QuestionCollection = [{
     type: 'confirm',
 }];
 
-const main = async (): Promise<void> => {
+const getArgsByPrompt = async (): Promise<CLIAnswers> => {
     const answers = await inquirer.prompt(questions);
 
     const testsAnswer = testsChoices.find(
@@ -121,16 +122,57 @@ const main = async (): Promise<void> => {
     const confirmation = await inquirer.prompt(confirmQuestion);
 
     if (!confirmation.confirm) {
-        await main();
-        return;
+        return getArgsByPrompt();
     }
+
+    return answers;
+};
+
+const getArgsFromCommand = async (): Promise<CLIAnswers> => {
+    program.name('Создать новый компонент');
+    program
+        .description('CLI-скрипт для добавления нового компонента в репозиторий.\n'
+            + 'Для выполнения в режиме вопрос-ответ можно запустить команду без аргументов: `yarn new`')
+        .argument('<name>', 'Имя компонента')
+        .option('-us, --unstyled', 'Компонент не имеет стилей и не является '
+            + 'UI-компонентом дизайн-системы. Предназначен для разработки', false)
+        .option('-t, --tests', 'Сгенерировать шаблоны тестов', false)
+        .option('-tt, --tests-only', 'Сгенерировать только шаблоны тестов', false)
+        .option('-p, --parent <string>', 'Имя компонента, в директории которого'
+            + ' нужно разместить генерируемый компонент.\n'
+            + 'Также поддерживает вложенность компонентов. Примеры: Button, Tabs/TabsDefault')
+        .parse(process.argv);
+
+    const [name] = program.args;
+    const { unstyled, tests, testsOnly, parent } = program.opts();
+
+    return ({
+        name,
+        type: unstyled ? ComponentType.unstyled : ComponentType.styled,
+        // eslint-disable-next-line no-nested-ternary
+        tests: tests ? GenerateTestsTemplate.yes : (
+            testsOnly
+                ? GenerateTestsTemplate.only
+                : GenerateTestsTemplate.no
+        ),
+        parent,
+    });
+};
+
+const main = async (): Promise<void> => {
+    const withArgs = process.argv.slice(2).length > 0;
+
+    const args = withArgs
+        ? await getArgsFromCommand()
+        : await getArgsByPrompt();
 
     console.log('Создание компонента...');
     await createComponent({
-        ...answers,
-        parent: answers.parent || undefined,
+        ...args,
+        parent: args.parent || undefined,
     });
-    console.log(`Компонент ${path.join(answers.type, answers.parent ?? '', answers.name)} создан.`);
+    console.log(`Компонент ${path.join(args.type, args.parent ?? '', args.name)} создан.`);
 };
 
-main().finally();
+main()
+    .catch(console.log);
