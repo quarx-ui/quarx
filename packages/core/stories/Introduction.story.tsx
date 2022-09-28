@@ -26,7 +26,7 @@ export default {
             page: (): JSX.Element => (
                 <div>
                     <Title>Библиотека общих UI компонентов</Title>
-                    <img width="80%" height="auto" src={Cover} alt="Библиотека общих UI компонентов" />
+                    <img width="100%" height="auto" src={Cover} alt="Библиотека общих UI компонентов" />
                     <Description markdown={descriptionMarkDown} />
                     <Subtitle>Стандартные свойства компонентов</Subtitle>
                     <Description>У каждого компонента есть ряд стандартных свойств:</Description>

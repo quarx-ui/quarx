@@ -5,23 +5,24 @@ import { withDocsPage } from '@core/storybook/docsPage';
 import React from 'react';
 import { BordersSide, BordersSize, BordersStyle, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
+import { Div, H2, P, Code, UL, LI } from '@storybook/components';
 
 const Documentation = () => (
-    <div>
-        <h2>Описание</h2>
-        <p>
+    <Div>
+        <H2>Описание</H2>
+        <P>
             <strong>borders</strong>
             &nbsp;- объект, позволяющий задать толщину, стиль и конкретную сторону обводки элементов на странице.
             Содержит в себе варианты размеров и метод create() для модификации используемой обводки.
             Возвращает объект с CSS-свойствами: borderWidth, borderStyle, borderColor.
-        </p>
-        <p>
+        </P>
+        <P>
             Для настройки обводки можно использовать метод
             {' '}
             <strong>create()</strong>
             . Данный метод принимает объект со свойствами: size, color, side, style.
-        </p>
-        <pre>
+        </P>
+        <Code>
             {
                 `borders.create({
     size: 'small',
@@ -30,14 +31,14 @@ const Documentation = () => (
     style: 'dashed',
 })`
             }
-        </pre>
-        <ul>
-            <li>size - размер</li>
-            <li>color - цвет</li>
-            <li>side - сторона</li>
-            <li>style - стиль</li>
-        </ul>
-    </div>
+        </Code>
+        <UL>
+            <LI>size - размер</LI>
+            <LI>color - цвет</LI>
+            <LI>side - сторона</LI>
+            <LI>style - стиль</LI>
+        </UL>
+    </Div>
 );
 
 const defaultArgTypes = {
@@ -103,6 +104,7 @@ const useStyles = makeStyles((
             style,
             side,
         }),
+        borderColor: palette.colors.brand.border,
     },
 }), { name: 'Sandbox' });
 
