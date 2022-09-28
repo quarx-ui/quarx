@@ -3,55 +3,56 @@ import { Story } from '@storybook/react/types-6-0';
 import { withDocsPage } from '@core/storybook/docsPage';
 import { typography } from '@core';
 import styled from '@emotion/styled';
+import { Div, H2, P, Code } from '@storybook/components';
 
 const Documentation = () => (
-    <div>
-        <h2>Описание</h2>
-        <p>
+    <Div>
+        <H2>Описание</H2>
+        <P>
             <strong>typography</strong>
             &nbsp;- объект, содержащий набор свойств для стилизации текста на странице.
             Содержит в себе варианты размеров шрифта и его начертаний.
             Для выбора размера и начертания необходимо указать их в формате:
-        </p>
-        <pre>typography.Text.[size].[weight]</pre>
-        <p>
+        </P>
+        <Code>typography.Text.[size].[weight]</Code>
+        <P>
             [size] - размер,
             <br />
             [weight] - начертание.
-        </p>
-        <h2>Размеры</h2>
-        <p>Всего 4 варианта размера текста:</p>
-        <p>
+        </P>
+        <H2>Размеры</H2>
+        <P>Всего 4 варианта размера текста:</P>
+        <P>
             <strong>S</strong>
             &nbsp;- наименьший размер
-        </p>
-        <p>
+        </P>
+        <P>
             <strong>M</strong>
             &nbsp;- средний размер
-        </p>
-        <p>
+        </P>
+        <P>
             <strong>L</strong>
             &nbsp;- большой размер
-        </p>
-        <p>
+        </P>
+        <P>
             <strong>XL</strong>
             &nbsp;- наибольший размер
-        </p>
-        <h2>Начертания</h2>
-        <p>Всего 3 варианта начертания текста:</p>
-        <p>
+        </P>
+        <H2>Начертания</H2>
+        <P>Всего 3 варианта начертания текста:</P>
+        <P>
             <strong>Regular</strong>
             &nbsp;- стандартное начертание (400)
-        </p>
-        <p>
+        </P>
+        <P>
             <strong>Medium</strong>
             &nbsp;- начертание чуть жирнее стандартного (500)
-        </p>
-        <p>
+        </P>
+        <P>
             <strong>Semibold</strong>
             &nbsp;- полужирное начертание, жирнее Medium (600)
-        </p>
-    </div>
+        </P>
+    </Div>
 );
 
 const defaultArgTypes = {

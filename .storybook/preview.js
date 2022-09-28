@@ -1,7 +1,13 @@
 import React from 'react';
 import { ArgsTable, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
-import { DEFAULT_COLORS } from '@core/styles/engine/theme/palette';
 import '../packages/core/styles/fonts/font-faces.css';
+import { addDecorator } from '@storybook/react'
+import { ThemingAddonAPI as ThemeAddonAPI } from './addons/theming/store';
+import { ThemeDecorator } from './addons/theming/decorator';
+
+const decorators = [ThemeDecorator];
+
+decorators.forEach((decorator) => addDecorator(decorator));
 
 export const parameters = {
     actions: { argTypesRegex: '^on[A-Z].*' },
@@ -23,6 +29,7 @@ export const parameters = {
     },
     viewMode: 'docs',
     docs: {
+        theme: ThemeAddonAPI.getLocallyStoredTheme(),
         page: () => (
             <>
                 <Title/>
@@ -32,18 +39,5 @@ export const parameters = {
                 <Stories title={'Примеры использования'}/>
             </>
         ),
-    },
-    backgrounds: {
-        defaultValue: 'light',
-        values: [
-            {
-                name: 'light',
-                value: DEFAULT_COLORS.light.background.main,
-            },
-            {
-                name: 'dark',
-                value: DEFAULT_COLORS.dark.background.main,
-            },
-        ],
     },
 };

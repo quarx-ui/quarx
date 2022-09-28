@@ -56,6 +56,8 @@
     "@storybook/addon-essentials": "^6.2.8",
     "@storybook/addon-links": "^6.2.8",
     "@storybook/addons": "^6.4.19",
+    "@storybook/api": "^6.5.12",
+    "@storybook/components": "^6.5.12",
     "@storybook/react": "^6.2.8",
     "@storybook/source-loader": "^6.2.8",
     "@storybook/theming": "^6.4.19",

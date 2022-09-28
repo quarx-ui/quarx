@@ -5,23 +5,24 @@ import { withDocsPage } from '@core/storybook/docsPage';
 import React from 'react';
 import { BorderRadiusSide, QxBorderSize, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
+import { H2, Div, P, Code } from '@storybook/components';
 
 const Documentation = () => (
-    <div>
-        <h2>Описание</h2>
-        <p>
+    <Div>
+        <H2>Описание</H2>
+        <P>
             <strong>borderRadii</strong>
             &nbsp;- объект, позволяющий задать размер и сторону скругления элементов на странице.
             Содержит в себе варианты размеров и метод create() для модификации используемого скругления.
-        </p>
-        <p>
+        </P>
+        <P>
             Для настройки скругления можно использовать метод
             {' '}
             <strong>create()</strong>
             . Данный метод принимает два аргумента: side и size (необязательный).
-        </p>
-        <pre>{'borderRadii.create(\'top\', \'small\')'}</pre>
-    </div>
+        </P>
+        <Code>{'borderRadii.create(\'top\', \'small\')'}</Code>
+    </Div>
 );
 
 const defaultArgTypes = {
@@ -76,6 +77,7 @@ const useStyles = makeStyles((
         height: 128,
         background: palette.background.main,
         ...borders.large,
+        borderColor: palette.colors.brand.border,
     },
 }), { name: 'Sandbox' });
 
