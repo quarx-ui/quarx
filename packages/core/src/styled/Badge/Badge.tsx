@@ -13,6 +13,8 @@ const mapBadgeTypeToCounter: Record<BadgeType, CounterType> = {
     ghosted: 'filled',
 };
 
+// Comment
+
 export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
     initialProps,
     ref,
