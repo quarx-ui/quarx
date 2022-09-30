@@ -9,3 +9,9 @@ export const expectRootCn = <T extends FC<{ className?: string, children: any }>
     expect(rootNode).toHaveClass(className);
     expect(rootNode).toHaveClass(name);
 };
+
+export const testRootCn = <T extends FC<{ className?: string, children: any }>>(Component: T, name: string) => {
+    it('root className', () => {
+        expectRootCn(Component, name);
+    });
+};

@@ -1,12 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { testStyleParams, expectPropsMapInClasses, expectRootCn, expectPropsInClasses } from '@core/test-utils';
+import { expectPropsInClasses, expectRootCn, testStyleParams } from '@core/test-utils';
 import { render, screen } from '@testing-library/react';
 import { TextField, TextFieldProps, TextFieldStyleParams } from '@core';
 import userEvent from '@testing-library/user-event';
-import { WarningIcon, CrossIcon } from '../assets';
-
-const fieldTestId = 'TextField';
+import { CrossIcon, WarningIcon } from '../assets';
 
 describe('TextField', () => {
     it('className', () => {
@@ -15,6 +13,13 @@ describe('TextField', () => {
 
     testStyleParams<Partial<TextFieldStyleParams>, TextFieldProps>(
         TextField,
+        {
+            size: 'medium',
+            borderRadius: 'medium',
+            clearIconVisibleOn: 'interact',
+            counterVisibleOn: 'focus',
+            colorBase: 'main',
+        },
         { label: 'Text Field', placeholder: 'Enter a value' },
     )({
         colorBase: ['main', 'secondary'],
@@ -27,23 +32,6 @@ describe('TextField', () => {
         loading: [true, false],
         disableLabel: [true, false],
         disableHoverStyles: [true, false],
-    });
-
-    it('default style props', () => {
-        const { asFragment } = render(<TextField data-testid={fieldTestId} />);
-
-        const defaultProps: Partial<TextFieldStyleParams> = {
-            size: 'medium',
-            borderRadius: 'medium',
-            clearIconVisibleOn: 'interact',
-            counterVisibleOn: 'focus',
-            colorBase: 'main',
-        };
-
-        const element = screen.getByTestId(fieldTestId);
-
-        expectPropsMapInClasses(element)(defaultProps as unknown as Record<string, string | boolean>);
-        expect(asFragment()).toMatchSnapshot();
     });
 
     it('text should be in document', () => {

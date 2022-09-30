@@ -1,42 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { testStyleParams, expectPropsMapInClasses, expectRootCn } from '@core/test-utils';
+import { testStyleParams } from '@core/test-utils';
 import { render, screen } from '@testing-library/react';
 import { Link, LinkProps } from '@core';
+import { testRootCn } from '@core/test-utils/expectRootCn';
 import { LinkStyleParams } from '../styles';
 import { ChevronRight16, Gear16 } from '../stories/assets';
 
 const linkTestId = 'Link';
 
 describe('Link', () => {
-    it('className', () => {
-        expectRootCn(Link, 'QxLink');
-    });
+    testRootCn(Link, 'QxLink');
 
     testStyleParams<LinkStyleParams, LinkProps>(
         Link,
+        {
+            color: 'info',
+            size: 'inherit',
+            underline: 'always',
+            disabled: false,
+        },
         { children: 'Настройки' },
     )({
         color: ['brand', 'secondary', 'info', 'success', 'warning', 'danger'],
         size: ['inherit', 'S', 'M', 'L', 'XL'],
         disabled: [true, false],
         underline: ['always', 'hover', 'none'],
-    });
-
-    it('default style props', () => {
-        const { asFragment } = render(<Link data-testid={linkTestId}>Перейти</Link>);
-
-        const defaultProps: LinkStyleParams = {
-            underline: 'always',
-            color: 'info',
-            size: 'inherit',
-            disabled: false,
-        };
-
-        const element = screen.getByTestId(linkTestId);
-
-        expectPropsMapInClasses(element)(defaultProps as unknown as Record<string, string | boolean>);
-        expect(asFragment()).toMatchSnapshot();
     });
 
     it('text should be in document', () => {

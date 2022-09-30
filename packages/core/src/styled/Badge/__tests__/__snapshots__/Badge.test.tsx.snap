@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Badge borderRadius large 1`] = `
+exports[`Badge style params borderRadius large 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_large QxBadge_color_brand css-mco4gc-QxBadge-root"
@@ -11,7 +11,7 @@ exports[`Badge borderRadius large 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge borderRadius max 1`] = `
+exports[`Badge style params borderRadius max 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-16t6hfq-QxBadge-root"
@@ -22,7 +22,7 @@ exports[`Badge borderRadius max 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge borderRadius medium 1`] = `
+exports[`Badge style params borderRadius medium 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_medium QxBadge_color_brand css-1l3l1ao-QxBadge-root"
@@ -33,7 +33,7 @@ exports[`Badge borderRadius medium 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge borderRadius small 1`] = `
+exports[`Badge style params borderRadius small 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_small QxBadge_color_brand css-ncc16e-QxBadge-root"
@@ -44,7 +44,7 @@ exports[`Badge borderRadius small 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge borderRadius xLarge 1`] = `
+exports[`Badge style params borderRadius xLarge 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_xLarge QxBadge_color_brand css-1kkvwac-QxBadge-root"
@@ -55,7 +55,7 @@ exports[`Badge borderRadius xLarge 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge borderRadius xSmall 1`] = `
+exports[`Badge style params borderRadius xSmall 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_xSmall QxBadge_color_brand css-10wi4zz-QxBadge-root"
@@ -66,7 +66,7 @@ exports[`Badge borderRadius xSmall 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color brand 1`] = `
+exports[`Badge style params color brand 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-16t6hfq-QxBadge-root"
@@ -77,7 +77,7 @@ exports[`Badge color brand 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color danger 1`] = `
+exports[`Badge style params color danger 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_danger css-10byh6o-QxBadge-root"
@@ -88,7 +88,7 @@ exports[`Badge color danger 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color info 1`] = `
+exports[`Badge style params color info 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_info css-1qd392o-QxBadge-root"
@@ -99,7 +99,7 @@ exports[`Badge color info 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color secondary 1`] = `
+exports[`Badge style params color secondary 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_secondary css-16khalj-QxBadge-root"
@@ -110,7 +110,7 @@ exports[`Badge color secondary 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color success 1`] = `
+exports[`Badge style params color success 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_success css-pxe1pl-QxBadge-root"
@@ -121,7 +121,7 @@ exports[`Badge color success 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color text 1`] = `
+exports[`Badge style params color text 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_text css-7o92zc-QxBadge-root"
@@ -132,7 +132,7 @@ exports[`Badge color text 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge color warning 1`] = `
+exports[`Badge style params color warning 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_warning css-1t31jgi-QxBadge-root"
@@ -143,22 +143,7 @@ exports[`Badge color warning 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge default with counter 1`] = `
-<DocumentFragment>
-  <div
-    class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-16t6hfq-QxBadge-root"
-  >
-    Статус
-    <span
-      class="QxCounter QxCounter_type_white QxCounter_size_medium QxCounter_color_brand QxBadge-rightItem QxBadge-item css-1pvj4ck-QxCounter-root-QxBadge-rightItem-QxBadge-item"
-    >
-      55
-    </span>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Badge size large 1`] = `
+exports[`Badge style params size large 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_large QxBadge_borderRadius_max QxBadge_color_brand css-1k5us5v-QxBadge-root"
@@ -169,7 +154,7 @@ exports[`Badge size large 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge size medium 1`] = `
+exports[`Badge style params size medium 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-16t6hfq-QxBadge-root"
@@ -180,7 +165,7 @@ exports[`Badge size medium 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge size small 1`] = `
+exports[`Badge style params size small 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_small QxBadge_borderRadius_max QxBadge_color_brand css-hki5s8-QxBadge-root"
@@ -191,7 +176,7 @@ exports[`Badge size small 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge type contained 1`] = `
+exports[`Badge style params type contained 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-16t6hfq-QxBadge-root"
@@ -202,7 +187,7 @@ exports[`Badge type contained 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge type ghosted 1`] = `
+exports[`Badge style params type ghosted 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_ghosted QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-1y2pki1-QxBadge-root"
@@ -213,13 +198,28 @@ exports[`Badge type ghosted 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Badge type outlined 1`] = `
+exports[`Badge style params type outlined 1`] = `
 <DocumentFragment>
   <div
     class="QxBadge QxBadge_type_outlined QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-1i7i6x8-QxBadge-root"
     data-testid="testStyleParams-type-outlined"
   >
     Статус
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Badge with counter 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBadge QxBadge_type_contained QxBadge_size_medium QxBadge_borderRadius_max QxBadge_color_brand css-16t6hfq-QxBadge-root"
+  >
+    Статус
+    <span
+      class="QxCounter QxCounter_type_white QxCounter_size_medium QxCounter_color_brand QxBadge-rightItem QxBadge-item css-1pvj4ck-QxCounter-root-QxBadge-rightItem-QxBadge-item"
+    >
+      55
+    </span>
   </div>
 </DocumentFragment>
 `;

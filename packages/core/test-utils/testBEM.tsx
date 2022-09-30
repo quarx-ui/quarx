@@ -1,5 +1,5 @@
 import React, { ComponentType } from 'react';
-import { screen, render } from '@testing-library/react';
+import { screen, render, cleanup } from '@testing-library/react';
 
 export const expectPropsInClasses = (
     element: HTMLElement,
@@ -40,26 +40,51 @@ export const testStyleParams = <
     P extends Record<string, any> = Record<string, any>,
 >(
     Component: ComponentType<P>,
-    defaultProps?: P,
+    expectedDefaultParams: S,
+    defaultProps: P = {} as P,
+    qxClassname?: string,
 ) => (props: { [key in keyof S]: S[key][] }) => {
-    Object.entries(props).forEach(([propName, values]) => {
-        describe(propName, () => {
-            Object.values(values).forEach((value) => {
-                it(`${value}`, () => {
-                    const testId = `testStyleParams-${propName}-${value}`;
+    describe('style params', () => {
+        describe('default values', () => {
+            const testId = 'testStyleParams-default';
 
-                    const testProps = { [propName]: value };
-                    const { asFragment } = render(
-                        <Component
-                            {...(defaultProps ?? {})}
-                            {...testProps as P}
-                            data-testid={testId}
-                        />,
-                    );
+            render(
+                <Component
+                    {...defaultProps}
+                    data-testid={testId}
+                />,
+            );
 
-                    const element = screen.getByTestId(testId);
-                    expectPropsMapInClasses(element)(testProps as S);
-                    expect(asFragment()).toMatchSnapshot();
+            const element = screen.getByTestId(testId);
+
+            Object.entries(expectedDefaultParams).forEach(([key, value]) => {
+                it(`${key}`, () => {
+                    expectPropsInClasses(element, qxClassname)(key, value);
+                });
+            });
+
+            cleanup();
+        });
+
+        Object.entries(props).forEach(([propName, values]) => {
+            describe(propName, () => {
+                Object.values(values).forEach((value) => {
+                    it(`${value}`, () => {
+                        const testId = `testStyleParams-${propName}-${value}`;
+
+                        const testProps = { [propName]: value };
+                        const { asFragment } = render(
+                            <Component
+                                {...(defaultProps ?? {})}
+                                {...testProps as P}
+                                data-testid={testId}
+                            />,
+                        );
+
+                        const element = screen.getByTestId(testId);
+                        expectPropsMapInClasses(element, qxClassname)(testProps as S);
+                        expect(asFragment()).toMatchSnapshot();
+                    });
                 });
             });
         });

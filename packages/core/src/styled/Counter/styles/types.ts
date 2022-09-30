@@ -7,7 +7,7 @@ export type CounterColor = PaletteColor | 'text';
 export interface CounterStyleParams {
     /** Размер компонента
      *
-     * @default medium */
+     * @default large */
     size: CounterSize,
 
     /** Тип заливки компонента
@@ -18,6 +18,8 @@ export interface CounterStyleParams {
      * @default filled */
     type: CounterType,
 
-    /** Цветовая палитра компонента. Значения соответствуют токенам объекта `palette.colors` */
+    /** Цветовая палитра компонента. Значения соответствуют токенам объекта `palette.colors`
+     *
+     * @default brand */
     color: CounterColor,
 }
