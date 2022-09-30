@@ -92,7 +92,7 @@ export const TabsSegmented = forwardRef(<T extends TabItem = TabItem>(
                     ]}
                     tabIndex={(forInnerView || isSelected) ? -1 : 0}
                     selected={forInnerView}
-                    area-disabled={forInnerView}
+                    area-disabled={forInnerView ? 'true' : undefined}
                     ref={(!forInnerView && isSelected) ? selectedRef : undefined}
                     onClick={initOnSelect(item, anyItemProps.onClick)}
                     onKeyPress={initOnKeyPress(item, anyItemProps.onKeyPress)}

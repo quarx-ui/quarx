@@ -86,7 +86,7 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
                     tabIndex={(forInnerView || isSelected) ? -1 : 0}
                     borderRadius={borderRadius}
                     selected={forInnerView}
-                    area-disabled={forInnerView}
+                    area-disabled={forInnerView ? 'true' : undefined}
                     ref={(!forInnerView && isSelected) ? selectedRef : undefined}
                     onClick={initOnSelect(item, anyItemProps.onClick)}
                     onKeyPress={initOnKeyPress(item, anyItemProps.onKeyPress)}

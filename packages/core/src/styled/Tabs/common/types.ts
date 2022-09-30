@@ -6,7 +6,18 @@ export type TabsType = Values<typeof TABS_TYPES>;
 export type TabsSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface TabsStyleParamsCommon {
+    /** Акцентный цвет компонента. Возможные значения – любой из стандартных цветов палитры
+     *
+     * @default brand */
     color: PaletteColor,
+    /** Размер компонента
+     *
+     * @property small
+     * @property medium
+     * @property large
+     *
+     * @default medium
+     * */
     size: TabsSize,
 }
 

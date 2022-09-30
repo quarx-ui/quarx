@@ -13,6 +13,8 @@ export interface TabsDefaultStyleParams extends TabsStyleParamsCommon {
      *
      * @property down
      * индикатор отображается снизу
+     *
+     * @default down
      * */
     line: TabsLine,
 }
