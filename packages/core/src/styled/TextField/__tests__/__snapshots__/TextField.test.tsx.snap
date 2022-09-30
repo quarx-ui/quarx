@@ -1,1129 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextField borderRadius large 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_large QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-borderRadius-large"
-  >
-    <div
-      class="QxTextField-field css-je21jy-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField borderRadius medium 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-borderRadius-medium"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField borderRadius small 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_small QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-borderRadius-small"
-  >
-    <div
-      class="QxTextField-field css-18yxevj-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField borderRadius xLarge 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_xLarge QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-borderRadius-xLarge"
-  >
-    <div
-      class="QxTextField-field css-pvzldq-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField borderRadius xSmall 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_xSmall QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-borderRadius-xSmall"
-  >
-    <div
-      class="QxTextField-field css-1lv3pd9-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField clearIconVisibleOn always 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_always QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-clearIconVisibleOn-always"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-so2kxd-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField clearIconVisibleOn interact 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-clearIconVisibleOn-interact"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField clearIconVisibleOn none 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_none QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-clearIconVisibleOn-none"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField colorBase main 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-colorBase-main"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField colorBase secondary 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-colorBase-secondary"
-  >
-    <div
-      class="QxTextField-field css-f0q36r-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField default style props 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="TextField"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1ij3rlk-QxTextField-content"
-      >
-        <input
-          class="QxTextField-input css-1meqori-QxTextField-input"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField disableHoverStyles false 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-disableHoverStyles-false"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField disableHoverStyles true 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableHoverStyles QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-disableHoverStyles-true"
-  >
-    <div
-      class="QxTextField-field css-ha63iw-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField disableLabel false 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-disableLabel-false"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField disableLabel true 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-disableLabel-true"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1ij3rlk-QxTextField-content"
-      >
-        <input
-          class="QxTextField-input css-1meqori-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField error false 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-error-false"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField error true 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_error QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-error-true"
-  >
-    <div
-      class="QxTextField-field css-82ot8y-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-iym8x-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField filled false 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-filled-false"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField filled true 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-filled-true"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-czjrur-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-np5q9x-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField focused false 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-focused-false"
-  >
-    <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`TextField focused true 1`] = `
-<DocumentFragment>
-  <div
-    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_focused QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
-    data-testid="testStyleParams-focused-true"
-  >
-    <div
-      class="QxTextField-field css-1vq0266-QxTextField-field"
-    >
-      <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
-      >
-        <div
-          class="QxTextField-label css-czjrur-QxTextField-label"
-        >
-          Text Field
-        </div>
-        <input
-          class="QxTextField-input css-np5q9x-QxTextField-input"
-          placeholder="Enter a value"
-          value=""
-        />
-      </div>
-      <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
-      >
-        <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
-        >
-          <svg
-            fill="none"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-    <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
-    >
-      <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
-      />
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
 exports[`TextField icons should be in document 1`] = `
 <DocumentFragment>
   <div
@@ -1213,7 +89,1082 @@ exports[`TextField icons should be in document 1`] = `
 </DocumentFragment>
 `;
 
-exports[`TextField loading false 1`] = `
+exports[`TextField style params borderRadius large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_large QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-borderRadius-large"
+  >
+    <div
+      class="QxTextField-field css-je21jy-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params borderRadius medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-borderRadius-medium"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params borderRadius small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_small QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-borderRadius-small"
+  >
+    <div
+      class="QxTextField-field css-18yxevj-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params borderRadius xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_xLarge QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-borderRadius-xLarge"
+  >
+    <div
+      class="QxTextField-field css-pvzldq-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params borderRadius xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_xSmall QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-borderRadius-xSmall"
+  >
+    <div
+      class="QxTextField-field css-1lv3pd9-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params clearIconVisibleOn always 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_always QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-clearIconVisibleOn-always"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-so2kxd-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params clearIconVisibleOn interact 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-clearIconVisibleOn-interact"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params clearIconVisibleOn none 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_none QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-clearIconVisibleOn-none"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params colorBase main 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-colorBase-main"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params colorBase secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-colorBase-secondary"
+  >
+    <div
+      class="QxTextField-field css-f0q36r-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params disableHoverStyles false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-disableHoverStyles-false"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params disableHoverStyles true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableHoverStyles QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-disableHoverStyles-true"
+  >
+    <div
+      class="QxTextField-field css-ha63iw-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params disableLabel false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-disableLabel-false"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params disableLabel true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-disableLabel-true"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1ij3rlk-QxTextField-content"
+      >
+        <input
+          class="QxTextField-input css-1meqori-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params error false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-error-false"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params error true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_error QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-error-true"
+  >
+    <div
+      class="QxTextField-field css-82ot8y-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-iym8x-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params filled false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-filled-false"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params filled true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-filled-true"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-czjrur-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-np5q9x-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params focused false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-focused-false"
+  >
+    <div
+      class="QxTextField-field css-1er6duv-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params focused true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_focused QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    data-testid="testStyleParams-focused-true"
+  >
+    <div
+      class="QxTextField-field css-1vq0266-QxTextField-field"
+    >
+      <div
+        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+      >
+        <div
+          class="QxTextField-label css-czjrur-QxTextField-label"
+        >
+          Text Field
+        </div>
+        <input
+          class="QxTextField-input css-np5q9x-QxTextField-input"
+          placeholder="Enter a value"
+          value=""
+        />
+      </div>
+      <div
+        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+      >
+        <div
+          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+    >
+      <div
+        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField style params loading false 1`] = `
 <DocumentFragment>
   <div
     class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
@@ -1268,7 +1219,7 @@ exports[`TextField loading false 1`] = `
 </DocumentFragment>
 `;
 
-exports[`TextField loading true 1`] = `
+exports[`TextField style params loading true 1`] = `
 <DocumentFragment>
   <div
     class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_loading QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
@@ -1337,7 +1288,7 @@ exports[`TextField loading true 1`] = `
 </DocumentFragment>
 `;
 
-exports[`TextField size large 1`] = `
+exports[`TextField style params size large 1`] = `
 <DocumentFragment>
   <div
     class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
@@ -1392,7 +1343,7 @@ exports[`TextField size large 1`] = `
 </DocumentFragment>
 `;
 
-exports[`TextField size medium 1`] = `
+exports[`TextField style params size medium 1`] = `
 <DocumentFragment>
   <div
     class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
@@ -1447,7 +1398,7 @@ exports[`TextField size medium 1`] = `
 </DocumentFragment>
 `;
 
-exports[`TextField size small 1`] = `
+exports[`TextField style params size small 1`] = `
 <DocumentFragment>
   <div
     class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"

@@ -17,6 +17,11 @@ describe('Counter', () => {
 
     testStyleParams<CounterStyleParams, CounterProps>(
         Counter,
+        {
+            color: 'brand',
+            size: 'large',
+            type: 'filled',
+        },
         { children: '99' },
     )({
         color: ['brand', 'secondary', 'info', 'success', 'warning', 'danger', 'text'],
