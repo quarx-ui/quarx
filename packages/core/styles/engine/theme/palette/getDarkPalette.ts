@@ -2,7 +2,7 @@ import {
     attenuateColor,
     changeOpacity, createDarkGradient,
     getDarkSuperposition,
-    getLightSuperposition, LIGHTEST,
+    getLightSuperposition, getLightSuperpositionWithEqualAlpha, LIGHTEST,
     Palette, PaletteAlpha,
     PaletteColor,
     PaletteColors, PaletteColorValues, PaletteDecimal
@@ -11,20 +11,19 @@ import { createPoints } from '@core/styles/engine/theme/palette/createPoints';
 
 export const getComputedDarkColors = (color: string, text: string, background: string): PaletteColorValues => ({
     default: color,
-    contrastText: LIGHTEST,
+    contrastText: text,
     border: getDarkSuperposition(color, 0.32),
-    surface: getDarkSuperposition(color, 0.80),
+    surface: getDarkSuperposition(color, 0.8),
     bg: getDarkSuperposition(color, 0.88),
     gradient: createDarkGradient(color, text, background),
-    press: getDarkSuperposition(color, 0.12),
-    hover: getLightSuperposition(color, 0.16),
+    press: getDarkSuperposition(color, 0.2),
+    hover: getLightSuperposition(color, 0.24),
 
-    stronger: createPoints<PaletteDecimal>(color, 10, attenuateColor, -1),
-    weaker: createPoints<PaletteDecimal>(color, 10, attenuateColor, 1),
+    stronger: createPoints<PaletteDecimal>((key) => attenuateColor(color, key), 10, -1),
+    weaker: createPoints<PaletteDecimal>((key) => attenuateColor(color, key), 10),
     alpha: createPoints<PaletteAlpha>(
-        color,
-        4,
-        (color: string, key: number) => getLightSuperposition(changeOpacity(color, key), key),
+        (key) => getLightSuperpositionWithEqualAlpha(color, key / 2),
+        8,
         0.01
     ),
 });

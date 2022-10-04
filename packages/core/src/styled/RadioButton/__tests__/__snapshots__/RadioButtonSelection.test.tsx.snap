@@ -20,7 +20,7 @@ exports[`RadioButtonSelection default snapshot 1`] = `
           class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
         >
           <div
-            class="QxRadioButton-markerDot css-10yq7yi-QxRadioButton-markerDot"
+            class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
           />
         </div>
       </label>
