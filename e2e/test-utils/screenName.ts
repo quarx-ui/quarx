@@ -3,7 +3,7 @@ import {
     CreateScreenNameOptions,
     ExtendedPropsType,
     GetScreenPathOptions,
-    GroupByType,
+    GroupByKey,
     PropsType,
 } from '@e2e/test-utils/types';
 
@@ -37,36 +37,28 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         path: externalPath,
     } = options;
 
-    const internalGroupBy: GroupByType = {};
-
-    if (Array.isArray(groupBy)) {
-        new Set(groupBy).forEach((el) => {
-            internalGroupBy[el] = true;
-        });
-    }
-
-    const {
-        testName: groupByTestName = false,
-        props: groupByProps = false,
-        value: groupByValue = false,
-        postfix: groupByPostfix = false,
-    } = internalGroupBy;
-
     const testName = externalTestName?.replace(/ /, '-');
-    const nameParts = [
-        !groupByTestName ? testName : undefined,
-        component !== testName ? component : undefined,
-        !groupByProps ? property : undefined,
-        !groupByValue ? value : undefined,
-        !groupByPostfix ? postfix : undefined,
-    ];
 
-    const path = externalPath ?? [
-        groupByTestName ? testName : undefined,
-        groupByProps ? property : undefined,
-        groupByValue ? joinToName([value]) : undefined,
-        groupByPostfix ? postfix : undefined,
-    ]
+    const groupByPaths: Record<GroupByKey, string | undefined> = {
+        testName,
+        component,
+        props: property,
+        value: joinToName([value]),
+        postfix,
+    };
+
+    const groupByNameParts = {
+        ...groupByPaths,
+        value,
+    };
+
+    const groupBySet = new Set(groupBy);
+
+    const nameParts = Array.from(groupBySet).map((key) => groupByNameParts[key]);
+
+    const path = externalPath ?? Array.from(groupBySet).map((key) => (
+        groupByPaths[key]
+    ))
         .filter((el) => el !== undefined)
         .map((el) => String(el));
 
