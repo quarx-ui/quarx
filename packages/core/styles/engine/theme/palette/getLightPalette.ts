@@ -18,7 +18,7 @@ import { createPoints } from './createPoints';
 
 export const getComputedLightColors = (color: string, background: string): PaletteColorValues => ({
     default: color,
-    contrastText: getContrastColor(color),
+    contrastText: background,
     border: getLightSuperposition(color, 0.72),
     surface: getLightSuperposition(color, 0.92),
     bg: getLightSuperposition(color, 0.96),
@@ -26,9 +26,9 @@ export const getComputedLightColors = (color: string, background: string): Palet
     press: getDarkSuperposition(color, 0.2),
     hover: getLightSuperposition(color, 0.24),
 
-    stronger: createPoints<PaletteDecimal>(color, 10, attenuateColor, -1),
-    weaker: createPoints<PaletteDecimal>(color, 10, attenuateColor, 1),
-    alpha: createPoints<PaletteAlpha>(color, 8, changeOpacity, 0.01),
+    stronger: createPoints<PaletteDecimal>((key) => attenuateColor(color, key), 10, -1),
+    weaker: createPoints<PaletteDecimal>((key) => attenuateColor(color, key), 10),
+    alpha: createPoints<PaletteAlpha>((key) => changeOpacity(color, key), 8, 0.01),
 });
 
 export const getLightSecondaryColors = (background = '#FFFFFF', text = '#02050A'): Omit<Palette, 'colors' | 'type'> => ({

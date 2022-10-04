@@ -1,16 +1,17 @@
 /** @jsx jsx */
 import { CSSObject, jsx } from '@emotion/react';
 import React, { FC, MouseEventHandler, useState } from 'react';
+import { createPalette, getContrastColor, makeStyles, typography, useTheme } from '@core/styles';
 import {
-    createPalette,
-    getContrastColor,
-    makeStyles,
-    PaletteAlphaKey, PaletteBackgroundContainerKey,
-    PaletteBackgroundTextFieldKey, PaletteBorderFocusKey,
+    PaletteColor,
+    PaletteColorValues,
+    PaletteStandardKey,
     PaletteTextKey,
-    typography,
-} from '@core';
-import { PaletteColor, PaletteColorValues, PaletteStandardKey } from '@core/styles/engine/theme/palette/types';
+    PaletteAlphaKey,
+    PaletteBackgroundContainerKey,
+    PaletteBackgroundTextFieldKey,
+    PaletteBorderFocusKey,
+} from '@core/styles/engine/theme/palette/types';
 import { Story } from '@storybook/react/types-6-0';
 
 interface ColorsStoryProps {
@@ -167,7 +168,7 @@ Sandbox.storyName = 'Цвета';
 
 const useStylesColor = makeStyles((
     { palette, transitions },
-    { type }: { type: PaletteColor },
+    { type, hover = false }: { type: PaletteColor, hover?: boolean },
 ) => {
     const common: CSSObject = {
         position: 'relative',
@@ -198,6 +199,7 @@ const useStylesColor = makeStyles((
             ...common,
             background: palette.colors[type].contrastText,
             border: `1px solid ${palette.border.main}`,
+            color: palette.text.constant,
         },
         default: {
             ...common,
@@ -239,26 +241,28 @@ const useStylesColor = makeStyles((
             background: palette.colors[type].alpha[8],
         },
 
-        overlay: {
-            position: 'absolute',
-            left: '50%',
-            top: '50%',
-            opacity: 0,
-            transition: transitions.create(['opacity', 'transform']),
-            transformOrigin: 'center',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            height: '100%',
-            width: '100%',
-            transform: 'translate(-50%, -50%) scale(1.2)',
-            pointerEvents: 'none',
-        },
-        visible: {
-            pointerEvents: 'initial',
-            opacity: 1,
-            transform: 'translate(-50%, -50%) scale(1)',
-        },
+        overlay: [
+            {
+                position: 'absolute',
+                left: '50%',
+                top: '50%',
+                opacity: 0,
+                transition: transitions.create(['opacity', 'transform']),
+                transformOrigin: 'center',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                height: '100%',
+                width: '100%',
+                transform: 'translate(-50%, -50%) scale(1.2)',
+                pointerEvents: 'none',
+            },
+            hover && {
+                pointerEvents: 'initial',
+                opacity: 1,
+                transform: 'translate(-50%, -50%) scale(1)',
+            },
+        ],
         left: {
             position: 'relative',
             display: 'flex',
@@ -282,14 +286,16 @@ const useStylesColor = makeStyles((
             height: '100%',
             width: '50%',
         },
-        content: {
-            width: '100%',
-            height: '100%',
-            transition: transitions.create('filter'),
-        },
-        blur: {
-            filter: 'blur(6px)',
-        },
+        content: [
+            {
+                width: '100%',
+                height: '100%',
+                transition: transitions.create('filter'),
+            },
+            hover && {
+                filter: 'blur(6px)',
+            },
+        ],
     });
 });
 
@@ -308,22 +314,24 @@ const ColorItem: FC<TemplateItemProps> = ({
     color,
     children,
 }) => {
-    const styles = useStylesColor({ type });
     const [hover, setHover] = useState(false);
+    const styles = useStylesColor({ type, hover });
     const [colorCopied, setColorCopied] = useState(false);
     const [pathCopied, setPathCopied] = useState(false);
 
+    const { colors } = useTheme().palette;
+
     const mapColorToString: Record<TemplateItemProps['color'], string> = {
-        default: COLORS[type].default,
-        border: COLORS[type].border,
-        surface: COLORS[type].surface,
-        press: COLORS[type].press,
-        hover: COLORS[type].hover,
-        press16: COLORS[type].alpha[16],
-        hover8: COLORS[type].alpha[8],
-        gradient: COLORS[type].gradient,
-        contrast: COLORS[type].contrastText,
-        bg: COLORS[type].bg,
+        default: colors[type].default,
+        border: colors[type].border,
+        surface: colors[type].surface,
+        press: colors[type].press,
+        hover: colors[type].hover,
+        press16: colors[type].alpha[16],
+        hover8: colors[type].alpha[8],
+        gradient: colors[type].gradient,
+        contrast: colors[type].contrastText,
+        bg: colors[type].bg,
     };
 
     const mapPathToString: Record<TemplateItemProps['color'], string> = {
@@ -361,8 +369,8 @@ const ColorItem: FC<TemplateItemProps> = ({
                 setPathCopied(false);
             }}
         >
-            <div css={[styles.content, hover && styles.blur]}>{children}</div>
-            <div css={[styles.overlay, hover && styles.visible]}>
+            <div css={styles.content}>{children}</div>
+            <div css={styles.overlay}>
                 <div css={styles.left} onClick={onClickColor}>{colorCopied ? 'Copied' : 'Color'}</div>
                 <div css={styles.right} onClick={onClickPath}>{pathCopied ? 'Copied' : 'Path'}</div>
             </div>

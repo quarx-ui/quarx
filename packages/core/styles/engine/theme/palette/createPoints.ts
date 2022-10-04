@@ -1,22 +1,28 @@
 import { PaletteTextPointKey } from '@core';
 
+/** Автоматизирует создание объекта, где ключи расположены в равных интервалах от 0 до 100,
+ * а значения вычисляются переданным методом
+ *
+ * @param method - метод, производящий вычисления
+ * @param step - интервал
+ * @param k - коэффициент ключа, если необходимо представить диапазон 0-100 в другом виде, например, 0-1
+ * */
 export function createPoints<ReturnedType extends Record<PaletteTextPointKey, string>>(
-    color: string,
+    method: (value: number) => string,
     step: number,
-    method: (color: string, value: number) => string,
-    k: number,
+    k = 1,
 ) {
-    const returnedObj: Partial<ReturnedType> = {};
+    const points: Partial<ReturnedType> = {};
 
-    returnedObj.min = method(color, step * k);
-    returnedObj.middle = method(color, 50 * k);
-    returnedObj.max = method(color, (100 - (100 % step)) * k);
+    const maxKey = (100 - (100 % step)) * k;
+
+    points.min = method(step * k);
+    points.middle = method(maxKey / 2);
+    points.max = method(maxKey);
 
     for (let i = step; i <= 100; i += step) {
-        const point = i.toString();
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        returnedObj[point] = method(color, i * k);
+        const point = i.toString() as PaletteTextPointKey;
+        points[point] = method(i * k);
     }
-    return returnedObj as ReturnedType;
+    return points as ReturnedType;
 }

@@ -18,7 +18,7 @@ exports[`Checkbox snapshots checked 1`] = `
         class="QxCheckbox-overlay css-b63rqc-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-be11st-QxCheckbox-icon"
+          class="QxCheckbox-icon css-17k8ns1-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -388,7 +388,7 @@ exports[`Checkbox snapshots indeterminate 1`] = `
         class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
       >
         <div
-          class="QxCheckbox-icon css-b65g0u-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1j35y2q-QxCheckbox-icon"
         />
       </div>
     </div>
