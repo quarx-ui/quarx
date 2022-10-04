@@ -67,7 +67,7 @@ export async function runSeriesComparisons<Props = PropsType>(options: RunSeries
         commonProps,
         testName,
         postfix,
-        groupBy = {},
+        groupBy = [],
     } = options;
 
     const { page, headless } = testParams;

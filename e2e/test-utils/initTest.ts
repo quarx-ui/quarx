@@ -45,8 +45,8 @@ export const initTest = <Props = PropsType>(
     ...pw.test,
     testProps: (testName, options) => testComponentProps<Props>(component)(testName, {
         groupBy,
-            disableSnapIfHeaded: disableIfHeaded,
-            quality,
+        disableSnapIfHeaded: disableIfHeaded,
+        quality,
         uniqSelector: selector,
         ...options,
     }),
@@ -76,19 +76,14 @@ export const initTest = <Props = PropsType>(
                 }
 
                 // Чтобы не создавались папки по названию скриншотов, если включена сортировка 'postfix'
-                const groupForMatchSnapshots = Array.isArray(groupBy)
-                    ? groupBy.filter((el) => el !== 'postfix')
-                    : ({
-                        ...groupBy,
-                        postfix: false,
-                    });
+                const groupForMatchSnapshots = groupBy.filter((el) => el !== 'postfix');
 
                 const screenshot = await getComponent(uSelector)
                     .screenshot({ type: 'jpeg', quality });
                 await pw.expect(screenshot)
                     .toMatchSnapshot(getScreenPath({
                         groupBy: groupForMatchSnapshots,
-                            testName,
+                        testName,
                         component,
                         postfix,
                         path,

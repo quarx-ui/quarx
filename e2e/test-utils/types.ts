@@ -1,18 +1,22 @@
 import { ComponentsListTypes, PropValueType } from '@e2e/constants';
 import { Locator, Page, PlaywrightTestArgs, PlaywrightWorkerOptions } from '@playwright/test';
+import { valuesAsKeysFromArray } from '@kit';
 
 export type PropsType = Record<string, PropValueType>
 export type PropsStateType = 'hover' | 'press' | 'focus'
 export type BeforeSnapFC = (page: Page) => Promise<void>
 
-type GroupByKeys = 'testName' | 'props' | 'value' | 'postfix'
+export const GROUP_BY_KEYS = valuesAsKeysFromArray([
+    'testName',
+    'component',
+    'props',
+    'value',
+    'postfix',
+]);
 
-export type GroupByType = {
-    testName?: boolean,
-    props?: boolean,
-    value?: boolean,
-    postfix?: boolean,
-} | GroupByKeys[]
+export type GroupByKey = keyof typeof GROUP_BY_KEYS;
+
+export type GroupByType = GroupByKey[];
 
 export type SnapshotConfig = {
     disableIfHeaded?: boolean
