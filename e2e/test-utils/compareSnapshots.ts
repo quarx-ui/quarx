@@ -23,7 +23,7 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
             beforeSnap,
             testName,
             timeout,
-            groupBy = {},
+            groupBy = [],
             disableSnapIfHeaded = true,
         } = options;
 
