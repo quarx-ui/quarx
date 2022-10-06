@@ -25,7 +25,7 @@ test('Badge', async ({ compareSnapshotsMap, compareSnapshots }) => {
             counter: 999,
         },
         postfix: 'ghosted',
-        groupBy: ['postfix', 'props', 'value'],
+        groupBy: ['postfix', 'value'],
     });
 
     await compareSnapshotsMap({
@@ -37,7 +37,7 @@ test('Badge', async ({ compareSnapshotsMap, compareSnapshots }) => {
             counter: 999,
         },
         postfix: 'outlined',
-        groupBy: ['postfix', 'props', 'value'],
+        groupBy: ['postfix', 'value'],
     });
 
     await compareSnapshots({

@@ -32,12 +32,13 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         property,
         value,
         component,
-        postfix,
+        postfix: externalPostfix,
         name: externalName,
         path: externalPath,
     } = options;
 
     const testName = externalTestName?.replace(/ /, '-');
+    const postfix = externalPostfix?.replace(/ /, '-');
 
     const groupByPaths: Record<GroupByKey, string | undefined> = {
         testName,
@@ -47,14 +48,17 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         postfix,
     };
 
-    const groupByNameParts = {
-        ...groupByPaths,
-        value,
-    };
-
     const groupBySet = new Set(groupBy);
 
-    const nameParts = Array.from(groupBySet).map((key) => groupByNameParts[key]);
+    const nameParts = Object.entries(groupByPaths).map(([key, namePart]) => {
+        if (groupBySet.has(key as GroupByKey) || (key === 'props' && groupBySet.has('value')) || namePart === '') {
+            return undefined;
+        }
+
+        return namePart;
+    });
+
+    const namePartsSet = Array.from(new Set(nameParts));
 
     const path = externalPath ?? Array.from(groupBySet).map((key) => (
         groupByPaths[key]
@@ -62,7 +66,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         .filter((el) => el !== undefined)
         .map((el) => String(el));
 
-    const name = externalName ? `${externalName}.jpeg` : `${joinToName(nameParts, component)}.jpeg`;
+    const name = externalName ? `${externalName}.jpeg` : `${joinToName(namePartsSet, component)}.jpeg`;
 
     return [...path, name];
 };

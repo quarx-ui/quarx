@@ -4,7 +4,7 @@ import { initTest } from '../../../test-utils';
 import { TestTabsProps } from '../types';
 
 const { test } = initTest<TestTabsProps>('Tabs', {
-    groupBy: ['testName', 'postfix', 'props', 'value'],
+    groupBy: ['postfix', 'props', 'value'],
 });
 
 test('Tabs', async ({ compareSnapshotsMap }) => {
