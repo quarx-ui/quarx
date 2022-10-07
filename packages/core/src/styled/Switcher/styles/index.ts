@@ -1,5 +1,7 @@
-import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, PALETTE_COLORS } from '@core';
+import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, PALETTE_COLORS, cssVar } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
+import { SwitcherCSSVarKeys } from '@core/src/styled/Switcher/styles/vars';
+import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
 import { SwitcherStyleParams } from './types';
 
 export const useStyles = makeStyles((
@@ -13,39 +15,79 @@ export const useStyles = makeStyles((
         position,
         disableFocus,
     }: SwitcherStyleParams,
+    {
+        cssFocusColor,
+        cssFocusWidth,
+        cssContentInsideMargin,
+        cssCheckedColor,
+        cssHoverColor,
+        cssToggleColor,
+        cssDisabledColor,
+        cssBorderWidth,
+        cssToggleLeftSize,
+        cssWidth,
+        cssHeight,
+        cssToggleHeight,
+        cssToggleWidth,
+    }: Record<SwitcherCSSVarKeys, string>,
 ) => {
-    const toggleWrapperStates = {
-        ...checked && {
-            border: 'none',
-            backgroundColor: palette.colors[color].default,
-        },
-        ...checked && hover && {
-            border: 'none',
-            backgroundColor: palette.colors[color].hover,
-        },
-    };
-
-    const toggleStates = {
-        ...hover && {
-            borderRadius: 8,
-        },
-        ...checked && {
-            backgroundColor: palette.colors[color].contrastText,
-        },
-    };
+    const brandOrSecondary = color === 'brand' || color === 'secondary';
 
     return {
-        wrapper: { display: 'inline-flex' },
-
         root: [
             {
                 display: 'flex',
                 alignItems: 'center',
                 boxSizing: 'border-box',
                 cursor: 'pointer',
+
+                [cssCheckedColor]: palette.colors[color].default,
+                [cssHoverColor]: palette.colors[color].hover,
+                [cssDisabledColor]: palette.disabled.border,
+                [cssContentInsideMargin]: '12px',
+                [cssFocusWidth]: '2px',
+                [cssToggleLeftSize]: '3px',
             },
+
+            !brandOrSecondary && {
+                [cssBorderWidth]: '2px',
+                [cssToggleColor]: palette.colors[color].border,
+            },
+
+            brandOrSecondary && {
+                [cssToggleColor]: palette.text.tertiary,
+                [cssBorderWidth]: '1px',
+
+                ...!checked && {
+                    [cssHoverColor]: palette.text.tertiary,
+                },
+            },
+
+            paramsToCss(size)({
+                small: {
+                    [cssWidth]: '26px',
+                    [cssHeight]: '16px',
+                    [cssToggleWidth]: '10px',
+                    [cssToggleHeight]: '10px',
+                },
+                medium: {
+                    [cssWidth]: '30px',
+                    [cssHeight]: '18px',
+                    [cssToggleWidth]: '12px',
+                    [cssToggleHeight]: '12px',
+                },
+                large: {
+                    [cssWidth]: '34px',
+                    [cssHeight]: '20px',
+                    [cssToggleWidth]: '14px',
+                    [cssToggleHeight]: '14px',
+                },
+            }),
+
             disabled && {
-                cursor: 'not-allowed',
+                '&&': {
+                    cursor: 'not-allowed',
+                },
             },
         ],
 
@@ -56,19 +98,13 @@ export const useStyles = makeStyles((
             },
             !disableFocus && {
                 '&:focus-visible + .QxSwitcher-toggleContainer': {
-                    borderColor: palette.border.focus.dark,
-                    outline: 'none',
-                    ...paramsToCss(color)({
-                        [PALETTE_COLORS.brand]: {
-                            boxShadow: `inset 0px 0px 0px 1px ${palette.border.focus.dark}`,
-                        },
-                        [PALETTE_COLORS.secondary]: {
-                            boxShadow: `inset 0px 0px 0px 1px ${palette.border.focus.dark}`,
-                        },
+                    [cssFocusColor]: palette.border.focus.dark,
+
+                    borderColor: 'transparent',
+
+                    ...stylesWithFocus({
+                        borderColor: cssVar(cssFocusColor),
                     }),
-                    ...checked && {
-                        boxShadow: `inset 0px 0px 0px 2px ${palette.border.focus.dark}`,
-                    },
                 },
             },
         ],
@@ -79,71 +115,68 @@ export const useStyles = makeStyles((
                 position: 'relative',
                 alignItems: 'center',
                 boxSizing: 'border-box',
+                borderStyle: 'solid',
+                borderWidth: cssVar(cssBorderWidth),
+                backgroundColor: 'transparent',
                 margin: 0,
                 padding: 0,
                 borderRadius: 10,
-                transition: transitions.create(['color', 'background-color', 'border-color'], {
+                minWidth: cssVar(cssWidth),
+                width: cssVar(cssWidth),
+                height: cssVar(cssHeight),
+                transition: transitions.create(['color', 'background-color', 'border-color', 'outline-color'], {
                     duration: transitions.duration.shortest,
                 }),
             },
 
-            paramsToCss(color)({
-                [color]: {
-                    border: '2px solid',
-                    borderColor: palette.colors[color].default,
-                    backgroundColor: 'transparent',
-                    ...hover && {
-                        borderColor: palette.colors[color].hover,
-                    },
-                    ...toggleWrapperStates,
-                },
-                [PALETTE_COLORS.brand]: {
-                    border: '1px solid',
-                    borderColor: palette.border.secondary,
-                    backgroundColor: 'transparent',
-                    ...hover && {
-                        borderColor: palette.text.tertiary,
-                    },
-                    ...toggleWrapperStates,
-                },
-                [PALETTE_COLORS.secondary]: {
-                    border: '1px solid',
-                    borderColor: palette.border.secondary,
-                    backgroundColor: 'transparent',
-                    ...hover && {
-                        borderColor: palette.text.tertiary,
-                    },
-                    ...toggleWrapperStates,
-                },
+            baseFocusStyles({
+                transitions,
+                focusWidth: cssVar(cssFocusWidth),
+                borderWidth: cssVar(cssBorderWidth),
             }),
+
+            !brandOrSecondary && {
+                borderColor: cssVar(cssCheckedColor),
+            },
+
+            brandOrSecondary && {
+                borderColor: palette.border.secondary,
+            },
+
+            hover && {
+                '&&': {
+                    borderColor: cssVar(cssHoverColor),
+                },
+            },
+
+            checked && {
+                '&&': {
+                    borderColor: cssVar(cssCheckedColor),
+                    backgroundColor: cssVar(cssCheckedColor),
+                },
+            },
+
+            checked && hover && {
+                '&&': {
+                    borderColor: cssVar(cssHoverColor),
+                    backgroundColor: cssVar(cssHoverColor),
+                },
+            },
 
             disabled && {
-                border: '1px solid',
-                borderColor: palette.disabled.border,
-                backgroundColor: 'transparent',
-            },
-            disabled && checked && {
-                border: 'none',
-                backgroundColor: palette.disabled.bg,
+                '&&': {
+                    borderColor: cssVar(cssDisabledColor),
+                    backgroundColor: 'transparent',
+                },
             },
 
-            paramsToCss(size)({
-                small: {
-                    minWidth: 26,
-                    width: 26,
-                    height: 16,
+            disabled && checked && {
+                '&&': {
+                    [cssDisabledColor]: palette.disabled.bg,
+
+                    backgroundColor: cssVar(cssDisabledColor),
                 },
-                medium: {
-                    width: 30,
-                    minWidth: 30,
-                    height: 18,
-                },
-                large: {
-                    minWidth: 34,
-                    width: 34,
-                    height: 20,
-                },
-            }),
+            },
         ],
 
         toggle: [
@@ -153,72 +186,46 @@ export const useStyles = makeStyles((
                 transition: transitions.create(['background-color', 'border-color', 'left'], {
                     duration: transitions.duration.shortest,
                 }),
+                backgroundColor: cssVar(cssToggleColor),
+                width: cssVar(cssToggleWidth),
+                minWidth: cssVar(cssToggleWidth),
+                height: cssVar(cssToggleHeight),
+                left: `calc(${cssVar(cssToggleLeftSize)} - ${cssVar(cssBorderWidth)})`,
             },
 
-            paramsToCss(size)({
-                small: {
-                    width: 10,
-                    minWidth: 10,
-                    height: 10,
-                },
-                medium: {
-                    width: 12,
-                    minWidth: 12,
-                    height: 12,
-                },
-                large: {
-                    width: 14,
-                    minWidth: 14,
-                    height: 14,
-                },
-            }),
-            paramsToCss(size)({
-                small: { left: 2 },
-                medium: { left: 2 },
-                large: { left: 2 },
-            }),
-            checked && paramsToCss(size)({
-                small: { left: 13 },
-                medium: { left: 15 },
-                large: { left: 16 },
-            }),
+            checked && {
+                '&&': {
+                    [cssToggleColor]: palette.colors[color].contrastText,
 
-            paramsToCss(color)({
-                [color]: {
-                    backgroundColor: palette.colors[color].border,
-                    borderRadius: 10,
-                    ...toggleStates,
+                    left: `calc(${cssVar(cssWidth)} - ${cssVar(cssToggleWidth)} - ${cssVar(cssToggleLeftSize)} - ${cssVar(cssBorderWidth)})`,
                 },
-                [PALETTE_COLORS.brand]: {
-                    backgroundColor: palette.text.tertiary,
-                    borderRadius: 10,
-                    ...toggleStates,
-                },
-                [PALETTE_COLORS.secondary]: {
-                    backgroundColor: palette.text.tertiary,
-                    borderRadius: 10,
-                    ...toggleStates,
-                },
-            }),
+            },
 
             disabled && {
-                backgroundColor: palette.disabled.border,
+                '&&': {
+                    [cssToggleColor]: palette.disabled.border,
+                },
             },
+
             disabled && checked && {
-                backgroundColor: palette.text.constant,
+                '&&': {
+                    [cssToggleColor]: palette.text.constant,
+                },
             },
         ],
 
         content: [
-            { color: palette.text.main },
+            {
+                color: palette.text.main,
+            },
             paramsToCss(size)({
                 small: typography.Text.M.Regular,
                 medium: typography.Text.L.Regular,
                 large: typography.Text.XL.Regular,
             }),
             paramsToCss(position)({
-                [SWITCHER_POSITION.left]: { marginLeft: 12 },
-                [SWITCHER_POSITION.right]: { marginRight: 12 },
+                [SWITCHER_POSITION.left]: { marginLeft: cssVar(cssContentInsideMargin) },
+                [SWITCHER_POSITION.right]: { marginRight: cssVar(cssContentInsideMargin) },
             }),
         ],
     };
@@ -226,3 +233,4 @@ export const useStyles = makeStyles((
 
 export type SwitcherStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';
+export * from './vars';

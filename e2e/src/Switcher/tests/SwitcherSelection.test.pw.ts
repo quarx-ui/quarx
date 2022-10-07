@@ -23,6 +23,7 @@ test('SwitcherSelection', async ({ compareSnapshotsMap, compareSnapshots }) => {
         },
         state: 'hover',
         postfix: 'hover',
+        groupBy: ['postfix'],
     });
 
     await compareSnapshots({
@@ -31,5 +32,6 @@ test('SwitcherSelection', async ({ compareSnapshotsMap, compareSnapshots }) => {
         },
         state: 'focus',
         postfix: 'focus',
+        groupBy: ['postfix'],
     });
 });

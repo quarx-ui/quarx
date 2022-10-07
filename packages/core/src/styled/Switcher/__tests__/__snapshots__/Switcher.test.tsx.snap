@@ -1,340 +1,352 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Switcher snapshots checked 1`] = `
+exports[`Switcher style params color brand 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_checked QxSwitcher_color_brand QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1vn84au-QxSwitcher-root"
+    data-testid="testStyleParams-color-brand"
   >
     <input
-      checked=""
-      class="QxSwitcher-input css-18vmoek-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-1w2j428-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-xrroqy-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots color_brand 1`] = `
+exports[`Switcher style params color danger 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_danger QxSwitcher_position_left css-kh8wo2-QxSwitcher-root"
+    data-testid="testStyleParams-color-danger"
   >
     <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-do69oj-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots color_danger 1`] = `
+exports[`Switcher style params color info 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_danger QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_info QxSwitcher_position_left css-12vrftk-QxSwitcher-root"
+    data-testid="testStyleParams-color-info"
   >
     <input
-      class="QxSwitcher-input css-1ase2q6-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-1ci1huh-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-do69oj-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-10pv0bu-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots color_info 1`] = `
+exports[`Switcher style params color secondary 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_info QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_secondary QxSwitcher_position_left css-h6m773-QxSwitcher-root"
+    data-testid="testStyleParams-color-secondary"
   >
     <input
-      class="QxSwitcher-input css-1ase2q6-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-18z2ng9-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-14iart-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots color_secondary 1`] = `
+exports[`Switcher style params color success 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_secondary QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_success QxSwitcher_position_left css-1ekzyed-QxSwitcher-root"
+    data-testid="testStyleParams-color-success"
   >
     <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-do69oj-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots color_success 1`] = `
+exports[`Switcher style params color warning 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_success QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_warning QxSwitcher_position_left css-17m083m-QxSwitcher-root"
+    data-testid="testStyleParams-color-warning"
   >
     <input
-      class="QxSwitcher-input css-1ase2q6-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-5tljxv-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-do69oj-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-1gxhqw6-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots color_warning 1`] = `
+exports[`Switcher style params disabled false 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_warning QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1vn84au-QxSwitcher-root"
+    data-testid="testStyleParams-disabled-false"
   >
     <input
-      class="QxSwitcher-input css-1ase2q6-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-1tw62eb-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-zpu5cj-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots default 1`] = `
+exports[`Switcher style params disabled true 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disabled QxSwitcher_position_left css-17dqn1m-QxSwitcher-root"
+    data-testid="testStyleParams-disabled-true"
   >
     <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
-      type="checkbox"
-      value=""
-    />
-    <div
-      class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
-    >
-      <div
-        class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
-      />
-    </div>
-    <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
-    >
-      Switcher
-    </div>
-  </label>
-</DocumentFragment>
-`;
-
-exports[`Switcher snapshots disabled 1`] = `
-<DocumentFragment>
-  <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disabled QxSwitcher_position_left css-1mnaaqf-QxSwitcher-root"
-  >
-    <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       disabled=""
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-9j1r4j-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-1iima7a-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-1or0x3z-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-1u5g9a4-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots large 1`] = `
+exports[`Switcher style params position left 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_large QxSwitcher_color_brand QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1vn84au-QxSwitcher-root"
+    data-testid="testStyleParams-position-left"
   >
     <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-mx7jcj-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-1ly3h4q-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-qvpxq8-QxSwitcher-content"
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
     >
-      Switcher
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots medium 1`] = `
+exports[`Switcher style params position right 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_right css-1vn84au-QxSwitcher-root"
+    data-testid="testStyleParams-position-right"
   >
+    <div
+      class="QxSwitcher-content css-1r6yxqi-QxSwitcher-content"
+    >
+      Статус
+    </div>
     <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
-      />
-    </div>
-    <div
-      class="QxSwitcher-content css-5bim71-QxSwitcher-content"
-    >
-      Switcher
-    </div>
-  </label>
-</DocumentFragment>
-`;
-
-exports[`Switcher snapshots right 1`] = `
-<DocumentFragment>
-  <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_right css-1dfsk5i-QxSwitcher-root"
-  >
-    <div
-      class="QxSwitcher-content css-1oszoyh-QxSwitcher-content"
-    >
-      Switcher
-    </div>
-    <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
-      type="checkbox"
-      value=""
-    />
-    <div
-      class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
-    >
-      <div
-        class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`Switcher snapshots small 1`] = `
+exports[`Switcher style params size large 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_small QxSwitcher_color_brand QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_large QxSwitcher_color_brand QxSwitcher_position_left css-o2j576-QxSwitcher-root"
+    data-testid="testStyleParams-size-large"
   >
     <input
-      class="QxSwitcher-input css-1kd6g3d-QxSwitcher-input"
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
       type="checkbox"
       value=""
     />
     <div
-      class="QxSwitcher-toggleContainer css-18x84e7-QxSwitcher-toggleContainer"
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
     >
       <div
-        class="QxSwitcher-toggle css-12oj3ts-QxSwitcher-toggle"
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
       />
     </div>
     <div
-      class="QxSwitcher-content css-k4l0bb-QxSwitcher-content"
+      class="QxSwitcher-content css-p24uv7-QxSwitcher-content"
     >
-      Switcher
+      Статус
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher style params size medium 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1vn84au-QxSwitcher-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <input
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
+    >
+      <div
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="QxSwitcher-content css-e6slwr-QxSwitcher-content"
+    >
+      Статус
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Switcher style params size small 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSwitcher QxSwitcher_size_small QxSwitcher_color_brand QxSwitcher_position_left css-1ky9bec-QxSwitcher-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <input
+      class="QxSwitcher-input css-vbnokk-QxSwitcher-input"
+      type="checkbox"
+      value=""
+    />
+    <div
+      class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
+    >
+      <div
+        class="QxSwitcher-toggle css-3p3seb-QxSwitcher-toggle"
+      />
+    </div>
+    <div
+      class="QxSwitcher-content css-1ywo4bn-QxSwitcher-content"
+    >
+      Статус
     </div>
   </label>
 </DocumentFragment>

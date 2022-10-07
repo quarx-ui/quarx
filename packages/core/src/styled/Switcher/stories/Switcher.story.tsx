@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { designParams, excludeProp } from '@core/storybook/templateParams';
+import { excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { PALETTE_COLORS } from '@core/styles';
@@ -11,9 +11,7 @@ export default {
     component: Switcher,
     parameters: {
         actions: { disable: true },
-        design: designParams(
-            'https://www.figma.com/file/kqled9AjBtDMRhWKovsgYf/3.1%E3%83%BBControls?node-id=3997%3A74968',
-        ),
+        design: { disable: true },
     },
     argTypes: {
         size: { description: 'Размер компонента' },
