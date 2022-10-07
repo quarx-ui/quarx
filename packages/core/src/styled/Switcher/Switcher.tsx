@@ -3,13 +3,13 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { PALETTE_COLORS, SWITCHER_POSITION, QX_SIZE, usePropsOverwrites } from '@core';
 import { SwitcherProps } from './types';
-import { useStyles } from './styles';
+import { SWITCHER_CSS_VARS, useStyles } from './styles';
 
 export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, SwitcherProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Switcher', initialProps);
+    const { props, cn } = usePropsOverwrites('Switcher', initialProps, SWITCHER_CSS_VARS);
     const {
         styles: externalStyles,
         checked = false,
@@ -29,6 +29,7 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
         onClick,
         onMouseLeave,
         onMouseEnter,
+        cssVars,
         ...restProps
     } = props;
 
@@ -43,7 +44,7 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
         hover: externalHover ?? hover,
         position,
     };
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
 
     if (hidden) { return null; }
 

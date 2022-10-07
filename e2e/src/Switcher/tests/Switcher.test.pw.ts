@@ -28,7 +28,7 @@ test('Switcher', async ({ compareSnapshotsMap, compareSnapshots }) => {
             children: 'Switcher',
         },
         postfix: 'disabled',
-        groupBy: ['postfix'],
+        groupBy: ['postfix', 'props'],
     });
 
     await compareSnapshots({

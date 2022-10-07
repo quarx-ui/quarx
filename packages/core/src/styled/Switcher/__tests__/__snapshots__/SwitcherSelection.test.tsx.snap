@@ -9,7 +9,7 @@ exports[`SwitcherSelection default snapshot 1`] = `
       class="QxSelection-leftAdornment css-1xv7td9-QxSelection-leftAdornment"
     >
       <label
-        class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disableFocus QxSwitcher_position_left css-1dfsk5i-QxSwitcher-root"
+        class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disableFocus QxSwitcher_position_left css-174365x-QxSwitcher-root"
       >
         <input
           class="QxSwitcher-input css-1l6pf64-QxSwitcher-input"
@@ -17,10 +17,10 @@ exports[`SwitcherSelection default snapshot 1`] = `
           value=""
         />
         <div
-          class="QxSwitcher-toggleContainer css-1pxim4o-QxSwitcher-toggleContainer"
+          class="QxSwitcher-toggleContainer css-iqwm0s-QxSwitcher-toggleContainer"
         >
           <div
-            class="QxSwitcher-toggle css-1c28ujy-QxSwitcher-toggle"
+            class="QxSwitcher-toggle css-6ooqly-QxSwitcher-toggle"
           />
         </div>
       </label>
