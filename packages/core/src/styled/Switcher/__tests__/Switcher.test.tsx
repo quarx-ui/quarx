@@ -1,51 +1,26 @@
 import { cleanup, render, screen } from '@testing-library/react';
-import { SwitcherStyleParams } from '@quarx-ui/core/src/styled/Switcher/types';
-import React, { FC } from 'react';
-import { PALETTE_COLORS, Switcher, SWITCHER_POSITION } from '@core';
+import { SwitcherProps, SwitcherStyleParams } from '@quarx-ui/core/src/styled/Switcher/types';
+import React from 'react';
+import { Switcher } from '@core';
 import userEvent from '@testing-library/user-event';
-import { expectPropsMapInClasses } from '@core/test-utils';
-
-const checkPropsInClasses = (props: Partial<SwitcherStyleParams>) => {
-    const {
-        size = 'medium',
-        color = PALETTE_COLORS.brand,
-        disabled = false,
-        position = SWITCHER_POSITION.left,
-    } = props;
-    const checkbox = document.querySelector('label');
-    if (!checkbox) { return; }
-    const propsWithDefault = { size, disabled, color, position };
-
-    expectPropsMapInClasses(checkbox as HTMLElement)(propsWithDefault);
-};
-
-const checkProps = (Component: FC) => (checkedProps?: Partial<SwitcherStyleParams>) => () => {
-    const { asFragment } = render(<Component {...checkedProps}>{Component.displayName}</Component>);
-
-    checkPropsInClasses(checkedProps ?? {});
-    expect(asFragment()).toMatchSnapshot();
-};
-
-describe('Switcher snapshots', () => {
-    Switcher.displayName = 'Switcher';
-    const checkSwitcherProps = checkProps(Switcher);
-
-    it('default', checkSwitcherProps());
-
-    it('small', checkSwitcherProps({ size: 'small' }));
-    it('medium', checkSwitcherProps({ size: 'medium' }));
-    it('large', checkSwitcherProps({ size: 'large' }));
-
-    it('right', checkSwitcherProps({ position: SWITCHER_POSITION.right }));
-    it('checked', checkSwitcherProps({ checked: true }));
-    it('disabled', checkSwitcherProps({ disabled: true }));
-
-    Object.values(PALETTE_COLORS).forEach((color) => (
-        it(`color_${color}`, checkSwitcherProps({ color }))
-    ));
-});
+import { testStyleParams } from '@core/test-utils';
 
 describe('Switcher', () => {
+    testStyleParams<Partial<SwitcherStyleParams>, SwitcherProps>(
+        Switcher,
+        {
+            size: 'medium',
+            color: 'brand',
+            position: 'left',
+        },
+        { children: 'Статус' },
+    )({
+        color: ['brand', 'secondary', 'info', 'success', 'warning', 'danger'],
+        size: ['small', 'medium', 'large'],
+        position: ['left', 'right'],
+        disabled: [true, false],
+    });
+
     it('text should be in the document', () => {
         render(<Switcher>Switcher</Switcher>);
 
