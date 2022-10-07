@@ -1,26 +1,27 @@
-import { colorToRgb } from '@core/styles/engine/utils/colorToRgb';
+import { colorToRgb, getSizeWithUnits } from '@core/styles/engine/utils';
 
 export const valuesFromShadow = (shadow: string) => {
     const inset = shadow.includes('inset');
-    const pxsRegex = new RegExp(/(\d+)(?=px)/g);
     const hexRegex = new RegExp(/#(?:[0-9A-F]{6}|[0-9A-F]{3})(?= |$)/gi);
     const rgbRegex = new RegExp(/rgba?\((?:\d{1,2}|1\d{1,2}|2[0-4]\d|25[0-5]), ?(?:\d{1,2}|1\d{1,2}|2[0-4]\d|25[0-5]), ?(?:\d{1,2}|1\d{1,2}|2[0-4]\d|25[0-5])(?:, ?(0|1|\.\d+|0\.\d+))?\)/gi);
 
-    const psxMatches = shadow.match(pxsRegex);
-    const colorMatches = shadow.match(rgbRegex) ?? shadow.match(hexRegex);
+    const units = getSizeWithUnits(shadow);
+    const colorMatches = shadow.match(rgbRegex) ?? shadow.match(hexRegex) ?? shadow
+        .split(' ')
+        .find((el) => ![units, 'inset'].includes(el));
 
-    if (!psxMatches || !colorMatches) {
+    if (!units || !colorMatches) {
         throw new Error("wrong format of value");
     }
 
-    const [x, y, b, s] = psxMatches;
+    const [x, y, b, s] = units.split(' ');
     const color = colorToRgb(colorMatches[0]);
 
     return {
-        x: +x,
-        y: +y,
-        b: +b,
-        s: +s,
+        x,
+        y,
+        b,
+        s,
         color,
         inset
     };

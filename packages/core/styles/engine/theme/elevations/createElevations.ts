@@ -14,8 +14,8 @@ import {
 
 export const createElevations: CreateElevations = (elevationsOps, palette) => {
     const paletteColor = (palette?.type === 'light'
-        ? palette.text
-        : palette?.background) ?? DARKEST
+        ? palette.text.main
+        : palette?.background.main) ?? DARKEST
 
     const defaultOps = {
         ...DEFAULT_ELEVATIONS_OBJ,

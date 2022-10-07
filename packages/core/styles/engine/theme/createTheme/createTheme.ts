@@ -7,7 +7,7 @@ import { createBorders } from '../borders';
 import { createBorderRadii } from '../borderRadii';
 
 export function createTheme({
-    palette,
+    palette: initialPalette,
     breakpoints,
     transitions,
     defaultProps,
@@ -15,8 +15,10 @@ export function createTheme({
     borders,
     borderRadii,
 }: CreateThemeArg = {}): Theme {
+    const palette = createPalette(initialPalette);
+
     return {
-        palette: createPalette(palette),
+        palette,
         breakpoints: createBreakpoints(breakpoints),
         transitions: createTransitions(transitions),
         elevations: createElevations(elevations, palette),

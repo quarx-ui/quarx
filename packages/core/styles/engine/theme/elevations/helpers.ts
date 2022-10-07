@@ -1,8 +1,6 @@
 import { CSSObject } from '@emotion/react';
-import { changeOpacity, valuesFromShadow } from '@core/styles/engine/utils';
+import { changeOpacity, valuesFromShadow, withUnit } from '@core/styles/engine/utils';
 import { CreateElevationArg, ElevationOption, ElevationOptions, ElevationStrings } from './types';
-
-export const getPx = (value?: string | number) => typeof value === 'string' ? value : `${value ?? 0}px`;
 
 export const getShadow = (options: ElevationOption | string, paletteColor: CSSObject['color'], inset?: boolean) => {
     if (typeof options === 'string') {
@@ -13,10 +11,10 @@ export const getShadow = (options: ElevationOption | string, paletteColor: CSSOb
         color = changeOpacity(paletteColor as string, 0.12),
     } = options;
 
-    const x = getPx(options.x);
-    const y = getPx(options.y);
-    const b = getPx(options.b);
-    const s = getPx(options.s);
+    const x = withUnit(options.x);
+    const y = withUnit(options.y);
+    const b = withUnit(options.b);
+    const s = withUnit(options.s);
     const localInset = (inset ?? options.inset) ? 'inset' : '';
 
     return [x, y, b, s, color, localInset]
