@@ -1,4 +1,4 @@
-import { CreatePaletteArg, PickQxSize } from '@core';
+import { Palette, PickQxSize } from '@core';
 import { CSSObject } from '@emotion/react';
 
 export type ElevationSize = PickQxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'>
@@ -31,4 +31,4 @@ export interface Elevations extends ElevationStrings {
     inset: ElevationsInsetFc,
     create: ElevationsCreateFc
 }
-export type CreateElevations = (options?: CreateElevationArg, palette?: CreatePaletteArg) => Elevations
+export type CreateElevations = (options?: CreateElevationArg, palette?: Palette) => Elevations

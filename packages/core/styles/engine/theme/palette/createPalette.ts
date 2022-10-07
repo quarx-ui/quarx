@@ -24,3 +24,5 @@ export function createPalette(palette: CreatePaletteArg = { type: 'light' }): Pa
         ...computedPalette,
     }, overwrites);
 }
+
+export const defaultPalette = createPalette();

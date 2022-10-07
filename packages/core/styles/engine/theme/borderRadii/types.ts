@@ -12,7 +12,7 @@ export type BorderRadiusSide =
     'bottom-right'
 
 export type BorderRadiusOption = {
-    size: number,
+    size: number | string,
     side?: BorderRadiusSide,
 }
 export type BorderRadii = Record<QxBorderSize, number | BorderRadiusOption | string>

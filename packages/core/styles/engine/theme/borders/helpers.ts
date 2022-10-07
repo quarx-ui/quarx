@@ -1,19 +1,13 @@
+import { getSizeWithUnits, withUnit } from '@core/styles/engine/utils';
 import { BorderOptionArr, BorderOptionObj, BordersSide, BorderType } from "./types";
 
-export const mapSideToWidth = (width = 0): Record<BordersSide, string | number> => ({
-    all: width,
-    top: `${width}px 0 0`,
-    left: `0 0 0 ${width}px`,
-    right: `0 ${width}px 0 0`,
-    bottom: `0 0 ${width}px`,
+export const mapSideToWidth = (width: number | string = 0): Record<BordersSide, string> => ({
+    all: withUnit(width),
+    top: `${withUnit(width)} 0 0`,
+    left: `0 0 0 ${withUnit(width)}`,
+    right: `0 ${withUnit(width)} 0 0`,
+    bottom: `0 0 ${withUnit(width)}`,
 });
-
-export const widthValueFromBorder = (width: string) => {
-    const pxsRegex = new RegExp(/(\d+)(?=px|%|em|rem)/g);
-    const psxMatches = width.match(pxsRegex);
-
-    return psxMatches ?? [];
-}
 
 export const valuesFromBorder = (
     border: string,
@@ -26,15 +20,16 @@ export const valuesFromBorder = (
     const styleMatches = border.match(styleRegex);
     const sideMatches = border.match(sideRegex);
 
-    const [width = defaultObj.width] = widthValueFromBorder(border);
     const [style = defaultObj.style] = styleMatches ?? [];
     const [side = defaultObj.side] = sideMatches ?? [];
-    const [color = paletteColor] = border
+    const width = getSizeWithUnits(border) ?? defaultObj.width;
+
+    const color = border
         .split(' ')
-        .filter((subStr) => !subStr.match(/(\d+)px/g)?.length && subStr !== style && subStr !== side)
+        .find((el) => ![width, style, side].includes(el)) ?? paletteColor;
 
     return {
-        borderWidth: mapSideToWidth(Number(width))[side as BordersSide],
+        borderWidth: mapSideToWidth(width)[side as BordersSide],
         borderColor: color,
         borderStyle: style,
     }
