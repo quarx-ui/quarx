@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { designParams, excludeProp } from '@core/storybook/templateParams';
+import { excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Button } from '@quarx-ui/core/src/styled/Button';
 import { QX_SIZE } from '@core/enums';
@@ -35,13 +35,16 @@ export default {
     },
     parameters: {
         actions: { disable: true },
-        design: designParams('https://www.figma.com/file/kqled9AjBtDMRhWKovsgYf/3.1%E3%83%BBControls?node-id=9990%3A76129'),
+        design: { disable: true },
     },
 };
 
 export const Sandbox: Story<RadioButtonProps> = ({ checked, ...props }) => (
     <>
-        <RadioButton checked={checked} {...props}>
+        <RadioButton
+            checked={checked}
+            {...props}
+        >
             <>{checked?.toString()}</>
         </RadioButton>
     </>

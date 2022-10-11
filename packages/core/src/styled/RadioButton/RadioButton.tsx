@@ -3,14 +3,15 @@ import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { QX_SIZE } from '@core/enums';
 import { PALETTE_COLORS, usePropsOverwrites } from '@core';
-import { useStyles } from './styles';
+import { RADIO_BUTTON_POSITION } from './constants';
+import { RADIO_BUTTON_CSS_VARS, useStyles } from './styles';
 import { RadioButtonProps } from './types';
 
 export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, RadioButtonProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('RadioButton', initialProps);
+    const { props, cn } = usePropsOverwrites('RadioButton', initialProps, RADIO_BUTTON_CSS_VARS);
     const {
         children,
         color = PALETTE_COLORS.brand,
@@ -18,6 +19,7 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
         disableFocus = false,
         size = QX_SIZE.medium,
         disabled = false,
+        position = RADIO_BUTTON_POSITION.left,
         checked,
         hidden = false,
         hover: externalHover,
@@ -28,6 +30,7 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
         value,
         onMouseEnter,
         onMouseLeave,
+        cssVars,
         ...restProps
     } = props;
 
@@ -40,9 +43,10 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
         hover: externalHover ?? hover,
         disabled,
         checked: checked ?? false,
+        position,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
 
     if (hidden) {
         return null;
@@ -67,6 +71,14 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
             onMouseLeave={mouseLeaveHandler}
             {...restProps}
         >
+            {children && position === RADIO_BUTTON_POSITION.right && (
+                <div
+                    className={cn('content')}
+                    css={styles.content}
+                >
+                    {children}
+                </div>
+            )}
             <input
                 ref={inputRef}
                 type="radio"
@@ -88,7 +100,7 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
                     css={styles.markerDot}
                 />
             </div>
-            {children && (
+            {children && position === RADIO_BUTTON_POSITION.left && (
                 <div
                     className={cn('content')}
                     css={styles.content}

@@ -9,18 +9,18 @@ exports[`RadioButtonSelection default snapshot 1`] = `
       class="QxSelection-leftAdornment css-1xv7td9-QxSelection-leftAdornment"
     >
       <label
-        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus css-idaz54-QxRadioButton-root"
+        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_position_left css-144omum-QxRadioButton-root"
       >
         <input
-          class="QxRadioButton-input css-r2ldcm-QxRadioButton-input"
+          class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
           type="radio"
           value=""
         />
         <div
-          class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
+          class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
         >
           <div
-            class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+            class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
           />
         </div>
       </label>
