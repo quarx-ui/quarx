@@ -2,22 +2,26 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
 import clsx from 'clsx';
-import { Loader, usePropsOverwrites } from '@core';
-import { BaseButton } from '../BaseButton/BaseButton';
-import { useStyles } from './style';
+import { BaseButton } from '@core/src';
+import { usePropsOverwrites } from '@core/styles';
+import { QX_SIZE } from '@core/enums';
+import { BUTTON_CSS_VARS, useStyles } from './styles';
 import { ButtonProps } from './types';
 
 export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Button', initialProps);
+    const { props, cn } = usePropsOverwrites('Button', initialProps, BUTTON_CSS_VARS);
+
     const {
         children,
-        size = 'medium',
+        size = QX_SIZE.medium,
         loading = false,
         leftIcon,
         rightIcon,
+        LoaderProps,
+        cssVars,
         styles: externalStyles,
         ...restProps
     } = props;
@@ -27,7 +31,7 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
         loading,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
 
     return (
         <BaseButton
@@ -36,6 +40,12 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
             css={styles.root}
             size={size}
             loading={loading}
+            cssVars={cssVars}
+            LoaderProps={{
+                twoDots: size === 'small' || size === 'xSmall',
+                size: 'base',
+                ...LoaderProps,
+            }}
             {...restProps}
         >
             {leftIcon && (
@@ -54,22 +64,13 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
                     {children}
                 </div>
             )}
-            {rightIcon
-                    && (
-                        <div
-                            className={clsx(cn('icon'), cn('rightIcon'))}
-                            css={[styles.rightIcon, styles.icon]}
-                        >
-                            {rightIcon}
-                        </div>
-                    )}
-            {loading && (
-                <Loader
-                    css={styles.loader}
-                    className={cn('loader')}
-                    twoDots={size === 'small' || size === 'xSmall'}
-                    size="base"
-                />
+            {rightIcon && (
+                <div
+                    className={clsx(cn('icon'), cn('rightIcon'))}
+                    css={[styles.rightIcon, styles.icon]}
+                >
+                    {rightIcon}
+                </div>
             )}
         </BaseButton>
     );

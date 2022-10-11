@@ -1,9 +1,9 @@
 import { ReactElement } from 'react';
 import { WithClassesAndStyles } from '@core/styles';
 import { BaseButtonProps, ButtonStyleParams } from '@core/src';
-import { ButtonStyleKeys } from './style';
+import { ButtonStyleKeys, ButtonCSSVarKeys } from './styles';
 
-export interface ButtonPropsWithoutStyling extends Omit<BaseButtonProps, 'classes' | 'styles'> {
+export interface ButtonPropsWithoutStyling extends BaseButtonProps {
     /** Иконка расположенная слева */
     leftIcon?: ReactElement,
 
@@ -13,4 +13,4 @@ export interface ButtonPropsWithoutStyling extends Omit<BaseButtonProps, 'classe
 
 export type ButtonProps =
     ButtonPropsWithoutStyling &
-    WithClassesAndStyles<ButtonStyleKeys, ButtonStyleParams>
+    WithClassesAndStyles<ButtonStyleKeys, ButtonStyleParams, ButtonCSSVarKeys>

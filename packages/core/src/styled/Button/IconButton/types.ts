@@ -1,6 +1,6 @@
-import { IconButtonStyleKeys } from '@quarx-ui/core/src/styled/Button/IconButton/style';
 import { WithClassesAndStyles } from '@core/styles';
 import { BaseButtonProps, ButtonStyleParams } from '@core/src';
+import { IconButtonStyleKeys, IconButtonCSSVarKeys } from './styles';
 
-export type IconButtonProps = Omit<BaseButtonProps, 'classes'>
-& WithClassesAndStyles<IconButtonStyleKeys, ButtonStyleParams>
+export type IconButtonProps = BaseButtonProps
+& WithClassesAndStyles<IconButtonStyleKeys, ButtonStyleParams, IconButtonCSSVarKeys>

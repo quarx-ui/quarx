@@ -1,7 +1,7 @@
 import React from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
-import { defineCategory, designParams, excludeProp } from '@core/storybook/templateParams';
+import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { Button, IconButton, ButtonProps, ButtonSize, ButtonColor, ButtonType, ButtonBorderRadius } from '..';
 import { PaperClipIcon, SmallPaperClipIcon, ChevronDownIcon } from './assets';
@@ -24,41 +24,30 @@ export default {
     component: Button,
     argTypes: {
         ...defineCategory('Стилизация', {
-            borderRadius: {
-                description: 'Скругление',
-            },
-            color: {
-                description: 'Цветовая палитра',
-            },
-            type: {
-                description: 'Тип заливки',
-            },
-            size: {
-                description: 'Размер',
-            },
+            borderRadius: {},
+            color: {},
+            type: {},
+            size: {},
         }),
         ...defineCategory('Состояние', {
-            disabled: {
-                description: 'Изменяет состояние компонента на активное/неактивное',
-            },
-            loading: {
-                description: 'Включает анимацию загрузки',
-            },
+            disabled: {},
+            loading: {},
             buttonType: {
-                description: 'HTML-тип элемента button',
                 control: false,
             },
         }),
         ...defineCategory('Элементы', {
-            children: {
-                description: 'Текст расположенный в компоненте',
-            },
+            children: {},
             leftIcon: {
-                description: 'Иконка расположенная слева',
                 control: false,
             },
             rightIcon: {
-                description: 'Иконка расположенная справа',
+                control: false,
+            },
+            Loader: {
+                control: false,
+            },
+            LoaderProps: {
                 control: false,
             },
         }),
@@ -74,7 +63,7 @@ export default {
     },
     args: defaultArgs,
     parameters: {
-        design: designParams('https://www.figma.com/file/kqled9AjBtDMRhWKovsgYf/3.1%E3%83%BBControls?node-id=8278%3A40540'),
+        design: { disable: true },
         actions: { disable: true },
     },
 };
@@ -101,7 +90,13 @@ export const Sandbox: Story<StoryButtonProps> = ({
             marginBottom: 10,
         }}
         >
-            <IconButton {...args}>{args.size === 'xSmall' ? <SmallPaperClipIcon /> : <PaperClipIcon />}</IconButton>
+            <IconButton {...args}>
+                {
+                    args.size === 'xSmall'
+                        ? <SmallPaperClipIcon />
+                        : <PaperClipIcon />
+                }
+            </IconButton>
         </div>
         <div style={{ display: 'flex' }}>
             <Button
@@ -120,7 +115,7 @@ Sandbox.args = {
 };
 
 const SIZES: ButtonSize[] = ['xSmall', 'small', 'medium', 'large'];
-const BORDER_RADIUS: ButtonBorderRadius[] = ['xSmall', 'small', 'medium', 'large', 'xLarge'];
+const BORDER_RADIUS: ButtonBorderRadius[] = ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'];
 const COLOR: ButtonColor[] = ['brand', 'secondary', 'success', 'info', 'warning', 'danger'];
 const TYPES: ButtonType[] = ['contained', 'outlined', 'text'];
 
