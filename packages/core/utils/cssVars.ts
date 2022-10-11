@@ -6,7 +6,7 @@ export type CssVarType = `css${string}`
  * @return возвращает строку в формате --name-of-variable */
 export const getCssVarName = (cssVar: CssVarType) => {
     const splitVar = cssVar
-        .match(/[A-Z][a-z]+/g)
+        .match(/[A-Z][a-z]*/g)
         ?.map((el) => el.toLowerCase());
 
     return `--${splitVar?.join('-')}`;

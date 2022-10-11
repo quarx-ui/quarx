@@ -1,25 +1,30 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
-import { usePropsOverwrites } from '@core/styles';
-import { useStyles } from './style';
+import { PALETTE_COLORS, usePropsOverwrites } from '@core/styles';
+import { Loader } from '@core/src';
+import { QX_BORDER_SIZE, QX_SIZE } from '@core/enums';
+import { useStyles, BASE_BUTTON_CSS_VARS } from './styles';
 import { BaseButtonProps } from './types';
 
 export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, BaseButtonProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('BaseButton', initialProps);
+    const { props, cn } = usePropsOverwrites('BaseButton', initialProps, BASE_BUTTON_CSS_VARS);
     const {
         buttonType = 'button',
         children,
-        size = 'medium',
-        color = 'brand',
+        size = QX_SIZE.medium,
+        color = PALETTE_COLORS.brand,
         type = 'contained',
-        borderRadius = 'medium',
+        borderRadius = QX_BORDER_SIZE.medium,
         disabled = false,
         loading = false,
         hidden = false,
+        Loader: externalLoader,
+        LoaderProps,
+        cssVars,
         styles: externalStyles,
         ...restProps
     } = props;
@@ -32,7 +37,7 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
         disabled,
         loading,
     };
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
 
     if (hidden) {
         return null;
@@ -49,6 +54,14 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
             {...restProps}
         >
             {children}
+            {loading && (
+                externalLoader ?? (
+                    <Loader
+                        css={styles.loader}
+                        className={cn('loader')}
+                        {...LoaderProps}
+                    />
+                ))}
         </button>
     );
 });

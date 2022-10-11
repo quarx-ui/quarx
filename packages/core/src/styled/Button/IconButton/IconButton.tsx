@@ -1,27 +1,33 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
-import { BaseButton } from '@quarx-ui/core/src/styled/Button/BaseButton/BaseButton';
-import { Loader } from '@core/src';
+import { BaseButton } from '@core/src';
 import { usePropsOverwrites } from '@core/styles';
-import { useStyles } from './style';
+import { QX_SIZE } from '@core/enums';
+import { ICON_BUTTON_CSS_VARS, useStyles } from './styles';
 import { IconButtonProps } from './types';
 
 export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, IconButtonProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('IconButton', initialProps);
+    const { props, cn } = usePropsOverwrites('IconButton', initialProps, ICON_BUTTON_CSS_VARS);
     const {
         children,
-        size = 'medium',
+        size = QX_SIZE.medium,
         loading = false,
+        LoaderProps,
+        cssVars,
         styles: externalStyles,
         ...restProps
     } = props;
-    const params = { size, loading };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const params = {
+        size,
+        loading,
+    };
+
+    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
 
     return (
         <BaseButton
@@ -30,6 +36,11 @@ export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, Ico
             css={styles.root}
             size={size}
             loading={loading}
+            LoaderProps={{
+                twoDots: true,
+                size: size === 'xSmall' ? 'small' : 'base',
+                ...LoaderProps,
+            }}
             {...restProps}
         >
             <div
@@ -38,14 +49,6 @@ export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, Ico
             >
                 {children}
             </div>
-            {loading && (
-                <Loader
-                    className={cn('loader')}
-                    css={styles.loader}
-                    twoDots
-                    size={size === 'xSmall' ? 'small' : 'base'}
-                />
-            )}
         </BaseButton>
     );
 });
