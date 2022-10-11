@@ -1,340 +1,352 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RadioButton snapshots checked 1`] = `
+exports[`RadioButton style params color brand 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-144omum-QxRadioButton-root"
+    data-testid="testStyleParams-color-brand"
   >
     <input
-      checked=""
-      class="QxRadioButton-input css-1n4woxc-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-15gclq9-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots color_brand 1`] = `
+exports[`RadioButton style params color danger 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_position_left css-vk91qp-QxRadioButton-root"
+    data-testid="testStyleParams-color-danger"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots color_danger 1`] = `
+exports[`RadioButton style params color info 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_position_left css-1bty7e4-QxRadioButton-root"
+    data-testid="testStyleParams-color-info"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-1dct0xs-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots color_info 1`] = `
+exports[`RadioButton style params color secondary 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_position_left css-144omum-QxRadioButton-root"
+    data-testid="testStyleParams-color-secondary"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-33vu7j-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots color_secondary 1`] = `
+exports[`RadioButton style params color success 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_position_left css-f9dko3-QxRadioButton-root"
+    data-testid="testStyleParams-color-success"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots color_success 1`] = `
+exports[`RadioButton style params color warning 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_position_left css-1uz9jjp-QxRadioButton-root"
+    data-testid="testStyleParams-color-warning"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-1t5wp12-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots color_warning 1`] = `
+exports[`RadioButton style params disabled false 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-144omum-QxRadioButton-root"
+    data-testid="testStyleParams-disabled-false"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-3fwcyk-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots default 1`] = `
+exports[`RadioButton style params disabled true 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1wk3daj-QxRadioButton-root"
+    data-testid="testStyleParams-disabled-true"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
-      type="radio"
-      value=""
-    />
-    <div
-      class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
-    >
-      <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
-      />
-    </div>
-    <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
-    >
-      RadioButton
-    </div>
-  </label>
-</DocumentFragment>
-`;
-
-exports[`RadioButton snapshots disableFocus 1`] = `
-<DocumentFragment>
-  <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus css-idaz54-QxRadioButton-root"
-  >
-    <input
-      class="QxRadioButton-input css-r2ldcm-QxRadioButton-input"
-      type="radio"
-      value=""
-    />
-    <div
-      class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
-    >
-      <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
-      />
-    </div>
-    <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
-    >
-      RadioButton
-    </div>
-  </label>
-</DocumentFragment>
-`;
-
-exports[`RadioButton snapshots disabled 1`] = `
-<DocumentFragment>
-  <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled css-lydo4z-QxRadioButton-root"
-  >
-    <input
-      class="QxRadioButton-input css-1n4woxc-QxRadioButton-input"
+      class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
       disabled=""
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-1gb3rmg-QxRadioButton-marker"
+      class="QxRadioButton-marker css-5va3tq-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1wnrinn-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots large 1`] = `
+exports[`RadioButton style params position left 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-144omum-QxRadioButton-root"
+    data-testid="testStyleParams-position-left"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-18suv69-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-17pz8op-QxRadioButton-content"
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
     >
-      RadioButton
+      Статус
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots medium 1`] = `
+exports[`RadioButton style params position right 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_right css-144omum-QxRadioButton-root"
+    data-testid="testStyleParams-position-right"
   >
+    <div
+      class="QxRadioButton-content css-1q0pet1-QxRadioButton-content"
+    >
+      Статус
+    </div>
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-q0amdu-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-vkh4n9-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
-    </div>
-    <div
-      class="QxRadioButton-content css-4i45ye-QxRadioButton-content"
-    >
-      RadioButton
     </div>
   </label>
 </DocumentFragment>
 `;
 
-exports[`RadioButton snapshots small 1`] = `
+exports[`RadioButton style params size large 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand css-idaz54-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_position_left css-j4p5ax-QxRadioButton-root"
+    data-testid="testStyleParams-size-large"
   >
     <input
-      class="QxRadioButton-input css-119bhfm-QxRadioButton-input"
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
       type="radio"
       value=""
     />
     <div
-      class="QxRadioButton-marker css-1gasf12-QxRadioButton-marker"
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
     >
       <div
-        class="QxRadioButton-markerDot css-q5cybf-QxRadioButton-markerDot"
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
       />
     </div>
     <div
-      class="QxRadioButton-content css-1e2y6lj-QxRadioButton-content"
+      class="QxRadioButton-content css-syp2gq-QxRadioButton-content"
     >
-      RadioButton
+      Статус
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`RadioButton style params size medium 1`] = `
+<DocumentFragment>
+  <label
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-144omum-QxRadioButton-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <input
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
+      type="radio"
+      value=""
+    />
+    <div
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
+    >
+      <div
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
+      />
+    </div>
+    <div
+      class="QxRadioButton-content css-1ib3xdh-QxRadioButton-content"
+    >
+      Статус
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`RadioButton style params size small 1`] = `
+<DocumentFragment>
+  <label
+    class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_position_left css-1ktbjoq-QxRadioButton-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <input
+      class="QxRadioButton-input css-102mk4h-QxRadioButton-input"
+      type="radio"
+      value=""
+    />
+    <div
+      class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
+    >
+      <div
+        class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
+      />
+    </div>
+    <div
+      class="QxRadioButton-content css-1ifxpc8-QxRadioButton-content"
+    >
+      Статус
     </div>
   </label>
 </DocumentFragment>

@@ -2,11 +2,11 @@ import { ChangeEventHandler, ReactNode, RefObject } from 'react';
 import { ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
 import { BaseProps } from '@core/types';
 import { SelectionProps } from '@core/src';
-import { RadioButtonStyleKeys, RadioButtonStyleParams } from './styles';
+import { RadioButtonCSSVarKeys, RadioButtonStyleKeys, RadioButtonStyleParams } from './styles';
 
 export interface RadioButtonPropsWithoutHtml extends
     Partial<RadioButtonStyleParams>,
-    WithClassesAndStyles<RadioButtonStyleKeys, RadioButtonStyleParams>,
+    WithClassesAndStyles<RadioButtonStyleKeys, RadioButtonStyleParams, RadioButtonCSSVarKeys>,
     BaseProps<HTMLLabelElement>
 {
     /** Дочерний элемент */
