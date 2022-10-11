@@ -1,6 +1,8 @@
-import { KeysFromUseStyles, makeStyles, PALETTE_COLORS, typography } from '@core';
+import { cssVar, KeysFromUseStyles, makeStyles, PALETTE_COLORS, typography } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
-import { CSSObject } from '@emotion/react';
+import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
+import { RadioButtonCSSVarKeys } from './vars';
+import { RADIO_BUTTON_POSITION } from '../constants';
 import { RadioButtonStyleParams } from './types';
 
 export const useStyles = makeStyles((
@@ -12,20 +14,20 @@ export const useStyles = makeStyles((
         disableFocus,
         disabled,
         checked,
+        position,
     }: RadioButtonStyleParams,
+    {
+        cssDotSize,
+        cssBorderWidth,
+        cssBorderColor,
+        cssDisabledColor,
+        cssSize,
+        cssFocusWidth,
+        cssFocusColor,
+        cssContentMargin,
+    }: Record<RadioButtonCSSVarKeys, string>,
 ) => {
-    const baseColorProps: CSSObject = {
-        border: '1px solid',
-        borderColor: palette.border.secondary,
-        ...checked && {
-            backgroundColor: palette.colors[color].default,
-            borderColor: palette.colors[color].default,
-        },
-        ...checked && hover && {
-            borderColor: palette.colors[color].hover,
-            backgroundColor: palette.colors[color].hover,
-        },
-    };
+    const brandOrSecondary = color === 'brand' || color === 'secondary';
 
     return ({
         root: [
@@ -35,9 +37,42 @@ export const useStyles = makeStyles((
                 alignItems: 'center',
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
+
+                [cssFocusColor]: palette.border.focus.dark,
+                [cssFocusWidth]: '3px',
+                [cssDisabledColor]: palette.disabled.border,
+                [cssContentMargin]: '12px',
             },
+
+            !brandOrSecondary && {
+                [cssBorderWidth]: '2px',
+                [cssBorderColor]: palette.colors[color].default,
+            },
+
+            brandOrSecondary && {
+                [cssBorderWidth]: '1px',
+                [cssBorderColor]: palette.border.secondary,
+            },
+
+            paramsToCss(size)({
+                small: {
+                    [cssSize]: '16px',
+                    [cssDotSize]: '6px',
+                },
+                medium: {
+                    [cssSize]: '18px',
+                    [cssDotSize]: '8px',
+                },
+                large: {
+                    [cssSize]: '20px',
+                    [cssDotSize]: '8px',
+                },
+            }),
+
             disabled && {
-                cursor: 'not-allowed',
+                '&&': {
+                    cursor: 'not-allowed',
+                },
             },
         ],
 
@@ -45,18 +80,23 @@ export const useStyles = makeStyles((
             {
                 position: 'absolute',
                 appearance: 'none',
+                outline: 'none',
             },
-            !disableFocus && {
+
+            !disableFocus && !disabled && {
                 '&:focus-visible + .QxRadioButton-marker': {
-                    borderWidth: 3,
-                    borderColor: palette.border.focus.dark,
                     outline: 'none',
+                    borderColor: 'transparent',
+
+                    ...stylesWithFocus({
+                        borderColor: cssVar(cssFocusColor),
+                    }),
                 },
             },
+
             !checked && !disableFocus && !disabled && {
                 '&:focus-visible + .QxRadioButton-marker': {
                     backgroundColor: 'transparent',
-                    outline: 'none',
                 },
             },
         ],
@@ -65,50 +105,51 @@ export const useStyles = makeStyles((
             {
                 borderRadius: '100%',
                 boxSizing: 'border-box',
+                borderStyle: 'solid',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                borderWidth: cssVar(cssBorderWidth),
+                borderColor: cssVar(cssBorderColor),
                 transition: transitions.create(['background-color', 'border-color']),
+                width: cssVar(cssSize),
+                minWidth: cssVar(cssSize),
+                height: cssVar(cssSize),
+                minHeight: cssVar(cssSize),
             },
 
-            paramsToCss(size)({
-                small: {
-                    height: 16,
-                    width: 16,
-                },
-                medium: {
-                    height: 18,
-                    width: 18,
-                },
-                large: {
-                    height: 20,
-                    width: 20,
-                },
+            baseFocusStyles({
+                transitions,
+                borderWidth: cssVar(cssBorderWidth),
+                focusWidth: cssVar(cssFocusWidth),
             }),
 
-            paramsToCss(color)({
-                [color]: {
-                    border: '2px solid',
-                    borderColor: palette.colors[color].default,
-                    ...checked && {
-                        backgroundColor: palette.colors[color].default,
-                        borderColor: 'transparent',
-                    },
-                    ...checked && hover && {
-                        backgroundColor: palette.colors[color].hover,
-                    },
+            checked && {
+                '&&': {
+                    [cssDisabledColor]: palette.disabled.bg,
+                    backgroundColor: palette.colors[color].default,
+                    borderColor: 'transparent',
                 },
-                [PALETTE_COLORS.brand]: baseColorProps,
-                [PALETTE_COLORS.secondary]: baseColorProps,
-            }),
+            },
+
+            checked && hover && {
+                '&&': {
+                    backgroundColor: palette.colors[color].hover,
+                    borderColor: 'transparent',
+                },
+            },
 
             disabled && {
-                border: '1px solid',
-                borderColor: palette.disabled.border,
+                '&&': {
+                    borderColor: cssVar(cssDisabledColor),
+                },
             },
+
             disabled && checked && {
-                borderColor: 'transparent',
-                backgroundColor: palette.disabled.bg,
+                '&&': {
+                    borderColor: 'transparent',
+                    backgroundColor: cssVar(cssDisabledColor),
+                },
             },
         ],
 
@@ -116,38 +157,35 @@ export const useStyles = makeStyles((
             {
                 position: 'absolute',
                 borderRadius: '100%',
-                backgroundColor: 'transparent',
                 transition: transitions.create('background-color'),
+                width: cssVar(cssDotSize),
+                height: cssVar(cssDotSize),
+                backgroundColor: palette.colors[color].contrastText,
             },
 
-            paramsToCss(size)({
-                [size]: {
-                    width: 8,
-                    height: 8,
+            hover && !checked && {
+                '&&': {
+                    backgroundColor: palette.text.tertiary,
                 },
-                small: {
-                    width: 6,
-                    height: 6,
-                },
-            }),
+            },
 
-            paramsToCss(color)({
-                [color]: {
+            disabled && {
+                '&&': {
                     backgroundColor: palette.colors[color].contrastText,
-                    ...hover && !checked && {
-                        backgroundColor: palette.text.tertiary,
-                    },
-                    ...disabled && {
-                        backgroundColor: palette.colors[color].contrastText,
-                    },
                 },
-            }),
+            },
         ],
 
         content: [
-            {
-                marginLeft: 12,
-            },
+            paramsToCss(position)({
+                [RADIO_BUTTON_POSITION.left]: {
+                    marginLeft: cssVar(cssContentMargin),
+                },
+                [RADIO_BUTTON_POSITION.right]: {
+                    marginRight: cssVar(cssContentMargin),
+                },
+            }),
+
             paramsToCss(size)({
                 small: typography.Text.M.Regular,
                 medium: typography.Text.L.Regular,
@@ -160,3 +198,4 @@ export const useStyles = makeStyles((
 export type RadioButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
 
 export * from './types';
+export * from './vars';
