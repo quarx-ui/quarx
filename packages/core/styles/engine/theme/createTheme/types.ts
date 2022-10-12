@@ -6,6 +6,7 @@ import {
     ButtonProps,
     CheckboxProps,
     CheckboxSelectionProps,
+    ChipsProps,
     CounterProps,
     CreateBreakpointsArg,
     CreateElevationArg,
@@ -51,6 +52,7 @@ export interface ComponentsProps {
     Button: ButtonProps;
     Checkbox: CheckboxProps;
     CheckboxSelection: CheckboxSelectionProps;
+    Chips: ChipsProps;
     Counter: CounterProps;
     IconButton: IconButtonProps;
     Link: LinkProps;
