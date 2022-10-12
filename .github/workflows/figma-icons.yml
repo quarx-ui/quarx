@@ -46,7 +46,7 @@ jobs:
       - run: yarn run ci:figma:icons
       - uses: peter-evans/create-pull-request@v4.1.3
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.ORG_ACCESS_TOKEN }}
           branch: figma/icons-${{ steps.date.outputs.date }}
           commit-message: "figma: Автоматическая выгрузка иконок"
           title: "figma: Автоматическая выгрузка иконок"
