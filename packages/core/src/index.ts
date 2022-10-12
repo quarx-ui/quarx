@@ -1,6 +1,7 @@
 export * from './styled/Badge';
 export * from './styled/Button';
 export * from './styled/Checkbox';
+export * from './styled/Chips';
 export * from './styled/Counter';
 export * from './styled/Link';
 export * from './styled/Loader';
