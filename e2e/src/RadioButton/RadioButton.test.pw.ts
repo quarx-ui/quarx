@@ -56,6 +56,5 @@ test('RadioButton', async ({ compareSnapshotsMap }) => {
         },
         state: 'focus',
         postfix: 'focus',
-        beforeSnap: (page) => page.pause(),
     });
 });

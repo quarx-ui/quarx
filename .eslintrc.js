@@ -49,6 +49,7 @@ module.exports = {
         'no-shadow': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-shadow': ['error'],
+        'react/jsx-fragments': 'off',
         'import/extensions': ['error', 'never', { svg: 'always', json: 'always' }],
         'import/no-extraneous-dependencies': 0,
         'import/prefer-default-export': 0,

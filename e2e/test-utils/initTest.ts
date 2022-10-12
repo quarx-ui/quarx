@@ -1,4 +1,4 @@
-import { ComponentsListTypes } from '@e2e/constants';
+import { ComponentsListTypes, THEME_TYPES_ARR } from '@e2e/constants';
 import {
     CompareSnapshotsMapArg,
     InitTestConfig,
@@ -65,67 +65,72 @@ export const initTest = <Props = PropsType>(
         });
     },
     test: (testName, callback) => {
-        pw.test.use(testConfig);
-        pw.test(testName, async ({ page, headless }, testInfo) => {
-            const getComponent = (uSelector = selector) => page.locator(uSelector);
+        THEME_TYPES_ARR.forEach(async (themeType) => {
+            pw.test.use(testConfig);
+            pw.test(`${testName}_${themeType}`, async ({ page, headless }, testInfo) => {
+                const getComponent = (uSelector = selector) => page.locator(uSelector);
 
-            const toMatchSnapshot = async (postfix: string, options: ToMatchSnapshotOptions = {}) => {
-                const {
-                    selector: uSelector = selector,
-                    disabled,
-                    timeout,
-                    path,
-                } = options;
-
-                if (disabled || (disableIfHeaded && headless === false)) { return; }
-
-                if (timeout) {
-                    await page.waitForTimeout(timeout);
-                }
-
-                // Чтобы не создавались папки по названию скриншотов, если включена сортировка 'postfix'
-                const groupForMatchSnapshots = groupBy.filter((el) => el !== 'postfix');
-
-                const screenshot = await getComponent(uSelector)
-                    .screenshot({ type: 'jpeg', quality });
-                await pw.expect(screenshot)
-                    .toMatchSnapshot(getScreenPath({
-                        groupBy: groupForMatchSnapshots,
-                        testName,
-                        component,
-                        postfix,
+                const toMatchSnapshot = async (postfix: string, options: ToMatchSnapshotOptions = {}) => {
+                    const {
+                        selector: uSelector = selector,
+                        disabled,
+                        timeout,
                         path,
-                    }));
-            };
+                    } = options;
 
-            const setProps = async (props?: Props) => {
-                await page.goto(getURLFromProps(component, props as unknown as PropsType));
-            };
+                    if (disabled || (disableIfHeaded && headless === false)) { return; }
 
-            await callback({
-                page,
-                compareSnapshotsMap: (options) => compareSnapshotsMap<Props>(component)({
-                    groupBy,
-                    disableSnapIfHeaded: disableIfHeaded,
-                    quality,
-                    uniqSelector: selector,
-                    ...options,
-                    testParams: { page, headless },
+                    if (timeout) {
+                        await page.waitForTimeout(timeout);
+                    }
+
+                    // Чтобы не создавались папки по названию скриншотов, если включена сортировка 'postfix'
+                    const groupForMatchSnapshots = groupBy.filter((el) => el !== 'postfix');
+
+                    const screenshot = await getComponent(uSelector)
+                        .screenshot({ type: 'jpeg', quality });
+                    await pw.expect(screenshot)
+                        .toMatchSnapshot(getScreenPath({
+                            groupBy: groupForMatchSnapshots,
+                            testName,
+                            component,
+                            postfix,
+                            path,
+                            themeType,
+                        }));
+                };
+
+                const setProps = async (props?: Props) => {
+                    await page.goto(getURLFromProps(component, themeType, props as unknown as PropsType));
+                };
+
+                await callback({
+                    page,
+                    compareSnapshotsMap: (options) => compareSnapshotsMap<Props>(component)({
+                        groupBy,
+                        disableSnapIfHeaded: disableIfHeaded,
+                        quality,
+                        uniqSelector: selector,
+                        ...options,
+                        testParams: { page, headless },
+                        testName,
+                        themeType,
+                    }),
+                    compareSnapshots: (options) => compareSnapshots<Props>({ page, headless }, component)({
+                        groupBy,
+                        disableSnapIfHeaded: disableIfHeaded,
+                        quality,
+                        uniqSelector: selector,
+                        ...options,
+                        testName,
+                        themeType,
+                    }),
                     testName,
-                }),
-                compareSnapshots: (options) => compareSnapshots<Props>({ page, headless }, component)({
-                    groupBy,
-                    disableSnapIfHeaded: disableIfHeaded,
-                    quality,
-                    uniqSelector: selector,
-                    ...options,
-                    testName,
-                }),
-                testName,
-                getComponent,
-                toMatchSnapshot,
-                setProps,
-            }, testInfo);
+                    getComponent,
+                    toMatchSnapshot,
+                    setProps,
+                }, testInfo);
+            });
         });
     },
 });

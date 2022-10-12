@@ -1,5 +1,5 @@
 import { PropsArray, ExtendedPropsType, PropsType, TestParams, BaseProps } from '@e2e/test-utils/types';
-import { ComponentsListTypes } from '@e2e/constants';
+import { ThemeTypes, ComponentsListTypes } from '@e2e/constants';
 import { compareSnapshots } from '@e2e/test-utils/compareSnapshots';
 import { createScreenNames } from '@e2e/test-utils/screenName';
 
@@ -50,13 +50,15 @@ export function injectCommonProps<Props = PropsType>(
         }));
 }
 
-export interface RunSeriesComparisonsOptions<Props = PropsType> extends Pick<BaseProps, 'groupBy' | 'disableSnapIfHeaded'> {
+export interface RunSeriesComparisonsOptions<Props = PropsType>
+    extends Pick<BaseProps, 'groupBy' | 'disableSnapIfHeaded'> {
     testParams: TestParams,
     component: ComponentsListTypes,
     targetProps: PropsArray<Props>,
     commonProps: ExtendedPropsType<Props>,
     testName: string,
     postfix?: string,
+    themeType: ThemeTypes
 }
 
 export async function runSeriesComparisons<Props = PropsType>(options: RunSeriesComparisonsOptions<Props>) {
@@ -68,6 +70,7 @@ export async function runSeriesComparisons<Props = PropsType>(options: RunSeries
         testName,
         postfix,
         groupBy = [],
+        themeType,
     } = options;
 
     const { page, headless } = testParams;
@@ -80,6 +83,7 @@ export async function runSeriesComparisons<Props = PropsType>(options: RunSeries
         props: convertedProps,
         postfix,
         groupBy,
+        themeType,
     });
     const propsWithCommon = injectCommonProps<Props>(propsWithScreenNames, commonProps);
 

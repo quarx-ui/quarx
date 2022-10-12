@@ -16,6 +16,7 @@ module.exports = {
         filename: 'bundle.js',
         chunkFilename: '[id].js',
         clean: true,
+        publicPath: '/',
     },
     resolve: {
         extensions: ['*', '.js', '.jsx', '.ts', '.tsx'],

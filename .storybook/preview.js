@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArgsTable, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import '../packages/core/styles/fonts/font-faces.css';
 import { addDecorator } from '@storybook/react'
 import { ThemingAddonAPI as ThemeAddonAPI } from './addons/theming/store';
@@ -39,5 +40,9 @@ export const parameters = {
                 <Stories title={'Примеры использования'}/>
             </>
         ),
+    },
+    viewport: {
+        viewports: INITIAL_VIEWPORTS,
+        defaultViewport: 'default',
     },
 };

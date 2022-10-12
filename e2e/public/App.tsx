@@ -1,33 +1,37 @@
-import React, { CSSProperties, FC } from 'react';
-import { Routes } from 'react-router-dom';
-import { FRAME_ID } from '@e2e/constants';
-import { renderComponents } from '@e2e/render-utils/renderComponents';
-import { COMPONENTS } from '@e2e/src';
-import { borderRadii } from '@kit';
+/** @jsx jsx */
+import { jsx, ThemeProvider } from '@emotion/react';
+import React, { FC } from 'react';
+import { FRAME_ID, THEME_TYPES_ARR } from '@e2e/constants';
+import { borderRadii, createTheme, makeStyles } from '@kit';
 import '@kit/styles/fonts/font-faces.css';
+import { ThemeContent } from '@e2e/public/ThemeWrapper';
 
-export const App: FC = () => {
-    const rootStyle: CSSProperties = {
+export const useStyles = makeStyles({
+    root: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         flexGrow: 1,
         borderRadius: borderRadii.xLarge,
         padding: 30,
-    };
+    },
+});
+
+export const App: FC = () => {
+    const classes = useStyles();
 
     return (
-        <div
-            style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-            }}
-        >
-            <div style={rootStyle} id={FRAME_ID}>
-                <Routes>
-                    {renderComponents(COMPONENTS)}
-                </Routes>
-            </div>
+        <div css={classes.root} id={FRAME_ID}>
+            {THEME_TYPES_ARR.map((themeType) => (
+                <ThemeProvider
+                    theme={createTheme({
+                        palette: { type: themeType },
+                    })}
+                    key={themeType}
+                >
+                    <ThemeContent themeType={themeType} />
+                </ThemeProvider>
+            ))}
         </div>
     );
 };

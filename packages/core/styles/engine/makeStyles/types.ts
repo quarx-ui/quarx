@@ -4,4 +4,8 @@ export interface MakeStylesOptions {
     name?: string;
 }
 
-export type KeysFromUseStyles<T extends (...args: never) => Record<string, SerializedStyles>> = keyof ReturnType<T>
+type UseStylesType = (...args: never) => Record<string, SerializedStyles>
+
+export type TypeFromUseStyles<T extends UseStylesType> = ReturnType<T>
+
+export type KeysFromUseStyles<T extends UseStylesType> = keyof ReturnType<T>

@@ -12,3 +12,4 @@ export * from './setRef';
 export * from './ownerDocument';
 export * from './ownerWindow';
 export * from './limitHeightByRows';
+export * from './dateFns';

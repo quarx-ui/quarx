@@ -11,7 +11,10 @@ import { getScreenPath } from '@e2e/test-utils/screenName';
 
 type CompareSnapshotsOptions = Partial<PlaywrightTestArgs & PlaywrightWorkerOptions> & { page: Page }
 
-export function compareSnapshots<Props = PropsType>({ page, headless }: CompareSnapshotsOptions, component: ComponentsListTypes) {
+export function compareSnapshots<Props = PropsType>(
+    { page, headless }: CompareSnapshotsOptions,
+    component: ComponentsListTypes,
+) {
     return async (options: ExtendedPropsType<Props>) => {
         const {
             postfix,
@@ -25,6 +28,7 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
             timeout,
             groupBy = [],
             disableSnapIfHeaded = true,
+            themeType,
         } = options;
 
         const screenName = typeof extScreenName === 'string'
@@ -34,9 +38,9 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
                 postfix,
                 testName,
                 groupBy,
+                themeType,
             });
-
-        await page.goto(getURLFromProps(component, props));
+        await page.goto(getURLFromProps(component, themeType, props));
         const element = await page.locator(uniqSelector);
 
         if (state === 'hover') {
@@ -86,6 +90,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             timeout,
             groupBy,
             disableSnapIfHeaded = true,
+            themeType,
         } = options;
 
         const commonProps = {
@@ -95,6 +100,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             beforeSnap,
             state,
             timeout,
+            themeType,
         };
 
         await runSeriesComparisons<Props>({
@@ -106,6 +112,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             postfix,
             groupBy,
             disableSnapIfHeaded,
+            themeType,
         });
     };
 }

@@ -1,6 +1,7 @@
 import { ComponentsProps } from '@kit';
 
-export type ComponentsListTypes = keyof ComponentsProps
+type InnerComponentsE2E = 'DatePickerAllowedDates' | 'FrenchDatePicker';
+export type ComponentsListTypes = keyof ComponentsProps | InnerComponentsE2E // не выносить отсюда! не будут запускаться тесты
 export type PathTypes = { [Property in ComponentsListTypes]: Property }
 export type PropValueType = string | number | boolean | undefined
 

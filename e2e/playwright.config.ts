@@ -6,6 +6,7 @@ const deviceScaleFactor = 3;
 const config: PlaywrightTestConfig = {
     timeout: 60 * 1000,
     testDir: './',
+    workers: 3,
     projects: [
         {
             name: 'chromium',
@@ -16,6 +17,7 @@ const config: PlaywrightTestConfig = {
         },
         {
             name: 'firefox',
+            timeout: 90 * 1000,
             use: {
                 ...devices['Desktop Firefox'],
                 deviceScaleFactor,

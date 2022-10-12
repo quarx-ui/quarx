@@ -3071,6 +3071,23 @@
     prop-types "^15.7.2"
     regenerator-runtime "^0.13.7"
 
+"@storybook/addon-viewport@^6.5.10":
+  version "6.5.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-6.5.12.tgz#7158647c006c6aabd86294d24e7209becbf30b88"
+  integrity sha512-eQ1UrmbiMiPmWe+fdMWIc0F6brh/S2z4ADfwFz0tTd+vOLWRZp1xw8JYQ9P2ZasE+PM3WFOVT9jvNjZj/cHnfw==
+  dependencies:
+    "@storybook/addons" "6.5.12"
+    "@storybook/api" "6.5.12"
+    "@storybook/client-logger" "6.5.12"
+    "@storybook/components" "6.5.12"
+    "@storybook/core-events" "6.5.12"
+    "@storybook/theming" "6.5.12"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+    regenerator-runtime "^0.13.7"
+
 "@storybook/addons@6.4.19", "@storybook/addons@^6.4.19":
   version "6.4.19"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.4.19.tgz#797d912b8b5a86cd6e0d31fa4c42d1f80808a432"
@@ -3083,6 +3100,23 @@
     "@storybook/csf" "0.0.2--canary.87bc651.0"
     "@storybook/router" "6.4.19"
     "@storybook/theming" "6.4.19"
+    "@types/webpack-env" "^1.16.0"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    regenerator-runtime "^0.13.7"
+
+"@storybook/addons@6.5.12":
+  version "6.5.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.5.12.tgz#891767b5f88ea99b956cf19e9e2893594068adc7"
+  integrity sha512-y3cgxZq41YGnuIlBJEuJjSFdMsm8wnvlNOGUP9Q+Er2dgfx8rJz4Q22o4hPjpvpaj4XdBtxCJXI2NeFpN59+Cw==
+  dependencies:
+    "@storybook/api" "6.5.12"
+    "@storybook/channels" "6.5.12"
+    "@storybook/client-logger" "6.5.12"
+    "@storybook/core-events" "6.5.12"
+    "@storybook/csf" "0.0.2--canary.4566f4d.1"
+    "@storybook/router" "6.5.12"
+    "@storybook/theming" "6.5.12"
     "@types/webpack-env" "^1.16.0"
     core-js "^3.8.2"
     global "^4.4.0"
@@ -3111,9 +3145,9 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/api@^6.5.12":
+"@storybook/api@6.5.12", "@storybook/api@^6.5.12":
   version "6.5.12"
-  resolved "https://registry.npmjs.org/@storybook/api/-/api-6.5.12.tgz#7cc82087fc9298be03f15bf4ab9c4aab294b3bac"
+  resolved "https://registry.yarnpkg.com/@storybook/api/-/api-6.5.12.tgz#7cc82087fc9298be03f15bf4ab9c4aab294b3bac"
   integrity sha512-DuUZmMlQxkFNU9Vgkp9aNfCkAongU76VVmygvCuSpMVDI9HQ2lG0ydL+ppL4XKoSMCCoXTY6+rg4hJANnH+1AQ==
   dependencies:
     "@storybook/channels" "6.5.12"
@@ -3323,9 +3357,9 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@^6.5.12":
+"@storybook/components@6.5.12", "@storybook/components@^6.5.12":
   version "6.5.12"
-  resolved "https://registry.npmjs.org/@storybook/components/-/components-6.5.12.tgz#e137f0683ea92e22de116bfa62cfd65ce4efe01d"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.5.12.tgz#e137f0683ea92e22de116bfa62cfd65ce4efe01d"
   integrity sha512-NAAGl5PDXaHdVLd6hA+ttmLwH3zAVGXeUmEubzKZ9bJzb+duhFKxDa9blM4YEkI+palumvgAMm0UgS7ou680Ig==
   dependencies:
     "@storybook/client-logger" "6.5.12"
@@ -6755,6 +6789,11 @@ data-urls@^2.0.0:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
+
+date-fns@^2.28.0:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 dateformat@^3.0.0:
   version "3.0.3"

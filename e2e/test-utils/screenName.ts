@@ -1,4 +1,4 @@
-import { ComponentsListTypes, PropValueType, SEPARATORS } from '@e2e/constants';
+import { PropValueType, SEPARATORS, ComponentsListTypes } from '@e2e/constants';
 import {
     CreateScreenNameOptions,
     ExtendedPropsType,
@@ -35,6 +35,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         postfix: externalPostfix,
         name: externalName,
         path: externalPath,
+        themeType,
     } = options;
 
     const testName = externalTestName?.replace(/ /, '-');
@@ -43,6 +44,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
     const groupByPaths: Record<GroupByKey, string | undefined> = {
         testName,
         component,
+        themeType,
         props: property,
         value: joinToName([value]),
         postfix,
@@ -71,8 +73,9 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
     return [...path, name];
 };
 
-export function createScreenNames<Props = PropsType>(options: CreateScreenNameOptions<Props>): Array<ExtendedPropsType<Props>> {
-    const { props: { props }, testName, postfix, component, groupBy } = options;
+export function createScreenNames<Props = PropsType>(options: CreateScreenNameOptions<Props>)
+    : Array<ExtendedPropsType<Props>> {
+    const { props: { props }, testName, postfix, component, groupBy, themeType } = options;
 
     return props
         .map((prop) => {
@@ -88,7 +91,9 @@ export function createScreenNames<Props = PropsType>(options: CreateScreenNameOp
                     value,
                     postfix,
                     groupBy,
+                    themeType,
                 }),
+                themeType,
             });
         });
 }

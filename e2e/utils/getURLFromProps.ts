@@ -1,4 +1,4 @@
-import { ComponentsListTypes, SEPARATORS } from '@e2e/constants';
+import { SEPARATORS, ThemeTypes, ComponentsListTypes } from '@e2e/constants';
 import { PropsType } from '@e2e/test-utils';
 
 export function getStringFromProps<Props = PropsType>(props: Props) {
@@ -14,8 +14,9 @@ export function getStringFromProps<Props = PropsType>(props: Props) {
 
 export function getURLFromProps<Props = PropsType>(
     component: ComponentsListTypes,
+    themeType: ThemeTypes,
     props?: Props,
 ) {
     const stringFromProps = getStringFromProps(props);
-    return `/${component}${stringFromProps ? `--${stringFromProps}` : ''}`;
+    return `/${themeType}/${component}${stringFromProps ? `--${stringFromProps}` : ''}`;
 }

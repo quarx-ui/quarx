@@ -11,6 +11,7 @@ import {
     CreateElevationArg,
     CreatePaletteArg,
     CreateTransitionArg,
+    DatePickerProps,
     DeepPartial,
     Elevations,
     IconButtonProps,
@@ -38,6 +39,15 @@ import {
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
+import { DayBlockProps } from "@core/src/styled/DatePicker/Block/components/DayBlock/types";
+import {
+    DatePickerDropdownProps
+} from "@core/src/styled/DatePicker/Block/components/Dropdown/types";
+import { FooterDatePickerProps } from "@core/src/styled/DatePicker/Block/components/FooterDatePicker/types";
+import { HeaderDatePickerProps } from "@core/src/styled/DatePicker/Block/components/HeaderDatePicker/types";
+import { MonthBlockProps } from "@core/src/styled/DatePicker/Block/components/MonthBlock";
+import { OffsetDayBlockProps } from "@core/src/styled/DatePicker/Block/components/OffsetDayBlock/types";
+import { HeaderDatePickerDropdownProps } from "@core/src/styled/DatePicker/Block/components/Dropdown/HeaderButton/types";
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -72,6 +82,14 @@ export interface ComponentsProps {
     TabsDefault: TabsDefaultProps;
     TabsSegmented: TabsSegmentedProps;
     TextField: TextFieldProps;
+    DatePicker: DatePickerProps;
+    DayBlock: DayBlockProps;
+    DatePickerDropdown: DatePickerDropdownProps;
+    HeaderDropdownDatePicker: HeaderDatePickerDropdownProps;
+    FooterDatePicker: FooterDatePickerProps;
+    HeaderDatePicker: HeaderDatePickerProps;
+    MonthBlock: MonthBlockProps;
+    OffsetDayBlock: OffsetDayBlockProps;
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;

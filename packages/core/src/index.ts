@@ -1,3 +1,4 @@
+export * from './styled/DatePicker';
 export * from './styled/Badge';
 export * from './styled/Button';
 export * from './styled/Checkbox';
