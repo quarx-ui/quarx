@@ -21,7 +21,6 @@ jobs:
             ./node_modules
           key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - run: yarn install --production=false
-      - run: cd ./scripts/figma && yarn install --production=false
 
 
   loadIcons:
