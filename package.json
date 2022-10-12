@@ -35,6 +35,7 @@
     "e2e:build": "cd e2e && yarn run e2e:build",
     "e2e:serve": "cd e2e && yarn run e2e:serve",
     "e2e:run": "cd e2e && yarn run e2e:run",
+    "ci:figma:icons": "cd ./scripts/figma && yarn && yarn update:icons",
     "new": "ts-node scripts/cli/new.ts"
   },
   "workspaces": [
@@ -106,6 +107,10 @@
     "ts-node": "^10.2.1",
     "ttypescript": "^1.5.12",
     "typescript": "^4.2.4",
-    "typescript-transform-paths": "^2.2.3"
+    "typescript-transform-paths": "^2.2.3",
+    "tslib": "^2.3.1",
+    "change-case": "^4.1.2",
+    "@types/bluebird": "^3.5.36",
+    "figma-api": "^1.6.2"
   }
 }

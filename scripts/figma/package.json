@@ -1,0 +1,13 @@
+{
+  "name": "figma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "update:all": "npx ts-node index",
+    "update:icons": "npx ts-node src/icons/main && cd ../../ && eslint 'packages/icons/**' --ext .ts,.tsx --fix",
+    "lint": "tsc --noEmit && eslint 'packages/**'"
+  },
+  "author": "",
+  "license": "ISC"
+}
