@@ -27,7 +27,9 @@
     "test:jest:u": "BABEL_ENV=test lerna exec 'yarn jest --passWithNoTests -u'",
     "test": "yarn run test:jest",
     "test:all": "yarn run test:e2e && yarn run test",
+    "test:all:u": "yarn run test:jest:u && yarn run test:e2e:u",
     "test:e2e": "cd e2e && yarn run test",
+    "test:e2e:u": "cd e2e && yarn run test:u",
     "test:e2e:chrome": "cd e2e && yarn test --project=chromium",
     "test:e2e:firefox": "cd e2e && yarn test --project=firefox",
     "test:e2e:webkit": "cd e2e && yarn test --project=webkit",
@@ -35,7 +37,7 @@
     "e2e:build": "cd e2e && yarn run e2e:build",
     "e2e:serve": "cd e2e && yarn run e2e:serve",
     "e2e:run": "cd e2e && yarn run e2e:run",
-    "ci:figma:icons": "cd ./scripts/figma && yarn && yarn update:icons",
+    "ci:figma:icons": "cd ./scripts/figma && yarn update:icons",
     "new": "ts-node scripts/cli/new.ts"
   },
   "workspaces": [
