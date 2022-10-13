@@ -10,6 +10,7 @@
     "e2e:run": "yarn run e2e:build && yarn run e2e:serve",
     "test:init": "npx playwright install",
     "test": "npx playwright test",
+    "test:u": "yarn run test --update-snapshots",
     "test:chrome": "yarn test --project=chromium",
     "test:firefox": "yarn test --project=firefox",
     "test:webkit": "yarn test --project=webkit"
