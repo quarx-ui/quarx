@@ -1,0 +1,1 @@
+export { EnvelopeIcon } from './EnvelopeIcon';

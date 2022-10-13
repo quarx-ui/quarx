@@ -1,0 +1,1 @@
+export { ChevronLeftDoubleIcon } from './ChevronLeftDoubleIcon';

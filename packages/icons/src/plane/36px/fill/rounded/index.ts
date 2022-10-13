@@ -1,0 +1,1 @@
+export { PlaneIcon } from './PlaneIcon';

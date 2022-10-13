@@ -1,0 +1,1 @@
+export { HouseIcon } from './HouseIcon';

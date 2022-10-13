@@ -1,0 +1,1 @@
+export { SortDownWithArrowIcon } from './SortDownWithArrowIcon';

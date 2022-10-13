@@ -1,0 +1,1 @@
+export { AndroidIcon } from './AndroidIcon';

@@ -1,0 +1,1 @@
+export { TableIcon } from './TableIcon';

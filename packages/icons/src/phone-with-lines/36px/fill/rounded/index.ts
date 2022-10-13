@@ -1,0 +1,1 @@
+export { PhoneWithLinesIcon } from './PhoneWithLinesIcon';

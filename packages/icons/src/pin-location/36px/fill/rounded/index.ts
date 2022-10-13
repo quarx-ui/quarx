@@ -1,0 +1,1 @@
+export { PinLocationIcon } from './PinLocationIcon';

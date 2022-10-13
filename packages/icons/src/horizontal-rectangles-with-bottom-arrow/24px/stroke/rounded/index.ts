@@ -1,0 +1,1 @@
+export { HorizontalRectanglesWithBottomArrowIcon } from './HorizontalRectanglesWithBottomArrowIcon';

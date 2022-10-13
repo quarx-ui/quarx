@@ -1,0 +1,1 @@
+export { HorizontalRectanglesWithPlusIcon } from './HorizontalRectanglesWithPlusIcon';

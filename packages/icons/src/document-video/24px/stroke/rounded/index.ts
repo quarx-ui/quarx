@@ -1,0 +1,1 @@
+export { DocumentVideoIcon } from './DocumentVideoIcon';

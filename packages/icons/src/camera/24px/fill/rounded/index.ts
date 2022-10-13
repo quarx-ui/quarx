@@ -1,0 +1,1 @@
+export { CameraIcon } from './CameraIcon';

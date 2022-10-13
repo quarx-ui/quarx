@@ -1,0 +1,1 @@
+export { GraphsWithPlusIcon } from './GraphsWithPlusIcon';

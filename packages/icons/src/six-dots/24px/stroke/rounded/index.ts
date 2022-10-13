@@ -1,0 +1,1 @@
+export { SixDotsIcon } from './SixDotsIcon';

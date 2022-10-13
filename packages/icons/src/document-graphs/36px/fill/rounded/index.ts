@@ -1,0 +1,1 @@
+export { DocumentGraphsIcon } from './DocumentGraphsIcon';

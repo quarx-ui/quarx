@@ -1,0 +1,1 @@
+export { LinkIcon } from './LinkIcon';

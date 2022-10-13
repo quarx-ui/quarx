@@ -1,0 +1,1 @@
+export { ClockIcon } from './ClockIcon';

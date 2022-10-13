@@ -1,0 +1,1 @@
+export { HuaweiAppgalleryIcon } from './HuaweiAppgalleryIcon';

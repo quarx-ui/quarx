@@ -1,0 +1,1 @@
+export { AttentionHexagonIcon } from './AttentionHexagonIcon';

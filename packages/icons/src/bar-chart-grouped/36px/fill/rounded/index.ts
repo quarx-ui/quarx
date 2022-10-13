@@ -1,0 +1,1 @@
+export { BarChartGroupedIcon } from './BarChartGroupedIcon';

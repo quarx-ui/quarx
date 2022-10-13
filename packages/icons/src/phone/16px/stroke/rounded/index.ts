@@ -1,0 +1,1 @@
+export { PhoneIcon } from './PhoneIcon';

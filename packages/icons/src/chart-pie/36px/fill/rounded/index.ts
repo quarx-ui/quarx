@@ -1,0 +1,1 @@
+export { ChartPieIcon } from './ChartPieIcon';

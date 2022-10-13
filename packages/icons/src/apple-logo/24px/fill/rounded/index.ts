@@ -1,0 +1,1 @@
+export { AppleLogoIcon } from './AppleLogoIcon';
