@@ -1,0 +1,1 @@
+export { ArchiveIcon } from './ArchiveIcon';

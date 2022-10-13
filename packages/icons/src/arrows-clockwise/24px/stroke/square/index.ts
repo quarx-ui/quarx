@@ -1,0 +1,1 @@
+export { ArrowsClockwiseIcon } from './ArrowsClockwiseIcon';

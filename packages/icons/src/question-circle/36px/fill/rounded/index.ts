@@ -1,0 +1,1 @@
+export { QuestionCircleIcon } from './QuestionCircleIcon';

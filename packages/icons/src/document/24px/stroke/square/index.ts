@@ -1,0 +1,1 @@
+export { DocumentIcon } from './DocumentIcon';

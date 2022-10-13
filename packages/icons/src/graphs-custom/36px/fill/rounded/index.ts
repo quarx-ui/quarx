@@ -1,0 +1,1 @@
+export { GraphsCustomIcon } from './GraphsCustomIcon';

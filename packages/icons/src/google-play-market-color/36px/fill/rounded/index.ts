@@ -1,0 +1,1 @@
+export { GooglePlayMarketColorIcon } from './GooglePlayMarketColorIcon';

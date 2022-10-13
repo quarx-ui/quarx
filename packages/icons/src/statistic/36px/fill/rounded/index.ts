@@ -1,1 +1,0 @@
-export { StatisticIcon } from './StatisticIcon';

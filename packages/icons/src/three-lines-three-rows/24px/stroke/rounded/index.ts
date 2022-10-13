@@ -1,0 +1,1 @@
+export { ThreeLinesThreeRowsIcon } from './ThreeLinesThreeRowsIcon';

@@ -1,0 +1,1 @@
+export { TwoLinesCircleIcon } from './TwoLinesCircleIcon';

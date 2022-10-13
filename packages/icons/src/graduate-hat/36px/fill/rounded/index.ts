@@ -1,0 +1,1 @@
+export { GraduateHatIcon } from './GraduateHatIcon';

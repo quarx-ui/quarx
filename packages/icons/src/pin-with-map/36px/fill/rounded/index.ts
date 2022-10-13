@@ -1,0 +1,1 @@
+export { PinWithMapIcon } from './PinWithMapIcon';

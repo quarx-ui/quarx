@@ -1,0 +1,1 @@
+export { VerticalRectanglesWithPlusIcon } from './VerticalRectanglesWithPlusIcon';

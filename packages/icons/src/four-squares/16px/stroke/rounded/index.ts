@@ -1,0 +1,1 @@
+export { FourSquaresIcon } from './FourSquaresIcon';

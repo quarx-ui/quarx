@@ -1,0 +1,1 @@
+export { ChartDoughnutIcon } from './ChartDoughnutIcon';

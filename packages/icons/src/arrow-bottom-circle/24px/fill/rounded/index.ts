@@ -1,0 +1,1 @@
+export { ArrowBottomCircleIcon } from './ArrowBottomCircleIcon';

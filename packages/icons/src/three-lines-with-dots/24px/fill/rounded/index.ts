@@ -1,0 +1,1 @@
+export { ThreeLinesWithDotsIcon } from './ThreeLinesWithDotsIcon';

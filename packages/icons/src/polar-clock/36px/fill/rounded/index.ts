@@ -1,0 +1,1 @@
+export { PolarClockIcon } from './PolarClockIcon';

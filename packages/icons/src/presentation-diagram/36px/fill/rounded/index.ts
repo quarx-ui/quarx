@@ -1,0 +1,1 @@
+export { PresentationDiagramIcon } from './PresentationDiagramIcon';

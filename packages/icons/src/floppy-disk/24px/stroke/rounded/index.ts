@@ -1,0 +1,1 @@
+export { FloppyDiskIcon } from './FloppyDiskIcon';

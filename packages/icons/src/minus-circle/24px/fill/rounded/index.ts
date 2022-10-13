@@ -1,0 +1,1 @@
+export { MinusCircleIcon } from './MinusCircleIcon';

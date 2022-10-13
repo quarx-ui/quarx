@@ -1,0 +1,1 @@
+export { EqualizerIcon } from './EqualizerIcon';

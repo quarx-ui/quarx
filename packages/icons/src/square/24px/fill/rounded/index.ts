@@ -1,0 +1,1 @@
+export { SquareIcon } from './SquareIcon';

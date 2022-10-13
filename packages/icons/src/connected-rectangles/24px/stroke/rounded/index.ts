@@ -1,0 +1,1 @@
+export { ConnectedRectanglesIcon } from './ConnectedRectanglesIcon';

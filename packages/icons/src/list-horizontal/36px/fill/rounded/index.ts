@@ -1,0 +1,1 @@
+export { ListHorizontalIcon } from './ListHorizontalIcon';

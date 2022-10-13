@@ -1,0 +1,1 @@
+export { PlusCircleIcon } from './PlusCircleIcon';

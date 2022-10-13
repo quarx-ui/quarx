@@ -1,0 +1,1 @@
+export { StoreIcon } from './StoreIcon';

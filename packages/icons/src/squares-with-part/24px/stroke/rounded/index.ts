@@ -1,0 +1,1 @@
+export { SquaresWithPartIcon } from './SquaresWithPartIcon';

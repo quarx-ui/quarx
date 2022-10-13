@@ -1,0 +1,1 @@
+export { DocumentXlsIcon } from './DocumentXlsIcon';

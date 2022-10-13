@@ -1,0 +1,1 @@
+export { PageWithListIcon } from './PageWithListIcon';
