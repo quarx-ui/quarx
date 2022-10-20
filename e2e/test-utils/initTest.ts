@@ -36,6 +36,7 @@ export const initTest = <Props = PropsType>(
     {
         groupBy = DEFAULT_GROUP_BY,
         selector = `.Qx${component}`,
+        test: testConfig = {},
         snapshot: {
             disableIfHeaded = true,
             quality,
@@ -43,21 +44,28 @@ export const initTest = <Props = PropsType>(
     }: InitTestConfig = {},
 ): InitTestReturned<Props> => ({
     ...pw.test,
-    testProps: (testName, options) => testComponentProps<Props>(component)(testName, {
-        groupBy,
-        disableSnapIfHeaded: disableIfHeaded,
-        quality,
-        uniqSelector: selector,
-        ...options,
-    }),
-    compareSnapshotsMap: (options) => compareSnapshotsMap<Props>(component)({
-        groupBy,
-        disableSnapIfHeaded: disableIfHeaded,
-        quality,
-        uniqSelector: selector,
-        ...options,
-    }),
+    testProps: (testName, options) => {
+        pw.test.use(testConfig);
+        return testComponentProps<Props>(component)(testName, {
+            groupBy,
+            disableSnapIfHeaded: disableIfHeaded,
+            quality,
+            uniqSelector: selector,
+            ...options,
+        });
+    },
+    compareSnapshotsMap: (options) => {
+        pw.test.use(testConfig);
+        return compareSnapshotsMap<Props>(component)({
+            groupBy,
+            disableSnapIfHeaded: disableIfHeaded,
+            quality,
+            uniqSelector: selector,
+            ...options,
+        });
+    },
     test: (testName, callback) => {
+        pw.test.use(testConfig);
         pw.test(testName, async ({ page, headless }, testInfo) => {
             const getComponent = (uSelector = selector) => page.locator(uSelector);
 

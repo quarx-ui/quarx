@@ -13,6 +13,10 @@ const fromString = (value: string) => {
     if (!Number.isNaN(Number(value)) && value !== '') {
         return Number(value);
     }
+
+    if (value === 'undefined') {
+        return undefined;
+    }
     return value;
 };
 
