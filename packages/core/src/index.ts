@@ -9,3 +9,8 @@ export * from './styled/Selection';
 export * from './styled/Switcher';
 export * from './styled/Tabs';
 export * from './styled/TextField';
+export * from './styled/Modal';
+
+export * from './unstyled/Portal';
+export * from './unstyled/Backdrop';
+export * from './unstyled/Transition';

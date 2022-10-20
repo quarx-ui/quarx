@@ -8,6 +8,7 @@ import { PALETTE_COLORS } from '@core';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { QX_BORDER_SIZE, QX_SIZE } from '@core/enums';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { TabsProps } from '../types';
 import { Tabs } from '../Tabs';
 import { TABS_TYPES } from '../common';
@@ -63,6 +64,7 @@ export default {
             line: {},
             icons: {},
         }),
+        ...excludeProp(['hidden', 'permissions'], BASE_ARG_TYPES),
         ...defineCategory('Кастомизация', {
             className: {},
             classes: {},

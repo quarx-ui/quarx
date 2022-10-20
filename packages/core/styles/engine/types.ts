@@ -28,7 +28,7 @@ export type StylesCallback<
 
 export interface WithClassesAndStyles<
     Keys extends string,
-    Props extends object,
+    Props extends object = {},
     CSSVars extends string = string,
     > {
     /** Объект с дополнительными именами классов для компонента. Обеспечивает возможность

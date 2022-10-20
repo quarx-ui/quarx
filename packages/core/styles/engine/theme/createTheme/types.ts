@@ -1,4 +1,41 @@
-import { BadgeProps, BaseButtonProps, Breakpoints, ButtonProps, CheckboxProps, CheckboxSelectionProps, CounterProps, CreateBreakpointsArg, CreateElevationArg, CreatePaletteArg, CreateTransitionArg, DeepPartial, Elevations, IconButtonProps, LinkProps, LoaderProps, Palette, RadioButtonProps, RadioButtonSelectionProps, SelectionProps, SwitcherProps, SwitcherSelectionProps, TabItemContainedProps, TabItemDefaultProps, TabItemSegmentedProps, TabsContainedProps, TabsContainerProps, TabsDefaultProps, TabsProps, TabsSegmentedProps, TextFieldProps, Transitions } from '@core';
+import {
+    CounterProps,
+    DeepPartial,
+    BadgeProps,
+    BaseButtonProps,
+    ButtonProps,
+    IconButtonProps,
+    LoaderProps,
+    CheckboxProps,
+    SwitcherProps,
+    RadioButtonProps,
+    SelectionProps,
+    CheckboxSelectionProps,
+    RadioButtonSelectionProps,
+    SwitcherSelectionProps,
+    Elevations,
+    Palette,
+    CreatePaletteArg,
+    CreateBreakpointsArg,
+    CreateElevationArg,
+    Breakpoints,
+    Transitions,
+    CreateTransitionArg,
+    LinkProps,
+    TextFieldProps,
+    TabsProps,
+    TabsContainerProps,
+    TabsContainedProps,
+    TabItemContainedProps,
+    TabsDefaultProps,
+    TabItemDefaultProps,
+    TabsSegmentedProps,
+    TabItemSegmentedProps,
+    ModalProps,
+    ModalHeaderProps,
+    ModalFooterProps,
+    BackdropProps,
+} from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
 
@@ -30,6 +67,10 @@ export interface ComponentsProps {
     TabsDefault: TabsDefaultProps;
     TabsSegmented: TabsSegmentedProps;
     TextField: TextFieldProps;
+    Modal: ModalProps,
+    ModalHeader: ModalHeaderProps,
+    ModalFooter: ModalFooterProps,
+    Backdrop: BackdropProps,
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;
