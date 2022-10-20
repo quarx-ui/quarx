@@ -35,6 +35,11 @@ export const expectPropsMapInClasses = (element: HTMLElement, qxClassname?: stri
     };
 };
 
+interface TestStyleParamsOptions {
+    capture?: 'element' | 'body',
+    qxClassname?: string
+}
+
 export const testStyleParams = <
     S extends Record<string, any>,
     P extends Record<string, any> = Record<string, any>,
@@ -42,8 +47,12 @@ export const testStyleParams = <
     Component: ComponentType<P>,
     expectedDefaultParams: S,
     defaultProps: P = {} as P,
-    qxClassname?: string,
+    options: TestStyleParamsOptions = {},
 ) => (props: { [key in keyof S]: S[key][] }) => {
+    const {
+        qxClassname,
+        capture = 'element',
+    } = options;
     describe('style params', () => {
         describe('default values', () => {
             const testId = 'testStyleParams-default';
@@ -83,7 +92,12 @@ export const testStyleParams = <
 
                         const element = screen.getByTestId(testId);
                         expectPropsMapInClasses(element, qxClassname)(testProps as S);
-                        expect(asFragment()).toMatchSnapshot();
+
+                        const fragment = capture === 'element'
+                            ? asFragment()
+                            : asFragment().ownerDocument.body;
+
+                        expect(fragment).toMatchSnapshot();
                     });
                 });
             });

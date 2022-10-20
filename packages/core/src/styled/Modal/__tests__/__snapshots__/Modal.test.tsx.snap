@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal keepMounted modal always in the document 1`] = `
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
+  <div>
+    <div>
+      <button
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1qwbr8l-QxBaseButton-root-QxButton-root"
+        data-testid="buttonTestId"
+        type="button"
+      />
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1a1etsy-QxModal-root"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 0; visibility: hidden;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-t21xls-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+            >
+              Title
+            </div>
+            <div
+              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+            >
+              SubTitle
+            </div>
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          class="QxModal-body css-x01e6z-QxModal-body"
+        >
+          Body
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal keepMounted modal always in the document 2`] = `
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
+  <div>
+    <div>
+      <button
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1qwbr8l-QxBaseButton-root-QxButton-root"
+        data-testid="buttonTestId"
+        type="button"
+      />
+    </div>
+  </div>
+  <div
+    aria-hidden="false"
+    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1a1etsy-QxModal-root"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-t21xls-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+            >
+              Title
+            </div>
+            <div
+              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+            >
+              SubTitle
+            </div>
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          class="QxModal-body css-x01e6z-QxModal-body"
+          style="min-height: NaNpx;"
+        >
+          Body
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal modal in the document 1`] = `
+<body>
+  <div>
+    <div>
+      <button
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1qwbr8l-QxBaseButton-root-QxButton-root"
+        data-testid="buttonTestId"
+        type="button"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal modal in the document 2`] = `
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
+  <div>
+    <div>
+      <button
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1qwbr8l-QxBaseButton-root-QxButton-root"
+        data-testid="buttonTestId"
+        type="button"
+      />
+    </div>
+  </div>
+  <div
+    aria-hidden="false"
+    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-1a1etsy-QxModal-root"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader QxModal-box_hasFooter css-t21xls-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+            >
+              Title
+            </div>
+            <div
+              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+            >
+              SubTitle
+            </div>
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          class="QxModal-body css-12kl4f8-QxModal-body"
+          style="min-height: NaNpx;"
+        >
+          Body
+        </div>
+        <div
+          class="QxModalFooter QxModalFooter_size_medium QxModalFooter_direction_vertical css-7sdgqt-QxModalFooter-root"
+        >
+          <button
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1qwbr8l-QxBaseButton-root-QxButton-root"
+            type="button"
+          >
+            <div
+              class="QxButton-content css-hh58qu-QxButton-content"
+            >
+              Success
+            </div>
+          </button>
+          <button
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-lgu0wg-QxBaseButton-root-QxButton-root"
+            type="button"
+          >
+            <div
+              class="QxButton-content css-hh58qu-QxButton-content"
+            >
+              Secondary
+            </div>
+          </button>
+          <button
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1x07hyz-QxBaseButton-root-QxButton-root"
+            type="button"
+          >
+            <div
+              class="QxButton-content css-hh58qu-QxButton-content"
+            >
+              Danger
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal style params scrollBehaviour body 1`] = `
+<body>
+  <div />
+  <div
+    aria-hidden="false"
+    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-1a1etsy-QxModal-root"
+    data-testid="testStyleParams-scrollBehaviour-body"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1u4nczo-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_body QxModal-box_hasHeader css-1g3qf57-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+            />
+            <div
+              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+            />
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal style params scrollBehaviour window 1`] = `
+<body>
+  <div />
+  <div
+    aria-hidden="false"
+    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1a1etsy-QxModal-root"
+    data-testid="testStyleParams-scrollBehaviour-window"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-t21xls-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+            />
+            <div
+              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+            />
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal style params size medium 1`] = `
+<body>
+  <div />
+  <div
+    aria-hidden="false"
+    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1a1etsy-QxModal-root"
+    data-testid="testStyleParams-size-medium"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-t21xls-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+            />
+            <div
+              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+            />
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Modal style params size small 1`] = `
+<body>
+  <div />
+  <div
+    aria-hidden="false"
+    class="QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-1a1etsy-QxModal-root"
+    data-testid="testStyleParams-size-small"
+    datatype="modal"
+    role="presentation"
+    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    tabindex="0"
+  >
+    <div
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    />
+    <div
+      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+    >
+      <div
+        class="QxModal-box QxModal-box_size_small QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-1q5aj7x-QxModal-box"
+      >
+        <div
+          class="QxModalHeader QxModalHeader_size_small css-1sumeq0-QxModalHeader-root"
+        >
+          <div
+            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+          >
+            <div
+              class="QxModalHeader-title css-ilypw2-QxModalHeader-title"
+            />
+            <div
+              class="QxModalHeader-subTitle css-1stah27-QxModalHeader-subTitle"
+            />
+          </div>
+          <button
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-twre7s-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            type="button"
+          >
+            <div
+              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
