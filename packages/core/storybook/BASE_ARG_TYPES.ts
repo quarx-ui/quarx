@@ -1,4 +1,4 @@
-import { defineCategory } from '@core/storybook/templateParams';
+import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 
 export const BASE_ARG_TYPES = defineCategory('Общие', {
     hidden: {
@@ -8,10 +8,6 @@ export const BASE_ARG_TYPES = defineCategory('Общие', {
     permissions: {
         description: 'Объект с правами доступа к компоненту',
     },
-    className: {
-        control: false,
-        description: 'Пользовательский CSS-класс для корневого элемента.',
-    },
     classes: {
         control: false,
         description: 'Объект с пользовательскими CSS-классами для переопределения стандартных.',
@@ -20,8 +16,5 @@ export const BASE_ARG_TYPES = defineCategory('Общие', {
         control: false,
         description: 'Объект с пользовательскими CSS-стилями для переопределения стандартных',
     },
-    ref: {
-        control: false,
-        description: 'Ссылка к корневому элементу.',
-    },
+    ...excludeProp(['cssVars', 'className', 'ref']),
 });

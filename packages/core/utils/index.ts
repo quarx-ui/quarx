@@ -8,3 +8,7 @@ export * from './hooks';
 export * from './mergeRefs';
 export * from './cssVars';
 export * from './paramsToCss';
+export * from './setRef';
+export * from './ownerDocument';
+export * from './ownerWindow';
+export * from './limitHeightByRows';

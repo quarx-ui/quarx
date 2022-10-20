@@ -52,7 +52,9 @@ describe('Tabs', () => {
                 line: TABS_LINES.down,
             },
             { type: 'default', items },
-            'QxTabsDefault',
+            {
+                qxClassname: 'QxTabsDefault',
+            },
         )({
             line: Object.values(TABS_LINES),
             color: tabsTestColors,
@@ -83,7 +85,9 @@ describe('Tabs', () => {
                 borderRadius: QX_BORDER_SIZE.medium,
             },
             { type: 'contained', items },
-            'QxTabsContained',
+            {
+                qxClassname: 'QxTabsContained',
+            },
         )({
             borderRadius: tabsTestRadii,
             color: tabsTestColors,
@@ -114,7 +118,9 @@ describe('Tabs', () => {
                 borderRadius: QX_BORDER_SIZE.medium,
             },
             { type: 'segmented', items },
-            'QxTabsSegmented',
+            {
+                qxClassname: 'QxTabsSegmented',
+            },
         )({
             borderRadius: tabsTestRadii,
             color: tabsTestColors,
