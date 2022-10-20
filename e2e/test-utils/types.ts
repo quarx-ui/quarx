@@ -1,5 +1,11 @@
 import { ComponentsListTypes, PropValueType } from '@e2e/constants';
-import { Locator, Page, PlaywrightTestArgs, PlaywrightWorkerOptions } from '@playwright/test';
+import {
+    Locator,
+    Page,
+    PlaywrightTestArgs,
+    PlaywrightTestConfig,
+    PlaywrightWorkerOptions,
+} from '@playwright/test';
 import { valuesAsKeysFromArray } from '@kit';
 
 export type PropsType = Record<string, PropValueType>
@@ -26,7 +32,8 @@ export type SnapshotConfig = {
 export interface InitTestConfig {
     groupBy?: GroupByType,
     selector?: string,
-    snapshot?: SnapshotConfig
+    snapshot?: SnapshotConfig,
+    test?: PlaywrightTestConfig['use'],
 }
 
 export interface BaseProps {

@@ -9,11 +9,12 @@ import {
     valuesAsKeysFromArray,
 } from '@kit';
 import { PathTypes } from '@e2e/constants';
-import { Button, IconButton } from '@e2e/src/Button';
-import { Badge } from '@e2e/src/Badge';
-import { SwitcherSelection } from '@e2e/src/Switcher';
-import { Selection } from '@e2e/src/Selection';
-import { TextField } from '@e2e/src/TextField';
+import { Button, IconButton } from './Button';
+import { Badge } from './Badge';
+import { SwitcherSelection } from './Switcher';
+import { Selection } from './Selection';
+import { TextField } from './TextField';
+import { Modal } from './Modal';
 import { CheckboxSelection } from './Checkbox';
 import { Tabs } from './Tabs';
 import { Link } from './Link';
@@ -36,6 +37,7 @@ export const COMPONENTS: ComponentsType = {
     TextField,
     Link,
     Tabs,
+    Modal,
 } as const;
 
 export const PATHS = valuesAsKeysFromArray(Object.keys(COMPONENTS)) as PathTypes;

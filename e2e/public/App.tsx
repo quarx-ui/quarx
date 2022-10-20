@@ -11,7 +11,6 @@ export const App: FC = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        border: '4px solid #e7e7e7',
         flexGrow: 1,
         borderRadius: borderRadii.xLarge,
         padding: 30,
