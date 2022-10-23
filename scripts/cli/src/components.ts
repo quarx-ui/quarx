@@ -254,19 +254,27 @@ const createStoriesStructures = async ({
 };
 
 const createTestsStructures = async ({
-    options: { name: componentName },
+    options: { name: componentName, parent },
     makeDir,
     createFile,
 }: CreateStructureProps): Promise<void> => {
     const folder = '__tests__';
     const files = {
         snapshots: `${folder}/${componentName}.test.tsx`,
-        pw: `${folder}/${componentName}.pw.tsx`,
+        pw: `${componentName}.test.pw.ts`,
     };
 
     await makeDir(folder);
     await createFile(files.snapshots, testLayout(componentName));
-    await createFile(files.pw, testPW(componentName));
+
+    const rootDir = process.cwd();
+    const e2ePath = path.join(rootDir, 'e2e', 'src', parent ?? '', componentName);
+    try {
+        await fs.promises.mkdir(e2ePath, { recursive: true });
+    } catch (error) { console.warn(error); }
+    try {
+        await fs.promises.writeFile(path.join(e2ePath, files.pw), testPW(componentName));
+    } catch (error) { console.warn(error); }
 };
 
 /* Создание структуры каталогов для компонента */

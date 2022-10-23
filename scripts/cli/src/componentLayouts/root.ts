@@ -5,18 +5,14 @@ export * from './types';
 `;
 
 export const typesLayout = (componentName: string): string => `import { Ref } from 'react';
-import { ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
+import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
 import { ${componentName}StyleKeys, ${componentName}StyleParams } from './styles';
 
 export interface ${componentName}PropsWithoutHtml extends
+    BaseProps<HTMLDivElement>,
     Partial<${componentName}StyleParams>,
     WithClassesAndStyles<${componentName}StyleKeys, ${componentName}StyleParams>
 {
-    /** Пользовательский CSS-класс для корневого элемента */
-    className?: string,
-
-    /** Ссылка к корневому элементу */
-    ref?: Ref<HTMLDivElement>
 }
 
 export type ${componentName}Props = ComponentPropsWithHTML<${componentName}PropsWithoutHtml>;

@@ -1,28 +1,15 @@
-export const testLayout = (componentName: string): string => `import { cleanup, render, screen } from '@testing-library/react';
-import React, { FC } from 'react';
-import userEvent from '@testing-library/user-event';
-import { expectPropsMapInClasses } from '@core/test-utils';
-import { ${componentName} } from '..';
-import { ${componentName}StyleParams } from '../types';
+export const testLayout = (componentName: string): string => `import React from 'react';
+import { render, screen } from '@testing-library/react';
+import { ${componentName}, ${componentName}Props, ${componentName}StyleParams } from '@core';
+import { testStyleParams } from '@core/test-utils';
 
-const checkPropsInClasses = (props: Partial<${componentName}StyleParams>) => {
-    const {} = props;
-    const component = document.querySelector('.Qx${componentName}');
-    if (!component) { return; }
-    const propsWithDefault = {};
-
-    expectPropsMapInClasses(component as HTMLElement)(propsWithDefault);
-};
-
-const checkProps = (Component: FC) => (checkedProps?: Partial<${componentName}StyleParams>) => () => {
-    const { asFragment } = render(<Component {...checkedProps}>{Component.displayName}</Component>);
-
-    checkPropsInClasses(checkedProps ?? {});
-    expect(asFragment()).toMatchSnapshot();
-};
-
-describe('${componentName} snapshots', () => {
-    ${componentName}.displayName = '${componentName}';
+describe('${componentName}', () => {
+    testStyleParams<${componentName}StyleParams, ${componentName}Props>(
+        ${componentName},
+        {},
+        {},
+    )({
+    });
 });
 
 describe('${componentName} behavior', () => {
@@ -34,5 +21,17 @@ describe('${componentName} behavior', () => {
 });
 `;
 
-export const testPW = (componentName: string): string => `
+export const testPW = (componentName: string): string => `import { initTest } from '@e2e/test-utils/initTest';
+import { ${componentName}Props } from '@kit';
+
+const { test } = initTest<${componentName}Props>('${componentName}');
+
+test('${componentName}', async ({ compareSnapshotsMap, compareSnapshots }) => {
+    await compareSnapshotsMap({
+        targetProps: {
+        },
+        commonProps: {
+        },
+    });
+});
 `;
