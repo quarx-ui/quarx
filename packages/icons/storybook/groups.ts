@@ -2,11 +2,23 @@ type Group = Record<string, string[]>
 
 export const allIcons: [string, string][] = [
     [
-        'dots-vertical',
+        'chevron-right',
         '16px/fill/rounded',
     ],
     [
-        'attention',
+        'chevron-down',
+        '16px/fill/rounded',
+    ],
+    [
+        'chevron-left',
+        '16px/fill/rounded',
+    ],
+    [
+        'minus-circle',
+        '16px/fill/rounded',
+    ],
+    [
+        'chevron-up',
         '16px/fill/rounded',
     ],
     [
@@ -15,42 +27,38 @@ export const allIcons: [string, string][] = [
     ],
     [
         'trash-bin',
+        '16px/fill/rounded',
+    ],
+    [
+        'plus-circle',
+        '16px/fill/rounded',
+    ],
+    [
+        'attention',
+        '16px/fill/rounded',
+    ],
+    [
+        'dots-vertical',
+        '16px/fill/rounded',
+    ],
+    [
+        'trash-bin',
+        '16px/fill/square',
+    ],
+    [
+        'minus-circle',
+        '16px/fill/square',
+    ],
+    [
+        'plus-circle',
+        '16px/fill/square',
+    ],
+    [
+        'arrow-clockwise-froward',
         '16px/stroke/rounded',
     ],
     [
-        'checkmark',
-        '16px/stroke/rounded',
-    ],
-    [
-        'rectangle-on-rectangle',
-        '16px/stroke/rounded',
-    ],
-    [
-        'sort-down',
-        '16px/stroke/rounded',
-    ],
-    [
-        'arrow-up-arrow-down',
-        '16px/stroke/rounded',
-    ],
-    [
-        'info',
-        '16px/stroke/rounded',
-    ],
-    [
-        'cross',
-        '16px/stroke/rounded',
-    ],
-    [
-        'paper-clip',
-        '16px/stroke/rounded',
-    ],
-    [
-        'question',
-        '16px/stroke/rounded',
-    ],
-    [
-        'arrow-clockwise',
+        'pencil',
         '16px/stroke/rounded',
     ],
     [
@@ -58,7 +66,19 @@ export const allIcons: [string, string][] = [
         '16px/stroke/rounded',
     ],
     [
-        'filter',
+        'minus',
+        '16px/stroke/rounded',
+    ],
+    [
+        'info',
+        '16px/stroke/rounded',
+    ],
+    [
+        'plus',
+        '16px/stroke/rounded',
+    ],
+    [
+        'sort-down',
         '16px/stroke/rounded',
     ],
     [
@@ -66,15 +86,143 @@ export const allIcons: [string, string][] = [
         '16px/stroke/rounded',
     ],
     [
-        'lightning',
+        'checkmark',
+        '16px/stroke/rounded',
+    ],
+    [
+        'cross',
+        '16px/stroke/rounded',
+    ],
+    [
+        'rectangle-on-rectangle',
+        '16px/stroke/rounded',
+    ],
+    [
+        'question',
+        '16px/stroke/rounded',
+    ],
+    [
+        'equalizer',
+        '16px/stroke/rounded',
+    ],
+    [
+        'filter',
+        '16px/stroke/rounded',
+    ],
+    [
+        'trash-bin',
+        '16px/stroke/rounded',
+    ],
+    [
+        'paper-clip',
+        '16px/stroke/rounded',
+    ],
+    [
+        'chevron-left-double',
+        '16px/stroke/rounded',
+    ],
+    [
+        'chevron-right-double',
+        '16px/stroke/rounded',
+    ],
+    [
+        'gear',
+        '16px/stroke/rounded',
+    ],
+    [
+        'arrow-up-arrow-down',
+        '16px/stroke/rounded',
+    ],
+    [
+        'plus-circle',
+        '16px/stroke/rounded',
+    ],
+    [
+        'minus-circle',
+        '16px/stroke/rounded',
+    ],
+    [
+        'chevron-up',
+        '16px/stroke/square',
+    ],
+    [
+        'plus-circle',
+        '16px/stroke/square',
+    ],
+    [
+        'trash-bin',
+        '16px/stroke/square',
+    ],
+    [
+        'chevron-down',
+        '16px/stroke/square',
+    ],
+    [
+        'chevron-left',
+        '16px/stroke/square',
+    ],
+    [
+        'chevron-right',
+        '16px/stroke/square',
+    ],
+    [
+        'plus',
+        '16px/stroke/square',
+    ],
+    [
+        'minus-circle',
+        '16px/stroke/square',
+    ],
+    [
+        'minus',
+        '16px/stroke/square',
+    ],
+    [
+        'document-full',
         '24px/fill/rounded',
     ],
     [
-        'star',
+        'user',
         '24px/fill/rounded',
     ],
     [
-        'info',
+        'checkmark-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'triangle',
+        '24px/fill/rounded',
+    ],
+    [
+        'three-lines',
+        '24px/fill/rounded',
+    ],
+    [
+        'cross-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'attention',
+        '24px/fill/rounded',
+    ],
+    [
+        'pencil',
+        '24px/fill/rounded',
+    ],
+    [
+        'chevron-right-double',
+        '24px/fill/rounded',
+    ],
+    [
+        'plus-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'lock',
+        '24px/fill/rounded',
+    ],
+    [
+        'clock',
         '24px/fill/rounded',
     ],
     [
@@ -82,11 +230,99 @@ export const allIcons: [string, string][] = [
         '24px/fill/rounded',
     ],
     [
+        'dots-vertical',
+        '24px/fill/rounded',
+    ],
+    [
+        'sber-multicolor',
+        '24px/fill/rounded',
+    ],
+    [
+        'chevron-left-double',
+        '24px/fill/rounded',
+    ],
+    [
+        'info',
+        '24px/fill/rounded',
+    ],
+    [
+        'eyes-crossed',
+        '24px/fill/rounded',
+    ],
+    [
+        'chat-bubble-another',
+        '24px/fill/rounded',
+    ],
+    [
+        'sber-onecolor',
+        '24px/fill/rounded',
+    ],
+    [
+        'fire',
+        '24px/fill/rounded',
+    ],
+    [
         'filter',
         '24px/fill/rounded',
     ],
     [
-        'user',
+        'square-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'spasibo',
+        '24px/fill/rounded',
+    ],
+    [
+        'sberpay',
+        '24px/fill/rounded',
+    ],
+    [
+        'sber-id',
+        '24px/fill/rounded',
+    ],
+    [
+        'qr-square',
+        '24px/fill/rounded',
+    ],
+    [
+        'plane',
+        '24px/fill/rounded',
+    ],
+    [
+        'minus-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'hourglass-more',
+        '24px/fill/rounded',
+    ],
+    [
+        'hourglass-less',
+        '24px/fill/rounded',
+    ],
+    [
+        'home',
+        '24px/fill/rounded',
+    ],
+    [
+        'eye-open',
+        '24px/fill/rounded',
+    ],
+    [
+        'envelope',
+        '24px/fill/rounded',
+    ],
+    [
+        'download',
+        '24px/fill/rounded',
+    ],
+    [
+        'dots-horizontal',
+        '24px/fill/rounded',
+    ],
+    [
+        'pin',
         '24px/fill/rounded',
     ],
     [
@@ -102,59 +338,7 @@ export const allIcons: [string, string][] = [
         '24px/fill/rounded',
     ],
     [
-        'bell-dot',
-        '24px/fill/rounded',
-    ],
-    [
-        'attention',
-        '24px/fill/rounded',
-    ],
-    [
-        'sber-onecolor',
-        '24px/fill/rounded',
-    ],
-    [
-        'clock',
-        '24px/fill/rounded',
-    ],
-    [
-        'lock',
-        '24px/fill/rounded',
-    ],
-    [
-        'cross-circle',
-        '24px/fill/rounded',
-    ],
-    [
-        'sber-id',
-        '24px/fill/rounded',
-    ],
-    [
-        'home',
-        '24px/fill/rounded',
-    ],
-    [
-        'eye-open',
-        '24px/fill/rounded',
-    ],
-    [
-        'eyes-crossed',
-        '24px/fill/rounded',
-    ],
-    [
-        'document-full',
-        '24px/fill/rounded',
-    ],
-    [
-        'download',
-        '24px/fill/rounded',
-    ],
-    [
-        'spasibo',
-        '24px/fill/rounded',
-    ],
-    [
-        'sber-multicolor',
+        'lightning',
         '24px/fill/rounded',
     ],
     [
@@ -162,19 +346,35 @@ export const allIcons: [string, string][] = [
         '24px/fill/rounded',
     ],
     [
+        'upload',
+        '24px/fill/rounded',
+    ],
+    [
+        'two-verctical-rectangles',
+        '24px/fill/rounded',
+    ],
+    [
+        'two-rectangles-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'triangle-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'trash-bin',
+        '24px/fill/rounded',
+    ],
+    [
+        'star',
+        '24px/fill/rounded',
+    ],
+    [
         'document-empty',
         '24px/fill/rounded',
     ],
     [
-        'qr-square',
-        '24px/fill/rounded',
-    ],
-    [
-        'fire',
-        '24px/fill/rounded',
-    ],
-    [
-        'hourglass-less',
+        'bell-dot',
         '24px/fill/rounded',
     ],
     [
@@ -182,20 +382,232 @@ export const allIcons: [string, string][] = [
         '24px/fill/rounded',
     ],
     [
-        'chat-bubble-another',
+        'arrow-top-circle',
         '24px/fill/rounded',
     ],
     [
-        'hourglass-more',
+        'arrow-right-rounded',
         '24px/fill/rounded',
     ],
     [
-        'upload',
+        'arrow-right-circle',
         '24px/fill/rounded',
     ],
     [
-        'sberpay',
+        'arrow-left-circle',
         '24px/fill/rounded',
+    ],
+    [
+        'arrow-bottom-circle',
+        '24px/fill/rounded',
+    ],
+    [
+        'square',
+        '24px/fill/rounded',
+    ],
+    [
+        'document-full',
+        '24px/fill/square',
+    ],
+    [
+        'checkmark-circle',
+        '24px/fill/square',
+    ],
+    [
+        'info',
+        '24px/fill/square',
+    ],
+    [
+        'square-circle',
+        '24px/fill/square',
+    ],
+    [
+        'document-empty',
+        '24px/fill/square',
+    ],
+    [
+        'square',
+        '24px/fill/square',
+    ],
+    [
+        'arrow-bottom-circle',
+        '24px/fill/square',
+    ],
+    [
+        'arrow-top-circle',
+        '24px/fill/square',
+    ],
+    [
+        'arrow-left-circle',
+        '24px/fill/square',
+    ],
+    [
+        'arrow-right-circle',
+        '24px/fill/square',
+    ],
+    [
+        'cross-circle',
+        '24px/fill/square',
+    ],
+    [
+        'home',
+        '24px/fill/square',
+    ],
+    [
+        'two-verctical-rectangles',
+        '24px/fill/square',
+    ],
+    [
+        'plus-circle',
+        '24px/fill/square',
+    ],
+    [
+        'gear',
+        '24px/fill/square',
+    ],
+    [
+        'triangle-circle',
+        '24px/fill/square',
+    ],
+    [
+        'envelope',
+        '24px/fill/square',
+    ],
+    [
+        'eyes-crossed',
+        '24px/fill/square',
+    ],
+    [
+        'attention',
+        '24px/fill/square',
+    ],
+    [
+        'star',
+        '24px/fill/square',
+    ],
+    [
+        'trash-bin',
+        '24px/fill/square',
+    ],
+    [
+        'minus-circle',
+        '24px/fill/square',
+    ],
+    [
+        'two-rectangles-circle',
+        '24px/fill/square',
+    ],
+    [
+        'clock',
+        '24px/fill/square',
+    ],
+    [
+        'triangle',
+        '24px/fill/square',
+    ],
+    [
+        'eye-open',
+        '24px/fill/square',
+    ],
+    [
+        'three-lines-with-dots',
+        '24px/stroke/rounded',
+    ],
+    [
+        'burger',
+        '24px/stroke/rounded',
+    ],
+    [
+        'trash-bin',
+        '24px/stroke/rounded',
+    ],
+    [
+        'equalizer',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-clockwise-back',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-clockwise-forward',
+        '24px/stroke/rounded',
+    ],
+    [
+        'table',
+        '24px/stroke/rounded',
+    ],
+    [
+        'four-squares',
+        '24px/stroke/rounded',
+    ],
+    [
+        'coupon',
+        '24px/stroke/rounded',
+    ],
+    [
+        'download',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chat-bubble',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chat-bubble-plus',
+        '24px/stroke/rounded',
+    ],
+    [
+        'horizontal-rectangles-with-plus',
+        '24px/stroke/rounded',
+    ],
+    [
+        'eye-open',
+        '24px/stroke/rounded',
+    ],
+    [
+        'plus',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chevron-right',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chevron-up',
+        '24px/stroke/rounded',
+    ],
+    [
+        'paper-clip',
+        '24px/stroke/rounded',
+    ],
+    [
+        'filter',
+        '24px/stroke/rounded',
+    ],
+    [
+        'dots-horizontal',
+        '24px/stroke/rounded',
+    ],
+    [
+        'link',
+        '24px/stroke/rounded',
+    ],
+    [
+        'qr-code',
+        '24px/stroke/rounded',
+    ],
+    [
+        'six-dots',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chevron-down',
+        '24px/stroke/rounded',
+    ],
+    [
+        'cross',
+        '24px/stroke/rounded',
     ],
     [
         'calendar',
@@ -206,7 +618,7 @@ export const allIcons: [string, string][] = [
         '24px/stroke/rounded',
     ],
     [
-        'rectangle-on-rectangle',
+        'two-horizontal-rectangles',
         '24px/stroke/rounded',
     ],
     [
@@ -214,99 +626,7 @@ export const allIcons: [string, string][] = [
         '24px/stroke/rounded',
     ],
     [
-        'cross',
-        '24px/stroke/rounded',
-    ],
-    [
-        'checkmark',
-        '24px/stroke/rounded',
-    ],
-    [
-        'sort-down',
-        '24px/stroke/rounded',
-    ],
-    [
-        'trash-bin',
-        '24px/stroke/rounded',
-    ],
-    [
-        'share',
-        '24px/stroke/rounded',
-    ],
-    [
-        'checkmark-square',
-        '24px/stroke/rounded',
-    ],
-    [
-        'arrow-left',
-        '24px/stroke/rounded',
-    ],
-    [
-        'three-lines',
-        '24px/stroke/rounded',
-    ],
-    [
-        'pencil',
-        '24px/stroke/rounded',
-    ],
-    [
-        'arrow-up-arrow-down',
-        '24px/stroke/rounded',
-    ],
-    [
-        'filter',
-        '24px/stroke/rounded',
-    ],
-    [
-        'four-lines',
-        '24px/stroke/rounded',
-    ],
-    [
-        'wrench',
-        '24px/stroke/rounded',
-    ],
-    [
-        'arrow-right-square',
-        '24px/stroke/rounded',
-    ],
-    [
-        'chevron-down',
-        '24px/stroke/rounded',
-    ],
-    [
-        'chevron-up',
-        '24px/stroke/rounded',
-    ],
-    [
-        'arrow-up',
-        '24px/stroke/rounded',
-    ],
-    [
-        'arrow-clockwise',
-        '24px/stroke/rounded',
-    ],
-    [
-        'three-dots-circle',
-        '24px/stroke/rounded',
-    ],
-    [
-        'graph-square',
-        '24px/stroke/rounded',
-    ],
-    [
-        'book-open',
-        '24px/stroke/rounded',
-    ],
-    [
-        'coupon',
-        '24px/stroke/rounded',
-    ],
-    [
-        'document',
-        '24px/stroke/rounded',
-    ],
-    [
-        'equalizer',
+        'user',
         '24px/stroke/rounded',
     ],
     [
@@ -314,51 +634,7 @@ export const allIcons: [string, string][] = [
         '24px/stroke/rounded',
     ],
     [
-        'chevron-left',
-        '24px/stroke/rounded',
-    ],
-    [
-        'chevron-right',
-        '24px/stroke/rounded',
-    ],
-    [
-        'dots-horizontal',
-        '24px/stroke/rounded',
-    ],
-    [
-        'attention-circle',
-        '24px/stroke/rounded',
-    ],
-    [
-        'download',
-        '24px/stroke/rounded',
-    ],
-    [
-        'upload',
-        '24px/stroke/rounded',
-    ],
-    [
-        'arrow-down',
-        '24px/stroke/rounded',
-    ],
-    [
-        'paper-clip',
-        '24px/stroke/rounded',
-    ],
-    [
-        'question',
-        '24px/stroke/rounded',
-    ],
-    [
-        'sort-up',
-        '24px/stroke/rounded',
-    ],
-    [
-        'info',
-        '24px/stroke/rounded',
-    ],
-    [
-        'triangle',
+        'pencil',
         '24px/stroke/rounded',
     ],
     [
@@ -366,15 +642,95 @@ export const allIcons: [string, string][] = [
         '24px/stroke/rounded',
     ],
     [
-        'dollar',
+        'clock',
         '24px/stroke/rounded',
     ],
     [
-        'ruble',
+        'triangle',
         '24px/stroke/rounded',
     ],
     [
-        'template',
+        'minus',
+        '24px/stroke/rounded',
+    ],
+    [
+        'floppy-disk',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chevron-left',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-lines-with-chevrons',
+        '24px/stroke/rounded',
+    ],
+    [
+        'sort-down',
+        '24px/stroke/rounded',
+    ],
+    [
+        'sort-up',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-up-arrow-down',
+        '24px/stroke/rounded',
+    ],
+    [
+        'document',
+        '24px/stroke/rounded',
+    ],
+    [
+        'question',
+        '24px/stroke/rounded',
+    ],
+    [
+        'rectangle-on-rectangle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'book-open',
+        '24px/stroke/rounded',
+    ],
+    [
+        'checkmark-square',
+        '24px/stroke/rounded',
+    ],
+    [
+        'user-official',
+        '24px/stroke/rounded',
+    ],
+    [
+        'plus-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'connected-rectangles',
+        '24px/stroke/rounded',
+    ],
+    [
+        'upload',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chevron-right-double',
+        '24px/stroke/rounded',
+    ],
+    [
+        'info',
+        '24px/stroke/rounded',
+    ],
+    [
+        'checkmark',
+        '24px/stroke/rounded',
+    ],
+    [
+        'pin',
+        '24px/stroke/rounded',
+    ],
+    [
+        'envelope',
         '24px/stroke/rounded',
     ],
     [
@@ -382,7 +738,259 @@ export const allIcons: [string, string][] = [
         '24px/stroke/rounded',
     ],
     [
+        'horizontal-rectangles-with-bottom-arrow',
+        '24px/stroke/rounded',
+    ],
+    [
+        'gear',
+        '24px/stroke/rounded',
+    ],
+    [
+        'eyes-crossed',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrows-expand',
+        '24px/stroke/rounded',
+    ],
+    [
+        'clock-clockwise-arrow',
+        '24px/stroke/rounded',
+    ],
+    [
+        'share',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-right-square',
+        '24px/stroke/rounded',
+    ],
+    [
+        'template',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-dots-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'dollar',
+        '24px/stroke/rounded',
+    ],
+    [
+        'square-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'two-lines-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'triangle-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'eye-with-frames',
+        '24px/stroke/rounded',
+    ],
+    [
+        'square',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-down',
+        '24px/stroke/rounded',
+    ],
+    [
+        'two-lines',
+        '24px/stroke/rounded',
+    ],
+    [
+        'minus-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'vertical-rectangles-with-plus',
+        '24px/stroke/rounded',
+    ],
+    [
+        'chevron-left-double',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-left',
+        '24px/stroke/rounded',
+    ],
+    [
+        'attention-circle',
+        '24px/stroke/rounded',
+    ],
+    [
+        'ruble',
+        '24px/stroke/rounded',
+    ],
+    [
+        'four-lines',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-lines',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrow-up',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-lines-three-rows',
+        '24px/stroke/rounded',
+    ],
+    [
+        'wrench',
+        '24px/stroke/rounded',
+    ],
+    [
+        'graph-square',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-lines-four-rows',
+        '24px/stroke/rounded',
+    ],
+    [
+        'squares-with-part',
+        '24px/stroke/rounded',
+    ],
+    [
+        'graphs-with-plus',
+        '24px/stroke/rounded',
+    ],
+    [
+        'arrows-clockwise',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-lines-custom-rows',
+        '24px/stroke/rounded',
+    ],
+    [
+        'three-lines-two-rows',
+        '24px/stroke/rounded',
+    ],
+    [
+        'cross',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-clockwise-back',
+        '24px/stroke/square',
+    ],
+    [
+        'upload',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-clockwise-forward',
+        '24px/stroke/square',
+    ],
+    [
+        'chevron-right',
+        '24px/stroke/square',
+    ],
+    [
+        'sort-down',
+        '24px/stroke/square',
+    ],
+    [
+        'sort-up',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-up-arrow-down',
+        '24px/stroke/square',
+    ],
+    [
         'info',
+        '24px/stroke/square',
+    ],
+    [
+        'plus',
+        '24px/stroke/square',
+    ],
+    [
+        'pencil',
+        '24px/stroke/square',
+    ],
+    [
+        'chevron-down',
+        '24px/stroke/square',
+    ],
+    [
+        'chevron-up',
+        '24px/stroke/square',
+    ],
+    [
+        'minus-circle',
+        '24px/stroke/square',
+    ],
+    [
+        'plus-circle',
+        '24px/stroke/square',
+    ],
+    [
+        'magnifying-glass',
+        '24px/stroke/square',
+    ],
+    [
+        'chevron-left',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-left',
+        '24px/stroke/square',
+    ],
+    [
+        'trash-bin',
+        '24px/stroke/square',
+    ],
+    [
+        'checkmark',
+        '24px/stroke/square',
+    ],
+    [
+        'three-lines-with-dots',
+        '24px/stroke/square',
+    ],
+    [
+        'eye-open',
+        '24px/stroke/square',
+    ],
+    [
+        'eyes-crossed',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-right-rectangle',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-right',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-down',
+        '24px/stroke/square',
+    ],
+    [
+        'arrow-up',
+        '24px/stroke/square',
+    ],
+    [
+        'equalizer',
+        '24px/stroke/square',
+    ],
+    [
+        'document',
         '24px/stroke/square',
     ],
     [
@@ -390,27 +998,35 @@ export const allIcons: [string, string][] = [
         '24px/stroke/square',
     ],
     [
-        'pin-with-dots',
+        'arrows-clockwise',
+        '24px/stroke/square',
+    ],
+    [
+        'four-lines',
+        '24px/stroke/square',
+    ],
+    [
+        'three-lines',
+        '24px/stroke/square',
+    ],
+    [
+        'minus',
+        '24px/stroke/square',
+    ],
+    [
+        'download',
+        '24px/stroke/square',
+    ],
+    [
+        'gear',
+        '24px/stroke/square',
+    ],
+    [
+        'graduate-hat',
         '36px/fill/rounded',
     ],
     [
-        'target',
-        '36px/fill/rounded',
-    ],
-    [
-        'squares',
-        '36px/fill/rounded',
-    ],
-    [
-        'checkmark-squares',
-        '36px/fill/rounded',
-    ],
-    [
-        'square-arrows',
-        '36px/fill/rounded',
-    ],
-    [
-        'statistic',
+        'documents',
         '36px/fill/rounded',
     ],
     [
@@ -422,23 +1038,131 @@ export const allIcons: [string, string][] = [
         '36px/fill/rounded',
     ],
     [
-        'hand-with-plant',
-        '36px/stroke/rounded',
+        'user-book',
+        '36px/fill/rounded',
     ],
     [
-        'documents-list',
-        '36px/stroke/rounded',
+        'user-official',
+        '36px/fill/rounded',
     ],
     [
-        'arrow-graph',
-        '36px/stroke/rounded',
+        'user',
+        '36px/fill/rounded',
+    ],
+    [
+        'pin-with-dots',
+        '36px/fill/rounded',
+    ],
+    [
+        'pie-chart',
+        '36px/fill/rounded',
+    ],
+    [
+        'squares',
+        '36px/fill/rounded',
+    ],
+    [
+        'store',
+        '36px/fill/rounded',
     ],
     [
         'buildings',
-        '36px/stroke/rounded',
+        '36px/fill/rounded',
+    ],
+    [
+        'checkmark-squares',
+        '36px/fill/rounded',
+    ],
+    [
+        'target',
+        '36px/fill/rounded',
+    ],
+    [
+        'statistic',
+        '36px/fill/rounded',
+    ],
+    [
+        'square-arrows',
+        '36px/fill/rounded',
+    ],
+    [
+        'list-horizontal',
+        '36px/fill/rounded',
+    ],
+    [
+        'graphs-custom',
+        '36px/fill/rounded',
+    ],
+    [
+        'sber-multicolor',
+        '36px/fill/rounded',
+    ],
+    [
+        'plus',
+        '36px/fill/rounded',
+    ],
+    [
+        'column-chart',
+        '36px/fill/rounded',
+    ],
+    [
+        'dot-chart',
+        '36px/fill/rounded',
+    ],
+    [
+        'graphs-with-gear',
+        '36px/fill/rounded',
+    ],
+    [
+        'minus',
+        '36px/fill/rounded',
+    ],
+    [
+        'doughnut-chart',
+        '36px/fill/rounded',
+    ],
+    [
+        'percent-on-rectangle',
+        '36px/fill/rounded',
     ],
     [
         'suitcase',
+        '36px/fill/rounded',
+    ],
+    [
+        'line-graph',
+        '36px/fill/rounded',
+    ],
+    [
+        'sber',
+        '36px/fill/rounded',
+    ],
+    [
+        'question-circle',
+        '36px/fill/rounded',
+    ],
+    [
+        'connected-rectangles-gear',
+        '36px/fill/rounded',
+    ],
+    [
+        'checkmark-circle',
+        '36px/stroke/rounded',
+    ],
+    [
+        'cross-circle',
+        '36px/stroke/rounded',
+    ],
+    [
+        'chevron-right',
+        '36px/stroke/rounded',
+    ],
+    [
+        'chevron-up',
+        '36px/stroke/rounded',
+    ],
+    [
+        'chevron-left',
         '36px/stroke/rounded',
     ],
     [
@@ -446,7 +1170,27 @@ export const allIcons: [string, string][] = [
         '36px/stroke/rounded',
     ],
     [
+        'document',
+        '36px/stroke/rounded',
+    ],
+    [
+        'house-with-sign',
+        '36px/stroke/rounded',
+    ],
+    [
+        'card',
+        '36px/stroke/rounded',
+    ],
+    [
+        'hand-with-plant',
+        '36px/stroke/rounded',
+    ],
+    [
         'circles-on-circle',
+        '36px/stroke/rounded',
+    ],
+    [
+        'arrow-graph',
         '36px/stroke/rounded',
     ],
     [
@@ -454,19 +1198,73 @@ export const allIcons: [string, string][] = [
         '36px/stroke/rounded',
     ],
     [
+        'buildings',
+        '36px/stroke/rounded',
+    ],
+    [
         'documents-with-circle',
+        '36px/stroke/rounded',
+    ],
+    [
+        'documents-list',
+        '36px/stroke/rounded',
+    ],
+    [
+        'document-with-caledar',
+        '36px/stroke/rounded',
+    ],
+    [
+        'chevron-down',
+        '36px/stroke/rounded',
+    ],
+    [
+        'suitcase',
+        '36px/stroke/rounded',
+    ],
+    [
+        'house',
         '36px/stroke/rounded',
     ],
 ];
 
 export const groupByName: Group = {
-    'dots-vertical': [
+    'chevron-right': [
         '16px/fill/rounded',
+        '16px/stroke/square',
         '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/stroke/rounded',
     ],
-    attention: [
+    'chevron-down': [
         '16px/fill/rounded',
+        '16px/stroke/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/stroke/rounded',
+    ],
+    'chevron-left': [
+        '16px/fill/rounded',
+        '16px/stroke/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/stroke/rounded',
+    ],
+    'minus-circle': [
+        '16px/fill/rounded',
+        '16px/fill/square',
+        '16px/stroke/rounded',
+        '16px/stroke/square',
         '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'chevron-up': [
+        '16px/fill/rounded',
+        '16px/stroke/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/stroke/rounded',
     ],
     filter: [
         '16px/fill/rounded',
@@ -475,48 +1273,71 @@ export const groupByName: Group = {
         '24px/stroke/rounded',
     ],
     'trash-bin': [
+        '16px/fill/rounded',
+        '16px/fill/square',
         '16px/stroke/rounded',
+        '16px/stroke/square',
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'plus-circle': [
+        '16px/fill/rounded',
+        '16px/fill/square',
+        '16px/stroke/rounded',
+        '16px/stroke/square',
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    attention: [
+        '16px/fill/rounded',
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'dots-vertical': [
+        '16px/fill/rounded',
+        '24px/fill/rounded',
         '24px/stroke/rounded',
     ],
-    checkmark: [
+    'arrow-clockwise-froward': [
         '16px/stroke/rounded',
-        '24px/stroke/rounded',
     ],
-    'rectangle-on-rectangle': [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
-    'sort-down': [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
-    'arrow-up-arrow-down': [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
-    info: [
+    pencil: [
         '16px/stroke/rounded',
         '24px/fill/rounded',
         '24px/stroke/rounded',
         '24px/stroke/square',
     ],
-    cross: [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
-    'paper-clip': [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
-    question: [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
-    'arrow-clockwise': [
-        '16px/stroke/rounded',
-        '24px/stroke/rounded',
-    ],
     'attention-circle': [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    minus: [
+        '16px/stroke/rounded',
+        '16px/stroke/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/fill/rounded',
+    ],
+    info: [
+        '16px/stroke/rounded',
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    plus: [
+        '16px/stroke/rounded',
+        '16px/stroke/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/fill/rounded',
+    ],
+    'sort-down': [
         '16px/stroke/rounded',
         '24px/stroke/rounded',
         '24px/stroke/square',
@@ -524,206 +1345,410 @@ export const groupByName: Group = {
     'sort-up': [
         '16px/stroke/rounded',
         '24px/stroke/rounded',
+        '24px/stroke/square',
     ],
-    lightning: [
+    checkmark: [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    cross: [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'rectangle-on-rectangle': [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+    ],
+    question: [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+    ],
+    equalizer: [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'paper-clip': [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+    ],
+    'chevron-left-double': [
+        '16px/stroke/rounded',
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+    ],
+    'chevron-right-double': [
+        '16px/stroke/rounded',
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+    ],
+    gear: [
+        '16px/stroke/rounded',
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'arrow-up-arrow-down': [
+        '16px/stroke/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'document-full': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    user: [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+        '36px/fill/rounded',
+    ],
+    'checkmark-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '36px/stroke/rounded',
+    ],
+    triangle: [
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+    ],
+    'three-lines': [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'cross-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '36px/stroke/rounded',
+    ],
+    lock: [
         '24px/fill/rounded',
     ],
-    star: [
+    clock: [
         '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
     ],
     bell: [
         '24px/fill/rounded',
     ],
-    user: [
+    'sber-multicolor': [
         '24px/fill/rounded',
+        '36px/fill/rounded',
     ],
-    gear: [
+    'eyes-crossed': [
         '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
     ],
-    'chat-bubble': [
-        '24px/fill/rounded',
-    ],
-    'arrow-down-square': [
-        '24px/fill/rounded',
-    ],
-    'bell-dot': [
+    'chat-bubble-another': [
         '24px/fill/rounded',
     ],
     'sber-onecolor': [
         '24px/fill/rounded',
     ],
-    clock: [
+    fire: [
         '24px/fill/rounded',
     ],
-    lock: [
+    'square-circle': [
         '24px/fill/rounded',
-    ],
-    'cross-circle': [
-        '24px/fill/rounded',
-    ],
-    'sber-id': [
-        '24px/fill/rounded',
-    ],
-    home: [
-        '24px/fill/rounded',
-    ],
-    'eye-open': [
-        '24px/fill/rounded',
-    ],
-    'eyes-crossed': [
-        '24px/fill/rounded',
-    ],
-    'document-full': [
-        '24px/fill/rounded',
-    ],
-    download: [
-        '24px/fill/rounded',
+        '24px/fill/square',
         '24px/stroke/rounded',
     ],
     spasibo: [
         '24px/fill/rounded',
     ],
-    'sber-multicolor': [
+    sberpay: [
         '24px/fill/rounded',
     ],
-    'user-official': [
-        '24px/fill/rounded',
-    ],
-    'document-empty': [
+    'sber-id': [
         '24px/fill/rounded',
     ],
     'qr-square': [
         '24px/fill/rounded',
     ],
-    fire: [
-        '24px/fill/rounded',
-    ],
-    'hourglass-less': [
-        '24px/fill/rounded',
-    ],
-    'bell-crossed': [
-        '24px/fill/rounded',
-    ],
-    'chat-bubble-another': [
+    plane: [
         '24px/fill/rounded',
     ],
     'hourglass-more': [
         '24px/fill/rounded',
     ],
+    'hourglass-less': [
+        '24px/fill/rounded',
+    ],
+    home: [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'eye-open': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    envelope: [
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+    ],
+    download: [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'dots-horizontal': [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+    ],
+    pin: [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+    ],
+    'chat-bubble': [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+    ],
+    'arrow-down-square': [
+        '24px/fill/rounded',
+    ],
+    lightning: [
+        '24px/fill/rounded',
+    ],
+    'user-official': [
+        '24px/fill/rounded',
+        '24px/stroke/rounded',
+        '36px/fill/rounded',
+    ],
     upload: [
         '24px/fill/rounded',
         '24px/stroke/rounded',
+        '24px/stroke/square',
     ],
-    sberpay: [
+    'two-verctical-rectangles': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'two-rectangles-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'triangle-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+        '24px/stroke/rounded',
+    ],
+    star: [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'document-empty': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'bell-dot': [
         '24px/fill/rounded',
     ],
-    calendar: [
+    'bell-crossed': [
+        '24px/fill/rounded',
+    ],
+    'arrow-top-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'arrow-right-rounded': [
+        '24px/fill/rounded',
+    ],
+    'arrow-right-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'arrow-left-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    'arrow-bottom-circle': [
+        '24px/fill/rounded',
+        '24px/fill/square',
+    ],
+    square: [
+        '24px/fill/rounded',
+        '24px/fill/square',
         '24px/stroke/rounded',
     ],
-    'magnifying-glass': [
+    'three-lines-with-dots': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    burger: [
         '24px/stroke/rounded',
     ],
-    share: [
+    'arrow-clockwise-back': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'arrow-clockwise-forward': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    table: [
         '24px/stroke/rounded',
     ],
-    'checkmark-square': [
-        '24px/stroke/rounded',
-    ],
-    'arrow-left': [
-        '24px/stroke/rounded',
-    ],
-    'three-lines': [
-        '24px/stroke/rounded',
-    ],
-    pencil: [
-        '24px/stroke/rounded',
-    ],
-    'four-lines': [
-        '24px/stroke/rounded',
-    ],
-    wrench: [
-        '24px/stroke/rounded',
-    ],
-    'arrow-right-square': [
-        '24px/stroke/rounded',
-    ],
-    'chevron-down': [
-        '24px/stroke/rounded',
-    ],
-    'chevron-up': [
-        '24px/stroke/rounded',
-    ],
-    'arrow-up': [
-        '24px/stroke/rounded',
-    ],
-    'three-dots-circle': [
-        '24px/stroke/rounded',
-    ],
-    'graph-square': [
-        '24px/stroke/rounded',
-    ],
-    'book-open': [
+    'four-squares': [
         '24px/stroke/rounded',
     ],
     coupon: [
         '24px/stroke/rounded',
     ],
-    document: [
+    'chat-bubble-plus': [
         '24px/stroke/rounded',
     ],
-    equalizer: [
+    'horizontal-rectangles-with-plus': [
         '24px/stroke/rounded',
+    ],
+    link: [
+        '24px/stroke/rounded',
+    ],
+    'qr-code': [
+        '24px/stroke/rounded',
+    ],
+    'six-dots': [
+        '24px/stroke/rounded',
+    ],
+    calendar: [
+        '24px/stroke/rounded',
+    ],
+    'two-horizontal-rectangles': [
+        '24px/stroke/rounded',
+    ],
+    'magnifying-glass': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
     ],
     users: [
-        '24px/stroke/rounded',
-    ],
-    'chevron-left': [
-        '24px/stroke/rounded',
-    ],
-    'chevron-right': [
-        '24px/stroke/rounded',
-    ],
-    'dots-horizontal': [
-        '24px/stroke/rounded',
-    ],
-    'arrow-down': [
-        '24px/stroke/rounded',
-    ],
-    triangle: [
         '24px/stroke/rounded',
     ],
     euro: [
         '24px/stroke/rounded',
     ],
-    dollar: [
+    'floppy-disk': [
         '24px/stroke/rounded',
     ],
-    ruble: [
+    'three-lines-with-chevrons': [
+        '24px/stroke/rounded',
+    ],
+    document: [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+        '36px/stroke/rounded',
+    ],
+    'book-open': [
+        '24px/stroke/rounded',
+    ],
+    'checkmark-square': [
+        '24px/stroke/rounded',
+    ],
+    'connected-rectangles': [
+        '24px/stroke/rounded',
+    ],
+    'arrow-right': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'horizontal-rectangles-with-bottom-arrow': [
+        '24px/stroke/rounded',
+    ],
+    'arrows-expand': [
+        '24px/stroke/rounded',
+    ],
+    'clock-clockwise-arrow': [
+        '24px/stroke/rounded',
+    ],
+    share: [
+        '24px/stroke/rounded',
+    ],
+    'arrow-right-square': [
         '24px/stroke/rounded',
     ],
     template: [
         '24px/stroke/rounded',
     ],
-    'arrow-right': [
+    'three-dots-circle': [
         '24px/stroke/rounded',
     ],
-    'pin-with-dots': [
+    dollar: [
+        '24px/stroke/rounded',
+    ],
+    'two-lines-circle': [
+        '24px/stroke/rounded',
+    ],
+    'eye-with-frames': [
+        '24px/stroke/rounded',
+    ],
+    'arrow-down': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'two-lines': [
+        '24px/stroke/rounded',
+    ],
+    'vertical-rectangles-with-plus': [
+        '24px/stroke/rounded',
+    ],
+    'arrow-left': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    ruble: [
+        '24px/stroke/rounded',
+    ],
+    'four-lines': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'arrow-up': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'three-lines-three-rows': [
+        '24px/stroke/rounded',
+    ],
+    wrench: [
+        '24px/stroke/rounded',
+    ],
+    'graph-square': [
+        '24px/stroke/rounded',
+    ],
+    'three-lines-four-rows': [
+        '24px/stroke/rounded',
+    ],
+    'squares-with-part': [
+        '24px/stroke/rounded',
+    ],
+    'graphs-with-plus': [
+        '24px/stroke/rounded',
+    ],
+    'arrows-clockwise': [
+        '24px/stroke/rounded',
+        '24px/stroke/square',
+    ],
+    'three-lines-custom-rows': [
+        '24px/stroke/rounded',
+    ],
+    'three-lines-two-rows': [
+        '24px/stroke/rounded',
+    ],
+    'arrow-right-rectangle': [
+        '24px/stroke/square',
+    ],
+    'graduate-hat': [
         '36px/fill/rounded',
     ],
-    target: [
-        '36px/fill/rounded',
-    ],
-    squares: [
-        '36px/fill/rounded',
-        '36px/stroke/rounded',
-    ],
-    'checkmark-squares': [
-        '36px/fill/rounded',
-    ],
-    'square-arrows': [
-        '36px/fill/rounded',
-    ],
-    statistic: [
+    documents: [
         '36px/fill/rounded',
     ],
     'ruble-circle': [
@@ -732,22 +1757,88 @@ export const groupByName: Group = {
     cards: [
         '36px/fill/rounded',
     ],
+    'user-book': [
+        '36px/fill/rounded',
+    ],
+    'pin-with-dots': [
+        '36px/fill/rounded',
+    ],
+    'pie-chart': [
+        '36px/fill/rounded',
+    ],
+    squares: [
+        '36px/fill/rounded',
+        '36px/stroke/rounded',
+    ],
+    store: [
+        '36px/fill/rounded',
+    ],
+    buildings: [
+        '36px/fill/rounded',
+        '36px/stroke/rounded',
+    ],
+    'checkmark-squares': [
+        '36px/fill/rounded',
+    ],
+    target: [
+        '36px/fill/rounded',
+    ],
+    statistic: [
+        '36px/fill/rounded',
+    ],
+    'square-arrows': [
+        '36px/fill/rounded',
+    ],
+    'list-horizontal': [
+        '36px/fill/rounded',
+    ],
+    'graphs-custom': [
+        '36px/fill/rounded',
+    ],
+    'column-chart': [
+        '36px/fill/rounded',
+    ],
+    'dot-chart': [
+        '36px/fill/rounded',
+    ],
+    'graphs-with-gear': [
+        '36px/fill/rounded',
+    ],
+    'doughnut-chart': [
+        '36px/fill/rounded',
+    ],
+    'percent-on-rectangle': [
+        '36px/fill/rounded',
+    ],
+    suitcase: [
+        '36px/fill/rounded',
+        '36px/stroke/rounded',
+    ],
+    'line-graph': [
+        '36px/fill/rounded',
+    ],
+    sber: [
+        '36px/fill/rounded',
+    ],
+    'question-circle': [
+        '36px/fill/rounded',
+    ],
+    'connected-rectangles-gear': [
+        '36px/fill/rounded',
+    ],
+    'house-with-sign': [
+        '36px/stroke/rounded',
+    ],
+    card: [
+        '36px/stroke/rounded',
+    ],
     'hand-with-plant': [
         '36px/stroke/rounded',
     ],
-    'documents-list': [
+    'circles-on-circle': [
         '36px/stroke/rounded',
     ],
     'arrow-graph': [
-        '36px/stroke/rounded',
-    ],
-    buildings: [
-        '36px/stroke/rounded',
-    ],
-    suitcase: [
-        '36px/stroke/rounded',
-    ],
-    'circles-on-circle': [
         '36px/stroke/rounded',
     ],
     'list-checkmark': [
@@ -756,127 +1847,328 @@ export const groupByName: Group = {
     'documents-with-circle': [
         '36px/stroke/rounded',
     ],
+    'documents-list': [
+        '36px/stroke/rounded',
+    ],
+    'document-with-caledar': [
+        '36px/stroke/rounded',
+    ],
+    house: [
+        '36px/stroke/rounded',
+    ],
 };
 
 export const groupBySize: Group = {
     '16px': [
-        'dots-vertical/16px/fill/rounded',
-        'attention/16px/fill/rounded',
+        'chevron-right/16px/fill/rounded',
+        'chevron-down/16px/fill/rounded',
+        'chevron-left/16px/fill/rounded',
+        'minus-circle/16px/fill/rounded',
+        'chevron-up/16px/fill/rounded',
         'filter/16px/fill/rounded',
-        'trash-bin/16px/stroke/rounded',
-        'checkmark/16px/stroke/rounded',
-        'rectangle-on-rectangle/16px/stroke/rounded',
-        'sort-down/16px/stroke/rounded',
-        'arrow-up-arrow-down/16px/stroke/rounded',
-        'info/16px/stroke/rounded',
-        'cross/16px/stroke/rounded',
-        'paper-clip/16px/stroke/rounded',
-        'question/16px/stroke/rounded',
-        'arrow-clockwise/16px/stroke/rounded',
+        'trash-bin/16px/fill/rounded',
+        'plus-circle/16px/fill/rounded',
+        'attention/16px/fill/rounded',
+        'dots-vertical/16px/fill/rounded',
+        'trash-bin/16px/fill/square',
+        'minus-circle/16px/fill/square',
+        'plus-circle/16px/fill/square',
+        'arrow-clockwise-froward/16px/stroke/rounded',
+        'pencil/16px/stroke/rounded',
         'attention-circle/16px/stroke/rounded',
-        'filter/16px/stroke/rounded',
+        'minus/16px/stroke/rounded',
+        'info/16px/stroke/rounded',
+        'plus/16px/stroke/rounded',
+        'sort-down/16px/stroke/rounded',
         'sort-up/16px/stroke/rounded',
+        'checkmark/16px/stroke/rounded',
+        'cross/16px/stroke/rounded',
+        'rectangle-on-rectangle/16px/stroke/rounded',
+        'question/16px/stroke/rounded',
+        'equalizer/16px/stroke/rounded',
+        'filter/16px/stroke/rounded',
+        'trash-bin/16px/stroke/rounded',
+        'paper-clip/16px/stroke/rounded',
+        'chevron-left-double/16px/stroke/rounded',
+        'chevron-right-double/16px/stroke/rounded',
+        'gear/16px/stroke/rounded',
+        'arrow-up-arrow-down/16px/stroke/rounded',
+        'plus-circle/16px/stroke/rounded',
+        'minus-circle/16px/stroke/rounded',
+        'chevron-up/16px/stroke/square',
+        'plus-circle/16px/stroke/square',
+        'trash-bin/16px/stroke/square',
+        'chevron-down/16px/stroke/square',
+        'chevron-left/16px/stroke/square',
+        'chevron-right/16px/stroke/square',
+        'plus/16px/stroke/square',
+        'minus-circle/16px/stroke/square',
+        'minus/16px/stroke/square',
     ],
     '24px': [
-        'lightning/24px/fill/rounded',
-        'star/24px/fill/rounded',
-        'info/24px/fill/rounded',
-        'bell/24px/fill/rounded',
-        'filter/24px/fill/rounded',
+        'document-full/24px/fill/rounded',
         'user/24px/fill/rounded',
+        'checkmark-circle/24px/fill/rounded',
+        'triangle/24px/fill/rounded',
+        'three-lines/24px/fill/rounded',
+        'cross-circle/24px/fill/rounded',
+        'attention/24px/fill/rounded',
+        'pencil/24px/fill/rounded',
+        'chevron-right-double/24px/fill/rounded',
+        'plus-circle/24px/fill/rounded',
+        'lock/24px/fill/rounded',
+        'clock/24px/fill/rounded',
+        'bell/24px/fill/rounded',
+        'dots-vertical/24px/fill/rounded',
+        'sber-multicolor/24px/fill/rounded',
+        'chevron-left-double/24px/fill/rounded',
+        'info/24px/fill/rounded',
+        'eyes-crossed/24px/fill/rounded',
+        'chat-bubble-another/24px/fill/rounded',
+        'sber-onecolor/24px/fill/rounded',
+        'fire/24px/fill/rounded',
+        'filter/24px/fill/rounded',
+        'square-circle/24px/fill/rounded',
+        'spasibo/24px/fill/rounded',
+        'sberpay/24px/fill/rounded',
+        'sber-id/24px/fill/rounded',
+        'qr-square/24px/fill/rounded',
+        'plane/24px/fill/rounded',
+        'minus-circle/24px/fill/rounded',
+        'hourglass-more/24px/fill/rounded',
+        'hourglass-less/24px/fill/rounded',
+        'home/24px/fill/rounded',
+        'eye-open/24px/fill/rounded',
+        'envelope/24px/fill/rounded',
+        'download/24px/fill/rounded',
+        'dots-horizontal/24px/fill/rounded',
+        'pin/24px/fill/rounded',
         'gear/24px/fill/rounded',
         'chat-bubble/24px/fill/rounded',
         'arrow-down-square/24px/fill/rounded',
-        'bell-dot/24px/fill/rounded',
-        'attention/24px/fill/rounded',
-        'sber-onecolor/24px/fill/rounded',
-        'clock/24px/fill/rounded',
-        'lock/24px/fill/rounded',
-        'cross-circle/24px/fill/rounded',
-        'sber-id/24px/fill/rounded',
-        'home/24px/fill/rounded',
-        'eye-open/24px/fill/rounded',
-        'eyes-crossed/24px/fill/rounded',
-        'document-full/24px/fill/rounded',
-        'download/24px/fill/rounded',
-        'spasibo/24px/fill/rounded',
-        'sber-multicolor/24px/fill/rounded',
+        'lightning/24px/fill/rounded',
         'user-official/24px/fill/rounded',
-        'document-empty/24px/fill/rounded',
-        'qr-square/24px/fill/rounded',
-        'fire/24px/fill/rounded',
-        'hourglass-less/24px/fill/rounded',
-        'bell-crossed/24px/fill/rounded',
-        'chat-bubble-another/24px/fill/rounded',
-        'hourglass-more/24px/fill/rounded',
         'upload/24px/fill/rounded',
-        'sberpay/24px/fill/rounded',
+        'two-verctical-rectangles/24px/fill/rounded',
+        'two-rectangles-circle/24px/fill/rounded',
+        'triangle-circle/24px/fill/rounded',
+        'trash-bin/24px/fill/rounded',
+        'star/24px/fill/rounded',
+        'document-empty/24px/fill/rounded',
+        'bell-dot/24px/fill/rounded',
+        'bell-crossed/24px/fill/rounded',
+        'arrow-top-circle/24px/fill/rounded',
+        'arrow-right-rounded/24px/fill/rounded',
+        'arrow-right-circle/24px/fill/rounded',
+        'arrow-left-circle/24px/fill/rounded',
+        'arrow-bottom-circle/24px/fill/rounded',
+        'square/24px/fill/rounded',
+        'document-full/24px/fill/square',
+        'checkmark-circle/24px/fill/square',
+        'info/24px/fill/square',
+        'square-circle/24px/fill/square',
+        'document-empty/24px/fill/square',
+        'square/24px/fill/square',
+        'arrow-bottom-circle/24px/fill/square',
+        'arrow-top-circle/24px/fill/square',
+        'arrow-left-circle/24px/fill/square',
+        'arrow-right-circle/24px/fill/square',
+        'cross-circle/24px/fill/square',
+        'home/24px/fill/square',
+        'two-verctical-rectangles/24px/fill/square',
+        'plus-circle/24px/fill/square',
+        'gear/24px/fill/square',
+        'triangle-circle/24px/fill/square',
+        'envelope/24px/fill/square',
+        'eyes-crossed/24px/fill/square',
+        'attention/24px/fill/square',
+        'star/24px/fill/square',
+        'trash-bin/24px/fill/square',
+        'minus-circle/24px/fill/square',
+        'two-rectangles-circle/24px/fill/square',
+        'clock/24px/fill/square',
+        'triangle/24px/fill/square',
+        'eye-open/24px/fill/square',
+        'three-lines-with-dots/24px/stroke/rounded',
+        'burger/24px/stroke/rounded',
+        'trash-bin/24px/stroke/rounded',
+        'equalizer/24px/stroke/rounded',
+        'arrow-clockwise-back/24px/stroke/rounded',
+        'arrow-clockwise-forward/24px/stroke/rounded',
+        'table/24px/stroke/rounded',
+        'four-squares/24px/stroke/rounded',
+        'coupon/24px/stroke/rounded',
+        'download/24px/stroke/rounded',
+        'chat-bubble/24px/stroke/rounded',
+        'chat-bubble-plus/24px/stroke/rounded',
+        'horizontal-rectangles-with-plus/24px/stroke/rounded',
+        'eye-open/24px/stroke/rounded',
+        'plus/24px/stroke/rounded',
+        'chevron-right/24px/stroke/rounded',
+        'chevron-up/24px/stroke/rounded',
+        'paper-clip/24px/stroke/rounded',
+        'filter/24px/stroke/rounded',
+        'dots-horizontal/24px/stroke/rounded',
+        'link/24px/stroke/rounded',
+        'qr-code/24px/stroke/rounded',
+        'six-dots/24px/stroke/rounded',
+        'chevron-down/24px/stroke/rounded',
+        'cross/24px/stroke/rounded',
         'calendar/24px/stroke/rounded',
         'dots-vertical/24px/stroke/rounded',
-        'rectangle-on-rectangle/24px/stroke/rounded',
+        'two-horizontal-rectangles/24px/stroke/rounded',
         'magnifying-glass/24px/stroke/rounded',
-        'cross/24px/stroke/rounded',
-        'checkmark/24px/stroke/rounded',
-        'sort-down/24px/stroke/rounded',
-        'trash-bin/24px/stroke/rounded',
-        'share/24px/stroke/rounded',
-        'checkmark-square/24px/stroke/rounded',
-        'arrow-left/24px/stroke/rounded',
-        'three-lines/24px/stroke/rounded',
-        'pencil/24px/stroke/rounded',
-        'arrow-up-arrow-down/24px/stroke/rounded',
-        'filter/24px/stroke/rounded',
-        'four-lines/24px/stroke/rounded',
-        'wrench/24px/stroke/rounded',
-        'arrow-right-square/24px/stroke/rounded',
-        'chevron-down/24px/stroke/rounded',
-        'chevron-up/24px/stroke/rounded',
-        'arrow-up/24px/stroke/rounded',
-        'arrow-clockwise/24px/stroke/rounded',
-        'three-dots-circle/24px/stroke/rounded',
-        'graph-square/24px/stroke/rounded',
-        'book-open/24px/stroke/rounded',
-        'coupon/24px/stroke/rounded',
-        'document/24px/stroke/rounded',
-        'equalizer/24px/stroke/rounded',
+        'user/24px/stroke/rounded',
         'users/24px/stroke/rounded',
-        'chevron-left/24px/stroke/rounded',
-        'chevron-right/24px/stroke/rounded',
-        'dots-horizontal/24px/stroke/rounded',
-        'attention-circle/24px/stroke/rounded',
-        'download/24px/stroke/rounded',
-        'upload/24px/stroke/rounded',
-        'arrow-down/24px/stroke/rounded',
-        'paper-clip/24px/stroke/rounded',
-        'question/24px/stroke/rounded',
-        'sort-up/24px/stroke/rounded',
-        'info/24px/stroke/rounded',
-        'triangle/24px/stroke/rounded',
+        'pencil/24px/stroke/rounded',
         'euro/24px/stroke/rounded',
-        'dollar/24px/stroke/rounded',
-        'ruble/24px/stroke/rounded',
-        'template/24px/stroke/rounded',
+        'clock/24px/stroke/rounded',
+        'triangle/24px/stroke/rounded',
+        'minus/24px/stroke/rounded',
+        'floppy-disk/24px/stroke/rounded',
+        'chevron-left/24px/stroke/rounded',
+        'three-lines-with-chevrons/24px/stroke/rounded',
+        'sort-down/24px/stroke/rounded',
+        'sort-up/24px/stroke/rounded',
+        'arrow-up-arrow-down/24px/stroke/rounded',
+        'document/24px/stroke/rounded',
+        'question/24px/stroke/rounded',
+        'rectangle-on-rectangle/24px/stroke/rounded',
+        'book-open/24px/stroke/rounded',
+        'checkmark-square/24px/stroke/rounded',
+        'user-official/24px/stroke/rounded',
+        'plus-circle/24px/stroke/rounded',
+        'connected-rectangles/24px/stroke/rounded',
+        'upload/24px/stroke/rounded',
+        'chevron-right-double/24px/stroke/rounded',
+        'info/24px/stroke/rounded',
+        'checkmark/24px/stroke/rounded',
+        'pin/24px/stroke/rounded',
+        'envelope/24px/stroke/rounded',
         'arrow-right/24px/stroke/rounded',
+        'horizontal-rectangles-with-bottom-arrow/24px/stroke/rounded',
+        'gear/24px/stroke/rounded',
+        'eyes-crossed/24px/stroke/rounded',
+        'arrows-expand/24px/stroke/rounded',
+        'clock-clockwise-arrow/24px/stroke/rounded',
+        'share/24px/stroke/rounded',
+        'arrow-right-square/24px/stroke/rounded',
+        'template/24px/stroke/rounded',
+        'three-dots-circle/24px/stroke/rounded',
+        'dollar/24px/stroke/rounded',
+        'square-circle/24px/stroke/rounded',
+        'two-lines-circle/24px/stroke/rounded',
+        'triangle-circle/24px/stroke/rounded',
+        'eye-with-frames/24px/stroke/rounded',
+        'square/24px/stroke/rounded',
+        'arrow-down/24px/stroke/rounded',
+        'two-lines/24px/stroke/rounded',
+        'minus-circle/24px/stroke/rounded',
+        'vertical-rectangles-with-plus/24px/stroke/rounded',
+        'chevron-left-double/24px/stroke/rounded',
+        'arrow-left/24px/stroke/rounded',
+        'attention-circle/24px/stroke/rounded',
+        'ruble/24px/stroke/rounded',
+        'four-lines/24px/stroke/rounded',
+        'three-lines/24px/stroke/rounded',
+        'arrow-up/24px/stroke/rounded',
+        'three-lines-three-rows/24px/stroke/rounded',
+        'wrench/24px/stroke/rounded',
+        'graph-square/24px/stroke/rounded',
+        'three-lines-four-rows/24px/stroke/rounded',
+        'squares-with-part/24px/stroke/rounded',
+        'graphs-with-plus/24px/stroke/rounded',
+        'arrows-clockwise/24px/stroke/rounded',
+        'three-lines-custom-rows/24px/stroke/rounded',
+        'three-lines-two-rows/24px/stroke/rounded',
+        'cross/24px/stroke/square',
+        'arrow-clockwise-back/24px/stroke/square',
+        'upload/24px/stroke/square',
+        'arrow-clockwise-forward/24px/stroke/square',
+        'chevron-right/24px/stroke/square',
+        'sort-down/24px/stroke/square',
+        'sort-up/24px/stroke/square',
+        'arrow-up-arrow-down/24px/stroke/square',
         'info/24px/stroke/square',
+        'plus/24px/stroke/square',
+        'pencil/24px/stroke/square',
+        'chevron-down/24px/stroke/square',
+        'chevron-up/24px/stroke/square',
+        'minus-circle/24px/stroke/square',
+        'plus-circle/24px/stroke/square',
+        'magnifying-glass/24px/stroke/square',
+        'chevron-left/24px/stroke/square',
+        'arrow-left/24px/stroke/square',
+        'trash-bin/24px/stroke/square',
+        'checkmark/24px/stroke/square',
+        'three-lines-with-dots/24px/stroke/square',
+        'eye-open/24px/stroke/square',
+        'eyes-crossed/24px/stroke/square',
+        'arrow-right-rectangle/24px/stroke/square',
+        'arrow-right/24px/stroke/square',
+        'arrow-down/24px/stroke/square',
+        'arrow-up/24px/stroke/square',
+        'equalizer/24px/stroke/square',
+        'document/24px/stroke/square',
         'attention-circle/24px/stroke/square',
+        'arrows-clockwise/24px/stroke/square',
+        'four-lines/24px/stroke/square',
+        'three-lines/24px/stroke/square',
+        'minus/24px/stroke/square',
+        'download/24px/stroke/square',
+        'gear/24px/stroke/square',
     ],
     '36px': [
-        'pin-with-dots/36px/fill/rounded',
-        'target/36px/fill/rounded',
-        'squares/36px/fill/rounded',
-        'checkmark-squares/36px/fill/rounded',
-        'square-arrows/36px/fill/rounded',
-        'statistic/36px/fill/rounded',
+        'graduate-hat/36px/fill/rounded',
+        'documents/36px/fill/rounded',
         'ruble-circle/36px/fill/rounded',
         'cards/36px/fill/rounded',
-        'hand-with-plant/36px/stroke/rounded',
-        'documents-list/36px/stroke/rounded',
-        'arrow-graph/36px/stroke/rounded',
-        'buildings/36px/stroke/rounded',
-        'suitcase/36px/stroke/rounded',
+        'user-book/36px/fill/rounded',
+        'user-official/36px/fill/rounded',
+        'user/36px/fill/rounded',
+        'pin-with-dots/36px/fill/rounded',
+        'pie-chart/36px/fill/rounded',
+        'squares/36px/fill/rounded',
+        'store/36px/fill/rounded',
+        'buildings/36px/fill/rounded',
+        'checkmark-squares/36px/fill/rounded',
+        'target/36px/fill/rounded',
+        'statistic/36px/fill/rounded',
+        'square-arrows/36px/fill/rounded',
+        'list-horizontal/36px/fill/rounded',
+        'graphs-custom/36px/fill/rounded',
+        'sber-multicolor/36px/fill/rounded',
+        'plus/36px/fill/rounded',
+        'column-chart/36px/fill/rounded',
+        'dot-chart/36px/fill/rounded',
+        'graphs-with-gear/36px/fill/rounded',
+        'minus/36px/fill/rounded',
+        'doughnut-chart/36px/fill/rounded',
+        'percent-on-rectangle/36px/fill/rounded',
+        'suitcase/36px/fill/rounded',
+        'line-graph/36px/fill/rounded',
+        'sber/36px/fill/rounded',
+        'question-circle/36px/fill/rounded',
+        'connected-rectangles-gear/36px/fill/rounded',
+        'checkmark-circle/36px/stroke/rounded',
+        'cross-circle/36px/stroke/rounded',
+        'chevron-right/36px/stroke/rounded',
+        'chevron-up/36px/stroke/rounded',
+        'chevron-left/36px/stroke/rounded',
         'squares/36px/stroke/rounded',
+        'document/36px/stroke/rounded',
+        'house-with-sign/36px/stroke/rounded',
+        'card/36px/stroke/rounded',
+        'hand-with-plant/36px/stroke/rounded',
         'circles-on-circle/36px/stroke/rounded',
+        'arrow-graph/36px/stroke/rounded',
         'list-checkmark/36px/stroke/rounded',
+        'buildings/36px/stroke/rounded',
         'documents-with-circle/36px/stroke/rounded',
+        'documents-list/36px/stroke/rounded',
+        'document-with-caledar/36px/stroke/rounded',
+        'chevron-down/36px/stroke/rounded',
+        'suitcase/36px/stroke/rounded',
+        'house/36px/stroke/rounded',
     ],
 };
