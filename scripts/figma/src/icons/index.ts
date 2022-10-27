@@ -11,16 +11,33 @@ import { prepareIconsComponents } from './utils/prepareIconsComponents';
 import { applyCurrentColor } from './utils/applyCurrentColor';
 import { prepareTsxIcon } from './utils/prepareTsxIcon';
 import { createFolder } from './utils/createFolder';
+import { stringify } from '../utils';
+import { getIconJsxFullName } from './utils/getIconJsxFullName';
+import { getIconImportTemplate } from './utils/getIconImportTemplate';
 
 const resolveIconPath = (path: string) => resolveFrom.icons(`src/${path}`);
 
 type Group = Record<string, string[]>
 
+const sortGroup = (group: Group): Group => {
+    const sortedGroup: Group = {};
+
+    const sortedKeys = Object.keys(group).sort();
+
+    sortedKeys.forEach((key) => {
+        sortedGroup[key] = group[key];
+        sortedGroup[key].sort();
+    });
+
+    return sortedGroup;
+};
+
 export const exportIcons = async (): Promise<void> => {
     const writeBuffer: WriteFileType[] = [];
     const dirBuffer: string[] = [];
 
-    // const allIcons: [string, string][] = [];
+    const iconsImports: string[] = [];
+    const allIcons: string[] = [];
     const groupByName: Group = {};
     const groupBySize: Group = {};
 
@@ -69,7 +86,7 @@ export const exportIcons = async (): Promise<void> => {
         )));
 
     iconsWithData
-        .sort((a, b) => a.params.localeCompare(b.params))
+        .sort((a, b) => a.name.localeCompare(b.name))
         .forEach(({ params, name, data }) => {
             const componentName = `${pascalCase(name)}Icon`;
             const iconName = paramCase(name);
@@ -90,7 +107,8 @@ export const exportIcons = async (): Promise<void> => {
                 groupBySize[size] = [];
             }
 
-            // allIcons.push([iconName, params]);
+            iconsImports.push(getIconImportTemplate(iconName, params));
+            allIcons.push(`'${iconName}/${params}': ${getIconJsxFullName(iconName, params)},`);
             groupByName[iconName].push(params);
             groupBySize[size].push(nameWithParams);
 
@@ -104,14 +122,24 @@ export const exportIcons = async (): Promise<void> => {
             writeBuffer.push({ path: indexPath, data: `export { ${componentName} } from './${componentName}';\n` });
         });
 
-    // writeBuffer.push({
-    //     path: resolveFrom.icons('storybook/groups.ts'),
-    //     data:
-    //         `type Group = Record<string, string[]>\n
-    //         export const allIcons: [string, string][] = ${stringify(allIcons)}\n
-    //         export const groupByName: Group = ${stringify(groupByName)}\n
-    //         export const groupBySize: Group = ${stringify(groupBySize)}`,
-    // });
+    iconsImports.sort();
+    allIcons.sort();
+    const sortedByName = sortGroup(groupByName);
+    const sortedBySize = sortGroup(groupBySize);
+
+    writeBuffer.push({
+        path: resolveFrom.icons('storybook/groups.ts'),
+        data:
+            `/* eslint-disable max-len */
+            import { ComponentType } from 'react';
+            ${iconsImports.join('\n')}
+
+            export const allIcons: Record<string, ComponentType> = {\n${allIcons.join('\n')}\n}
+
+            export const groupByName: Record<string, string[]> = ${stringify(sortedByName)}
+
+            export const groupBySize: Record<string, string[]> = ${stringify(sortedBySize)}`,
+    });
 
     fs.rmdirSync(resolveFrom.icons('src'), { recursive: true });
 
