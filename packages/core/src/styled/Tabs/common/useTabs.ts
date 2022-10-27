@@ -48,7 +48,7 @@ export const useTabs = <T extends TabItem = TabItem>({
         scrollWidth: number,
         clientWidth: number,
     ) => {
-        if (scrollWidth === clientWidth) {
+        if (scrollWidth <= clientWidth) {
             setScrollPosition(TABS_SCROLL_POSITIONS.none);
         } else if (scrollLeft === 0) {
             setScrollPosition(TABS_SCROLL_POSITIONS.start);
@@ -62,7 +62,7 @@ export const useTabs = <T extends TabItem = TabItem>({
     const onScroll: UIEventHandler<HTMLDivElement> = (event) => {
         const { scrollWidth, scrollLeft, clientWidth } = event.currentTarget;
 
-        detectScrollPosition(scrollLeft, scrollWidth, clientWidth);
+        detectScrollPosition(scrollLeft, scrollWidth, Math.ceil(clientWidth));
     };
 
     const initOnSelect = (
