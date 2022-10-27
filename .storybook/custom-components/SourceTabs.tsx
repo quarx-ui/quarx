@@ -1,8 +1,9 @@
+/** @jsx jsx */
+import { jsx } from '@emotion/react';
 import React from 'react';
 import { FC, useState } from 'react';
 import { Source } from '@storybook/addon-docs'
-import { makeStylesKit } from '@core';
-import clsx from 'clsx';
+import { makeStyles } from '@core';
 
 interface SourceProps {
     name?: string,
@@ -16,7 +17,7 @@ export interface SourceTabsProps {
     language?: string,
 }
 
-export const useStyles = makeStylesKit(() =>( {
+export const useStyles = makeStyles(() =>( {
     root: {
         fontFamily: '"Nunito Sans", sans-serif',
     },
@@ -52,7 +53,7 @@ export const SourceTabs: FC<SourceTabsProps> = ({
     dark= true,
     language: lang
 }) => {
-    const classes = useStyles();
+    const styles = useStyles();
     const initialTab = Object.keys(sources)[0];
 
     const [selected, setSelected] = useState(initialTab);
@@ -65,18 +66,18 @@ export const SourceTabs: FC<SourceTabsProps> = ({
     } = sources[selected];
 
     return (
-        <div className={classes.root}>
-            <div className={classes.tabs}>
+        <div css={styles.root}>
+            <div css={styles.tabs}>
                 {Object.entries(sources).map(([key, {name}]) => (
                     <div
-                        className={clsx(classes.tab, selected === key && classes.selected)}
+                        css={[styles.tab, selected === key && styles.selected]}
                         onClick={() => selectTab(key)}
                     >
                         {name ?? key}
                     </div>
                 ))}
             </div>
-            <div className={classes.container}>
+            <div css={styles.container}>
                 <Source
                     dark={dark}
                     code={code}

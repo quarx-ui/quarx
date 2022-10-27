@@ -38,7 +38,7 @@ export function makeStyles<
         const { name = 'makeStyles' } = options;
 
         const stylesObject = typeof styles === 'function'
-            ? styles(theme, props, props.cssVars)
+            ? styles(theme, props, props?.cssVars)
             : styles
         const overwrites = extractStyles(props, theme, props?.styles, props?.cssVars);
 
