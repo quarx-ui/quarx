@@ -1,40 +1,40 @@
 import {
-    CounterProps,
-    DeepPartial,
+    BackdropProps,
     BadgeProps,
     BaseButtonProps,
+    Breakpoints,
     ButtonProps,
-    IconButtonProps,
-    LoaderProps,
     CheckboxProps,
-    SwitcherProps,
-    RadioButtonProps,
-    SelectionProps,
     CheckboxSelectionProps,
-    RadioButtonSelectionProps,
-    SwitcherSelectionProps,
-    Elevations,
-    Palette,
-    CreatePaletteArg,
+    CounterProps,
     CreateBreakpointsArg,
     CreateElevationArg,
-    Breakpoints,
-    Transitions,
+    CreatePaletteArg,
     CreateTransitionArg,
+    DeepPartial,
+    Elevations,
+    IconButtonProps,
     LinkProps,
-    TextFieldProps,
-    TabsProps,
-    TabsContainerProps,
-    TabsContainedProps,
-    TabItemContainedProps,
-    TabsDefaultProps,
-    TabItemDefaultProps,
-    TabsSegmentedProps,
-    TabItemSegmentedProps,
-    ModalProps,
-    ModalHeaderProps,
+    LoaderProps,
     ModalFooterProps,
-    BackdropProps,
+    ModalHeaderProps,
+    ModalProps,
+    Palette,
+    RadioButtonProps,
+    RadioButtonSelectionProps,
+    SelectionProps,
+    SwitcherProps,
+    SwitcherSelectionProps,
+    TabItemContainedProps,
+    TabItemDefaultProps,
+    TabItemSegmentedProps,
+    TabsContainedProps,
+    TabsContainerProps,
+    TabsDefaultProps,
+    TabsProps,
+    TabsSegmentedProps,
+    TextFieldProps,
+    Transitions,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
@@ -43,7 +43,9 @@ export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
 };
 
+/* Автогенерация! Не трогать. */
 export interface ComponentsProps {
+    Backdrop: BackdropProps;
     Badge: BadgeProps;
     BaseButton: BaseButtonProps;
     Button: ButtonProps;
@@ -53,6 +55,9 @@ export interface ComponentsProps {
     IconButton: IconButtonProps;
     Link: LinkProps;
     Loader: LoaderProps;
+    Modal: ModalProps;
+    ModalFooter: ModalFooterProps;
+    ModalHeader: ModalHeaderProps;
     RadioButton: RadioButtonProps;
     RadioButtonSelection: RadioButtonSelectionProps;
     Selection: SelectionProps;
@@ -67,10 +72,6 @@ export interface ComponentsProps {
     TabsDefault: TabsDefaultProps;
     TabsSegmented: TabsSegmentedProps;
     TextField: TextFieldProps;
-    Modal: ModalProps,
-    ModalHeader: ModalHeaderProps,
-    ModalFooter: ModalFooterProps,
-    Backdrop: BackdropProps,
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;
