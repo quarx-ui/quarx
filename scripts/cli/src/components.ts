@@ -1,7 +1,7 @@
 import * as ts from 'typescript';
+import { ImportDeclaration, ImportSpecifier, InterfaceDeclaration, SourceFile } from 'typescript';
 import * as path from 'path';
 import * as fs from 'fs';
-import { ImportDeclaration, ImportSpecifier, InterfaceDeclaration, SourceFile } from 'typescript';
 import { ComponentsProps } from '@core';
 import { componentLayout, indexLayout, typesLayout } from './componentLayouts/root';
 import { storybookLayout } from './componentLayouts/storybook';
@@ -121,10 +121,11 @@ const addComponentToComponentsProps = async ({
 
     if (!sourceFile) { return; }
 
+    const tabulation = '    ';
     const rootImport = '\'@core\'';
     const interfaceName = 'ComponentsProps';
     const propsName = `${componentName}Props`;
-    const nodes: ts.Node[] = [];
+    const nodes: string[] = [];
 
     const nodeHandler = (node: ts.Node): void => {
         // Добавить пропс в import.
@@ -145,18 +146,18 @@ const addComponentToComponentsProps = async ({
             initialImportSpecifiers.sort(sortNodesByPrint(printer, sourceFile));
             const uniqImports = <ImportSpecifier[]>uniqueNodesByPrint(initialImportSpecifiers, printer, sourceFile);
 
-            const importProps: ts.ImportDeclaration = factory?.createImportDeclaration(
-                node.decorators,
-                node.modifiers,
-                factory?.createImportClause(
-                    Boolean(node.importClause?.isTypeOnly),
-                    node.importClause?.name,
-                    factory?.createNamedImports(uniqImports),
-                ),
-                node.moduleSpecifier,
-                node.assertClause,
-            );
-            nodes.push(importProps);
+            const imports: string[] = uniqImports.reduce<string[]>((acc, namedImport) => {
+                if (!namedImport) { return acc; }
+                const line = `${tabulation}${namedImport.name.text},`;
+                return [...acc, line];
+            }, []);
+            const moduleSpecifier = (node as ImportDeclaration)?.moduleSpecifier?.getText(sourceFile);
+            const importPropsCode = [
+                'import {',
+                imports.join('\n'),
+                `} from ${moduleSpecifier};`,
+            ].join('\n');
+            nodes.push(importPropsCode);
             return;
         }
 
@@ -183,23 +184,22 @@ const addComponentToComponentsProps = async ({
                 node.heritageClauses,
                 <ts.TypeElement[]>uniqTypes,
             );
-            nodes.push(componentPropsInterface);
-            nodes.push(factory?.createIdentifier('\n'));
+            nodes.push(printer.printList(
+                ts.ListFormat.MultiLine,
+                factory?.createNodeArray([componentPropsInterface]),
+                sourceFile,
+            ));
             return;
         }
 
-        nodes.push(node);
+        nodes.push(node.getText(sourceFile));
         if (!isImport && !ts.isExportDeclaration(node)) {
-            nodes.push(factory?.createIdentifier('\n'));
+            nodes.push(factory?.createIdentifier('\n').getText(sourceFile));
         }
     };
     sourceFile.forEachChild(nodeHandler);
 
-    const code: string = printer.printList(
-        ts.ListFormat.MultiLine,
-        factory?.createNodeArray(nodes),
-        sourceFile,
-    );
+    const code: string = nodes.join('\n');
     fs.writeFileSync(typesPath, code);
     await runEslintAutoFix(typesPath);
 };
