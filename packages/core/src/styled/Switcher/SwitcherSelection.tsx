@@ -6,7 +6,7 @@ export const SwitcherSelection: FC<SwitcherSelectionProps> = forwardRef<HTMLDivE
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('SwitcherSelection', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('SwitcherSelection', initialProps);
     const {
         focused: externalFocus,
         switcherProps,
@@ -35,6 +35,7 @@ export const SwitcherSelection: FC<SwitcherSelectionProps> = forwardRef<HTMLDivE
     return (
         <Selection
             {...props}
+            {...styleProps}
             className={cn('root')}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}

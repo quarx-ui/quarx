@@ -16,7 +16,7 @@ export const TabItemContained: OverridableComponent<TabItemContainedPropsWithout
         initialProps: TabItemContainedProps<C>,
         ref: OverridableComponentRef<C>,
     ) => {
-        const { props, cn } = usePropsOverwrites('TabItemContained', initialProps);
+        const { props, cn, styleProps } = usePropsOverwrites('TabItemContained', initialProps);
 
         const {
             children,
@@ -27,7 +27,6 @@ export const TabItemContained: OverridableComponent<TabItemContainedPropsWithout
             borderRadius = QX_SIZE.medium,
             size = QX_SIZE.large,
             selected = false,
-            styles: externalStyles,
             ...restProps
         } = props;
 
@@ -38,7 +37,7 @@ export const TabItemContained: OverridableComponent<TabItemContainedPropsWithout
             selected,
         };
 
-        const styles = useStyles({ ...params, styles: externalStyles });
+        const styles = useStyles({ ...params, ...styleProps });
 
         return (
             <Component

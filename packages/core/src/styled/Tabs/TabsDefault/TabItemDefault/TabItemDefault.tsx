@@ -16,7 +16,7 @@ export const TabItemDefault: OverridableComponent<TabItemDefaultPropsWithoutHtml
         initialProps: TabItemDefaultProps<C>,
         ref: OverridableComponentRef<C>,
     ) => {
-        const { props, cn } = usePropsOverwrites('TabItemDefault', initialProps);
+        const { props, cn, styleProps } = usePropsOverwrites('TabItemDefault', initialProps);
 
         const {
             children,
@@ -26,13 +26,12 @@ export const TabItemDefault: OverridableComponent<TabItemDefaultPropsWithoutHtml
             line = TABS_LINES.down,
             size = QX_SIZE.large,
             selected = false,
-            styles: externalStyles,
             ...restProps
         } = props;
 
         const params = { size, line, selected };
 
-        const styles = useStyles({ ...params, styles: externalStyles });
+        const styles = useStyles({ ...params, ...styleProps });
 
         return (
             <Component

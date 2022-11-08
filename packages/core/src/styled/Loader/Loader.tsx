@@ -9,9 +9,8 @@ export const Loader: FC<LoaderProps> = forwardRef<HTMLDivElement, LoaderProps>((
     initialProps,
     ref,
 ) => {
-    const { cn, props } = usePropsOverwrites('Loader', initialProps);
+    const { cn, props, styleProps } = usePropsOverwrites('Loader', initialProps);
     const {
-        styles: externalStyles,
         size = 'large',
         twoDots,
         ...restProps
@@ -19,7 +18,7 @@ export const Loader: FC<LoaderProps> = forwardRef<HTMLDivElement, LoaderProps>((
 
     const params = { size };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     return (
         <div

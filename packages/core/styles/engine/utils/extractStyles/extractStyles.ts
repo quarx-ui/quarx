@@ -5,19 +5,25 @@ export function extractStyles<
     ClassKey extends string = string,
     CSSVars extends Record<string, string> = Record<string, string>
 >(
-    props: Required<Props>,
+    props: Props,
     theme: Theme,
-    styles: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props>,
+    styles?: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props>,
     vars?: CSSVars
 ): Partial<Styles<ClassKey>> {
+    if (!styles) {
+        return {};
+    }
+
+    const cssVars = vars ?? {};
+
     return typeof styles === 'function'
-        ? styles(theme, props, vars ?? {})
+        ? styles(theme, props as Required<Props>, cssVars)
         : Object
             .entries(styles ?? {})
             .reduce((acc, [key, style]) => ({
                 ...acc,
                 [key]: typeof style === 'function'
-                    ? style(theme, props, vars ?? {})
+                    ? style(theme, props, cssVars)
                     : style
             }), {} as Styles<ClassKey>);
 }

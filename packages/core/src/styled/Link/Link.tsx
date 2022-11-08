@@ -11,7 +11,7 @@ export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(
     initialProps: LinkProps<C>,
     ref: OverridableComponentRef<C>,
 ) => {
-    const { props, cn } = usePropsOverwrites('Link', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Link', initialProps);
 
     const {
         underline = 'always',
@@ -21,14 +21,13 @@ export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(
         leftItem,
         rightItem,
         children,
-        styles: externalStyles,
         component = 'a',
         ...restProps
     } = props;
 
     const params = { underline, color, size, disabled };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (props.hidden) {
         return null;

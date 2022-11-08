@@ -12,7 +12,7 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Button', initialProps, BUTTON_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('Button', initialProps, BUTTON_CSS_VARS);
 
     const {
         children,
@@ -21,8 +21,6 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
         leftIcon,
         rightIcon,
         LoaderProps,
-        cssVars,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -31,7 +29,7 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
         loading,
     };
 
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     return (
         <BaseButton
@@ -40,7 +38,6 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
             css={styles.root}
             size={size}
             loading={loading}
-            cssVars={cssVars}
             LoaderProps={{
                 twoDots: size === 'small' || size === 'xSmall',
                 size: 'base',

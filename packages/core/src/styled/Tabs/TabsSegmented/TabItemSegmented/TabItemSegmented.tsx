@@ -16,7 +16,7 @@ export const TabItemSegmented: OverridableComponent<TabItemSegmentedPropsWithout
         initialProps: TabItemSegmentedProps<C>,
         ref: OverridableComponentRef<C>,
     ) => {
-        const { props, cn } = usePropsOverwrites('TabItemSegmented', initialProps);
+        const { props, cn, styleProps } = usePropsOverwrites('TabItemSegmented', initialProps);
 
         const {
             children,
@@ -28,7 +28,6 @@ export const TabItemSegmented: OverridableComponent<TabItemSegmentedPropsWithout
             size = QX_SIZE.large,
             selected = false,
             icon = false,
-            styles: externalStyles,
             ...restProps
         } = props;
 
@@ -40,7 +39,7 @@ export const TabItemSegmented: OverridableComponent<TabItemSegmentedPropsWithout
             icon,
         };
 
-        const styles = useStyles({ ...params, styles: externalStyles });
+        const styles = useStyles({ ...params, ...styleProps });
 
         return (
             <Component

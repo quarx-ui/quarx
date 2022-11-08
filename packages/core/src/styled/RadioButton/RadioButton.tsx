@@ -11,11 +11,10 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('RadioButton', initialProps, RADIO_BUTTON_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('RadioButton', initialProps, RADIO_BUTTON_CSS_VARS);
     const {
         children,
         color = PALETTE_COLORS.brand,
-        styles: externalStyles,
         disableFocus = false,
         size = QX_SIZE.medium,
         disabled = false,
@@ -30,7 +29,6 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
         value,
         onMouseEnter,
         onMouseLeave,
-        cssVars,
         ...restProps
     } = props;
 
@@ -46,7 +44,7 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
         position,
     };
 
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (hidden) {
         return null;

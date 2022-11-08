@@ -11,7 +11,7 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('BaseButton', initialProps, BASE_BUTTON_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('BaseButton', initialProps, BASE_BUTTON_CSS_VARS);
     const {
         buttonType = 'button',
         children,
@@ -24,8 +24,6 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
         hidden = false,
         Loader: externalLoader,
         LoaderProps,
-        cssVars,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -37,7 +35,7 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
         disabled,
         loading,
     };
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (hidden) {
         return null;

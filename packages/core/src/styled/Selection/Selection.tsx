@@ -10,7 +10,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLDivElement, Selectio
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Selection', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Selection', initialProps);
     const {
         leftAdornment,
         rightAdornment,
@@ -18,7 +18,6 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLDivElement, Selectio
         subTitle,
         errorText,
         reverse = false,
-        styles: externalStyles,
         size = QX_SIZE.medium,
         hidden = false,
         disabled = false,
@@ -38,7 +37,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLDivElement, Selectio
         subShown: !!subTitle || !!errorText,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     const leftAdornmentCalc = reverse ? rightAdornment : leftAdornment;
     const rightAdornmentCalc = reverse ? leftAdornment : rightAdornment;

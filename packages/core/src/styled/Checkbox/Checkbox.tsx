@@ -26,11 +26,10 @@ export const Checkbox: FC<CheckboxProps> = forwardRef<HTMLLabelElement, Checkbox
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Checkbox', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Checkbox', initialProps);
     const {
         hover: externalHover,
         color = PALETTE_COLORS.brand,
-        styles: externalStyles,
         children,
         size = 'medium',
         disabled = false,
@@ -60,7 +59,7 @@ export const Checkbox: FC<CheckboxProps> = forwardRef<HTMLLabelElement, Checkbox
         indeterminate,
         disableFocus,
     };
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (hidden) {
         return null;

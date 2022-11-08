@@ -17,7 +17,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Badge', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Badge', initialProps);
 
     const {
         children,
@@ -29,7 +29,6 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
         leftItem,
         rightItem,
         counterProps,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -40,7 +39,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
         color,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     return (
         <div

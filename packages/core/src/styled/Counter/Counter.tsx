@@ -10,7 +10,7 @@ export const Counter = forwardRef<HTMLSpanElement, CounterProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Counter', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Counter', initialProps);
 
     const {
         size = 'large',
@@ -18,13 +18,12 @@ export const Counter = forwardRef<HTMLSpanElement, CounterProps>((
         color = 'brand',
         maxDigits = 2,
         children,
-        styles: externalStyles,
         hidden,
         ...restProps
     } = props;
 
     const params = { type, size, color };
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (maxDigits < 1 || hidden) {
         return null;

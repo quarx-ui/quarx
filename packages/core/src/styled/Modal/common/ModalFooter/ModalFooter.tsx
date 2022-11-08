@@ -11,14 +11,13 @@ export const ModalFooter: FC<ModalFooterProps> = forwardRef<HTMLDivElement, Moda
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('ModalFooter', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('ModalFooter', initialProps);
 
     const {
         size = QX_SIZE.medium,
         direction = MODAL_DIRECTION.vertical,
         buttons,
         children,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -27,10 +26,7 @@ export const ModalFooter: FC<ModalFooterProps> = forwardRef<HTMLDivElement, Moda
         direction,
     };
 
-    const styles = useStyles({
-        ...params,
-        styles: externalStyles,
-    });
+    const styles = useStyles({ ...params, ...styleProps });
 
     const commonButtonProps = useMemo(() => ({
         borderRadius: QX_BORDER_SIZE.medium,
