@@ -14,7 +14,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Modal', initialProps, MODAL_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('Modal', initialProps, MODAL_CSS_VARS);
 
     const {
         size = QX_SIZE.medium,
@@ -30,7 +30,6 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
         open = false,
         HeaderProps,
         FooterProps,
-        styles: externalStyles,
         keepMounted = false,
         TransitionProps,
         PortalProps,
@@ -43,7 +42,6 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
         children,
         disableBackdrop = false,
         scrollBehaviour = MODAL_SCROLL_BEHAVIOR.window,
-        cssVars,
         ...restProps
     } = useModalProps(props);
 
@@ -63,7 +61,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
         hasFooter,
     };
 
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     const contentRef = useRef(null);
 

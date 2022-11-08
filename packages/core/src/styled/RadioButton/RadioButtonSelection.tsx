@@ -10,7 +10,7 @@ RadioButtonSelectionProps
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('RadioButtonSelection', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('RadioButtonSelection', initialProps);
     const {
         disabled,
         size,
@@ -39,6 +39,7 @@ RadioButtonSelectionProps
     return (
         <Selection
             {...props}
+            {...styleProps}
             className={cn('root')}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}

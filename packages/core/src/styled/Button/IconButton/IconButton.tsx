@@ -11,14 +11,12 @@ export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, Ico
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('IconButton', initialProps, ICON_BUTTON_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('IconButton', initialProps, ICON_BUTTON_CSS_VARS);
     const {
         children,
         size = QX_SIZE.medium,
         loading = false,
         LoaderProps,
-        cssVars,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -27,7 +25,7 @@ export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, Ico
         loading,
     };
 
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     return (
         <BaseButton

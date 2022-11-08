@@ -20,9 +20,8 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
     initialProps,
     ref,
 ) => {
-    const { cn, props } = usePropsOverwrites('Chips', initialProps, CHIPS_CSS_VARS);
+    const { cn, props, styleProps } = usePropsOverwrites('Chips', initialProps, CHIPS_CSS_VARS);
     const {
-        styles: externalStyles,
         children,
         variant = CHIPS_VARIANT.input,
         active,
@@ -30,7 +29,6 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
         disabled,
         size = QX_SIZE.medium,
         disableFocus,
-        cssVars,
         leftIcon,
         leftIconColor,
         rightIcon,
@@ -86,7 +84,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
         rightIconExists,
     };
 
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (hidden) { return null; }
 

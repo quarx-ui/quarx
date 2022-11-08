@@ -18,7 +18,7 @@ export const Tabs = forwardRef(<T extends TabItem = TabItem>(
     initialProps: TabsProps<T>,
     ref: ForwardedRef<HTMLDivElement>,
 ) => {
-    const { props, cn } = usePropsOverwrites('Tabs', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Tabs', initialProps);
 
     const { type, ...restProps } = props;
 
@@ -29,6 +29,7 @@ export const Tabs = forwardRef(<T extends TabItem = TabItem>(
             ref={ref}
             className={cn('root')}
             {...restProps}
+            {...styleProps}
         />
     );
 });

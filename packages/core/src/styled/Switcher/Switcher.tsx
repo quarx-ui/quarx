@@ -9,9 +9,8 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('Switcher', initialProps, SWITCHER_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('Switcher', initialProps, SWITCHER_CSS_VARS);
     const {
-        styles: externalStyles,
         checked = false,
         size = QX_SIZE.medium,
         color = PALETTE_COLORS.brand,
@@ -29,7 +28,6 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
         onClick,
         onMouseLeave,
         onMouseEnter,
-        cssVars,
         ...restProps
     } = props;
 
@@ -44,7 +42,7 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
         hover: externalHover ?? hover,
         position,
     };
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (hidden) { return null; }
 

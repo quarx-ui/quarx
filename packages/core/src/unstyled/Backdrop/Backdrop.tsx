@@ -7,12 +7,11 @@ import { BackdropProps } from './types';
 import { useStyles } from './styles';
 
 export const Backdrop: FC<BackdropProps> = forwardRef<HTMLDivElement, BackdropProps>((initialProps, ref) => {
-    const { props, cn } = usePropsOverwrites('Backdrop', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('Backdrop', initialProps);
 
     const {
         invisible = false,
         children,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -20,7 +19,7 @@ export const Backdrop: FC<BackdropProps> = forwardRef<HTMLDivElement, BackdropPr
         invisible,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     return (
         <div

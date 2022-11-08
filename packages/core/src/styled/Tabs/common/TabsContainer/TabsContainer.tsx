@@ -10,18 +10,17 @@ export const TabsContainer = forwardRef<HTMLDivElement, TabsContainerProps>((
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('TabsContainer', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('TabsContainer', initialProps);
 
     const {
         children,
         scrollPosition = TABS_SCROLL_POSITIONS.none,
-        styles: externalStyles,
         ...restProps
     } = props;
 
     const params = { scrollPosition };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     return (
         <div

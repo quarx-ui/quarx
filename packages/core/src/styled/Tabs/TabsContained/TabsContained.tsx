@@ -16,6 +16,7 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
     const {
         props,
         cn,
+        styleProps,
     } = usePropsOverwrites('TabsContained', initialProps);
 
     const {
@@ -29,7 +30,6 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
 
         size = QX_SIZE.medium,
         color = PALETTE_COLORS.brand,
-        styles: externalStyles,
         borderRadius = QX_SIZE.medium,
         ...restProps
     } = props;
@@ -40,7 +40,7 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
         borderRadius,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     const {
         value,

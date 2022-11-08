@@ -17,6 +17,7 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
     const {
         props,
         cn,
+        styleProps,
     } = usePropsOverwrites('TabsDefault', initialProps);
 
     const {
@@ -30,7 +31,6 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
 
         size = QX_SIZE.medium,
         color = PALETTE_COLORS.brand,
-        styles: externalStyles,
         line = TABS_LINES.down,
         ...restProps
     } = props;
@@ -41,7 +41,7 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
         line,
     };
 
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     const {
         value,

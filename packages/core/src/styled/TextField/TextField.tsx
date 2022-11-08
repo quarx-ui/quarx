@@ -21,9 +21,8 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('TextField', initialProps, TEXT_FIELD_CSS_VARS);
+    const { props, cn, styleProps } = usePropsOverwrites('TextField', initialProps, TEXT_FIELD_CSS_VARS);
     const {
-        styles: externalStyles,
         size = QX_SIZE.medium,
         counter = false,
         error: externalError,
@@ -67,7 +66,6 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         inputProps,
         inputRef,
         bottomIsAbsolute = false,
-        cssVars,
         ...restProps
     } = props;
 
@@ -150,7 +148,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         bottomIsVisible,
     ]);
 
-    const styles = useStyles({ ...params, cssVars, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
 
     const setValue = useCallback((localValue: string) => {
         if (readOnly) { return; }

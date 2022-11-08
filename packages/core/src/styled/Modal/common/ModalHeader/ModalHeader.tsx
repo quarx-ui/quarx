@@ -12,7 +12,7 @@ export const ModalHeader: FC<ModalHeaderProps> = forwardRef<HTMLDivElement, Moda
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('ModalHeader', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('ModalHeader', initialProps);
 
     const {
         size = QX_SIZE.medium,
@@ -23,7 +23,6 @@ export const ModalHeader: FC<ModalHeaderProps> = forwardRef<HTMLDivElement, Moda
         CloseButtonProps,
         onClose,
         CloseButton,
-        styles: externalStyles,
         ...restProps
     } = props;
 
@@ -31,10 +30,7 @@ export const ModalHeader: FC<ModalHeaderProps> = forwardRef<HTMLDivElement, Moda
         size,
     };
 
-    const styles = useStyles({
-        ...params,
-        styles: externalStyles,
-    });
+    const styles = useStyles({ ...params, ...styleProps });
 
     if (!title && !subTitle && !children && disableCloseButton) {
         return null;

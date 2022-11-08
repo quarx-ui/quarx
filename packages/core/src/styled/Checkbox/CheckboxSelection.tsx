@@ -7,7 +7,7 @@ export const CheckboxSelection: FC<CheckboxSelectionProps> = forwardRef<HTMLDivE
     initialProps,
     ref,
 ) => {
-    const { props, cn } = usePropsOverwrites('CheckboxSelection', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('CheckboxSelection', initialProps);
     const {
         size,
         borderRadius,
@@ -37,6 +37,7 @@ export const CheckboxSelection: FC<CheckboxSelectionProps> = forwardRef<HTMLDivE
     return (
         <Selection
             {...props}
+            {...styleProps}
             className={cn('root')}
             focused={externalFocus ?? focus}
             onMouseEnter={mouseEnterHandler}
