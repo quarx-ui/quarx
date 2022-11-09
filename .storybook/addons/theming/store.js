@@ -5,13 +5,16 @@ const isThemeType = (theme) => (
 );
 
 const getLocallyStoredType = () => {
-    const theme = window.localStorage.getItem(ThemeAddonConstants.AddonID);
-    return isThemeType(theme) ? theme : ThemeAddonConstants.initialThemeAddonState;
+    let themeType = window.localStorage.getItem(ThemeAddonConstants.AddonID);
+    const isDarkSystemTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+    if (!themeType && isDarkSystemTheme) {
+        themeType = ThemeAddonConstants.ThemeTypes.dark
+    }
+
+    return isThemeType(themeType) ? themeType : ThemeAddonConstants.initialThemeAddonState;
 };
 
-const getLocallyStoredTheme = () => (
-    ThemeAddonConstants.StoryBookThemes[getLocallyStoredType()]
-);
+const getLocallyStoredTheme = () => ThemeAddonConstants.StoryBookThemes[getLocallyStoredType()];
 
 const isCurrentTheme = (theme) => {
     const currentTheme = getLocallyStoredType();

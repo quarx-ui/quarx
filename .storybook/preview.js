@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArgsTable, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
+import { ArgsTable, Primary, PRIMARY_STORY, Stories, Subtitle, Title, Description } from '@storybook/addon-docs';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import '../packages/core/styles/fonts/font-faces.css';
 import { addDecorator } from '@storybook/react'
@@ -34,6 +34,7 @@ export const parameters = {
         page: () => (
             <>
                 <Title/>
+                <Description />
                 <Primary/>
                 <Subtitle>Описание пропсов</Subtitle>
                 <ArgsTable story={PRIMARY_STORY} />

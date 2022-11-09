@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import { jsx, ThemeProvider } from '@emotion/react';
+import { jsx } from '@emotion/react';
 import React, { FC } from 'react';
 import { FRAME_ID, THEME_TYPES_ARR } from '@e2e/constants';
-import { borderRadii, createTheme, makeStyles } from '@kit';
+import { borderRadii, makeStyles, SystemBasedThemeProvider } from '@kit';
 import '@kit/styles/fonts/font-faces.css';
-import { ThemeContent } from '@e2e/public/ThemeWrapper';
+import { ThemeContent } from '@e2e/public/ThemeContent';
 
 export const useStyles = makeStyles({
     root: {
@@ -23,14 +23,9 @@ export const App: FC = () => {
     return (
         <div css={classes.root} id={FRAME_ID}>
             {THEME_TYPES_ARR.map((themeType) => (
-                <ThemeProvider
-                    theme={createTheme({
-                        palette: { type: themeType },
-                    })}
-                    key={themeType}
-                >
+                <SystemBasedThemeProvider themeType={themeType} disableCheckSystemTheme>
                     <ThemeContent themeType={themeType} />
-                </ThemeProvider>
+                </SystemBasedThemeProvider>
             ))}
         </div>
     );

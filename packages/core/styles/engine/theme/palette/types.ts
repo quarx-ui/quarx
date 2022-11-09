@@ -1,8 +1,8 @@
-import { DeepPartial, Values } from '@core';
+import { DeepPartial, PALETTE_TYPE, Values } from '@core';
 import { WithOverwrites } from '@core/styles/engine/theme/types';
 import { PALETTE_COLORS } from './constants';
 
-export type PaletteType = 'light' | 'dark';
+export type PaletteType = Values<typeof PALETTE_TYPE>;
 
 export type PaletteColor = Values<typeof PALETTE_COLORS>;
 

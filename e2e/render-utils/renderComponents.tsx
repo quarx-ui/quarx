@@ -11,6 +11,7 @@ export const renderComponents = (components: typeof COMPONENTS, themeType: Theme
         return (
             <React.Fragment key={path + themeType}>
                 <Route path={`${themeType}/${path}`} element={<Component />} />
+                <Route path={`${path}`} element={<Component />} />
                 <Route path={`${themeType}/${path}--:urlProps`} element={<Component />} />
             </React.Fragment>
         );
