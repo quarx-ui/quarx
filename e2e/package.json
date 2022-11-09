@@ -2,6 +2,7 @@
   "name": "e2e",
   "version": "0.0.1",
   "private": true,
+  "homepage": "/",
   "scripts": {
     "e2e:serve": "webpack-dev-server",
     "e2e:serve:o": "OPEN_IN_BROWSER=true webpack-dev-server",
