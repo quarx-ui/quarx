@@ -92,5 +92,6 @@ module.exports = {
         'jest/valid-title': ['warn', { ignoreTypeOfDescribeName: true }],
         'jest/no-done-callback': ['warn'],
         'jest/no-export': 0,
+        'react/require-default-props': 'off'
     },
 };

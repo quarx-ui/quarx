@@ -6,3 +6,4 @@ export * from './useEnhancedEffect';
 export * from './useForkRef';
 export * from './useEventCallback';
 export * from './useModalProps';
+export * from './useSystemTheme';

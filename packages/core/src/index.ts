@@ -16,3 +16,4 @@ export * from './unstyled/If';
 export * from './unstyled/Portal';
 export * from './unstyled/Switch';
 export * from './unstyled/Transition';
+export * from './unstyled/SystemBasedThemeProvider';
