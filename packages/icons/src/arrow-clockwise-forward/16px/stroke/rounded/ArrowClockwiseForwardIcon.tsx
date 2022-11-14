@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-export const ArrowClockwiseFrowardIcon = forwardRef<
+export const ArrowClockwiseForwardIcon = forwardRef<
 SVGSVGElement,
 JSX.IntrinsicElements['svg']
 >((props, ref) => (
