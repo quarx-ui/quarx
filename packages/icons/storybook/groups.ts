@@ -12,9 +12,9 @@ import { ArrowBottomCircleIcon as ArrowBottomCircle24pxFillRounded } from '../sr
 import { ArrowBottomCircleIcon as ArrowBottomCircle24pxFillSquare } from '../src/arrow-bottom-circle/24px/fill/square';
 import { ArrowClockwiseBackIcon as ArrowClockwiseBack24pxStrokeRounded } from '../src/arrow-clockwise-back/24px/stroke/rounded';
 import { ArrowClockwiseBackIcon as ArrowClockwiseBack24pxStrokeSquare } from '../src/arrow-clockwise-back/24px/stroke/square';
+import { ArrowClockwiseForwardIcon as ArrowClockwiseForward16pxStrokeRounded } from '../src/arrow-clockwise-forward/16px/stroke/rounded';
 import { ArrowClockwiseForwardIcon as ArrowClockwiseForward24pxStrokeRounded } from '../src/arrow-clockwise-forward/24px/stroke/rounded';
 import { ArrowClockwiseForwardIcon as ArrowClockwiseForward24pxStrokeSquare } from '../src/arrow-clockwise-forward/24px/stroke/square';
-import { ArrowClockwiseFrowardIcon as ArrowClockwiseFroward16pxStrokeRounded } from '../src/arrow-clockwise-froward/16px/stroke/rounded';
 import { ArrowDownIcon as ArrowDown16pxStrokeRounded } from '../src/arrow-down/16px/stroke/rounded';
 import { ArrowDownIcon as ArrowDown24pxStrokeRounded } from '../src/arrow-down/24px/stroke/rounded';
 import { ArrowDownIcon as ArrowDown24pxStrokeSquare } from '../src/arrow-down/24px/stroke/square';
@@ -156,7 +156,6 @@ import { ClockIcon as Clock24pxFillSquare } from '../src/clock/24px/fill/square'
 import { ClockIcon as Clock24pxStrokeRounded } from '../src/clock/24px/stroke/rounded';
 import { ClockIcon as Clock36pxFillRounded } from '../src/clock/36px/fill/rounded';
 import { ClockIcon as Clock36pxStrokeRounded } from '../src/clock/36px/stroke/rounded';
-import { ColumnChartIcon as ColumnChart36pxFillRounded } from '../src/column-chart/36px/fill/rounded';
 import { ConnectedRectanglesGearIcon as ConnectedRectanglesGear36pxFillRounded } from '../src/connected-rectangles-gear/36px/fill/rounded';
 import { ConnectedRectanglesIcon as ConnectedRectangles24pxStrokeRounded } from '../src/connected-rectangles/24px/stroke/rounded';
 import { CouponIcon as Coupon24pxStrokeRounded } from '../src/coupon/24px/stroke/rounded';
@@ -500,9 +499,9 @@ export const allIcons: Record<string, ComponentType> = {
     'arrow-bottom-circle/24px/fill/square': ArrowBottomCircle24pxFillSquare,
     'arrow-clockwise-back/24px/stroke/rounded': ArrowClockwiseBack24pxStrokeRounded,
     'arrow-clockwise-back/24px/stroke/square': ArrowClockwiseBack24pxStrokeSquare,
+    'arrow-clockwise-forward/16px/stroke/rounded': ArrowClockwiseForward16pxStrokeRounded,
     'arrow-clockwise-forward/24px/stroke/rounded': ArrowClockwiseForward24pxStrokeRounded,
     'arrow-clockwise-forward/24px/stroke/square': ArrowClockwiseForward24pxStrokeSquare,
-    'arrow-clockwise-froward/16px/stroke/rounded': ArrowClockwiseFroward16pxStrokeRounded,
     'arrow-down-square/24px/fill/rounded': ArrowDownSquare24pxFillRounded,
     'arrow-down/16px/stroke/rounded': ArrowDown16pxStrokeRounded,
     'arrow-down/24px/stroke/rounded': ArrowDown24pxStrokeRounded,
@@ -644,7 +643,6 @@ export const allIcons: Record<string, ComponentType> = {
     'clock/24px/stroke/rounded': Clock24pxStrokeRounded,
     'clock/36px/fill/rounded': Clock36pxFillRounded,
     'clock/36px/stroke/rounded': Clock36pxStrokeRounded,
-    'column-chart/36px/fill/rounded': ColumnChart36pxFillRounded,
     'connected-rectangles-gear/36px/fill/rounded': ConnectedRectanglesGear36pxFillRounded,
     'connected-rectangles/24px/stroke/rounded': ConnectedRectangles24pxStrokeRounded,
     'coupon/24px/stroke/rounded': Coupon24pxStrokeRounded,
@@ -1002,11 +1000,9 @@ export const groupByName: Record<string, string[]> = {
         '24px/stroke/square',
     ],
     'arrow-clockwise-forward': [
+        '16px/stroke/rounded',
         '24px/stroke/rounded',
         '24px/stroke/square',
-    ],
-    'arrow-clockwise-froward': [
-        '16px/stroke/rounded',
     ],
     'arrow-down': [
         '16px/stroke/rounded',
@@ -1266,9 +1262,6 @@ export const groupByName: Record<string, string[]> = {
     ],
     'clock-clockwise-arrow': [
         '24px/stroke/rounded',
-    ],
-    'column-chart': [
-        '36px/fill/rounded',
     ],
     'connected-rectangles': [
         '24px/stroke/rounded',
@@ -1891,7 +1884,7 @@ export const groupByName: Record<string, string[]> = {
 
 export const groupBySize: Record<string, string[]> = {
     '16px': [
-        'arrow-clockwise-froward/16px/stroke/rounded',
+        'arrow-clockwise-forward/16px/stroke/rounded',
         'arrow-down/16px/stroke/rounded',
         'arrow-left/16px/stroke/rounded',
         'arrow-right/16px/stroke/rounded',
@@ -2289,7 +2282,6 @@ export const groupBySize: Record<string, string[]> = {
         'circles-on-circle/36px/stroke/rounded',
         'clock/36px/fill/rounded',
         'clock/36px/stroke/rounded',
-        'column-chart/36px/fill/rounded',
         'connected-rectangles-gear/36px/fill/rounded',
         'cross-circle/36px/stroke/rounded',
         'document-csv/36px/fill/rounded',
