@@ -84,10 +84,18 @@ export const useStyles = makeStyles((
                 },
             }),
 
+            checked && {
+                [cssDisabledColor]: palette.disabled.bg,
+            },
+
             disabled && {
                 '&&': {
                     cursor: 'not-allowed',
                 },
+            },
+
+            !disableFocus && {
+                [cssFocusColor]: palette.border.focus.dark,
             },
         ],
 
@@ -98,8 +106,6 @@ export const useStyles = makeStyles((
             },
             !disableFocus && {
                 '&:focus-visible + .QxSwitcher-toggleContainer': {
-                    [cssFocusColor]: palette.border.focus.dark,
-
                     borderColor: 'transparent',
 
                     ...stylesWithFocus({
@@ -172,8 +178,6 @@ export const useStyles = makeStyles((
 
             disabled && checked && {
                 '&&': {
-                    [cssDisabledColor]: palette.disabled.bg,
-
                     backgroundColor: cssVar(cssDisabledColor),
                 },
             },

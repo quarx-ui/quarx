@@ -123,11 +123,10 @@ export const useStyles = makeStyles((
             }),
 
             !disabledOrLoading && {
+                [cssFocusColor]: isLight
+                    ? palette.border.focus.dark
+                    : palette.border.focus.light,
                 '&:focus-visible': {
-                    [cssFocusColor]: isLight
-                        ? palette.border.focus.dark
-                        : palette.border.focus.light,
-
                     borderColor: 'transparent',
 
                     ...stylesWithFocus({
@@ -137,8 +136,8 @@ export const useStyles = makeStyles((
             },
 
             type === 'contained' && color === 'secondary' && !disabledOrLoading && {
+                [cssFocusColor]: palette.border.focus.light,
                 '&:focus-visible': {
-                    [cssFocusColor]: palette.border.focus.light,
                     borderColor: cssVar(cssFocusColor),
                 },
             },

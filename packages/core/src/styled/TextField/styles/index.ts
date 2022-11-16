@@ -69,6 +69,8 @@ export const useStyles = makeStyles((
     return ({
         root: [
             {
+                [cssBorderShadowWidth]: '1px',
+
                 display: 'flex',
                 flexDirection: 'column',
                 backgroundColor: 'none',
@@ -76,6 +78,18 @@ export const useStyles = makeStyles((
                 color: palette.text.main,
                 width: 360,
                 position: 'relative',
+            },
+
+            colorBase !== 'secondary' && {
+                [cssOuterShadowWidth]: '3px',
+                [cssOuterShadowColor]: 'transparent',
+                [cssBorderShadowColor]: 'transparent',
+            },
+
+            colorBase === 'secondary' && {
+                [cssBorderShadowColor]: 'transparent',
+                [cssOuterShadowColor]: palette.border.secondary,
+                [cssOuterShadowWidth]: '1px',
             },
         ],
         field: [
@@ -88,11 +102,6 @@ export const useStyles = makeStyles((
                 borderRadius: borderRadii[borderRadius],
                 paddingLeft: 14,
                 paddingRight: 14,
-
-                [cssBorderShadowWidth]: '1px',
-                [cssOuterShadowWidth]: '3px',
-                [cssOuterShadowColor]: 'transparent',
-                [cssBorderShadowColor]: 'transparent',
                 boxShadow: shadow,
 
                 '&:hover': {
@@ -116,10 +125,6 @@ export const useStyles = makeStyles((
                 },
                 secondary: {
                     backgroundColor: palette.background.main,
-
-                    [cssBorderShadowColor]: 'transparent',
-                    [cssOuterShadowColor]: palette.border.secondary,
-                    [cssOuterShadowWidth]: '1px',
                 },
             }),
             paramsToCss(size)({
