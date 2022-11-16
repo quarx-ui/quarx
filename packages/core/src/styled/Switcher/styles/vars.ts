@@ -1,4 +1,4 @@
-import { CssVarKeys, getCssVarNames } from '@core';
+import { CssVarKeys, createCssVarNames } from '@core';
 
 export const switcherCssVarNames = [
     'cssFocusWidth',
@@ -16,6 +16,6 @@ export const switcherCssVarNames = [
     'cssToggleHeight',
 ] as const;
 
-export const SWITCHER_CSS_VARS = getCssVarNames(switcherCssVarNames);
+export const SWITCHER_CSS_VARS = createCssVarNames(switcherCssVarNames);
 
 export type SwitcherCSSVarKeys = CssVarKeys<typeof switcherCssVarNames>;

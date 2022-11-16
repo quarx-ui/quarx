@@ -1,4 +1,4 @@
-import { CssVarKeys, getCssVarNames } from '@core/utils/cssVars';
+import { CssVarKeys, createCssVarNames } from '@core/utils/cssVars';
 import { baseButtonCssVarNames } from '../../BaseButton';
 
 export const buttonCssVarNames = [
@@ -11,4 +11,4 @@ export const buttonCssVarNames = [
 
 export type ButtonCSSVarKeys = CssVarKeys<typeof buttonCssVarNames>
 
-export const BUTTON_CSS_VARS = getCssVarNames(buttonCssVarNames);
+export const BUTTON_CSS_VARS = createCssVarNames(buttonCssVarNames);

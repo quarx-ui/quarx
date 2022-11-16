@@ -1,4 +1,4 @@
-import { CssVarKeys, getCssVarNames } from '@core/utils/cssVars';
+import { CssVarKeys, createCssVarNames } from '@core/utils/cssVars';
 
 export const chipsCssVarNames = [
     'cssBorderWidth',
@@ -8,4 +8,4 @@ export const chipsCssVarNames = [
 
 export type ChipsCSSVarKeys = CssVarKeys<typeof chipsCssVarNames>
 
-export const CHIPS_CSS_VARS = getCssVarNames(chipsCssVarNames);
+export const CHIPS_CSS_VARS = createCssVarNames(chipsCssVarNames);

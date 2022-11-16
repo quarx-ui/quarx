@@ -1,4 +1,4 @@
-import { CssVarKeys, getCssVarNames } from '@core/utils';
+import { CssVarKeys, createCssVarNames } from '@core/utils';
 
 export const baseButtonCssVarNames = [
     'cssFocusColor',
@@ -8,6 +8,6 @@ export const baseButtonCssVarNames = [
     'cssPaddingY',
 ] as const;
 
-export const BASE_BUTTON_CSS_VARS = getCssVarNames(baseButtonCssVarNames);
+export const BASE_BUTTON_CSS_VARS = createCssVarNames(baseButtonCssVarNames);
 
 export type BaseButtonCSSVarKeys = CssVarKeys<typeof baseButtonCssVarNames>
