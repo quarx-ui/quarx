@@ -16,5 +16,5 @@ export const BASE_ARG_TYPES = defineCategory('Общие', {
         control: false,
         description: 'Объект с пользовательскими CSS-стилями для переопределения стандартных',
     },
-    ...excludeProp(['cssVars', 'className', 'ref']),
+    ...excludeProp(['className', 'ref']),
 });

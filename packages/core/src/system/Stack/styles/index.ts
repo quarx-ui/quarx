@@ -37,7 +37,7 @@ export const useStyles = makeStyles((
             },
         },
     });
-}, { name: 'QxStack' });
+});
 
 export type StackStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

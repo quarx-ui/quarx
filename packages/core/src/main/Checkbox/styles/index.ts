@@ -273,7 +273,7 @@ export const useStyles = makeStyles((
             }),
         ],
     });
-}, { name: 'QxCheckbox' });
+});
 
 export type CheckboxStyleKeys = KeysFromUseStyles<typeof useStyles>;
 

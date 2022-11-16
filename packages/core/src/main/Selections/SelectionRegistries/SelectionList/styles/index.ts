@@ -19,6 +19,6 @@ export const useStyles = makeStyles((
             [SELECTION_LIST_TYPE.contained]: {},
         }),
     },
-}), { name: 'QxSelectionList' });
+}));
 
 export type SelectionListStyleKeys = KeysFromUseStyles<typeof useStyles>;

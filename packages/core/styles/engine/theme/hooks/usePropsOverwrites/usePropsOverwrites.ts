@@ -44,6 +44,7 @@ export function usePropsOverwrites<
         UsePropsOverwritesPropsTypeCast<Props, StyleKey, CSSVarNames>,
         'classes' | 'className'
     >(props, ['classes', 'className']);
+    const qxName = `Qx${name}`;
 
     const {
         permissions,
@@ -58,17 +59,19 @@ export function usePropsOverwrites<
         ...(permissions ?? {}),
     }, ['cssVars', 'styles']);
     const mergedStyles = useStylesOverwritesWithoutTheme(typedProps, cssVarNames, overwrites, theme);
-    const { cn } = useBem(name, props);
+    const { cn } = useBem(qxName, props);
 
     const styleProps: StyleProps<StyleKey, CSSVarNames> = {
         cssVars: cssVarNames,
         styles: mergedStyles,
+        cssPrefix: qxName,
     };
 
     return {
         props: mergedProps as UsePropsOverwritesReturnType<Props, StyleKey, CSSVarNames>['props'],
         cn,
         name,
+        qxName,
         styleProps,
     };
 }

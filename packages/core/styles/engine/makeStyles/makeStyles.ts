@@ -30,11 +30,12 @@ export function makeStyles<
     : (props: Props & {
         styles?: Partial<StylesWithCallback<ClassKey, Props, CSSVars>> | StylesCallback<ClassKey, Props, CSSVars>,
         cssVars?: Partial<Record<CSSVars, string>>,
+        cssPrefix?: string,
     }) => StylesMap<ClassKey> {
     return (props?: any) => {
         const theme = useTheme();
-
-        const { name = 'makeStyles' } = options;
+        const { cssPrefix } = props ?? {};
+        const { name = cssPrefix ?? 'makeStyles' } = options;
 
         const stylesObject = typeof styles === 'function'
             ? styles(theme, props, props?.cssVars)
@@ -43,7 +44,9 @@ export function makeStyles<
 
         return Object.entries(stylesObject)
             .reduce((acc, [key, cssObject]) => {
-                acc[key as ClassKey] = css([cssObject as CSSObject, overwrites?.[key]], { label: `${name}-${key}` });
+                const label = `${name}-${key}`;
+
+                acc[key as ClassKey] = css([cssObject as CSSObject, overwrites?.[key]], { label });
                 return acc;
             }, {} as StylesMap<ClassKey>);
     };

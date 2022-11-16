@@ -16,7 +16,7 @@ export const useStyles = makeStyles((
             gap: 16,
         },
     },
-}), { name: 'QxSelectionTree' });
+}));
 
 export type SelectionTreeStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

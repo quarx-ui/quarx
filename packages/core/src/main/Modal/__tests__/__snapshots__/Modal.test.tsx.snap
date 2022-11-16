@@ -24,7 +24,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   >
     <div
       aria-hidden="true"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 0; visibility: hidden;"
     />
@@ -110,7 +110,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
@@ -213,7 +213,7 @@ exports[`Modal modal in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
@@ -327,7 +327,7 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
@@ -397,7 +397,7 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
@@ -467,7 +467,7 @@ exports[`Modal style params size medium 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
@@ -537,7 +537,7 @@ exports[`Modal style params size small 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />

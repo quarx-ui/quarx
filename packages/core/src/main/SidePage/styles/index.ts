@@ -22,7 +22,7 @@ export const useStyles = makeStyles(() => ({
     footerBlock: {
         marginTop: 'auto',
     },
-}), { name: 'QxSidePage' });
+}));
 
 export type SidePageStyleKeys = KeysFromUseStyles<typeof useStyles> | ModalStyleKeys;
 export * from './types';

@@ -79,7 +79,7 @@ export const useStyles = makeStyles((
             justifyContent: 'center',
         },
     });
-}, { name: 'QxLink' });
+});
 
 export type LinkStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

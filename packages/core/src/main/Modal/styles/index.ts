@@ -104,7 +104,7 @@ export const useStyles = makeStyles((
             paddingBottom: 0,
         },
     ],
-}), { name: 'QxModal' });
+}));
 
 export type ModalStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

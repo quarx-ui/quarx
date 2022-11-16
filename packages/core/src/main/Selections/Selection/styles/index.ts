@@ -158,7 +158,7 @@ export const useStyles = makeStyles((
                 : rightBoxSideIndent,
         ],
     });
-}, { name: 'QxSelection' });
+});
 
 export type SelectionStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

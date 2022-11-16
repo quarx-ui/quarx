@@ -194,7 +194,7 @@ export const useStyles = makeStyles((
             }),
         ],
     });
-}, { name: 'QxRadioButton' });
+});
 
 export type RadioButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
 

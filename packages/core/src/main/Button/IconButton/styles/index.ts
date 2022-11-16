@@ -37,7 +37,7 @@ export const useStyles = makeStyles((
         flexCenter,
         loading && hidden,
     ],
-}), { name: 'QxIconButton' });
+}));
 
 export type IconButtonStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './vars';

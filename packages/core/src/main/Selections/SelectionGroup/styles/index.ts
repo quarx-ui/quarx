@@ -75,6 +75,6 @@ export const useStyles = makeStyles((
             }),
         },
     });
-}, { name: 'QxSelectionGroup' });
+});
 
 export type SelectionGroupStyleKeys = KeysFromUseStyles<typeof useStyles>;

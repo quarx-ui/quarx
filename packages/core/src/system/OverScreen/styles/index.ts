@@ -64,7 +64,7 @@ export const useStyles = makeStyles((
             },
         }),
     ],
-}), { name: 'QxOverScreen' });
+}));
 
 export type OverScreenStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

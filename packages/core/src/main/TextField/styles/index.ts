@@ -483,7 +483,7 @@ export const useStyles = makeStyles((
         },
 
     });
-}, { name: 'QxTextField' });
+});
 
 export type TextFieldStyleKeys = KeysFromUseStyles<typeof useStyles>;
 

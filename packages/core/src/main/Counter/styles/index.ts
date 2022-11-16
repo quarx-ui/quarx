@@ -47,7 +47,7 @@ export const useStyles = makeStyles((
             }),
         },
     });
-}, { name: 'QxCounter' });
+});
 
 export type CounterStyleKeys = KeysFromUseStyles<typeof useStyles>
 

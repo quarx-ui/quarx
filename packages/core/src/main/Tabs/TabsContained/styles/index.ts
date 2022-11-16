@@ -35,7 +35,7 @@ export const useStyles = makeStyles((
         maxHeight: '100%',
         transition: transitions.create('left'),
     },
-}), { name: 'QxTabsContained' });
+}));
 
 export type TabsContainedStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabsContainedStyleParams };

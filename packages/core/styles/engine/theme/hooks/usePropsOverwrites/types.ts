@@ -11,6 +11,7 @@ export interface StyleProps<
 > {
     styles: Styles<StyleKey>;
     cssVars?: CSSVarNames;
+    cssPrefix?: string;
 }
 
 export type UsePropsOverwritesPropsType<
@@ -20,7 +21,10 @@ export type UsePropsOverwritesPropsType<
 > =
     & Props
     & UseBemPropsType<Props, StyleKey>
-    & { cssVars?: Partial<Record<keyof CSSVarNames, unknown>> }
+    & {
+        cssVars?: Partial<Record<keyof CSSVarNames, unknown>>;
+        cssPrefix?: string;
+    }
 
 export type UsePropsOverwritesPropsTypeCast<
     Props extends object,
@@ -39,5 +43,6 @@ export interface UsePropsOverwritesReturnType<
     props: Omit<Props, keyof StyleProps<StyleKey, CSSVars> | 'ref'> & Permissions;
     cn: TypedCnFormatter<StyleKey>;
     name: string;
+    qxName: string;
     styleProps: StyleProps<StyleKey, CSSVars>;
 }

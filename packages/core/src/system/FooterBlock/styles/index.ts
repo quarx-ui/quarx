@@ -36,7 +36,7 @@ export const useStyles = makeStyles((
             marginRight: 16,
         },
     },
-}), { name: 'QxFooterBlock' });
+}));
 
 export type FooterBlockStyleKeys = KeysFromUseStyles<typeof useStyles>
 export type { FooterBlockStyleParams };

@@ -65,7 +65,7 @@ export const useStyles = makeStyles((
             color: palette.colors[color].contrastText,
         } },
     ],
-}), { name: 'QxTabItemContained' });
+}));
 
 export type TabItemContainedStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabItemContainedStyleParams };

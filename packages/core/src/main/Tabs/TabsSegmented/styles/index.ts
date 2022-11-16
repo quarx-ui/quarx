@@ -46,7 +46,7 @@ export const useStyles = makeStyles((
         maxHeight: '100%',
         transition: transitions.create('left'),
     },
-}), { name: 'QxTabsSegmented' });
+}));
 
 export type TabsSegmentedStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabsSegmentedStyleParams };
