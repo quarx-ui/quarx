@@ -1,6 +1,7 @@
 import { capitalize, firstLetterToLowerCase } from './utils';
 
-export const stylesLayout = (componentName: string): string => `import {
+export const stylesLayout = (componentName: string): string => `\
+import {
     KeysFromUseStyles,
     makeStyles,
 } from '@core/styles';
@@ -25,7 +26,8 @@ export const stylesTypesLayout = (componentName: string): string => `export inte
 }
 `;
 
-export const stylesVarsLayout = (componentName: string): string => `import { CssVarKeys, getCssVarNames } from '@core/utils/cssVars';
+export const stylesVarsLayout = (componentName: string): string => `\
+import { CssVarKeys, createCssVarNames } from '@core/utils/cssVars';
 
 export const ${firstLetterToLowerCase(componentName)}CssVarNames = [
     'cssTestVar',
@@ -33,5 +35,5 @@ export const ${firstLetterToLowerCase(componentName)}CssVarNames = [
 
 export type ${componentName}CSSVarKeys = CssVarKeys<typeof ${firstLetterToLowerCase(componentName)}CssVarNames>
 
-export const ${capitalize(componentName)}_CSS_VARS = getCssVarNames(${firstLetterToLowerCase(componentName)}CssVarNames);
+export const ${capitalize(componentName)}_CSS_VARS = createCssVarNames(${firstLetterToLowerCase(componentName)}CssVarNames);
 `;
