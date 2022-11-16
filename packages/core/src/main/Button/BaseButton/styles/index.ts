@@ -204,7 +204,7 @@ export const useStyles = makeStyles((
             position: 'absolute',
         },
     });
-}, { name: 'QxBaseButton' });
+});
 
 export type BaseButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
 export * from './vars';

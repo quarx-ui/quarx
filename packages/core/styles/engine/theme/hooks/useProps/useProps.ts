@@ -24,6 +24,8 @@ export const usePropsWithoutTheme = <
         ...(permissions ?? {}),
     } as UsePropsReturn<Props>
 
+    const qxName = `Qx${name}`;
+
     const { cn } = useBem(name, props);
 
     const propsStyles = extractStyles(resolvedProps, theme, styles, cssVarNames);
@@ -31,12 +33,14 @@ export const usePropsWithoutTheme = <
     const styleProps = {
         cssVars: cssVarNames,
         styles: propsStyles,
+        cssPrefix: qxName,
     }
 
     return {
         props: resolvedProps,
         cn,
         name,
+        qxName,
         styleProps,
     }
 };

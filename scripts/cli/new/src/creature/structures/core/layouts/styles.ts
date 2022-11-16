@@ -17,7 +17,7 @@ export const useStyles = makeStyles((
     {}: Record<${componentName}CSSVarKeys, string>,
 ) => ({
     root: {},
-}), { name: 'Qx${componentName}' });
+}));
 
 export type ${componentName}StyleKeys = KeysFromUseStyles<typeof useStyles>;
 `;

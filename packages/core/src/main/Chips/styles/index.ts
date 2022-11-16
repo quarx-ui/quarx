@@ -199,7 +199,7 @@ export const useStyles = makeStyles((
             },
         },
     });
-}, { name: 'QxChips' });
+});
 
 export type ChipsStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

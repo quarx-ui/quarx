@@ -239,7 +239,7 @@ export const useStyles = makeStyles((
             }),
         ],
     };
-}, { name: 'QxSwitcher' });
+});
 
 export type SwitcherStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

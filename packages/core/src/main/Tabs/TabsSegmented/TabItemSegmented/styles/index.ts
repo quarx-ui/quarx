@@ -84,7 +84,7 @@ export const useStyles = makeStyles((
             color: palette.text.secondary,
         } },
     ],
-}), { name: 'QxTabItemSegmented' });
+}));
 
 export type TabItemSegmentedStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabItemSegmentedStyleParams };

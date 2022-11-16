@@ -21,4 +21,9 @@ export const mergeStyles = <StyleKey extends string>(
         ...mergedStyles,
         root,
     };
-}
+};
+
+export const unifyClassName = (value: string) =>
+    Array
+        .from(new Set(value.split(' ')))
+        .join(' ');

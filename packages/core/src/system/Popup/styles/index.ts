@@ -29,6 +29,6 @@ export const useStyles = makeStyles((
             top: 0,
         },
     },
-}), { name: 'QxPopup' });
+}));
 
 export type PopupStyleKeys = KeysFromUseStyles<typeof useStyles>;

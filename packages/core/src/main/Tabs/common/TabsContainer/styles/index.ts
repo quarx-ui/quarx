@@ -57,7 +57,7 @@ export const useStyles = makeStyles((
             },
         }),
     ],
-}), { name: 'QxTabsContainer' });
+}));
 
 export type TabsContainerStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabsContainerStyleParams };

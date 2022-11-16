@@ -64,7 +64,7 @@ export const useStyles = makeStyles((
             },
         }),
     });
-}, { name: 'QxLoader' });
+});
 
 export type LoaderStyleKeys = KeysFromUseStyles<typeof useStyles>;
 

@@ -39,7 +39,7 @@ export const useStyles = makeStyles((
         marginLeft: 8,
         color: palette.colors.secondary.default,
     },
-}), { name: 'QxHeaderBlock' });
+}));
 
 export type HeaderBlockStyleKeys = KeysFromUseStyles<typeof useStyles>
 export type { HeaderBlockStyleParams };

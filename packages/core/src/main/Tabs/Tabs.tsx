@@ -27,7 +27,7 @@ export const Tabs = forwardRef(<T extends TabItem = TabItem>(
             ref={ref}
             className={cn('root')}
             {...restProps}
-            {...styleProps}
+            styles={styleProps.styles}
         />
     );
 });

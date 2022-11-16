@@ -84,7 +84,7 @@ export const useStyles = makeStyles((
             marginRight: `var(${cssItemOutsideMargin})`,
         },
     });
-}, { name: 'QxBadge' });
+});
 
 export type BadgeStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';

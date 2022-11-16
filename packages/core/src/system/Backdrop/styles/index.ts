@@ -18,7 +18,7 @@ export const useStyles = makeStyles((
             backgroundColor: 'transparent',
         },
     ],
-}), { name: 'SxBackdrop' });
+}));
 
 export type BackdropStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { BackdropStyleParams };

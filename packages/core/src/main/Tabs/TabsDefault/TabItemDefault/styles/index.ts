@@ -103,7 +103,7 @@ export const useStyles = makeStyles((
             },
         }),
     ],
-}), { name: 'QxTabItemDefault' });
+}));
 
 export type TabItemDefaultStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabItemDefaultStyleParams };

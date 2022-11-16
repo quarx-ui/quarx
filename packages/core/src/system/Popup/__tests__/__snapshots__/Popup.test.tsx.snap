@@ -5,7 +5,7 @@ exports[`Popup tests disablePortal 1`] = `
   <div>
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-y8cyc-QxBackdrop-root"
       data-component="QxBackdrop"
       style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
@@ -23,7 +23,7 @@ exports[`Popup tests style params disableBackdrop false 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="false"
-    class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    class="QxBackdrop css-y8cyc-QxBackdrop-root"
     data-component="QxBackdrop"
     style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
   >

@@ -45,7 +45,7 @@ export const useStyles = makeStyles((
             },
         }),
     },
-}), { name: 'QxTabsDefault' });
+}));
 
 export type TabsDefaultStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export type { TabsDefaultStyleParams };

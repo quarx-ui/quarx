@@ -69,7 +69,7 @@ export const useStyles = makeStyles((
         flexCenter,
         loading && hidden,
     ],
-}), { name: 'QxButton' });
+}));
 
 export type ButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
 export * from './vars';
