@@ -1,4 +1,4 @@
-import { CssVarKeys, getCssVarNames } from '@core';
+import { CssVarKeys, createCssVarNames } from '@core';
 
 export const radioButtonCssVarNames = [
     'cssFocusColor',
@@ -11,6 +11,6 @@ export const radioButtonCssVarNames = [
     'cssContentMargin',
 ] as const;
 
-export const RADIO_BUTTON_CSS_VARS = getCssVarNames(radioButtonCssVarNames);
+export const RADIO_BUTTON_CSS_VARS = createCssVarNames(radioButtonCssVarNames);
 
 export type RadioButtonCSSVarKeys = CssVarKeys<typeof radioButtonCssVarNames>;

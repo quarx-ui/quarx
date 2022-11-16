@@ -1,4 +1,4 @@
-import { CssVarKeys, getCssVarNames } from '@core/utils/cssVars';
+import { CssVarKeys, createCssVarNames } from '@core/utils/cssVars';
 
 export const textFieldCssVarNames = [
     'cssBorderShadowColor',
@@ -9,4 +9,4 @@ export const textFieldCssVarNames = [
 
 export type TextFieldCSSVarKeys = CssVarKeys<typeof textFieldCssVarNames>
 
-export const TEXT_FIELD_CSS_VARS = getCssVarNames(textFieldCssVarNames);
+export const TEXT_FIELD_CSS_VARS = createCssVarNames(textFieldCssVarNames);

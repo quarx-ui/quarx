@@ -3,13 +3,13 @@ export type CssVarType = `css${string}`
 /** Функция генерации CSS-переменной по ее названию
  * @param cssVar название переменной в формате cssNameOfVariable
  *
- * @return возвращает строку в формате --name-of-variable */
-export const getCssVarName = (cssVar: CssVarType) => {
+ * @return возвращает строку в формате --qx-name-of-variable */
+export const createCssVarName = (cssVar: CssVarType) => {
     const splitVar = cssVar
         .match(/[A-Z][a-z]*/g)
         ?.map((el) => el.toLowerCase());
 
-    return `--${splitVar?.join('-')}`;
+    return `--qx-${splitVar?.join('-')}`;
 };
 
 /** Функция генерации объекта с CSS-переменными по массиву с названиями
@@ -17,14 +17,14 @@ export const getCssVarName = (cssVar: CssVarType) => {
  *
  * @return возвращает объект в формате
  * {
- *     cssNameOfVariable: '--name-of-variable',
- *     cssSecondNameOfVariable: '--second-name-of-variable',
+ *     cssNameOfVariable: '--qx-name-of-variable',
+ *     cssSecondNameOfVariable: '--qx-second-name-of-variable',
  * }
  * */
-export const getCssVarNames = <T extends CssVarType>(cssVars: readonly T[]) => cssVars
+export const createCssVarNames = <T extends CssVarType>(cssVars: readonly T[]) => cssVars
     .reduce((acc, el) => ({
         ...acc,
-        [el]: getCssVarName(el),
+        [el]: createCssVarName(el),
     }), {} as Record<T, string>);
 
 export type CssVarKeys<T extends readonly CssVarType[]> = T[number]
