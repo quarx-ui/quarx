@@ -9,7 +9,7 @@ exports[`RadioButtonSelection default snapshot 1`] = `
       class="QxSelection-leftAdornment css-1xv7td9-QxSelection-leftAdornment"
     >
       <label
-        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_position_left css-144omum-QxRadioButton-root"
+        class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
       >
         <input
           class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -17,10 +17,10 @@ exports[`RadioButtonSelection default snapshot 1`] = `
           value=""
         />
         <div
-          class="QxRadioButton-marker css-n013xa-QxRadioButton-marker"
+          class="QxRadioButton-marker css-18eyicf-QxRadioButton-marker"
         >
           <div
-            class="QxRadioButton-markerDot css-1cuw3c2-QxRadioButton-markerDot"
+            class="QxRadioButton-markerDot css-4d8hk0-QxRadioButton-markerDot"
           />
         </div>
       </label>

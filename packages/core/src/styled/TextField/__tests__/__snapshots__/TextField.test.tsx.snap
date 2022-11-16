@@ -3,10 +3,10 @@
 exports[`TextField icons should be in document 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_rightItemIsExist QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_rightItemIsExist QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-leftItem QxTextField-sideItem css-1dhcwki-QxTextField-leftItem-QxTextField-sideItem"
@@ -92,11 +92,11 @@ exports[`TextField icons should be in document 1`] = `
 exports[`TextField style params borderRadius large 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_large QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_large QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-borderRadius-large"
   >
     <div
-      class="QxTextField-field css-je21jy-QxTextField-field"
+      class="QxTextField-field css-72umer-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -147,11 +147,11 @@ exports[`TextField style params borderRadius large 1`] = `
 exports[`TextField style params borderRadius medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-borderRadius-medium"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -202,11 +202,11 @@ exports[`TextField style params borderRadius medium 1`] = `
 exports[`TextField style params borderRadius small 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_small QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_small QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-borderRadius-small"
   >
     <div
-      class="QxTextField-field css-18yxevj-QxTextField-field"
+      class="QxTextField-field css-1etkajk-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -257,11 +257,11 @@ exports[`TextField style params borderRadius small 1`] = `
 exports[`TextField style params borderRadius xLarge 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_xLarge QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_xLarge QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-borderRadius-xLarge"
   >
     <div
-      class="QxTextField-field css-pvzldq-QxTextField-field"
+      class="QxTextField-field css-haq8xt-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -312,11 +312,11 @@ exports[`TextField style params borderRadius xLarge 1`] = `
 exports[`TextField style params borderRadius xSmall 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_xSmall QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_xSmall QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-borderRadius-xSmall"
   >
     <div
-      class="QxTextField-field css-1lv3pd9-QxTextField-field"
+      class="QxTextField-field css-yon1iz-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -367,11 +367,11 @@ exports[`TextField style params borderRadius xSmall 1`] = `
 exports[`TextField style params clearIconVisibleOn always 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_always QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_always QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-clearIconVisibleOn-always"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -422,11 +422,11 @@ exports[`TextField style params clearIconVisibleOn always 1`] = `
 exports[`TextField style params clearIconVisibleOn interact 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-clearIconVisibleOn-interact"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -477,11 +477,11 @@ exports[`TextField style params clearIconVisibleOn interact 1`] = `
 exports[`TextField style params clearIconVisibleOn none 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_none QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_none QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-clearIconVisibleOn-none"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -512,11 +512,11 @@ exports[`TextField style params clearIconVisibleOn none 1`] = `
 exports[`TextField style params colorBase main 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-colorBase-main"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -567,11 +567,11 @@ exports[`TextField style params colorBase main 1`] = `
 exports[`TextField style params colorBase secondary 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1m20bdl-QxTextField-root"
     data-testid="testStyleParams-colorBase-secondary"
   >
     <div
-      class="QxTextField-field css-f0q36r-QxTextField-field"
+      class="QxTextField-field css-yddrwj-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -622,11 +622,11 @@ exports[`TextField style params colorBase secondary 1`] = `
 exports[`TextField style params disableHoverStyles false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-disableHoverStyles-false"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -677,11 +677,11 @@ exports[`TextField style params disableHoverStyles false 1`] = `
 exports[`TextField style params disableHoverStyles true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableHoverStyles QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableHoverStyles QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-disableHoverStyles-true"
   >
     <div
-      class="QxTextField-field css-ha63iw-QxTextField-field"
+      class="QxTextField-field css-4zs2k0-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -732,11 +732,11 @@ exports[`TextField style params disableHoverStyles true 1`] = `
 exports[`TextField style params disableLabel false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-disableLabel-false"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -787,11 +787,11 @@ exports[`TextField style params disableLabel false 1`] = `
 exports[`TextField style params disableLabel true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-disableLabel-true"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1ij3rlk-QxTextField-content"
@@ -837,11 +837,11 @@ exports[`TextField style params disableLabel true 1`] = `
 exports[`TextField style params error false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-error-false"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -892,11 +892,11 @@ exports[`TextField style params error false 1`] = `
 exports[`TextField style params error true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_error QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_error QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-error-true"
   >
     <div
-      class="QxTextField-field css-82ot8y-QxTextField-field"
+      class="QxTextField-field css-1f4gm47-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -947,11 +947,11 @@ exports[`TextField style params error true 1`] = `
 exports[`TextField style params filled false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-filled-false"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -1002,11 +1002,11 @@ exports[`TextField style params filled false 1`] = `
 exports[`TextField style params filled true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-filled-true"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -1057,11 +1057,11 @@ exports[`TextField style params filled true 1`] = `
 exports[`TextField style params focused false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-focused-false"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -1112,11 +1112,11 @@ exports[`TextField style params focused false 1`] = `
 exports[`TextField style params focused true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_focused QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_focused QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-focused-true"
   >
     <div
-      class="QxTextField-field css-1vq0266-QxTextField-field"
+      class="QxTextField-field css-23w44z-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -1167,11 +1167,11 @@ exports[`TextField style params focused true 1`] = `
 exports[`TextField style params loading false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-loading-false"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -1222,11 +1222,11 @@ exports[`TextField style params loading false 1`] = `
 exports[`TextField style params loading true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_loading QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_loading QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-loading-true"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-wnmlwb-QxTextField-content"
@@ -1291,11 +1291,11 @@ exports[`TextField style params loading true 1`] = `
 exports[`TextField style params size large 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-size-large"
   >
     <div
-      class="QxTextField-field css-lko50v-QxTextField-field"
+      class="QxTextField-field css-1fjhmyp-QxTextField-field"
     >
       <div
         class="QxTextField-content css-3mewg0-QxTextField-content"
@@ -1346,11 +1346,11 @@ exports[`TextField style params size large 1`] = `
 exports[`TextField style params size medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-size-medium"
   >
     <div
-      class="QxTextField-field css-1er6duv-QxTextField-field"
+      class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1s7oxrw-QxTextField-content"
@@ -1401,7 +1401,7 @@ exports[`TextField style params size medium 1`] = `
 exports[`TextField style params size small 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1s2ntou-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
     data-testid="testStyleParams-size-small"
   >
     <div
@@ -1410,7 +1410,7 @@ exports[`TextField style params size small 1`] = `
       Text Field
     </div>
     <div
-      class="QxTextField-field css-qytbem-QxTextField-field"
+      class="QxTextField-field css-1f59ey-QxTextField-field"
     >
       <div
         class="QxTextField-content css-zlhfwa-QxTextField-content"
