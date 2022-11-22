@@ -1,6 +1,5 @@
-import { PaletteColor, Values } from '@core';
+import { PaletteColor, PickQxSize, Values } from '@core';
 import { SWITCHER_POSITION } from '@quarx-ui/core/src/styled/Switcher/constants';
-import { SelectionSize } from '@quarx-ui/core/src/styled/Selection/types';
 
 export type SwitcherPositionType = Values<typeof SWITCHER_POSITION>;
 
@@ -9,7 +8,7 @@ export interface SwitcherStyleParams {
     hover: boolean,
 
     /** Размер компонента */
-    size: SelectionSize,
+    size: PickQxSize<'small' | 'medium' | 'large'>,
 
     /** Цвет компонента */
     color?: PaletteColor

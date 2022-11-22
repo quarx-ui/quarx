@@ -5,7 +5,7 @@ import { transitions, usePropsOverwrites } from '@core/styles';
 import { QX_SIZE } from '@core/enums';
 import { CheckMarkIcon, ClosingIcon, TriangleIcon } from '@core/src/styled/Chips/assets';
 import { SwitchTransition } from 'react-transition-group';
-import { If, Transition } from '@core';
+import { focusable, If, Transition } from '@core';
 import { useId } from '@core/utils';
 import { CHIPS_VARIANT } from './constants';
 import { ChipsProps } from './types';
@@ -93,6 +93,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
             ref={ref}
             type="button"
             className={cn('root', params)}
+            tabIndex={focusable(!disableFocus)}
             css={styles.root}
             disabled={disabled}
             {...restProps}

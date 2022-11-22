@@ -5,7 +5,6 @@ import {
     Breakpoints,
     ButtonProps,
     CheckboxProps,
-    CheckboxSelectionProps,
     ChipsProps,
     CounterProps,
     CreateBreakpointsArg,
@@ -22,10 +21,9 @@ import {
     ModalProps,
     Palette,
     RadioButtonProps,
-    RadioButtonSelectionProps,
     SelectionProps,
+    SelectionGroupProps,
     SwitcherProps,
-    SwitcherSelectionProps,
     TabItemContainedProps,
     TabItemDefaultProps,
     TabItemSegmentedProps,
@@ -51,7 +49,6 @@ export interface ComponentsProps {
     BaseButton: BaseButtonProps;
     Button: ButtonProps;
     Checkbox: CheckboxProps;
-    CheckboxSelection: CheckboxSelectionProps;
     Chips: ChipsProps;
     Counter: CounterProps;
     IconButton: IconButtonProps;
@@ -61,10 +58,9 @@ export interface ComponentsProps {
     ModalFooter: ModalFooterProps;
     ModalHeader: ModalHeaderProps;
     RadioButton: RadioButtonProps;
-    RadioButtonSelection: RadioButtonSelectionProps;
     Selection: SelectionProps;
+    SelectionGroup: SelectionGroupProps;
     Switcher: SwitcherProps;
-    SwitcherSelection: SwitcherSelectionProps;
     TabItemContained: TabItemContainedProps;
     TabItemDefault: TabItemDefaultProps;
     TabItemSegmented: TabItemSegmentedProps;

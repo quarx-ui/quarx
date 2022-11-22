@@ -1,12 +1,11 @@
-import { KeysFromUseStyles, makeStyles, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, QX_BORDER_SIZE, typography } from '@core';
 import { keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { PALETTE_COLORS } from '@core/styles';
-import { SelectionSize } from '@quarx-ui/core/src/styled/Selection/styles';
-import { CheckboxStyleParams } from './types';
+import { CheckboxSize, CheckboxStyleParams } from './types';
 
 const CheckMarkOffset: Record<
-SelectionSize,
+CheckboxSize,
 Record<'base' | 'brandColor', number>
 > = {
     small: {
@@ -122,7 +121,7 @@ export const useStyles = makeStyles((
                 },
             }),
             paramsToCss(borderRadius, size)({
-                square: {
+                [QX_BORDER_SIZE.max]: {
                     small: {
                         borderRadius: 4,
                     },
@@ -133,7 +132,7 @@ export const useStyles = makeStyles((
                         borderRadius: 4,
                     },
                 },
-                smooth: {
+                [QX_BORDER_SIZE.medium]: {
                     small: {
                         borderRadius: 4,
                     },

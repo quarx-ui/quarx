@@ -2,6 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { usePropsOverwrites, PALETTE_COLORS } from '@core/styles';
+import { focusable } from '@core/utils';
 import { useStyles } from './styles';
 import { CheckboxProps } from './types';
 import { CheckIconSmall, CheckIconMedium, CheckIconLarge } from './assets';
@@ -34,7 +35,7 @@ export const Checkbox: FC<CheckboxProps> = forwardRef<HTMLLabelElement, Checkbox
         size = 'medium',
         disabled = false,
         checked = false,
-        borderRadius = 'smooth',
+        borderRadius = 'medium',
         indeterminate = false,
         hidden = false,
         inputRef,
@@ -91,6 +92,7 @@ export const Checkbox: FC<CheckboxProps> = forwardRef<HTMLLabelElement, Checkbox
                 checked={checked}
                 type="checkbox"
                 disabled={disabled}
+                tabIndex={focusable(!disableFocus)}
                 name={name}
                 value={value}
                 onChange={onChange}

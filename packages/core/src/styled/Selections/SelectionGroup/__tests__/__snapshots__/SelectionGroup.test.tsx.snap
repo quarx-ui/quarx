@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selection style params color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-color-brand"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_danger QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-color-danger"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params color info 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_info QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-color-info"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_secondary QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-color-secondary"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params color success 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_success QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-color-success"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_warning QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-color-warning"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_large QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-size-large"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-size-medium"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_small QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-size-small"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params type contained 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_contained css-1repv7g-QxSelectionGroup-root"
+    data-testid="testStyleParams-type-contained"
+  />
+</DocumentFragment>
+`;
+
+exports[`Selection style params type text 1`] = `
+<DocumentFragment>
+  <div
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
+    data-testid="testStyleParams-type-text"
+  />
+</DocumentFragment>
+`;

@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { QX_SIZE } from '@core/enums';
-import { PALETTE_COLORS, usePropsOverwrites } from '@core';
+import { focusable, PALETTE_COLORS, usePropsOverwrites } from '@core';
 import { RADIO_BUTTON_POSITION } from './constants';
 import { RADIO_BUTTON_CSS_VARS, useStyles } from './styles';
 import { RadioButtonProps } from './types';
@@ -83,6 +83,7 @@ export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Rad
                 name={name}
                 value={value}
                 className={cn('input')}
+                tabIndex={focusable(!disableFocus)}
                 css={styles.input}
                 disabled={disabled}
                 checked={checked}

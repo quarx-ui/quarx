@@ -1,6 +1,5 @@
 import { BaseProps, ComponentPropsWithHTML } from '@core/types';
 import { ChangeEventHandler, RefObject } from 'react';
-import { SelectionProps } from '@core/src';
 import { WithClassesAndStyles } from '@core/styles';
 import { CheckboxStyleKeys, CheckboxStyleParams } from './styles';
 
@@ -29,13 +28,5 @@ export interface CheckboxPropsWithoutHtml extends
 }
 
 export type CheckboxProps = ComponentPropsWithHTML<CheckboxPropsWithoutHtml, 'label'>;
-
-export interface CheckboxSelectionProps extends
-    SelectionProps,
-    Pick<CheckboxProps, 'checked'>
-{
-    /** Объект с параметрами для компонента `checkbox` */
-    checkboxProps?: CheckboxProps,
-}
 
 export * from './styles/types';

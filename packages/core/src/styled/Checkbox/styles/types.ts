@@ -1,28 +1,30 @@
-import { SelectionBorderRadius, SelectionSize } from '@quarx-ui/core/src/styled/Selection/types';
+import { PickQxBorderSize, PickQxSize } from '@core';
 import { PaletteColor } from '@core/styles';
+
+export type CheckboxSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface CheckboxStyleParams {
     /** Состояние наведения */
-    hover: boolean,
+    hover: boolean;
 
     /** Цвет компонента */
-    color?: PaletteColor
+    color?: PaletteColor;
 
     /** Размер компонента */
-    size: SelectionSize,
+    size: CheckboxSize;
 
     /** Скругление компонента */
-    borderRadius: SelectionBorderRadius,
+    borderRadius: PickQxBorderSize<'medium' | 'max'>;
 
     /** Состояние компонента */
-    checked: boolean,
+    checked: boolean;
 
     /** Отключение возможности фокуса */
-    disableFocus: boolean,
+    disableFocus: boolean;
 
     /** Изменяет состояние компонента на активное/неактивное */
-    disabled: boolean,
+    disabled: boolean;
 
     /** Состояние неопределенности (неполный выбор) */
-    indeterminate: boolean,
+    indeterminate: boolean;
 }
