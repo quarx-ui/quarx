@@ -31,7 +31,7 @@ describe('Modal', () => {
             scrollBehaviour: 'window',
         },
         { open: true },
-        { capture: 'body' },
+        { capture: 'body', qxClassname: 'QxModal' },
     )({
         size: ['small', 'medium'],
         scrollBehaviour: ['body', 'window'],
@@ -69,7 +69,9 @@ describe('Modal', () => {
             title="Title"
             subTitle="SubTitle"
             body="Body"
-            keepMounted
+            OverScreenProps={{
+                keepMounted: true,
+            }}
         />);
 
         const button = screen.getByTestId(buttonTestId);

@@ -1,19 +1,21 @@
 import { Values } from '@core/types';
-import { MODAL_SCROLL_BEHAVIOR } from '../common/constants';
-import { BaseModalStyleParams } from '../common';
+import { PickQxSize } from '@core/enums';
+import { MODAL_SCROLL_BEHAVIOR } from '../constants';
 
+export type ModalSize = PickQxSize<'small' | 'medium'>
 export type ModalScrollBehavior = Values<typeof MODAL_SCROLL_BEHAVIOR>
 
 export interface OmittedModalStyleParams {
-    hasChildren: boolean,
     hasHeader: boolean,
     hasFooter: boolean,
 }
 
-export interface ModalStyleParams extends
-    BaseModalStyleParams,
-    OmittedModalStyleParams
-{
+export interface ModalStyleParams extends OmittedModalStyleParams {
+    /** Размер компонента
+     *
+     * @default medium */
+    size: ModalSize,
+
     /** Поведение при вертикальном переполнении компонента
      * @property window Компонент расширяется вместе с контентом
      * @property body Компонент расширяется до границ контейнера, а у контента появляется скролл

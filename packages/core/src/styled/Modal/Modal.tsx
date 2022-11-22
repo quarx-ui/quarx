@@ -2,11 +2,9 @@
 import { jsx } from '@emotion/react';
 import React, { forwardRef, useRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
-import { Portal, QX_SIZE, Transition, useEnhancedEffect } from '@core';
-import { Backdrop } from '@core/src';
-import { limitHeightByRows, useModalProps } from '@core/utils';
-import { MODAL_SCROLL_BEHAVIOR } from '@core/src/styled/Modal/common/constants';
-import { ModalFooter, ModalHeader } from './common';
+import { OverScreen, OVER_SCREEN_CLOSE_REASON, FooterBlock, HeaderBlock, If, QX_SIZE, useEnhancedEffect } from '@core';
+import { limitHeightByRows } from '@core/utils';
+import { MODAL_SCROLL_BEHAVIOR } from '@core/src/styled/Modal/constants';
 import { ModalProps } from './types';
 import { MODAL_CSS_VARS, useStyles } from './styles';
 
@@ -21,29 +19,21 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
         title,
         subTitle,
         disableCloseButton,
+        disableCloseByClickAway,
         footer,
         footerButtons,
-        direction,
+        footerDirection,
         header,
         body,
-        disablePortal,
         open = false,
+        onClose,
+        scrollBehaviour = MODAL_SCROLL_BEHAVIOR.window,
         HeaderProps,
         FooterProps,
-        keepMounted = false,
-        TransitionProps,
-        PortalProps,
-        BackdropProps,
         CloseButtonProps,
-        onClick,
-        onClose,
-        disableTransition,
-        tabIndex,
-        children,
-        disableBackdrop = false,
-        scrollBehaviour = MODAL_SCROLL_BEHAVIOR.window,
+        OverScreenProps,
         ...restProps
-    } = useModalProps(props);
+    } = props;
 
     const hasHeader = (!!header || !!HeaderProps?.children)
         || (!!title || !!HeaderProps?.title)
@@ -56,7 +46,6 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
     const params = {
         size,
         scrollBehaviour,
-        hasChildren: !!children,
         hasHeader,
         hasFooter,
     };
@@ -72,74 +61,60 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
     }, [open]);
 
     return (
-        <Portal
-            disablePortal={disablePortal}
-            {...PortalProps}
+        <OverScreen
+            {...restProps}
+            open={open}
+            onClose={onClose}
+            disableCloseByClickAway={disableCloseByClickAway}
+            {...OverScreenProps}
+            ref={ref}
+            className={cn('root', params)}
+            css={styles.root}
         >
-            <Transition
-                in={open}
-                unmountOnExit={!keepMounted}
-                mountOnEnter={!keepMounted}
-                enter={!disableTransition}
-                exit={!disableTransition}
-                {...TransitionProps}
+            <div
+                css={styles.scrollContainer}
+                className={cn('scrollContainer')}
+                onClick={(e) => {
+                    if (!disableCloseByClickAway) {
+                        onClose?.(e, OVER_SCREEN_CLOSE_REASON.clickAway);
+                    }
+                }}
             >
                 <div
-                    {...restProps}
-                    role="presentation"
-                    css={styles.root}
-                    className={cn('root', params)}
-                    ref={ref}
-                    datatype="modal"
-                    aria-hidden={!open}
-                    onClick={onClick}
-                    tabIndex={tabIndex}
+                    css={styles.box}
+                    className={cn('box')}
+                    onClick={(e) => e.stopPropagation()}
                 >
-                    {!disableBackdrop && <Backdrop {...BackdropProps} />}
-                    {children ?? (
+                    <HeaderBlock
+                        title={title}
+                        subTitle={subTitle}
+                        disableCloseButton={disableCloseButton}
+                        size={size}
+                        onClose={(e) => onClose?.(e, OVER_SCREEN_CLOSE_REASON.closeButton)}
+                        CloseButtonProps={CloseButtonProps}
+                        {...HeaderProps}
+                    >
+                        {header}
+                    </HeaderBlock>
+                    <If condition={!!body}>
                         <div
-                            css={styles.scrollContainer}
-                            className={cn('scrollContainer')}
-                            onClick={(e) => onClose?.(e, 'clickAway')}
+                            css={styles.body}
+                            className={cn('body')}
+                            ref={contentRef}
                         >
-                            <div
-                                css={styles.box}
-                                className={cn('box', params)}
-                                onClick={(e) => e.stopPropagation()}
-                            >
-                                <ModalHeader
-                                    title={title}
-                                    subTitle={subTitle}
-                                    disableCloseButton={disableCloseButton}
-                                    size={size}
-                                    onClose={(e) => onClose?.(e, 'closeButton')}
-                                    CloseButtonProps={CloseButtonProps}
-                                    {...HeaderProps}
-                                >
-                                    {header}
-                                </ModalHeader>
-                                {body && (
-                                    <div
-                                        css={styles.body}
-                                        className={cn('body')}
-                                        ref={contentRef}
-                                    >
-                                        {body}
-                                    </div>
-                                )}
-                                <ModalFooter
-                                    buttons={footerButtons}
-                                    direction={direction}
-                                    size={size}
-                                    {...FooterProps}
-                                >
-                                    {footer}
-                                </ModalFooter>
-                            </div>
+                            {body}
                         </div>
-                    )}
+                    </If>
+                    <FooterBlock
+                        buttons={footerButtons}
+                        direction={footerDirection}
+                        size={size}
+                        {...FooterProps}
+                    >
+                        {footer}
+                    </FooterBlock>
                 </div>
-            </Transition>
-        </Portal>
+            </div>
+        </OverScreen>
     );
 });

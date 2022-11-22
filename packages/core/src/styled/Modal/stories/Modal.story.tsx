@@ -1,21 +1,24 @@
-/* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
 import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
 import { ModalProps, Modal as KitModal } from '@core';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
-import { CommonButton } from '@core/src/styled/Modal/stories/components';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import sizesDescription from './descriptions/Sizes.md';
-import secondWindowDescription from './descriptions/SecondWindow.md';
-import directionDescription from './descriptions/Direction.md';
+import { CommonButton } from '@core/src/unstyled/OverScreen/stories/common/components';
+import { sizesDescription, secondWindowDescription, directionDescription } from './descriptions';
 
 const defaultArgs: ModalProps = {
     title: 'Headline',
     subTitle: 'Description',
     size: 'medium',
-    direction: 'horizontal',
+    footerDirection: 'horizontal',
     scrollBehaviour: 'body',
+    disableCloseButton: false,
+    disableCloseByEscape: false,
+    disableCloseByClickAway: false,
+    OverScreenProps: {
+        margin: 30,
+    },
     footerButtons: {
         success: {
             children: 'Accept',
@@ -65,11 +68,6 @@ export default {
                     type: 'text',
                 },
             },
-            children: {
-                control: {
-                    type: 'text',
-                },
-            },
             footerButtons: {},
             HeaderProps: {
                 control: false,
@@ -77,37 +75,26 @@ export default {
             FooterProps: {
                 control: false,
             },
-            BackdropProps: {
-                control: false,
-            },
-            TransitionProps: {
-                control: false,
-            },
-            PortalProps: {
-                control: false,
-            },
             CloseButtonProps: {
+                control: false,
+            },
+            OverScreenProps: {
                 control: false,
             },
         }),
         ...defineCategory('Стилизация', {
             size: {},
-            direction: {},
+            footerDirection: {},
         }),
         ...defineCategory('Состояние', {
             open: {},
             onClose: {},
         }),
         ...defineCategory('Поведение', {
-            disableTransition: {},
-            disablePortal: {},
             disableCloseButton: {},
-            disableScrollLock: {},
-            disableBackdrop: {},
             scrollBehaviour: {},
-            keepMounted: {},
-            closeByEscape: {},
-            closeByClickAway: {},
+            disableCloseByEscape: {},
+            disableCloseByClickAway: {},
         }),
         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
     },
@@ -140,13 +127,13 @@ Modal.storyName = 'Компонент';
 
 export const FooterDirection: Story<ModalProps> = (props) => DisplayVariants({
     component: Modal,
-    property: 'direction',
+    property: 'footerDirection',
     values: ['horizontal', 'vertical'],
     componentProps: props,
 });
 
 FooterDirection.storyName = 'Расположение кнопок';
-FooterDirection.argTypes = excludeProp(['direction']);
+FooterDirection.argTypes = excludeProp(['footerDirection']);
 FooterDirection.parameters = {
     docs: {
         description: {

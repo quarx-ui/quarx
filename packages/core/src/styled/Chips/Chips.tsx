@@ -104,6 +104,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
                         nodeRef={leftIconRef}
                         timeout={leftIconTimeout}
                         addEndListener={addLeftIconEndListener}
+                        enter
                     >
                         <div
                             ref={leftIconRef}

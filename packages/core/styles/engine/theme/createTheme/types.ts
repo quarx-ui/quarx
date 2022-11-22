@@ -13,17 +13,19 @@ import {
     CreatePaletteArg,
     CreateTransitionArg,
     DeepPartial,
+    OverScreenProps,
     Elevations,
+    FooterBlockProps,
+    HeaderBlockProps,
     IconButtonProps,
     LinkProps,
     LoaderProps,
-    ModalFooterProps,
-    ModalHeaderProps,
     ModalProps,
     Palette,
     RadioButtonProps,
     RadioButtonSelectionProps,
     SelectionProps,
+    SidePageProps,
     SwitcherProps,
     SwitcherSelectionProps,
     TabItemContainedProps,
@@ -54,15 +56,18 @@ export interface ComponentsProps {
     CheckboxSelection: CheckboxSelectionProps;
     Chips: ChipsProps;
     Counter: CounterProps;
+    Dialog: SidePageProps;
+    OverScreen: OverScreenProps;
+    FooterBlock: FooterBlockProps;
+    HeaderBlock: HeaderBlockProps;
     IconButton: IconButtonProps;
     Link: LinkProps;
     Loader: LoaderProps;
     Modal: ModalProps;
-    ModalFooter: ModalFooterProps;
-    ModalHeader: ModalHeaderProps;
     RadioButton: RadioButtonProps;
     RadioButtonSelection: RadioButtonSelectionProps;
     Selection: SelectionProps;
+    SidePage: SidePageProps;
     Switcher: SwitcherProps;
     SwitcherSelection: SwitcherSelectionProps;
     TabItemContained: TabItemContainedProps;

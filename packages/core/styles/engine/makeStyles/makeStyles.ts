@@ -19,8 +19,7 @@ import { StylesMap } from '@core/styles/engine/types';
  * переопределения стилей элементов по их ключу
  */
 export function makeStyles<
-    // eslint-disable-next-line @typescript-eslint/ban-types
-    Props extends {},
+    Props extends object,
     ClassKey extends string = string,
     CSSVars extends string = string,
 >(
