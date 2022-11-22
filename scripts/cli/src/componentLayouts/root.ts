@@ -25,6 +25,7 @@ export const componentLayout = (componentName: string): string => `\
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
+import { If } from '@core';
 import { usePropsOverwrites } from '@core/styles';
 import { ${componentName}Props } from './types';
 import { useStyles, ${capitalize(componentName)}_CSS_VARS } from './styles';
@@ -35,6 +36,8 @@ export const ${componentName}: FC<${componentName}Props> = forwardRef<HTMLDivEle
 ) => {
     const { cn, props, styleProps } = usePropsOverwrites('${componentName}', initialProps, ${capitalize(componentName)}_CSS_VARS);
     const {
+        hidden = false,
+
         ...restProps
     } = props;
 
@@ -43,14 +46,16 @@ export const ${componentName}: FC<${componentName}Props> = forwardRef<HTMLDivEle
     const styles = useStyles({ ...params, ...styleProps });
 
     return (
-        <div
-            ref={ref}
-            className={cn('root', params)}
-            css={styles.root}
-            {...restProps}
-        >
-            ...
-        </div>
+        <If condition={!hidden}>
+            <div
+                ref={ref}
+                className={cn('root', params)}
+                css={styles.root}
+                {...restProps}
+            >
+                ...
+            </div>
+        </If>
     );
 });
 `;
