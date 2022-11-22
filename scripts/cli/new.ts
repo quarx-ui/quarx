@@ -66,7 +66,7 @@ const questions: QuestionCollection<CLIAnswers> = [
             {
                 value: ComponentType.unstyled,
                 name: [
-                    'Unstyled (Компонент не имеет стилей и не является',
+                    'Unstyled (Компонент не имеет стилей и/или не является',
                     'ui компонентом дизайн-системы. Предназначен для разработки)',
                 ].join(' '),
             },

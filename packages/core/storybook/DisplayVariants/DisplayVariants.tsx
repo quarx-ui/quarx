@@ -10,7 +10,7 @@ import {
 } from './styledComponents';
 import { DisplayVariantsStyledProps } from './types';
 
-type ValuesType = string | boolean | number
+export type DisplayValuesType = string | boolean | number
 
 interface BaseVariantProps<VariantProps> extends
     Pick<DisplayVariantsStyledProps, 'containerAlign' | 'containerJustify' | 'variantAlign'> {
@@ -18,7 +18,7 @@ interface BaseVariantProps<VariantProps> extends
     component: FC<VariantProps>,
 
     /** Объект с дополнительными параметрами компонента. Применяется не в качестве отдельного примера. */
-    componentProps?: VariantProps,
+    componentProps?: VariantProps | ((property: string, value: DisplayValuesType) => VariantProps),
 
     /** Направление отрисовки.
      * @param vertical Вертикальное направление. Варианты будут расположены в колонну.
@@ -41,17 +41,21 @@ interface TitleProps {
     type?: 'property' | 'value',
 }
 
-interface DisplayVariantsProps<VariantProps> extends BaseVariantProps<VariantProps> {
+export interface DisplayVariantsProps<VariantProps> extends BaseVariantProps<VariantProps> {
     /** Название отображаемого пропса */
     property: string,
 
     /** Массив значений для отображаемого пропса
      * @example
      * ['small', 'medium', 'large'] */
-    values: Array<ValuesType>,
+    values: Array<DisplayValuesType>,
 
     /** Объект с настройками названия свойства */
     title?: TitleProps,
+}
+
+function isCallable<Props>(prop: BaseVariantProps<Props>['componentProps']): prop is ((property: string, value: DisplayValuesType) => Props) {
+    return typeof prop === 'function';
 }
 
 /** Функция предназначена для генерации различных вариантов компонента.
@@ -73,26 +77,32 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
         variantAlign,
     } = options;
 
-    const examples = values.map((value) => (
-        <Variant
-            key={createID()}
-            optionTitle={title.isShown}
-            variantAlign={variantAlign}
-        >
-            {title.isShown && (
-                <Title size={title.size}>
-                    {title.type === 'value' ? value.toString() : property}
-                </Title>
-            )}
-            {React.createElement(
-                component,
-                {
-                    ...componentProps as unknown as Props,
-                    [property]: value,
-                },
-            )}
-        </Variant>
-    ));
+    const examples = values.map((value) => {
+        const props = isCallable(componentProps)
+            ? componentProps(property, value)
+            : componentProps;
+
+        return (
+            <Variant
+                key={createID()}
+                optionTitle={title.isShown}
+                variantAlign={variantAlign}
+            >
+                {title.isShown && (
+                    <Title size={title.size}>
+                        {title.type === 'value' ? value.toString() : property}
+                    </Title>
+                )}
+                {React.createElement(
+                    component,
+                    {
+                        ...props as Props,
+                        [property]: value,
+                    },
+                )}
+            </Variant>
+        );
+    });
 
     return (
         <Variants
@@ -116,7 +126,7 @@ interface DisplayVariantsMapProps<VariantProps> extends BaseVariantProps<Variant
      *     size: ['small', 'large'],
      *     color: ['warning', 'critical', 'color2', 'color1'],
      * } */
-    variants: Record<string, Array<ValuesType>>,
+    variants: Record<string, Array<DisplayValuesType>>,
 
     shownTitle?: boolean,
 
@@ -191,7 +201,7 @@ interface DisplayBooleanVariantsProps<VariantProps> extends Omit<DisplayVariants
     /** Массив булевых свойств, которые необходимо вывести в качестве примера
      * @example
      * ['size', 'color'] */
-    properties: Array<string>,
+    properties: Array<string | [string, boolean]>,
 }
 
 /** Функция предназначена для генерации различных вариантов компонента с булевыми свойствами.
@@ -211,11 +221,16 @@ export function DisplayBooleanVariants<Props>(options: DisplayBooleanVariantsPro
         },
         ...restOptions
     } = options;
-    const variants: Record<string, Array<ValuesType>> = {};
+    const variants: Record<string, Array<DisplayValuesType>> = {};
 
     properties.forEach((prop) => {
-        variants[prop] = [true];
+        if (Array.isArray(prop)) {
+            variants[prop[0]] = [prop[1]];
+        } else {
+            variants[prop] = [true];
+        }
     });
+
     return DisplayVariantsMap({
         variants,
         direction,

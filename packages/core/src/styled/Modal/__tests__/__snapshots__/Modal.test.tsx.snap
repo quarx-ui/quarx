@@ -2,7 +2,7 @@
 
 exports[`Modal keepMounted modal always in the document 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style=""
 >
   <div>
     <div>
@@ -15,40 +15,47 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-89x6fc-QxModal-root"
-    datatype="modal"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 0; visibility: hidden;"
     tabindex="0"
   >
     <div
+      aria-hidden="true"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 0; visibility: hidden;"
     />
     <div
-      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 0; visibility: hidden;"
     >
       <div
-        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-cagolb-QxModal-box"
+        class="QxModal-box css-cagolb-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -70,7 +77,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
           </button>
         </div>
         <div
-          class="QxModal-body css-x01e6z-QxModal-body"
+          class="QxModal-body css-l3ia4v-QxModal-body"
         >
           Body
         </div>
@@ -95,40 +102,47 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-89x6fc-QxModal-root"
-    datatype="modal"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
+      aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-cagolb-QxModal-box"
+        class="QxModal-box css-cagolb-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -150,7 +164,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
           </button>
         </div>
         <div
-          class="QxModal-body css-x01e6z-QxModal-body"
+          class="QxModal-body css-l3ia4v-QxModal-body"
           style="min-height: NaNpx;"
         >
           Body
@@ -162,7 +176,9 @@ exports[`Modal keepMounted modal always in the document 2`] = `
 `;
 
 exports[`Modal modal in the document 1`] = `
-<body>
+<body
+  style=""
+>
   <div>
     <div>
       <button
@@ -190,40 +206,47 @@ exports[`Modal modal in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-89x6fc-QxModal-root"
-    datatype="modal"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
+      aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader QxModal-box_hasFooter css-cagolb-QxModal-box"
+        class="QxModal-box css-cagolb-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -245,13 +268,13 @@ exports[`Modal modal in the document 2`] = `
           </button>
         </div>
         <div
-          class="QxModal-body css-12kl4f8-QxModal-body"
+          class="QxModal-body css-nwhtp5-QxModal-body"
           style="min-height: NaNpx;"
         >
           Body
         </div>
         <div
-          class="QxModalFooter QxModalFooter_size_medium QxModalFooter_direction_vertical css-7sdgqt-QxModalFooter-root"
+          class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical css-jysxse-QxFooterBlock-root"
         >
           <button
             class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-e0f55p-QxBaseButton-root-QxButton-root"
@@ -291,41 +314,50 @@ exports[`Modal modal in the document 2`] = `
 `;
 
 exports[`Modal style params scrollBehaviour body 1`] = `
-<body>
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
   <div />
   <div
     aria-hidden="false"
-    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-89x6fc-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
     data-testid="testStyleParams-scrollBehaviour-body"
-    datatype="modal"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
+      aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1u4nczo-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-1eam5k8-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_body QxModal-box_hasHeader css-dtgqsp-QxModal-box"
+        class="QxModal-box css-dtgqsp-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
             />
             <div
-              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -353,41 +385,50 @@ exports[`Modal style params scrollBehaviour body 1`] = `
 `;
 
 exports[`Modal style params scrollBehaviour window 1`] = `
-<body>
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
   <div />
   <div
     aria-hidden="false"
-    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-89x6fc-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
     data-testid="testStyleParams-scrollBehaviour-window"
-    datatype="modal"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
+      aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-cagolb-QxModal-box"
+        class="QxModal-box css-cagolb-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
             />
             <div
-              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -415,41 +456,50 @@ exports[`Modal style params scrollBehaviour window 1`] = `
 `;
 
 exports[`Modal style params size medium 1`] = `
-<body>
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
   <div />
   <div
     aria-hidden="false"
-    class="QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-89x6fc-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
     data-testid="testStyleParams-size-medium"
-    datatype="modal"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
+      aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxModal-box_size_medium QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-cagolb-QxModal-box"
+        class="QxModal-box css-cagolb-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_medium css-18j0zrb-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-14omos3-QxModalHeader-title"
+              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
             />
             <div
-              class="QxModalHeader-subTitle css-gybu3d-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -477,41 +527,50 @@ exports[`Modal style params size medium 1`] = `
 `;
 
 exports[`Modal style params size small 1`] = `
-<body>
+<body
+  style="padding-right: 1024px; overflow: hidden;"
+>
   <div />
   <div
     aria-hidden="false"
-    class="QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-89x6fc-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    data-component="QxOverScreen"
+    data-index="0"
     data-testid="testStyleParams-size-small"
-    datatype="modal"
+    datatype="overscreen"
     role="presentation"
     style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
+      aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1rhtj41-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      data-component="QxOverScreen-child"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxModal-box_size_small QxModal-box_scrollBehaviour_window QxModal-box_hasHeader css-7ablvy-QxModal-box"
+        class="QxModal-box css-7ablvy-QxModal-box"
       >
         <div
-          class="QxModalHeader QxModalHeader_size_small css-1sumeq0-QxModalHeader-root"
+          class="QxHeaderBlock QxHeaderBlock_size_small css-130u650-QxHeaderBlock-root"
         >
           <div
-            class="QxModalHeader-content css-1u06lci-QxModalHeader-content"
+            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
           >
             <div
-              class="QxModalHeader-title css-ilypw2-QxModalHeader-title"
+              class="QxHeaderBlock-title css-152ga7g-QxHeaderBlock-title"
             />
             <div
-              class="QxModalHeader-subTitle css-1stah27-QxModalHeader-subTitle"
+              class="QxHeaderBlock-subTitle css-fm9gst-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxModalHeader-closeButton css-rc7pt3-QxBaseButton-root-QxIconButton-root-QxModalHeader-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div

@@ -1,79 +1,46 @@
 import {
-    BackdropProps, BaseModalProps,
     BaseProps,
-    ComponentPropsWithHTML,
-    ModalFooterProps,
-    ModalHeaderProps, OmittedModalStyleParams,
-    PortalProps,
-    TransitionProps,
+    ComponentPropsWithHTML, OverScreenProps, FooterBlockProps, HeaderBlockProps,
+    OmittedModalStyleParams,
 } from '@core';
 import { WithClassesAndStyles } from '@core/styles';
-import { MouseEvent, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { ModalStyleParams, ModalStyleKeys, ModalCSSVarKeys } from './styles';
-
-export type ModalCloseReason = 'clickAway' | 'escape' | 'closeButton'
 
 export interface ModalPropsWithoutHTML extends
     Omit<BaseProps, 'permissions'>,
     Omit<Partial<ModalStyleParams>, keyof OmittedModalStyleParams>,
-    BaseModalProps,
     WithClassesAndStyles<ModalStyleKeys, ModalStyleParams, ModalCSSVarKeys>,
-    Pick<ModalHeaderProps, 'title' | 'subTitle' | 'disableCloseButton' | 'CloseButtonProps'>,
-    Pick<ModalFooterProps, 'direction'>,
-    Pick<PortalProps, 'disablePortal'>
+    Pick<HeaderBlockProps, 'title' | 'subTitle' | 'disableCloseButton' | 'CloseButtonProps'>,
+    Pick<OverScreenProps, 'onClose' | 'disableCloseByClickAway' | 'open' | 'disableCloseByEscape'>
 {
+    /** Расположение переданных кнопок
+     * @property horizontal Горизонтальное расположение
+     * @property vertical Вертикальное расположение
+     *
+     * @default vertical */
+    footerDirection?: FooterBlockProps['direction'],
+
     /** Объект для настройки кнопок с дефолтным расположением */
-    footerButtons?: ModalFooterProps['buttons'],
+    footerButtons?: FooterBlockProps['buttons'],
 
     /** Элемент используемый в Footer, при передаче которого будут заменены все остальные элементы */
-    footer?: ModalFooterProps['children'],
+    footer?: FooterBlockProps['children'],
 
     /** Элемент используемый в Header, при передаче которого будут заменены все остальные элементы */
-    header?: ModalHeaderProps['children'],
+    header?: HeaderBlockProps['children'],
 
     /** Тело модального окна */
     body?: ReactNode,
 
-    /** Обработчик закрытия модального окна
-     * @param event Объект события
-     * @param reason Причина закрытия */
-    onClose?: (event: MouseEvent<HTMLElement>, reason: ModalCloseReason) => void,
-
-    /** Необходимость закрытия компонента по клику по внешней области */
-    closeByClickAway?: boolean,
-
-    /** Пропсы передаваемые напрямую компоненту Portal */
-    PortalProps?: Partial<PortalProps>,
-
     /** Пропсы передаваемые напрямую компоненту ModalHeader */
-    HeaderProps?: Partial<ModalHeaderProps>,
+    HeaderProps?: Partial<HeaderBlockProps>,
 
     /** Пропсы передаваемые напрямую компоненту ModalFooter */
-    FooterProps?: Partial<ModalFooterProps>,
+    FooterProps?: Partial<FooterBlockProps>,
 
-    /** Пропсы передаваемые напрямую компоненту Backdrop */
-    BackdropProps?: Partial<BackdropProps>,
-
-    /** Пропсы передаваемые напрямую компоненту Transition */
-    TransitionProps?: Partial<TransitionProps>,
-
-    /** Показать/скрыть компонент */
-    open?: boolean,
-
-    /** Сохранять компонент в DOM-дереве */
-    keepMounted?: boolean,
-
-    /** Закрытие по клавише Escape */
-    closeByEscape?: boolean,
-
-    /** Отключить анимацию */
-    disableTransition?: boolean,
-
-    /** Отключить блокировку скролла */
-    disableScrollLock?: boolean,
-
-    /** Отключить компонент Backdrop */
-    disableBackdrop?: boolean,
+    /** Пропсы передаваемые напрямую компоненту Drawer */
+    OverScreenProps?: Partial<OverScreenProps>,
 }
 
 export type ModalProps = ComponentPropsWithHTML<ModalPropsWithoutHTML>

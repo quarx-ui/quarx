@@ -5,8 +5,8 @@ import { defaultMapStatusToStyles, defaultStyles } from './constants';
 import { TransitionProps, Options, TransitionCallback } from './types';
 import { getTransitionProps, mapIsObject, styleIsObject } from './helpers';
 
-export const Transition = forwardRef(<T extends HTMLElement = HTMLDivElement>(
-    props: TransitionProps<T>,
+export const Transition = forwardRef(<Props extends object, T extends HTMLElement = HTMLDivElement>(
+    props: TransitionProps<Props, T>,
     ref: Ref<T>,
 ) => {
     const theme = useTheme();
@@ -29,11 +29,14 @@ export const Transition = forwardRef(<T extends HTMLElement = HTMLDivElement>(
         onExited,
         styles: externalStyles = defaultStyles,
         addEndListener,
+        timeoutProps = 'opacity',
         timeout = defaultTimeout,
         mapStatusToStyles = defaultMapStatusToStyles,
         transitionComponent: TransitionComponent = ReactTransition,
+        enter,
+        childrenProps,
         ...restProps
-    } = props;
+    } = props ?? {};
 
     const styles = useMemo(() => (
         styleIsObject(externalStyles)
@@ -73,8 +76,10 @@ export const Transition = forwardRef(<T extends HTMLElement = HTMLDivElement>(
             { mode },
         );
 
-        transition.current = theme.transitions.create('opacity', transitionProps);
-    }, [easing, styles, theme.transitions, timeout]);
+        transition.current = !enter && mode === 'enter'
+            ? undefined
+            : theme.transitions.create(timeoutProps, transitionProps);
+    }, [easing, enter, styles, theme.transitions, timeout, timeoutProps]);
 
     const handleEnter = normalizeTransitionCallback((node, isAppearing) => {
         applyTransition('enter');
@@ -103,6 +108,10 @@ export const Transition = forwardRef(<T extends HTMLElement = HTMLDivElement>(
         addEndListener?.(node as HTMLElement, resolvedDone);
     }, [addEndListener, nodeRef]);
 
+    if (!children) {
+        return null;
+    }
+
     return (
         <TransitionComponent
             appear={appear}
@@ -116,18 +125,20 @@ export const Transition = forwardRef(<T extends HTMLElement = HTMLDivElement>(
             onExiting={handleExiting}
             addEndListener={handleAddEndListener}
             timeout={timeout}
+            enter={enter}
             {...restProps}
         >
             {(status) => cloneElement(
                 children, {
+                    ...childrenProps,
+                    ...children.props,
+                    ref: mergeRefs(children.ref, ref, nodeRef),
                     style: {
                         ...styles,
                         ...resolvedMapStyles[status],
                         transition: transition.current,
                         ...children.props.style,
                     },
-                    ...children.props,
-                    ref: mergeRefs(children.ref, ref, nodeRef),
                 },
             )}
         </TransitionComponent>

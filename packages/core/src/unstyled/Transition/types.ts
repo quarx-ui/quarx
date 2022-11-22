@@ -34,13 +34,14 @@ export type TransitionCallback = ReactTransitionProps['onEnter'] | ReactTransiti
 
 export type MapTransitionStatusToStyles = Partial<Record<TransitionStatus, CSSProperties>>
 
-export interface TransitionPropsWithoutTransitionProps<T extends HTMLElement> {
+export interface TransitionPropsWithoutTransitionProps<Props extends object, T extends HTMLElement> {
     children: ReactElement & RefAttributes<T>, // todo jsdoc
     appear?: boolean,
     easing?: TransitionEasing,
     styles?: CSSProperties | ((theme: Theme) => CSSProperties),
     mapStatusToStyles?: MapTransitionStatusToStyles | ((theme: Theme) => MapTransitionStatusToStyles),
     in?: boolean,
+    timeoutProps?: string | string[],
     timeout?: TransitionTimout,
     transitionComponent?: FC<ReactTransitionProps>,
     addEndListener?: ReactTransitionProps['addEndListener'],
@@ -50,8 +51,9 @@ export interface TransitionPropsWithoutTransitionProps<T extends HTMLElement> {
     onExit?: ReactTransitionProps['onExit'],
     onExited?: ReactTransitionProps['onExited'],
     onExiting?: ReactTransitionProps['onExiting'],
+    childrenProps?: Partial<Props>
 }
 
-export type TransitionProps<T extends HTMLElement = HTMLDivElement> =
-    TransitionPropsWithoutTransitionProps<T>
-    & Omit<ReactTransitionProps<T>, keyof TransitionPropsWithoutTransitionProps<T>>
+export type TransitionProps<Props extends object = object, T extends HTMLElement = HTMLDivElement> =
+    TransitionPropsWithoutTransitionProps<Props, T>
+    & Omit<ReactTransitionProps<T>, keyof TransitionPropsWithoutTransitionProps<Props, T>>

@@ -6,32 +6,13 @@ import { ModalStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette, borders, borderRadii, elevations },
-    { size, scrollBehaviour, hasChildren, hasHeader, hasFooter }: ModalStyleParams,
+    { size, scrollBehaviour, hasHeader, hasFooter }: ModalStyleParams,
     { cssBoxMargin, cssBorderRadius }: Record<ModalCSSVarKeys, string>,
 ) => ({
     root: [
         {
-            position: 'fixed',
-            left: 0,
-            top: 0,
-            right: 0,
-            bottom: 0,
-            zIndex: 999,
-            boxSizing: 'border-box',
-            overflow: 'hidden',
-
             [cssBoxMargin]: '32px',
             [cssBorderRadius]: borderRadii.xLarge,
-        },
-
-        hasChildren && {
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-
-            '& > *': {
-                zIndex: 1000,
-            },
         },
     ],
     scrollContainer: [
@@ -39,6 +20,7 @@ export const useStyles = makeStyles((
             position: 'relative',
             height: '100%',
             zIndex: 1000,
+            flexGrow: 1,
         },
 
         paramsToCss(scrollBehaviour)({
@@ -106,6 +88,7 @@ export const useStyles = makeStyles((
     body: [
         {
             overflow: 'auto',
+            flexGrow: 1,
         },
         paramsToCss(size)({
             small: {

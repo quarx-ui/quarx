@@ -8,10 +8,14 @@ export * from './styled/Loader';
 export * from './styled/Modal';
 export * from './styled/RadioButton';
 export * from './styled/Selection';
+export * from './styled/SidePage';
 export * from './styled/Switcher';
 export * from './styled/Tabs';
 export * from './styled/TextField';
 
+export * from './unstyled/HeaderBlock';
+export * from './unstyled/FooterBlock';
+export * from './unstyled/OverScreen';
 export * from './unstyled/Backdrop';
 export * from './unstyled/ClickAwayListener';
 export * from './unstyled/If';
