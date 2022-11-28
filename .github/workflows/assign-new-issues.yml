@@ -4,6 +4,9 @@ on:
   issues:
     types:
       - opened
+  pull_requests:
+    types:
+      - opened
 jobs:
   assign-to-project:
     runs-on: ubuntu-latest
