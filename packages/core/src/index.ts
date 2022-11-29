@@ -13,12 +13,13 @@ export * from './styled/Switcher';
 export * from './styled/Tabs';
 export * from './styled/TextField';
 
-export * from './unstyled/HeaderBlock';
-export * from './unstyled/FooterBlock';
-export * from './unstyled/OverScreen';
 export * from './unstyled/Backdrop';
 export * from './unstyled/ClickAwayListener';
+export * from './unstyled/DelayedMounter';
+export * from './unstyled/FooterBlock';
+export * from './unstyled/HeaderBlock';
 export * from './unstyled/If';
+export * from './unstyled/OverScreen';
 export * from './unstyled/Portal';
 export * from './unstyled/Switch';
 export * from './unstyled/Transition';
