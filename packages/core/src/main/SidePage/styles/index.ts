@@ -25,3 +25,4 @@ export const useStyles = makeStyles(() => ({
 }), { name: 'QxSidePage' });
 
 export type SidePageStyleKeys = KeysFromUseStyles<typeof useStyles> | ModalStyleKeys;
+export * from './types';

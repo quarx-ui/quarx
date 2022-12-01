@@ -119,7 +119,7 @@ const SidePage: Story<SidePageProps> = ({ ...props }) => {
 export const Sandbox = SidePage.bind({});
 Sandbox.storyName = 'Компонент';
 
-export const FooterDirection: Story<ModalProps> = (props) => DisplayVariants({
+export const FooterDirection: Story<SidePageProps> = (props) => DisplayVariants({
     component: SidePage,
     property: 'footerDirection',
     values: ['horizontal', 'vertical'],
@@ -136,7 +136,7 @@ FooterDirection.parameters = {
     },
 };
 
-export const SecondSidePage: Story<ModalProps> = (props) => {
+export const SecondSidePage: Story<SidePageProps> = (props) => {
     const [isOpened, setIsOpened] = useState(false);
     const [secondIsOpened, setSecondIsOpened] = useState(false);
 
@@ -177,7 +177,7 @@ SecondSidePage.parameters = {
     },
 };
 
-export const Sizes: Story<ModalProps> = (props) => DisplayVariants({
+export const Sizes: Story<SidePageProps> = (props) => DisplayVariants({
     component: SidePage,
     property: 'size',
     values: ['small', 'medium'],

@@ -36,6 +36,7 @@
     "e2e:init": "cd e2e && yarn run test:init",
     "e2e:build": "cd e2e && yarn run e2e:build",
     "e2e:serve": "cd e2e && yarn run e2e:serve",
+    "e2e:serve:o": "cd e2e && yarn run e2e:serve:o",
     "e2e:run": "cd e2e && yarn run e2e:run",
     "ci:figma:icons": "cd ./scripts/figma && yarn update:icons",
     "new": "ts-node scripts/cli/new.ts"
