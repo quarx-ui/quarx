@@ -1,4 +1,4 @@
-import { initTest } from '@e2e/test-utils/initTest';
+import { initTest } from '@e2e/test-utils';
 import { TestButtonProps } from '../types';
 
 const { test } = initTest<TestButtonProps>('Button');

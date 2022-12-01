@@ -5,6 +5,7 @@ import {
     PlaywrightTestArgs,
     PlaywrightTestConfig,
     PlaywrightWorkerOptions,
+    Response,
 } from '@playwright/test';
 import { valuesAsKeysFromArray } from '@kit';
 
@@ -34,6 +35,8 @@ export interface InitTestConfig {
     selector?: string,
     snapshot?: SnapshotConfig,
     test?: PlaywrightTestConfig['use'],
+    disableAnimations?: boolean,
+    timeout?: number,
 }
 
 export interface BaseProps {
@@ -46,6 +49,7 @@ export interface BaseProps {
     timeout?: number,
     groupBy?: GroupByType,
     disableSnapIfHeaded?: SnapshotConfig['disableIfHeaded'],
+    disableAnimations?: boolean,
 }
 
 export interface ExtendedPropsType<Props = PropsType> extends BaseProps {
@@ -84,8 +88,9 @@ export interface TestProps<Props = PropsType> {
     testName: string,
     getComponent: (uniqSelector?: string) => Locator,
     toMatchSnapshot: (name: string, options?: ToMatchSnapshotOptions) => Promise<void>,
-    setProps: (props?: Props) => Promise<void>,
+    setProps: (props?: Props) => Promise<Response | null>,
     page: Page,
+    waitTimeout: (timeout?: number) => Promise<void>
 }
 
 export interface GetScreenPathOptions {

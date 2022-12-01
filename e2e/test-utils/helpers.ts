@@ -50,7 +50,7 @@ export function injectCommonProps<Props = PropsType>(
         }));
 }
 
-export interface RunSeriesComparisonsOptions<Props = PropsType> extends Pick<BaseProps, 'groupBy' | 'disableSnapIfHeaded'> {
+export interface RunSeriesComparisonsOptions<Props = PropsType> extends Pick<BaseProps, 'groupBy'> {
     testParams: TestParams,
     component: ComponentsListTypes,
     targetProps: PropsArray<Props>,

@@ -19,9 +19,9 @@ test('Modal', async ({ compareSnapshotsMap, compareSnapshots }) => {
         targetProps: {
             size: ['small'],
             disableCloseButton: [true],
-            direction: ['horizontal'],
+            // direction: ['horizontal'],
             footer: ['Footer'],
-            disableBackdrop: [true],
+            // disableBackdrop: [true],
         },
         groupBy: ['props'],
     });

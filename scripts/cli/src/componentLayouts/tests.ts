@@ -1,4 +1,5 @@
-export const testLayout = (componentName: string): string => `import React from 'react';
+export const testLayout = (componentName: string): string => `\
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { ${componentName}, ${componentName}Props, ${componentName}StyleParams } from '@core';
 import { testStyleParams } from '@core/test-utils';
@@ -21,7 +22,8 @@ describe('${componentName} behavior', () => {
 });
 `;
 
-export const testPW = (componentName: string): string => `import { initTest } from '@e2e/test-utils/initTest';
+export const testPW = (componentName: string): string => `\
+import { initTest } from '@e2e/test-utils';
 import { ${componentName}Props } from '@kit';
 
 const { test } = initTest<${componentName}Props>('${componentName}');

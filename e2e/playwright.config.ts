@@ -6,6 +6,7 @@ const deviceScaleFactor = 3;
 const config: PlaywrightTestConfig = {
     timeout: 60 * 1000,
     testDir: './',
+    quiet: true,
     projects: [
         {
             name: 'chromium',

@@ -28,7 +28,6 @@ test('RadioButton', async ({ compareSnapshotsMap }) => {
             checked: true,
             children: 'RadioButton',
         },
-        timeout: 200,
         postfix: 'disabled',
     });
 

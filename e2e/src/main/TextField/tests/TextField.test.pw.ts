@@ -1,4 +1,4 @@
-import { initTest } from '@e2e/test-utils/initTest';
+import { initTest } from '@e2e/test-utils';
 import { TestTextFieldProps } from '@e2e/src/main/TextField/types';
 
 const { test, describe } = initTest<TestTextFieldProps>('TextField', {
@@ -41,46 +41,45 @@ describe('TextField', () => {
             },
             state: 'hover',
             postfix: 'hover',
-            timeout: 200,
         });
     });
 
     test('interactive', async ({ getComponent, page, toMatchSnapshot, setProps }) => {
         await setProps();
         await getComponent().click();
-        await toMatchSnapshot('click', { timeout: 300 });
+        await toMatchSnapshot('click');
 
         await getComponent().locator('input').fill('Some text');
-        await toMatchSnapshot('fill', { timeout: 200 });
+        await toMatchSnapshot('fill');
 
         await page.locator('body').click({ position: { x: 0, y: 0 } });
-        await toMatchSnapshot('withoutClearIcon', { timeout: 200 });
+        await toMatchSnapshot('withoutClearIcon');
 
         await getComponent().hover();
         await getComponent('.QxTextField-closeIcon').click();
-        await toMatchSnapshot('afterClear', { timeout: 200 });
+        await toMatchSnapshot('afterClear');
 
         await setProps({ clearIconVisibleOn: 'always', value: 'Some text' });
         await getComponent().click();
-        await toMatchSnapshot('clearIconOnFocus', { timeout: 300 });
+        await toMatchSnapshot('clearIconOnFocus');
 
         await setProps({ required: true });
         await getComponent().locator('input').fill('Some value');
         await getComponent().locator('input').fill('');
         await page.locator('body').click({ position: { x: 0, y: 0 } });
-        await toMatchSnapshot('requiredError', { timeout: 200 });
+        await toMatchSnapshot('requiredError');
 
         await setProps({ maxLength: 5, overflow: true });
         await getComponent().locator('input').fill('123456');
-        await toMatchSnapshot('maxLengthError', { timeout: 300 });
+        await toMatchSnapshot('maxLengthError');
 
         await setProps({ disabled: true });
         await getComponent().click();
-        await toMatchSnapshot('disabled', { timeout: 200 });
+        await toMatchSnapshot('disabled');
 
         await setProps({ readOnly: true });
         await getComponent().click();
-        await toMatchSnapshot('readOnly', { timeout: 200 });
+        await toMatchSnapshot('readOnly');
     });
 
     test('helpers', async ({ setProps, toMatchSnapshot, getComponent, page }) => {
@@ -88,14 +87,14 @@ describe('TextField', () => {
         await toMatchSnapshot('default');
 
         await getComponent().click();
-        await toMatchSnapshot('focused', { timeout: 300 });
+        await toMatchSnapshot('focused');
 
         await getComponent().locator('input').fill('Some text');
         await page.locator('body').click({ position: { x: 0, y: 0 } });
-        await toMatchSnapshot('filled', { timeout: 200 });
+        await toMatchSnapshot('filled');
 
         await setProps({ counter: true, maxLength: 5, overflow: true, value: '123456' });
-        await toMatchSnapshot('maxLengthError', { timeout: 200 });
+        await toMatchSnapshot('maxLengthError');
     });
 
     test('multiline', async ({ setProps, toMatchSnapshot }) => {
