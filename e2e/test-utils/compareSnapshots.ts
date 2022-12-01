@@ -11,7 +11,10 @@ import { getScreenPath } from '@e2e/test-utils/screenName';
 
 type CompareSnapshotsOptions = Partial<PlaywrightTestArgs & PlaywrightWorkerOptions> & { page: Page }
 
-export function compareSnapshots<Props = PropsType>({ page, headless }: CompareSnapshotsOptions, component: ComponentsListTypes) {
+export function compareSnapshots<Props = PropsType>(
+    { page, headless }: CompareSnapshotsOptions,
+    component: ComponentsListTypes,
+) {
     return async (options: ExtendedPropsType<Props>) => {
         const {
             postfix,
@@ -25,6 +28,7 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
             timeout,
             groupBy = [],
             disableSnapIfHeaded = true,
+            disableAnimations = true,
         } = options;
 
         const screenName = typeof extScreenName === 'string'
@@ -37,11 +41,19 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
             });
 
         await page.goto(getURLFromProps(component, props));
+
         const element = await page.locator(uniqSelector);
+
+        const waitTimeout = async () => {
+            if (disableAnimations) { return; }
+
+            await page.waitForTimeout(200);
+        };
 
         if (state === 'hover') {
             await element.hover();
-            await page.waitForTimeout(200);
+
+            await waitTimeout();
         } else if (state === 'press') {
             const box = await element.boundingBox();
             const x = (box?.x ?? 0) + (box?.width ?? 0) / 2;
@@ -49,10 +61,10 @@ export function compareSnapshots<Props = PropsType>({ page, headless }: CompareS
 
             await page.mouse.move(x, y);
             await page.mouse.down();
-            await page.waitForTimeout(200);
+            await waitTimeout();
         } else if (state === 'focus') {
             await element.focus();
-            await page.waitForTimeout(200);
+            await waitTimeout();
         }
 
         if (timeout) {
@@ -86,6 +98,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             timeout,
             groupBy,
             disableSnapIfHeaded = true,
+            disableAnimations = true,
         } = options;
 
         const commonProps = {
@@ -95,6 +108,8 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             beforeSnap,
             state,
             timeout,
+            disableSnapIfHeaded,
+            disableAnimations,
         };
 
         await runSeriesComparisons<Props>({
@@ -105,7 +120,6 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             testName,
             postfix,
             groupBy,
-            disableSnapIfHeaded,
         });
     };
 }

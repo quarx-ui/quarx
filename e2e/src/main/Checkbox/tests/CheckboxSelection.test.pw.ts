@@ -15,7 +15,6 @@ test('CheckboxSelection', async ({ compareSnapshotsMap, compareSnapshots }) => {
             subTitle: 'Subtitle',
             checked: true,
         },
-        timeout: 300,
     });
 
     await compareSnapshots({

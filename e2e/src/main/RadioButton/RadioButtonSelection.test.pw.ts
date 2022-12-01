@@ -16,7 +16,6 @@ test('RadioButtonSelection', async ({ compareSnapshotsMap, compareSnapshots }) =
             subTitle: 'Subtitle',
             checked: true,
         },
-        timeout: 300,
     });
 
     await compareSnapshots({

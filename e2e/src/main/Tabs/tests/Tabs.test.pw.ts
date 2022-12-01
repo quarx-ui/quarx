@@ -1,6 +1,6 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
 import { PALETTE_COLORS, QX_BORDER_SIZE, QX_SIZE } from '@kit';
-import { initTest } from '../../../../test-utils/index';
+import { initTest } from '@e2e/test-utils';
 import { TestTabsProps } from '../types';
 
 const { test } = initTest<TestTabsProps>('Tabs', {
@@ -22,7 +22,6 @@ test('Tabs', async ({ compareSnapshotsMap }) => {
         commonProps: {
             type: 'default',
         },
-        timeout: 300,
     });
 
     await compareSnapshotsMap({
@@ -35,7 +34,6 @@ test('Tabs', async ({ compareSnapshotsMap }) => {
         commonProps: {
             type: 'contained',
         },
-        timeout: 300,
     });
 
     await compareSnapshotsMap({
@@ -48,7 +46,6 @@ test('Tabs', async ({ compareSnapshotsMap }) => {
         commonProps: {
             type: 'segmented',
         },
-        timeout: 300,
     });
 
     await compareSnapshotsMap({
@@ -61,6 +58,5 @@ test('Tabs', async ({ compareSnapshotsMap }) => {
         commonProps: {
             withIcons: true,
         },
-        timeout: 300,
     });
 });

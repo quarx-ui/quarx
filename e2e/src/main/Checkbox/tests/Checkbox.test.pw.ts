@@ -14,7 +14,6 @@ test('Checkbox', async ({ compareSnapshotsMap, compareSnapshots }) => {
             children: 'Checkbox',
             checked: true,
         },
-        timeout: 300,
     });
 
     await compareSnapshotsMap({
@@ -26,7 +25,6 @@ test('Checkbox', async ({ compareSnapshotsMap, compareSnapshots }) => {
             children: 'Checkbox',
             checked: true,
         },
-        timeout: 100,
         state: 'hover',
         postfix: 'hover',
     });
@@ -40,7 +38,6 @@ test('Checkbox', async ({ compareSnapshotsMap, compareSnapshots }) => {
             children: 'Checkbox',
             checked: true,
         },
-        timeout: 100,
         state: 'focus',
         postfix: 'focus',
     });
@@ -51,7 +48,6 @@ test('Checkbox', async ({ compareSnapshotsMap, compareSnapshots }) => {
             checked: true,
             disabled: true,
         },
-        timeout: 100,
         state: 'focus',
         postfix: 'disabled-focus',
         groupBy: ['postfix'],
@@ -63,7 +59,6 @@ test('Checkbox', async ({ compareSnapshotsMap, compareSnapshots }) => {
             checked: true,
             disabled: true,
         },
-        timeout: 100,
         state: 'hover',
         postfix: 'disabled-hover',
         groupBy: ['postfix'],

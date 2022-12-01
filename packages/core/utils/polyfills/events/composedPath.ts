@@ -27,5 +27,11 @@ export function composedPath(event: Event, document: Document, window: Window): 
 }
 
 export const addEventComposedPath = () => {
+    if (typeof document === 'undefined') {
+        console.warn('QuarX-UI: Polyfill didn\'t setted up. Document is not defined');
+
+        return;
+    }
+
     composedPath(Event.prototype, document, window);
 };

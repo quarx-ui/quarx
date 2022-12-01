@@ -15,6 +15,7 @@ export function testComponentProps<Props = PropsType>(component: ComponentsListT
             timeout,
             groupBy,
             disableSnapIfHeaded,
+            disableAnimations,
         } = options;
 
         const commonProps = {
@@ -24,6 +25,8 @@ export function testComponentProps<Props = PropsType>(component: ComponentsListT
             state,
             beforeSnap,
             timeout,
+            disableSnapIfHeaded,
+            disableAnimations,
         };
 
         pw.test(testName, async ({ page, headless }) => {
@@ -34,7 +37,6 @@ export function testComponentProps<Props = PropsType>(component: ComponentsListT
                 testName,
                 postfix: state,
                 groupBy,
-                disableSnapIfHeaded,
                 testParams: { page, headless },
             });
         });
