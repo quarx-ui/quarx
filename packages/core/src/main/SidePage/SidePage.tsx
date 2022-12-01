@@ -34,10 +34,12 @@ export const SidePage: FC<SidePageProps> = forwardRef<HTMLDivElement, SidePagePr
             styles={{
                 ...styleProps.styles,
                 box: styles.box,
+                scrollContainer: styles.scrollContainer,
             }}
             classes={{
                 ...props.classes,
                 box: clsx(cn('box'), props.classes?.box),
+                scrollContainer: clsx(cn('scrollContainer'), props.classes?.scrollContainer),
             }}
             FooterProps={{
                 ...props.FooterProps,

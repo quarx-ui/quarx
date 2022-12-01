@@ -6,6 +6,9 @@ import { ModalStyleKeys } from '@core/src/main/Modal/styles';
 
 export const useStyles = makeStyles(() => ({
     root: {},
+    scrollContainer: {
+        flexGrow: 'unset',
+    },
     box: [
         {
             borderRadius: 'unset',

@@ -3,7 +3,6 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { CommonButton } from '@core/src/system/OverScreen/stories/common/components';
 import { ModalProps } from '@core';
 import {
     directionDescription,
@@ -11,6 +10,7 @@ import {
     sizesDescription,
 } from '@core/src/main/Modal/stories/descriptions';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { StoryButton } from '@core/storybook/components';
 import { SidePage as KitSidePage, SidePageProps } from '..';
 
 const defaultArgs: SidePageProps = {
@@ -71,18 +71,10 @@ export default {
                 },
             },
             footerButtons: {},
-            HeaderProps: {
-                control: false,
-            },
-            FooterProps: {
-                control: false,
-            },
-            CloseButtonProps: {
-                control: false,
-            },
-            OverScreenProps: {
-                control: false,
-            },
+            HeaderProps: {},
+            FooterProps: {},
+            CloseButtonProps: {},
+            OverScreenProps: {},
         }),
         ...defineCategory('Стилизация', {
             size: {},
@@ -110,14 +102,14 @@ const SidePage: Story<SidePageProps> = ({ ...props }) => {
 
     return (
         <>
-            <CommonButton
+            <StoryButton
                 onClick={() => setOpen(true)}
             >
                 Открыть
-            </CommonButton>
+            </StoryButton>
             <KitSidePage
                 {...props}
-                open={open}
+                open={props.open || open}
                 onClose={() => setOpen(false)}
             />
         </>
@@ -150,11 +142,11 @@ export const SecondSidePage: Story<ModalProps> = (props) => {
 
     return (
         <div>
-            <CommonButton
+            <StoryButton
                 onClick={() => setIsOpened(true)}
             >
                 Открыть первое окно
-            </CommonButton>
+            </StoryButton>
             <KitSidePage
                 open={isOpened}
                 onClose={() => setIsOpened(false)}
@@ -201,13 +193,3 @@ Sizes.parameters = {
         },
     },
 };
-
-const variantsArray = [
-    FooterDirection,
-    SecondSidePage,
-    Sizes,
-];
-
-variantsArray.forEach((variant, index) => {
-    variantsArray[index].args = defaultArgs;
-});

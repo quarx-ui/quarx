@@ -1,14 +1,5 @@
-import React, { FC } from 'react';
-import { borderRadii, Button, ButtonProps, defaultPalette, OverScreenProps } from '@core';
+import { borderRadii, defaultPalette, OverScreenProps } from '@core';
 import styled from '@emotion/styled';
-
-export const CommonButton: FC<ButtonProps> = (props) => (
-    <Button
-        {...props}
-        size="xSmall"
-        borderRadius="small"
-    />
-);
 
 export interface StoryOverScreenProps extends OverScreenProps {
     buttonText?: string

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
-import React, { forwardRef, useRef } from 'react';
+import React, { forwardRef, useState } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { OverScreen, OVER_SCREEN_CLOSE_REASON, FooterBlock, HeaderBlock, If, QX_SIZE, useEnhancedEffect } from '@core';
 import { limitHeightByRows } from '@core/utils';
@@ -52,13 +52,13 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
 
     const styles = useStyles({ ...params, ...styleProps });
 
-    const contentRef = useRef(null);
+    const [bodyRef, setBodyRef] = useState<HTMLDivElement | null>(null);
 
     useEnhancedEffect(() => {
         if (open) {
-            limitHeightByRows(contentRef.current, 1);
+            limitHeightByRows(bodyRef, 1);
         }
-    }, [open]);
+    }, [open, bodyRef]);
 
     return (
         <OverScreen
@@ -100,7 +100,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
                         <div
                             css={styles.body}
                             className={cn('body')}
-                            ref={contentRef}
+                            ref={setBodyRef}
                         >
                             {body}
                         </div>

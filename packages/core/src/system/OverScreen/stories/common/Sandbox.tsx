@@ -1,7 +1,8 @@
 import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
 import { OverScreen as KitOverScreen } from '@core';
-import { Block, CommonButton, StoryOverScreenProps } from './components';
+import { StoryButton } from '@core/storybook/components';
+import { Block, StoryOverScreenProps } from './components';
 
 export const OverScreen: Story<StoryOverScreenProps> = ({
     buttonText = 'Открыть',
@@ -10,11 +11,11 @@ export const OverScreen: Story<StoryOverScreenProps> = ({
     const [open, setOpen] = useState(false);
     return (
         <>
-            <CommonButton
+            <StoryButton
                 onClick={() => setOpen(true)}
             >
                 {buttonText}
-            </CommonButton>
+            </StoryButton>
             <KitOverScreen
                 open={open}
                 onClose={() => setOpen(false)}

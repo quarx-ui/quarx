@@ -15,12 +15,11 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-lxq25u-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 0; visibility: hidden;"
     tabindex="0"
   >
     <div
@@ -102,24 +101,23 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
       aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
       class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-cagolb-QxModal-box"
@@ -206,24 +204,23 @@ exports[`Modal modal in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-19ri4b4-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
       aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
       class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-cagolb-QxModal-box"
@@ -320,25 +317,24 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-scrollBehaviour-body"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
       aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
       class="QxModal-scrollContainer css-1eam5k8-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-dtgqsp-QxModal-box"
@@ -391,25 +387,24 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-scrollBehaviour-window"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
       aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
       class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-cagolb-QxModal-box"
@@ -462,25 +457,24 @@ exports[`Modal style params size medium 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-medium"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
       aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
       class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-cagolb-QxModal-box"
@@ -533,25 +527,24 @@ exports[`Modal style params size small 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-1tvyoe1-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-small"
     datatype="overscreen"
     role="presentation"
-    style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     tabindex="0"
   >
     <div
       aria-hidden="false"
       class="QxBackdrop css-kd6k92-SxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
       class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-7ablvy-QxModal-box"
