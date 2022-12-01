@@ -1,8 +1,10 @@
-import { MouseEvent, ReactElement } from 'react';
+import { MouseEvent, ReactElement, RefAttributes } from 'react';
 import {
     BackdropProps,
     BaseProps,
     ComponentPropsWithHTML,
+    DelayedMounterProps,
+    OmittedOverScreenStyleParams,
     PortalProps,
     TransitionProps, Values,
     WithClassesAndStyles,
@@ -16,9 +18,10 @@ export type OverScreenOrigin = Values<typeof OVER_SCREEN_ORIGIN>
 
 export interface OverScreenPropsWithoutHtml extends
     Omit<BaseProps, 'permissions'>,
-    Partial<OverScreenStyleParams>,
+    Partial<Omit<OverScreenStyleParams, keyof OmittedOverScreenStyleParams>>,
     WithClassesAndStyles<OverScreenStyleKeys, OverScreenStyleParams>,
-    Pick<PortalProps, 'disablePortal'>
+    Pick<PortalProps, 'disablePortal'>,
+    Pick<TransitionProps, 'timeout' | 'easing'>
 {
     /** Показать/скрыть компонент */
     open?: boolean,
@@ -52,19 +55,19 @@ export interface OverScreenPropsWithoutHtml extends
     onClose?: (event: MouseEvent | TouchEvent, reason: OverScreenCloseReason) => void,
 
     /** Дочерний элемент */
-    children: ReactElement,
+    children: ReactElement & RefAttributes<HTMLDivElement>,
 
     /** Пропсы передаваемые напрямую компоненту Transition */
     TransitionProps?: Partial<TransitionProps>,
-
-    /** Пропсы передаваемые напрямую компоненту Transition для тела компонента */
-    ContentTransitionProps?: Partial<TransitionProps>,
 
     /** Пропсы передаваемые напрямую компоненту Backdrop */
     BackdropProps?: Partial<BackdropProps>,
 
     /** Пропсы передаваемые напрямую компоненту Portal */
     PortalProps?: Partial<PortalProps>,
+
+    /** Пропсы передаваемые напрямую компоненту DelayedMounter */
+    DelayedMounterProps?: Partial<DelayedMounterProps>
 
     /** Исходное положение компонента относительно `placement`
      * @property top

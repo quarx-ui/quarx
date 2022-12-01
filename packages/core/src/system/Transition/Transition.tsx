@@ -11,15 +11,16 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
 ) => {
     const theme = useTheme();
 
-    const defaultTimeout = {
-        enter: theme.transitions.duration.enteringScreen,
-        exit: theme.transitions.duration.leavingScreen,
+    const defaultTimeout = theme.transitions.duration.short;
+
+    const defaultEasing = {
+        enter: theme.transitions.easing.easeInOut,
+        exit: theme.transitions.easing.easeInOut,
     };
 
     const {
         appear = true,
         children,
-        easing,
         in: inProp,
         onEnter,
         onEntering,
@@ -29,7 +30,8 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
         onExited,
         styles: externalStyles = defaultStyles,
         addEndListener,
-        timeoutProps = 'opacity',
+        timeoutProperty = 'opacity',
+        easing = defaultEasing,
         timeout = defaultTimeout,
         mapStatusToStyles = defaultMapStatusToStyles,
         transitionComponent: TransitionComponent = ReactTransition,
@@ -78,8 +80,8 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
 
         transition.current = !enter && mode === 'enter'
             ? undefined
-            : theme.transitions.create(timeoutProps, transitionProps);
-    }, [easing, enter, styles, theme.transitions, timeout, timeoutProps]);
+            : theme.transitions.create(timeoutProperty, transitionProps);
+    }, [easing, enter, styles, theme.transitions, timeout, timeoutProperty]);
 
     const handleEnter = normalizeTransitionCallback((node, isAppearing) => {
         applyTransition('enter');

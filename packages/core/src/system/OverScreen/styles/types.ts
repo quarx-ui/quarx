@@ -3,7 +3,11 @@ import { OVER_SCREEN_PLACEMENT } from '@core/src/system/OverScreen/constants';
 
 export type OverScreenPlacement = Values<typeof OVER_SCREEN_PLACEMENT>
 
-export interface OverScreenStyleParams {
+export interface OmittedOverScreenStyleParams {
+    mounted: boolean,
+}
+
+export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
     /** Расположение компонента на странице
      * @property top
      * @property bottom

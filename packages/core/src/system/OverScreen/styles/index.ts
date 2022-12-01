@@ -4,11 +4,11 @@ import {
 } from '@core/styles';
 import { paramsToCss } from '@core';
 import { OverScreenStyleParams } from './types';
-import { convertOffsets } from '../useOverScreenProps/useMapStyles';
+import { convertOffsets } from '../helpers/getMapStyles/convertOffsets';
 
 export const useStyles = makeStyles((
     _,
-    { placement, margin }: OverScreenStyleParams,
+    { placement, margin, mounted }: OverScreenStyleParams,
 ) => {
     const convertedMargin = convertOffsets(margin);
 
@@ -20,11 +20,13 @@ export const useStyles = makeStyles((
                 top: 0,
                 right: 0,
                 bottom: 0,
-                padding: `${convertedMargin.y}px ${convertedMargin.x}px`,
-                zIndex: 999,
+                padding: `${convertedMargin.y} ${convertedMargin.x}`,
                 boxSizing: 'border-box',
                 overflow: 'hidden',
                 display: 'flex',
+                zIndex: mounted
+                    ? 999
+                    : -1,
             },
 
             paramsToCss(placement)({

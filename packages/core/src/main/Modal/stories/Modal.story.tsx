@@ -4,7 +4,7 @@ import { ModalProps, Modal as KitModal } from '@core';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { CommonButton } from '@core/src/system/OverScreen/stories/common/components';
+import { StoryButton } from '@core/storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { sizesDescription, secondWindowDescription, directionDescription } from './descriptions';
 
@@ -17,9 +17,6 @@ const defaultArgs: ModalProps = {
     disableCloseButton: false,
     disableCloseByEscape: false,
     disableCloseByClickAway: false,
-    OverScreenProps: {
-        margin: 30,
-    },
     footerButtons: {
         success: {
             children: 'Accept',
@@ -79,9 +76,7 @@ export default {
             CloseButtonProps: {
                 control: false,
             },
-            OverScreenProps: {
-                control: false,
-            },
+            OverScreenProps: {},
         }),
         ...defineCategory('Стилизация', {
             size: {},
@@ -110,11 +105,11 @@ export const Modal: Story<ModalProps> = (props) => {
 
     return (
         <div>
-            <CommonButton
+            <StoryButton
                 onClick={() => setIsOpened(true)}
             >
                 Открыть
-            </CommonButton>
+            </StoryButton>
             <KitModal
                 open={isOpened}
                 onClose={() => setIsOpened(false)}
@@ -149,11 +144,11 @@ export const SecondModal: Story<ModalProps> = (props) => {
 
     return (
         <div>
-            <CommonButton
+            <StoryButton
                 onClick={() => setIsOpened(true)}
             >
                 Открыть первое окно
-            </CommonButton>
+            </StoryButton>
             <KitModal
                 open={isOpened}
                 onClose={() => setIsOpened(false)}

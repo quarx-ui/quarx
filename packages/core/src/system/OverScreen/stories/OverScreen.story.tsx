@@ -1,6 +1,8 @@
-import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OVER_SCREEN_PLACEMENT } from '@core';
+import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OVER_SCREEN_PLACEMENT /* OverScreen */ } from '@core';
+// import { defineCategory, excludeProp } from '@core/storybook/templateParams';
+// import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { OverScreenProps } from '..';
-import { Origins, Placements, Appearances, Offset, Margin, BooleanVariants } from './common';
+import { Origins, Placements, Appearances, Offset, Margin, BooleanVariants /* Sandbox */ } from './common';
 
 const defaultArgs: Partial<OverScreenProps> = {
     origin: OVER_SCREEN_ORIGIN.right,
@@ -10,44 +12,44 @@ const defaultArgs: Partial<OverScreenProps> = {
     disableScrollLock: false,
     disablePortal: false,
     keepMounted: false,
-    disableCloseByClickAway: true,
-    disableCloseByEscape: true,
+    disableCloseByClickAway: false,
+    disableCloseByEscape: false,
 };
 
 // export default {
-// title: 'core/OverScreen',
-// component: OverScreen,
-// argTypes: {
-//     ...defineCategory('Расположение', {
-//         origin: {},
-//         placement: {},
-//         offset: {},
-//         margin: {},
-//     }),
-//     ...defineCategory('Поведение', {
-//         open: {},
-//         appearance: {},
-//         keepMounted: {},
-//         disableCloseByClickAway: {},
-//         disableCloseByEscape: {},
-//         disableScrollLock: {},
-//         disablePortal: {},
-//         disableBackdrop: {},
-//         onClose: {},
-//     }),
-//     ...defineCategory('Компоненты', {
-//         children: { control: false },
-//         TransitionProps: { control: false },
-//         ContentTransitionProps: { control: false },
-//         BackdropProps: { control: false },
-//         PortalProps: { control: false },
-//     }),
-//     ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
-// },
-// parameters: {
-//     actions: { disable: true },
-// },
-// args: defaultArgs,
+//     title: 'core/OverScreen',
+//     component: OverScreen,
+//     argTypes: {
+//         ...defineCategory('Расположение', {
+//             origin: {},
+//             placement: {},
+//             offset: {},
+//             margin: {},
+//         }),
+//         ...defineCategory('Поведение', {
+//             open: {},
+//             appearance: {},
+//             keepMounted: {},
+//             disableCloseByClickAway: {},
+//             disableCloseByEscape: {},
+//             disableScrollLock: {},
+//             disablePortal: {},
+//             disableBackdrop: {},
+//             onClose: {},
+//         }),
+//         ...defineCategory('Компоненты', {
+//             children: { control: false },
+//             TransitionProps: {},
+//             DelayedMounterProps: {},
+//             BackdropProps: {},
+//             PortalProps: {},
+//         }),
+//         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
+//     },
+//     parameters: {
+//         actions: { disable: true },
+//     },
+//     args: defaultArgs,
 // };
 
 // export {
