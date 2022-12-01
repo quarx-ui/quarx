@@ -1,8 +1,8 @@
-import { initTest } from '@e2e/test-utils/index';
-import { TestModalProps } from '../types';
+import { initTest } from '@e2e/test-utils';
+import { TestSidePageProps } from '../types';
 
-const { test } = initTest<TestModalProps>('Modal', {
-    selector: '.QxModal-box',
+const { test } = initTest<TestSidePageProps>('SidePage', {
+    selector: '.QxSidePage-box',
     groupBy: ['postfix', 'props', 'value'],
 });
 
@@ -14,14 +14,13 @@ const longBody = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
     + 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui '
     + 'officia deserunt mollit anim id est laborum';
 
-test('Modal', async ({ compareSnapshotsMap, compareSnapshots }) => {
+test('SidePage', async ({ compareSnapshotsMap, compareSnapshots }) => {
     await compareSnapshotsMap({
         targetProps: {
             size: ['small'],
             disableCloseButton: [true],
             footerDirection: ['horizontal'],
             footer: ['Footer'],
-            disableBackdrop: [true],
         },
         groupBy: ['props'],
     });
@@ -49,14 +48,6 @@ test('Modal', async ({ compareSnapshotsMap, compareSnapshots }) => {
         props: {
             body: longBody + longBody,
         },
-        postfix: 'scrollBehavior-window',
-    });
-
-    await compareSnapshots({
-        props: {
-            body: longBody + longBody,
-            scrollBehaviour: 'body',
-        },
-        postfix: 'scrollBehavior-body',
+        postfix: 'scrollBehavior',
     });
 });

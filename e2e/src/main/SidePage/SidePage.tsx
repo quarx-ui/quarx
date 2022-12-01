@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
-import { Modal as KitModal } from '@kit';
-import { TestModalProps } from './types';
+import { SidePage as KitSidePage } from '@kit';
+import { TestSidePageProps } from './types';
 
-export const Modal: FC<TestModalProps> = ({ disableBackdrop, ...props }) => (
-    <KitModal
+export const SidePage: FC<TestSidePageProps> = ({ disableBackdrop, ...props }) => (
+    <KitSidePage
         open
         title="Title"
         subTitle="SubTitle"

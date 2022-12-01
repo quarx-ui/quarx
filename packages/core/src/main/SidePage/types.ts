@@ -1,9 +1,8 @@
-import { ComponentPropsWithHTML, ModalPropsWithoutHTML, ModalStyleParams, WithClassesAndStyles } from '@core';
-import { SidePageStyleKeys } from '@core/src/main/SidePage/styles';
-import { ModalCSSVarKeys } from '@core/src/main/Modal/styles';
+import { ComponentPropsWithHTML, ModalPropsWithoutHTML, WithClassesAndStyles } from '@core';
+import { SidePageStyleKeys, SidePageStyleParams } from '@core/src/main/SidePage/styles';
 
 export type SidePagePropsWithoutHtml =
     & Omit<ModalPropsWithoutHTML, 'scrollBehaviour' | 'styles'>
-    & WithClassesAndStyles<SidePageStyleKeys, ModalStyleParams, ModalCSSVarKeys>;
+    & WithClassesAndStyles<SidePageStyleKeys, SidePageStyleParams>
 
 export type SidePageProps = ComponentPropsWithHTML<SidePagePropsWithoutHtml>;
