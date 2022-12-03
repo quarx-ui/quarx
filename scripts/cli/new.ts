@@ -60,18 +60,18 @@ const questions: QuestionCollection<CLIAnswers> = [
         type: 'list',
         choices: [
             {
-                value: ComponentType.styled,
-                name: 'Styled (Компонент имеет стили и является ui компонентом дизайн-системы)',
+                value: ComponentType.main,
+                name: 'Main (Является ui компонентом дизайн-системы и имеет дизайн-макет)',
             },
             {
-                value: ComponentType.unstyled,
+                value: ComponentType.system,
                 name: [
-                    'Unstyled (Компонент не имеет стилей и/или не является',
-                    'ui компонентом дизайн-системы. Предназначен для разработки)',
+                    'System (Является техническим компонентом',
+                    'дизайн-системы. Предназначен для разработки)',
                 ].join(' '),
             },
         ],
-        default: ComponentType.styled,
+        default: ComponentType.main,
         validate: isComponentType,
     },
     {
@@ -134,8 +134,8 @@ const getArgsFromCommand = async (): Promise<CLIAnswers> => {
         .description('CLI-скрипт для добавления нового компонента в репозиторий.\n'
             + 'Для выполнения в режиме вопрос-ответ можно запустить команду без аргументов: `yarn new`')
         .argument('<name>', 'Имя компонента')
-        .option('-us, --unstyled', 'Компонент не имеет стилей и не является '
-            + 'UI-компонентом дизайн-системы. Предназначен для разработки', false)
+        .option('-s, --system', 'System (Является техническим компонентом '
+            + 'дизайн-системы. Предназначен для разработки)', false)
         .option('-t, --tests', 'Сгенерировать шаблоны тестов', false)
         .option('-tt, --tests-only', 'Сгенерировать только шаблоны тестов', false)
         .option('-p, --parent <string>', 'Имя компонента, в директории которого'
@@ -144,11 +144,11 @@ const getArgsFromCommand = async (): Promise<CLIAnswers> => {
         .parse(process.argv);
 
     const [name] = program.args;
-    const { unstyled, tests, testsOnly, parent } = program.opts();
+    const { system, tests, testsOnly, parent } = program.opts();
 
     return ({
         name,
-        type: unstyled ? ComponentType.unstyled : ComponentType.styled,
+        type: system ? ComponentType.system : ComponentType.main,
         // eslint-disable-next-line no-nested-ternary
         tests: tests ? GenerateTestsTemplate.yes : (
             testsOnly

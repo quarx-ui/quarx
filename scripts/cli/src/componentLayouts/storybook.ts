@@ -2,10 +2,12 @@ import path from 'path';
 
 export const storybookLayout = (
     componentName: string,
+    componentType: string,
     parent: string,
 ): string => `import React from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { ${componentName}, ${componentName}Props } from '..';
@@ -13,7 +15,7 @@ import { ${componentName}, ${componentName}Props } from '..';
 const defaultArgs = {};
 
 export default {
-    title: 'core/${path.join(parent, componentName)}',
+    title: STORY_PATHS.core.components.${componentType}('${path.join(parent, componentName)}'),
     component: ${componentName},
     argTypes: {
         ...excludeProp(['permissions'], BASE_ARG_TYPES),

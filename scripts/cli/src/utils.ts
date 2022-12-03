@@ -10,7 +10,21 @@ export const handleError = (err: Error): void => {
     }
 };
 
-export const getCoreAbsolutePath = () => (
+export const getE2EAbsolutePath = (): string => (
+    path.join(
+        process.cwd(),
+        'e2e',
+    )
+);
+
+export const getE2ESourceAbsolutePath = (): string => (
+    path.join(
+        getE2EAbsolutePath(),
+        'src',
+    )
+);
+
+export const getCoreAbsolutePath = (): string => (
     path.join(
         process.cwd(),
         'packages',
@@ -18,7 +32,7 @@ export const getCoreAbsolutePath = () => (
     )
 );
 
-export const getSrcAbsolutePath = () => (
+export const getSrcAbsolutePath = (): string => (
     path.join(
         getCoreAbsolutePath(),
         'src',

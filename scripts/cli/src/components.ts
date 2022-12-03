@@ -17,8 +17,8 @@ import {
 } from './utils';
 
 export enum ComponentType {
-    styled = 'styled',
-    unstyled = 'unstyled',
+    main = 'main',
+    system = 'system',
 }
 
 export enum GenerateTestsTemplate {
@@ -41,11 +41,11 @@ interface CreateStructureProps {
 }
 
 export const isComponentType = (name: string): name is ComponentType => (
-    name === ComponentType.styled || name === ComponentType.unstyled
+    name === ComponentType.main || name === ComponentType.system
 );
 
 /*
-* Регистрация компонента в src/(un)styled/index.ts или в index.ts родителя компонента.
+* Регистрация компонента в src/(un)main/index.ts или в index.ts родителя компонента.
 * */
 const addComponentExport = async ({
     name: componentName,
@@ -54,7 +54,7 @@ const addComponentExport = async ({
 }: CreateComponentProps): Promise<void> => {
     const srcPath: string = getSrcAbsolutePath();
     const pathWithParent = path.join(type, parent ?? '');
-    const indexFilePath: string = path.join(srcPath, parent ? pathWithParent : '', 'index.ts');
+    const indexFilePath: string = path.join(srcPath, type, parent ? pathWithParent : '', 'index.ts');
 
     const { factory } = ts;
     const program: ts.Program = ts.createProgram([indexFilePath], getTSCompilerOptions());
@@ -66,7 +66,7 @@ const addComponentExport = async ({
     /* Префикс './' Используется только для стандарта экспорта, принятого на проекте */
     const nodes: ts.Node[] = [];
     const newModuleLiteral: ts.StringLiteral = factory?.createStringLiteral(
-        `./${path.join(parent ? '' : type, componentName)}`,
+        `./${componentName}`,
         true,
     );
     const componentPath: string = printer.printNode(ts.EmitHint.Unspecified, newModuleLiteral, sourceFile);
@@ -242,7 +242,7 @@ const createStylesStructures = async ({
 };
 
 const createStoriesStructures = async ({
-    options: { name: componentName, parent },
+    options: { name: componentName, type: componentType, parent },
     makeDir,
     createFile,
 }: CreateStructureProps): Promise<void> => {
@@ -250,11 +250,11 @@ const createStoriesStructures = async ({
     const files = { index: `${folder}/${componentName}.story.tsx` };
 
     await makeDir(folder);
-    await createFile(files.index, storybookLayout(componentName, parent ?? ''));
+    await createFile(files.index, storybookLayout(componentName, componentType, parent ?? ''));
 };
 
 const createTestsStructures = async ({
-    options: { name: componentName, parent },
+    options: { name: componentName, type, parent },
     makeDir,
     createFile,
 }: CreateStructureProps): Promise<void> => {
@@ -268,7 +268,7 @@ const createTestsStructures = async ({
     await createFile(files.snapshots, testLayout(componentName));
 
     const rootDir = process.cwd();
-    const e2ePath = path.join(rootDir, 'e2e', 'src', parent ?? '', componentName);
+    const e2ePath = path.join(rootDir, 'e2e', 'src', type ?? '', parent ?? '', componentName);
     try {
         await fs.promises.mkdir(e2ePath, { recursive: true });
     } catch (error) { console.warn(error); }
@@ -317,6 +317,13 @@ const createFilesStructure = async (options: CreateComponentProps): Promise<void
 /* Создание и регистрация нового компонента */
 export const createComponent = async (options: CreateComponentProps): Promise<void> => {
     await createFilesStructure(options);
+
+    const generateTests = options.tests === GenerateTestsTemplate.yes;
+    const onlyTests = options.tests === GenerateTestsTemplate.yes;
+    if (generateTests || onlyTests) {
+        // TODO: addComponentToE2EComponents
+    }
+
     await addComponentExport(options);
     await addComponentToComponentsProps(options);
 };

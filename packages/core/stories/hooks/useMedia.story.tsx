@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { deviceToBreakpoint } from '../../styles/engine/theme/hooks/useMedia/helpers';
 
 export default {
-    title: 'hooks/useMedia',
+    title: STORY_PATHS.core.hooks('useMedia'),
     argTypes: {
         stringQuery: {
             description: 'Строковое значение медиа-запроса, согласно спецификации css',

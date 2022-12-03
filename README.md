@@ -1,7 +1,11 @@
 # QuarX
 
 <p>
-  <img width="512" src="https://raw.githubusercontent.com/quarx-ui/quarx-storybook/content/cover.png" alt="QuarX" />
+  <img
+    width="100%"
+    alt="QuarX"
+    src="https://raw.githubusercontent.com/quarx-ui/quarx-storybook/content/cover.png"
+  />
 </p>
 
 [![Storybook](https://img.shields.io/github/workflow/status/quarx-ui/quarx/Storybook/main?label=Storybook)](https://quarx-ui.github.io/quarx-storybook/main/)
@@ -33,19 +37,19 @@
 ### Установка пакетов
 #### QuarX-core
 ```sh
-// Для NPM
-npm install @quarx-ui/core @emotion/react @emotion/styled
+# Для NPM
+npm install @quarx-ui/core @emotion/react @emotion/main
  
-// Для yarn
-yarn add @quarx-ui/core @emotion/react @emotion/styled 
+# Для yarn
+yarn add @quarx-ui/core @emotion/react @emotion/main 
 ```
 
 #### QuarX-icons
 ```sh
-// Для NPM
+# Для NPM
 npm install @quarx-ui/icons
  
-// Для yarn
+# Для yarn
 yarn add @quarx-ui/icons
 ```
 

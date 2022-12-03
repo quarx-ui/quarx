@@ -4,9 +4,10 @@ import { jsx } from '@emotion/react';
 import { Story } from '@storybook/react/types-6-0';
 import { ARRANGEMENTS, PLACEMENTS, Position, useFloating, UseFloatingProps } from '@core';
 import { defineCategory } from '@core/storybook/templateParams';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 export default {
-    title: 'hooks/useFloating',
+    title: STORY_PATHS.core.hooks('useFloating'),
     argTypes: {
         ...defineCategory('Основное', {
             placement: {
