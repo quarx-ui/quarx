@@ -1,6 +1,10 @@
 # QuarX
 <p>
-  <img width="300" src="https://avatars.githubusercontent.com/u/105634579" alt="QuarX" />
+  <img
+    width="300"
+    alt="QuarX"
+    src="https://avatars.githubusercontent.com/u/105634579"
+  />
 </p>
 
 ### core
@@ -12,11 +16,11 @@
 ### Установка пакета
 #### QuarX-core
 ```sh
-// Для NPM
-npm install @quarx-ui/core @emotion/react @emotion/styled
+# Для NPM
+npm install @quarx-ui/core @emotion/react @emotion/main
  
-// Для yarn
-yarn add @quarx-ui/core @emotion/react @emotion/styled 
+# Для yarn
+yarn add @quarx-ui/core @emotion/react @emotion/main 
 ```
 
 ### Использование
