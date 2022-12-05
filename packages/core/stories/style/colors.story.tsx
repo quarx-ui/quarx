@@ -13,6 +13,7 @@ import {
     PaletteBorderFocusKey,
 } from '@core/styles/engine/theme/palette/types';
 import { Story } from '@storybook/react/types-6-0';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 interface ColorsStoryProps {
     type: PaletteColor,
@@ -33,7 +34,7 @@ const defaultArgs: ColorsStoryProps = {
 };
 
 export default {
-    title: 'style/colors',
+    title: STORY_PATHS.core.style('colors'),
     argTypes: {
         type: {
             description: 'Тип цвета',

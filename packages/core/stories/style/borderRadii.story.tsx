@@ -6,6 +6,7 @@ import React from 'react';
 import { BorderRadiusSide, QxBorderSize, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { H2, Div, P, Code } from '@storybook/components';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -39,7 +40,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: 'style/borderRadii',
+    title: STORY_PATHS.core.style('borderRadii'),
     argTypes: defaultArgTypes,
     args: {
         size: 'medium',
