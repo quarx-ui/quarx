@@ -5,7 +5,7 @@ import { transitions, usePropsOverwrites } from '@core/styles';
 import { QX_SIZE } from '@core/enums';
 import { CheckMarkIcon, ClosingIcon, TriangleIcon } from '@core/src/main/Chips/assets';
 import { SwitchTransition } from 'react-transition-group';
-import { If, Transition } from '@core';
+import { focusable, If, Transition } from '@core';
 import { useId } from '@core/utils';
 import { CHIPS_VARIANT } from './constants';
 import { ChipsProps } from './types';
@@ -95,6 +95,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
             className={cn('root', params)}
             css={styles.root}
             disabled={disabled}
+            tabIndex={focusable(!disableFocus)}
             {...restProps}
         >
             <If condition={leftIconExists}>

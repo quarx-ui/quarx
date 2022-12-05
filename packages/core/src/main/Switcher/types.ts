@@ -1,5 +1,5 @@
 import { ChangeEventHandler, RefObject } from 'react';
-import { BaseProps, ComponentPropsWithHTML, SelectionProps, WithClassesAndStyles } from '@core';
+import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
 import { SwitcherStyleParams } from '@core/src/main/Switcher/styles/types';
 import { SwitcherCSSVarKeys, SwitcherStyleKeys } from './styles';
 
@@ -25,13 +25,5 @@ export interface SwitcherPropsWithoutHtml extends
 }
 
 export type SwitcherProps = ComponentPropsWithHTML<SwitcherPropsWithoutHtml, 'label'>
-
-export interface SwitcherSelectionProps extends
-    SelectionProps,
-    Pick<SwitcherProps, 'checked'>
-{
-    /** Объект с параметрами для компонента `switcher` */
-    switcherProps?: SwitcherProps,
-}
 
 export * from './styles/types';

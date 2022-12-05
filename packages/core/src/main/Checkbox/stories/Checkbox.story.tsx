@@ -111,7 +111,7 @@ export const BorderRadius: Story<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
     return DisplayVariants({
         property: 'borderRadius',
-        values: ['square', 'smooth'],
+        values: ['medium', 'max'],
         component: Checkbox,
         componentProps: {
             ...props,

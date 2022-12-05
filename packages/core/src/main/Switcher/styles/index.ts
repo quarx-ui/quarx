@@ -9,7 +9,7 @@ export const useStyles = makeStyles((
     {
         size,
         checked,
-        color = PALETTE_COLORS.brand,
+        color,
         disabled,
         hover,
         position,

@@ -10,7 +10,7 @@ const checkPropsInClasses = (props: Partial<CheckboxStyleParams>) => {
         size = 'medium',
         color = 'brand',
         disabled = false,
-        borderRadius = 'smooth',
+        borderRadius = 'medium',
         indeterminate = false,
     } = props;
     const checkbox = document.querySelector('.QxCheckbox');
@@ -37,8 +37,8 @@ describe('Checkbox snapshots', () => {
     it('medium', checkRadioProps({ size: 'medium' }));
     it('large', checkRadioProps({ size: 'large' }));
 
-    it('square', checkRadioProps({ borderRadius: 'square' }));
-    it('smooth', checkRadioProps({ borderRadius: 'smooth' }));
+    it('medium radius', checkRadioProps({ borderRadius: 'medium' }));
+    it('max radius', checkRadioProps({ borderRadius: 'max' }));
 
     it('indeterminate', checkRadioProps({ indeterminate: true }));
     it('checked', checkRadioProps({ checked: true }));

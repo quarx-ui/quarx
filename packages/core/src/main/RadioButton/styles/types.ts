@@ -1,6 +1,6 @@
 import { PaletteColor } from '@core/styles';
-import { SelectionSize } from '@core/src/main/Selection/types';
 import { Values } from '@core/types';
+import { PickQxSize } from '@core/enums';
 import { RADIO_BUTTON_POSITION } from '../constants';
 
 export type RadioButtonPosition = Values<typeof RADIO_BUTTON_POSITION>
@@ -16,7 +16,7 @@ export interface RadioButtonStyleParams {
     checked: boolean,
 
     /** Размер компонента */
-    size: SelectionSize,
+    size: PickQxSize<'small' | 'medium' | 'large'>,
 
     /** Отключение возможности фокуса */
     disableFocus: boolean,

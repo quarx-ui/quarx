@@ -5,6 +5,7 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { CommonButton } from '@core/src/system/OverScreen/stories/common/components';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { sizesDescription, secondWindowDescription, directionDescription } from './descriptions';
 
 const defaultArgs: ModalProps = {
@@ -39,7 +40,7 @@ const defaultArgs: ModalProps = {
 };
 
 export default {
-    title: 'core/Modal',
+    title: STORY_PATHS.core.components.main('Modal'),
     component: KitModal,
     argTypes: {
         ...defineCategory('Элементы', {
