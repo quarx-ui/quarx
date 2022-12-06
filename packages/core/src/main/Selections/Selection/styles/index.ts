@@ -116,6 +116,7 @@ export const useStyles = makeStyles((
             flexDirection: 'column',
             alignItems: 'flex-start',
             overflow: 'auto',
+            textAlign: 'justify',
         },
 
         title: {
@@ -141,6 +142,7 @@ export const useStyles = makeStyles((
             wordBreak: 'break-word',
             ...text,
             ...disabled && { color: palette.text.tertiary },
+            textAlign: 'justify',
         },
 
         controller: [

@@ -22,6 +22,7 @@ import {
     OverScreenProps,
     Palette,
     RadioButtonProps,
+    SelectionGroupProps,
     SelectionProps,
     SidePageProps,
     SwitcherProps,
@@ -62,6 +63,7 @@ export interface ComponentsProps {
     OverScreen: OverScreenProps;
     RadioButton: RadioButtonProps;
     Selection: SelectionProps;
+    SelectionGroup: SelectionGroupProps;
     SidePage: SidePageProps;
     Switcher: SwitcherProps;
     TabItemContained: TabItemContainedProps;
