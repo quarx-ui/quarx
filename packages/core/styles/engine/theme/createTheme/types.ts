@@ -5,7 +5,6 @@ import {
     Breakpoints,
     ButtonProps,
     CheckboxProps,
-    CheckboxSelectionProps,
     ChipsProps,
     CounterProps,
     CreateBreakpointsArg,
@@ -13,7 +12,6 @@ import {
     CreatePaletteArg,
     CreateTransitionArg,
     DeepPartial,
-    OverScreenProps,
     Elevations,
     FooterBlockProps,
     HeaderBlockProps,
@@ -21,13 +19,12 @@ import {
     LinkProps,
     LoaderProps,
     ModalProps,
+    OverScreenProps,
     Palette,
     RadioButtonProps,
-    RadioButtonSelectionProps,
     SelectionProps,
     SidePageProps,
     SwitcherProps,
-    SwitcherSelectionProps,
     TabItemContainedProps,
     TabItemDefaultProps,
     TabItemSegmentedProps,
@@ -53,23 +50,20 @@ export interface ComponentsProps {
     BaseButton: BaseButtonProps;
     Button: ButtonProps;
     Checkbox: CheckboxProps;
-    CheckboxSelection: CheckboxSelectionProps;
     Chips: ChipsProps;
     Counter: CounterProps;
     Dialog: SidePageProps;
-    OverScreen: OverScreenProps;
     FooterBlock: FooterBlockProps;
     HeaderBlock: HeaderBlockProps;
     IconButton: IconButtonProps;
     Link: LinkProps;
     Loader: LoaderProps;
     Modal: ModalProps;
+    OverScreen: OverScreenProps;
     RadioButton: RadioButtonProps;
-    RadioButtonSelection: RadioButtonSelectionProps;
     Selection: SelectionProps;
     SidePage: SidePageProps;
     Switcher: SwitcherProps;
-    SwitcherSelection: SwitcherSelectionProps;
     TabItemContained: TabItemContainedProps;
     TabItemDefault: TabItemDefaultProps;
     TabItemSegmented: TabItemSegmentedProps;

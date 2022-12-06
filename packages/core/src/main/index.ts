@@ -7,7 +7,7 @@ export * from './Link';
 export * from './Loader';
 export * from './Modal';
 export * from './RadioButton';
-export * from './Selection';
+export * from './Selections';
 export * from './SidePage';
 export * from './Switcher';
 export * from './Tabs';

@@ -6,6 +6,7 @@ export const STORY_PATHS = {
         },
         hooks: (value: string) => `core/hooks/${value}`,
         style: (value: string) => `core/style/${value}`,
+        manuals: (value?: string) => `core/manuals${value ? `/${value}` : ''}`,
     },
     icons: (value: string) => `icons/${value}`,
 };

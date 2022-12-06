@@ -8,6 +8,7 @@ exports[`Switcher style params color brand 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -35,6 +36,7 @@ exports[`Switcher style params color danger 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -62,6 +64,7 @@ exports[`Switcher style params color info 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -89,6 +92,7 @@ exports[`Switcher style params color secondary 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -116,6 +120,7 @@ exports[`Switcher style params color success 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -143,6 +148,7 @@ exports[`Switcher style params color warning 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -170,6 +176,7 @@ exports[`Switcher style params disabled false 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -198,6 +205,7 @@ exports[`Switcher style params disabled true 1`] = `
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
       disabled=""
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -225,6 +233,7 @@ exports[`Switcher style params position left 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -257,6 +266,7 @@ exports[`Switcher style params position right 1`] = `
     </div>
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -279,6 +289,7 @@ exports[`Switcher style params size large 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -306,6 +317,7 @@ exports[`Switcher style params size medium 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
@@ -333,6 +345,7 @@ exports[`Switcher style params size small 1`] = `
   >
     <input
       class="QxSwitcher-input css-7h2lkr-QxSwitcher-input"
+      tabindex="0"
       type="checkbox"
       value=""
     />
