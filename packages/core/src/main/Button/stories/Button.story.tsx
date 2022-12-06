@@ -4,7 +4,16 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { Button, IconButton, ButtonProps, ButtonSize, ButtonColor, ButtonType, ButtonBorderRadius } from '..';
+import {
+    Button,
+    IconButton,
+    ButtonProps,
+    ButtonSize,
+    ButtonColor,
+    ButtonType,
+    ButtonBorderRadius,
+    IconButtonProps,
+} from '..';
 import { PaperClipIcon, SmallPaperClipIcon, ChevronDownIcon } from './assets';
 
 const defaultArgs: ButtonProps = {
@@ -91,7 +100,7 @@ export const Sandbox: Story<StoryButtonProps> = ({
             marginBottom: 10,
         }}
         >
-            <IconButton {...args}>
+            <IconButton {...args as IconButtonProps}>
                 {
                     args.size === 'xSmall'
                         ? <SmallPaperClipIcon />

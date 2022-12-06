@@ -42,3 +42,5 @@ export interface WithClassesAndStyles<
 
     cssVars?: Partial<Record<CSSVars, string>>;
 }
+
+export type OmitClassesAndStyles<Props extends object> = Omit<Props, keyof WithClassesAndStyles<any>>
