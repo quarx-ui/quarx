@@ -23,7 +23,7 @@ export function makeStyles<
     ClassKey extends string = string,
     CSSVars extends string = string,
 >(
-    styles: Partial<Styles<ClassKey>> | StylesCallback<ClassKey, Props, CSSVars>,
+    styles: Styles<ClassKey> | StylesCallback<ClassKey, Props, CSSVars>,
     options: MakeStylesOptions = {}
 ): keyof Props extends never
     ? (props?: any) => StylesMap<ClassKey>
