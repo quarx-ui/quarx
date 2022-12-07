@@ -60,7 +60,6 @@ Required<ChipsPropsWithoutHtml>,
     rightIcon: true,
     hidden: false,
     rotateRightIcon: true,
-    cssVars: {},
 };
 
 export default {

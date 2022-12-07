@@ -1,13 +1,14 @@
-export const omitProps = <T extends object = object>(
+export const omitProps = <T extends object, Keys extends keyof T>(
     initialProps: T,
-    excludedProps: Array<keyof T>,
-) => Object.entries(initialProps).reduce<T>((acc, [key, property]) => {
-    if (excludedProps.includes(key as keyof T)) {
-        return acc;
-    }
+    excludedProps: Array<Keys>,
+): Omit<T, Keys> => {
+    const props = { ...initialProps };
 
-    return {
-        ...acc,
-        [key]: property,
-    };
-}, {} as T);
+    excludedProps.forEach((property) => {
+        if (!props[property]) { return; }
+
+        delete props[property];
+    });
+
+    return props;
+};

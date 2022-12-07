@@ -39,8 +39,6 @@ export interface WithClassesAndStyles<
     styles?:
         | Partial<StylesWithCallback<Keys, Props>>
         | ((theme: Theme, props: Required<Props>, cssVars: Record<CSSVars, string>) => Partial<Styles<Keys>>);
-
-    cssVars?: Partial<Record<CSSVars, string>>;
 }
 
 export type OmitClassesAndStyles<Props extends object> = Omit<Props, keyof WithClassesAndStyles<any>>
