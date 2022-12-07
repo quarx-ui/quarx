@@ -3,7 +3,6 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { ModalProps } from '@core';
 import {
     directionDescription,
     secondWindowDescription,

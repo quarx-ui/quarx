@@ -1,17 +1,13 @@
-import { cn as bem } from '@bem-react/classname';
-import clsx from 'clsx';
-import { extractStyles } from '@core/styles/engine/utils';
 import { useTheme } from '../useTheme';
 import {
     StyleProps,
-    TypedCnFormatter,
     UsePropsOverwritesPropsType,
     UsePropsOverwritesPropsTypeCast,
     UsePropsOverwritesReturnType
 } from './types';
-import { ComponentsProps } from '@core/styles';
-import { mergeStyles } from './helpers';
-import { mapObjectKeys, omitProps } from '@core/utils';
+import { ComponentsProps, useStylesOverwritesWithoutTheme } from '@core/styles';
+import { omitProps } from '@core/utils';
+import { useBem } from '@core/styles/engine/theme/hooks/useBem';
 
 /**
  * Хук для переопределения стандартных параметров компонентов, а также обеспечения возможности
@@ -35,54 +31,42 @@ import { mapObjectKeys, omitProps } from '@core/utils';
  *
  * name - имя компонента
  */
-export function usePropsOverwrites<T extends object, StyleKey extends string, CSSVarNames extends Record<string, string>>(
+export function usePropsOverwrites<
+    Props extends object,
+    StyleKey extends string,
+    CSSVarNames extends Record<string, string>
+>(
     name: keyof ComponentsProps,
-    props: UsePropsOverwritesPropsType<T, StyleKey, CSSVarNames>,
+    props: UsePropsOverwritesPropsType<Props, StyleKey, CSSVarNames>,
     cssVarNames?: CSSVarNames
-): UsePropsOverwritesReturnType<T, StyleKey, CSSVarNames> {
-    const typedProps = props as UsePropsOverwritesPropsTypeCast<T, StyleKey, CSSVarNames>
+): UsePropsOverwritesReturnType<Props, StyleKey, CSSVarNames> {
+    const typedProps = omitProps<
+        UsePropsOverwritesPropsTypeCast<Props, StyleKey, CSSVarNames>,
+        'classes' | 'className'
+    >(props, ['classes', 'className']);
 
     const {
-        classes,
-        className,
         permissions,
         ...restProps
     } = typedProps;
 
     const theme = useTheme();
     const overwrites = theme?.defaultProps?.[name] as typeof typedProps;
-
-    const mergedCssVars = {
-        ...overwrites?.cssVars,
-        ...restProps.cssVars,
-    };
-
-    const mergedProps = omitProps<typeof typedProps>({
+    const mergedProps = omitProps<typeof typedProps, 'cssVars' | 'styles'>({
         ...(overwrites ?? {}),
         ...(restProps ?? {}),
         ...(permissions ?? {}),
     }, ['cssVars', 'styles']);
-
-    const overwritesStyles = extractStyles(mergedProps, theme, overwrites?.styles, cssVarNames);
-    const propsStyles = extractStyles(mergedProps, theme, restProps?.styles, cssVarNames);
-
-    const cssVarValues = mapObjectKeys(mergedCssVars, cssVarNames);
+    const mergedStyles = useStylesOverwritesWithoutTheme(typedProps, cssVarNames, overwrites, theme);
+    const { cn } = useBem(name, props);
 
     const styleProps: StyleProps<StyleKey, CSSVarNames> = {
         cssVars: cssVarNames,
-        styles: mergeStyles(propsStyles, overwritesStyles, cssVarValues),
+        styles: mergedStyles,
     };
 
-    const bemCn = bem(`Qx${name}`);
-
-    const cn: TypedCnFormatter<StyleKey> = (key, ...args: any) => (
-        key === 'root'
-            ? clsx(bemCn(...args), classes?.[key], className)
-            : clsx(bemCn(key, ...args), classes?.[key])
-    );
-
     return {
-        props: mergedProps,
+        props: mergedProps as UsePropsOverwritesReturnType<Props, StyleKey, CSSVarNames>['props'],
         cn,
         name,
         styleProps,
