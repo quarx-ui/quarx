@@ -1,11 +1,9 @@
-import { ClassNameList, NoStrictEntityMods } from '@bem-react/classname';
-import { Classes, Permissions, Styles, StylesCallback, StylesWithCallback } from '@core';
-
-export interface TypedCnFormatter<Key extends string> {
-    (elemName: Key): string;
-    (elemName: Key, elemMix?: ClassNameList): string;
-    (elemName: Key, elemMods?: NoStrictEntityMods | null, elemMix?: ClassNameList): string;
-}
+import { Permissions, Styles, WithPermissions } from '@core';
+import {
+    TypedCnFormatter,
+    UseBemPropsType,
+    UseBemTypeCast
+} from '@core/styles/engine/theme/hooks/useBem/types';
 
 export interface StyleProps<
     StyleKey extends string,
@@ -16,31 +14,30 @@ export interface StyleProps<
 }
 
 export type UsePropsOverwritesPropsType<
-    T extends object,
+    Props extends object,
     StyleKey extends string,
     CSSVarNames extends Partial<Record<string, string>> = Record<string, string>
-> = T & {
-    classes?: Classes<StyleKey>,
-    cssVars?: Partial<Record<keyof CSSVarNames, unknown>>,
-}
+> =
+    & Props
+    & UseBemPropsType<Props, StyleKey>
+    & { cssVars?: Partial<Record<keyof CSSVarNames, unknown>> }
 
 export type UsePropsOverwritesPropsTypeCast<
-    T extends object,
+    Props extends object,
     StyleKey extends string,
     CSSVarNames extends Partial<Record<string, string>> = Record<string, string>
-> = UsePropsOverwritesPropsType<T, StyleKey, CSSVarNames> & {
-    styles?: Partial<StylesWithCallback<StyleKey, T>> | StylesCallback<StyleKey, T>,
-    className?: string,
-    permissions?: Permissions,
-}
+> =
+    & UsePropsOverwritesPropsType<Props, StyleKey, CSSVarNames>
+    & UseBemTypeCast<Props, StyleKey>
+    & WithPermissions
 
 export interface UsePropsOverwritesReturnType<
-    T,
+    Props,
     StyleKey extends string,
     CSSVars extends Partial<Record<string, string>>
 > {
-    props: Omit<T, keyof StyleProps<StyleKey, CSSVars>> & Permissions,
-    cn: TypedCnFormatter<StyleKey>,
-    name: string,
-    styleProps: StyleProps<StyleKey, CSSVars>,
+    props: Omit<Props, keyof StyleProps<StyleKey, CSSVars>> & Permissions;
+    cn: TypedCnFormatter<StyleKey>;
+    name: string;
+    styleProps: StyleProps<StyleKey, CSSVars>;
 }
