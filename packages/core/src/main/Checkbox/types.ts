@@ -8,23 +8,23 @@ export interface CheckboxPropsWithoutHtml extends
     WithClassesAndStyles<CheckboxStyleKeys, CheckboxStyleParams>,
     BaseProps<HTMLLabelElement>
 {
-    /** Дочерний элемент */
-    children?: string,
+    /** @description Дочерний элемент */
+    children?: string;
 
-    /** Обработчик изменения состояния элемента `input` */
-    onChange?: ChangeEventHandler<HTMLInputElement>,
+    /** @description Обработчик изменения состояния элемента `input` */
+    onChange?: ChangeEventHandler<HTMLInputElement>;
 
-    /** Объект со свойствами для элемента `input` */
-    inputProps?: JSX.IntrinsicElements['input'],
+    /** @description Объект со свойствами для элемента `input` */
+    inputProps?: JSX.IntrinsicElements['input'];
 
-    /** Ссылка к элементу `input` */
-    inputRef?: RefObject<HTMLInputElement>
+    /** @description Ссылка к элементу `input` */
+    inputRef?: RefObject<HTMLInputElement>;
 
-    /** Свойство `name` элемента `input` */
-    name?: string,
+    /** @description Свойство `name` элемента `input` */
+    name?: string;
 
-    /** Свойство `value` элемента `input` */
-    value?: string,
+    /** @description Свойство `value` элемента `input` */
+    value?: string;
 }
 
 export type CheckboxProps = ComponentPropsWithHTML<CheckboxPropsWithoutHtml, 'label'>;

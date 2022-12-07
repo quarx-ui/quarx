@@ -12,7 +12,7 @@ export const Loader: FC<LoaderProps> = forwardRef<HTMLDivElement, LoaderProps>((
     const { cn, props, styleProps } = usePropsOverwrites('Loader', initialProps);
     const {
         size = 'large',
-        twoDots,
+        twoDots = false,
         ...restProps
     } = props;
 

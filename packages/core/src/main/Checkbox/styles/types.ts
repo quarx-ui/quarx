@@ -4,27 +4,43 @@ import { PaletteColor } from '@core/styles';
 export type CheckboxSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface CheckboxStyleParams {
-    /** Состояние наведения */
+    /** @description Состояние наведения
+     *
+     * @default false */
     hover: boolean;
 
-    /** Цвет компонента */
+    /** @description Цвет компонента
+     *
+     * @default brand */
     color: PaletteColor;
 
-    /** Размер компонента */
+    /** @description Размер компонента
+     *
+     * @default medium */
     size: CheckboxSize;
 
-    /** Скругление компонента */
+    /** @description Скругление компонента
+     *
+     * @default medium */
     borderRadius: PickQxBorderSize<'medium' | 'max'>;
 
-    /** Состояние компонента */
+    /** @description Состояние компонента
+     *
+     * @default false */
     checked: boolean;
 
-    /** Отключение возможности фокуса */
+    /** @description Отключение возможности фокуса
+     *
+     * @default false */
     disableFocus: boolean;
 
-    /** Изменяет состояние компонента на активное/неактивное */
+    /** @description Изменяет состояние компонента на активное/неактивное
+     *
+     * @default false */
     disabled: boolean;
 
-    /** Состояние неопределенности (неполный выбор) */
+    /** @description Состояние неопределенности (неполный выбор)
+     *
+     * @default false */
     indeterminate: boolean;
 }

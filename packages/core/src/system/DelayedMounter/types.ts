@@ -4,32 +4,32 @@ import { ReactElement } from 'react';
 export type DelayedMounterPropsWithoutHtml<Props extends object = object> =
     & Props
     & {
-        /** Дочерний элемент */
-        children: ReactElement | string,
+        /** @description Дочерний элемент */
+        children: ReactElement | string;
 
-        /** Продолжительность задержки
+        /** @description Продолжительность задержки
          *
          * @default 250 */
-        timeout?: number,
+        timeout?: number;
 
-        /** Компонент монтирован
+        /** @description Компонент монтирован
          *
          * @default false */
-        mounted?: boolean,
+        mounted?: boolean;
 
-        /** Отключение задержки размонтирования
+        /** @description Отключение задержки размонтирования
          *
          * @default false */
-        disableTimeout?: boolean,
+        disableTimeout?: boolean;
 
-        /** Обработчик, вызываемый при монтировании компонента */
-        onEnter?: () => void,
+        /** @description Обработчик, вызываемый при монтировании компонента */
+        onEnter?: () => void;
 
-        /** Обработчик, вызываемый в начале размонтирования компонента */
-        onExitStart?: () => void,
+        /** @description Обработчик, вызываемый в начале размонтирования компонента */
+        onExitStart?: () => void;
 
-        /** Обработчик, вызываемый в конце размонтирования компонента */
-        onExit?: () => void,
+        /** @description Обработчик, вызываемый в конце размонтирования компонента */
+        onExit?: () => void;
     }
 
 export type DelayedMounterProps<

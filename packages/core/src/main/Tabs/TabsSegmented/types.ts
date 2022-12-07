@@ -6,11 +6,12 @@ export interface TabsSegmentedPropsWithoutHtml<T extends TabItem = TabItem> exte
     TabsPropsCommon<T>,
     Partial<TabsSegmentedStyleParams>,
     WithClassesAndStyles<TabsSegmentedStyleKeys, TabsSegmentedStyleParams> {
-    /** Переключение в режим отображения иконок в виде вкладок, доступно
+    /** @description Переключение в режим отображения иконок в виде вкладок, доступно
      * только для `Tabs` с типом `segmented` */
-    icons?: boolean,
+    icons?: boolean;
 }
 
 export type TabsSegmentedProps<T extends TabItem = TabItem> =
-    ComponentPropsWithHTML<TabsSegmentedPropsWithoutHtml<T>>
+    ComponentPropsWithHTML<TabsSegmentedPropsWithoutHtml<T>>;
+
 export * from './styles/types';

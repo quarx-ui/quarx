@@ -7,24 +7,38 @@ export type SelectionType = Values<typeof SELECTION_TYPE>;
 export type SelectionSize = PickQxSize<'large' | 'medium' | 'small'>;
 
 export interface SelectionStyleParams {
-    /** Тип компонента */
+    /** @description Тип компонента
+     *
+     * @default text */
     type: SelectionType;
 
-    /** Цветовая схема компонента */
+    /** @description  Цветовая схема компонента
+     *
+     * @default brand */
     color: PaletteColor;
 
-    /** Размер компонента */
+    /** @description  Размер компонента
+     *
+     * @default medium */
     size: SelectionSize;
 
-    /** Активное/неактивное состоние компонента */
+    /** @description  Активное/неактивное состоние компонента
+     *
+     * @default false */
     disabled: boolean;
 
-    /** Включить/Отключить обратный порядок элементов */
+    /** @description  Включить/Отключить обратный порядок элементов
+     *
+     * @default false */
     reverse: boolean;
 
-    /** Возможность отключения focus`а компонента */
+    /** @description  Возможность отключения focus`а компонента
+     *
+     * @default false */
     disableFocus: boolean;
 
-    /** Начальное состояние эффекта наведения */
+    /** @description  Начальное состояние эффекта наведения
+     *
+     * @default false */
     hover: boolean;
 }

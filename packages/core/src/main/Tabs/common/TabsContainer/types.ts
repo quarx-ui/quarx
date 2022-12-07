@@ -3,7 +3,7 @@ import { TabsContainerStyleKeys, TabsContainerStyleParams } from './styles';
 
 export type TabsContainerPropsWithoutHtml =
     & Partial<TabsContainerStyleParams>
-    & WithClassesAndStyles<TabsContainerStyleKeys, TabsContainerStyleParams>
+    & WithClassesAndStyles<TabsContainerStyleKeys, TabsContainerStyleParams>;
 
-export type TabsContainerProps = ComponentPropsWithHTML<TabsContainerPropsWithoutHtml>
+export type TabsContainerProps = ComponentPropsWithHTML<TabsContainerPropsWithoutHtml>;
 export * from './styles/types';

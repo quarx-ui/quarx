@@ -4,42 +4,54 @@ import { ChipsVariant } from '@core/src';
 export type ChipsSize = PickQxSize<'small' | 'medium'>;
 
 export interface ChipsStyleParams {
-    /**
-     * Вариант Chips
-     * @default input
-     * */
+    /** @description Вариант Chips
+     *
+     * @default input */
     variant: ChipsVariant;
 
     /**
-     * Размер chips
-     * @default medium
-     * */
-    size: ChipsSize,
+     * @description Размер chips
+     *
+     * @default medium */
+    size: ChipsSize;
 
-    /** Использование стилей с тенями */
-    elevation: boolean,
+    /** @description Использование стилей с тенями
+     *
+     * @default false */
+    elevation: boolean;
 
-    /** Активное состояние */
-    active: boolean,
+    /** @description Активное состояние
+     *
+     * @default false */
+    active: boolean;
 
-    /** Выключенное состояние */
-    disabled: boolean,
+    /** @description Выключенное состояние
+     *
+     * @default false */
+    disabled: boolean;
 
-    /** Наличие левой иконки */
-    leftIconExists: boolean,
+    /** @description Наличие левой иконки
+     *
+     * @default false */
+    leftIconExists: boolean;
 
-    /** Цвет левой иконки */
-    leftIconColor?: string,
+    /** @description Цвет левой иконки
+     *
+     * @default undefined */
+    leftIconColor?: string;
 
-    /** Наличие иконки для закрытия(в случае Input)/Dropdown(в случае Filter) */
-    rightIconExists: boolean,
+    /** @description Наличие иконки для закрытия(в случае Input)/Dropdown(в случае Filter)
+     *
+     * @default false */
+    rightIconExists: boolean;
 
-    /** Отключение фокусировки */
-    disableFocus: boolean,
+    /** @description Отключение фокусировки
+     *
+     * @default false */
+    disableFocus: boolean;
 
-    /**
-     * Переворачивать картинку на 180 градусов при состоянии active
-     * @default true
-     * */
-    rotateRightIcon: boolean,
+    /** @description Переворачивать картинку на 180 градусов при состоянии active
+     *
+     * @default true */
+    rotateRightIcon: boolean;
 }

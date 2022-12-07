@@ -5,21 +5,22 @@ export type CounterType = 'filled' | 'white' | 'ghosted';
 export type CounterColor = PaletteColor | 'text';
 
 export interface CounterStyleParams {
-    /** Размер компонента
+    /** @description Размер компонента
      *
      * @default large */
-    size: CounterSize,
+    size: CounterSize;
 
-    /** Тип заливки компонента
+    /** @description Тип заливки компонента
      * @property filled
      * @property white
      * @property ghosted
      *
      * @default filled */
-    type: CounterType,
+    type: CounterType;
 
-    /** Цветовая палитра компонента. Значения соответствуют токенам объекта `palette.colors`
+    /** @description Цветовая палитра компонента.
+     * Значения соответствуют токенам объекта `palette.colors`
      *
      * @default brand */
-    color: CounterColor,
+    color: CounterColor;
 }

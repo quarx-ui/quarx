@@ -6,28 +6,44 @@ export type ButtonColor = PaletteColor;
 export type ButtonBorderRadius = QxBorderSize;
 
 export interface ButtonStyleParams {
-    /** Цветовая палитра компонента. Значения соответствуют токенам объекта `palette.colors` */
-    color: ButtonColor,
+    /** @description Цветовая палитра компонента.
+     * Значения соответствуют токенам объекта `palette.colors`
+     *
+     * @default brand */
+    color: ButtonColor;
 
-    /** Размер компонента. Влияет на высоту и размер текста
+    /** @description Размер компонента. Влияет на высоту и размер текста
      * @property xSmall минимальный размер
      * @property small маленький
      * @property medium средний
-     * @property large наибольший размер */
-    size: ButtonSize,
+     * @property large наибольший размер
+     *
+     * @default medium */
+    size: ButtonSize;
 
-    /** Скругление компонента. Значения соответствуют токенам объекта `borderRadii` */
-    borderRadius: ButtonBorderRadius,
+    /** @description Скругление компонента.
+     * Значения соответствуют токенам объекта `borderRadii`
+     *
+     * @default medium */
+    borderRadius: ButtonBorderRadius;
 
-    /** Тип заливки компонента
+    /** @description Тип заливки компонента
+     *
      * @property contained используется, чтобы усилить акцент на основном действии
      * @property outlined используется для дополнительных действий или в элементах, где не нужен максимальный акцент
-     * @property text текстовые кнопки обычно используются для не самых важных действий */
-    type: ButtonType,
+     * @property text текстовые кнопки обычно используются для не самых важных действий
+     *
+     * @default button */
+    type: ButtonType;
 
-    /** Анимация загрузки */
-    loading: boolean,
+    /** @description Анимация загрузки
+     *
+     * @default false */
+    loading: boolean;
 
-    /** Изменяет состояние компонента на активное/неактивное. Отключает обработчики события */
-    disabled: boolean,
+    /** @description Изменяет состояние компонента на активное/неактивное.
+     * Отключает обработчики события
+     *
+     * @default false */
+    disabled: boolean;
 }

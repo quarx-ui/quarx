@@ -6,96 +6,98 @@ export type TextFieldColorBase = 'main' | 'secondary';
 export type TextFieldClearIconVisibleOn = 'always' | 'interact' | 'none';
 
 export interface BaseTextFieldStyleParams {
-    /** Многострочность текстового поля
+    /** @description Многострочность текстового поля
      *
      * @default false */
-    multiline: boolean,
+    multiline: boolean;
 
-    /** Изменяет состояние компонента на активное/неактивное
+    /** @description Изменяет состояние компонента на активное/неактивное
      *
      * @default false */
-    disabled: boolean,
+    disabled: boolean;
 
-    /** Доступно только для чтения. Работает так же как `disabled`, но без визуального обозначения
+    /** @description Доступно только для чтения. Работает так же как `disabled`,
+     * но без визуального обозначения
      *
      * @default false */
-    readOnly: boolean,
+    readOnly: boolean;
 }
 
 export interface OmittedFieldStyleParams {
-    overflowed: boolean
-    hasValue: boolean
-    rightItemIsExist: boolean,
-    bottomIsVisible: boolean,
+    overflowed: boolean;
+    hasValue: boolean;
+    rightItemIsExist: boolean;
+    bottomIsVisible: boolean;
 }
 
 export interface TextFieldStyleParams extends OmittedFieldStyleParams {
-    /** Видимость счетчика символов
+    /** @description Видимость счетчика символов
      *
      * @property always счетчик отображается всегда
      * @property focus счетчик отображается при фокусе и сохраняется при введенном значении
      *
      * @default always */
-    counterVisibleOn: 'always' | 'focus',
+    counterVisibleOn: 'always' | 'focus';
 
-    /** Абсолютное позиционирование `helperText` и `counter`
+    /** @description Абсолютное позиционирование `helperText` и `counter`
      *
      * @default false */
-    bottomIsAbsolute: boolean,
+    bottomIsAbsolute: boolean;
 
-    /** Состояние заполненности поля
+    /** @description Состояние заполненности поля
      *
      * @default undefined */
-    filled: boolean,
+    filled: boolean;
 
-    /** Размер текстового поля
+    /** @description Размер текстового поля
      *
      * @default medium */
-    size: TextFieldSize,
+    size: TextFieldSize;
 
-    /** Цветовая основа
+    /** @description Цветовая основа
      *
      * @property main используется на основном фоне
      * @property secondary используется на дополнительном фоне
      *
      * @default main */
-    colorBase: TextFieldColorBase,
+    colorBase: TextFieldColorBase;
 
-    /** Скругление компонента. Значения соответствуют токенам объекта `borderRadii`
+    /** @description Скругление компонента.
+     * Значения соответствуют токенам объекта `borderRadii`
      *
      * @default medium */
-    borderRadius: TextFieldBorderRadius,
+    borderRadius: TextFieldBorderRadius;
 
-    /** Состояние фокуса
+    /** @description Состояние фокуса
      *
      * @default undefined */
-    focused: boolean,
+    focused: boolean;
 
-    /** Анимация загрузки
+    /** @description Анимация загрузки
      *
      * @default false */
-    loading: boolean,
+    loading: boolean;
 
-    /** Признак ошибки.
+    /** @description Признак ошибки.
      * Если установлено `false` - отключается текст переданный в `errorText`. */
-    error: boolean,
+    error: boolean;
 
-    /** Скрытие заголовка поля
+    /** @description Скрытие заголовка поля
      *
      * @default false */
-    disableLabel: boolean,
+    disableLabel: boolean;
 
-    /** Отключить стили наведения
+    /** @description Отключить стили наведения
      *
      * @default false */
-    disableHoverStyles: boolean,
+    disableHoverStyles: boolean;
 
-    /** Состояние, при котором иконка очистки поля будет показана
+    /** @description Состояние, при котором иконка очистки поля будет показана
      *
      * @property always появляется при вводе текста
      * @property interact появление иконки, при наведении или при фокусе
      * @property none отключение иконки
      *
      * @default interact */
-    clearIconVisibleOn: TextFieldClearIconVisibleOn,
+    clearIconVisibleOn: TextFieldClearIconVisibleOn;
 }

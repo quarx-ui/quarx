@@ -1,14 +1,14 @@
 import { Values } from '@core/types';
 import { OVER_SCREEN_PLACEMENT } from '@core/src/system/OverScreen/constants';
 
-export type OverScreenPlacement = Values<typeof OVER_SCREEN_PLACEMENT>
+export type OverScreenPlacement = Values<typeof OVER_SCREEN_PLACEMENT>;
 
 export interface OmittedOverScreenStyleParams {
-    mounted: boolean,
+    mounted: boolean;
 }
 
 export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
-    /** Расположение компонента на странице
+    /** @description Расположение компонента на странице
      * @property top
      * @property bottom
      * @property right
@@ -20,8 +20,10 @@ export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
      * @property center
      *
      * @default center */
-    placement: OverScreenPlacement
+    placement: OverScreenPlacement;
 
-    /** Отступ от границ контейнера в формате строки 'x[, y]' или числа */
-    margin: string | number,
+    /** @description Отступ от границ контейнера в формате строки 'x[, y]' или числа
+     *
+     * @default 0 */
+    margin: string | number;
 }

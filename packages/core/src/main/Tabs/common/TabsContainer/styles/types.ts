@@ -1,5 +1,8 @@
 import { TabsScrollPosition } from '../../types';
 
 export interface TabsContainerStyleParams {
-    scrollPosition: TabsScrollPosition,
+    /** @description Позиционирование scroll
+     *
+     * @default none */
+    scrollPosition: TabsScrollPosition;
 }
