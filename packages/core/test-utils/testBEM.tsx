@@ -36,8 +36,8 @@ export const expectPropsMapInClasses = (element: HTMLElement, qxClassname?: stri
 };
 
 interface TestStyleParamsOptions {
-    capture?: 'element' | 'body',
-    qxClassname?: string
+    capture?: 'element' | 'body';
+    qxClassname?: string;
 }
 
 export const testStyleParams = <

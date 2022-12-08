@@ -67,8 +67,8 @@ export default {
 };
 
 interface StoryType extends LinkProps {
-    showLeftItem: boolean,
-    showRightItem: boolean,
+    showLeftItem: boolean;
+    showRightItem: boolean;
 }
 
 const sizeToLeftItem: Record<LinkSize, ReactChild> = {

@@ -43,30 +43,30 @@ export type OffsetMap = { [key in Side]: number };
 export type ClientRect = Rect & OffsetMap
 
 export interface ModifiersOptions {
-    offset?: number,
-    flip?: FlipOptions,
-    shift?: ShiftOptions,
+    offset?: number;
+    flip?: FlipOptions;
+    shift?: ShiftOptions;
 }
 
 export interface UseFloatingProps {
-    anchor: RefObject<HTMLElement> | Position,
-    floatingRef: RefObject<HTMLElement>,
-    open: boolean,
-    placement?: Placement,
-    disableOffset?: boolean,
-    disableFlip?: boolean,
-    disableShift?: boolean,
-    modifiersOptions?: ModifiersOptions,
-    customModifiers?: FloatingPositionModifier[],
-    arrangement?: Arrangement,
+    anchor: RefObject<HTMLElement> | Position;
+    floatingRef: RefObject<HTMLElement>;
+    open: boolean;
+    placement?: Placement;
+    disableOffset?: boolean;
+    disableFlip?: boolean;
+    disableShift?: boolean;
+    modifiersOptions?: ModifiersOptions;
+    customModifiers?: FloatingPositionModifier[];
+    arrangement?: Arrangement;
 }
 
 export interface GetFloatingPositionProps {
-    placement: Placement,
-    anchor: HTMLElement | Position,
-    floating: HTMLElement,
-    arrangement: Arrangement,
-    modifiers?: (FloatingPositionModifier | false | undefined)[],
+    placement: Placement;
+    anchor: HTMLElement | Position;
+    floating: HTMLElement;
+    arrangement: Arrangement;
+    modifiers?: (FloatingPositionModifier | false | undefined)[];
 }
 
 export type FloatingPositionModifier = (
@@ -75,26 +75,26 @@ export type FloatingPositionModifier = (
 ) => Position
 
 export interface GetFloatingPositionContext extends Omit<GetFloatingPositionProps, 'modifiers'> {
-    mainAxis: Axis,
-    altAxis: Axis,
-    rects: Record<'anchor' | 'floating', Rect>
-    side: Side,
-    arrangement: Arrangement,
-    alignment?: Alignment,
+    mainAxis: Axis;
+    altAxis: Axis;
+    rects: Record<'anchor' | 'floating', Rect>;
+    side: Side;
+    arrangement: Arrangement;
+    alignment?: Alignment;
 }
 
 export interface GetFloatingPositionModifiersContext extends GetFloatingPositionContext {
     modifiersData: {
-        previous: FloatingPositionModifier[],
-    },
+        previous: FloatingPositionModifier[];
+    };
 }
 
 export interface PositionWithModifiersProps {
-    position: Position,
-    modifiers: FloatingPositionModifier[],
-    context: GetFloatingPositionModifiersContext,
+    position: Position;
+    modifiers: FloatingPositionModifier[];
+    context: GetFloatingPositionModifiersContext;
 }
 
 export interface UseFloatingResult {
-    floating: Record<Axis, number>,
+    floating: Record<Axis, number>;
 }

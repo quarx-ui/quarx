@@ -3,8 +3,8 @@ import { MouseEventHandler } from 'react';
 import { BaseTextFieldProps, TextFieldPropsWithoutHtml } from '../types';
 
 export interface BaseStylesProps {
-    styles: StylesMap,
-    cn: any,
+    styles: StylesMap;
+    cn: any;
 }
 
 export interface BottomProps extends
@@ -12,7 +12,7 @@ export interface BottomProps extends
     Pick<BaseTextFieldProps, 'maxLength'>,
     BaseStylesProps
 {
-    length?: number,
+    length?: number;
 }
 
 export interface LabelProps extends
@@ -20,13 +20,13 @@ export interface LabelProps extends
     Pick<BaseTextFieldProps, 'required'>,
     BaseStylesProps
 {
-    onClick?: MouseEventHandler<HTMLDivElement>
-    required?: boolean,
+    onClick?: MouseEventHandler<HTMLDivElement>;
+    required?: boolean;
 }
 
 export interface RightItemProps extends BaseStylesProps
 {
-    disableClearIcon: boolean,
-    item: TextFieldPropsWithoutHtml['rightItem'],
-    resetValue: MouseEventHandler<HTMLDivElement>,
+    disableClearIcon: boolean;
+    item: TextFieldPropsWithoutHtml['rightItem'];
+    resetValue: MouseEventHandler<HTMLDivElement>;
 }

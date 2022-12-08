@@ -1,6 +1,6 @@
 import { css, CSSObject } from '@emotion/react';
 import { MakeStylesOptions } from './types';
-import { useTheme, Theme } from '../theme';
+import { useTheme} from '../theme';
 import { extractStyles, StylesWithCallback, StylesCallback, Styles } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
 

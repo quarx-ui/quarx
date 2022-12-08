@@ -81,9 +81,9 @@ export default {
 };
 
 interface BordersStory {
-    size?: BordersSize,
-    side?: BordersSide,
-    style?: BordersStyle,
+    size?: BordersSize;
+    side?: BordersSide;
+    style?: BordersStyle;
 }
 
 const useStyles = makeStyles((

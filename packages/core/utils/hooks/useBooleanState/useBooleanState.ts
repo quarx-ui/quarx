@@ -3,11 +3,11 @@ import { Dispatch, SetStateAction, useState } from 'react';
 export type UseBooleanStateProps = boolean;
 
 export interface UseBooleanState {
-    state: boolean,
-    setState: Dispatch<SetStateAction<boolean>>,
-    setTrue(): void,
-    setFalse(): void,
-    setOppositeState(): void,
+    state: boolean;
+    setState: Dispatch<SetStateAction<boolean>>;
+    setTrue(): void;
+    setFalse(): void;
+    setOppositeState(): void;
 }
 
 export const useBooleanState = (

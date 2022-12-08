@@ -14,8 +14,8 @@ import {
 const getDocumentListenerEffect = (
     node: Element | null,
     events: {
-        syntheticEvent: ClickAwayListenerEvents | 'onTouchMove',
-        listener: EventListener,
+        syntheticEvent: ClickAwayListenerEvents | 'onTouchMove';
+        listener: EventListener;
     }[],
 ): () => void => {
     const doc = ownerDocument(node);

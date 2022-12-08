@@ -2,7 +2,7 @@ import {
     attenuateColor,
     changeOpacity, createDarkGradient,
     getDarkSuperposition,
-    getLightSuperposition, getLightSuperpositionWithEqualAlpha, LIGHTEST,
+    getLightSuperposition, getLightSuperpositionWithEqualAlpha,
     Palette, PaletteAlpha,
     PaletteColor,
     PaletteColors, PaletteColorValues, PaletteDecimal
