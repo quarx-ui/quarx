@@ -6,30 +6,30 @@ export type LinkColor = PaletteColor;
 export type LinkUnderline = keyof typeof LINK_UNDERLINE;
 
 export interface LinkStyleParams {
-    /** Подчеркивание в ссылке
+    /** @description Подчеркивание в ссылке
      *
      * @property always подчеркивание отображается всегда
      * @property hover подчеркивание отображается только при наведении
      * @property none подчеркивание не отображается
      *
      * @default always */
-    underline: LinkUnderline,
+    underline: LinkUnderline;
 
-    /** Цвет компонента
-     *
+    /** @description Цвет компонента
      * Определяет цвет текста и иконок внутри ссылки, а также цвет подчеркивания
      *
      * @default info */
-    color: LinkColor,
+    color: LinkColor;
 
-    /** Размер и стили текста в ссылке
-     *
+    /** @description Размер и стили текста в ссылке
      * По умолчанию стили текста наследуются от родительского блока
+     *
      * @default inherit */
-    size: LinkSize,
+    size: LinkSize;
 
-    /** Изменяет состояние компонента на активное/неактивное. Отключает обработчики событий
+    /** @description Изменяет состояние компонента на активное/неактивное.
+     * Отключает обработчики событий
      *
      * @default false */
-    disabled: boolean,
+    disabled: boolean;
 }

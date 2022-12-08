@@ -9,17 +9,19 @@ export interface BaseButtonPropsWithoutHtml extends
     WithClassesAndStyles<BaseButtonStyleKeys, ButtonStyleParams, BaseButtonCSSVarKeys>,
     BaseProps<HTMLButtonElement>
 {
-    /** HTML-тип элемента button */
+    /** @description HTML-тип элемента button
+     *
+     * @default button */
     buttonType?: 'submit' | 'reset' | 'button';
 
-    /** Текст расположенный в компоненте */
-    children?: ReactNode,
+    /** @description Текст расположенный в компоненте */
+    children?: ReactNode;
 
-    /** Пропсы передаваемые компоненту `Loader` */
-    LoaderProps?: LoaderProps,
+    /** @description Пропсы передаваемые компоненту `Loader` */
+    LoaderProps?: LoaderProps;
 
-    /** Пользовательский компонент `Loader` */
-    Loader?: ReactElement,
+    /** @description Пользовательский компонент `Loader` */
+    Loader?: ReactElement;
 }
 
 export type BaseButtonProps = ComponentPropsWithHTML<BaseButtonPropsWithoutHtml, 'button'>;

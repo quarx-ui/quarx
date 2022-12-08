@@ -10,25 +10,25 @@ import {
 } from './styles';
 
 export interface SynchronizableSelectionControllerProps {
-    /** Цветовая схема компонента */
+    /** @description Цветовая схема компонента */
     color?: PaletteColor;
 
-    /** Размер компонента */
+    /** @description Размер компонента */
     size?: SelectionSize;
 
-    /** Возможность отключения компонента */
+    /** @description Возможность отключения компонента */
     disabled?: boolean;
 }
 
 /** Указанные свойства будут управвляться Selection компонентом */
 export interface SelectionControllerProps extends SynchronizableSelectionControllerProps {
-    /** Обработчик изменения состояния контроллера */
+    /** @description Обработчик изменения состояния контроллера */
     onChange?: ReactEventHandler;
 
-    /** Возможность отключения focus`а компонента */
+    /** @description Возможность отключения focus`а компонента */
     disableFocus?: boolean;
 
-    /** Эффект наведения */
+    /** @description Эффект наведения */
     hover?: boolean;
 }
 
@@ -37,32 +37,32 @@ export interface SelectionPropsWithoutHtml<T extends SelectionControllerProps = 
     Partial<SelectionStyleParams>,
     WithClassesAndStyles<SelectionStyleKeys, SelectionStyleParams>
 {
-    /** Обработчик изменения состояния контроллера */
+    /** @description Обработчик изменения состояния контроллера */
     onChange?: ReactEventHandler;
 
-    /** Контроллер состояния */
+    /** @description Контроллер состояния */
     children: React.ReactElement<T>;
 
-    /** Заголовок компонента */
+    /** @description Заголовок компонента */
     title?: string;
 
-    /** Текст описания */
+    /** @description Текст описания */
     description?: string;
 
-    /** Вспомогательный текст */
+    /** @description Вспомогательный текст */
     helperText?: string;
 
-    /** Левый элемент */
+    /** @description Левый элемент */
     leftAdornment?: React.ReactNode;
 
-    /** Правый элемент */
+    /** @description Правый элемент */
     rightAdornment?: React.ReactNode;
 
-    /**
-     * Отключение управления дочерними свойствами.
+    /** @description Отключение управления дочерними свойствами.
      * Значениями свойств onChange, disableFocus, hover
      * управляет Selection. Данное свойство отключит контроль дочерних свойств.
-     * */
+     *
+     * @default false */
     disableHandlingChildProps?: boolean;
 }
 

@@ -32,7 +32,7 @@ export default {
         color: PALETTE_COLORS.brand,
         disabled: false,
         indeterminate: false,
-        borderRadius: 'smooth',
+        borderRadius: 'medium',
         size: 'medium',
     },
     parameters: {

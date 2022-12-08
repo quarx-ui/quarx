@@ -1,9 +1,9 @@
 import React from 'react';
 
 export interface IfProps {
-    /** Условие отображения */
+    /** @description Условие отображения */
     condition: boolean | null | undefined;
 
-    /** Отображаемый элемент */
+    /** @description Отображаемый элемент */
     children?: React.ReactNode;
 }

@@ -6,10 +6,11 @@ export interface TabItemContainedPropsWithoutHtml extends
     Partial<TabItemContainedStyleParams>,
     WithClassesAndStyles<TabItemContainedStyleKeys, TabItemContainedStyleParams>
 {
-    counter?: ReactNode,
+    /** @description Счетчик вкладки */
+    counter?: ReactNode;
 }
 
 export type TabItemContainedProps<C extends ElementType = 'button'>
-    = OverridableProps<PropsWithChildren<TabItemContainedPropsWithoutHtml>, C>
+    = OverridableProps<PropsWithChildren<TabItemContainedPropsWithoutHtml>, C>;
 
 export * from './styles/types';

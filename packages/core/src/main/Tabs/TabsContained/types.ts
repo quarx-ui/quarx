@@ -5,8 +5,9 @@ import { TabsPropsCommon } from '../common';
 export type TabsContainedPropsWithoutHtml<T extends TabItem = TabItem> =
     & TabsPropsCommon<T>
     & Partial<TabsContainedStyleParams>
-    & WithClassesAndStyles<TabsContainedStyleKeys, TabsContainedStyleParams>
+    & WithClassesAndStyles<TabsContainedStyleKeys, TabsContainedStyleParams>;
 
 export type TabsContainedProps<T extends TabItem = TabItem> =
-    ComponentPropsWithHTML<TabsContainedPropsWithoutHtml<T>>
+    ComponentPropsWithHTML<TabsContainedPropsWithoutHtml<T>>;
+
 export * from './styles/types';

@@ -13,49 +13,49 @@ import {
     TextFieldStyleParams,
 } from './styles';
 
-export type TextFieldRefType = HTMLInputElement | HTMLTextAreaElement
+export type TextFieldRefType = HTMLInputElement | HTMLTextAreaElement;
 
 export interface BaseTextFieldProps extends
     Partial<BaseTextFieldStyleParams>,
     Omit<BaseProps<TextFieldRefType>, 'permissions'>
 {
-    /** Максимальное количество символов */
-    maxLength?: number,
+    /** @description Максимальное количество символов */
+    maxLength?: number;
 
-    /** Обязательное поле
+    /** @description Обязательное поле
      *
      * @default false */
-    required?: boolean,
+    required?: boolean;
 
-    /** Текст-заполнитель */
-    placeholder?: string,
+    /** @description Текст-заполнитель */
+    placeholder?: string;
 
-    /** Наименование поля ввода */
-    name?: string,
+    /** @description Наименование поля ввода */
+    name?: string;
 
-    /** Дефолтное Значение поля */
-    defaultValue?: string,
+    /** @description Дефолтное Значение поля */
+    defaultValue?: string;
 
-    /** Значение поля */
-    value?: string,
+    /** @description Значение поля */
+    value?: string;
 
-    /** Количество строк в textarea */
-    rows?: number,
+    /** @description Количество строк в textarea */
+    rows?: number;
 
-    /** Минимальное количество строк в textarea */
-    minRows?: number,
+    /** @description Минимальное количество строк в textarea */
+    minRows?: number;
 
-    /** Максимальное количество строк в textarea */
-    maxRows?: number,
+    /** @description Максимальное количество строк в textarea */
+    maxRows?: number;
 
-    /** Ссылка к HTML-элементу input */
-    inputRef?: Ref<TextFieldRefType>
+    /** @description Ссылка к HTML-элементу input */
+    inputRef?: Ref<TextFieldRefType>;
 
-    /** Объект со свойствами текстового поля */
-    inputProps?: Omit<JSX.IntrinsicElements['input'] & JSX.IntrinsicElements['textarea'], 'value' & { value?: string }>,
+    /** @description Объект со свойствами текстового поля */
+    inputProps?: Omit<JSX.IntrinsicElements['input'] & JSX.IntrinsicElements['textarea'], 'value' & { value?: string }>;
 
-    /** Обработчик события изменения поля ввода */
-    onChange?: ChangeEventHandler<TextFieldRefType>,
+    /** @description Обработчик события изменения поля ввода */
+    onChange?: ChangeEventHandler<TextFieldRefType>;
 }
 
 export interface TextFieldPropsWithoutHtml extends
@@ -64,64 +64,64 @@ export interface TextFieldPropsWithoutHtml extends
     WithClassesAndStyles<TextFieldStyleKeys, TextFieldStyleParams & BaseTextFieldStyleParams, TextFieldCSSVarKeys>,
     BaseProps
 {
-    /** Заголовок поля */
-    label?: string | ReactNode,
+    /** @description Заголовок поля */
+    label?: string | ReactNode;
 
-    /** Скрытие компонента. Удаляет со страницы
+    /** @description Скрытие компонента. Удаляет со страницы
      *
      * @default false */
-    hidden?: boolean,
+    hidden?: boolean;
 
-    /** Включает автофокус при инициализации компонента
+    /** @description Включает автофокус при инициализации компонента
      *
      * @default false */
-    autoFocus?: boolean,
+    autoFocus?: boolean;
 
-    /** Разрешить переполнение текстового поля
+    /** @description Разрешить переполнение текстового поля
      *
      * @default true */
-    overflow?: boolean,
+    overflow?: boolean;
 
-    /** Счетчик символов */
-    counter?: boolean,
+    /** @description Счетчик символов */
+    counter?: boolean;
 
-    /** Текст ошибки */
-    errorText?: string,
+    /** @description Текст ошибки */
+    errorText?: string;
 
-    /** Объект с текстами ошибок */
+    /** @description Объект с текстами ошибок */
     internalErrors?: {
-        maxLength?: string,
-        required?: string,
-    }
+        maxLength?: string;
+        required?: string;
+    };
 
-    /** Подсказка */
-    helperText?: string,
+    /** @description Подсказка */
+    helperText?: string;
 
-    /** Обработчик события очистки поля */
-    onClear?: (value: string) => void,
+    /** @description Обработчик события очистки поля */
+    onClear?: (value: string) => void;
 
-    /** Правый элемент поля */
-    rightItem?: ReactElement,
+    /** @description Правый элемент поля */
+    rightItem?: ReactElement;
 
-    /** Левый элемент поля */
-    leftItem?: ReactElement,
+    /** @description Левый элемент поля */
+    leftItem?: ReactElement;
 
-    /** Подсказка обязательного поля
+    /** @description Подсказка обязательного поля
      *
      * @default '*' */
-    requiredSymbol?: ReactElement | string,
+    requiredSymbol?: ReactElement | string;
 
-    /** Скрыть подсказку обязательного поля
+    /** @description Скрыть подсказку обязательного поля
      *
      * @default false */
-    disableRequiredSymbol?: boolean,
+    disableRequiredSymbol?: boolean;
 
-    /** Отключить внутренний текст ошибки
+    /** @description Отключить внутренний текст ошибки
      *
      * @default false */
-    disableInternalErrorText?: boolean,
+    disableInternalErrorText?: boolean;
 }
 
-export type TextFieldProps = ComponentPropsWithHTML<TextFieldPropsWithoutHtml>
+export type TextFieldProps = ComponentPropsWithHTML<TextFieldPropsWithoutHtml>;
 
 export * from './styles/types';

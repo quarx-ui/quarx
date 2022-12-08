@@ -7,17 +7,22 @@ export interface CounterPropsWithoutHTML extends
     Partial<CounterStyleParams>,
     WithClassesAndStyles<CounterStyleKeys, CounterStyleParams>
 {
-    /** Максимальное количество цифр в счетчике, после превышения этого значения выводятся девятки
-     * со знаком "+" на конце */
-    maxDigits?: number,
+    /** @description Максимальное количество цифр в счетчике,
+     * после превышения этого значения выводятся девятки
+     * со знаком "+" на конце
+     *
+     * @default 2 */
+    maxDigits?: number;
 
-    /** Числовое значение */
+    /** @description Числовое значение */
     children: number | string;
 
-    /** Удаляет элемент со страницы */
-    hidden?: boolean,
+    /** @description Удаляет элемент со страницы
+     *
+     * @default false */
+    hidden?: boolean;
 }
 
-export type CounterProps = ComponentPropsWithHTML<CounterPropsWithoutHTML, 'span'>
+export type CounterProps = ComponentPropsWithHTML<CounterPropsWithoutHTML, 'span'>;
 
 export * from './styles/types';

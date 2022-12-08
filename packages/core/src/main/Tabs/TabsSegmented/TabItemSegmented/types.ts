@@ -6,10 +6,11 @@ export interface TabItemSegmentedPropsWithoutHtml extends
     Partial<TabItemSegmentedStyleParams>,
     WithClassesAndStyles<TabItemSegmentedStyleKeys, TabItemSegmentedStyleParams>
 {
-    counter?: ReactNode,
+    /** @description Счетчик вкладки */
+    counter?: ReactNode;
 }
 
 export type TabItemSegmentedProps<C extends ElementType = 'button'>
-    = OverridableProps<PropsWithChildren<TabItemSegmentedPropsWithoutHtml>, C>
+    = OverridableProps<PropsWithChildren<TabItemSegmentedPropsWithoutHtml>, C>;
 
 export * from './styles/types';

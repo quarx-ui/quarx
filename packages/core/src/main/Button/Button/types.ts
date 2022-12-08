@@ -4,13 +4,13 @@ import { BaseButtonProps, ButtonStyleParams } from '@core/src';
 import { ButtonStyleKeys, ButtonCSSVarKeys } from './styles';
 
 export interface ButtonPropsWithoutStyling extends BaseButtonProps {
-    /** Иконка расположенная слева */
-    leftIcon?: ReactElement,
+    /** @description Иконка расположенная слева */
+    leftIcon?: ReactElement;
 
-    /** Иконка расположенная справа */
-    rightIcon?: ReactElement,
+    /** @description Иконка расположенная справа */
+    rightIcon?: ReactElement;
 }
 
 export type ButtonProps =
     ButtonPropsWithoutStyling &
-    WithClassesAndStyles<ButtonStyleKeys, ButtonStyleParams, ButtonCSSVarKeys>
+    WithClassesAndStyles<ButtonStyleKeys, ButtonStyleParams, ButtonCSSVarKeys>;

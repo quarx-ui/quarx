@@ -3,10 +3,10 @@ import { CaseProps } from '@core/src';
 
 export interface SwitchProps
 {
-    /** Текущий элемент */
+    /** @description Текущий элемент */
     value?: string;
 
-    /** Case элементы */
+    /** @description Case элементы */
     children: ReactElement<CaseProps>[];
 
     // TODO: Add transition ???
