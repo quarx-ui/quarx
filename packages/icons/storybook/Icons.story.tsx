@@ -186,18 +186,18 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
 
 export const Icons: Story = () => {
     interface IconMetadata {
-        size: string,
-        params: string[],
-        type: string,
-        style: string,
-        name: string,
-        keywords: string[],
-        Component: ComponentType,
+        size: string;
+        params: string[];
+        type: string;
+        style: string;
+        name: string;
+        keywords: string[];
+        Component: ComponentType;
     }
 
     interface Selected {
-        name: string,
-        params: string[],
+        name: string;
+        params: string[];
     }
 
     const tabs = valuesAsKeysFromArray(['component', 'svg'] as const);
@@ -221,7 +221,7 @@ export const Icons: Story = () => {
         `${pascalCase(name)}Icon`
     );
 
-    const getIconPath = ({ name, params }: {name: string, params: string[]}) => (
+    const getIconPath = ({ name, params }: {name: string; params: string[]}) => (
         [name, ...params].join('/')
     );
 

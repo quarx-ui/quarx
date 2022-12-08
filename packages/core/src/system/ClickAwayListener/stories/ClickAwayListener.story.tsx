@@ -13,7 +13,7 @@ const Flex = styled('div')({
 });
 
 const SimpleModal = React.forwardRef<HTMLDivElement, {
-    children: React.ReactElement,
+    children: React.ReactElement;
 }>(({
     children,
 }, ref) => {
@@ -39,7 +39,7 @@ const SimpleModal = React.forwardRef<HTMLDivElement, {
 });
 
 interface SandBoxProps extends ClickAwayListenerProps {
-    usePortal?: boolean,
+    usePortal?: boolean;
 }
 
 const defaultArgs: Partial<SandBoxProps> = {

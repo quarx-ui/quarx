@@ -1,4 +1,4 @@
-import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, PALETTE_COLORS, cssVar } from '@core';
+import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, cssVar } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { SwitcherCSSVarKeys } from '@core/src/main/Switcher/styles/vars';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';

@@ -69,6 +69,7 @@ module.exports = {
         'react/jsx-indent-props': indent,
         curly: ['error', 'all'],
         '@typescript-eslint/indent': indent,
+        '@typescript-eslint/member-delimiter-style': ['error'],
         '@typescript-eslint/no-unused-vars': [
             'error',
             {

@@ -30,14 +30,15 @@ export interface WithClassesAndStyles<
     Keys extends string,
     Props extends object = {},
     CSSVars extends string = string,
-    > {
+> {
     /** Объект с дополнительными именами классов для компонента. Обеспечивает возможность
      * добавить кастомное имя класса в один из внутренних элементов по ключу стилей для этого элемента */
-    classes?: Classes<Keys>
+    classes?: Classes<Keys>;
 
     /** Объект с переопределениями стилей для элементов компонента */
-    styles?: Partial<StylesWithCallback<Keys, Props>>
-        | ((theme: Theme, props: Required<Props>, cssVars: Record<CSSVars, string>) => Partial<Styles<Keys>>)
+    styles?:
+        | Partial<StylesWithCallback<Keys, Props>>
+        | ((theme: Theme, props: Required<Props>, cssVars: Record<CSSVars, string>) => Partial<Styles<Keys>>);
 
-    cssVars?: Partial<Record<CSSVars, string>>,
+    cssVars?: Partial<Record<CSSVars, string>>;
 }

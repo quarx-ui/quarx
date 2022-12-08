@@ -2,8 +2,8 @@ import { getNextOverScreen } from './getOverScreen';
 import { DefaultStyles } from './restoreStyles';
 
 interface DisableBackdropReturn {
-    element: HTMLElement,
-    defaultStyles: DefaultStyles,
+    element: HTMLElement;
+    defaultStyles: DefaultStyles;
 }
 
 export const disableBackdrop = (

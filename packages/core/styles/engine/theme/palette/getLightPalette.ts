@@ -2,7 +2,6 @@ import {
     attenuateColor,
     changeOpacity,
     createLightGradient,
-    getContrastColor,
     getDarkSuperposition,
     getLightSuperposition,
 } from '../../utils';

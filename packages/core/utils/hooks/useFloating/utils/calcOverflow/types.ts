@@ -12,27 +12,27 @@ export interface CalcOverflowOptions {
      * Позиционирование плавающего элемента
      * @default 'absolute'
      */
-    arrangement?: Arrangement,
+    arrangement?: Arrangement;
     /**
      * Элемент(ы), для которых рассчитывается переполнение
      * @default 'clippingParents'
      */
-    boundary?: Boundary,
+    boundary?: Boundary;
     /**
      * Корневой элемент, для которого проверяется переполнение
      * @default 'viewport'
      */
-    rootBoundary?: RootBoundary,
+    rootBoundary?: RootBoundary;
     /**
      * Контекст элемента, для которого проверяется переполнение
      * @default 'floating'
      */
-    clippingContext?: ClippingContext,
+    clippingContext?: ClippingContext;
     /**
      * Отступы от границ переполнения
      * @default 0
      */
-    offset?: Offset,
+    offset?: Offset;
 }
 
 export type CalcOverflowProps =

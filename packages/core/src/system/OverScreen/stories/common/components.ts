@@ -2,7 +2,7 @@ import { borderRadii, defaultPalette, OverScreenProps } from '@core';
 import styled from '@emotion/styled';
 
 export interface StoryOverScreenProps extends OverScreenProps {
-    buttonText?: string
+    buttonText?: string;
 }
 
 export const Block = styled('div')({
