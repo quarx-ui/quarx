@@ -7,13 +7,13 @@ export interface LinkPropsWithoutHtml extends
     WithClassesAndStyles<LinkStyleKeys, LinkStyleParams>
 {
     /** Дочерний элемент */
-    children: ReactChild,
+    children: ReactChild;
 
     /** Элемент, расположенный слева */
-    leftItem?: ReactChild,
+    leftItem?: ReactChild;
 
     /** Элемент, расположенный справа */
-    rightItem?: ReactChild,
+    rightItem?: ReactChild;
 }
 
 export type LinkProps<C extends ElementType = 'a'> = OverridableProps<LinkPropsWithoutHtml, C>

@@ -8,7 +8,7 @@ export interface CounterStyleParams {
     /** Размер компонента
      *
      * @default large */
-    size: CounterSize,
+    size: CounterSize;
 
     /** Тип заливки компонента
      * @property filled
@@ -16,10 +16,10 @@ export interface CounterStyleParams {
      * @property ghosted
      *
      * @default filled */
-    type: CounterType,
+    type: CounterType;
 
     /** Цветовая палитра компонента. Значения соответствуют токенам объекта `palette.colors`
      *
      * @default brand */
-    color: CounterColor,
+    color: CounterColor;
 }

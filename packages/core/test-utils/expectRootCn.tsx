@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { render } from '@testing-library/react';
 
-export const expectRootCn = <T extends FC<{ className?: string, children: any }>>(Component: T, name: string) => {
+export const expectRootCn = <T extends FC<{ className?: string; children: any }>>(Component: T, name: string) => {
     const className = 'test-class-name';
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
@@ -10,7 +10,7 @@ export const expectRootCn = <T extends FC<{ className?: string, children: any }>
     expect(rootNode).toHaveClass(name);
 };
 
-export const testRootCn = <T extends FC<{ className?: string, children: any }>>(Component: T, name: string) => {
+export const testRootCn = <T extends FC<{ className?: string; children: any }>>(Component: T, name: string) => {
     it('root className', () => {
         expectRootCn(Component, name);
     });

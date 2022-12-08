@@ -19,28 +19,28 @@ export interface ModalPropsWithoutHTML extends
      * @property vertical Вертикальное расположение
      *
      * @default vertical */
-    footerDirection?: FooterBlockProps['direction'],
+    footerDirection?: FooterBlockProps['direction'];
 
     /** Объект для настройки кнопок с дефолтным расположением */
-    footerButtons?: FooterBlockProps['buttons'],
+    footerButtons?: FooterBlockProps['buttons'];
 
     /** Элемент используемый в Footer, при передаче которого будут заменены все остальные элементы */
-    footer?: FooterBlockProps['children'],
+    footer?: FooterBlockProps['children'];
 
     /** Элемент используемый в Header, при передаче которого будут заменены все остальные элементы */
-    header?: HeaderBlockProps['children'],
+    header?: HeaderBlockProps['children'];
 
     /** Тело модального окна */
-    body?: ReactNode,
+    body?: ReactNode;
 
     /** Пропсы передаваемые напрямую компоненту ModalHeader */
-    HeaderProps?: Partial<HeaderBlockProps>,
+    HeaderProps?: Partial<HeaderBlockProps>;
 
     /** Пропсы передаваемые напрямую компоненту ModalFooter */
-    FooterProps?: Partial<FooterBlockProps>,
+    FooterProps?: Partial<FooterBlockProps>;
 
     /** Пропсы передаваемые напрямую компоненту Drawer */
-    OverScreenProps?: Partial<OverScreenProps>,
+    OverScreenProps?: Partial<OverScreenProps>;
 }
 
 export type ModalProps = ComponentPropsWithHTML<ModalPropsWithoutHTML>

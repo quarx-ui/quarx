@@ -10,7 +10,7 @@ export const isArrowKey = createValuesAsKeysTypeGuard(ARROW_KEYS);
 
 export interface UseKeyboardNavigationProps {
     /** Ссылка на контейнер, в котором расположены элементы списка */
-    listRef: RefObject<HTMLElement>,
+    listRef: RefObject<HTMLElement>;
     /** Направление расположения элементов списка
      *
      * @default undefined
@@ -23,5 +23,5 @@ export interface UseKeyboardNavigationProps {
      * Горизонтальное расположение элементов списка,
      * для переключения фокуса используются стрелки ↑ / ↓
      * */
-    orientation?: Orientation,
+    orientation?: Orientation;
 }

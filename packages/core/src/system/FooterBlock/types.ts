@@ -6,9 +6,9 @@ import {
 } from './styles';
 
 export type FooterBlockButtons = {
-    success?: ButtonProps,
-    danger?: ButtonProps,
-    secondary?: ButtonProps
+    success?: ButtonProps;
+    danger?: ButtonProps;
+    secondary?: ButtonProps;
 }
 
 export interface FooterBlockPropsWithoutHtml extends
@@ -16,10 +16,10 @@ export interface FooterBlockPropsWithoutHtml extends
     WithClassesAndStyles<FooterBlockStyleKeys, FooterBlockStyleParams>
 {
     /** Дочерний элемент, при передаче которого будут заменены все остальные элементы */
-    children?: ReactNode,
+    children?: ReactNode;
 
     /** Объект для настройки кнопок с дефолтным расположением */
-    buttons?: FooterBlockButtons
+    buttons?: FooterBlockButtons;
 }
 
 export type FooterBlockProps = ComponentPropsWithHTML<FooterBlockPropsWithoutHtml>

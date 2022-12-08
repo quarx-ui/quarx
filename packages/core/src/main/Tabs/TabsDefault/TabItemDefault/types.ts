@@ -6,7 +6,7 @@ export interface TabItemDefaultPropsWithoutHtml extends
     Partial<TabItemDefaultStyleParams>,
     WithClassesAndStyles<TabItemDefaultStyleKeys, TabItemDefaultStyleParams>
 {
-    counter?: ReactNode,
+    counter?: ReactNode;
 }
 
 export type TabItemDefaultProps<C extends ElementType = 'button'>

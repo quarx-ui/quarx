@@ -6,7 +6,7 @@ export interface TabItemContainedPropsWithoutHtml extends
     Partial<TabItemContainedStyleParams>,
     WithClassesAndStyles<TabItemContainedStyleKeys, TabItemContainedStyleParams>
 {
-    counter?: ReactNode,
+    counter?: ReactNode;
 }
 
 export type TabItemContainedProps<C extends ElementType = 'button'>

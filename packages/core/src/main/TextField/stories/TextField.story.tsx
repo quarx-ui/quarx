@@ -126,8 +126,8 @@ export default {
 };
 
 type StoryTextFieldProps = TextFieldProps & {
-    leftIconShown: boolean,
-    rightIconShown: boolean,
+    leftIconShown: boolean;
+    rightIconShown: boolean;
 }
 
 export const Sandbox: Story<StoryTextFieldProps> = ({

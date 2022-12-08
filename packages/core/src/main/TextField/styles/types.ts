@@ -9,24 +9,24 @@ export interface BaseTextFieldStyleParams {
     /** Многострочность текстового поля
      *
      * @default false */
-    multiline: boolean,
+    multiline: boolean;
 
     /** Изменяет состояние компонента на активное/неактивное
      *
      * @default false */
-    disabled: boolean,
+    disabled: boolean;
 
     /** Доступно только для чтения. Работает так же как `disabled`, но без визуального обозначения
      *
      * @default false */
-    readOnly: boolean,
+    readOnly: boolean;
 }
 
 export interface OmittedFieldStyleParams {
-    overflowed: boolean
-    hasValue: boolean
-    rightItemIsExist: boolean,
-    bottomIsVisible: boolean,
+    overflowed: boolean;
+    hasValue: boolean;
+    rightItemIsExist: boolean;
+    bottomIsVisible: boolean;
 }
 
 export interface TextFieldStyleParams extends OmittedFieldStyleParams {
@@ -36,22 +36,22 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      * @property focus счетчик отображается при фокусе и сохраняется при введенном значении
      *
      * @default always */
-    counterVisibleOn: 'always' | 'focus',
+    counterVisibleOn: 'always' | 'focus';
 
     /** Абсолютное позиционирование `helperText` и `counter`
      *
      * @default false */
-    bottomIsAbsolute: boolean,
+    bottomIsAbsolute: boolean;
 
     /** Состояние заполненности поля
      *
      * @default undefined */
-    filled: boolean,
+    filled: boolean;
 
     /** Размер текстового поля
      *
      * @default medium */
-    size: TextFieldSize,
+    size: TextFieldSize;
 
     /** Цветовая основа
      *
@@ -59,36 +59,36 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      * @property secondary используется на дополнительном фоне
      *
      * @default main */
-    colorBase: TextFieldColorBase,
+    colorBase: TextFieldColorBase;
 
     /** Скругление компонента. Значения соответствуют токенам объекта `borderRadii`
      *
      * @default medium */
-    borderRadius: TextFieldBorderRadius,
+    borderRadius: TextFieldBorderRadius;
 
     /** Состояние фокуса
      *
      * @default undefined */
-    focused: boolean,
+    focused: boolean;
 
     /** Анимация загрузки
      *
      * @default false */
-    loading: boolean,
+    loading: boolean;
 
     /** Признак ошибки.
      * Если установлено `false` - отключается текст переданный в `errorText`. */
-    error: boolean,
+    error: boolean;
 
     /** Скрытие заголовка поля
      *
      * @default false */
-    disableLabel: boolean,
+    disableLabel: boolean;
 
     /** Отключить стили наведения
      *
      * @default false */
-    disableHoverStyles: boolean,
+    disableHoverStyles: boolean;
 
     /** Состояние, при котором иконка очистки поля будет показана
      *
@@ -97,5 +97,5 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      * @property none отключение иконки
      *
      * @default interact */
-    clearIconVisibleOn: TextFieldClearIconVisibleOn,
+    clearIconVisibleOn: TextFieldClearIconVisibleOn;
 }

@@ -16,13 +16,13 @@ import { Story } from '@storybook/react/types-6-0';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 interface ColorsStoryProps {
-    type: PaletteColor,
+    type: PaletteColor;
     value: keyof Omit<PaletteColorValues, 'weaker' | 'stronger' | 'alpha'> |
     'alpha[8]' |
-    'alpha[16]',
-    background: PaletteStandardKey | 'textField.main' | 'textField.secondary' | 'container.hover',
-    border: PaletteStandardKey | 'focus.dark' | 'focus.light',
-    text: PaletteTextKey,
+    'alpha[16]';
+    background: PaletteStandardKey | 'textField.main' | 'textField.secondary' | 'container.hover';
+    border: PaletteStandardKey | 'focus.dark' | 'focus.light';
+    text: PaletteTextKey;
 }
 
 const defaultArgs: ColorsStoryProps = {
@@ -169,7 +169,7 @@ Sandbox.storyName = 'Цвета';
 
 const useStylesColor = makeStyles((
     { palette, transitions },
-    { type, hover = false }: { type: PaletteColor, hover?: boolean },
+    { type, hover = false }: { type: PaletteColor; hover?: boolean },
 ) => {
     const common: CSSObject = {
         position: 'relative',
@@ -301,13 +301,13 @@ const useStylesColor = makeStyles((
 });
 
 interface TemplateItemProps {
-    type: PaletteColor,
+    type: PaletteColor;
     color: keyof Omit<PaletteColorValues, 'alpha' | 'weaker' | 'stronger' | 'contrastText'>
     | 'press16'
     | 'hover8'
     | 'press'
     | 'hover'
-    | 'contrast',
+    | 'contrast';
 }
 
 const ColorItem: FC<TemplateItemProps> = ({

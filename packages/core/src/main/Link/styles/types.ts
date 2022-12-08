@@ -13,23 +13,23 @@ export interface LinkStyleParams {
      * @property none подчеркивание не отображается
      *
      * @default always */
-    underline: LinkUnderline,
+    underline: LinkUnderline;
 
     /** Цвет компонента
      *
      * Определяет цвет текста и иконок внутри ссылки, а также цвет подчеркивания
      *
      * @default info */
-    color: LinkColor,
+    color: LinkColor;
 
     /** Размер и стили текста в ссылке
      *
      * По умолчанию стили текста наследуются от родительского блока
      * @default inherit */
-    size: LinkSize,
+    size: LinkSize;
 
     /** Изменяет состояние компонента на активное/неактивное. Отключает обработчики событий
      *
      * @default false */
-    disabled: boolean,
+    disabled: boolean;
 }

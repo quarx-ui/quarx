@@ -6,20 +6,20 @@ export type ModalSize = PickQxSize<'small' | 'medium'>
 export type ModalScrollBehavior = Values<typeof MODAL_SCROLL_BEHAVIOR>
 
 export interface OmittedModalStyleParams {
-    hasHeader: boolean,
-    hasFooter: boolean,
+    hasHeader: boolean;
+    hasFooter: boolean;
 }
 
 export interface ModalStyleParams extends OmittedModalStyleParams {
     /** Размер компонента
      *
      * @default medium */
-    size: ModalSize,
+    size: ModalSize;
 
     /** Поведение при вертикальном переполнении компонента
      * @property window Компонент расширяется вместе с контентом
      * @property body Компонент расширяется до границ контейнера, а у контента появляется скролл
      *
      * @default body */
-    scrollBehaviour: ModalScrollBehavior,
+    scrollBehaviour: ModalScrollBehavior;
 }

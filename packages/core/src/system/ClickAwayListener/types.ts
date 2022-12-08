@@ -39,5 +39,5 @@ export interface ClickAwayListenerProps {
     onClickAway(event: MouseEvent | TouchEvent): void;
 
     /** Элемент для прослушивания */
-    children: React.ReactElement,
+    children: React.ReactElement;
 }

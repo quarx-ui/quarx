@@ -5,10 +5,10 @@ import { ButtonStyleKeys, ButtonCSSVarKeys } from './styles';
 
 export interface ButtonPropsWithoutStyling extends BaseButtonProps {
     /** Иконка расположенная слева */
-    leftIcon?: ReactElement,
+    leftIcon?: ReactElement;
 
     /** Иконка расположенная справа */
-    rightIcon?: ReactElement,
+    rightIcon?: ReactElement;
 }
 
 export type ButtonProps =

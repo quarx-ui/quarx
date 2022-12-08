@@ -70,8 +70,8 @@ export default {
 };
 
 interface StoryButtonProps extends ButtonProps {
-    leftIconShown: boolean,
-    rightIconShown: boolean,
+    leftIconShown: boolean;
+    rightIconShown: boolean;
 }
 
 export const Sandbox: Story<StoryButtonProps> = ({

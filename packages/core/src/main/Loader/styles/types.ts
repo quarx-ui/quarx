@@ -4,5 +4,5 @@ export type LoaderSizes = PickQxSize<'xSmall' | 'small' | 'base' | 'large' | 'xL
 
 export interface LoaderStyleParams {
     /** Размер точек: xSmall, small, base, large, xLarge */
-    size: LoaderSizes,
+    size: LoaderSizes;
 }

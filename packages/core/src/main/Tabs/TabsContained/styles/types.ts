@@ -8,5 +8,5 @@ export interface TabsContainedStyleParams extends TabsStyleParamsCommon {
      *
      * @default medium
      * */
-    borderRadius: QxBorderSize
+    borderRadius: QxBorderSize;
 }

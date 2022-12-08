@@ -20,42 +20,42 @@ export interface BaseTextFieldProps extends
     Omit<BaseProps<TextFieldRefType>, 'permissions'>
 {
     /** Максимальное количество символов */
-    maxLength?: number,
+    maxLength?: number;
 
     /** Обязательное поле
      *
      * @default false */
-    required?: boolean,
+    required?: boolean;
 
     /** Текст-заполнитель */
-    placeholder?: string,
+    placeholder?: string;
 
     /** Наименование поля ввода */
-    name?: string,
+    name?: string;
 
     /** Дефолтное Значение поля */
-    defaultValue?: string,
+    defaultValue?: string;
 
     /** Значение поля */
-    value?: string,
+    value?: string;
 
     /** Количество строк в textarea */
-    rows?: number,
+    rows?: number;
 
     /** Минимальное количество строк в textarea */
-    minRows?: number,
+    minRows?: number;
 
     /** Максимальное количество строк в textarea */
-    maxRows?: number,
+    maxRows?: number;
 
     /** Ссылка к HTML-элементу input */
-    inputRef?: Ref<TextFieldRefType>
+    inputRef?: Ref<TextFieldRefType>;
 
     /** Объект со свойствами текстового поля */
-    inputProps?: Omit<JSX.IntrinsicElements['input'] & JSX.IntrinsicElements['textarea'], 'value' & { value?: string }>,
+    inputProps?: Omit<JSX.IntrinsicElements['input'] & JSX.IntrinsicElements['textarea'], 'value' & { value?: string }>;
 
     /** Обработчик события изменения поля ввода */
-    onChange?: ChangeEventHandler<TextFieldRefType>,
+    onChange?: ChangeEventHandler<TextFieldRefType>;
 }
 
 export interface TextFieldPropsWithoutHtml extends
@@ -65,61 +65,61 @@ export interface TextFieldPropsWithoutHtml extends
     BaseProps
 {
     /** Заголовок поля */
-    label?: string | ReactNode,
+    label?: string | ReactNode;
 
     /** Скрытие компонента. Удаляет со страницы
      *
      * @default false */
-    hidden?: boolean,
+    hidden?: boolean;
 
     /** Включает автофокус при инициализации компонента
      *
      * @default false */
-    autoFocus?: boolean,
+    autoFocus?: boolean;
 
     /** Разрешить переполнение текстового поля
      *
      * @default true */
-    overflow?: boolean,
+    overflow?: boolean;
 
     /** Счетчик символов */
-    counter?: boolean,
+    counter?: boolean;
 
     /** Текст ошибки */
-    errorText?: string,
+    errorText?: string;
 
     /** Объект с текстами ошибок */
     internalErrors?: {
-        maxLength?: string,
-        required?: string,
-    }
+        maxLength?: string;
+        required?: string;
+    };
 
     /** Подсказка */
-    helperText?: string,
+    helperText?: string;
 
     /** Обработчик события очистки поля */
-    onClear?: (value: string) => void,
+    onClear?: (value: string) => void;
 
     /** Правый элемент поля */
-    rightItem?: ReactElement,
+    rightItem?: ReactElement;
 
     /** Левый элемент поля */
-    leftItem?: ReactElement,
+    leftItem?: ReactElement;
 
     /** Подсказка обязательного поля
      *
      * @default '*' */
-    requiredSymbol?: ReactElement | string,
+    requiredSymbol?: ReactElement | string;
 
     /** Скрыть подсказку обязательного поля
      *
      * @default false */
-    disableRequiredSymbol?: boolean,
+    disableRequiredSymbol?: boolean;
 
     /** Отключить внутренний текст ошибки
      *
      * @default false */
-    disableInternalErrorText?: boolean,
+    disableInternalErrorText?: boolean;
 }
 
 export type TextFieldProps = ComponentPropsWithHTML<TextFieldPropsWithoutHtml>

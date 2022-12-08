@@ -13,13 +13,13 @@ export interface BaseButtonPropsWithoutHtml extends
     buttonType?: 'submit' | 'reset' | 'button';
 
     /** Текст расположенный в компоненте */
-    children?: ReactNode,
+    children?: ReactNode;
 
     /** Пропсы передаваемые компоненту `Loader` */
-    LoaderProps?: LoaderProps,
+    LoaderProps?: LoaderProps;
 
     /** Пользовательский компонент `Loader` */
-    Loader?: ReactElement,
+    Loader?: ReactElement;
 }
 
 export type BaseButtonProps = ComponentPropsWithHTML<BaseButtonPropsWithoutHtml, 'button'>;

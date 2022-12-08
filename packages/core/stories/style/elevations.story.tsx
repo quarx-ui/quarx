@@ -86,7 +86,7 @@ export default {
 };
 
 interface ElevationStory {
-    size: ElevationSize,
+    size: ElevationSize;
 }
 
 const useStyles = makeStyles((

@@ -9,19 +9,19 @@ export interface SwitcherPropsWithoutHtml extends
     BaseProps<HTMLLabelElement>
 {
     /** Обработчик изменения состояния элемента `input` */
-    onChange?: ChangeEventHandler<HTMLInputElement>,
+    onChange?: ChangeEventHandler<HTMLInputElement>;
 
     /** Свойство `name` элемента `input` */
-    name?: string
+    name?: string;
 
     /** Свойство `value` элемента `input` */
-    value?: string,
+    value?: string;
 
     /** Объект со свойствами для элемента `input` */
-    inputProps?: JSX.IntrinsicElements['input'],
+    inputProps?: JSX.IntrinsicElements['input'];
 
     /** Ссылка к элементу `input` */
-    inputRef?: RefObject<HTMLInputElement>,
+    inputRef?: RefObject<HTMLInputElement>;
 }
 
 export type SwitcherProps = ComponentPropsWithHTML<SwitcherPropsWithoutHtml, 'label'>

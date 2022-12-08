@@ -48,9 +48,9 @@ export default {
 };
 
 interface StoryType extends BadgeProps {
-    leftItemShown: boolean,
-    rightItemShown: boolean,
-    counterShown: boolean,
+    leftItemShown: boolean;
+    rightItemShown: boolean;
+    counterShown: boolean;
 }
 
 const defaultArgs: BadgeProps = {

@@ -59,8 +59,8 @@ export default {
 };
 
 interface BorderRadiiStory {
-    size?: QxBorderSize,
-    side?: BorderRadiusSide,
+    size?: QxBorderSize;
+    side?: BorderRadiusSide;
 }
 
 const useStyles = makeStyles((

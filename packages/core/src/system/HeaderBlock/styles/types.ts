@@ -6,5 +6,5 @@ export interface HeaderBlockStyleParams {
     /** Размер компонента
      *
      * @default medium */
-    size: HeaderBlockSize,
+    size: HeaderBlockSize;
 }

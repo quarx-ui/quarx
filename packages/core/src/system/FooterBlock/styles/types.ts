@@ -9,12 +9,12 @@ export interface FooterBlockStyleParams {
     /** Размер компонента
      *
      * @default medium */
-    size: FooterBlockSize,
+    size: FooterBlockSize;
 
     /** Расположение переданных кнопок
      * @property horizontal Горизонтальное расположение
      * @property vertical Вертикальное расположение
      *
      * @default vertical */
-    direction: FooterBlockDirection,
+    direction: FooterBlockDirection;
 }

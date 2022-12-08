@@ -2,7 +2,7 @@ import { forwardRef as fR, Ref, RefAttributes, ReactElement } from 'react';
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 interface RenderComponent<T, P = {}> {
-    (props: P, ref: Ref<T>): (ReactElement | null)
+    (props: P, ref: Ref<T>): (ReactElement | null);
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-types

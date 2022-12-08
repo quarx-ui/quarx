@@ -1,9 +1,9 @@
 type PropsType = Record<string, string | boolean | number>;
 
 interface UrlOptions {
-    component: string,
-    story?: string,
-    props?: PropsType
+    component: string;
+    story?: string;
+    props?: PropsType;
 }
 
 const reducePropsToURLString = (props?: PropsType) => {

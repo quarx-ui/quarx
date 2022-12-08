@@ -22,8 +22,8 @@ export const controlSynchronizedChildProp = <T>(
 };
 
 interface ControlSynchronizedChildProps<T> {
-    synchronizedParentProps: NonNullableFields<Required<T>>,
-    synchronizedChildProps: NonNullableFields<Required<T>>,
+    synchronizedParentProps: NonNullableFields<Required<T>>;
+    synchronizedChildProps: NonNullableFields<Required<T>>;
 }
 
 /** Функция, применяемая в компонентах,

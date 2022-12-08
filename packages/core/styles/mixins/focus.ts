@@ -2,9 +2,9 @@ import { CSSObject } from '@emotion/react';
 import { Transitions } from '@core/styles';
 
 interface CssOnFocusOptions {
-    transitions?: Transitions,
-    focusWidth?: number | string,
-    borderWidth?: number | string,
+    transitions?: Transitions;
+    focusWidth?: number | string;
+    borderWidth?: number | string;
 }
 
 const withPx = (value?: string | number) => (

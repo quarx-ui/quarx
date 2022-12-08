@@ -9,7 +9,7 @@ export interface TabsStyleParamsCommon {
     /** Акцентный цвет компонента. Возможные значения – любой из стандартных цветов палитры
      *
      * @default brand */
-    color: PaletteColor,
+    color: PaletteColor;
     /** Размер компонента
      *
      * @property small
@@ -18,13 +18,13 @@ export interface TabsStyleParamsCommon {
      *
      * @default medium
      * */
-    size: TabsSize,
+    size: TabsSize;
 }
 
 export interface TabItem {
-    label: ReactNode,
-    value: string,
-    counter?: ReactNode,
+    label: ReactNode;
+    value: string;
+    counter?: ReactNode;
 }
 
 export interface TabsPropsCommon<T extends TabItem = TabItem> extends Omit<BaseProps, 'permissions'> {
@@ -34,25 +34,25 @@ export interface TabsPropsCommon<T extends TabItem = TabItem> extends Omit<BaseP
      * Также возможно опциональное значение `counter`. Остальные поля
      * могут быть любыми.
      */
-    items: T[],
+    items: T[];
 
     /** Значение `value` выбранной вкладки */
-    value?: T['value'],
+    value?: T['value'];
 
     /** Значение, выбранное по-умолчанию */
-    defaultValue?: T['value'],
+    defaultValue?: T['value'];
 
     /** Callback, вызываемый при переключении вкладки */
-    onSetValue?: (item: T) => void,
+    onSetValue?: (item: T) => void;
 
     /** Настройки прокрутки к выбранной вкладке во время изменения value */
     scrollOptions?: ScrollIntoViewOptions & {
-        disabled?: boolean,
-        padding?: number,
-    }
+        disabled?: boolean;
+        padding?: number;
+    };
 
     /** Корневой компонент для отображения каждой вкладки */
-    TabItemComponent?: ElementType
+    TabItemComponent?: ElementType;
 }
 
 export type TabsScrollPosition = Values<typeof TABS_SCROLL_POSITIONS>;

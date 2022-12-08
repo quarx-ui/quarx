@@ -6,7 +6,7 @@ export interface TabItemSegmentedPropsWithoutHtml extends
     Partial<TabItemSegmentedStyleParams>,
     WithClassesAndStyles<TabItemSegmentedStyleKeys, TabItemSegmentedStyleParams>
 {
-    counter?: ReactNode,
+    counter?: ReactNode;
 }
 
 export type TabItemSegmentedProps<C extends ElementType = 'button'>

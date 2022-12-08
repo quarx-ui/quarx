@@ -106,10 +106,10 @@ const TypeVariants = ({
     showContained = true,
     showSegmented = true,
 }: {
-    showTitle?: boolean,
-    showDefault?: boolean,
-    showContained?: boolean,
-    showSegmented?: boolean,
+    showTitle?: boolean;
+    showDefault?: boolean;
+    showContained?: boolean;
+    showSegmented?: boolean;
 } = {}) => (props: TabsProps) => DisplayVariants({
     property: 'type',
     values: [

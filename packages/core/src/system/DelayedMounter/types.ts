@@ -5,31 +5,31 @@ export type DelayedMounterPropsWithoutHtml<Props extends object = object> =
     & Props
     & {
         /** Дочерний элемент */
-        children: ReactElement | string,
+        children: ReactElement | string;
 
         /** Продолжительность задержки
          *
          * @default 250 */
-        timeout?: number,
+        timeout?: number;
 
         /** Компонент монтирован
          *
          * @default false */
-        mounted?: boolean,
+        mounted?: boolean;
 
         /** Отключение задержки размонтирования
          *
          * @default false */
-        disableTimeout?: boolean,
+        disableTimeout?: boolean;
 
         /** Обработчик, вызываемый при монтировании компонента */
-        onEnter?: () => void,
+        onEnter?: () => void;
 
         /** Обработчик, вызываемый в начале размонтирования компонента */
-        onExitStart?: () => void,
+        onExitStart?: () => void;
 
         /** Обработчик, вызываемый в конце размонтирования компонента */
-        onExit?: () => void,
+        onExit?: () => void;
     }
 
 export type DelayedMounterProps<

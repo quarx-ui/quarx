@@ -15,43 +15,43 @@ export type DisplayValuesType = string | boolean | number
 interface BaseVariantProps<VariantProps> extends
     Pick<DisplayVariantsStyledProps, 'containerAlign' | 'containerJustify' | 'variantAlign'> {
     /** Компонент, который необходимо отобразить. Не рекомендуется оборачивать его другим компонентом. */
-    component: FC<VariantProps>,
+    component: FC<VariantProps>;
 
     /** Объект с дополнительными параметрами компонента. Применяется не в качестве отдельного примера. */
-    componentProps?: VariantProps | ((property: string, value: DisplayValuesType) => VariantProps),
+    componentProps?: VariantProps | ((property: string, value: DisplayValuesType) => VariantProps);
 
     /** Направление отрисовки.
      * @param vertical Вертикальное направление. Варианты будут расположены в колонну.
      * @param horizontal Горизонтальное направление. Варианты будут расположены в ряд. */
-    direction?: 'vertical' | 'horizontal',
+    direction?: 'vertical' | 'horizontal';
 }
 
 interface TitleProps {
     /** Размер заголовка
      * @param primary Основной заголовок
      * @param secondary Вторичный заголовок */
-    size?: 'primary' | 'secondary',
+    size?: 'primary' | 'secondary';
 
     /** Показать/скрыть заголовок */
-    isShown?: boolean,
+    isShown?: boolean;
 
     /** Тип заголовка
      * @param property Название свойства
      * @param value Значение свойства */
-    type?: 'property' | 'value',
+    type?: 'property' | 'value';
 }
 
 export interface DisplayVariantsProps<VariantProps> extends BaseVariantProps<VariantProps> {
     /** Название отображаемого пропса */
-    property: string,
+    property: string;
 
     /** Массив значений для отображаемого пропса
      * @example
      * ['small', 'medium', 'large'] */
-    values: Array<DisplayValuesType>,
+    values: Array<DisplayValuesType>;
 
     /** Объект с настройками названия свойства */
-    title?: TitleProps,
+    title?: TitleProps;
 }
 
 function isCallable<Props>(prop: BaseVariantProps<Props>['componentProps']): prop is ((property: string, value: DisplayValuesType) => Props) {
@@ -126,12 +126,12 @@ interface DisplayVariantsMapProps<VariantProps> extends BaseVariantProps<Variant
      *     size: ['small', 'large'],
      *     color: ['warning', 'critical', 'color2', 'color1'],
      * } */
-    variants: Record<string, Array<DisplayValuesType>>,
+    variants: Record<string, Array<DisplayValuesType>>;
 
-    shownTitle?: boolean,
+    shownTitle?: boolean;
 
     /** Объект с настройками названия свойства */
-    optionTitle?: TitleProps,
+    optionTitle?: TitleProps;
 }
 
 /** Функция предназначена для генерации различных вариантов компонента.
@@ -201,7 +201,7 @@ interface DisplayBooleanVariantsProps<VariantProps> extends Omit<DisplayVariants
     /** Массив булевых свойств, которые необходимо вывести в качестве примера
      * @example
      * ['size', 'color'] */
-    properties: Array<string | [string, boolean]>,
+    properties: Array<string | [string, boolean]>;
 }
 
 /** Функция предназначена для генерации различных вариантов компонента с булевыми свойствами.

@@ -9,19 +9,19 @@ export interface BadgePropsWithoutHTML extends
     WithClassesAndStyles<BadgeStyleKeys, BadgeStyleParams>
 {
     /** Дочерний элемент */
-    children: ReactNode,
+    children: ReactNode;
 
     /** Элемент, отображаемый с левой стороны компонента */
-    leftItem?: ReactNode,
+    leftItem?: ReactNode;
 
     /** Элемент, отображаемый с правой стороны компонента */
-    rightItem?: ReactNode,
+    rightItem?: ReactNode;
 
     /** Число используемое для отображения во внутреннем компоненте Counter  */
-    counter?: number | string,
+    counter?: number | string;
 
     /** Объект параметров для настройки внутреннего компонента Counter  */
-    counterProps?: Omit<CounterProps, 'children'>,
+    counterProps?: Omit<CounterProps, 'children'>;
 }
 
 export type BadgeProps = ComponentPropsWithHTML<BadgePropsWithoutHTML>

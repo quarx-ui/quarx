@@ -14,32 +14,32 @@ export interface ChipsStyleParams {
      * Размер chips
      * @default medium
      * */
-    size: ChipsSize,
+    size: ChipsSize;
 
     /** Использование стилей с тенями */
-    elevation: boolean,
+    elevation: boolean;
 
     /** Активное состояние */
-    active: boolean,
+    active: boolean;
 
     /** Выключенное состояние */
-    disabled: boolean,
+    disabled: boolean;
 
     /** Наличие левой иконки */
-    leftIconExists: boolean,
+    leftIconExists: boolean;
 
     /** Цвет левой иконки */
-    leftIconColor?: string,
+    leftIconColor?: string;
 
     /** Наличие иконки для закрытия(в случае Input)/Dropdown(в случае Filter) */
-    rightIconExists: boolean,
+    rightIconExists: boolean;
 
     /** Отключение фокусировки */
-    disableFocus: boolean,
+    disableFocus: boolean;
 
     /**
      * Переворачивать картинку на 180 градусов при состоянии active
      * @default true
      * */
-    rotateRightIcon: boolean,
+    rotateRightIcon: boolean;
 }

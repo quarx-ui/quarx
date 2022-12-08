@@ -16,5 +16,5 @@ export interface TabsDefaultStyleParams extends TabsStyleParamsCommon {
      *
      * @default down
      * */
-    line: TabsLine,
+    line: TabsLine;
 }

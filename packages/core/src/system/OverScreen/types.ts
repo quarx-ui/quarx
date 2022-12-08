@@ -24,7 +24,7 @@ export interface OverScreenPropsWithoutHtml extends
     Pick<TransitionProps, 'timeout' | 'easing'>
 {
     /** Показать/скрыть компонент */
-    open?: boolean,
+    open?: boolean;
 
     /** Тип анимации
      * @property none Отсутствие анимации
@@ -32,42 +32,42 @@ export interface OverScreenPropsWithoutHtml extends
      * @property slide Выезд из положения `origin`
      *
      * @default fade */
-    appearance?: OverScreenAppearance,
+    appearance?: OverScreenAppearance;
 
     /** Сохранять компонент в DOM-дереве */
-    keepMounted?: boolean,
+    keepMounted?: boolean;
 
     /** Возможность закрытия компонента по клику по внешней области */
-    disableCloseByClickAway?: boolean,
+    disableCloseByClickAway?: boolean;
 
     /** Закрытие по клавише Escape */
-    disableCloseByEscape?: boolean,
+    disableCloseByEscape?: boolean;
 
     /** Отключить блокировку скролла */
-    disableScrollLock?: boolean,
+    disableScrollLock?: boolean;
 
     /** Отключить компонент Backdrop */
-    disableBackdrop?: boolean,
+    disableBackdrop?: boolean;
 
     /** Обработчик закрытия модального окна
      * @param event Объект события
      * @param reason Причина закрытия */
-    onClose?: (event: MouseEvent | TouchEvent, reason: OverScreenCloseReason) => void,
+    onClose?: (event: MouseEvent | TouchEvent, reason: OverScreenCloseReason) => void;
 
     /** Дочерний элемент */
-    children: ReactElement & RefAttributes<HTMLDivElement>,
+    children: ReactElement & RefAttributes<HTMLDivElement>;
 
     /** Пропсы передаваемые напрямую компоненту Transition */
-    TransitionProps?: Partial<TransitionProps>,
+    TransitionProps?: Partial<TransitionProps>;
 
     /** Пропсы передаваемые напрямую компоненту Backdrop */
-    BackdropProps?: Partial<BackdropProps>,
+    BackdropProps?: Partial<BackdropProps>;
 
     /** Пропсы передаваемые напрямую компоненту Portal */
-    PortalProps?: Partial<PortalProps>,
+    PortalProps?: Partial<PortalProps>;
 
     /** Пропсы передаваемые напрямую компоненту DelayedMounter */
-    DelayedMounterProps?: Partial<DelayedMounterProps>
+    DelayedMounterProps?: Partial<DelayedMounterProps>;
 
     /** Исходное положение компонента относительно `placement`
      * @property top
@@ -76,10 +76,10 @@ export interface OverScreenPropsWithoutHtml extends
      * @property left
      *
      * @default right */
-    origin?: OverScreenOrigin,
+    origin?: OverScreenOrigin;
 
     /** Величина смещения дочернего элемента в формате строки 'x[, y]' или числа */
-    offset?: string | number,
+    offset?: string | number;
 }
 
 export type OverScreenProps = ComponentPropsWithHTML<OverScreenPropsWithoutHtml>;

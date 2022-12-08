@@ -88,9 +88,9 @@ export default {
 };
 
 interface TypographySandbox {
-    size: 'S' | 'M' | 'L' | 'XL',
-    weight: 'Regular' | 'Semibold' | 'Medium',
-    text: string,
+    size: 'S' | 'M' | 'L' | 'XL';
+    weight: 'Regular' | 'Semibold' | 'Medium';
+    text: string;
 }
 
 export const Sandbox: Story<TypographySandbox> = ({

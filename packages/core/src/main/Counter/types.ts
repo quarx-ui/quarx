@@ -9,13 +9,13 @@ export interface CounterPropsWithoutHTML extends
 {
     /** Максимальное количество цифр в счетчике, после превышения этого значения выводятся девятки
      * со знаком "+" на конце */
-    maxDigits?: number,
+    maxDigits?: number;
 
     /** Числовое значение */
     children: number | string;
 
     /** Удаляет элемент со страницы */
-    hidden?: boolean,
+    hidden?: boolean;
 }
 
 export type CounterProps = ComponentPropsWithHTML<CounterPropsWithoutHTML, 'span'>

@@ -4,7 +4,7 @@ import { warning } from '@core/utils/exceptions';
 interface ReactElementAdvanced {
     type: {
         displayName?: string;
-    },
+    };
 }
 
 export const verifyChildPropsAvailability = (

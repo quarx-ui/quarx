@@ -7,23 +7,23 @@ export type RadioButtonPosition = Values<typeof RADIO_BUTTON_POSITION>
 
 export interface RadioButtonStyleParams {
     /** Состояние наведения */
-    hover: boolean,
+    hover: boolean;
 
     /** Цвет компонента */
-    color: PaletteColor,
+    color: PaletteColor;
 
     /** Состояние компонента */
-    checked: boolean,
+    checked: boolean;
 
     /** Размер компонента */
-    size: PickQxSize<'small' | 'medium' | 'large'>,
+    size: PickQxSize<'small' | 'medium' | 'large'>;
 
     /** Отключение возможности фокуса */
-    disableFocus: boolean,
+    disableFocus: boolean;
 
     /** Изменяет состояние компонента на активное/неактивное */
-    disabled: boolean,
+    disabled: boolean;
 
     /** Позиция переключателя относительно текста */
-    position: RadioButtonPosition,
+    position: RadioButtonPosition;
 }

@@ -77,8 +77,8 @@ const useScreenSize = () => {
 };
 
 type SandboxArgs = {
-    stringQuery: string,
-    device: QxDevice,
+    stringQuery: string;
+    device: QxDevice;
 }
 
 const Grid = styled('div')(({ columns }: { columns: number | string }) => ({
