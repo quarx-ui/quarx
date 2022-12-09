@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from 'react';
+import { Dispatch, SetStateAction, useCallback, useState } from 'react';
 
 export type UseBooleanStateProps = boolean;
 
@@ -15,9 +15,9 @@ export const useBooleanState = (
 ): UseBooleanState => {
     const [state, setState] = useState<boolean>(initialValue);
 
-    const setTrue = () => setState(true);
-    const setFalse = () => setState(false);
-    const setOppositeState = () => setState((prev) => !prev);
+    const setTrue = useCallback(() => setState(true), []);
+    const setFalse = useCallback(() => setState(false), []);
+    const setOppositeState = useCallback(() => setState((prev) => !prev), []);
 
     return { state, setState, setTrue, setFalse, setOppositeState };
 };
