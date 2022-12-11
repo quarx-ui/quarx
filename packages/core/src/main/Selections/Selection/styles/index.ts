@@ -63,6 +63,10 @@ export const useStyles = makeStyles((
             width: '100%',
             border: 'none',
             outline: 'none',
+
+            cursor: 'pointer',
+            ...disabled && { cursor: 'not-allowed' },
+
             '&, & *': {
                 transition: transitions.create([
                     'background-color',
@@ -70,7 +74,9 @@ export const useStyles = makeStyles((
                     'margin',
                 ], { duration: transitions.duration.shortest }),
             },
+
             ...reverse && { flexDirection: 'row-reverse' },
+
             ...paramsToCss(type)({
                 [SELECTION_TYPE.text]: { backgroundColor: 'transparent' },
                 [SELECTION_TYPE.contained]: {
@@ -83,7 +89,6 @@ export const useStyles = makeStyles((
                         focusWidth: cssVar(cssFocusWidth),
                     }),
 
-                    cursor: 'pointer',
                     backgroundColor: palette.background.main,
                     borderRadius: 8,
                     ...paramsToCss(size)({
@@ -95,7 +100,6 @@ export const useStyles = makeStyles((
                     '&:focus-visible': !disableFocus && stylesWithFocus({
                         borderColor: cssVar(cssFocusColor),
                     }),
-                    ...disabled && { cursor: 'no-drop' },
                 },
             }),
         },

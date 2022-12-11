@@ -13,6 +13,7 @@ export * from './makeEventFromSyntheticEvent';
 export * from './mergeRefs';
 export * from './cssVars';
 export * from './paramsToCss';
+export * from './pointers';
 export * from './setRef';
 export * from './ownerDocument';
 export * from './ownerWindow';

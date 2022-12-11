@@ -23,7 +23,9 @@ import {
     Palette,
     RadioButtonProps,
     SelectionGroupProps,
+    SelectionListProps,
     SelectionProps,
+    SelectionTreeProps,
     SidePageProps,
     SwitcherProps,
     TabItemContainedProps,
@@ -39,6 +41,7 @@ import {
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
+import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -64,6 +67,9 @@ export interface ComponentsProps {
     RadioButton: RadioButtonProps;
     Selection: SelectionProps;
     SelectionGroup: SelectionGroupProps;
+    SelectionList: SelectionListProps;
+    SelectionTree: SelectionTreeProps;
+    SelectionTreeNode: SelectionTreeNodeProps;
     SidePage: SidePageProps;
     Switcher: SwitcherProps;
     TabItemContained: TabItemContainedProps;

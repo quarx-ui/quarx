@@ -5,7 +5,7 @@ import { RADIO_BUTTON_POSITION } from './constants';
 import { RADIO_BUTTON_CSS_VARS, useStyles } from './styles';
 import { RadioButtonProps } from './types';
 
-export const RadioButton:FC<RadioButtonProps> = forwardRef<HTMLLabelElement, RadioButtonProps>((
+export const RadioButton: FC<RadioButtonProps> = forwardRef<HTMLLabelElement, RadioButtonProps>((
     initialProps,
     ref,
 ) => {

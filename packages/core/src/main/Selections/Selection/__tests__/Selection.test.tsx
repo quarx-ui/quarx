@@ -1,4 +1,5 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
+import { FC } from 'react';
 import {
     Checkbox,
     PALETTE_COLORS,
@@ -9,7 +10,6 @@ import {
 } from '@core';
 import userEvent from '@testing-library/user-event';
 import { testStyleParams } from '@core/test-utils';
-import { FC } from 'react';
 import { SELECTION_TYPE } from '../styles/constants';
 
 describe('Selection', () => {
@@ -41,7 +41,7 @@ describe('Selection', () => {
     });
 
     test('text should be in the document', () => {
-        render((
+        const { getByText } = render((
             <Selection
                 title="Title"
                 description="Description"
@@ -50,20 +50,20 @@ describe('Selection', () => {
                 <Checkbox />
             </Selection>
         ));
-        expect(screen.queryByText('Title')).toBeInTheDocument();
-        expect(screen.queryByText('Description')).toBeInTheDocument();
-        expect(screen.queryByText('HelperText')).toBeInTheDocument();
+        expect(getByText('Title')).toBeInTheDocument();
+        expect(getByText('Description')).toBeInTheDocument();
+        expect(getByText('HelperText')).toBeInTheDocument();
     });
 
     test('text should be hidden', () => {
-        render(<Selection><Checkbox /></Selection>);
-        expect(screen.queryByText('Title')).not.toBeInTheDocument();
-        expect(screen.queryByText('Description')).not.toBeInTheDocument();
-        expect(screen.queryByText('HelperText')).not.toBeInTheDocument();
+        const { queryByText } = render(<Selection><Checkbox /></Selection>);
+        expect(queryByText('Title')).not.toBeInTheDocument();
+        expect(queryByText('Description')).not.toBeInTheDocument();
+        expect(queryByText('HelperText')).not.toBeInTheDocument();
     });
 
     test('Adornment', async () => {
-        render((
+        const { queryByText } = render((
             <Selection
                 leftAdornment="LEFT"
                 rightAdornment="RIGHT"
@@ -71,28 +71,29 @@ describe('Selection', () => {
                 <Checkbox />
             </Selection>
         ));
-        expect(screen.queryByText('LEFT')).not.toBeInTheDocument();
-        expect(screen.queryByText('RIGHT')).not.toBeInTheDocument();
+        expect(queryByText('LEFT')).not.toBeInTheDocument();
+        expect(queryByText('RIGHT')).not.toBeInTheDocument();
     });
 
     let callTest = jest.fn();
     beforeEach(() => { callTest = jest.fn(); });
 
+    const TemplateTitle = 'Template';
     const Template: FC<Partial<SelectionProps>> = ({
         ...props
     }) => (
         <Selection
             {...props}
-            onChange={callTest}
+            title={TemplateTitle}
         >
-            <Checkbox disabled={props.disabled} />
+            <Checkbox onChange={callTest} />
         </Selection>
     );
 
     test('Handle clicked by contained type', async () => {
-        render(<Template type="contained" />);
-        const container = await screen.findByRole('button');
-        const checkbox = await screen.findByRole('checkbox');
+        const { getByText, getByRole } = render(<Template type="contained" />);
+        const container = getByText(TemplateTitle);
+        const checkbox = getByRole('checkbox');
 
         userEvent.click(container);
         expect(callTest).toBeCalledTimes(1);
@@ -101,37 +102,24 @@ describe('Selection', () => {
     });
 
     test('Handle clicked by text type', async () => {
-        render(<Template type="text" />);
-        const container = await screen.findByRole('button');
-        const checkbox = await screen.findByRole('checkbox');
+        const { getByText, getByRole } = render(<Template type="text" />);
+        const container = getByText(TemplateTitle);
+        const checkbox = getByRole('checkbox');
 
         userEvent.click(container);
-        expect(callTest).toBeCalledTimes(0);
-        userEvent.click(checkbox);
         expect(callTest).toBeCalledTimes(1);
+        userEvent.click(checkbox);
+        expect(callTest).toBeCalledTimes(2);
     });
 
     test('Handle clicked (disabled state)', async () => {
-        const { rerender } = render(<Template type="contained" disabled />);
-        let container = await screen.findByRole('button');
+        const { rerender, getByText } = render(<Template type="contained" disabled />);
+        let container = getByText(TemplateTitle);
         userEvent.click(container);
         expect(callTest).toBeCalledTimes(0);
 
         rerender(<Template type="text" disabled />);
-        container = await screen.findByRole('button');
-        userEvent.click(container);
-        expect(callTest).toBeCalledTimes(0);
-    });
-
-    test('disableHandlingChildProps', async () => {
-        render((
-            <Template
-                type="contained"
-                disableHandlingChildProps
-                disabled
-            />
-        ));
-        const container = await screen.findByRole('button');
+        container = getByText(TemplateTitle);
         userEvent.click(container);
         expect(callTest).toBeCalledTimes(0);
     });

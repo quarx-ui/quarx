@@ -30,7 +30,7 @@ export const useStyles = makeStyles((
                 [SELECTION_GROUP_TYPE.contained]: {
                     backgroundColor: palette.background.main,
                     borderRadius: 12,
-                    padding: '20px 24px 8px',
+                    padding: '20px 24px',
                 },
                 [SELECTION_GROUP_TYPE.text]: {
                     backgroundColor: 'transparent',
@@ -68,11 +68,10 @@ export const useStyles = makeStyles((
 
         content: {
             display: 'flex',
-            gap: 32,
             ...paramsToCss(size)({
-                [QX_SIZE.small]: { margin: '24px 0' },
-                [QX_SIZE.medium]: { margin: '16px 0' },
-                [QX_SIZE.large]: { margin: '12px 0' },
+                [QX_SIZE.small]: { padding: '16px 8px' },
+                [QX_SIZE.medium]: { padding: '12px 8px' },
+                [QX_SIZE.large]: { padding: '8px 8px' },
             }),
         },
     });

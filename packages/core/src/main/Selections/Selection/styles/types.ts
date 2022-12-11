@@ -7,6 +7,11 @@ export type SelectionType = Values<typeof SELECTION_TYPE>;
 export type SelectionSize = PickQxSize<'large' | 'medium' | 'small'>;
 
 export interface SelectionStyleParams {
+    /**  Включить/Отключить обратный порядок элементов
+     *
+     * @default false */
+    reverse: boolean;
+
     /** Тип компонента
      *
      * @default text */
@@ -22,20 +27,15 @@ export interface SelectionStyleParams {
      * @default medium */
     size: SelectionSize;
 
-    /**  Активное/неактивное состоние компонента
-     *
-     * @default false */
-    disabled: boolean;
-
-    /**  Включить/Отключить обратный порядок элементов
-     *
-     * @default false */
-    reverse: boolean;
-
     /**  Возможность отключения focus`а компонента
      *
      * @default false */
     disableFocus: boolean;
+
+    /**  Активное/неактивное состоние компонента
+     *
+     * @default false */
+    disabled: boolean;
 
     /**  Начальное состояние эффекта наведения
      *

@@ -1,5 +1,6 @@
-import { FC, forwardRef } from 'react';
+import { cloneElement, FC, forwardRef } from 'react';
 import { PALETTE_COLORS, usePropsOverwrites } from '@core/styles';
+import { controlSynchronizedChildProps } from '@core';
 import { If } from '@core/src/system/If';
 import { QX_SIZE } from '@core/enums';
 import { SELECTION_GROUP_TYPE } from './styles/constants';
@@ -23,10 +24,48 @@ export const SelectionGroup: FC<SelectionGroupProps> = forwardRef<HTMLDivElement
         ...restProps
     } = props;
 
-    const params = {
-        color,
-        size,
+    const {
+        props: initialChildrenProps,
+    } = children;
+
+    // Перезапись одинаковых дочерних и родительских свойств
+    const parentSynchronizableProps = {
         type,
+        size,
+        color,
+    };
+    const childSynchronizableProps = {
+        type: initialChildrenProps.type,
+        size: initialChildrenProps.size,
+        color: initialChildrenProps.color,
+    };
+    const defaultSynchronizableProps = {
+        type: SELECTION_GROUP_TYPE.text,
+        size: QX_SIZE.medium,
+        color: PALETTE_COLORS.brand,
+    };
+    const {
+        synchronizedParentProps,
+        synchronizedChildProps,
+    } = controlSynchronizedChildProps(
+        defaultSynchronizableProps,
+        parentSynchronizableProps,
+        childSynchronizableProps,
+    );
+
+    const childrenProps = {
+        ...initialChildrenProps,
+
+        // SynchronizedProps
+        type: synchronizedChildProps.type,
+        size: synchronizedChildProps.size,
+        color: synchronizedChildProps.color,
+    };
+
+    const params = {
+        color: synchronizedParentProps.color,
+        size: synchronizedParentProps.size,
+        type: synchronizedParentProps.type,
     };
 
     const styles = useStyles({ ...params, ...styleProps });
@@ -60,7 +99,10 @@ export const SelectionGroup: FC<SelectionGroupProps> = forwardRef<HTMLDivElement
                         className={cn('content')}
                         css={styles.content}
                     >
-                        {children}
+                        {cloneElement(
+                            children,
+                            childrenProps,
+                        )}
                     </div>
                 </If>
                 <If condition={Boolean(helperText)}>
