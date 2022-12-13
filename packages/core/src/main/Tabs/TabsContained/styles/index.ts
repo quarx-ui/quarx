@@ -31,6 +31,7 @@ export const useStyles = makeStyles((
     pointerInner: {
         display: 'flex',
         position: 'absolute',
+        maxHeight: '100%',
         transition: transitions.create('left'),
     },
 }), { name: 'QxTabsContained' });

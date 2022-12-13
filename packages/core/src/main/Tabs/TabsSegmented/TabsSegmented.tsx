@@ -8,6 +8,7 @@ import { TabItem, TABS_FADE_WIDTH, useTabs } from '../common';
 import { TabsSegmentedProps } from './types';
 import { TabItemSegmented } from './TabItemSegmented';
 import { TABS_SEGMENTED_PADDING } from './constants';
+import { disableTransitionIf } from '../common/disableTransitionIf';
 import { TabsContainer } from '../index';
 
 export const TabsSegmented = forwardRef(<T extends TabItem = TabItem>(
@@ -48,12 +49,14 @@ export const TabsSegmented = forwardRef(<T extends TabItem = TabItem>(
         value,
         internalRef,
         selectedRef,
+        pointerInnerRef,
         selectedLeft,
         selectedWidth,
         scrollPosition,
         initOnSelect,
         initOnKeyPress,
         initOnScroll,
+        isFirstAppearance,
     } = useTabs({
         items,
         value: externalValue,
@@ -120,11 +123,20 @@ export const TabsSegmented = forwardRef(<T extends TabItem = TabItem>(
                 {renderItems()}
                 <div
                     className={cn('pointer')}
-                    css={[styles.pointer, { width: selectedWidth, left: selectedLeft }]}
+                    css={[
+                        styles.pointer,
+                        { width: selectedWidth, left: selectedLeft },
+                        disableTransitionIf(isFirstAppearance),
+                    ]}
                 >
                     <div
                         className={cn('pointerInner')}
-                        css={[styles.pointerInner, { left: -selectedLeft + TABS_SEGMENTED_PADDING }]}
+                        ref={pointerInnerRef}
+                        css={[
+                            styles.pointerInner,
+                            { left: -selectedLeft + TABS_SEGMENTED_PADDING },
+                            disableTransitionIf(isFirstAppearance),
+                        ]}
                     >
                         {renderItems(true)}
                     </div>

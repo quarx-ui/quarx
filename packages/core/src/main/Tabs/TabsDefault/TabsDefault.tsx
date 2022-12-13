@@ -3,6 +3,7 @@ import React, { ForwardedRef } from 'react';
 import { jsx } from '@emotion/react';
 import { PALETTE_COLORS, usePropsOverwrites, QX_SIZE, mergeRefs, forwardRef } from '@core';
 import clsx from 'clsx';
+import { disableTransitionIf } from '../common/disableTransitionIf';
 import { useStyles } from './styles';
 import { TABS_LINES } from './constants';
 import { TabItem, TABS_FADE_WIDTH, useTabs } from '../common';
@@ -53,6 +54,7 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
         initOnSelect,
         initOnKeyPress,
         initOnScroll,
+        isFirstAppearance,
     } = useTabs({
         items,
         value: externalValue,
@@ -103,7 +105,11 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
             })}
             <div
                 className={cn('pointer')}
-                css={[styles.pointer, { width: selectedWidth, left: selectedLeft }]}
+                css={[
+                    styles.pointer,
+                    { width: selectedWidth, left: selectedLeft },
+                    disableTransitionIf(isFirstAppearance),
+                ]}
             />
         </TabsContainer>
     );
