@@ -8,7 +8,14 @@ import {
     useRef,
     useState,
 } from 'react';
-import { TabItem, useIsFirstRender, useKeyboardNavigation, useResizeObserver } from '@core';
+import {
+    ownerWindow,
+    TabItem,
+    useEnhancedEffect,
+    useIsFirstRender,
+    useKeyboardNavigation,
+    useResizeObserver,
+} from '@core';
 import { TabsPropsCommon, TabsScrollPosition } from './types';
 import { TABS_SCROLL_POSITIONS } from './constants';
 
@@ -26,8 +33,10 @@ export const useTabs = <T extends TabItem = TabItem>({
     scrollOptions: scrollOptionsProp,
 }: Omit<TabsPropsCommon<T>, 'TabItemComponent'>) => {
     const isFirstRender = useIsFirstRender();
+    const countOfValueChanges = useRef(0);
     const selectedRef = useRef<HTMLButtonElement>(null);
     const internalRef = useRef<HTMLDivElement>(null);
+    const pointerInnerRef = useRef<HTMLDivElement>(null);
 
     const [scrollPosition, setScrollPosition] = useState<TabsScrollPosition>(TABS_SCROLL_POSITIONS.none);
     const [internalValue, setInternalValue] = useState(defaultValue ?? items[0].value);
@@ -95,6 +104,11 @@ export const useTabs = <T extends TabItem = TabItem>({
         orientation: 'horizontal',
     });
 
+    useEnhancedEffect(() => {
+        // Для отключения анимации при первом появлении
+        countOfValueChanges.current += 1;
+    }, [value]);
+
     useEffect(() => {
         const selected = selectedRef.current;
         if (!selected) { return; }
@@ -132,12 +146,20 @@ export const useTabs = <T extends TabItem = TabItem>({
             selected.removeChild(scrollAnchor);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [value]);
+    }, [value, selectedWidth]); // ширина выбранного элемента может измениться после первого рендера
 
     useEffect(() => {
         const root = internalRef.current;
 
         if (!root || !rootWidth) { return; }
+
+        if (pointerInnerRef.current) {
+            const computedStyles = ownerWindow(internalRef.current)
+                .getComputedStyle(internalRef.current);
+            const paddings = `(${computedStyles.paddingLeft} + ${computedStyles.paddingRight})`;
+
+            pointerInnerRef.current.style.width = `calc(${rootWidth}px - ${paddings})`;
+        }
 
         const { scrollLeft, scrollWidth } = root;
 
@@ -148,6 +170,7 @@ export const useTabs = <T extends TabItem = TabItem>({
         value,
         internalRef,
         selectedRef,
+        pointerInnerRef,
         selectedLeft,
         selectedWidth,
         scrollPosition,
@@ -156,5 +179,6 @@ export const useTabs = <T extends TabItem = TabItem>({
         initOnScroll,
         initOnSelect,
         initOnKeyPress,
+        isFirstAppearance: countOfValueChanges.current === 1,
     };
 };

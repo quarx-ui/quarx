@@ -28,10 +28,10 @@ exports[`Tabs type:contained style params borderRadius large 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1hi9yt7-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-14o1vj3-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -91,10 +91,10 @@ exports[`Tabs type:contained style params borderRadius max 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-eewqin-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-1t0xsd1-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -154,10 +154,10 @@ exports[`Tabs type:contained style params borderRadius medium 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1idkge1-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-spns5w-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -217,10 +217,10 @@ exports[`Tabs type:contained style params borderRadius small 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1hwwse8-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-1j6byas-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -280,10 +280,10 @@ exports[`Tabs type:contained style params borderRadius xLarge 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-og4lmk-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-1ot4j81-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -343,10 +343,10 @@ exports[`Tabs type:contained style params borderRadius xSmall 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1nz9dvj-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-1ogvzwl-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -406,10 +406,10 @@ exports[`Tabs type:contained style params color brand 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1idkge1-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-spns5w-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -469,10 +469,10 @@ exports[`Tabs type:contained style params color danger 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1ntlfgh-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-awnm99-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -532,10 +532,10 @@ exports[`Tabs type:contained style params color info 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-sdpd2g-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-2y1yr5-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -595,10 +595,10 @@ exports[`Tabs type:contained style params color secondary 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-42blsf-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-wbxulo-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -658,10 +658,10 @@ exports[`Tabs type:contained style params color success 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1tnf1y6-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-1w92dvi-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -721,10 +721,10 @@ exports[`Tabs type:contained style params color warning 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-a3b0o5-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-od4109-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -784,10 +784,10 @@ exports[`Tabs type:contained style params size large 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1idkge1-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-spns5w-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -847,10 +847,10 @@ exports[`Tabs type:contained style params size medium 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1idkge1-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-spns5w-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -910,10 +910,10 @@ exports[`Tabs type:contained style params size small 1`] = `
       Контакты
     </button>
     <div
-      class="QxTabsContained-pointer css-1idkge1-QxTabsContained-pointer"
+      class="QxTabsContained-pointer css-spns5w-QxTabsContained-pointer"
     >
       <div
-        class="QxTabsContained-pointerInner css-zmuymi-QxTabsContained-pointerInner"
+        class="QxTabsContained-pointerInner css-bl48yh-QxTabsContained-pointerInner"
       >
         <button
           area-disabled="true"
@@ -985,10 +985,10 @@ exports[`Tabs type:contained with counter 1`] = `
         </span>
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -1098,7 +1098,7 @@ exports[`Tabs type:default style params color brand 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-18sj7bv-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-32d5qs-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1171,7 +1171,7 @@ exports[`Tabs type:default style params color danger 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-9nphz5-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-1dmbis-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1244,7 +1244,7 @@ exports[`Tabs type:default style params color info 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-17eu6tz-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-1qtyy9j-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1317,7 +1317,7 @@ exports[`Tabs type:default style params color secondary 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-7q4l1j-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-1necwb4-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1390,7 +1390,7 @@ exports[`Tabs type:default style params color success 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-1ddq0jr-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-qd5j2z-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1463,7 +1463,7 @@ exports[`Tabs type:default style params color warning 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-1hlxoxj-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-g1n7j9-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1536,7 +1536,7 @@ exports[`Tabs type:default style params line down 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-18sj7bv-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-32d5qs-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1609,7 +1609,7 @@ exports[`Tabs type:default style params line up 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-vljbii-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-14kfua0-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1682,7 +1682,7 @@ exports[`Tabs type:default style params size large 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-18sj7bv-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-32d5qs-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1755,7 +1755,7 @@ exports[`Tabs type:default style params size medium 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-18sj7bv-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-32d5qs-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1828,7 +1828,7 @@ exports[`Tabs type:default style params size small 1`] = `
       </div>
     </button>
     <div
-      class="QxTabsDefault-pointer css-18sj7bv-QxTabsDefault-pointer"
+      class="QxTabsDefault-pointer css-32d5qs-QxTabsDefault-pointer"
     />
   </div>
 </DocumentFragment>
@@ -1874,10 +1874,10 @@ exports[`Tabs type:default with counter 1`] = `
         </span>
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -1951,10 +1951,10 @@ exports[`Tabs type:segmented style params borderRadius large 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1fww4q7-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-droeqp-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2018,10 +2018,10 @@ exports[`Tabs type:segmented style params borderRadius max 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-vxlzhl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1v3sjyx-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2085,10 +2085,10 @@ exports[`Tabs type:segmented style params borderRadius medium 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2152,10 +2152,10 @@ exports[`Tabs type:segmented style params borderRadius small 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-7jna84-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-658zuh-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2219,10 +2219,10 @@ exports[`Tabs type:segmented style params borderRadius xLarge 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-dtiae1-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1livdin-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2286,10 +2286,10 @@ exports[`Tabs type:segmented style params borderRadius xSmall 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-on18kx-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-9im1dn-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2353,10 +2353,10 @@ exports[`Tabs type:segmented style params color brand 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2420,10 +2420,10 @@ exports[`Tabs type:segmented style params color danger 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2487,10 +2487,10 @@ exports[`Tabs type:segmented style params color info 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2554,10 +2554,10 @@ exports[`Tabs type:segmented style params color secondary 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2621,10 +2621,10 @@ exports[`Tabs type:segmented style params color success 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2688,10 +2688,10 @@ exports[`Tabs type:segmented style params color warning 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2755,10 +2755,10 @@ exports[`Tabs type:segmented style params size large 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2822,10 +2822,10 @@ exports[`Tabs type:segmented style params size medium 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2889,10 +2889,10 @@ exports[`Tabs type:segmented style params size small 1`] = `
         Контакты
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -2965,10 +2965,10 @@ exports[`Tabs type:segmented with counter 1`] = `
         </span>
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"
@@ -3108,10 +3108,10 @@ exports[`Tabs type:segmented with icons 1`] = `
         </svg>
       </button>
       <div
-        class="QxTabsSegmented-pointer css-1cbwojl-QxTabsSegmented-pointer"
+        class="QxTabsSegmented-pointer css-1eb21b-QxTabsSegmented-pointer"
       >
         <div
-          class="QxTabsSegmented-pointerInner css-18rw0ii-QxTabsSegmented-pointerInner"
+          class="QxTabsSegmented-pointerInner css-98qwg5-QxTabsSegmented-pointerInner"
         >
           <button
             area-disabled="true"

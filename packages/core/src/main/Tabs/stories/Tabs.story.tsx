@@ -25,11 +25,11 @@ import counterDescription from './descriptions/Counter.md';
 import customComponentDescription from './descriptions/CustomComponent.md';
 
 const items = [
-    { label: 'Главная', value: 'home' },
-    { label: 'Бизнес', value: 'business' },
-    { label: 'Страхование', value: 'insurance' },
-    { label: 'Транспорт', value: 'transport' },
-    { label: 'Медицина', value: 'medicine' },
+    { label: 'Главная страница', value: 'home' },
+    { label: 'Бизнес операции', value: 'business' },
+    { label: 'Страхование жизни', value: 'insurance' },
+    { label: 'Транспорт до дома', value: 'transport' },
+    { label: 'Медицина и здоровье', value: 'medicine' },
     { label: 'Контакты', value: 'contacts' },
 ];
 
@@ -85,16 +85,23 @@ export const Sandbox: Story<TabsProps> = ({
     type,
     items: itemsProp,
     ...props
-}) => (
-    /* eslint-disable-line @typescript-eslint/ban-ts-comment */
-    <Tabs
-        type={type}
-        line={type === TABS_TYPES.default ? line : undefined}
-        icons={type === TABS_TYPES.segmented ? icons : undefined}
-        items={type === TABS_TYPES.segmented && icons ? iconItems : itemsProp}
-        {...props}
-    />
-);
+}) => {
+    const [tab, setTab] = useState('medicine');
+
+    return (
+        <Tabs
+            type="contained"
+            line={type === TABS_TYPES.default ? line : undefined}
+            icons={type === TABS_TYPES.segmented ? icons : undefined}
+            items={type === TABS_TYPES.segmented && icons ? iconItems : itemsProp}
+            value={tab}
+            onSetValue={({ value }) => {
+                setTab(value);
+            }}
+            {...props}
+        />
+    );
+};
 
 Sandbox.args = { ...defaultArgs, size: QX_SIZE.large };
 

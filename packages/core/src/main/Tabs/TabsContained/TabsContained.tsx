@@ -3,6 +3,7 @@ import React, { ForwardedRef } from 'react';
 import { jsx } from '@emotion/react';
 import { PALETTE_COLORS, usePropsOverwrites, QX_SIZE, mergeRefs, forwardRef } from '@core';
 import clsx from 'clsx';
+import { disableTransitionIf } from '../common/disableTransitionIf';
 import { useStyles } from './styles';
 import { TabItem, TABS_FADE_WIDTH, useTabs } from '../common';
 import { TabsContainedProps } from './types';
@@ -46,12 +47,14 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
         value,
         internalRef,
         selectedRef,
+        pointerInnerRef,
         selectedLeft,
         selectedWidth,
         scrollPosition,
         initOnSelect,
         initOnKeyPress,
         initOnScroll,
+        isFirstAppearance,
     } = useTabs({
         items,
         value: externalValue,
@@ -109,11 +112,20 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
             {renderItems()}
             <div
                 className={cn('pointer')}
-                css={[styles.pointer, { width: selectedWidth, left: selectedLeft }]}
+                css={[
+                    styles.pointer,
+                    { width: selectedWidth, left: selectedLeft },
+                    disableTransitionIf(isFirstAppearance),
+                ]}
             >
                 <div
+                    ref={pointerInnerRef}
                     className={cn('pointerInner')}
-                    css={[styles.pointerInner, { left: -selectedLeft }]}
+                    css={[
+                        styles.pointerInner,
+                        { left: -selectedLeft },
+                        disableTransitionIf(isFirstAppearance),
+                    ]}
                 >
                     {renderItems(true)}
                 </div>
