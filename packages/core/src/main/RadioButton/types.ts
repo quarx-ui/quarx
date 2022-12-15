@@ -8,22 +8,22 @@ export interface RadioButtonPropsWithoutHtml extends
     WithClassesAndStyles<RadioButtonStyleKeys, RadioButtonStyleParams, RadioButtonCSSVarKeys>,
     BaseProps<HTMLLabelElement>
 {
-    /** @description Дочерний элемент */
+    /** Дочерний элемент */
     children?: ReactNode;
 
-    /** @description Объект со свойствами для элемента `input` */
+    /** Объект со свойствами для элемента `input` */
     inputProps?: JSX.IntrinsicElements['input'];
 
-    /** @description Ссылка к элементу `input` */
+    /** Ссылка к элементу `input` */
     inputRef?: RefObject<HTMLInputElement>;
 
-    /** @description Обработчик изменения состояния элемента `input` */
+    /** Обработчик изменения состояния элемента `input` */
     onChange?: ChangeEventHandler<HTMLInputElement>;
 
-    /** @description Свойство `name` элемента `input` */
+    /** Свойство `name` элемента `input` */
     name?: string;
 
-    /** @description Свойство `value` элемента `input` */
+    /** Свойство `value` элемента `input` */
     value?: string;
 }
 

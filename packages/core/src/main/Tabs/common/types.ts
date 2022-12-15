@@ -6,12 +6,12 @@ export type TabsType = Values<typeof TABS_TYPES>;
 export type TabsSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface TabsStyleParamsCommon {
-    /** @description Акцентный цвет компонента. Возможные значения – любой из стандартных цветов палитры
+    /** Акцентный цвет компонента. Возможные значения – любой из стандартных цветов палитры
      *
      * @default brand */
     color: PaletteColor;
 
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @property small
      * @property medium
@@ -22,39 +22,39 @@ export interface TabsStyleParamsCommon {
 }
 
 export interface TabItem {
-    /** @description Текст вкладки */
+    /** Текст вкладки */
     label: ReactNode;
 
-    /** @description Значение `value` выбранной вкладки */
+    /** Значение `value` выбранной вкладки */
     value: string;
 
-    /** @description Счетчик вкладки */
+    /** Счетчик вкладки */
     counter?: ReactNode;
 }
 
 export interface TabsPropsCommon<T extends TabItem = TabItem> extends Omit<BaseProps, 'permissions'> {
-    /** @description Набор объектов для отображения в виде вкладок. В каждом объекте
+    /** Набор объектов для отображения в виде вкладок. В каждом объекте
      * обязательно наличие строкового `value` и `label` для отрисовки.
      * Также возможно опциональное значение `counter`. Остальные поля
      * могут быть любыми. */
     items: T[];
 
-    /** @description Значение `value` выбранной вкладки */
+    /** Значение `value` выбранной вкладки */
     value?: T['value'];
 
-    /** @description Значение, выбранное по-умолчанию */
+    /** Значение, выбранное по-умолчанию */
     defaultValue?: T['value'];
 
-    /** @description Callback, вызываемый при переключении вкладки */
+    /** Callback, вызываемый при переключении вкладки */
     onSetValue?: (item: T) => void;
 
-    /** @description Настройки прокрутки к выбранной вкладке во время изменения value */
+    /** Настройки прокрутки к выбранной вкладке во время изменения value */
     scrollOptions?: ScrollIntoViewOptions & {
         disabled?: boolean;
         padding?: number;
     };
 
-    /** @description Корневой компонент для отображения каждой вкладки */
+    /** Корневой компонент для отображения каждой вкладки */
     TabItemComponent?: ElementType;
 }
 

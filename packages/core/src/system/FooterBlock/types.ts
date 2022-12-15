@@ -6,13 +6,13 @@ import {
 } from './styles';
 
 export type FooterBlockButtons = {
-    /** @description Свойства кнопки успешной операции */
+    /** Свойства кнопки успешной операции */
     success?: ButtonProps;
 
-    /** @description Свойства кнопки ошибки */
+    /** Свойства кнопки ошибки */
     danger?: ButtonProps;
 
-    /** @description Свойства кнопки */
+    /** Свойства кнопки */
     secondary?: ButtonProps;
 }
 
@@ -20,10 +20,10 @@ export interface FooterBlockPropsWithoutHtml extends
     Partial<FooterBlockStyleParams>,
     WithClassesAndStyles<FooterBlockStyleKeys, FooterBlockStyleParams>
 {
-    /** @description Дочерний элемент, при передаче которого будут заменены все остальные элементы */
+    /** Дочерний элемент, при передаче которого будут заменены все остальные элементы */
     children?: ReactNode;
 
-    /** @description Объект для настройки кнопок с дефолтным расположением */
+    /** Объект для настройки кнопок с дефолтным расположением */
     buttons?: FooterBlockButtons;
 }
 

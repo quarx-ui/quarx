@@ -6,25 +6,25 @@ export interface HeaderBlockPropsWithoutHtml extends
     Partial<HeaderBlockStyleParams>,
     WithClassesAndStyles<HeaderBlockStyleKeys, HeaderBlockStyleParams>
 {
-    /** @description Дочерний элемент, при передаче которого будут заменены все остальные элементы */
+    /** Дочерний элемент, при передаче которого будут заменены все остальные элементы */
     children?: ReactNode;
 
-    /** @description Заголовок */
+    /** Заголовок */
     title?: ReactNode;
 
-    /** @description Подзаголовок */
+    /** Подзаголовок */
     subTitle?: ReactNode;
 
-    /** @description Отключить кнопку закрытия */
+    /** Отключить кнопку закрытия */
     disableCloseButton?: boolean;
 
-    /** @description Пропсы передаваемые напрямую кнопке закрытия */
+    /** Пропсы передаваемые напрямую кнопке закрытия */
     CloseButtonProps?: Partial<IconButtonProps>;
 
-    /** @description Обработчик события клика по кнопке закрытия */
+    /** Обработчик события клика по кнопке закрытия */
     onClose?: MouseEventHandler<HTMLButtonElement>;
 
-    /** @description Пользовательская кнопка закрытия */
+    /** Пользовательская кнопка закрытия */
     CloseButton?: ReactNode;
 }
 

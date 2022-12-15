@@ -1,14 +1,14 @@
 import { ReactElement, RefAttributes } from 'react';
 
 export interface PortalProps<T extends HTMLElement = HTMLDivElement> {
-    /** @description Отключить портал
+    /** Отключить портал
      *
      * @default false */
     disablePortal?: boolean;
 
-    /** @description Дочерний элемент */
+    /** Дочерний элемент */
     children: ReactElement & RefAttributes<T>;
 
-    /** @description Контейнер для дочернего элемента */
+    /** Контейнер для дочернего элемента */
     container?: ReactElement;
 }

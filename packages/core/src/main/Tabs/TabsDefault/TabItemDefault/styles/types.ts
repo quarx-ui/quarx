@@ -2,17 +2,17 @@ import { TabsSize } from '../../../common';
 import { TabsLine } from '../../index';
 
 export interface TabItemDefaultStyleParams {
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @default large */
     size: TabsSize;
 
-    /** @description Состояние активированности
+    /** Состояние активированности
      *
      * @default false */
     selected: boolean;
 
-    /** @description Позиция разделяющей линии
+    /** Позиция разделяющей линии
      *
      * @default down */
     line: TabsLine;

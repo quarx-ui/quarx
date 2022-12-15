@@ -6,7 +6,7 @@ export interface TabsSegmentedPropsWithoutHtml<T extends TabItem = TabItem> exte
     TabsPropsCommon<T>,
     Partial<TabsSegmentedStyleParams>,
     WithClassesAndStyles<TabsSegmentedStyleKeys, TabsSegmentedStyleParams> {
-    /** @description Переключение в режим отображения иконок в виде вкладок, доступно
+    /** Переключение в режим отображения иконок в виде вкладок, доступно
      * только для `Tabs` с типом `segmented` */
     icons?: boolean;
 }

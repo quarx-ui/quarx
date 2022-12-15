@@ -2,22 +2,22 @@ import { QxBorderSize, PaletteColor } from '@core';
 import { TabsSize } from '../../../common';
 
 export interface TabItemContainedStyleParams {
-    /** @description Цветовая схема компонента
+    /** Цветовая схема компонента
      *
      * @default brand */
     color: PaletteColor;
 
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @default large */
     size: TabsSize;
 
-    /** @description Состояние выбора
+    /** Состояние выбора
      *
      * @default false */
     selected: boolean;
 
-    /** @description Радиус скругления углов
+    /** Радиус скругления углов
      *
      * @default medium */
     borderRadius: QxBorderSize;

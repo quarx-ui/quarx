@@ -7,17 +7,17 @@ export interface CounterPropsWithoutHTML extends
     Partial<CounterStyleParams>,
     WithClassesAndStyles<CounterStyleKeys, CounterStyleParams>
 {
-    /** @description Максимальное количество цифр в счетчике,
+    /** Максимальное количество цифр в счетчике,
      * после превышения этого значения выводятся девятки
      * со знаком "+" на конце
      *
      * @default 2 */
     maxDigits?: number;
 
-    /** @description Числовое значение */
+    /** Числовое значение */
     children: number | string;
 
-    /** @description Удаляет элемент со страницы
+    /** Удаляет элемент со страницы
      *
      * @default false */
     hidden?: boolean;

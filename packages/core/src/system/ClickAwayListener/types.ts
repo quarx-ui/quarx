@@ -14,25 +14,25 @@ export type ClickAwayListenerEvents =
     | ClickAwayListenerSyntheticTouchEvents;
 
 export interface ClickAwayListenerProps {
-    /** @description При включении данного свойства рассматривается только DOM,
+    /** При включении данного свойства рассматривается только DOM,
      * дерево React`а игнорируется. Данное свойство изменяет обработку портальных элементов.
      *
      * @default false */
     disableReactTree?: boolean;
 
-    /** @description Прослушиваемое событие мыши. Выключено при false.
+    /** Прослушиваемое событие мыши. Выключено при false.
      *
      * @default 'onClick' */
     mouseEvent?: ClickAwayListenerSyntheticMouseEvents | false;
 
-    /** @description Прослушиваемое событие touch. Выключено при false.
+    /** Прослушиваемое событие touch. Выключено при false.
      *
      * @default 'onTouchEnd' */
     touchEvent?: ClickAwayListenerSyntheticTouchEvents | false;
 
-    /** @description Функция, вызываемая при клике вне дочернего компонента */
+    /** Функция, вызываемая при клике вне дочернего компонента */
     onClickAway(event: MouseEvent | TouchEvent): void;
 
-    /** @description Элемент для прослушивания */
+    /** Элемент для прослушивания */
     children: React.ReactElement;
 }

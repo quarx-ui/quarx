@@ -10,21 +10,21 @@ export interface ChipsPropsWithoutHtml extends
     WithClassesAndStyles<ChipsStyleKeys, ChipsStyleParams, ChipsCSSVarKeys>,
     BaseProps<HTMLButtonElement>
 {
-    /** @description Текст */
+    /** Текст */
     children?: string;
 
-    /** @description Иконка, отображаемая слева в активированном состоянии
+    /** Иконка, отображаемая слева в активированном состоянии
      *
      * @default CheckMarkIcon */
     activeStateIcon?: ReactElement | SVGIcon;
 
-    /** @description Левая иконка */
+    /** Левая иконка */
     leftIcon?: ReactElement | SVGIcon;
 
-    /** @description Правая иконка (кастомная либо стандартная, если передан "true") */
+    /** Правая иконка (кастомная либо стандартная, если передан "true") */
     rightIcon?: boolean | ReactElement | SVGIcon;
 
-    /** @description Скрыть элемент
+    /** Скрыть элемент
      *
      * @default false */
     hidden?: boolean;

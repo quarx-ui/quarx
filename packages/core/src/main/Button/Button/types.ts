@@ -4,10 +4,10 @@ import { BaseButtonProps, ButtonStyleParams } from '@core/src';
 import { ButtonStyleKeys, ButtonCSSVarKeys } from './styles';
 
 export interface ButtonPropsWithoutStyling extends OmitClassesAndStyles<BaseButtonProps> {
-    /** @description Иконка расположенная слева */
+    /** Иконка расположенная слева */
     leftIcon?: ReactElement;
 
-    /** @description Иконка расположенная справа */
+    /** Иконка расположенная справа */
     rightIcon?: ReactElement;
 }
 

@@ -8,7 +8,7 @@ export interface OmittedOverScreenStyleParams {
 }
 
 export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
-    /** @description Расположение компонента на странице
+    /** Расположение компонента на странице
      * @property top
      * @property bottom
      * @property right
@@ -22,7 +22,7 @@ export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
      * @default center */
     placement: OverScreenPlacement;
 
-    /** @description Отступ от границ контейнера в формате строки 'x[, y]' или числа
+    /** Отступ от границ контейнера в формате строки 'x[, y]' или числа
      *
      * @default 0 */
     margin: string | number;

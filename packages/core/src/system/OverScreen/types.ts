@@ -23,12 +23,12 @@ export interface OverScreenPropsWithoutHtml extends
     Pick<PortalProps, 'disablePortal'>,
     Pick<TransitionProps, 'timeout' | 'easing'>
 {
-    /** @description Показать/скрыть компонент
+    /** Показать/скрыть компонент
      *
      * @default false */
     open?: boolean;
 
-    /** @description Тип анимации
+    /** Тип анимации
      * @property none Отсутствие анимации
      * @property fade Плавное появление/исчезновение
      * @property slide Выезд из положения `origin`
@@ -36,53 +36,53 @@ export interface OverScreenPropsWithoutHtml extends
      * @default fade */
     appearance?: OverScreenAppearance;
 
-    /** @description Сохранять компонент в DOM-дереве
+    /** Сохранять компонент в DOM-дереве
      *
      * @default false */
     keepMounted?: boolean;
 
-    /** @description Возможность закрытия компонента по клику по внешней области
+    /** Возможность закрытия компонента по клику по внешней области
      *
      * @default false */
     disableCloseByClickAway?: boolean;
 
-    /** @description Закрытие по клавише Escape
+    /** Закрытие по клавише Escape
      *
      * @default false */
     disableCloseByEscape?: boolean;
 
-    /** @description Отключить блокировку скролла
+    /** Отключить блокировку скролла
      *
      * @default false */
     disableScrollLock?: boolean;
 
-    /** @description Отключить компонент Backdrop
+    /** Отключить компонент Backdrop
      *
      * @default false */
     disableBackdrop?: boolean;
 
-    /** @description Обработчик закрытия модального окна
+    /** Обработчик закрытия модального окна
      *
      * @param event Объект события
      * @param reason Причина закрытия */
     onClose?: (event: MouseEvent | TouchEvent, reason: OverScreenCloseReason) => void;
 
-    /** @description Дочерний элемент */
+    /** Дочерний элемент */
     children: ReactElement & RefAttributes<HTMLDivElement>;
 
-    /** @description Пропсы передаваемые напрямую компоненту Transition */
+    /** Пропсы передаваемые напрямую компоненту Transition */
     TransitionProps?: Partial<TransitionProps>;
 
-    /** @description Пропсы передаваемые напрямую компоненту Backdrop */
+    /** Пропсы передаваемые напрямую компоненту Backdrop */
     BackdropProps?: Partial<BackdropProps>;
 
-    /** @description Пропсы передаваемые напрямую компоненту Portal */
+    /** Пропсы передаваемые напрямую компоненту Portal */
     PortalProps?: Partial<PortalProps>;
 
-    /** @description Пропсы передаваемые напрямую компоненту DelayedMounter */
+    /** Пропсы передаваемые напрямую компоненту DelayedMounter */
     DelayedMounterProps?: Partial<DelayedMounterProps>;
 
-    /** @description Исходное положение компонента относительно `placement`
+    /** Исходное положение компонента относительно `placement`
      * @property top
      * @property bottom
      * @property right
@@ -91,7 +91,7 @@ export interface OverScreenPropsWithoutHtml extends
      * @default right */
     origin?: OverScreenOrigin;
 
-    /** @description Величина смещения дочернего элемента в формате строки 'x[, y]' или числа */
+    /** Величина смещения дочернего элемента в формате строки 'x[, y]' или числа */
     offset?: string | number;
 }
 
