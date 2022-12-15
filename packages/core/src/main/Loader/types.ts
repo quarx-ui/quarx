@@ -7,15 +7,15 @@ export interface LoaderPropsWithoutHtml extends
     Partial<LoaderStyleParams>,
     WithClassesAndStyles<LoaderStyleKeys, LoaderStyleParams>
 {
-    /** @description Пользовательский CSS-класс для корневого элемента */
+    /** Пользовательский CSS-класс для корневого элемента */
     className?: string;
 
-    /** @description Отключает одну точку
+    /** Отключает одну точку
      *
      * @default false */
     twoDots?: boolean;
 
-    /** @description Ссылка к корневому элементу */
+    /** Ссылка к корневому элементу */
     ref?: Ref<HTMLDivElement>;
 }
 

@@ -11,12 +11,12 @@ export interface OmittedModalStyleParams {
 }
 
 export interface ModalStyleParams extends OmittedModalStyleParams {
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @default medium */
     size: ModalSize;
 
-    /** @description Поведение при вертикальном переполнении компонента
+    /** Поведение при вертикальном переполнении компонента
      * @property window Компонент расширяется вместе с контентом
      * @property body Компонент расширяется до границ контейнера, а у контента появляется скролл
      *

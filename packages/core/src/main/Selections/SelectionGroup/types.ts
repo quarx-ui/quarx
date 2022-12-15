@@ -8,16 +8,16 @@ export interface SelectionGroupPropsWithoutHtml extends
     Partial<SelectionGroupStyleParams>,
     WithClassesAndStyles<SelectionGroupStyleKeys, SelectionGroupStyleParams>
 {
-    /** @description Заголовок компонента */
+    /** Заголовок компонента */
     title?: string;
 
-    /** @description Описание компонента */
+    /** Описание компонента */
     description?: string;
 
-    /** @description Вспомогательный текст снизу */
+    /** Вспомогательный текст снизу */
     helperText?: string;
 
-    /** @description Дерево элементов */
+    /** Дерево элементов */
     children: React.ReactElement | undefined; // TODO: ReactElement<CheckboxGroup | RadioButtonGroup>
 }
 

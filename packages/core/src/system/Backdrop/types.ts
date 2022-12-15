@@ -5,15 +5,15 @@ export interface BackdropPropsWithoutHtml extends
     WithClassesAndStyles<BackdropStyleKeys, BackdropStyleParams>,
     Partial<BackdropStyleParams>
 {
-    /** @description Состояние отображения
+    /** Состояние отображения
      *
      * @default true */
     mounted?: boolean;
 
-    /** @description Свойства анимации */
+    /** Свойства анимации */
     TransitionProps?: Partial<TransitionProps>;
 
-    /** @description Отключить анимации
+    /** Отключить анимации
      *
      * @default false */
     disableTransition?: boolean;

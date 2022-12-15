@@ -7,17 +7,17 @@ export type SelectionGroupSize = PickQxSize<'small' | 'medium' | 'large'>;
 export type SelectionGroupType = Values<typeof SELECTION_GROUP_TYPE>;
 
 export interface SelectionGroupStyleParams {
-    /** @description Цветовая схемма компонента
+    /** Цветовая схемма компонента
      *
      * @default brand */
     color: PaletteColor;
 
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @default medium */
     size: SelectionGroupSize;
 
-    /** @description Тип заливки компонента.
+    /** Тип заливки компонента.
      * Определяет фон компонента, а также цвет его внутренних элементов
      *
      * @property contained группа в контейнере

@@ -7,37 +7,37 @@ export type SelectionType = Values<typeof SELECTION_TYPE>;
 export type SelectionSize = PickQxSize<'large' | 'medium' | 'small'>;
 
 export interface SelectionStyleParams {
-    /** @description Тип компонента
+    /** Тип компонента
      *
      * @default text */
     type: SelectionType;
 
-    /** @description  Цветовая схема компонента
+    /**  Цветовая схема компонента
      *
      * @default brand */
     color: PaletteColor;
 
-    /** @description  Размер компонента
+    /**  Размер компонента
      *
      * @default medium */
     size: SelectionSize;
 
-    /** @description  Активное/неактивное состоние компонента
+    /**  Активное/неактивное состоние компонента
      *
      * @default false */
     disabled: boolean;
 
-    /** @description  Включить/Отключить обратный порядок элементов
+    /**  Включить/Отключить обратный порядок элементов
      *
      * @default false */
     reverse: boolean;
 
-    /** @description  Возможность отключения focus`а компонента
+    /**  Возможность отключения focus`а компонента
      *
      * @default false */
     disableFocus: boolean;
 
-    /** @description  Начальное состояние эффекта наведения
+    /**  Начальное состояние эффекта наведения
      *
      * @default false */
     hover: boolean;

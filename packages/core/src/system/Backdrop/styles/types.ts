@@ -1,5 +1,5 @@
 export interface BackdropStyleParams {
-    /** @description Отключение фона
+    /** Отключение фона
      *
      * @default false */
     invisible: boolean;

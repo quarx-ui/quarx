@@ -2,9 +2,9 @@ import React from 'react';
 
 export interface CaseProps
 {
-    /** @description Условие выбора данного элемента */
+    /** Условие выбора данного элемента */
     value?: string;
 
-    /** @description Отображаемый элемент */
+    /** Отображаемый элемент */
     children?: React.ReactNode;
 }

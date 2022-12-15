@@ -6,17 +6,17 @@ export type TextFieldColorBase = 'main' | 'secondary';
 export type TextFieldClearIconVisibleOn = 'always' | 'interact' | 'none';
 
 export interface BaseTextFieldStyleParams {
-    /** @description Многострочность текстового поля
+    /** Многострочность текстового поля
      *
      * @default false */
     multiline: boolean;
 
-    /** @description Изменяет состояние компонента на активное/неактивное
+    /** Изменяет состояние компонента на активное/неактивное
      *
      * @default false */
     disabled: boolean;
 
-    /** @description Доступно только для чтения. Работает так же как `disabled`,
+    /** Доступно только для чтения. Работает так же как `disabled`,
      * но без визуального обозначения
      *
      * @default false */
@@ -31,7 +31,7 @@ export interface OmittedFieldStyleParams {
 }
 
 export interface TextFieldStyleParams extends OmittedFieldStyleParams {
-    /** @description Видимость счетчика символов
+    /** Видимость счетчика символов
      *
      * @property always счетчик отображается всегда
      * @property focus счетчик отображается при фокусе и сохраняется при введенном значении
@@ -39,22 +39,22 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      * @default always */
     counterVisibleOn: 'always' | 'focus';
 
-    /** @description Абсолютное позиционирование `helperText` и `counter`
+    /** Абсолютное позиционирование `helperText` и `counter`
      *
      * @default false */
     bottomIsAbsolute: boolean;
 
-    /** @description Состояние заполненности поля
+    /** Состояние заполненности поля
      *
      * @default undefined */
     filled: boolean;
 
-    /** @description Размер текстового поля
+    /** Размер текстового поля
      *
      * @default medium */
     size: TextFieldSize;
 
-    /** @description Цветовая основа
+    /** Цветовая основа
      *
      * @property main используется на основном фоне
      * @property secondary используется на дополнительном фоне
@@ -62,37 +62,37 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
      * @default main */
     colorBase: TextFieldColorBase;
 
-    /** @description Скругление компонента.
+    /** Скругление компонента.
      * Значения соответствуют токенам объекта `borderRadii`
      *
      * @default medium */
     borderRadius: TextFieldBorderRadius;
 
-    /** @description Состояние фокуса
+    /** Состояние фокуса
      *
      * @default undefined */
     focused: boolean;
 
-    /** @description Анимация загрузки
+    /** Анимация загрузки
      *
      * @default false */
     loading: boolean;
 
-    /** @description Признак ошибки.
+    /** Признак ошибки.
      * Если установлено `false` - отключается текст переданный в `errorText`. */
     error: boolean;
 
-    /** @description Скрытие заголовка поля
+    /** Скрытие заголовка поля
      *
      * @default false */
     disableLabel: boolean;
 
-    /** @description Отключить стили наведения
+    /** Отключить стили наведения
      *
      * @default false */
     disableHoverStyles: boolean;
 
-    /** @description Состояние, при котором иконка очистки поля будет показана
+    /** Состояние, при котором иконка очистки поля будет показана
      *
      * @property always появляется при вводе текста
      * @property interact появление иконки, при наведении или при фокусе

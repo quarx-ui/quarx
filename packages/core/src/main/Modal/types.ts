@@ -14,34 +14,34 @@ export interface ModalPropsWithoutHTML extends
     Pick<HeaderBlockProps, 'title' | 'subTitle' | 'disableCloseButton' | 'CloseButtonProps'>,
     Pick<OverScreenProps, 'onClose' | 'disableCloseByClickAway' | 'open' | 'disableCloseByEscape'>
 {
-    /** @description Расположение переданных кнопок
+    /** Расположение переданных кнопок
      * @property horizontal Горизонтальное расположение
      * @property vertical Вертикальное расположение
      *
      * @default vertical */
     footerDirection?: FooterBlockProps['direction'];
 
-    /** @description Объект для настройки кнопок с дефолтным расположением */
+    /** Объект для настройки кнопок с дефолтным расположением */
     footerButtons?: FooterBlockProps['buttons'];
 
-    /** @description Элемент используемый в Footer,
+    /** Элемент используемый в Footer,
      * при передаче которого будут заменены все остальные элементы */
     footer?: FooterBlockProps['children'];
 
-    /** @description Элемент используемый в Header,
+    /** Элемент используемый в Header,
      * при передаче которого будут заменены все остальные элементы */
     header?: HeaderBlockProps['children'];
 
-    /** @description Тело модального окна */
+    /** Тело модального окна */
     body?: ReactNode;
 
-    /** @description Пропсы передаваемые напрямую компоненту ModalHeader */
+    /** Пропсы передаваемые напрямую компоненту ModalHeader */
     HeaderProps?: Partial<HeaderBlockProps>;
 
-    /** @description Пропсы передаваемые напрямую компоненту ModalFooter */
+    /** Пропсы передаваемые напрямую компоненту ModalFooter */
     FooterProps?: Partial<FooterBlockProps>;
 
-    /** @description Пропсы передаваемые напрямую компоненту Drawer */
+    /** Пропсы передаваемые напрямую компоненту Drawer */
     OverScreenProps?: Partial<OverScreenProps>;
 }
 

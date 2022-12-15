@@ -6,7 +6,7 @@ export interface TabItemDefaultPropsWithoutHtml extends
     Partial<TabItemDefaultStyleParams>,
     WithClassesAndStyles<TabItemDefaultStyleKeys, TabItemDefaultStyleParams>
 {
-    /** @description Счетчик вкладки */
+    /** Счетчик вкладки */
     counter?: ReactNode;
 }
 

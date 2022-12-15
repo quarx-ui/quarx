@@ -6,7 +6,7 @@ export interface TabItemSegmentedPropsWithoutHtml extends
     Partial<TabItemSegmentedStyleParams>,
     WithClassesAndStyles<TabItemSegmentedStyleKeys, TabItemSegmentedStyleParams>
 {
-    /** @description Счетчик вкладки */
+    /** Счетчик вкладки */
     counter?: ReactNode;
 }
 

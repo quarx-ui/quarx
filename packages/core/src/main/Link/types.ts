@@ -6,13 +6,13 @@ export interface LinkPropsWithoutHtml extends
     Partial<LinkStyleParams>,
     WithClassesAndStyles<LinkStyleKeys, LinkStyleParams>
 {
-    /** @description Дочерний элемент */
+    /** Дочерний элемент */
     children: ReactChild;
 
-    /** @description Элемент, расположенный слева */
+    /** Элемент, расположенный слева */
     leftItem?: ReactChild;
 
-    /** @description Элемент, расположенный справа */
+    /** Элемент, расположенный справа */
     rightItem?: ReactChild;
 }
 

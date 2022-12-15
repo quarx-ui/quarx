@@ -6,13 +6,13 @@ export type ButtonColor = PaletteColor;
 export type ButtonBorderRadius = QxBorderSize;
 
 export interface ButtonStyleParams {
-    /** @description Цветовая палитра компонента.
+    /** Цветовая палитра компонента.
      * Значения соответствуют токенам объекта `palette.colors`
      *
      * @default brand */
     color: ButtonColor;
 
-    /** @description Размер компонента. Влияет на высоту и размер текста
+    /** Размер компонента. Влияет на высоту и размер текста
      * @property xSmall минимальный размер
      * @property small маленький
      * @property medium средний
@@ -21,13 +21,13 @@ export interface ButtonStyleParams {
      * @default medium */
     size: ButtonSize;
 
-    /** @description Скругление компонента.
+    /** Скругление компонента.
      * Значения соответствуют токенам объекта `borderRadii`
      *
      * @default medium */
     borderRadius: ButtonBorderRadius;
 
-    /** @description Тип заливки компонента
+    /** Тип заливки компонента
      *
      * @property contained используется, чтобы усилить акцент на основном действии
      * @property outlined используется для дополнительных действий или в элементах, где не нужен максимальный акцент
@@ -36,12 +36,12 @@ export interface ButtonStyleParams {
      * @default button */
     type: ButtonType;
 
-    /** @description Анимация загрузки
+    /** Анимация загрузки
      *
      * @default false */
     loading: boolean;
 
-    /** @description Изменяет состояние компонента на активное/неактивное.
+    /** Изменяет состояние компонента на активное/неактивное.
      * Отключает обработчики события
      *
      * @default false */

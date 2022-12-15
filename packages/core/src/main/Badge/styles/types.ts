@@ -6,12 +6,12 @@ export type BadgeColor = CounterColor;
 export type BadgeType = 'contained' | 'outlined' | 'ghosted';
 
 export interface BadgeStyleParams {
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @default medium */
     size: BadgeSize;
 
-    /** @description Тип заливки компонента.
+    /** Тип заливки компонента.
      * Определяет фон компонента, а также цвет его внутренних элементов
      *
      * @property contained залитый компонент, цвет используемых иконок и фон Counter будет белым (по умолчанию)
@@ -21,7 +21,7 @@ export interface BadgeStyleParams {
      * @default contained */
     type: BadgeType;
 
-    /** @description Цветовое решение компонента.
+    /** Цветовое решение компонента.
      * Определяет цвет фона или обводки (в зависимости от выбранного `type`) компонента,
      * а также цвет его внутренних элементов. Значения соответствуют токенам объекта `palette.colors`
      * с дополнительным вариантом `text`
@@ -29,7 +29,7 @@ export interface BadgeStyleParams {
      * @default brand */
     color: BadgeColor;
 
-    /** @description Скругление компонента. Значения соответствуют токенам объекта `borderRadii`
+    /** Скругление компонента. Значения соответствуют токенам объекта `borderRadii`
      *
      * @default max */
     borderRadius: BadgeBorderRadius;

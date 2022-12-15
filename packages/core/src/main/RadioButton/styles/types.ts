@@ -6,37 +6,37 @@ import { RADIO_BUTTON_POSITION } from '../constants';
 export type RadioButtonPosition = Values<typeof RADIO_BUTTON_POSITION>;
 
 export interface RadioButtonStyleParams {
-    /** @description Состояние наведения
+    /** Состояние наведения
      *
      * @default false */
     hover: boolean;
 
-    /** @description Цвет компонента
+    /** Цвет компонента
      *
      * @default brand */
     color: PaletteColor;
 
-    /** @description Состояние компонента
+    /** Состояние компонента
      *
      * @default false */
     checked: boolean;
 
-    /** @description Размер компонента
+    /** Размер компонента
      *
      * @default medium */
     size: PickQxSize<'small' | 'medium' | 'large'>;
 
-    /** @description Отключение возможности фокуса
+    /** Отключение возможности фокуса
      *
      * @default false */
     disableFocus: boolean;
 
-    /** @description Изменяет состояние компонента на активное/неактивное
+    /** Изменяет состояние компонента на активное/неактивное
      *
      * @default false */
     disabled: boolean;
 
-    /** @description Позиция переключателя относительно текста
+    /** Позиция переключателя относительно текста
      *
      * @default left */
     position: RadioButtonPosition;
