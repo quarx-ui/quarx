@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef } from 'react';
 import { PALETTE_COLORS, usePropsOverwrites } from '@core/styles';
-import { If } from '@core';
+import { If } from '@core/src/system/If';
 import { QX_SIZE } from '@core/enums';
 import { SELECTION_GROUP_TYPE } from './styles/constants';
 import { SelectionGroupProps } from './types';

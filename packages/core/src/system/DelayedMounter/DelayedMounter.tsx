@@ -1,7 +1,7 @@
 import React, { cloneElement } from 'react';
 import { JsxTag } from '@core/types';
 import { omitProps } from '@core/utils';
-import { If } from '@core/src';
+import { If } from '@core/src/system/If';
 import { useDelayedMounter } from './useDelayedMounter';
 import { DelayedMounterProps } from './types';
 

@@ -1,5 +1,5 @@
 import { FC, ReactElement } from 'react';
-import { CaseProps } from '@core/src';
+import { CaseProps } from './Case';
 import { SwitchProps } from './types';
 
 export const Switch: FC<SwitchProps> = ({

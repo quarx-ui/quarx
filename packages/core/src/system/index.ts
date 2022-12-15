@@ -3,8 +3,6 @@ export * from './ClickAwayListener';
 export * from './DelayedMounter';
 export * from './FooterBlock';
 export * from './HeaderBlock';
-export * from './If';
 export * from './OverScreen';
 export * from './Portal';
-export * from './Switch';
 export * from './Transition';

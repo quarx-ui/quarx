@@ -2,7 +2,8 @@
 import { jsx } from '@emotion/react';
 import React, { forwardRef, useState } from 'react';
 import { usePropsOverwrites } from '@core/styles';
-import { OverScreen, OVER_SCREEN_CLOSE_REASON, FooterBlock, HeaderBlock, If, QX_SIZE, useEnhancedEffect } from '@core';
+import { OverScreen, OVER_SCREEN_CLOSE_REASON, FooterBlock, HeaderBlock, QX_SIZE, useEnhancedEffect } from '@core';
+import { If } from '@core/src/system/If';
 import { limitHeightByRows } from '@core/utils';
 import { MODAL_SCROLL_BEHAVIOR } from '@core/src/main/Modal/constants';
 import { ModalProps } from './types';

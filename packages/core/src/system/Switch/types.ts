@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { CaseProps } from '@core/src';
+import { CaseProps } from './Case';
 
 export interface SwitchProps
 {
