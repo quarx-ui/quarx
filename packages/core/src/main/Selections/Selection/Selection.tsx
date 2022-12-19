@@ -2,7 +2,8 @@
 import { jsx } from '@emotion/react';
 import React, { FC, forwardRef, MouseEventHandler } from 'react';
 import { usePropsOverwrites } from '@core/styles';
-import { focusable, If, useBooleanState } from '@core';
+import { focusable, useBooleanState } from '@core';
+import { If } from '@core/src/system/If';
 import { PALETTE_COLORS } from '@core/styles/engine/theme/palette/constants';
 import { QX_SIZE } from '@core/enums/QxSize';
 import { controlSynchronizedChildProps, verifyChildPropsAvailability } from '@core/utils';

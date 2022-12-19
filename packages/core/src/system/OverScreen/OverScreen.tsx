@@ -5,7 +5,6 @@ import { TransitionProps as ReactTransitionProps } from 'react-transition-group/
 import { usePropsOverwrites, useTheme } from '@core/styles';
 import {
     Backdrop,
-    If,
     Portal,
     Transition,
     OVER_SCREEN_PLACEMENT,
@@ -18,6 +17,7 @@ import {
     OVER_SCREEN_DATATYPE,
     OVER_SCREEN_ROLE,
 } from '@core/src';
+import { If } from '@core/src/system/If';
 import { mergeRefs, ownerDocument, useEnhancedEffect } from '@core/utils';
 import {
     getMapStyles,
