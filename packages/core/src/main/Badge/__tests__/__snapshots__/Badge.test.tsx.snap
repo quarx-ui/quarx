@@ -216,7 +216,7 @@ exports[`Badge with counter 1`] = `
   >
     Статус
     <span
-      class="QxCounter QxCounter_type_white QxCounter_size_medium QxCounter_color_brand QxBadge-rightItem QxBadge-item css-1pvj4ck-QxCounter-root-QxBadge-rightItem-QxBadge-item"
+      class="QxCounter QxCounter_type_white QxCounter_size_medium QxCounter_color_brand QxBadge-rightItem QxBadge-item css-1i60o9g-QxCounter-root-QxBadge-rightItem-QxBadge-item-Badge"
     >
       55
     </span>

@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { render, screen } from '@testing-library/react';
+import { useState } from 'react';
+import { act, render, screen } from '@testing-library/react';
 import { DelayedMounter } from '@core';
 import userEvent from '@testing-library/user-event';
+import { setTimeoutCalls } from '@core/test-utils';
 
 describe('DelayedMounter behavior', () => {
     it('text should be in the document', () => {
@@ -77,18 +78,19 @@ describe('DelayedMounter timeout', () => {
     });
 
     it('functions', () => {
-        render(<Template />);
+        act(() => {
+            render(<Template />);
+        });
 
         expect(setTimeout).toHaveBeenCalledTimes(0);
 
         const trigger = screen.getByText(BUTTON_TEXT);
 
-        userEvent.click(trigger);
-        userEvent.click(trigger);
-
+        userEvent.click(trigger); // Компонент появляется
+        userEvent.click(trigger); // Компонент исчезает
         jest.runAllTimers();
 
-        expect(setTimeout).toHaveBeenCalledTimes(1);
+        expect(setTimeoutCalls()).toHaveLength(1);
         expect(setTimeout).toHaveBeenCalledWith(expect.any(Function), 250);
     });
 });

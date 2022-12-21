@@ -1,5 +1,5 @@
 import { Tabs as KitTabs } from '@kit';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ArrowGraphIcon } from '@kit-icons/arrow-graph/36px/stroke/rounded';
 import { BuildingsIcon } from '@kit-icons/buildings/36px/stroke/rounded';
 import { CirclesOnCircleIcon } from '@kit-icons/circles-on-circle/36px/stroke/rounded';

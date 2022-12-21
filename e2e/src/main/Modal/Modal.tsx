@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ModalProps, Modal as KitModal } from '@kit';
 
 export const Modal: FC<ModalProps> = (props) => (
@@ -7,6 +7,10 @@ export const Modal: FC<ModalProps> = (props) => (
         title="Title"
         subTitle="SubTitle"
         body="Body"
+        disableCloseByEscape
+        OverScreenProps={{
+            disablePortal: true,
+        }}
         footerButtons={{
             success: {
                 children: 'Success',

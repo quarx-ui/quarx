@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Button as KitButton } from '@kit';
 import { PaperClipIcon } from '@kit-icons/paper-clip/24px/stroke/rounded';
 import { ChevronDownIcon } from '@kit-icons/chevron-down/24px/stroke/rounded';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { testStyleParams } from '@core/test-utils';
 import { BaseProps, PALETTE_COLORS, QX_BORDER_SIZE, QX_SIZE } from '@core';
 import { render } from '@testing-library/react';

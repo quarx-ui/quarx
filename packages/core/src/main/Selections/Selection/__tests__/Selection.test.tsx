@@ -1,5 +1,4 @@
 import { render, screen } from '@testing-library/react';
-import React from 'react';
 import {
     Checkbox,
     PALETTE_COLORS,
@@ -10,6 +9,7 @@ import {
 } from '@core';
 import userEvent from '@testing-library/user-event';
 import { testStyleParams } from '@core/test-utils';
+import { FC } from 'react';
 import { SELECTION_TYPE } from '../styles/constants';
 
 describe('Selection', () => {
@@ -78,7 +78,7 @@ describe('Selection', () => {
     let callTest = jest.fn();
     beforeEach(() => { callTest = jest.fn(); });
 
-    const Template: React.FC<Partial<SelectionProps>> = ({
+    const Template: FC<Partial<SelectionProps>> = ({
         ...props
     }) => (
         <Selection

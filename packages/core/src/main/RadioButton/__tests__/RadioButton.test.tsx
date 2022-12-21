@@ -1,6 +1,5 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { RadioButtonProps, RadioButtonStyleParams } from '@core/src/main/RadioButton/types';
-import React from 'react';
 import { RadioButton } from '@core';
 import userEvent from '@testing-library/user-event';
 import { testStyleParams } from '@core/test-utils';

@@ -1,12 +1,18 @@
 import { ComponentsListTypes } from '@e2e/constants';
-import { InitTestConfig, PropsType } from '@e2e/test-utils/types';
-import { compareSnapshots, compareSnapshotsMap } from '@e2e/test-utils/compareSnapshots';
+import { InitTestConfig, PropsType, TestProps } from '@e2e/test-utils/types';
+import { compareSnapshots as initCompareSnapshots, compareSnapshotsMap as initCompareSnapshotsMap } from '@e2e/test-utils/compareSnapshots';
 import * as pw from '@playwright/test';
 import { testComponentProps } from '@e2e/test-utils/testComponent';
 import { disableAnimations } from '@e2e/test-utils/disableAnimations';
 import { DEFAULT_GROUP_BY } from '@e2e/test-utils/initTest/constants';
 import { InitTestReturned } from './types';
-import { getComponentCreator, setPropsCreator, toMatchSnapshotCreator, waitTimeoutCreator } from './helpers';
+import {
+    getComponentCreator, getFrameCreator,
+    getInputCreator, setComponentCreator,
+    setPropsCreator,
+    toMatchSnapshotCreator,
+    waitTimeoutCreator,
+} from './helpers';
 
 export const initTest = <Props = PropsType>(
     component: ComponentsListTypes,
@@ -45,7 +51,7 @@ export const initTest = <Props = PropsType>(
 
         compareSnapshotsMap: (options) => {
             pw.test.use(testConfig);
-            return compareSnapshotsMap<Props>(component)({
+            return initCompareSnapshotsMap<Props>(component)({
                 ...commonOptions,
                 ...options,
             });
@@ -59,9 +65,12 @@ export const initTest = <Props = PropsType>(
             }, testInfo) => {
                 if (isDisabledAnimations) { disableAnimations(page); }
 
+                const setComponent = setComponentCreator(page, component);
+                const getFrame = getFrameCreator(page);
+                const getInput = getInputCreator(page);
                 const getComponent = getComponentCreator(page, selector);
                 const waitTimeout = waitTimeoutCreator(page, configTimeout ?? 0);
-                const setProps = setPropsCreator<Props>(page, component);
+                const setProps = setPropsCreator<Props>(page);
                 const toMatchSnapshot = toMatchSnapshotCreator({
                     ...commonOptions,
                     selector,
@@ -72,32 +81,42 @@ export const initTest = <Props = PropsType>(
                     waitTimeout,
                 });
 
+                const compareSnapshotsMap: TestProps<Props>['compareSnapshotsMap'] = (
+                    options,
+                ) => initCompareSnapshotsMap<Props>(component)({
+                    ...commonOptions,
+                    ...options,
+                    testParams: { page, headless },
+                    testName,
+                });
+
+                const compareSnapshots: TestProps<Props>['compareSnapshots'] = (
+                    options,
+                ) => initCompareSnapshots<Props>({
+                    page,
+                    headless,
+                }, component)({
+                    ...commonOptions,
+                    ...options,
+                    testName,
+                });
+
                 await callback({
                     page,
                     testName,
-                    getComponent,
-                    toMatchSnapshot,
+
+                    setComponent,
                     setProps,
+
+                    getComponent,
+                    getInput,
+                    getFrame,
+
+                    toMatchSnapshot,
                     waitTimeout,
 
-                    compareSnapshotsMap: (options) => compareSnapshotsMap<Props>(component)({
-                        ...commonOptions,
-                        ...options,
-                        testParams: {
-                            page,
-                            headless,
-                        },
-                        testName,
-                    }),
-
-                    compareSnapshots: (options) => compareSnapshots<Props>({
-                        page,
-                        headless,
-                    }, component)({
-                        ...commonOptions,
-                        ...options,
-                        testName,
-                    }),
+                    compareSnapshotsMap,
+                    compareSnapshots,
                 }, testInfo);
             });
         },
