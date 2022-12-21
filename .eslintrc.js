@@ -92,5 +92,8 @@ module.exports = {
         'jest/valid-title': ['warn', { ignoreTypeOfDescribeName: true }],
         'jest/no-done-callback': ['warn'],
         'jest/no-export': 0,
+        'react/jsx-uses-react': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'react/jsx-fragments': [2, 'element'],
     },
 };

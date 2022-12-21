@@ -1,6 +1,4 @@
-/* @jsx jsx */
-import React, { MouseEventHandler, useEffect, useRef, useState } from 'react';
-import { jsx } from '@emotion/react';
+import { MouseEventHandler, useEffect, useRef, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { ARRANGEMENTS, PLACEMENTS, Position, useFloating, UseFloatingProps } from '@core';
 import { defineCategory } from '@core/storybook/templateParams';

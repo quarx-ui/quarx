@@ -80,9 +80,12 @@ const presets = [
         '@babel/preset-react',
         {
             development: !(['build', 'buildES'].includes(process.env.BABEL_ENV)),
+            runtime: 'automatic',
+            importSource: '@emotion/react',
         },
     ],
     '@babel/preset-typescript',
+    '@emotion/babel-preset-css-prop',
 ];
 
 module.exports = (api) => {

@@ -1,3 +1,6 @@
+const path = require("path");
+const toPath = (p) => path.join(process.cwd(), p);
+
 module.exports = {
     stories: [
         '../packages/core/storybook/*.story.tsx',
@@ -13,17 +16,22 @@ module.exports = {
         'storybook-addon-designs',
         './addons/theming/register.js',
     ],
-    babel: async (options) => {
-        options.plugins.push([
-            'module-resolver',
-            {
-                root: ['.'],
-                alias: {
-                    '@quarx-ui': './packages',
-                    '@core': './packages/core',
-                },
-            },
-        ]);
-        return options;
-    },
+    babel: async (options) => ({
+        ...options,
+        plugins: [
+            ...options.plugins,
+
+            ['module-resolver',
+                {
+                    root: ['.'],
+                    alias: {
+                        '@quarx-ui': './packages',
+                        '@core': './packages/core',
+                        '@emotion/core': toPath('node_modules/@emotion/react'),
+                        '@emotion/styled': toPath('node_modules/@emotion/styled'),
+                        'emotion/theming': toPath('node_modules/@emotion/react'),
+                    },
+                },]
+        ],
+    }),
 };

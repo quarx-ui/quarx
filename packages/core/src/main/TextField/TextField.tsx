@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, {
+import {
     FC,
     FocusEvent,
     forwardRef,

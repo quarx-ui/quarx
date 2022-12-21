@@ -1,7 +1,4 @@
-/** @jsxFrag */
-/** @jsx jsx */
-import React, { FC, forwardRef } from 'react';
-import { jsx } from '@emotion/react';
+import { FC, forwardRef, Fragment } from 'react';
 import { IconButton, QX_BORDER_SIZE, QX_SIZE, usePropsOverwrites } from '@core';
 import clsx from 'clsx';
 import { CrossIcon } from './assets';
@@ -44,7 +41,7 @@ export const HeaderBlock: FC<HeaderBlockProps> = forwardRef<HTMLDivElement, Head
             ref={ref}
         >
             {children ?? (
-                <>
+                <Fragment>
                     <div
                         css={styles.content}
                         className={cn('content')}
@@ -77,7 +74,7 @@ export const HeaderBlock: FC<HeaderBlockProps> = forwardRef<HTMLDivElement, Head
                                 {CloseButtonProps?.children ?? <CrossIcon />}
                             </IconButton>
                         ))}
-                </>
+                </Fragment>
             )}
         </div>
     );

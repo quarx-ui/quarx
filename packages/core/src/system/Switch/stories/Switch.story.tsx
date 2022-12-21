@@ -1,4 +1,3 @@
-import React from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Button } from '@core';
 /* import { STORY_PATHS } from '@quarx-ui/storybook/utils'; */

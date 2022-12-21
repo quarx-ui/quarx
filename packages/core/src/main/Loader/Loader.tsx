@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef } from 'react';
+import { FC, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { LoaderProps } from './types';
 import { useStyles } from './styles';

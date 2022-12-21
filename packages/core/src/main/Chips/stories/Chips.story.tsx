@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import { FC, ReactElement } from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
@@ -102,7 +102,7 @@ export default {
     },
 };
 
-const Template: React.FC<ChipsProps> = ({ size, ...props }) => (
+const Template: FC<ChipsProps> = ({ size, ...props }) => (
     <Chips
         {...props}
         size={size}

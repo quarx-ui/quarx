@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import { Counter, CounterType } from '@core/src/main/Counter';
 import { usePropsOverwrites } from '@core/styles';
 import clsx from 'clsx';

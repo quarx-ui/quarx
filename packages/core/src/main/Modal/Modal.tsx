@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { forwardRef, useState } from 'react';
+import { forwardRef, useState } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { OverScreen, OVER_SCREEN_CLOSE_REASON, FooterBlock, HeaderBlock, QX_SIZE, useEnhancedEffect } from '@core';
 import { If } from '@core/src/system/If';

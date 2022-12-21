@@ -1,5 +1,5 @@
 import classNames from 'clsx';
-import React, { ReactElement } from 'react';
+import { cloneElement, ReactElement } from 'react';
 
 type ModifyChildClasses = (child?: ReactElement, ...externalClassNames: Array<string>) => ReactElement | undefined
 
@@ -8,7 +8,7 @@ export const modifyChildClasses: ModifyChildClasses = (child?, ...externalClassN
     const localClassnames = classNames(child.props.className, ...externalClassNames);
     const props = { className: localClassnames };
 
-    return React.cloneElement(child, props);
+    return cloneElement(child, props);
 };
 
 export { classNames };

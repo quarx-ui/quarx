@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import { CSSObject, jsx } from '@emotion/react';
-import React, { FC, MouseEventHandler, useState } from 'react';
+import { CSSObject } from '@emotion/react';
+import { FC, MouseEventHandler, useState } from 'react';
 import { createPalette, getContrastColor, makeStyles, typography, useTheme } from '@core/styles';
 import {
     PaletteColor,

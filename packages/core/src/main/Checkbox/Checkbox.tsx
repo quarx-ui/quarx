@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
+import { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { usePropsOverwrites, PALETTE_COLORS } from '@core/styles';
 import { focusable } from '@core/utils';
 import { useStyles } from './styles';

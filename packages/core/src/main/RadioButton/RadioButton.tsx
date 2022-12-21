@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
+import { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { QX_SIZE } from '@core/enums';
 import { focusable, PALETTE_COLORS, usePropsOverwrites } from '@core';
 import { RADIO_BUTTON_POSITION } from './constants';

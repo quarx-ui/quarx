@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
@@ -144,11 +144,11 @@ export const Device: Story = () => {
 
             {Object.values(QX_DEVICE)
                 .map((device) => (
-                    <>
+                    <Fragment>
                         <Code>{device}</Code>
                         <Code>{`breakpoints.only('${deviceToBreakpoint[device]}')`}</Code>
                         <Code>{breakpoints.only(deviceToBreakpoint[device])}</Code>
-                    </>
+                    </Fragment>
                 ))}
         </Grid>
     );

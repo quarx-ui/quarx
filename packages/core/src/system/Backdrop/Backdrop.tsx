@@ -1,8 +1,6 @@
-/** @jsx jsx */
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { forwardRef } from '@core/utils';
 import { usePropsOverwrites } from '@core/styles';
-import { jsx } from '@emotion/react';
 import { Transition } from '@core/src';
 import { BackdropProps } from './types';
 import { useStyles } from './styles';

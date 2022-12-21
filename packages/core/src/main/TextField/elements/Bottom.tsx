@@ -1,7 +1,4 @@
-/** @jsx jsx */
-/** @jsxFrag */
-import { jsx } from '@emotion/react';
-import React, { FC } from 'react';
+import { FC, Fragment } from 'react';
 import { WarningIcon } from '../assets';
 import { BottomProps } from './types';
 
@@ -27,7 +24,7 @@ export const Bottom: FC<BottomProps> = ({
             >
                 {hasErrorText
                     ? (
-                        <>
+                        <Fragment>
                             <WarningIcon />
                             <div
                                 css={styles.errorText}
@@ -35,7 +32,7 @@ export const Bottom: FC<BottomProps> = ({
                             >
                                 {errorText}
                             </div>
-                        </>
+                        </Fragment>
                     )
                     : helperText || null}
             </div>
@@ -53,7 +50,7 @@ export const Bottom: FC<BottomProps> = ({
                         </span>
                         {maxLength !== undefined
                             ? (
-                                <>
+                                <Fragment>
                                     <span
                                         css={styles.counterSlash}
                                         className={cn('counterSlash')}
@@ -61,7 +58,7 @@ export const Bottom: FC<BottomProps> = ({
                                         &nbsp;/&nbsp;
                                     </span>
                                     <span>{maxLength}</span>
-                                </>
+                                </Fragment>
                             )
                             : ''}
                     </div>

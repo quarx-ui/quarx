@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import React, { ForwardedRef } from 'react';
-import { jsx } from '@emotion/react';
+import { ForwardedRef } from 'react';
 import { PALETTE_COLORS, usePropsOverwrites, QX_SIZE, forwardRef } from '@core';
 import clsx from 'clsx';
 import { useStyles } from './styles';

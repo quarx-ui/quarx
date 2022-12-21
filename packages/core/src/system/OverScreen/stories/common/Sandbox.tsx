@@ -1,5 +1,5 @@
 import { Story } from '@storybook/react/types-6-0';
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { OverScreen as KitOverScreen } from '@core';
 import { StoryButton } from '@core/storybook/components';
 import { Block, StoryOverScreenProps } from './components';
@@ -10,7 +10,7 @@ export const OverScreen: Story<StoryOverScreenProps> = ({
 }) => {
     const [open, setOpen] = useState(false);
     return (
-        <>
+        <Fragment>
             <StoryButton
                 onClick={() => setOpen(true)}
             >
@@ -27,7 +27,7 @@ export const OverScreen: Story<StoryOverScreenProps> = ({
                     </div>
                 </Block>
             </KitOverScreen>
-        </>
+        </Fragment>
     );
 };
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';

@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import clsx from 'clsx';
 import { RightItemProps } from './types';
 import { CrossIcon } from '../assets';

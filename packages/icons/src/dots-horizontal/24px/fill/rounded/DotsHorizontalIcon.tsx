@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 
 export const DotsHorizontalIcon = forwardRef<
 SVGSVGElement,
