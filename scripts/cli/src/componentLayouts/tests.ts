@@ -1,5 +1,4 @@
 export const testLayout = (componentName: string): string => `\
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { ${componentName}, ${componentName}Props, ${componentName}StyleParams } from '@core';
 import { testStyleParams } from '@core/test-utils';
