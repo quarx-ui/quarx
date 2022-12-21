@@ -1,4 +1,3 @@
-import React from 'react';
 import ReadmeMD from '@quarx-ui/icons/README.md';
 import { Story } from '@storybook/react/types-6-0';
 import { Description } from '@storybook/components';

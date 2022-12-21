@@ -1,12 +1,10 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { excludeProp } from '@core/storybook/templateParams';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { darken, makeStyles, PALETTE_COLORS, SELECTION_GROUP_TYPE } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { FC } from 'react';
 import { SelectionGroup, SelectionGroupProps } from '..';
 
 const useCustomContainerStyles = makeStyles(({ palette }) => ({
@@ -20,7 +18,7 @@ const useCustomContainerStyles = makeStyles(({ palette }) => ({
     },
 }));
 
-const CustomContainer: React.FC = ({
+const CustomContainer: FC = ({
     children,
 }) => {
     const styles = useCustomContainerStyles();

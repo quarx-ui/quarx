@@ -1,4 +1,4 @@
-import React, { ReactEventHandler } from 'react';
+import { ReactElement, ReactEventHandler, ReactNode } from 'react';
 import {
     BaseProps,
     ComponentPropsWithHTML, PaletteColor, SelectionSize,
@@ -41,7 +41,7 @@ export interface SelectionPropsWithoutHtml<T extends SelectionControllerProps = 
     onChange?: ReactEventHandler;
 
     /** Контроллер состояния */
-    children: React.ReactElement<T>;
+    children: ReactElement<T>;
 
     /** Заголовок компонента */
     title?: string;
@@ -53,10 +53,10 @@ export interface SelectionPropsWithoutHtml<T extends SelectionControllerProps = 
     helperText?: string;
 
     /** Левый элемент */
-    leftAdornment?: React.ReactNode;
+    leftAdornment?: ReactNode;
 
     /** Правый элемент */
-    rightAdornment?: React.ReactNode;
+    rightAdornment?: ReactNode;
 
     /** Отключение управления дочерними свойствами.
      * Значениями свойств onChange, disableFocus, hover

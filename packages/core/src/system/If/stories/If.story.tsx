@@ -1,4 +1,3 @@
-import React from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import styled from '@emotion/styled';
 /* import { STORY_PATHS } from '@quarx-ui/storybook/utils'; */

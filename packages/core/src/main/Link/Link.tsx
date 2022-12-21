@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import React, { ElementType, forwardRef } from 'react';
-import { jsx } from '@emotion/react';
+import { ElementType, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { OverridableComponent, OverridableComponentRef } from '@core/types';
 import { LinkProps, LinkPropsWithoutHtml } from './types';

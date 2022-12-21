@@ -2,7 +2,6 @@ import { Story } from '@storybook/react/types-6-0';
 import { OVER_SCREEN_PLACEMENT, OverScreenProps } from '@core';
 import { DisplayVariants, DisplayVariantsProps } from '@core/storybook/DisplayVariants/DisplayVariants';
 import { excludeProp } from '@core/storybook/templateParams';
-import React from 'react';
 import { commonDisplayProps } from './props';
 import { OverScreen } from './Sandbox';
 import { Grid, StoryOverScreenProps } from './components';

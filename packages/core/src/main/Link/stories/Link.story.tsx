@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { FC, ReactChild } from 'react';
+import { FC, Fragment, ReactChild } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
@@ -260,7 +260,7 @@ const RouterLink:FC<any> = ({ to, ...props }) => (
 );
 
 export const CustomComponent: Story<LinkProps> = () => (
-    <>
+    <Fragment>
         <Link
             component={RouterLink}
             to="/something"
@@ -284,7 +284,7 @@ export const CustomComponent: Story<LinkProps> = () => (
         >
             Ссылка-кнопка
         </Link>
-    </>
+    </Fragment>
 );
 
 CustomComponent.storyName = 'Свой тег/компонент';

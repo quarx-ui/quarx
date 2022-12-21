@@ -1,7 +1,4 @@
-/** @jsxFrag */
-/** @jsx jsx */
-import React, { FC, forwardRef, useMemo } from 'react';
-import { jsx } from '@emotion/react';
+import { FC, forwardRef, Fragment, useMemo } from 'react';
 import { Button, QX_BORDER_SIZE, QX_SIZE, usePropsOverwrites } from '@core';
 import { FOOTER_DIRECTION } from './constants';
 import { FooterBlockProps } from './types';
@@ -43,7 +40,7 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
                     {buttonChildren}
                 </div>
             )
-            : <>{buttonChildren}</>
+            : <Fragment>{buttonChildren}</Fragment>
     ), [cn, direction, styles.successButtons]);
 
     const buttonDanger = useMemo(() => buttons?.danger && (
@@ -84,7 +81,7 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
             ref={ref}
         >
             {children ?? (
-                <>
+                <Fragment>
                     {direction === 'horizontal' && buttonDanger}
                     <ButtonWrapper>
                         {direction === 'vertical' && buttonSuccess}
@@ -92,7 +89,7 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
                         {direction === 'horizontal' && buttonSuccess}
                     </ButtonWrapper>
                     {direction === 'vertical' && buttonDanger}
-                </>
+                </Fragment>
             )}
         </div>
     );

@@ -1,7 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayBooleanVariants } from '@core/storybook/DisplayVariants';
 import { excludeProp } from '@core/storybook/templateParams';
-import React from 'react';
 import { Grid, StoryOverScreenProps } from './components';
 import { commonDisplayProps } from './props';
 import { OverScreen } from './Sandbox';

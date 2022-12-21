@@ -1,6 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React from 'react';
 import { FC, useState } from 'react';
 import { Source } from '@storybook/addon-docs'
 import { makeStyles } from '@core';

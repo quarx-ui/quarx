@@ -1,4 +1,4 @@
-import React, { DOMAttributes, Ref, useEffect } from 'react';
+import { cloneElement, DOMAttributes, FC, Ref, RefAttributes, SyntheticEvent, useEffect, useRef } from 'react';
 import {
     clickedRootScrollbar,
     makeEventFromSyntheticEvent,
@@ -33,19 +33,19 @@ const getDocumentListenerEffect = (
     };
 };
 
-export const ClickAwayListener: React.FC<ClickAwayListenerProps> = ({
+export const ClickAwayListener: FC<ClickAwayListenerProps> = ({
     disableReactTree = false,
     mouseEvent: syntheticMouseEvent = 'onClick',
     touchEvent: syntheticTouchEvent = 'onTouchEnd',
     onClickAway,
     children,
 }) => {
-    const nodeRef = React.useRef<Element>(null);
-    const movedRef = React.useRef(false);
-    const activatedRef = React.useRef(false);
-    const syntheticEventRef = React.useRef(false);
+    const nodeRef = useRef<Element>(null);
+    const movedRef = useRef(false);
+    const activatedRef = useRef(false);
+    const syntheticEventRef = useRef(false);
 
-    React.useEffect(() => {
+    useEffect(() => {
         setTimeout(() => { activatedRef.current = true; });
         return () => { activatedRef.current = false; };
     }, []);
@@ -78,7 +78,7 @@ export const ClickAwayListener: React.FC<ClickAwayListenerProps> = ({
     }) as EventListener;
 
     const createHandleSynthetic = (handlerName: ClickAwayListenerEvents) => (
-        (event: React.SyntheticEvent) => {
+        (event: SyntheticEvent) => {
             syntheticEventRef.current = true;
 
             const childrenPropsHandler = children.props[handlerName];
@@ -88,7 +88,7 @@ export const ClickAwayListener: React.FC<ClickAwayListenerProps> = ({
         }
     );
 
-    const childrenProps: React.RefAttributes<Element>
+    const childrenProps: RefAttributes<Element>
     & Pick<DOMAttributes<Element>, ClickAwayListenerEvents> = {
         ref: handleRef,
     };
@@ -125,7 +125,7 @@ export const ClickAwayListener: React.FC<ClickAwayListenerProps> = ({
         });
     }
 
-    React.useEffect(() => {
+    useEffect(() => {
         if (!syntheticMouseEvent) { return undefined; }
 
         return getDocumentListenerEffect(
@@ -137,5 +137,5 @@ export const ClickAwayListener: React.FC<ClickAwayListenerProps> = ({
         );
     }, [handleClickAway, syntheticMouseEvent]);
 
-    return React.cloneElement(children, childrenProps);
+    return cloneElement(children, childrenProps);
 };

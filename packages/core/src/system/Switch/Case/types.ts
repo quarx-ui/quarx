@@ -1,4 +1,4 @@
-import React from 'react';
+import { ReactNode } from 'react';
 
 export interface CaseProps
 {
@@ -6,5 +6,5 @@ export interface CaseProps
     value?: string;
 
     /** Отображаемый элемент */
-    children?: React.ReactNode;
+    children?: ReactNode;
 }

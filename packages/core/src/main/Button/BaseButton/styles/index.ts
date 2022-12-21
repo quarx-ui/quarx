@@ -45,6 +45,7 @@ export const useStyles = makeStyles((
                 color: palette.colors[color].contrastText,
                 padding: `${calcPaddingY} ${calcPaddingX}`,
                 borderWidth: cssVar(cssBorderWidth),
+                height: 'max-content',
 
                 transition: transitions.create(['background-color', 'border-color'], {
                     duration: transitions.duration.shorter,

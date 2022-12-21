@@ -1,4 +1,4 @@
-import React, { ReactElement, SVGProps, ElementType, ComponentPropsWithRef } from 'react';
+import { ReactElement, SVGProps, ElementType, ComponentPropsWithRef } from 'react';
 
 export type JsxTag = keyof JSX.IntrinsicElements;
 
@@ -28,7 +28,7 @@ export interface OverridableComponent<
     Props extends Record<string, any>, // eslint-disable-line @typescript-eslint/no-explicit-any
     Tag extends JsxTag
 > {
-    <C extends React.ElementType>(
+    <C extends ElementType>(
         props: {
             /**
              * Компонент или jsx-тег, используемый в качестве корневого элемента

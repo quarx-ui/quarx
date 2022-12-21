@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef } from 'react';
+import { FC, forwardRef } from 'react';
 import { PALETTE_COLORS, usePropsOverwrites } from '@core/styles';
 import { Loader } from '@core/src';
 import { QX_BORDER_SIZE, QX_SIZE } from '@core/enums';

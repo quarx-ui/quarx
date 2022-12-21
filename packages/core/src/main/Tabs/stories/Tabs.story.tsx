@@ -1,5 +1,5 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
-import React, { ElementType, forwardRef, useState } from 'react';
+import { ElementType, forwardRef, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { ArrowGraphIcon } from '@quarx-ui/icons/src/arrow-graph/36px/stroke/rounded';
 import { BuildingsIcon } from '@quarx-ui/icons/src/buildings/36px/stroke/rounded';

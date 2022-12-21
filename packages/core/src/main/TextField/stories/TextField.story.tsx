@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { Fragment, useRef, useState } from 'react';
 import styled from '@emotion/styled';
 import InputMask from 'react-input-mask';
 import NumberFormat from 'react-number-format';
@@ -237,7 +237,7 @@ export const ExternalSettings: Story<TextFieldProps> = (props) => {
     };
 
     return (
-        <>
+        <Fragment>
             <Grid>
                 <TextField {...props} value={value} onChange={(e) => setValue(e.target.value)} />
                 <Button onClick={clearInput}>Очистить содержимое</Button>
@@ -272,7 +272,7 @@ export const ExternalSettings: Story<TextFieldProps> = (props) => {
                     внешнюю ошибку
                 </Button>
             </Grid>
-        </>
+        </Fragment>
     );
 };
 

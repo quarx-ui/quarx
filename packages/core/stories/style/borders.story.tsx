@@ -1,8 +1,5 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
 import { Story } from '@storybook/react/types-6-0';
 import { withDocsPage } from '@core/storybook/docsPage';
-import React from 'react';
 import { BordersSide, BordersSize, BordersStyle, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { Div, H2, P, Code, UL, LI } from '@storybook/components';

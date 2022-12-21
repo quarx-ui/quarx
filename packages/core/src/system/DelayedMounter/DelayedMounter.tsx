@@ -1,4 +1,4 @@
-import React, { cloneElement } from 'react';
+import { cloneElement } from 'react';
 import { JsxTag } from '@core/types';
 import { omitProps } from '@core/utils';
 import { If } from '@core/src/system/If';
@@ -21,6 +21,9 @@ export const DelayedMounter = <
     const omittedProps = omitProps(restProps, [
         'disableTimeout',
         'mounted',
+        'onExitStart',
+        'onEnter',
+        'onExit',
     ]);
 
     return (

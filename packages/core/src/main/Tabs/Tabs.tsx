@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import React, { ForwardedRef } from 'react';
-import { jsx } from '@emotion/react';
+import { ForwardedRef } from 'react';
 import { forwardRef, usePropsOverwrites } from '@core';
 import { TabItem, TABS_TYPES } from './common';
 import { TabsDefault } from './TabsDefault';
@@ -20,7 +18,7 @@ export const Tabs = forwardRef(<T extends TabItem = TabItem>(
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('Tabs', initialProps);
 
-    const { type, ...restProps } = props;
+    const { type = TABS_TYPES.default, ...restProps } = props;
 
     const Component = TabsComponents[type];
 

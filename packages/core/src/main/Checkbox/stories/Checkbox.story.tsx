@@ -1,5 +1,5 @@
 import { Story } from '@storybook/react/types-6-0';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { designParams, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';

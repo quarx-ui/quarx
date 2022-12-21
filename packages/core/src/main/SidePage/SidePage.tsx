@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import { css, jsx } from '@emotion/react';
-import React, { FC, forwardRef } from 'react';
+import { css } from '@emotion/react';
+import { FC, forwardRef } from 'react';
 import { Styles, usePropsOverwrites } from '@core/styles';
 import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_PLACEMENT, Modal } from '@core/src';
 import { MODAL_SCROLL_BEHAVIOR } from '@core/src/main/Modal/constants';

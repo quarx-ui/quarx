@@ -1,5 +1,5 @@
-import React from 'react';
 import { Values } from '@core';
+import { ReactElement } from 'react';
 import {
     CLICK_AWAY_LISTENER_SYNTHETIC_MOUSE_EVENTS,
     CLICK_AWAY_LISTENER_SYNTHETIC_TOUCH_EVENTS,
@@ -34,5 +34,5 @@ export interface ClickAwayListenerProps {
     onClickAway(event: MouseEvent | TouchEvent): void;
 
     /** Элемент для прослушивания */
-    children: React.ReactElement;
+    children: ReactElement;
 }

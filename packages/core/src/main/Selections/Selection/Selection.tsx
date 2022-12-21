@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef, MouseEventHandler } from 'react';
+import { cloneElement, FC, forwardRef, MouseEventHandler } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { focusable, useBooleanState } from '@core';
 import { If } from '@core/src/system/If';
@@ -173,7 +171,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, Selec
                         className={cn('controller')}
                         css={styles.controller}
                     >
-                        {React.cloneElement(
+                        {cloneElement(
                             children,
                             childrenProps,
                         )}

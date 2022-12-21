@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef, useCallback, useRef, useState } from 'react';
+import { FC, forwardRef, memo, useCallback, useRef, useState } from 'react';
 import { TransitionProps as ReactTransitionProps } from 'react-transition-group/Transition';
 import { usePropsOverwrites, useTheme } from '@core/styles';
 import {
@@ -30,7 +28,7 @@ import {
 import { OverScreenProps } from './types';
 import { useStyles } from './styles';
 
-export const OverScreen: FC<OverScreenProps> = React.memo(forwardRef<HTMLDivElement, OverScreenProps>((
+export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, OverScreenProps>((
     initialProps,
     ref,
 ) => {

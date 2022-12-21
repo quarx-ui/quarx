@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { forwardRef, createElement, useState, ReactElement } from 'react';
 import { Button, colors } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory } from '@core/storybook/templateParams';
@@ -12,8 +12,8 @@ const Flex = styled('div')({
     justifyContent: 'space-around',
 });
 
-const SimpleModal = React.forwardRef<HTMLDivElement, {
-    children: React.ReactElement;
+const SimpleModal = forwardRef<HTMLDivElement, {
+    children: ReactElement;
 }>(({
     children,
 }, ref) => {
@@ -99,7 +99,7 @@ export const Sandbox: Story<SandBoxProps> = ({
         </ClickAwayListener>
     );
 
-    const portalModal = React.createElement(() => (
+    const portalModal = createElement(() => (
         ReactDOM.createPortal(clickAwayListenerModal, document.body)
     ));
 

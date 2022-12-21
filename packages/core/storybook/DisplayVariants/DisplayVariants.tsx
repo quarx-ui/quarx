@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { createElement, FC } from 'react';
 import { createID } from '@core';
 import {
     Title,
@@ -93,7 +93,7 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
                         {title.type === 'value' ? value.toString() : property}
                     </Title>
                 )}
-                {React.createElement(
+                {createElement(
                     component,
                     {
                         ...props as Props,

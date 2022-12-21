@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { useStyles } from './style';
 import {
     TitleOfContainerProps,

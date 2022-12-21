@@ -1,8 +1,10 @@
-import React, {
+import {
     ChangeEventHandler,
     ClipboardEventHandler,
     FC,
-    forwardRef, Ref, useLayoutEffect,
+    forwardRef,
+    Ref,
+    useLayoutEffect,
     useState,
 } from 'react';
 import { BaseTextFieldProps, TextFieldRefType } from '@core/src/main/TextField/types';

@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef, MouseEventHandler, useState } from 'react';
+import { FC, forwardRef, MouseEventHandler, useState } from 'react';
 import { PALETTE_COLORS, SWITCHER_POSITION, QX_SIZE, usePropsOverwrites, focusable } from '@core';
 import { SwitcherProps } from './types';
 import { SWITCHER_CSS_VARS, useStyles } from './styles';

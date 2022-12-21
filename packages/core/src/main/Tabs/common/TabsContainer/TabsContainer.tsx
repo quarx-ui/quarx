@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import React, { forwardRef } from 'react';
-import { jsx } from '@emotion/react';
+import { forwardRef } from 'react';
 import { usePropsOverwrites } from '@core';
 import { TabsContainerProps } from './types';
 import { useStyles } from './styles';
