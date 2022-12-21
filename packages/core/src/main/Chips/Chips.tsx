@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef, useRef } from 'react';
+import { createElement, forwardRef, useRef, isValidElement, FC } from 'react';
 import { transitions, usePropsOverwrites } from '@core/styles';
 import { QX_SIZE } from '@core/enums';
 import { CheckMarkIcon, ClosingIcon, TriangleIcon } from '@core/src/main/Chips/assets';
@@ -40,16 +38,16 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
     } = props;
 
     const rightIconExists = Boolean(rightIcon);
-    const RightIcon = React.isValidElement(rightIcon)
+    const RightIcon = isValidElement(rightIcon)
         ? rightIcon
-        : React.createElement(mapVariantToRightIcon[variant][size]);
+        : createElement(mapVariantToRightIcon[variant][size]);
 
-    const ActiveStateIcon = React.isValidElement(activeStateIcon)
+    const ActiveStateIcon = isValidElement(activeStateIcon)
         ? activeStateIcon
-        : React.createElement(CheckMarkIcon[size]);
+        : createElement(CheckMarkIcon[size]);
     const LeftIcon = active
         ? ActiveStateIcon
-        : React.isValidElement(leftIcon) && leftIcon;
+        : isValidElement(leftIcon) && leftIcon;
     const leftIconExists = Boolean(LeftIcon);
 
     const inactiveLeftIconRef = useRef<HTMLDivElement>(null);

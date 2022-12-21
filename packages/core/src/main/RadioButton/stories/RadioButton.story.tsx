@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants, DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { excludeProp } from '@core/storybook/templateParams';
@@ -41,21 +41,21 @@ export default {
 };
 
 export const Sandbox: Story<RadioButtonProps> = ({ checked, ...props }) => (
-    <>
+    <Fragment>
         <RadioButton
             checked={checked}
             {...props}
         >
-            <>{checked?.toString()}</>
+            <Fragment>{checked?.toString()}</Fragment>
         </RadioButton>
-    </>
+    </Fragment>
 );
 
 export const OuterCheckedState: Story<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
 
     return (
-        <>
+        <Fragment>
             <RadioButton
                 name="StoryBool"
                 onChange={() => {
@@ -75,7 +75,7 @@ export const OuterCheckedState: Story<RadioButtonProps> = (props) => {
             >
                 {bool ? 'Деактивировать' : 'Активировать'}
             </Button>
-        </>
+        </Fragment>
     );
 };
 
@@ -83,7 +83,7 @@ export const BooleanParams: Story<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
 
     return (
-        <>
+        <Fragment>
             {DisplayVariantsMap({
                 variants: {
                     disabled: [true],
@@ -106,7 +106,7 @@ export const BooleanParams: Story<RadioButtonProps> = (props) => {
             >
                 {bool ? 'Деактивировать' : 'Активировать'}
             </Button>
-        </>
+        </Fragment>
     );
 };
 

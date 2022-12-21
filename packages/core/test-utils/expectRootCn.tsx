@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { render } from '@testing-library/react';
 
 export const expectRootCn = <T extends FC<{ className?: string; children: any }>>(Component: T, name: string) => {

@@ -1,8 +1,7 @@
-import React from 'react';
+import { Ref, ReactElement, RefAttributes } from 'react';
 
 declare module 'react' {
-    // eslint-disable-next-line @typescript-eslint/ban-types
-    function forwardRef<T, P = {}>(
-        render: (props: P, ref: React.Ref<T>) => React.ReactElement | null
-    ): (props: P & React.RefAttributes<T>) => React.ReactElement | null;
+    function forwardRef<T, P = object>(
+        render: (props: P, ref: Ref<T>) => ReactElement | null
+    ): (props: P & RefAttributes<T>) => ReactElement | null;
 }

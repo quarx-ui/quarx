@@ -1,4 +1,3 @@
-import React from 'react';
 import ReadmeMD from '@quarx-ui/core/README.md';
 import { Story } from '@storybook/react/types-6-0';
 import { ArgsTable, PRIMARY_STORY, Subtitle, Description } from '@storybook/addon-docs';

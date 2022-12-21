@@ -2,7 +2,6 @@ import { Story } from '@storybook/react/types-6-0';
 import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OverScreenProps } from '@core';
 import { DisplayVariants, DisplayVariantsProps } from '@core/storybook/DisplayVariants/DisplayVariants';
 import { excludeProp } from '@core/storybook/templateParams';
-import React from 'react';
 import { commonDisplayProps } from './props';
 import { OverScreen } from './Sandbox';
 import { Grid, StoryOverScreenProps } from './components';
@@ -17,7 +16,7 @@ export const Origins: Story<OverScreenProps> = (props) => {
             ...props,
             appearance: OVER_SCREEN_APPEARANCE.slide,
             buttonText: value,
-        }) as StoryOverScreenProps,
+        } as StoryOverScreenProps),
     } as DisplayVariantsProps<StoryOverScreenProps>;
 
     return (

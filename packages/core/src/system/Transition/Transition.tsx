@@ -1,4 +1,4 @@
-import React, { cloneElement, Ref, useCallback, useMemo, useRef } from 'react';
+import { cloneElement, Ref, useCallback, useMemo, useRef } from 'react';
 import { Transition as ReactTransition } from 'react-transition-group';
 import { forwardRef, mergeRefs, useTheme } from '@core';
 import { defaultMapStatusToStyles, defaultStyles } from './constants';

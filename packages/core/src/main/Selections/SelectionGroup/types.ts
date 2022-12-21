@@ -1,5 +1,5 @@
-import React from 'react';
 import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
+import { ReactElement } from 'react';
 import { SelectionGroupStyleKeys } from './styles';
 import { SelectionGroupStyleParams } from './styles/types';
 
@@ -18,7 +18,7 @@ export interface SelectionGroupPropsWithoutHtml extends
     helperText?: string;
 
     /** Дерево элементов */
-    children: React.ReactElement | undefined; // TODO: ReactElement<CheckboxGroup | RadioButtonGroup>
+    children: ReactElement | undefined; // TODO: ReactElement<CheckboxGroup | RadioButtonGroup>
 }
 
 export type SelectionGroupProps = ComponentPropsWithHTML<SelectionGroupPropsWithoutHtml>;

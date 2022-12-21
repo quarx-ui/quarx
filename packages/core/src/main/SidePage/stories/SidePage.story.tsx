@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
@@ -101,7 +101,7 @@ const SidePage: Story<SidePageProps> = ({ ...props }) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <>
+        <Fragment>
             <StoryButton
                 onClick={() => setOpen(true)}
             >
@@ -112,7 +112,7 @@ const SidePage: Story<SidePageProps> = ({ ...props }) => {
                 open={props.open || open}
                 onClose={() => setOpen(false)}
             />
-        </>
+        </Fragment>
     );
 };
 

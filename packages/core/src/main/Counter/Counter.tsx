@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { limitDigitsCount } from '@core/utils/limitDigitsCount';
 import { useStyles } from './styles';

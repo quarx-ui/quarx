@@ -1,5 +1,5 @@
 import { Story } from '@storybook/react/types-6-0';
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { StoryButton } from '@core/storybook/components';
 import { DelayedMounter } from '@core';
 import styled from '@emotion/styled';

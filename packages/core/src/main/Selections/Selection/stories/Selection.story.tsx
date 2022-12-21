@@ -1,6 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { excludeProp } from '@core/storybook/templateParams';
@@ -27,6 +24,7 @@ import { SberMulticolorIcon } from '@quarx-ui/icons/src/sber-multicolor/24px/fil
 import { ArgsTable, Description, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
 import { Div } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { FC } from 'react';
 
 const Padding = styled.div` margin: 0 6px; `;
 
@@ -47,7 +45,7 @@ const useStyles = makeStyles(({ palette }) => ({
         overflowY: 'auto',
     },
 }));
-const CustomContainer: React.FC = ({ children }) => {
+const CustomContainer: FC = ({ children }) => {
     const styles = useStyles();
     return (
         <div css={styles.root}>
@@ -64,7 +62,7 @@ const CONTROLLER_OPTIONS = valuesAsKeysFromArray([
 
 const CONTROLLERS: Record<
 Values<typeof CONTROLLER_OPTIONS>,
-& React.FC<SelectionControllerProps>
+& FC<SelectionControllerProps>
 & { checked?: boolean }
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 & any

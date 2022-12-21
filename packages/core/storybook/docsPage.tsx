@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
+import { FC, Fragment } from 'react';
 import { Title, Primary, Subtitle, Stories, ArgsTable, PRIMARY_STORY } from '@storybook/addon-docs';
 import { typography } from '@core';
 import { Div } from '@storybook/components';
 
 export const withDocsPage = (Documentation: FC) => () => (
-    <>
+    <Fragment>
         <Title />
         <Primary />
         <Subtitle>Описание пропсов</Subtitle>
@@ -13,5 +13,5 @@ export const withDocsPage = (Documentation: FC) => () => (
             <Documentation />
         </Div>
         <Stories title="Примеры использования" />
-    </>
+    </Fragment>
 );
