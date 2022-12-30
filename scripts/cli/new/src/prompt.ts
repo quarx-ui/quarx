@@ -1,17 +1,9 @@
-import inquirer, { Answers, Question, QuestionCollection } from 'inquirer';
-import path from 'path';
-import { program } from 'commander';
-import {
-    ComponentType,
-    createComponent,
-    CreateComponentProps,
-    GenerateTestsTemplate,
-    isComponentType,
-} from './src/components';
+import inquirer, { Question, QuestionCollection } from 'inquirer';
+import { ComponentType, GenerateTestsTemplate } from './creature/constants';
+import { isComponentType } from './creature/types';
+import { CLIAnswers } from './types';
 
-export type CLIAnswers = Answers & CreateComponentProps;
-
-export type IsError = (value: string) => string;
+type IsError = (value: string) => string;
 
 const validations = (errors: IsError[]): Question['validate'] => (
     (value: string): boolean | string => {
@@ -104,7 +96,7 @@ const confirmQuestion: QuestionCollection = [{
     type: 'confirm',
 }];
 
-const getArgsByPrompt = async (): Promise<CLIAnswers> => {
+export const getArgsByPrompt = async (): Promise<CLIAnswers> => {
     const answers = await inquirer.prompt(questions);
 
     const testsAnswer = testsChoices.find(
@@ -112,6 +104,7 @@ const getArgsByPrompt = async (): Promise<CLIAnswers> => {
             choice.value === answers.tests
         ),
     )?.name;
+
     console.log([
         'Ваши ответы:',
         `Имя компонента: ${answers.name}`,
@@ -119,59 +112,13 @@ const getArgsByPrompt = async (): Promise<CLIAnswers> => {
         `Генерировать тесты? ${testsAnswer}`,
         `Родительский компонент: ${answers.parent || 'Отсутствует'}`,
     ].join('\n\t'));
+
     const confirmation = await inquirer.prompt(confirmQuestion);
 
     if (!confirmation.confirm) {
-        return getArgsByPrompt();
+        const rewrittenAnswers = await getArgsByPrompt();
+        return rewrittenAnswers;
     }
 
     return answers;
 };
-
-const getArgsFromCommand = async (): Promise<CLIAnswers> => {
-    program.name('Создать новый компонент');
-    program
-        .description('CLI-скрипт для добавления нового компонента в репозиторий.\n'
-            + 'Для выполнения в режиме вопрос-ответ можно запустить команду без аргументов: `yarn new`')
-        .argument('<name>', 'Имя компонента')
-        .option('-s, --system', 'System (Является техническим компонентом '
-            + 'дизайн-системы. Предназначен для разработки)', false)
-        .option('-t, --tests', 'Сгенерировать шаблоны тестов', false)
-        .option('-tt, --tests-only', 'Сгенерировать только шаблоны тестов', false)
-        .option('-p, --parent <string>', 'Имя компонента, в директории которого'
-            + ' нужно разместить генерируемый компонент.\n'
-            + 'Также поддерживает вложенность компонентов. Примеры: Button, Tabs/TabsDefault')
-        .parse(process.argv);
-
-    const [name] = program.args;
-    const { system, tests, testsOnly, parent } = program.opts();
-
-    return ({
-        name,
-        type: system ? ComponentType.system : ComponentType.main,
-        // eslint-disable-next-line no-nested-ternary
-        tests: tests ? GenerateTestsTemplate.yes : (
-            testsOnly
-                ? GenerateTestsTemplate.only
-                : GenerateTestsTemplate.no
-        ),
-        parent,
-    });
-};
-
-const main = async (): Promise<void> => {
-    const withArgs = process.argv.slice(2).length > 0;
-
-    const args = withArgs
-        ? await getArgsFromCommand()
-        : await getArgsByPrompt();
-
-    console.log('Создание компонента...');
-    await createComponent({
-        ...args,
-        parent: args.parent || undefined,
-    });
-    console.log(`Компонент ${path.join(args.type, args.parent ?? '', args.name)} создан.`);
-};
-
-main().catch(console.log);

@@ -1,13 +1,15 @@
-import { capitalize } from './utils';
+import { capitalize } from '../../utils';
 
-export const indexLayout = (componentName: string): string => `\
-export { ${componentName} } from './${componentName}';
+export const index = (componentName: string): string => `\
+export * from './styles/types';
 export * from './types';
+export { ${componentName} } from './${componentName}';
 `;
 
-export const typesLayout = (componentName: string): string => `\
+export const types = (componentName: string): string => `\
 import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
-import { ${componentName}StyleKeys, ${componentName}StyleParams } from './styles';
+import { ${componentName}StyleParams } from './styles/types';
+import { ${componentName}StyleKeys } from './styles';
 
 export interface ${componentName}PropsWithoutHtml extends
     BaseProps<HTMLDivElement>,
@@ -17,10 +19,9 @@ export interface ${componentName}PropsWithoutHtml extends
 }
 
 export type ${componentName}Props = ComponentPropsWithHTML<${componentName}PropsWithoutHtml>;
-export * from './styles/types';
 `;
 
-export const componentLayout = (componentName: string): string => `\
+export const component = (componentName: string): string => `\
 import { FC, forwardRef } from 'react';
 import { If } from '@core';
 import { usePropsOverwrites } from '@core/styles';

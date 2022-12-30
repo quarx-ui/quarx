@@ -1,60 +1,26 @@
-import * as ts from 'typescript';
-import { ImportDeclaration, ImportSpecifier, InterfaceDeclaration, SourceFile } from 'typescript';
-import * as path from 'path';
-import * as fs from 'fs';
-import { ComponentsProps } from '@core';
-import { componentLayout, indexLayout, typesLayout } from './componentLayouts/root';
-import { storybookLayout } from './componentLayouts/storybook';
-import { stylesLayout, stylesTypesLayout, stylesVarsLayout } from './componentLayouts/styles';
-import { testLayout, testPW } from './componentLayouts/tests';
+import path from 'path';
+import fs from 'fs';
+import ts, { ImportDeclaration, ImportSpecifier, InterfaceDeclaration, SourceFile } from 'typescript';
+import { CreateComponentProps } from '../types';
+import { getTSCompilerOptions } from './utils';
 import {
     getSrcAbsolutePath,
-    getStylesAbsolutePath,
-    getTSCompilerOptions,
     runEslintAutoFix,
+    getStylesAbsolutePath,
     sortNodesByPrint,
     uniqueNodesByPrint,
-} from './utils';
-
-export enum ComponentType {
-    main = 'main',
-    system = 'system',
-}
-
-export enum GenerateTestsTemplate {
-    yes,
-    no,
-    only,
-}
-
-export interface CreateComponentProps {
-    type: ComponentType;
-    name: string;
-    tests: GenerateTestsTemplate;
-    parent?: keyof ComponentsProps;
-}
-
-interface CreateStructureProps {
-    options: CreateComponentProps;
-    makeDir(folderName: string): Promise<void>;
-    createFile(file: string, content: string): Promise<void>;
-}
-
-export const isComponentType = (name: string): name is ComponentType => (
-    name === ComponentType.main || name === ComponentType.system
-);
+} from '../utils';
 
 /*
 * Регистрация компонента в src/(un)main/index.ts или в index.ts родителя компонента.
 * */
-const addComponentExport = async ({
+export const addComponentExport = async ({
     name: componentName,
     type,
     parent,
 }: CreateComponentProps): Promise<void> => {
     const srcPath: string = getSrcAbsolutePath();
-    const pathWithParent = path.join(type, parent ?? '');
-    const indexFilePath: string = path.join(srcPath, type, parent ? pathWithParent : '', 'index.ts');
+    const indexFilePath: string = path.join(srcPath, type, parent ?? '', 'index.ts');
 
     const { factory } = ts;
     const program: ts.Program = ts.createProgram([indexFilePath], getTSCompilerOptions());
@@ -204,126 +170,9 @@ const addComponentToComponentsProps = async ({
     await runEslintAutoFix(typesPath);
 };
 
-const createRootStructures = async ({
-    options: { name: componentName },
-    createFile,
-}: CreateStructureProps): Promise<void> => {
-    const files = {
-        index: 'index.ts',
-        constants: 'constants.ts',
-        types: 'types.ts',
-        component: `${componentName}.tsx`,
-    };
-
-    await createFile(files.index, indexLayout(componentName));
-    await createFile(files.constants, '');
-    await createFile(files.types, typesLayout(componentName));
-    await createFile(files.component, componentLayout(componentName));
-};
-
-const createStylesStructures = async ({
-    options: { name: componentName },
-    makeDir,
-    createFile,
-}: CreateStructureProps): Promise<void> => {
-    const folder = 'styles';
-    const files = {
-        index: `${folder}/index.ts`,
-        constants: `${folder}/constants.ts`,
-        types: `${folder}/types.ts`,
-        vars: `${folder}/vars.ts`,
-    };
-
-    await makeDir(folder);
-    await createFile(files.index, stylesLayout(componentName));
-    await createFile(files.types, stylesTypesLayout(componentName));
-    await createFile(files.constants, '');
-    await createFile(files.vars, stylesVarsLayout(componentName));
-};
-
-const createStoriesStructures = async ({
-    options: { name: componentName, type: componentType, parent },
-    makeDir,
-    createFile,
-}: CreateStructureProps): Promise<void> => {
-    const folder = 'stories';
-    const files = { index: `${folder}/${componentName}.story.tsx` };
-
-    await makeDir(folder);
-    await createFile(files.index, storybookLayout(componentName, componentType, parent ?? ''));
-};
-
-const createTestsStructures = async ({
-    options: { name: componentName, type, parent },
-    makeDir,
-    createFile,
-}: CreateStructureProps): Promise<void> => {
-    const folder = '__tests__';
-    const files = {
-        snapshots: `${folder}/${componentName}.test.tsx`,
-        pw: `${componentName}.test.pw.ts`,
-    };
-
-    await makeDir(folder);
-    await createFile(files.snapshots, testLayout(componentName));
-
-    const rootDir = process.cwd();
-    const e2ePath = path.join(rootDir, 'e2e', 'src', type ?? '', parent ?? '', componentName);
-    try {
-        await fs.promises.mkdir(e2ePath, { recursive: true });
-    } catch (error) { console.warn(error); }
-    try {
-        await fs.promises.writeFile(path.join(e2ePath, files.pw), testPW(componentName));
-    } catch (error) { console.warn(error); }
-};
-
-/* Создание структуры каталогов для компонента */
-const createFilesStructure = async (options: CreateComponentProps): Promise<void> => {
-    const srcCorePath: string = getSrcAbsolutePath();
-    const componentPath: string = path.join(srcCorePath, options.type, options.parent ?? '', options.name);
-    const makeDir = async (folderName: string): Promise<void> => {
-        try {
-            await fs.promises.mkdir(path.join(componentPath, folderName), { recursive: true });
-        } catch (e) {
-            console.warn(e);
-        }
-    };
-    const createFile = async (fileName: string, content: string): Promise<void> => {
-        try {
-            await fs.promises.writeFile(path.join(componentPath, fileName), content);
-        } catch (e) {
-            console.warn(e);
-        }
-    };
-
-    const props: CreateStructureProps = { options, makeDir, createFile };
-
-    await makeDir('');
-    if (options.tests === GenerateTestsTemplate.only) {
-        await createTestsStructures(props);
-        await runEslintAutoFix(componentPath);
-        return;
-    }
-
-    if (options.tests === GenerateTestsTemplate.yes) {
-        await createTestsStructures(props);
-    }
-    await createRootStructures(props);
-    await createStylesStructures(props);
-    await createStoriesStructures(props);
-    await runEslintAutoFix(componentPath);
-};
-
-/* Создание и регистрация нового компонента */
-export const createComponent = async (options: CreateComponentProps): Promise<void> => {
-    await createFilesStructure(options);
-
-    const generateTests = options.tests === GenerateTestsTemplate.yes;
-    const onlyTests = options.tests === GenerateTestsTemplate.yes;
-    if (generateTests || onlyTests) {
-        // TODO: addComponentToE2EComponents
-    }
-
-    await addComponentExport(options);
-    await addComponentToComponentsProps(options);
+export const registration = async (
+    props: CreateComponentProps,
+): Promise<void> => {
+    await addComponentExport(props);
+    await addComponentToComponentsProps(props);
 };
