@@ -22,9 +22,7 @@ export * from './styles/types';
 `;
 
 export const componentLayout = (componentName: string): string => `\
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
-import React, { FC, forwardRef } from 'react';
+import { FC, forwardRef } from 'react';
 import { If } from '@core';
 import { usePropsOverwrites } from '@core/styles';
 import { ${componentName}Props } from './types';
