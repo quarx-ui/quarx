@@ -4,7 +4,7 @@ export const storybookLayout = (
     componentName: string,
     componentType: string,
     parent: string,
-): string => `import React from 'react';
+): string => `\
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
