@@ -3,9 +3,9 @@ import {
     PlaywrightTestArgs,
     PlaywrightWorkerOptions,
 } from '@playwright/test';
-import { ComponentsListTypes } from '@e2e/constants';
+import { ComponentsListTypes, FRAME_ID, INPUT_PROPS_ID } from '@e2e/constants';
 import { CompareSnapshotsMapArg, ExtendedPropsType, PropsType } from '@e2e/test-utils/types';
-import { getURLFromProps } from '@e2e/utils';
+import { getStringFromProps } from '@e2e/utils';
 import { runSeriesComparisons } from '@e2e/test-utils/helpers';
 import { getScreenPath } from '@e2e/test-utils/screenName';
 
@@ -40,9 +40,13 @@ export function compareSnapshots<Props = PropsType>(
                 groupBy,
             });
 
-        await page.goto(getURLFromProps(component, props));
+        await page.goto(`/${component}`);
 
-        const element = await page.locator(uniqSelector);
+        const input = await page.locator(`#${INPUT_PROPS_ID}`);
+        await input.fill(getStringFromProps(props));
+        await input.press('Enter');
+
+        const element = await page.locator(`#${FRAME_ID} ${uniqSelector}`);
 
         const waitTimeout = async () => {
             if (disableAnimations) { return; }

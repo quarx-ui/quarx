@@ -312,6 +312,7 @@ export const useStyles = makeStyles((
             },
             disabled && {
                 color: palette.text.secondary,
+                '-webkit-text-fill-color': palette.text.secondary,
                 cursor: 'not-allowed',
             },
         ],

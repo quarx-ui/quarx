@@ -1,6 +1,6 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { CheckboxStyleParams } from '@core/src/main/Checkbox/types';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { PALETTE_COLORS, Checkbox } from '@core';
 import userEvent from '@testing-library/user-event';
 import { expectPropsMapInClasses } from '@core/test-utils';

@@ -10,6 +10,7 @@ export const SidePage: FC<TestSidePageProps> = ({ disableBackdrop, ...props }) =
         body="Body"
         OverScreenProps={{
             disableBackdrop,
+            disablePortal: true,
         }}
         footerButtons={{
             success: {

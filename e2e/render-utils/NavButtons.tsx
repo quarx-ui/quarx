@@ -1,11 +1,11 @@
 import { getURLFromProps } from '@e2e/utils';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Button } from '@kit';
 import { Link } from 'react-router-dom';
 import { ComponentsListTypes, PropValueType } from '@e2e/constants';
 import { PATHS } from '@e2e/src';
 
-export const NavButtons: FC<{ renderProps: Record<string, PropValueType>, component: ComponentsListTypes }> = ({
+export const NavButtons: FC<{ renderProps: Record<string, PropValueType>; component: ComponentsListTypes }> = ({
     renderProps,
     component,
 }) => (

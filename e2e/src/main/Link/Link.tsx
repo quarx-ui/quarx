@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Link as KitLink } from '@kit';
 import { ChevronRightIcon } from '@kit-icons/chevron-right/24px/stroke/rounded';
 import { GearIcon } from '@kit-icons/gear/24px/fill/rounded';

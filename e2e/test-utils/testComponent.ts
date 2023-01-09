@@ -2,6 +2,7 @@ import * as pw from '@playwright/test';
 import { ComponentsListTypes } from '@e2e/constants';
 import { PropsType, TestComponentPropsMapArg } from '@e2e/test-utils/types';
 import { runSeriesComparisons } from '@e2e/test-utils/helpers';
+import { disableAnimations } from '@e2e/test-utils/disableAnimations';
 
 export function testComponentProps<Props = PropsType>(component: ComponentsListTypes) {
     return (testName: string, options: TestComponentPropsMapArg<Props>) => {
@@ -15,7 +16,7 @@ export function testComponentProps<Props = PropsType>(component: ComponentsListT
             timeout,
             groupBy,
             disableSnapIfHeaded,
-            disableAnimations,
+            disableAnimations: isDisabledAnimations,
         } = options;
 
         const commonProps = {
@@ -26,10 +27,12 @@ export function testComponentProps<Props = PropsType>(component: ComponentsListT
             beforeSnap,
             timeout,
             disableSnapIfHeaded,
-            disableAnimations,
+            disableAnimations: isDisabledAnimations,
         };
 
         pw.test(testName, async ({ page, headless }) => {
+            if (isDisabledAnimations) { disableAnimations(page); }
+
             await runSeriesComparisons<Props>({
                 component,
                 targetProps,

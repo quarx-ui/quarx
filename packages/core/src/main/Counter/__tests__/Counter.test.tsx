@@ -1,5 +1,4 @@
 import { render, screen } from '@testing-library/react';
-import React from 'react';
 import { Counter, CounterProps } from '@core';
 import { expectRootCn, testStyleParams } from '@core/test-utils';
 import { CounterStyleParams } from '@core/src/main/Counter/styles';

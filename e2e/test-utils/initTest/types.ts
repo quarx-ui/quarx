@@ -13,19 +13,19 @@ export interface InitTestReturned<Props = PropsType> extends
     | 'afterAll'
     | 'afterEach'>
 {
-    testProps: (testName: string, options: TestComponentPropsMapArg<Props>) => void,
-    compareSnapshotsMap: (options: CompareSnapshotsMapArg<Props>) => Promise<void>,
-    test: (testName: string, callback: (testProps: TestProps<Props>, testInfo: TestInfo) => void) => void
+    testProps: (testName: string, options: TestComponentPropsMapArg<Props>) => void;
+    compareSnapshotsMap: (options: CompareSnapshotsMapArg<Props>) => Promise<void>;
+    test: (testName: string, callback: (testProps: TestProps<Props>, testInfo: TestInfo) => void) => void;
 }
 
 export interface ToMatchSnapshotCreatorProps {
-    selector: string,
-    disableSnapIfHeaded: boolean,
-    headless?: boolean,
-    quality?: number,
-    testName: string,
-    component: ComponentsListTypes,
-    getComponent: (uSelector?: string) => pw.Locator,
-    waitTimeout: (timeout?: number) => Promise<void>,
-    groupBy: GroupByType,
+    selector: string;
+    disableSnapIfHeaded: boolean;
+    headless?: boolean;
+    quality?: number;
+    testName: string;
+    component: ComponentsListTypes;
+    getComponent: (uSelector?: string) => pw.Locator;
+    waitTimeout: (timeout?: number) => Promise<void>;
+    groupBy: GroupByType;
 }

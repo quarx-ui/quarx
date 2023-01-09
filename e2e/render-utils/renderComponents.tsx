@@ -1,16 +1,15 @@
-import React, { FC } from 'react';
+import { Fragment, FC } from 'react';
 import { Route } from 'react-router-dom';
 import { COMPONENTS } from '@e2e/src';
-import { withURLProps } from './withURLProps';
+import { withPropsContext } from './withPropsContext';
 
 export const renderComponents = (components: typeof COMPONENTS) => Object
     .entries(components)
     .map(([path, ComponentWithoutURL]) => {
-        const Component = withURLProps(ComponentWithoutURL as FC);
+        const Component = withPropsContext(ComponentWithoutURL as FC);
         return (
-            <React.Fragment key={path}>
+            <Fragment key={path}>
                 <Route path={path} element={<Component />} />
-                <Route path={`${path}--:urlProps`} element={<Component />} />
-            </React.Fragment>
+            </Fragment>
         );
     });

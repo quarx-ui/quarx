@@ -1,4 +1,3 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Badge, BadgeProps, BadgeStyleParams } from '@core';
 import { testStyleParams } from '@core/test-utils';

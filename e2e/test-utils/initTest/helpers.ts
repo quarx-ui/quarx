@@ -1,16 +1,29 @@
 import * as pw from '@playwright/test';
-import { ComponentsListTypes } from '@e2e/constants';
 import { PropsType, ToMatchSnapshotOptions } from '@e2e/test-utils';
-import { getURLFromProps } from '@e2e/utils';
+import { getStringFromProps } from '@e2e/utils';
 import { getScreenPath } from '@e2e/test-utils/screenName';
+import { ComponentsListTypes, FRAME_ID, INPUT_PROPS_ID } from '@e2e/constants';
 import { ToMatchSnapshotCreatorProps } from './types';
+
+export const setComponentCreator = (
+    page: pw.Page,
+    component: ComponentsListTypes,
+) => (
+    uComponent: ComponentsListTypes | string = component,
+) => page.goto(`/${uComponent}`);
+
+export const getInputCreator = (page: pw.Page) => () => page.locator(`#${INPUT_PROPS_ID}`);
+
+export const getFrameCreator = (page: pw.Page) => () => page.locator(`#${FRAME_ID}`);
 
 export const getComponentCreator = (
     page: pw.Page,
     selector: string,
 ) => (
     uSelector = selector,
-) => page.locator(uSelector);
+) => page
+    .locator(`#${FRAME_ID}`)
+    .locator(uSelector);
 
 export const waitTimeoutCreator = (
     page: pw.Page,
@@ -21,10 +34,13 @@ export const waitTimeoutCreator = (
 
 export const setPropsCreator = <Props = PropsType>(
     page: pw.Page,
-    component: ComponentsListTypes,
-) => (
+) => async (
     props?: Props,
-) => page.goto(getURLFromProps(component, props));
+) => {
+    const input = await page.locator(`#${INPUT_PROPS_ID}`);
+    await input.fill(getStringFromProps(props));
+    await input.press('Enter');
+};
 
 export const toMatchSnapshotCreator = (
     props: ToMatchSnapshotCreatorProps,

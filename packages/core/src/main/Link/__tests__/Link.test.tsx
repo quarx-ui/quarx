@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
 import { testStyleParams } from '@core/test-utils';
 import { render, screen } from '@testing-library/react';
 import { Link, LinkProps } from '@core';
