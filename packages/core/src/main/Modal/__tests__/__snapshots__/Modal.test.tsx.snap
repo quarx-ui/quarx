@@ -7,7 +7,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-e0f55p-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1j927yz-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -54,7 +54,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -93,7 +93,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-e0f55p-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1j927yz-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -140,7 +140,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -180,7 +180,7 @@ exports[`Modal modal in the document 1`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-e0f55p-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1j927yz-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -196,7 +196,7 @@ exports[`Modal modal in the document 2`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-e0f55p-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1j927yz-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -243,7 +243,7 @@ exports[`Modal modal in the document 2`] = `
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -274,7 +274,7 @@ exports[`Modal modal in the document 2`] = `
           class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical css-jysxse-QxFooterBlock-root"
         >
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-e0f55p-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1j927yz-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
@@ -284,7 +284,7 @@ exports[`Modal modal in the document 2`] = `
             </div>
           </button>
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-tcyd1-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-aquufm-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
@@ -294,7 +294,7 @@ exports[`Modal modal in the document 2`] = `
             </div>
           </button>
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-tjh25m-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-bqinsg-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
@@ -353,7 +353,7 @@ exports[`Modal style params scrollBehaviour body 1`] = `
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -423,7 +423,7 @@ exports[`Modal style params scrollBehaviour window 1`] = `
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -493,7 +493,7 @@ exports[`Modal style params size medium 1`] = `
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -563,7 +563,7 @@ exports[`Modal style params size small 1`] = `
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-9uuoep-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-f5hw20-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Modal as KitModal } from '@kit';
 import { TestModalProps } from './types';
 
@@ -10,6 +10,7 @@ export const Modal: FC<TestModalProps> = ({ disableBackdrop, ...props }) => (
         body="Body"
         OverScreenProps={{
             disableBackdrop,
+            disablePortal: true,
         }}
         footerButtons={{
             success: {

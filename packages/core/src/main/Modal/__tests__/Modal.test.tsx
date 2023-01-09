@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 import { render, screen } from '@testing-library/react';
 import { testStyleParams } from '@core/test-utils';
 import { Button, Modal, ModalProps, ModalStyleParams } from '@core';

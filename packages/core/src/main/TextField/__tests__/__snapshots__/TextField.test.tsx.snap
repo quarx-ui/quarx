@@ -9,7 +9,7 @@ exports[`TextField icons should be in document 1`] = `
       class="QxTextField-field css-g11qdb-QxTextField-field"
     >
       <div
-        class="QxTextField-leftItem QxTextField-sideItem css-1dhcwki-QxTextField-leftItem-QxTextField-sideItem"
+        class="QxTextField-leftItem QxTextField-sideItem css-q51ghs-QxTextField-leftItem-QxTextField-sideItem-TextField"
       >
         <svg
           data-testid="warning-icon"
@@ -41,7 +41,7 @@ exports[`TextField icons should be in document 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -113,7 +113,7 @@ exports[`TextField style params borderRadius large 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -168,7 +168,7 @@ exports[`TextField style params borderRadius medium 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -223,7 +223,7 @@ exports[`TextField style params borderRadius small 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -278,7 +278,7 @@ exports[`TextField style params borderRadius xLarge 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -333,7 +333,7 @@ exports[`TextField style params borderRadius xSmall 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -388,7 +388,7 @@ exports[`TextField style params clearIconVisibleOn always 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-so2kxd-QxTextField-closeIcon"
@@ -443,7 +443,7 @@ exports[`TextField style params clearIconVisibleOn interact 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -533,7 +533,7 @@ exports[`TextField style params colorBase main 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -588,7 +588,7 @@ exports[`TextField style params colorBase secondary 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -643,7 +643,7 @@ exports[`TextField style params disableHoverStyles false 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -698,7 +698,7 @@ exports[`TextField style params disableHoverStyles true 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -753,7 +753,7 @@ exports[`TextField style params disableLabel false 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -803,7 +803,7 @@ exports[`TextField style params disableLabel true 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -858,7 +858,7 @@ exports[`TextField style params error false 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -913,7 +913,7 @@ exports[`TextField style params error true 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -968,7 +968,7 @@ exports[`TextField style params filled false 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1023,7 +1023,7 @@ exports[`TextField style params filled true 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1078,7 +1078,7 @@ exports[`TextField style params focused false 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1133,7 +1133,7 @@ exports[`TextField style params focused true 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1188,7 +1188,7 @@ exports[`TextField style params loading false 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1244,7 +1244,7 @@ exports[`TextField style params loading true 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-mh4q80-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-ablmep-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1312,7 +1312,7 @@ exports[`TextField style params size large 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-qilsg2-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1itiz5a-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1367,7 +1367,7 @@ exports[`TextField style params size medium 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-db029m-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
@@ -1422,7 +1422,7 @@ exports[`TextField style params size small 1`] = `
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-1ro12vi-QxTextField-rightItem-QxTextField-sideItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-cyanqu-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
           class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"

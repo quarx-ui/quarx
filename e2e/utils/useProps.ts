@@ -1,5 +1,5 @@
-import { useParams } from 'react-router-dom';
 import { PropValueType, SEPARATORS } from '@e2e/constants';
+import { usePropsContext } from '@e2e/render-utils/usePropsContext';
 
 const fromString = (value: string) => {
     if (value === 'true') {
@@ -20,9 +20,9 @@ const fromString = (value: string) => {
     return value;
 };
 
-export function usePropsFromURL<Props = Record<string, PropValueType>>(): Props {
-    const { urlProps = '' } = useParams();
-    const splitURL = urlProps.split(SEPARATORS.PROP);
+export function useProps<Props = Record<string, PropValueType>>(): Props {
+    const { props = '' } = usePropsContext() ?? {};
+    const splitURL = props.split(SEPARATORS.PROP);
 
     return splitURL.reduce((acc, prop) => {
         const [name, value] = prop.split(SEPARATORS.VALUE);

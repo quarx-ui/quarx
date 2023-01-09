@@ -1,5 +1,5 @@
 import { cleanup, render, screen } from '@testing-library/react';
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import userEvent from '@testing-library/user-event';
 import { Case, Switch } from '..';
 
@@ -23,7 +23,7 @@ describe('Switch behavior', () => {
             const [state, setState] = useState<string>('1');
 
             return (
-                <>
+                <Fragment>
                     <button
                         type="button"
                         onClick={() => setState('2')}
@@ -34,7 +34,7 @@ describe('Switch behavior', () => {
                         <Case value="1">1</Case>
                         <Case value="2">2</Case>
                     </Switch>
-                </>
+                </Fragment>
             );
         };
         render(<Template />);

@@ -44,8 +44,8 @@ describe('TextField', () => {
         });
     });
 
-    test('interactive', async ({ getComponent, page, toMatchSnapshot, setProps }) => {
-        await setProps();
+    test('interactive', async ({ getComponent, setComponent, page, toMatchSnapshot, setProps }) => {
+        await setComponent();
         await getComponent().click();
         await toMatchSnapshot('click');
 
@@ -82,7 +82,8 @@ describe('TextField', () => {
         await toMatchSnapshot('readOnly');
     });
 
-    test('helpers', async ({ setProps, toMatchSnapshot, getComponent, page }) => {
+    test('helpers', async ({ setProps, setComponent, toMatchSnapshot, getComponent, page }) => {
+        await setComponent();
         await setProps({ counter: true, maxLength: 30 });
         await toMatchSnapshot('default');
 
@@ -97,7 +98,8 @@ describe('TextField', () => {
         await toMatchSnapshot('maxLengthError');
     });
 
-    test('multiline', async ({ setProps, toMatchSnapshot }) => {
+    test('multiline', async ({ setProps, setComponent, toMatchSnapshot }) => {
+        await setComponent();
         const longText = 'It is a very loooooooong text and it will continue unless each row become filled '
             + 'Of course, I can use \'Lorem ipsum bla bla bla\', but I didn\'t';
         await setProps({ multiline: true, rows: 2, value: longText });
@@ -106,6 +108,7 @@ describe('TextField', () => {
         await setProps({ multiline: true, minRows: 2, maxRows: 3, value: longText });
         await toMatchSnapshot('filledMaxRows');
 
+        await setProps({ value: '' });
         await setProps({ multiline: true, minRows: 6, value: longText });
         await toMatchSnapshot('filledMinRows');
     });

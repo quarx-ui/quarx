@@ -26,35 +26,35 @@ export type GroupByKey = keyof typeof GROUP_BY_KEYS;
 export type GroupByType = GroupByKey[];
 
 export type SnapshotConfig = {
-    disableIfHeaded?: boolean
-    quality?: number,
+    disableIfHeaded?: boolean;
+    quality?: number;
 }
 
 export interface InitTestConfig {
-    groupBy?: GroupByType,
-    selector?: string,
-    snapshot?: SnapshotConfig,
-    test?: PlaywrightTestConfig['use'],
-    disableAnimations?: boolean,
-    timeout?: number,
+    groupBy?: GroupByType;
+    selector?: string;
+    snapshot?: SnapshotConfig;
+    test?: PlaywrightTestConfig['use'];
+    disableAnimations?: boolean;
+    timeout?: number;
 }
 
 export interface BaseProps {
-    uniqSelector?: string,
-    testName?: string,
-    quality?: number,
-    state?: PropsStateType,
-    beforeSnap?: BeforeSnapFC,
-    postfix?: string,
-    timeout?: number,
-    groupBy?: GroupByType,
-    disableSnapIfHeaded?: SnapshotConfig['disableIfHeaded'],
-    disableAnimations?: boolean,
+    uniqSelector?: string;
+    testName?: string;
+    quality?: number;
+    state?: PropsStateType;
+    beforeSnap?: BeforeSnapFC;
+    postfix?: string;
+    timeout?: number;
+    groupBy?: GroupByType;
+    disableSnapIfHeaded?: SnapshotConfig['disableIfHeaded'];
+    disableAnimations?: boolean;
 }
 
 export interface ExtendedPropsType<Props = PropsType> extends BaseProps {
-    props: Props
-    screenName?: string | string[],
+    props: Props;
+    screenName?: string | string[];
 }
 
 export type PropsArray<Props = PropsType> = {
@@ -62,8 +62,8 @@ export type PropsArray<Props = PropsType> = {
 }
 
 export interface TestComponentPropsMapArg<Props = PropsType> extends Omit<BaseProps, 'testName' | 'postfix'> {
-    targetProps: PropsArray<Props>,
-    commonProps?: Props,
+    targetProps: PropsArray<Props>;
+    commonProps?: Props;
 }
 
 export type TestParams = Partial<PlaywrightTestArgs & PlaywrightWorkerOptions> & { page: Page };
@@ -72,42 +72,45 @@ export interface CompareSnapshotsMapArg<Props = PropsType> extends
     TestComponentPropsMapArg<Props>,
     Pick<BaseProps, 'testName' | 'postfix'>
 {
-    testParams: TestParams,
+    testParams: TestParams;
 }
 
 export interface ToMatchSnapshotOptions {
-    selector?: string,
-    timeout?: number,
-    disabled?: boolean,
-    path?: string[]
+    selector?: string;
+    timeout?: number;
+    disabled?: boolean;
+    path?: string[];
 }
 
 export interface TestProps<Props = PropsType> {
-    compareSnapshotsMap: (options: Omit<CompareSnapshotsMapArg<Props>, 'testParams' | 'testName'>) => Promise<void>,
-    compareSnapshots: (options: ExtendedPropsType<Props>) => Promise<void>,
-    testName: string,
-    getComponent: (uniqSelector?: string) => Locator,
-    toMatchSnapshot: (name: string, options?: ToMatchSnapshotOptions) => Promise<void>,
-    setProps: (props?: Props) => Promise<Response | null>,
-    page: Page,
-    waitTimeout: (timeout?: number) => Promise<void>
+    compareSnapshotsMap: (options: Omit<CompareSnapshotsMapArg<Props>, 'testParams' | 'testName'>) => Promise<void>;
+    compareSnapshots: (options: ExtendedPropsType<Props>) => Promise<void>;
+    testName: string;
+    getComponent: (uniqSelector?: string) => Locator;
+    setComponent: (component?: ComponentsListTypes | string) => Promise<Response | null>;
+    getInput: () => Locator;
+    getFrame: () => Locator;
+    toMatchSnapshot: (name: string, options?: ToMatchSnapshotOptions) => Promise<void>;
+    setProps: (props?: Props) => Promise<void>;
+    page: Page;
+    waitTimeout: (timeout?: number) => Promise<void>;
 }
 
 export interface GetScreenPathOptions {
-    groupBy: GroupByType,
-    testName?: string,
-    component: ComponentsListTypes,
-    name?: string,
-    path?: string[],
-    postfix?: string,
-    property?: string,
-    value?: PropValueType,
+    groupBy: GroupByType;
+    testName?: string;
+    component: ComponentsListTypes;
+    name?: string;
+    path?: string[];
+    postfix?: string;
+    property?: string;
+    value?: PropValueType;
 }
 
 export interface CreateScreenNameOptions<Props = PropsType> {
-    testName: string,
-    component: ComponentsListTypes,
-    props: { props: Array<Props> },
-    postfix?: string,
-    groupBy: GroupByType,
+    testName: string;
+    component: ComponentsListTypes;
+    props: { props: Array<Props> };
+    postfix?: string;
+    groupBy: GroupByType;
 }

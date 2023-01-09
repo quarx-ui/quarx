@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Badge as KitBadge } from '@kit';
 import { TestBadgeProps } from '@e2e/src/main/Badge/types';
 import { PaperClipIcon } from '@kit-icons/paper-clip/16px/stroke/rounded';

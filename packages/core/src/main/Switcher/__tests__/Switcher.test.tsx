@@ -1,6 +1,5 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { SwitcherProps, SwitcherStyleParams } from '@core/src/main/Switcher/types';
-import React from 'react';
 import { Switcher } from '@core';
 import userEvent from '@testing-library/user-event';
 import { testStyleParams } from '@core/test-utils';

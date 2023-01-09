@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { TextField as KitTextField } from '@kit';
 import { TestTextFieldProps } from '@e2e/src/main/TextField/types';
 import { HomeIcon } from '@kit-icons/home/24px/fill/rounded';

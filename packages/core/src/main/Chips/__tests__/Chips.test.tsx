@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import { ReactElement } from 'react';
 import { render, screen } from '@testing-library/react';
 import { expectPropsMapInClasses, testStyleParams } from '@core/test-utils';
 import { ChipsProps, ChipsStyleParams, QX_SIZE, CHIPS_VARIANT } from '@core';
