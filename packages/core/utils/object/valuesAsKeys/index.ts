@@ -16,7 +16,9 @@ export function valuesAsKeys<T extends { [k: string]: unknown }>(obj: T): { [k i
 export function createValuesAsKeysTypeGuard<T extends string>(
     object: { [key in keyof Record<T, T>]: key },
 ) {
+    const valuesSet = new Set(Object.values(object));
+
     return (value: string): value is T => (
-        Object.keys(object).includes(value)
+        valuesSet.has(value)
     );
 }
