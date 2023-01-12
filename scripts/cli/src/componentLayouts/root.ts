@@ -6,7 +6,6 @@ export * from './types';
 `;
 
 export const typesLayout = (componentName: string): string => `\
-import { Ref } from 'react';
 import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
 import { ${componentName}StyleKeys, ${componentName}StyleParams } from './styles';
 
