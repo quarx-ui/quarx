@@ -27,6 +27,7 @@ import {
     SelectionProps,
     SelectionTreeProps,
     SidePageProps,
+    StackProps,
     SwitcherProps,
     TabItemContainedProps,
     TabItemDefaultProps,
@@ -71,6 +72,7 @@ export interface ComponentsProps {
     SelectionTree: SelectionTreeProps;
     SelectionTreeNode: SelectionTreeNodeProps;
     SidePage: SidePageProps;
+    Stack: StackProps;
     Switcher: SwitcherProps;
     TabItemContained: TabItemContainedProps;
     TabItemDefault: TabItemDefaultProps;

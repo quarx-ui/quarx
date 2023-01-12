@@ -5,4 +5,5 @@ export * from './FooterBlock';
 export * from './HeaderBlock';
 export * from './OverScreen';
 export * from './Portal';
+export * from './Stack';
 export * from './Transition';
