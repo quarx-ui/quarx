@@ -20,3 +20,4 @@ export * from './ownerWindow';
 export * from './limitHeightByRows';
 export * from './polyfills';
 export * from './verifyСhildPropsAvailability';
+export * from './addCssToElement';
