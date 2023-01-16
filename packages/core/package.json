@@ -21,11 +21,13 @@
     "@types/react-transition-group": "^4.4.4",
     "@types/uuid": "^8.3.1",
     "clsx": "^1.1.1",
+    "deep-equal": "^2.2.0",
     "react-transition-group": "^4.4.2",
     "uuid": "^3.4.0"
   },
   "devDependencies": {
     "@types/react-input-mask": "^2.0.5",
+    "@types/deep-equal": "^1.0.1",
     "react-input-mask": "^2.0.4",
     "react-number-format": "^4.9.1"
   },

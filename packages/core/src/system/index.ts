@@ -4,6 +4,7 @@ export * from './DelayedMounter';
 export * from './FooterBlock';
 export * from './HeaderBlock';
 export * from './OverScreen';
+export * from './Popup';
 export * from './Portal';
 export * from './Stack';
 export * from './Transition';

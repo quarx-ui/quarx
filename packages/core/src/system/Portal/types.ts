@@ -9,6 +9,8 @@ export interface PortalProps<T extends HTMLElement = HTMLDivElement> {
     /** Дочерний элемент */
     children: ReactElement & RefAttributes<T>;
 
-    /** Контейнер для дочернего элемента */
+    /** Контейнер для дочернего элемента
+     *
+     * @default body, если плавающий элемент отображается через портал */
     container?: ReactElement;
 }

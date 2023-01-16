@@ -21,6 +21,7 @@ import {
     ModalProps,
     OverScreenProps,
     Palette,
+    PopupProps,
     RadioButtonProps,
     SelectionGroupProps,
     SelectionListProps,
@@ -65,6 +66,7 @@ export interface ComponentsProps {
     Loader: LoaderProps;
     Modal: ModalProps;
     OverScreen: OverScreenProps;
+    Popup: PopupProps;
     RadioButton: RadioButtonProps;
     Selection: SelectionProps;
     SelectionGroup: SelectionGroupProps;

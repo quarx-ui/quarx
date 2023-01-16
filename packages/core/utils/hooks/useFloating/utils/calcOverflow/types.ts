@@ -2,7 +2,8 @@ import {
     Arrangement,
     Boundary,
     ClippingContext,
-    GetFloatingPositionContext, Offset,
+    GetFloatingPositionContext,
+    Offset,
     Position,
     RootBoundary,
 } from '../../types';
