@@ -1,12 +1,14 @@
 import { ReactElement, ReactEventHandler, ReactNode } from 'react';
 import {
     BaseProps,
-    ComponentPropsWithHTML, PaletteColor, SelectionSize,
+    ComponentPropsWithHTML,
+    PaletteColor,
     WithClassesAndStyles,
 } from '@core';
 import {
     SelectionStyleKeys,
     SelectionStyleParams,
+    SelectionSize,
 } from './styles';
 
 export interface SynchronizableSelectionControllerProps {
@@ -33,13 +35,10 @@ export interface SelectionControllerProps extends SynchronizableSelectionControl
 }
 
 export interface SelectionPropsWithoutHtml<T extends SelectionControllerProps = SelectionControllerProps> extends
-    BaseProps<HTMLButtonElement>,
+    BaseProps<HTMLLabelElement>,
     Partial<SelectionStyleParams>,
     WithClassesAndStyles<SelectionStyleKeys, SelectionStyleParams>
 {
-    /** Обработчик изменения состояния контроллера */
-    onChange?: ReactEventHandler;
-
     /** Контроллер состояния */
     children: ReactElement<T>;
 
@@ -57,15 +56,8 @@ export interface SelectionPropsWithoutHtml<T extends SelectionControllerProps = 
 
     /** Правый элемент */
     rightAdornment?: ReactNode;
-
-    /** Отключение управления дочерними свойствами.
-     * Значениями свойств onChange, disableFocus, hover
-     * управляет Selection. Данное свойство отключит контроль дочерних свойств.
-     *
-     * @default false */
-    disableHandlingChildProps?: boolean;
 }
 
 export type SelectionProps<T extends SelectionControllerProps = SelectionControllerProps> = (
-    ComponentPropsWithHTML<SelectionPropsWithoutHtml<T>, 'button'>
+    ComponentPropsWithHTML<SelectionPropsWithoutHtml<T>, 'label'>
 );

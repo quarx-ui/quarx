@@ -1,3 +1,4 @@
+import { FC } from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { Story } from '@storybook/react/types-6-0';
 import { excludeProp } from '@core/storybook/templateParams';
@@ -5,7 +6,6 @@ import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import styled from '@emotion/styled';
 import {
     Checkbox,
-    darken,
     PALETTE_COLORS,
     QX_SIZE,
     RadioButton,
@@ -17,14 +17,13 @@ import {
     Selection,
     SelectionProps,
     SELECTION_TYPE,
-    makeStyles,
 } from '@core';
+import { StoryDarkerContainer } from '@core/src/main/Selections/stories/StoryDarkerContainer';
 import { FourSquaresIcon } from '@quarx-ui/icons/src/four-squares/24px/stroke/rounded';
-import { SberMulticolorIcon } from '@quarx-ui/icons/src/sber-multicolor/24px/fill/rounded';
+import { BookOpenIcon } from '@quarx-ui/icons/src/book-open/24px/stroke/rounded';
 import { ArgsTable, Description, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
 import { Div } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { FC } from 'react';
 
 const Padding = styled.div` margin: 0 6px; `;
 
@@ -34,25 +33,6 @@ const Flex = styled.div`
     align-items: center;
     justify-content: flex-start;
 `;
-
-const useStyles = makeStyles(({ palette }) => ({
-    root: {
-        boxSizing: 'border-box',
-        width: '100%',
-        height: '100%',
-        padding: 16,
-        backgroundColor: darken(palette.background.container.hover, 10),
-        overflowY: 'auto',
-    },
-}));
-const CustomContainer: FC = ({ children }) => {
-    const styles = useStyles();
-    return (
-        <div css={styles.root}>
-            {children}
-        </div>
-    );
-};
 
 const CONTROLLER_OPTIONS = valuesAsKeysFromArray([
     'Checkbox',
@@ -89,8 +69,7 @@ const DESCRIPTION_MD = `
 управление следующими состояниями:
 * hover
 * disableFocus
-* onChange
-Это необходимо для корректного отображения состояний при режиме contained.
+Это необходимо для корректного отображения состояний компонента.
 
 Компонент реализует синхронизацию следующих одинаковых свойств:
 * size
@@ -161,17 +140,17 @@ const Template: Story<SelectionTemplateProps> = ({
     const ControllerComponent = CONTROLLERS[children ?? CONTROLLER_OPTIONS.Checkbox];
 
     return (
-        <CustomContainer>
+        <StoryDarkerContainer>
             <Selection
                 {...props}
-                onChange={setOppositeState}
             >
                 <ControllerComponent
                     checked={state}
+                    onChange={setOppositeState}
                     borderRadius="max"
                 />
             </Selection>
-        </CustomContainer>
+        </StoryDarkerContainer>
     );
 };
 
@@ -180,14 +159,14 @@ Sandbox.storyName = 'Компонент';
 Sandbox.args = defaultArgs;
 
 export const Types: Story<SelectionTemplateProps> = (externalProps) => (
-    <CustomContainer>
+    <StoryDarkerContainer>
         {DisplayVariants<SelectionTemplateProps>({
             property: 'type',
             values: Object.values(SELECTION_TYPE),
             componentProps: externalProps,
             component: Template,
         })}
-    </CustomContainer>
+    </StoryDarkerContainer>
 );
 
 Types.storyName = 'Типы';
@@ -201,7 +180,7 @@ const adornmentsDisplayProps = {
     component: Template,
 };
 export const Adornment: Story<SelectionTemplateProps> = (externalProps) => (
-    <CustomContainer>
+    <StoryDarkerContainer>
         {DisplayVariants<SelectionTemplateProps>({
             ...adornmentsDisplayProps,
             componentProps: {
@@ -235,12 +214,12 @@ export const Adornment: Story<SelectionTemplateProps> = (externalProps) => (
                 ),
                 rightAdornment: (
                     <Padding>
-                        <SberMulticolorIcon />
+                        <BookOpenIcon />
                     </Padding>
                 ),
             },
         })}
-    </CustomContainer>
+    </StoryDarkerContainer>
 );
 
 Adornment.storyName = 'Украшения';
@@ -248,14 +227,14 @@ Adornment.args = defaultArgs;
 Adornment.argTypes = excludeProp(['leftAdornment', 'rightAdornment']);
 
 export const Colors: Story<SelectionTemplateProps> = (externalProps) => (
-    <CustomContainer>
+    <StoryDarkerContainer>
         {DisplayVariants<SelectionTemplateProps>({
             property: 'color',
             values: Object.values(PALETTE_COLORS),
             componentProps: externalProps,
             component: Template,
         })}
-    </CustomContainer>
+    </StoryDarkerContainer>
 );
 
 Colors.storyName = 'Цвета';
@@ -263,7 +242,7 @@ Colors.args = defaultArgs;
 Colors.argTypes = excludeProp(['color']);
 
 export const Sizes: Story<SelectionTemplateProps> = (externalProps) => (
-    <CustomContainer>
+    <StoryDarkerContainer>
         <Flex>
             {DisplayVariants<SelectionTemplateProps>({
                 property: 'size',
@@ -272,7 +251,7 @@ export const Sizes: Story<SelectionTemplateProps> = (externalProps) => (
                 component: Template,
             })}
         </Flex>
-    </CustomContainer>
+    </StoryDarkerContainer>
 );
 
 Sizes.storyName = 'Размеры';
@@ -281,7 +260,7 @@ Sizes.argTypes = excludeProp(['size']);
 
 const Booleans = ['reverse', 'disabled', 'disableFocus', 'hover'];
 export const BooleanParams: Story<SelectionTemplateProps> = (externalProps) => (
-    <CustomContainer>
+    <StoryDarkerContainer>
         <Flex>
             {Booleans.map((property) => (
                 <Flex key={property}>
@@ -299,7 +278,7 @@ export const BooleanParams: Story<SelectionTemplateProps> = (externalProps) => (
                 </Flex>
             ))}
         </Flex>
-    </CustomContainer>
+    </StoryDarkerContainer>
 );
 
 BooleanParams.storyName = 'Boolean параметры';

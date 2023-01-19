@@ -6,6 +6,7 @@ import {
     SelectionGroup,
     SelectionGroupProps,
     SelectionGroupStyleParams,
+    SelectionList,
 } from '@core';
 import { testStyleParams } from '@core/test-utils';
 
@@ -16,6 +17,14 @@ describe('SelectionGroup', () => {
             type: SELECTION_GROUP_TYPE.text,
             size: QX_SIZE.medium,
             color: PALETTE_COLORS.brand,
+        },
+        {
+            children: (
+                <SelectionList
+                    nodes={[]}
+                    onUpdate={() => undefined}
+                />
+            ),
         },
     )({
         color: Object.values(PALETTE_COLORS),

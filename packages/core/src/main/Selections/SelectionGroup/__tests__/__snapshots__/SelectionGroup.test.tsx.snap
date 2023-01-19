@@ -5,7 +5,15 @@ exports[`SelectionGroup style params color brand 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-color-brand"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_brand css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -14,7 +22,15 @@ exports[`SelectionGroup style params color danger 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_danger QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-color-danger"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_danger css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -23,7 +39,15 @@ exports[`SelectionGroup style params color info 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_info QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-color-info"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_info css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -32,7 +56,15 @@ exports[`SelectionGroup style params color secondary 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_secondary QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-color-secondary"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_secondary css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -41,7 +73,15 @@ exports[`SelectionGroup style params color success 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_success QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-color-success"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_success css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -50,7 +90,15 @@ exports[`SelectionGroup style params color warning 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_warning QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-color-warning"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_warning css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -59,7 +107,15 @@ exports[`SelectionGroup style params size large 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_large QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-size-large"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-1xm3u6q-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_large QxSelectionList_color_brand css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -68,7 +124,15 @@ exports[`SelectionGroup style params size medium 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-size-medium"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_brand css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -77,16 +141,32 @@ exports[`SelectionGroup style params size small 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_small QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-size-small"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-1s00uzk-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_small QxSelectionList_color_brand css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
 exports[`SelectionGroup style params type contained 1`] = `
 <DocumentFragment>
   <div
-    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_contained css-1repv7g-QxSelectionGroup-root"
+    class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_contained css-161rqbo-QxSelectionGroup-root"
     data-testid="testStyleParams-type-contained"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_contained QxSelectionList_size_medium QxSelectionList_color_brand css-1fnm78-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
 
@@ -95,6 +175,14 @@ exports[`SelectionGroup style params type text 1`] = `
   <div
     class="QxSelectionGroup QxSelectionGroup_color_brand QxSelectionGroup_size_medium QxSelectionGroup_type_text css-q0b7s9-QxSelectionGroup-root"
     data-testid="testStyleParams-type-text"
-  />
+  >
+    <div
+      class="QxSelectionGroup-content css-j0w040-QxSelectionGroup-content"
+    >
+      <div
+        class="QxSelectionList QxSelectionList_type_text QxSelectionList_size_medium QxSelectionList_color_brand css-18xz4x3-QxSelectionList-root"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;

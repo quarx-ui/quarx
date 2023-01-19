@@ -2,11 +2,10 @@
 
 exports[`Selection style params color brand 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-color-brand"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -67,17 +66,16 @@ exports[`Selection style params color brand 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params color danger 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-color-danger"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -138,17 +136,16 @@ exports[`Selection style params color danger 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params color info 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-color-info"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -209,17 +206,16 @@ exports[`Selection style params color info 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params color secondary 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-color-secondary"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -280,17 +276,16 @@ exports[`Selection style params color secondary 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params color success 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-color-success"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -351,17 +346,16 @@ exports[`Selection style params color success 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params color warning 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-color-warning"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -422,17 +416,16 @@ exports[`Selection style params color warning 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params disableFocus false 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-disableFocus-false"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -493,17 +486,16 @@ exports[`Selection style params disableFocus false 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params disableFocus true 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_disableFocus QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_disableFocus QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-disableFocus-true"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -564,17 +556,16 @@ exports[`Selection style params disableFocus true 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params disabled false 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-disabled-false"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -635,18 +626,16 @@ exports[`Selection style params disabled false 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params disabled true 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
     data-testid="testStyleParams-disabled-true"
-    disabled=""
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -708,17 +697,16 @@ exports[`Selection style params disabled true 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params hover false 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-hover-false"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -779,17 +767,16 @@ exports[`Selection style params hover false 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params hover true 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_hover QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_hover QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-hover-true"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -798,7 +785,7 @@ exports[`Selection style params hover true 1`] = `
         class="QxSelection-controller css-1vx60az-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_hover css-1suwtsh-QxCheckbox-root"
         >
           <input
             class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -810,10 +797,10 @@ exports[`Selection style params hover true 1`] = `
             class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-1lmw71n-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1lamof3-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -850,17 +837,16 @@ exports[`Selection style params hover true 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params reverse false 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-reverse-false"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -921,17 +907,16 @@ exports[`Selection style params reverse false 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params reverse true 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_reverse QxSelection_color_brand QxSelection_size_medium css-23erm-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_reverse QxSelection_color_brand QxSelection_size_medium css-w1mxla-QxSelection-root"
     data-testid="testStyleParams-reverse-true"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-u01la8-QxSelection-content"
@@ -992,17 +977,16 @@ exports[`Selection style params reverse true 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params size large 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-size-large"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -1063,17 +1047,16 @@ exports[`Selection style params size large 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params size medium 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-size-medium"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -1134,17 +1117,16 @@ exports[`Selection style params size medium 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params size small 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-size-small"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -1205,17 +1187,16 @@ exports[`Selection style params size small 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params type contained 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-9thh9w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-krt9lj-QxSelection-root"
     data-testid="testStyleParams-type-contained"
     tabindex="0"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -1276,17 +1257,16 @@ exports[`Selection style params type contained 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;
 
 exports[`Selection style params type text 1`] = `
 <DocumentFragment>
-  <button
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-1hc9q7w-QxSelection-root"
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
     data-testid="testStyleParams-type-text"
     tabindex="-1"
-    type="button"
   >
     <div
       class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -1347,6 +1327,6 @@ exports[`Selection style params type text 1`] = `
         </span>
       </div>
     </div>
-  </button>
+  </label>
 </DocumentFragment>
 `;

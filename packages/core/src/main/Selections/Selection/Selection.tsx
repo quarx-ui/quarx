@@ -1,15 +1,20 @@
-import { cloneElement, FC, forwardRef, MouseEventHandler } from 'react';
+import { cloneElement, FC, forwardRef, KeyboardEventHandler, PointerEventHandler } from 'react';
 import { usePropsOverwrites } from '@core/styles';
-import { focusable, useBooleanState } from '@core';
 import { If } from '@core/src/system/If';
 import { PALETTE_COLORS } from '@core/styles/engine/theme/palette/constants';
 import { QX_SIZE } from '@core/enums/QxSize';
-import { controlSynchronizedChildProps, verifyChildPropsAvailability } from '@core/utils';
+import {
+    useBooleanState,
+    controlSynchronizedChildProps,
+    verifyChildPropsAvailability,
+    focusable,
+} from '@core/utils';
+import { KEYBOARD_KEYS } from '@core/enums';
 import { SelectionProps } from './types';
 import { useStyles, SELECTION_CSS_VARS } from './styles';
 import { SELECTION_TYPE } from './styles/constants';
 
-export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, SelectionProps>((
+export const Selection: FC<SelectionProps> = forwardRef<HTMLLabelElement, SelectionProps>((
     externalProps,
     ref,
 ) => {
@@ -27,14 +32,12 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, Selec
         helperText,
         leftAdornment,
         rightAdornment,
-        onMouseEnter,
-        onMouseLeave,
-        onClick,
+        onPointerEnter,
+        onPointerLeave,
+        onKeyPress,
 
-        onChange,
         hover: externalHover,
         disableFocus = false,
-        disableHandlingChildProps = false,
 
         hidden = false,
         reverse = false,
@@ -52,10 +55,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, Selec
     verifyChildPropsAvailability([
         'hover',
         'disableFocus',
-    ], children, Selection.displayName, `Параметры изменяются при type = ${SELECTION_TYPE.contained}`);
-    verifyChildPropsAvailability([
-        'onChange',
-    ], children, Selection.displayName, 'Параметр всегда перезаписывается');
+    ], children, Selection.displayName, 'Параметры всегда перезаписываются');
 
     // Перезапись одинаковых дочерних и родительских свойств
     const parentSynchronizableProps = {
@@ -82,15 +82,6 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, Selec
         childSynchronizableProps,
     );
 
-    const childrenProps = {
-        ...initialChildrenProps,
-
-        // SynchronizedProps
-        disabled: synchronizedChildProps.disabled,
-        size: synchronizedChildProps.size,
-        color: synchronizedChildProps.color,
-    };
-
     const {
         state: hover,
         setState: setHover,
@@ -108,56 +99,52 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, Selec
     const styles = useStyles({ ...styledParams, ...styleProps });
 
     // Обработчики событий
-    const mouseEnterHandler: MouseEventHandler<HTMLButtonElement> = (
+    // Pointer, так как MouseLeave не срабатывает при disabled button.
+    // См.: https://github.com/facebook/react/issues/18753
+    const pointerEnterHandler: PointerEventHandler<HTMLLabelElement> = (
         event,
     ) => {
         setHover(true);
-        onMouseEnter?.(event);
+        onPointerEnter?.(event);
     };
-
-    const mouseLeaveHandler: MouseEventHandler<HTMLButtonElement> = (
+    const pointerLeaveHandler: PointerEventHandler<HTMLLabelElement> = (
         event,
     ) => {
         setHover(false);
-        onMouseLeave?.(event);
+        onPointerLeave?.(event);
+    };
+    const onKeyPressHandler: KeyboardEventHandler<HTMLLabelElement> = (
+        event,
+    ) => {
+        const isSpaceKey = event.key === KEYBOARD_KEYS.SPACE;
+        if (isSpaceKey && isContainerClickable) {
+            childrenProps?.onChange?.(event);
+        }
+        onKeyPress?.(event);
     };
 
     const isContainerClickable = type === SELECTION_TYPE.contained;
+    const childrenProps = {
+        ...initialChildrenProps,
 
-    if (!disableHandlingChildProps) {
-        if (isContainerClickable) {
-            childrenProps.hover = hover;
-            childrenProps.disableFocus = true;
-            childrenProps.onChange = () => undefined;
-        } else {
-            childrenProps.onChange = onChange;
-        }
-    }
-
-    const onContainerClickHandler: MouseEventHandler<HTMLButtonElement> = (
-        event,
-    ) => {
-        if (!disableHandlingChildProps && isContainerClickable) {
-            onChange?.(event);
-        }
-        onClick?.(event);
+        // SynchronizedProps
+        disabled: synchronizedChildProps.disabled,
+        size: synchronizedChildProps.size,
+        color: synchronizedChildProps.color,
+        hover,
+        disableFocus: isContainerClickable,
     };
 
     return (
         <If condition={!hidden}>
-            <button
+            <label
                 ref={ref}
-                type="button"
                 className={cn('root', styledParams)}
                 css={styles.root}
-                disabled={disabled}
-                tabIndex={focusable((
-                    !disableFocus
-                    && type === SELECTION_TYPE.contained
-                ))}
-                onMouseEnter={mouseEnterHandler}
-                onMouseLeave={mouseLeaveHandler}
-                onClick={onContainerClickHandler}
+                tabIndex={focusable(isContainerClickable && (!disabled || !disableFocus))}
+                onPointerEnter={pointerEnterHandler}
+                onPointerLeave={pointerLeaveHandler}
+                onKeyPress={onKeyPressHandler}
                 {...htmlProps}
             >
                 <If condition={Boolean(leftAdornment)}>
@@ -209,7 +196,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLButtonElement, Selec
                 <If condition={Boolean(rightAdornment)}>
                     {rightAdornment}
                 </If>
-            </button>
+            </label>
         </If>
     );
 });
