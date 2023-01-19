@@ -298,6 +298,7 @@ import { HouseIcon as House36pxStrokeRounded } from '../src/house/36px/stroke/ro
 import { HouseWithSignIcon as HouseWithSign36pxStrokeRounded } from '../src/house-with-sign/36px/stroke/rounded';
 import { HuaweiAppgalleryIcon as HuaweiAppgallery24pxFillRounded } from '../src/huawei-appgallery/24px/fill/rounded';
 import { HuaweiAppgalleryIcon as HuaweiAppgallery36pxFillRounded } from '../src/huawei-appgallery/36px/fill/rounded';
+import { InfoIcon as Info16pxFillRounded } from '../src/info/16px/fill/rounded';
 import { InfoIcon as Info16pxStrokeRounded } from '../src/info/16px/stroke/rounded';
 import { InfoIcon as Info24pxFillRounded } from '../src/info/24px/fill/rounded';
 import { InfoIcon as Info24pxFillSquare } from '../src/info/24px/fill/square';
@@ -785,6 +786,7 @@ export const allIcons: Record<string, ComponentType> = {
     'house/36px/stroke/rounded': House36pxStrokeRounded,
     'huawei-appgallery/24px/fill/rounded': HuaweiAppgallery24pxFillRounded,
     'huawei-appgallery/36px/fill/rounded': HuaweiAppgallery36pxFillRounded,
+    'info/16px/fill/rounded': Info16pxFillRounded,
     'info/16px/stroke/rounded': Info16pxStrokeRounded,
     'info/24px/fill/rounded': Info24pxFillRounded,
     'info/24px/fill/square': Info24pxFillSquare,
@@ -1530,6 +1532,7 @@ export const groupByName: Record<string, string[]> = {
         '36px/fill/rounded',
     ],
     info: [
+        '16px/fill/rounded',
         '16px/stroke/rounded',
         '24px/fill/rounded',
         '24px/fill/square',
@@ -1933,6 +1936,7 @@ export const groupBySize: Record<string, string[]> = {
         'four-squares/16px/fill/rounded',
         'four-squares/16px/stroke/rounded',
         'gear/16px/stroke/rounded',
+        'info/16px/fill/rounded',
         'info/16px/stroke/rounded',
         'magnifying-glass/16px/stroke/rounded',
         'minus-circle/16px/fill/rounded',
