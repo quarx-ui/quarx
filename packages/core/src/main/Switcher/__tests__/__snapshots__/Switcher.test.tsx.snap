@@ -3,7 +3,7 @@
 exports[`Switcher style params color brand 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-17oz8x6-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1qg8vt5-QxSwitcher-root"
     data-testid="testStyleParams-color-brand"
   >
     <input
@@ -31,7 +31,7 @@ exports[`Switcher style params color brand 1`] = `
 exports[`Switcher style params color danger 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_danger QxSwitcher_position_left css-1tgbn08-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_danger QxSwitcher_position_left css-uu2ji3-QxSwitcher-root"
     data-testid="testStyleParams-color-danger"
   >
     <input
@@ -59,7 +59,7 @@ exports[`Switcher style params color danger 1`] = `
 exports[`Switcher style params color info 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_info QxSwitcher_position_left css-nv78mj-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_info QxSwitcher_position_left css-1428u3a-QxSwitcher-root"
     data-testid="testStyleParams-color-info"
   >
     <input
@@ -87,7 +87,7 @@ exports[`Switcher style params color info 1`] = `
 exports[`Switcher style params color secondary 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_secondary QxSwitcher_position_left css-1vahdkv-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_secondary QxSwitcher_position_left css-18fsam3-QxSwitcher-root"
     data-testid="testStyleParams-color-secondary"
   >
     <input
@@ -115,7 +115,7 @@ exports[`Switcher style params color secondary 1`] = `
 exports[`Switcher style params color success 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_success QxSwitcher_position_left css-tglsfb-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_success QxSwitcher_position_left css-pkiw2a-QxSwitcher-root"
     data-testid="testStyleParams-color-success"
   >
     <input
@@ -143,7 +143,7 @@ exports[`Switcher style params color success 1`] = `
 exports[`Switcher style params color warning 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_warning QxSwitcher_position_left css-1j2b7rd-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_warning QxSwitcher_position_left css-a7lsvs-QxSwitcher-root"
     data-testid="testStyleParams-color-warning"
   >
     <input
@@ -171,7 +171,7 @@ exports[`Switcher style params color warning 1`] = `
 exports[`Switcher style params disabled false 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-17oz8x6-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1qg8vt5-QxSwitcher-root"
     data-testid="testStyleParams-disabled-false"
   >
     <input
@@ -199,7 +199,7 @@ exports[`Switcher style params disabled false 1`] = `
 exports[`Switcher style params disabled true 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disabled QxSwitcher_position_left css-1rmbsj3-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_disabled QxSwitcher_position_left css-1sg4khd-QxSwitcher-root"
     data-testid="testStyleParams-disabled-true"
   >
     <input
@@ -228,7 +228,7 @@ exports[`Switcher style params disabled true 1`] = `
 exports[`Switcher style params position left 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-17oz8x6-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1qg8vt5-QxSwitcher-root"
     data-testid="testStyleParams-position-left"
   >
     <input
@@ -256,7 +256,7 @@ exports[`Switcher style params position left 1`] = `
 exports[`Switcher style params position right 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_right css-17oz8x6-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_right css-1qg8vt5-QxSwitcher-root"
     data-testid="testStyleParams-position-right"
   >
     <div
@@ -284,7 +284,7 @@ exports[`Switcher style params position right 1`] = `
 exports[`Switcher style params size large 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_large QxSwitcher_color_brand QxSwitcher_position_left css-19zh71b-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_large QxSwitcher_color_brand QxSwitcher_position_left css-18oxtvl-QxSwitcher-root"
     data-testid="testStyleParams-size-large"
   >
     <input
@@ -312,7 +312,7 @@ exports[`Switcher style params size large 1`] = `
 exports[`Switcher style params size medium 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-17oz8x6-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_medium QxSwitcher_color_brand QxSwitcher_position_left css-1qg8vt5-QxSwitcher-root"
     data-testid="testStyleParams-size-medium"
   >
     <input
@@ -340,7 +340,7 @@ exports[`Switcher style params size medium 1`] = `
 exports[`Switcher style params size small 1`] = `
 <DocumentFragment>
   <label
-    class="QxSwitcher QxSwitcher_size_small QxSwitcher_color_brand QxSwitcher_position_left css-1oknul-QxSwitcher-root"
+    class="QxSwitcher QxSwitcher_size_small QxSwitcher_color_brand QxSwitcher_position_left css-1oh8c3u-QxSwitcher-root"
     data-testid="testStyleParams-size-small"
   >
     <input

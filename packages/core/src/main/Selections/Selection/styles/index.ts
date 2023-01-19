@@ -76,7 +76,7 @@ export const useStyles = makeStyles((
                 [SELECTION_TYPE.contained]: {
                     [cssBorderWidth]: '1px',
                     [cssFocusWidth]: '2px',
-                    [cssFocusColor]: palette.border.focus.dark,
+                    [cssFocusColor]: palette.border.focus.main,
                     ...baseFocusStyles({
                         transitions,
                         borderWidth: cssVar(cssBorderWidth),

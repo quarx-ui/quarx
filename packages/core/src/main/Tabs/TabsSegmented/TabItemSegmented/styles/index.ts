@@ -24,7 +24,7 @@ export const useStyles = makeStyles((
             },
 
             '&:focus-visible': {
-                boxShadow: `inset 0 0 0 2px ${palette.border.focus.dark}`,
+                boxShadow: `inset 0 0 0 2px ${palette.border.focus.main}`,
             },
         },
         paramsToCss(`${icon}`, size)({

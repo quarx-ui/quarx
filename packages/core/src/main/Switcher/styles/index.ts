@@ -1,4 +1,4 @@
-import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, cssVar } from '@core';
+import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, cssVar, PALETTE_COLORS } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { SwitcherCSSVarKeys } from '@core/src/main/Switcher/styles/vars';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
@@ -32,6 +32,8 @@ export const useStyles = makeStyles((
     }: Record<SwitcherCSSVarKeys, string>,
 ) => {
     const brandOrSecondary = color === 'brand' || color === 'secondary';
+
+    const isLight = palette.type === 'light';
 
     return {
         root: [
@@ -95,7 +97,11 @@ export const useStyles = makeStyles((
             },
 
             !disableFocus && {
-                [cssFocusColor]: palette.border.focus.dark,
+                [cssFocusColor]: palette.border.focus.main,
+            },
+
+            !disableFocus && color === PALETTE_COLORS.secondary && isLight && checked && {
+                [cssFocusColor]: palette.border.focus.inverse,
             },
         ],
 

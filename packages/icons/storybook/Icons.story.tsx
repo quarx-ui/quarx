@@ -130,7 +130,7 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
         },
 
         '&:focus-visible': {
-            boxShadow: `0 0 0 2px ${palette.border.focus[palette.type === 'light' ? 'dark' : 'light']}`,
+            boxShadow: `0 0 0 2px ${palette.border.focus.main}`,
         },
     },
     active: {

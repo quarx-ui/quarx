@@ -23,7 +23,7 @@ export const useStyles = makeStyles((
             '&:focus-visible': {
                 color: palette.text.main,
                 backgroundColor: palette.colors[color].alpha[8],
-                boxShadow: `inset 0 0 0 2px ${palette.border.focus.dark}`,
+                boxShadow: `inset 0 0 0 2px ${palette.border.focus.main}`,
             },
         },
         paramsToCss(size)({
