@@ -50,8 +50,8 @@ export const getDarkSecondaryColors = (background = '#02050A', text = '#FFFFFF')
         main: getLightSuperposition(background, 0.12),
         secondary: getLightSuperposition(background, 0.2),
         focus: {
-            light: changeOpacity(text, 0.56),
-            dark: changeOpacity(background, 0.56),
+            main: changeOpacity(text, 0.56),
+            inverse: changeOpacity(background, 0.56),
         },
     },
     disabled: {

@@ -128,7 +128,7 @@ export const useStyles = makeStyles((
             border: '1px solid',
             [cssBorderWidth]: '1px',
             [cssFocusWidth]: '3px',
-            [cssFocusColor]: palette.border.focus.dark,
+            [cssFocusColor]: palette.border.focus.main,
             ...baseFocusStyles({
                 transitions,
                 borderWidth: cssVar(cssBorderWidth),

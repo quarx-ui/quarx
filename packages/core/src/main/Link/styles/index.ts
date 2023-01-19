@@ -32,7 +32,7 @@ export const useStyles = makeStyles((
                 },
 
                 '&:focus-visible': {
-                    outline: `auto 2px ${palette.border.focus.dark}`,
+                    outline: `auto 2px ${palette.border.focus.main}`,
                     [underlineColor]: 'transparent',
                 },
             },

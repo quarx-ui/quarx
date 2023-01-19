@@ -124,9 +124,7 @@ export const useStyles = makeStyles((
             }),
 
             !disabledOrLoading && {
-                [cssFocusColor]: isLight
-                    ? palette.border.focus.dark
-                    : palette.border.focus.light,
+                [cssFocusColor]: palette.border.focus.main,
                 '&:focus-visible': {
                     borderColor: 'transparent',
 
@@ -136,8 +134,8 @@ export const useStyles = makeStyles((
                 },
             },
 
-            type === 'contained' && color === 'secondary' && !disabledOrLoading && {
-                [cssFocusColor]: palette.border.focus.light,
+            type === 'contained' && color === 'secondary' && !disabledOrLoading && isLight && {
+                [cssFocusColor]: palette.border.focus.inverse,
                 '&:focus-visible': {
                     borderColor: cssVar(cssFocusColor),
                 },

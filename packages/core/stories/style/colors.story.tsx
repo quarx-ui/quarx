@@ -20,7 +20,7 @@ interface ColorsStoryProps {
     'alpha[8]' |
     'alpha[16]';
     background: PaletteStandardKey | 'textField.main' | 'textField.secondary' | 'container.hover';
-    border: PaletteStandardKey | 'focus.dark' | 'focus.light';
+    border: PaletteStandardKey | 'focus.main' | 'focus.inverse';
     text: PaletteTextKey;
 }
 
@@ -64,7 +64,7 @@ export default {
         },
         border: {
             description: 'Обводка',
-            options: ['main', 'secondary', 'focus.dark', 'focus.light'],
+            options: ['main', 'secondary', 'focus.main', 'focus.inverse'],
             control: { type: 'select' },
         },
         text: {
@@ -113,7 +113,7 @@ const useStylesSandbox = makeStyles((
         background = palette.background[srcBack];
     }
 
-    if (srcBorder === 'focus.dark' || srcBorder === 'focus.light') {
+    if (srcBorder === 'focus.main' || srcBorder === 'focus.inverse') {
         focus = srcBorder.split('.')[1] as PaletteBorderFocusKey;
         border = palette.border.focus[focus];
     } else {

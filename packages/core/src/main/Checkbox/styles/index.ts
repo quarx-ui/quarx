@@ -44,6 +44,8 @@ export const useStyles = makeStyles((
         },
     });
 
+    const isLight = palette.type === 'light';
+
     const checkboxContainerMain = {
         border: '1px solid',
         backgroundColor: palette.background.main,
@@ -60,7 +62,7 @@ export const useStyles = makeStyles((
 
     const inputFocusMain = {
         '&:focus-visible + .QxCheckbox-checkboxContainer': {
-            boxShadow: `inset 0px 0px 0px 2px ${palette.border.focus.dark}`,
+            boxShadow: `inset 0px 0px 0px 2px ${palette.border.focus.main}`,
         },
     };
 
@@ -234,18 +236,25 @@ export const useStyles = makeStyles((
             },
             !disableFocus && {
                 '&:focus-visible + .QxCheckbox-checkboxContainer': {
-                    borderColor: palette.border.focus.dark,
+                    borderColor: palette.border.focus.main,
                     outline: 'none',
                 },
             },
             !disableFocus && paramsToCss(color)({
                 [color]: {
                     '&:focus-visible + .QxCheckbox-checkboxContainer': {
-                        boxShadow: `inset 0px 0px 0px 1px ${palette.border.focus.dark}`,
+                        boxShadow: `inset 0px 0px 0px 1px ${palette.border.focus.main}`,
                     },
                 },
                 [PALETTE_COLORS.brand]: inputFocusMain,
-                [PALETTE_COLORS.secondary]: inputFocusMain,
+                [PALETTE_COLORS.secondary]: !(isLight && checked)
+                    ? inputFocusMain
+                    : ({
+                        '&:focus-visible + .QxCheckbox-checkboxContainer': {
+                            borderColor: palette.border.focus.inverse,
+                            boxShadow: `inset 0px 0px 0px 2px ${palette.border.focus.inverse}`,
+                        },
+                    }),
             }),
         ],
         content: [

@@ -38,7 +38,7 @@ export const useStyles = makeStyles((
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
 
-                [cssFocusColor]: palette.border.focus.dark,
+                [cssFocusColor]: palette.border.focus.main,
                 [cssFocusWidth]: '3px',
                 [cssDisabledColor]: palette.disabled.border,
                 [cssContentMargin]: '12px',

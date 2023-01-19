@@ -9,7 +9,7 @@ export type PaletteColor = Values<typeof PALETTE_COLORS>;
 export type PaletteStandardKey = 'main' | 'secondary'
 export type PaletteBackgroundTextFieldKey = PaletteStandardKey
 export type PaletteBackgroundContainerKey = 'hover'
-export type PaletteBorderFocusKey = 'light' | 'dark'
+export type PaletteBorderFocusKey = 'main' | 'inverse'
 export type PaletteTextKey =
     PaletteStandardKey
     | 'tertiary'
