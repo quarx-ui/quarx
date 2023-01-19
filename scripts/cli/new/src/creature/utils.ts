@@ -1,7 +1,7 @@
-import * as path from 'path';
-import * as ts from 'typescript';
-import TSConfigJSON from '../../../tsconfig.json';
 /* eslint-disable @typescript-eslint/no-var-requires */
+import path from 'path';
+import ts from 'typescript';
+
 const { ESLint } = require('eslint');
 
 export const handleError = (err: Error): void => {
@@ -9,20 +9,6 @@ export const handleError = (err: Error): void => {
         throw err;
     }
 };
-
-export const getE2EAbsolutePath = (): string => (
-    path.join(
-        process.cwd(),
-        'e2e',
-    )
-);
-
-export const getE2ESourceAbsolutePath = (): string => (
-    path.join(
-        getE2EAbsolutePath(),
-        'src',
-    )
-);
 
 export const getCoreAbsolutePath = (): string => (
     path.join(
@@ -46,19 +32,14 @@ export const getStylesAbsolutePath = () => (
     )
 );
 
-export const getTSCompilerOptions = (): ts.CompilerOptions => ({
-    ...TSConfigJSON?.compilerOptions as never as ts.CompilerOptions,
-    moduleResolution: undefined,
-});
-
 export const runEslintAutoFix = async (filePath: string): Promise<void> => {
     try {
-        const eslint = new ESLint({ fix: true, ignore: false });
-        const lintResult = await eslint.lintFiles([filePath]);
-        await ESLint.outputFixes(lintResult);
+        const engine = new ESLint({ fix: true, ignore: false });
+        const results = await engine.lintFiles([filePath]);
+        await ESLint.outputFixes(results);
     } catch (e) {
         // eslint-disable-next-line no-console
-        console.warn(e);
+        console.log(e);
     }
 };
 

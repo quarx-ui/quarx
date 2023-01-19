@@ -1,6 +1,6 @@
-import { capitalize, firstLetterToLowerCase } from './utils';
+import { capitalize, firstLetterToLowerCase } from '../../utils';
 
-export const stylesLayout = (componentName: string): string => `\
+export const index = (componentName: string): string => `\
 import {
     KeysFromUseStyles,
     makeStyles,
@@ -18,15 +18,14 @@ export const useStyles = makeStyles((
 }), { name: 'Qx${componentName}' });
 
 export type ${componentName}StyleKeys = KeysFromUseStyles<typeof useStyles>;
-export * from './types';
-export * from './vars';
 `;
 
-export const stylesTypesLayout = (componentName: string): string => `export interface ${componentName}StyleParams {
+export const types = (componentName: string): string => `\
+export interface ${componentName}StyleParams {
 }
 `;
 
-export const stylesVarsLayout = (componentName: string): string => `\
+export const vars = (componentName: string): string => `\
 import { CssVarKeys, createCssVarNames } from '@core/utils/cssVars';
 
 export const ${firstLetterToLowerCase(componentName)}CssVarNames = [

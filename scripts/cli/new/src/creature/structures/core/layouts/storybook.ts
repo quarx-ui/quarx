@@ -1,6 +1,6 @@
 import path from 'path';
 
-export const storybookLayout = (
+export const storybook = (
     componentName: string,
     componentType: string,
     parent: string,

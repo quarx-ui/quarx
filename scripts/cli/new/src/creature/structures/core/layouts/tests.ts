@@ -1,4 +1,4 @@
-export const testLayout = (componentName: string): string => `\
+export const jest = (componentName: string): string => `\
 import { render, screen } from '@testing-library/react';
 import { ${componentName}, ${componentName}Props, ${componentName}StyleParams } from '@core';
 import { testStyleParams } from '@core/test-utils';
@@ -17,22 +17,6 @@ describe('${componentName} behavior', () => {
         render(<${componentName}>${componentName}</${componentName}>);
 
         expect(screen.queryByText('${componentName}')).toBeInTheDocument();
-    });
-});
-`;
-
-export const testPW = (componentName: string): string => `\
-import { initTest } from '@e2e/test-utils';
-import { ${componentName}Props } from '@kit';
-
-const { test } = initTest<${componentName}Props>('${componentName}');
-
-test('${componentName}', async ({ compareSnapshotsMap, compareSnapshots }) => {
-    await compareSnapshotsMap({
-        targetProps: {
-        },
-        commonProps: {
-        },
     });
 });
 `;
