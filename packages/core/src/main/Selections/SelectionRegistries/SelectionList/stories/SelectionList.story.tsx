@@ -11,7 +11,7 @@ import {
     SELECTION_GROUP_TYPE,
     SELECTION_LIST_UTILS,
 } from '@core';
-import { StoryDarkerContainer } from '@core/src/main/Selections/stories/StoryDarkerContainer';
+import { StoryDarkerContainer } from '@core/storybook/components';
 import {
     SelectionList,
     SelectionListProps,

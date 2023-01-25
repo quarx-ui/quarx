@@ -14,7 +14,7 @@ import {
     SelectionTree,
     SelectionTreeStruct,
 } from '@core';
-import { StoryDarkerContainer } from '@core/src/main/Selections/stories/StoryDarkerContainer';
+import { StoryDarkerContainer } from '@core/storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { SelectionGroup, SelectionGroupProps } from '..';
 

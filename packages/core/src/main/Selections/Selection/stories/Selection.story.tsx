@@ -18,7 +18,7 @@ import {
     SelectionProps,
     SELECTION_TYPE,
 } from '@core';
-import { StoryDarkerContainer } from '@core/src/main/Selections/stories/StoryDarkerContainer';
+import { StoryDarkerContainer } from '@core/storybook/components';
 import { FourSquaresIcon } from '@quarx-ui/icons/src/four-squares/24px/stroke/rounded';
 import { BookOpenIcon } from '@quarx-ui/icons/src/book-open/24px/stroke/rounded';
 import { ArgsTable, Description, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';

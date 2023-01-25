@@ -9,7 +9,7 @@ import {
     QX_SIZE,
     SELECTION_GROUP_TYPE,
 } from '@core';
-import { StoryDarkerContainer } from '@core/src/main/Selections/stories/StoryDarkerContainer';
+import { StoryDarkerContainer } from '@core/storybook/components';
 import { DEFAULT_SELECTION_TREE_CONTROLLERS } from '../constants';
 import { SELECTION_TREE_TYPE } from '../styles/constants';
 import { SelectionTree, SelectionTreeProps } from '../index';

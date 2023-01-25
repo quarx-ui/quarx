@@ -1,3 +1,3 @@
-import { setUpPolyfills } from '@core/utils';
+import { setUpPolyfills } from '@core/utils/polyfills';
 
 setUpPolyfills();
