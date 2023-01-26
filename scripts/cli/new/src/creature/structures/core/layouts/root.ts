@@ -1,7 +1,12 @@
 import { capitalize } from '../../utils';
 
 export const index = (componentName: string): string => `\
+// ToDo: Удалить или раскомментировать при наличии
+// export * from './styles/constants';
 export * from './styles/types';
+export * from './styles/vars';
+// ToDo: Удалить или раскомментировать при наличии
+// export * from './constants';
 export * from './types';
 export { ${componentName} } from './${componentName}';
 `;
@@ -23,10 +28,12 @@ export type ${componentName}Props = ComponentPropsWithHTML<${componentName}Props
 
 export const component = (componentName: string): string => `\
 import { FC, forwardRef } from 'react';
-import { If } from '@core';
+import { QX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core/styles';
+import { If } from '@core/src/system/If';
 import { ${componentName}Props } from './types';
-import { useStyles, ${capitalize(componentName)}_CSS_VARS } from './styles';
+import { useStyles } from './styles';
+import { ${capitalize(componentName)}_CSS_VARS } from './styles/vars';
 
 export const ${componentName}: FC<${componentName}Props> = forwardRef<HTMLDivElement, ${componentName}Props>((
     initialProps,
@@ -35,12 +42,12 @@ export const ${componentName}: FC<${componentName}Props> = forwardRef<HTMLDivEle
     const { cn, props, styleProps } = usePropsOverwrites('${componentName}', initialProps, ${capitalize(componentName)}_CSS_VARS);
     const {
         hidden = false,
+        size = QX_SIZE.medium,
 
         ...restProps
     } = props;
 
-    const params = {};
-
+    const params = { size };
     const styles = useStyles({ ...params, ...styleProps });
 
     return (
