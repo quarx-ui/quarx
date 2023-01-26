@@ -2,14 +2,14 @@ import { valuesAsKeysFromArray } from '@core/utils';
 import { Values } from '@core/types';
 
 export const STACK_DIRECTION = valuesAsKeysFromArray([
-    'row',
     'column',
+    'row',
 ]);
 
 export type StackDirection = Values<typeof STACK_DIRECTION>
 
 export const STACK_ORDER = valuesAsKeysFromArray([
-    'forward',
+    'default',
     'reverse',
 ]);
 

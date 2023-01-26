@@ -34,13 +34,13 @@ export interface StackStyleParams {
 
     /** Порядок расположения элементов в контейнере
      *
-     * @property forward
-     * расположение элементов в прямом порядке
+     * @property default
+     * расположение элементов в стандартном порядке
      *
      * @property reverse
      * расположение элементов в обратном порядке
      *
-     * @default forward */
+     * @default default */
     order: StackOrder;
 
     /** Наличие разделителя между элементами стека */

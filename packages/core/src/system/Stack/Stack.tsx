@@ -1,15 +1,16 @@
-import { Children, FC, forwardRef, Fragment, ReactChild } from 'react';
+import { Children, ElementType, forwardRef, Fragment, ReactChild } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { addCssToElement } from '@core/utils';
 import { If } from '../If';
-import { StackProps } from './types';
+import { StackProps, StackPropsWithoutHtml } from './types';
 import { STACK_CSS_VARS, useStyles } from './styles';
 import { CHILD_TYPE, ChildType, STACK_DIRECTION, STACK_ORDER } from './styles/constants';
+import { OverridableComponent, OverridableComponentRef } from '../../../types';
 
 /** Контейнер для позиционирования элементов, расположенных на одной оси с равными отступами */
-export const Stack: FC<StackProps> = forwardRef<HTMLDivElement, StackProps>((
-    initialProps,
-    ref,
+export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forwardRef(<C extends ElementType = 'div'>(
+    initialProps: StackProps<C>,
+    ref: OverridableComponentRef<C>,
 ) => {
     const { cn, props, styleProps } = usePropsOverwrites('Stack', initialProps, STACK_CSS_VARS);
     const {
@@ -18,10 +19,11 @@ export const Stack: FC<StackProps> = forwardRef<HTMLDivElement, StackProps>((
 
         spacing = '8px',
         inline = false,
-        order = STACK_ORDER.forward,
+        order = STACK_ORDER.default,
         direction = STACK_DIRECTION.column,
         justifyContent,
         alignItems,
+        component: Component = 'div',
         divider,
 
         ...restProps
@@ -31,11 +33,15 @@ export const Stack: FC<StackProps> = forwardRef<HTMLDivElement, StackProps>((
 
     const styles = useStyles({ ...params, ...styleProps });
 
-    const renderChild = (child: ReactChild, type: ChildType = CHILD_TYPE.item) => (
+    const renderChild = (child: ReactChild, type: ChildType, key: number | string) => (
         typeof child === 'object'
-            ? addCssToElement(child, styles[type], { prepend: true, addClassName: cn(type) })
+            ? addCssToElement(
+                { ...child, key: child.key ?? key },
+                styles[type],
+                { prepend: true, addClassName: cn(type) },
+            )
             : (
-                <div key={`${child}`} css={styles[type]} className={cn(type)}>
+                <div key={key} css={styles[type]} className={cn(type)}>
                     {child}
                 </div>
             )
@@ -43,7 +49,7 @@ export const Stack: FC<StackProps> = forwardRef<HTMLDivElement, StackProps>((
 
     return (
         <If condition={!hidden}>
-            <div
+            <Component
                 ref={ref}
                 className={cn('root', params)}
                 css={styles.root}
@@ -53,13 +59,13 @@ export const Stack: FC<StackProps> = forwardRef<HTMLDivElement, StackProps>((
                     divider && i < children.length - 1
                         ? (
                             <Fragment>
-                                {renderChild(child)}
-                                {renderChild(divider, CHILD_TYPE.divider)}
+                                {renderChild(child, CHILD_TYPE.item, i)}
+                                {renderChild(divider, CHILD_TYPE.divider, `divider-${i}`)}
                             </Fragment>
                         )
-                        : renderChild(child)
+                        : renderChild(child, CHILD_TYPE.item, i)
                 ))}
-            </div>
+            </Component>
         </If>
     );
 });

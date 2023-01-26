@@ -1,4 +1,5 @@
 declare module '*.png';
+declare module '*.md';
 declare module '*.svg';
 declare module '*.svg' {
     // eslint-disable-next-line import/newline-after-import

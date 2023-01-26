@@ -77,6 +77,13 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
         variantAlign,
     } = options;
 
+    const titleProps: TitleProps = {
+        type: 'value',
+        isShown: true,
+        size: 'primary',
+        ...title,
+    };
+
     const examples = values.map((value) => {
         const props = isCallable(componentProps)
             ? componentProps(property, value)
@@ -85,12 +92,12 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
         return (
             <Variant
                 key={createID()}
-                optionTitle={title.isShown}
+                optionTitle={titleProps.isShown}
                 variantAlign={variantAlign}
             >
-                {title.isShown && (
-                    <Title size={title.size}>
-                        {title.type === 'value' ? value.toString() : property}
+                {titleProps.isShown && (
+                    <Title size={titleProps.size}>
+                        {titleProps.type === 'value' ? value.toString() : property}
                     </Title>
                 )}
                 {createElement(
