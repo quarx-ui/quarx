@@ -5,11 +5,11 @@ type DirectionAndOrderToOffsetProperty = Record<StackDirection, Record<StackOrde
 
 export const directionAndOrderToOffsetProperty: DirectionAndOrderToOffsetProperty = {
     row: {
-        forward: 'marginRight',
+        default: 'marginRight',
         reverse: 'marginLeft',
     },
     column: {
-        forward: 'marginBottom',
+        default: 'marginBottom',
         reverse: 'marginTop',
     },
 };
