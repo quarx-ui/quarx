@@ -7,7 +7,7 @@ exports[`SelectionList styles style params color brand 1`] = `
     data-testid="testStyleParams-color-brand"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -17,7 +17,7 @@ exports[`SelectionList styles style params color brand 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -46,7 +46,7 @@ exports[`SelectionList styles style params color brand 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -56,7 +56,7 @@ exports[`SelectionList styles style params color brand 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               checked=""
@@ -86,7 +86,7 @@ exports[`SelectionList styles style params color brand 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -96,7 +96,7 @@ exports[`SelectionList styles style params color brand 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -126,7 +126,7 @@ exports[`SelectionList styles style params color brand 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -136,7 +136,7 @@ exports[`SelectionList styles style params color brand 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               checked=""
@@ -177,7 +177,7 @@ exports[`SelectionList styles style params color danger 1`] = `
     data-testid="testStyleParams-color-danger"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -187,7 +187,7 @@ exports[`SelectionList styles style params color danger 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_position_left css-xrj8cn-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_position_left css-4fg1h4-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -216,7 +216,7 @@ exports[`SelectionList styles style params color danger 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -226,7 +226,7 @@ exports[`SelectionList styles style params color danger 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_checked QxRadioButton_position_left css-xrj8cn-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_checked QxRadioButton_position_left css-4fg1h4-QxRadioButton-root"
           >
             <input
               checked=""
@@ -256,7 +256,7 @@ exports[`SelectionList styles style params color danger 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -266,7 +266,7 @@ exports[`SelectionList styles style params color danger 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_disabled QxRadioButton_position_left css-m7m18k-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_disabled QxRadioButton_position_left css-h412s2-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -296,7 +296,7 @@ exports[`SelectionList styles style params color danger 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -306,7 +306,7 @@ exports[`SelectionList styles style params color danger 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-m7m18k-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-h412s2-QxRadioButton-root"
           >
             <input
               checked=""
@@ -347,7 +347,7 @@ exports[`SelectionList styles style params color info 1`] = `
     data-testid="testStyleParams-color-info"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -357,7 +357,7 @@ exports[`SelectionList styles style params color info 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_position_left css-g3xctj-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_position_left css-h9yc08-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -386,7 +386,7 @@ exports[`SelectionList styles style params color info 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -396,7 +396,7 @@ exports[`SelectionList styles style params color info 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_checked QxRadioButton_position_left css-g3xctj-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_checked QxRadioButton_position_left css-h9yc08-QxRadioButton-root"
           >
             <input
               checked=""
@@ -426,7 +426,7 @@ exports[`SelectionList styles style params color info 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -436,7 +436,7 @@ exports[`SelectionList styles style params color info 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_disabled QxRadioButton_position_left css-uumhzm-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_disabled QxRadioButton_position_left css-1aejot4-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -466,7 +466,7 @@ exports[`SelectionList styles style params color info 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -476,7 +476,7 @@ exports[`SelectionList styles style params color info 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-uumhzm-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1aejot4-QxRadioButton-root"
           >
             <input
               checked=""
@@ -517,7 +517,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
     data-testid="testStyleParams-color-secondary"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -527,7 +527,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -556,7 +556,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -566,7 +566,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_checked QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_checked QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               checked=""
@@ -596,7 +596,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -606,7 +606,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_disabled QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_disabled QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -636,7 +636,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -646,7 +646,7 @@ exports[`SelectionList styles style params color secondary 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               checked=""
@@ -687,7 +687,7 @@ exports[`SelectionList styles style params color success 1`] = `
     data-testid="testStyleParams-color-success"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -697,7 +697,7 @@ exports[`SelectionList styles style params color success 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_position_left css-11v9tgu-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_position_left css-1qhb4l9-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -726,7 +726,7 @@ exports[`SelectionList styles style params color success 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -736,7 +736,7 @@ exports[`SelectionList styles style params color success 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_checked QxRadioButton_position_left css-11v9tgu-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_checked QxRadioButton_position_left css-1qhb4l9-QxRadioButton-root"
           >
             <input
               checked=""
@@ -766,7 +766,7 @@ exports[`SelectionList styles style params color success 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -776,7 +776,7 @@ exports[`SelectionList styles style params color success 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_disabled QxRadioButton_position_left css-19vrc49-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_disabled QxRadioButton_position_left css-72h97m-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -806,7 +806,7 @@ exports[`SelectionList styles style params color success 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -816,7 +816,7 @@ exports[`SelectionList styles style params color success 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-19vrc49-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-72h97m-QxRadioButton-root"
           >
             <input
               checked=""
@@ -857,7 +857,7 @@ exports[`SelectionList styles style params color warning 1`] = `
     data-testid="testStyleParams-color-warning"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -867,7 +867,7 @@ exports[`SelectionList styles style params color warning 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_position_left css-32w90i-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_position_left css-r29kwg-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -896,7 +896,7 @@ exports[`SelectionList styles style params color warning 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -906,7 +906,7 @@ exports[`SelectionList styles style params color warning 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_checked QxRadioButton_position_left css-32w90i-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_checked QxRadioButton_position_left css-r29kwg-QxRadioButton-root"
           >
             <input
               checked=""
@@ -936,7 +936,7 @@ exports[`SelectionList styles style params color warning 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -946,7 +946,7 @@ exports[`SelectionList styles style params color warning 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_disabled QxRadioButton_position_left css-18m43zz-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_disabled QxRadioButton_position_left css-1nypywu-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -976,7 +976,7 @@ exports[`SelectionList styles style params color warning 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -986,7 +986,7 @@ exports[`SelectionList styles style params color warning 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-18m43zz-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1nypywu-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1027,7 +1027,7 @@ exports[`SelectionList styles style params size large 1`] = `
     data-testid="testStyleParams-size-large"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1037,7 +1037,7 @@ exports[`SelectionList styles style params size large 1`] = `
           class="QxSelection-controller css-5x071e-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_position_left css-3nyjgd-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_position_left css-gyjvtb-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -1066,7 +1066,7 @@ exports[`SelectionList styles style params size large 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1076,7 +1076,7 @@ exports[`SelectionList styles style params size large 1`] = `
           class="QxSelection-controller css-5x071e-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-3nyjgd-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-gyjvtb-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1106,7 +1106,7 @@ exports[`SelectionList styles style params size large 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1116,7 +1116,7 @@ exports[`SelectionList styles style params size large 1`] = `
           class="QxSelection-controller css-5x071e-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1xk5xva-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-tgu7rz-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -1146,7 +1146,7 @@ exports[`SelectionList styles style params size large 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1156,7 +1156,7 @@ exports[`SelectionList styles style params size large 1`] = `
           class="QxSelection-controller css-5x071e-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1xk5xva-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-tgu7rz-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1197,7 +1197,7 @@ exports[`SelectionList styles style params size medium 1`] = `
     data-testid="testStyleParams-size-medium"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1207,7 +1207,7 @@ exports[`SelectionList styles style params size medium 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -1236,7 +1236,7 @@ exports[`SelectionList styles style params size medium 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1246,7 +1246,7 @@ exports[`SelectionList styles style params size medium 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1276,7 +1276,7 @@ exports[`SelectionList styles style params size medium 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1286,7 +1286,7 @@ exports[`SelectionList styles style params size medium 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -1316,7 +1316,7 @@ exports[`SelectionList styles style params size medium 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1326,7 +1326,7 @@ exports[`SelectionList styles style params size medium 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1367,7 +1367,7 @@ exports[`SelectionList styles style params size small 1`] = `
     data-testid="testStyleParams-size-small"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1377,7 +1377,7 @@ exports[`SelectionList styles style params size small 1`] = `
           class="QxSelection-controller css-15ulb7b-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_position_left css-wee296-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_position_left css-pxwhlw-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -1406,7 +1406,7 @@ exports[`SelectionList styles style params size small 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1416,7 +1416,7 @@ exports[`SelectionList styles style params size small 1`] = `
           class="QxSelection-controller css-15ulb7b-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-wee296-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-pxwhlw-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1446,7 +1446,7 @@ exports[`SelectionList styles style params size small 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1456,7 +1456,7 @@ exports[`SelectionList styles style params size small 1`] = `
           class="QxSelection-controller css-15ulb7b-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-ve3rzi-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-fd9n9w-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -1486,7 +1486,7 @@ exports[`SelectionList styles style params size small 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1496,7 +1496,7 @@ exports[`SelectionList styles style params size small 1`] = `
           class="QxSelection-controller css-15ulb7b-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-ve3rzi-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-fd9n9w-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1537,7 +1537,7 @@ exports[`SelectionList styles style params type contained 1`] = `
     data-testid="testStyleParams-type-contained"
   >
     <label
-      class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-krt9lj-QxSelection-root"
+      class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-1umvfb4-QxSelection-root"
       tabindex="0"
     >
       <div
@@ -1547,7 +1547,7 @@ exports[`SelectionList styles style params type contained 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -1576,7 +1576,7 @@ exports[`SelectionList styles style params type contained 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-krt9lj-QxSelection-root"
+      class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-1umvfb4-QxSelection-root"
       tabindex="0"
     >
       <div
@@ -1586,7 +1586,7 @@ exports[`SelectionList styles style params type contained 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_checked QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_checked QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1616,7 +1616,7 @@ exports[`SelectionList styles style params type contained 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_contained QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-e6zxte-QxSelection-root"
+      class="QxSelection QxSelection_type_contained QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-19jrqtz-QxSelection-root"
       tabindex="0"
     >
       <div
@@ -1626,7 +1626,7 @@ exports[`SelectionList styles style params type contained 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_disabled QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_disabled QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -1656,7 +1656,7 @@ exports[`SelectionList styles style params type contained 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_contained QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-e6zxte-QxSelection-root"
+      class="QxSelection QxSelection_type_contained QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-19jrqtz-QxSelection-root"
       tabindex="0"
     >
       <div
@@ -1666,7 +1666,7 @@ exports[`SelectionList styles style params type contained 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disableFocus QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1707,7 +1707,7 @@ exports[`SelectionList styles style params type text 1`] = `
     data-testid="testStyleParams-type-text"
   >
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1717,7 +1717,7 @@ exports[`SelectionList styles style params type text 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-1174crx-QxRadioButton-input"
@@ -1746,7 +1746,7 @@ exports[`SelectionList styles style params type text 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-ynfr9u-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1756,7 +1756,7 @@ exports[`SelectionList styles style params type text 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_checked QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
           >
             <input
               checked=""
@@ -1786,7 +1786,7 @@ exports[`SelectionList styles style params type text 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1796,7 +1796,7 @@ exports[`SelectionList styles style params type text 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               class="QxRadioButton-input css-l1mh22-QxRadioButton-input"
@@ -1826,7 +1826,7 @@ exports[`SelectionList styles style params type text 1`] = `
       </div>
     </label>
     <label
-      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1npfkvy-QxSelection-root"
+      class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
       tabindex="-1"
     >
       <div
@@ -1836,7 +1836,7 @@ exports[`SelectionList styles style params type text 1`] = `
           class="QxSelection-controller css-1vx60az-QxSelection-controller"
         >
           <label
-            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+            class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_checked QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
           >
             <input
               checked=""

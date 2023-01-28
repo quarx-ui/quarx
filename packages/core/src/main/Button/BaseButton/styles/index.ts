@@ -46,6 +46,7 @@ export const useStyles = makeStyles((
                 padding: `${calcPaddingY} ${calcPaddingX}`,
                 borderWidth: cssVar(cssBorderWidth),
                 height: 'max-content',
+                '-webkit-tap-highlight-color': 'transparent',
 
                 transition: transitions.create(['background-color', 'border-color'], {
                     duration: transitions.duration.shorter,

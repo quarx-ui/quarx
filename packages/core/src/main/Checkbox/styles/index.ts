@@ -74,6 +74,7 @@ export const useStyles = makeStyles((
                 display: 'flex',
                 alignItems: 'center',
                 cursor: 'pointer',
+                '-webkit-tap-highlight-color': 'transparent',
                 transition: transitions.create('color', {
                     duration: transitions.duration.short,
                 }),

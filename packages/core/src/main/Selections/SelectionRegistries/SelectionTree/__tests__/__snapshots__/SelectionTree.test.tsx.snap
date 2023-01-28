@@ -13,7 +13,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -23,7 +23,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -74,7 +74,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -84,7 +84,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -136,7 +136,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -146,7 +146,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -198,7 +198,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -208,7 +208,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -281,7 +281,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -291,7 +291,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -335,7 +335,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -345,7 +345,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -396,7 +396,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -406,7 +406,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -457,7 +457,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -467,7 +467,7 @@ exports[`SelectionTree styles style params color brand 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -531,7 +531,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -541,7 +541,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -592,7 +592,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -602,7 +602,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -654,7 +654,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -664,7 +664,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -716,7 +716,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -726,7 +726,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -799,7 +799,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -809,7 +809,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -853,7 +853,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -863,7 +863,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -914,7 +914,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -924,7 +924,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -975,7 +975,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_danger QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -985,7 +985,7 @@ exports[`SelectionTree styles style params color danger 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -1049,7 +1049,7 @@ exports[`SelectionTree styles style params color info 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1059,7 +1059,7 @@ exports[`SelectionTree styles style params color info 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -1110,7 +1110,7 @@ exports[`SelectionTree styles style params color info 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1120,7 +1120,7 @@ exports[`SelectionTree styles style params color info 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -1172,7 +1172,7 @@ exports[`SelectionTree styles style params color info 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1182,7 +1182,7 @@ exports[`SelectionTree styles style params color info 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -1234,7 +1234,7 @@ exports[`SelectionTree styles style params color info 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1244,7 +1244,7 @@ exports[`SelectionTree styles style params color info 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -1317,7 +1317,7 @@ exports[`SelectionTree styles style params color info 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1327,7 +1327,7 @@ exports[`SelectionTree styles style params color info 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -1371,7 +1371,7 @@ exports[`SelectionTree styles style params color info 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -1381,7 +1381,7 @@ exports[`SelectionTree styles style params color info 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -1432,7 +1432,7 @@ exports[`SelectionTree styles style params color info 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -1442,7 +1442,7 @@ exports[`SelectionTree styles style params color info 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -1493,7 +1493,7 @@ exports[`SelectionTree styles style params color info 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_info QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -1503,7 +1503,7 @@ exports[`SelectionTree styles style params color info 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -1567,7 +1567,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1577,7 +1577,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -1628,7 +1628,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1638,7 +1638,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -1690,7 +1690,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1700,7 +1700,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -1752,7 +1752,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1762,7 +1762,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -1835,7 +1835,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -1845,7 +1845,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -1889,7 +1889,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -1899,7 +1899,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -1950,7 +1950,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -1960,7 +1960,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -2011,7 +2011,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_secondary QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -2021,7 +2021,7 @@ exports[`SelectionTree styles style params color secondary 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -2085,7 +2085,7 @@ exports[`SelectionTree styles style params color success 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2095,7 +2095,7 @@ exports[`SelectionTree styles style params color success 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2146,7 +2146,7 @@ exports[`SelectionTree styles style params color success 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2156,7 +2156,7 @@ exports[`SelectionTree styles style params color success 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -2208,7 +2208,7 @@ exports[`SelectionTree styles style params color success 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2218,7 +2218,7 @@ exports[`SelectionTree styles style params color success 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2270,7 +2270,7 @@ exports[`SelectionTree styles style params color success 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2280,7 +2280,7 @@ exports[`SelectionTree styles style params color success 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -2353,7 +2353,7 @@ exports[`SelectionTree styles style params color success 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2363,7 +2363,7 @@ exports[`SelectionTree styles style params color success 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -2407,7 +2407,7 @@ exports[`SelectionTree styles style params color success 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -2417,7 +2417,7 @@ exports[`SelectionTree styles style params color success 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2468,7 +2468,7 @@ exports[`SelectionTree styles style params color success 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -2478,7 +2478,7 @@ exports[`SelectionTree styles style params color success 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2529,7 +2529,7 @@ exports[`SelectionTree styles style params color success 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_success QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -2539,7 +2539,7 @@ exports[`SelectionTree styles style params color success 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -2603,7 +2603,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2613,7 +2613,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2664,7 +2664,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2674,7 +2674,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -2726,7 +2726,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2736,7 +2736,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2788,7 +2788,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2798,7 +2798,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -2871,7 +2871,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -2881,7 +2881,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -2925,7 +2925,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -2935,7 +2935,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -2986,7 +2986,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -2996,7 +2996,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
@@ -3047,7 +3047,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_warning QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -3057,7 +3057,7 @@ exports[`SelectionTree styles style params color warning 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -3121,7 +3121,7 @@ exports[`SelectionTree styles style params size large 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3131,7 +3131,7 @@ exports[`SelectionTree styles style params size large 1`] = `
             class="QxSelection-controller css-5x071e-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -3182,7 +3182,7 @@ exports[`SelectionTree styles style params size large 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3192,7 +3192,7 @@ exports[`SelectionTree styles style params size large 1`] = `
             class="QxSelection-controller css-5x071e-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -3244,7 +3244,7 @@ exports[`SelectionTree styles style params size large 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3254,7 +3254,7 @@ exports[`SelectionTree styles style params size large 1`] = `
             class="QxSelection-controller css-5x071e-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -3306,7 +3306,7 @@ exports[`SelectionTree styles style params size large 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3316,7 +3316,7 @@ exports[`SelectionTree styles style params size large 1`] = `
             class="QxSelection-controller css-5x071e-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -3389,7 +3389,7 @@ exports[`SelectionTree styles style params size large 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3399,7 +3399,7 @@ exports[`SelectionTree styles style params size large 1`] = `
             class="QxSelection-controller css-5x071e-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -3443,7 +3443,7 @@ exports[`SelectionTree styles style params size large 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -3453,7 +3453,7 @@ exports[`SelectionTree styles style params size large 1`] = `
               class="QxSelection-controller css-5x071e-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -3504,7 +3504,7 @@ exports[`SelectionTree styles style params size large 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -3514,7 +3514,7 @@ exports[`SelectionTree styles style params size large 1`] = `
               class="QxSelection-controller css-5x071e-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -3565,7 +3565,7 @@ exports[`SelectionTree styles style params size large 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-axsijz-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_large QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -3575,7 +3575,7 @@ exports[`SelectionTree styles style params size large 1`] = `
               class="QxSelection-controller css-5x071e-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -3639,7 +3639,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3649,7 +3649,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -3700,7 +3700,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3710,7 +3710,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -3762,7 +3762,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3772,7 +3772,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -3824,7 +3824,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3834,7 +3834,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -3907,7 +3907,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -3917,7 +3917,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -3961,7 +3961,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -3971,7 +3971,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4022,7 +4022,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -4032,7 +4032,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4083,7 +4083,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -4093,7 +4093,7 @@ exports[`SelectionTree styles style params size medium 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -4157,7 +4157,7 @@ exports[`SelectionTree styles style params size small 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4167,7 +4167,7 @@ exports[`SelectionTree styles style params size small 1`] = `
             class="QxSelection-controller css-15ulb7b-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4218,7 +4218,7 @@ exports[`SelectionTree styles style params size small 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4228,7 +4228,7 @@ exports[`SelectionTree styles style params size small 1`] = `
             class="QxSelection-controller css-15ulb7b-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -4280,7 +4280,7 @@ exports[`SelectionTree styles style params size small 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4290,7 +4290,7 @@ exports[`SelectionTree styles style params size small 1`] = `
             class="QxSelection-controller css-15ulb7b-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4342,7 +4342,7 @@ exports[`SelectionTree styles style params size small 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4352,7 +4352,7 @@ exports[`SelectionTree styles style params size small 1`] = `
             class="QxSelection-controller css-15ulb7b-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -4425,7 +4425,7 @@ exports[`SelectionTree styles style params size small 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4435,7 +4435,7 @@ exports[`SelectionTree styles style params size small 1`] = `
             class="QxSelection-controller css-15ulb7b-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -4479,7 +4479,7 @@ exports[`SelectionTree styles style params size small 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -4489,7 +4489,7 @@ exports[`SelectionTree styles style params size small 1`] = `
               class="QxSelection-controller css-15ulb7b-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4540,7 +4540,7 @@ exports[`SelectionTree styles style params size small 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -4550,7 +4550,7 @@ exports[`SelectionTree styles style params size small 1`] = `
               class="QxSelection-controller css-15ulb7b-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4601,7 +4601,7 @@ exports[`SelectionTree styles style params size small 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1fftd40-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_small QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -4611,7 +4611,7 @@ exports[`SelectionTree styles style params size small 1`] = `
               class="QxSelection-controller css-15ulb7b-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -4675,7 +4675,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4685,7 +4685,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4736,7 +4736,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4746,7 +4746,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -4798,7 +4798,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4808,7 +4808,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -4860,7 +4860,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4870,7 +4870,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -4943,7 +4943,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -4953,7 +4953,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -4997,7 +4997,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -5007,7 +5007,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -5058,7 +5058,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -5068,7 +5068,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -5119,7 +5119,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -5129,7 +5129,7 @@ exports[`SelectionTree styles style params type contained 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
@@ -5193,7 +5193,7 @@ exports[`SelectionTree styles style params type text 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -5203,7 +5203,7 @@ exports[`SelectionTree styles style params type text 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -5254,7 +5254,7 @@ exports[`SelectionTree styles style params type text 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -5264,7 +5264,7 @@ exports[`SelectionTree styles style params type text 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -5316,7 +5316,7 @@ exports[`SelectionTree styles style params type text 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -5326,7 +5326,7 @@ exports[`SelectionTree styles style params type text 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -5378,7 +5378,7 @@ exports[`SelectionTree styles style params type text 1`] = `
         class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
       />
       <label
-        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -5388,7 +5388,7 @@ exports[`SelectionTree styles style params type text 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -5461,7 +5461,7 @@ exports[`SelectionTree styles style params type text 1`] = `
         </button>
       </div>
       <label
-        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+        class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
         tabindex="-1"
       >
         <div
@@ -5471,7 +5471,7 @@ exports[`SelectionTree styles style params type text 1`] = `
             class="QxSelection-controller css-1vx60az-QxSelection-controller"
           >
             <label
-              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1suwtsh-QxCheckbox-root"
+              class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
             >
               <input
                 checked=""
@@ -5515,7 +5515,7 @@ exports[`SelectionTree styles style params type text 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -5525,7 +5525,7 @@ exports[`SelectionTree styles style params type text 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -5576,7 +5576,7 @@ exports[`SelectionTree styles style params type text 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-7tsts7-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nvhrcf-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -5586,7 +5586,7 @@ exports[`SelectionTree styles style params type text 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1suwtsh-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
               >
                 <input
                   class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
@@ -5637,7 +5637,7 @@ exports[`SelectionTree styles style params type text 1`] = `
           class="QxSelectionTreeNode-leftAdornment css-1wxvqva-QxSelectionTreeNode-leftAdornment"
         />
         <label
-          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-p4dkls-QxSelection-root-QxSelectionTreeNode-selection"
+          class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium QxSelectionTreeNode-selection css-nmfhf0-QxSelection-root-QxSelectionTreeNode-selection"
           tabindex="-1"
         >
           <div
@@ -5647,7 +5647,7 @@ exports[`SelectionTree styles style params type text 1`] = `
               class="QxSelection-controller css-1vx60az-QxSelection-controller"
             >
               <label
-                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1xyausl-QxCheckbox-root"
+                class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_checked QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
               >
                 <input
                   checked=""
