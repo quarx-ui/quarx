@@ -65,6 +65,8 @@ export const useStyles = makeStyles((
             outline: 'none',
 
             cursor: 'pointer',
+            '-webkit-tap-highlight-color': 'transparent',
+
             ...disabled && { cursor: 'not-allowed' },
 
             '&, & *': {

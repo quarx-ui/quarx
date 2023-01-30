@@ -3,7 +3,7 @@
 exports[`Chips snapshots style params active false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-active-false"
     tabindex="0"
     type="button"
@@ -18,7 +18,7 @@ exports[`Chips snapshots style params active false 1`] = `
 exports[`Chips snapshots style params active true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_active QxChips_leftIconExists QxChips_rotateRightIcon css-8vp9tz-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_active QxChips_leftIconExists QxChips_rotateRightIcon css-xkexma-QxChips-root"
     data-testid="testStyleParams-active-true"
     tabindex="0"
     type="button"
@@ -51,7 +51,7 @@ exports[`Chips snapshots style params active true 1`] = `
 exports[`Chips snapshots style params disableFocus false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-disableFocus-false"
     tabindex="0"
     type="button"
@@ -66,7 +66,7 @@ exports[`Chips snapshots style params disableFocus false 1`] = `
 exports[`Chips snapshots style params disableFocus true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disableFocus QxChips_rotateRightIcon css-1rwg5gq-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disableFocus QxChips_rotateRightIcon css-1mxa9i3-QxChips-root"
     data-testid="testStyleParams-disableFocus-true"
     tabindex="-1"
     type="button"
@@ -81,7 +81,7 @@ exports[`Chips snapshots style params disableFocus true 1`] = `
 exports[`Chips snapshots style params disabled false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-disabled-false"
     tabindex="0"
     type="button"
@@ -96,7 +96,7 @@ exports[`Chips snapshots style params disabled false 1`] = `
 exports[`Chips snapshots style params disabled true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disabled QxChips_rotateRightIcon css-zj0nod-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disabled QxChips_rotateRightIcon css-ofx0fs-QxChips-root"
     data-testid="testStyleParams-disabled-true"
     disabled=""
     tabindex="0"
@@ -112,7 +112,7 @@ exports[`Chips snapshots style params disabled true 1`] = `
 exports[`Chips snapshots style params elevation false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-elevation-false"
     tabindex="0"
     type="button"
@@ -127,7 +127,7 @@ exports[`Chips snapshots style params elevation false 1`] = `
 exports[`Chips snapshots style params elevation true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_elevation QxChips_rotateRightIcon css-1yl5uw3-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_elevation QxChips_rotateRightIcon css-oi8rh6-QxChips-root"
     data-testid="testStyleParams-elevation-true"
     tabindex="0"
     type="button"
@@ -142,7 +142,7 @@ exports[`Chips snapshots style params elevation true 1`] = `
 exports[`Chips snapshots style params exists left icon 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists css-8vp9tz-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists css-xkexma-QxChips-root"
     data-testid="testStyleParams-leftIconExists-[object Object]"
     tabindex="0"
     type="button"
@@ -171,7 +171,7 @@ exports[`Chips snapshots style params exists left icon 1`] = `
 exports[`Chips snapshots style params exists right icon 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rightIconExists css-orbi1x-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rightIconExists css-v56nzm-QxChips-root"
     data-testid="testStyleParams-rightIconExists-[object Object]"
     tabindex="0"
     type="button"
@@ -199,7 +199,7 @@ exports[`Chips snapshots style params exists right icon 1`] = `
 exports[`Chips snapshots style params leftIconColor green 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconColor_green QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconColor_green QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-leftIconColor-green"
     tabindex="0"
     type="button"
@@ -214,7 +214,7 @@ exports[`Chips snapshots style params leftIconColor green 1`] = `
 exports[`Chips snapshots style params leftIconExists false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-leftIconExists-false"
     tabindex="0"
     type="button"
@@ -229,7 +229,7 @@ exports[`Chips snapshots style params leftIconExists false 1`] = `
 exports[`Chips snapshots style params rightIconExists false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-rightIconExists-false"
     tabindex="0"
     type="button"
@@ -244,7 +244,7 @@ exports[`Chips snapshots style params rightIconExists false 1`] = `
 exports[`Chips snapshots style params rotateRightIcon false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium css-m5t05i-QxChips-root"
     data-testid="testStyleParams-rotateRightIcon-false"
     tabindex="0"
     type="button"
@@ -259,7 +259,7 @@ exports[`Chips snapshots style params rotateRightIcon false 1`] = `
 exports[`Chips snapshots style params rotateRightIcon true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-rotateRightIcon-true"
     tabindex="0"
     type="button"
@@ -274,7 +274,7 @@ exports[`Chips snapshots style params rotateRightIcon true 1`] = `
 exports[`Chips snapshots style params size medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-size-medium"
     tabindex="0"
     type="button"
@@ -289,7 +289,7 @@ exports[`Chips snapshots style params size medium 1`] = `
 exports[`Chips snapshots style params size small 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_small QxChips_rotateRightIcon css-y4x4t8-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_small QxChips_rotateRightIcon css-110p11-QxChips-root"
     data-testid="testStyleParams-size-small"
     tabindex="0"
     type="button"
@@ -304,7 +304,7 @@ exports[`Chips snapshots style params size small 1`] = `
 exports[`Chips snapshots style params variant filter 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_filter QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_filter QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-variant-filter"
     tabindex="0"
     type="button"
@@ -319,7 +319,7 @@ exports[`Chips snapshots style params variant filter 1`] = `
 exports[`Chips snapshots style params variant input 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-12yo2hf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
     data-testid="testStyleParams-variant-input"
     tabindex="0"
     type="button"

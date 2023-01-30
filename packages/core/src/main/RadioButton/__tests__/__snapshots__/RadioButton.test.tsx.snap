@@ -3,7 +3,7 @@
 exports[`RadioButton style params color brand 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
     data-testid="testStyleParams-color-brand"
   >
     <input
@@ -31,7 +31,7 @@ exports[`RadioButton style params color brand 1`] = `
 exports[`RadioButton style params color danger 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_position_left css-xrj8cn-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_danger QxRadioButton_position_left css-4fg1h4-QxRadioButton-root"
     data-testid="testStyleParams-color-danger"
   >
     <input
@@ -59,7 +59,7 @@ exports[`RadioButton style params color danger 1`] = `
 exports[`RadioButton style params color info 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_position_left css-g3xctj-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_info QxRadioButton_position_left css-h9yc08-QxRadioButton-root"
     data-testid="testStyleParams-color-info"
   >
     <input
@@ -87,7 +87,7 @@ exports[`RadioButton style params color info 1`] = `
 exports[`RadioButton style params color secondary 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_secondary QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
     data-testid="testStyleParams-color-secondary"
   >
     <input
@@ -115,7 +115,7 @@ exports[`RadioButton style params color secondary 1`] = `
 exports[`RadioButton style params color success 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_position_left css-11v9tgu-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_success QxRadioButton_position_left css-1qhb4l9-QxRadioButton-root"
     data-testid="testStyleParams-color-success"
   >
     <input
@@ -143,7 +143,7 @@ exports[`RadioButton style params color success 1`] = `
 exports[`RadioButton style params color warning 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_position_left css-32w90i-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_warning QxRadioButton_position_left css-r29kwg-QxRadioButton-root"
     data-testid="testStyleParams-color-warning"
   >
     <input
@@ -171,7 +171,7 @@ exports[`RadioButton style params color warning 1`] = `
 exports[`RadioButton style params disabled false 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
     data-testid="testStyleParams-disabled-false"
   >
     <input
@@ -199,7 +199,7 @@ exports[`RadioButton style params disabled false 1`] = `
 exports[`RadioButton style params disabled true 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1jj33q9-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_disabled QxRadioButton_position_left css-1sptaub-QxRadioButton-root"
     data-testid="testStyleParams-disabled-true"
   >
     <input
@@ -228,7 +228,7 @@ exports[`RadioButton style params disabled true 1`] = `
 exports[`RadioButton style params position left 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
     data-testid="testStyleParams-position-left"
   >
     <input
@@ -256,7 +256,7 @@ exports[`RadioButton style params position left 1`] = `
 exports[`RadioButton style params position right 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_right css-1fj30sf-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_right css-6s2lcv-QxRadioButton-root"
     data-testid="testStyleParams-position-right"
   >
     <div
@@ -284,7 +284,7 @@ exports[`RadioButton style params position right 1`] = `
 exports[`RadioButton style params size large 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_position_left css-3nyjgd-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_large QxRadioButton_color_brand QxRadioButton_position_left css-gyjvtb-QxRadioButton-root"
     data-testid="testStyleParams-size-large"
   >
     <input
@@ -312,7 +312,7 @@ exports[`RadioButton style params size large 1`] = `
 exports[`RadioButton style params size medium 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-1fj30sf-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_medium QxRadioButton_color_brand QxRadioButton_position_left css-6s2lcv-QxRadioButton-root"
     data-testid="testStyleParams-size-medium"
   >
     <input
@@ -340,7 +340,7 @@ exports[`RadioButton style params size medium 1`] = `
 exports[`RadioButton style params size small 1`] = `
 <DocumentFragment>
   <label
-    class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_position_left css-wee296-QxRadioButton-root"
+    class="QxRadioButton QxRadioButton_size_small QxRadioButton_color_brand QxRadioButton_position_left css-pxwhlw-QxRadioButton-root"
     data-testid="testStyleParams-size-small"
   >
     <input

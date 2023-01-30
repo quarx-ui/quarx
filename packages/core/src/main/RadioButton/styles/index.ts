@@ -37,6 +37,7 @@ export const useStyles = makeStyles((
                 alignItems: 'center',
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
+                '-webkit-tap-highlight-color': 'transparent',
 
                 [cssFocusColor]: palette.border.focus.main,
                 [cssFocusWidth]: '3px',
