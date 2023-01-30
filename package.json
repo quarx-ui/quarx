@@ -39,7 +39,7 @@
     "e2e:serve:o": "cd e2e && yarn run e2e:serve:o",
     "e2e:run": "cd e2e && yarn run e2e:run",
     "ci:figma:icons": "cd ./scripts/figma && yarn update:icons",
-    "new": "ts-node scripts/cli/new.ts"
+    "new": "ts-node scripts/cli/new"
   },
   "workspaces": [
     "packages/*"

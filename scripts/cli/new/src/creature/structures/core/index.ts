@@ -48,15 +48,29 @@ const createStoriesFiles = async ({
     makeDir,
     createFile,
 }: CreateStructureProps): Promise<void> => {
-    const folder = 'stories';
-    const files = { index: `${folder}/${componentName}.story.tsx` };
+    const folder = 'storybook';
+    const sandboxStoryFolder = 'sandbox';
+    const sizesStoryFolder = 'sizes';
+    const files = {
+        index: `${folder}/${componentName}.story.tsx`,
+        sandboxStory: `${folder}/${sandboxStoryFolder}/index.tsx`,
+        sandboxStoryDescription: `${folder}/${sandboxStoryFolder}/description.md`,
+        sizesStory: `${folder}/${sizesStoryFolder}/index.tsx`,
+        sizesStoryDescription: `${folder}/${sizesStoryFolder}/description.md`,
+    };
 
     await makeDir(folder);
+    await makeDir(path.join(folder, sandboxStoryFolder));
+    await makeDir(path.join(folder, sizesStoryFolder));
     await createFile(files.index, CoreLayouts.storybook.storybook(componentName, componentType, parent ?? ''));
+    await createFile(files.sandboxStory, CoreLayouts.storybook.sandboxStory(componentName));
+    await createFile(files.sandboxStoryDescription, '');
+    await createFile(files.sizesStory, CoreLayouts.storybook.sizesStory(componentName));
+    await createFile(files.sizesStoryDescription, '');
 };
 
 const createTestsFiles = async ({
-    options: { name: componentName, type, parent },
+    options: { name: componentName },
     makeDir,
     createFile,
 }: CreateStructureProps): Promise<void> => {

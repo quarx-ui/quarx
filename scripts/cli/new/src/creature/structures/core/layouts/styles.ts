@@ -11,7 +11,9 @@ import { ${componentName}StyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette },
-    {}: ${componentName}StyleParams,
+    {
+        size,
+    }: ${componentName}StyleParams,
     {}: Record<${componentName}CSSVarKeys, string>,
 ) => ({
     root: {},
@@ -21,7 +23,15 @@ export type ${componentName}StyleKeys = KeysFromUseStyles<typeof useStyles>;
 `;
 
 export const types = (componentName: string): string => `\
+import { PickQxSize } from '@core';
+
+export type ${componentName}Size = PickQxSize<'small' | 'medium' | 'large'>;
+
 export interface ${componentName}StyleParams {
+    /** Размер компонента
+     *
+     * @default medium */
+    size: ${componentName}Size;
 }
 `;
 
