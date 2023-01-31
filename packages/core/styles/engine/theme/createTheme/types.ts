@@ -4,6 +4,8 @@ import {
     BackdropProps,
     BadgeProps,
     BaseButtonProps,
+    BreadcrumbProps,
+    BreadcrumbsProps,
     Breakpoints,
     ButtonProps,
     CheckboxProps,
@@ -20,6 +22,7 @@ import {
     DropdownItemProps,
     DropdownItemsGroupProps,
     DropdownProps,
+    DroppedBreadcrumbProps,
     Elevations,
     FooterBlockProps,
     HeaderBlockProps,
@@ -71,6 +74,8 @@ export interface ComponentsProps {
     Backdrop: BackdropProps;
     Badge: BadgeProps;
     BaseButton: BaseButtonProps;
+    Breadcrumb: BreadcrumbProps;
+    Breadcrumbs: BreadcrumbsProps;
     Button: ButtonProps;
     Checkbox: CheckboxProps;
     Chips: ChipsProps;
@@ -81,6 +86,7 @@ export interface ComponentsProps {
     Dropdown: DropdownProps;
     DropdownItem: DropdownItemProps;
     DropdownItemsGroup: DropdownItemsGroupProps;
+    DroppedBreadcrumb: DroppedBreadcrumbProps;
     FooterBlock: FooterBlockProps;
     HeaderBlock: HeaderBlockProps;
     Headline: HeadlineProps;

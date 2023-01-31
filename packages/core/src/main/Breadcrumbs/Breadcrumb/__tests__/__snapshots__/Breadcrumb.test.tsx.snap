@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb style params color brand 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+    data-testid="testStyleParams-color-brand"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params color danger 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+    data-testid="testStyleParams-color-danger"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params color info 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+    data-testid="testStyleParams-color-info"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params color secondary 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+    data-testid="testStyleParams-color-secondary"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params color success 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+    data-testid="testStyleParams-color-success"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params color warning 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+    data-testid="testStyleParams-color-warning"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params disableFocus false 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+    data-testid="testStyleParams-disableFocus-false"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params disableFocus true 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+    data-testid="testStyleParams-disableFocus-true"
+    data-value="1"
+    href="#"
+    tabindex="-1"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params size large 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+    data-testid="testStyleParams-size-large"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params size medium 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+    data-testid="testStyleParams-size-medium"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params size small 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+    data-testid="testStyleParams-size-small"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params type contained 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+    data-testid="testStyleParams-type-contained"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params type link 1`] = `
+<DocumentFragment>
+  <a
+    class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+    data-testid="testStyleParams-type-link"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой за...
+  </a>
+</DocumentFragment>
+`;

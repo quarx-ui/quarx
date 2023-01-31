@@ -1,6 +1,7 @@
 export * from './Alert';
 export * from './Accordion';
 export * from './Badge';
+export * from './Breadcrumbs';
 export * from './Button';
 export * from './Checkbox';
 export * from './Chips';
