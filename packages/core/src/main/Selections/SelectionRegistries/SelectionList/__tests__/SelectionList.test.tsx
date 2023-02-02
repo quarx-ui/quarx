@@ -5,7 +5,8 @@ import {
     SELECTION_LIST_TYPE,
     SelectionList,
     SelectionListProps,
-    SelectionListStyleParams, SelectionListTypes,
+    SelectionListStyleParams,
+    SelectionListTypes,
 } from '@core';
 
 describe('SelectionList', () => {

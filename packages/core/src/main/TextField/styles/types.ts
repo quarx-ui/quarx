@@ -63,7 +63,7 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
     colorBase: TextFieldColorBase;
 
     /** Скругление компонента.
-     * Значения соответствуют токенам объекта `borderRadii`
+     * Значения соответствуют токенам объекта `theme.borderRadii`
      *
      * @default medium */
     borderRadius: TextFieldBorderRadius;
