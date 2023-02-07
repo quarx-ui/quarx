@@ -1,4 +1,4 @@
-import { valuesAsKeysFromArray } from '@core/utils';
+import { valuesAsKeysFromArray } from '@core/enums';
 
 export const PALETTE_COLORS = valuesAsKeysFromArray([
     'brand',

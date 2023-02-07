@@ -1,4 +1,5 @@
-import { Narrow, Values, valuesAsKeysFromArray } from '@core';
+import { Narrow, Values } from '@core/types';
+import { valuesAsKeysFromArray } from './utils';
 
 export const QX_BORDER_SIZE = valuesAsKeysFromArray([
     'xSmall',

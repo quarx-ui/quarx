@@ -1,4 +1,4 @@
-import { valuesAsKeysFromArray } from '@core/utils';
+import { valuesAsKeysFromArray } from '@core/enums';
 
 /* Отсортированы от меньшего значения к большему, это важно! */
 export const BREAKPOINT_KEYS_ARR = [

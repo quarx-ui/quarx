@@ -1,4 +1,4 @@
-import { valuesAsKeysFromArray } from '@core/utils';
+import { valuesAsKeysFromArray } from '@core/enums';
 import { Values } from '@core/types';
 
 export const STACK_DIRECTION = valuesAsKeysFromArray([
