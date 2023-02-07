@@ -1,4 +1,4 @@
-import { valuesAsKeys, valuesAsKeysFromArray } from '.';
+import { valuesAsKeys, valuesAsKeysFromArray } from './index';
 
 describe('valuesAsKeys', () => {
     const expected = {

@@ -1,11 +1,11 @@
 import { Children, ElementType, forwardRef, Fragment, ReactChild } from 'react';
+import { OverridableComponent, OverridableComponentRef } from '@core/types';
 import { usePropsOverwrites } from '@core/styles';
 import { addCssToElement } from '@core/utils';
 import { If } from '../If';
 import { StackProps, StackPropsWithoutHtml } from './types';
 import { STACK_CSS_VARS, useStyles } from './styles';
 import { CHILD_TYPE, ChildType, STACK_DIRECTION, STACK_ORDER } from './styles/constants';
-import { OverridableComponent, OverridableComponentRef } from '../../../types';
 
 /** Контейнер для позиционирования элементов, расположенных на одной оси с равными отступами */
 export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forwardRef(<C extends ElementType = 'div'>(
@@ -22,14 +22,22 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
         order = STACK_ORDER.default,
         direction = STACK_DIRECTION.column,
         justifyContent,
-        alignItems,
+        alignItems = direction === STACK_DIRECTION.column ? 'stretch' : 'center',
         component: Component = 'div',
         divider,
 
         ...restProps
     } = props;
 
-    const params = { order, direction, justifyContent, alignItems, inline, spacing, divider: divider !== undefined };
+    const params = {
+        order,
+        direction,
+        justifyContent,
+        alignItems,
+        inline,
+        spacing,
+        divider: divider !== undefined,
+    };
 
     const styles = useStyles({ ...params, ...styleProps });
 

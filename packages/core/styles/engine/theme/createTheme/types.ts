@@ -12,6 +12,7 @@ import {
     CreatePaletteArg,
     CreateTransitionArg,
     DeepPartial,
+    DividerProps,
     Elevations,
     FooterBlockProps,
     HeaderBlockProps,
@@ -59,6 +60,7 @@ export interface ComponentsProps {
     Chips: ChipsProps;
     Counter: CounterProps;
     Dialog: SidePageProps;
+    Divider: DividerProps;
     FooterBlock: FooterBlockProps;
     HeaderBlock: HeaderBlockProps;
     IconButton: IconButtonProps;

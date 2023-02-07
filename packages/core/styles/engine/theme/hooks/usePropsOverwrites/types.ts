@@ -39,7 +39,7 @@ export interface UsePropsOverwritesReturnType<
     StyleKey extends string,
     CSSVars extends Partial<Record<string, string>>
 > {
-    props: Omit<T, keyof StyleProps<StyleKey, CSSVars>> & Permissions,
+    props: Omit<T, keyof StyleProps<StyleKey, CSSVars> | 'ref'> & Permissions,
     cn: TypedCnFormatter<StyleKey>,
     name: string,
     styleProps: StyleProps<StyleKey, CSSVars>,
