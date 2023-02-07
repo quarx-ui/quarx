@@ -1,4 +1,4 @@
-import { valuesAsKeysFromArray } from '@core/utils';
+import { valuesAsKeysFromArray } from '@core/enums';
 
 export const SIDES = valuesAsKeysFromArray([
     'top',

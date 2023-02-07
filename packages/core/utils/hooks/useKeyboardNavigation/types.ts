@@ -1,9 +1,8 @@
 import { RefObject } from 'react';
 import { Values } from '@core';
-import { ARROW_KEYS, ORIENTATIONS } from './constants';
-import { createValuesAsKeysTypeGuard } from '../../object';
+import { Orientation, createValuesAsKeysTypeGuard } from '@core/enums';
+import { ARROW_KEYS } from './constants';
 
-export type Orientation = Values<typeof ORIENTATIONS>;
 export type ArrowKey = Values<typeof ARROW_KEYS>;
 
 export const isArrowKey = createValuesAsKeysTypeGuard(ARROW_KEYS);

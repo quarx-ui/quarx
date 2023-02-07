@@ -1,5 +1,6 @@
-import { ARROW_KEYS, ORIENTATIONS } from './constants';
-import { ArrowKey, Orientation } from './types';
+import { Orientation, ORIENTATIONS } from '@core/enums';
+import { ARROW_KEYS } from './constants';
+import { ArrowKey } from './types';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const nextFocus = (list: HTMLElement, currentFocus: Element | null): any => {
