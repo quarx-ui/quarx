@@ -1,6 +1,7 @@
 import { Arrangement, Position, Rect } from '../../types';
 import { ARRANGEMENTS } from '../../constants';
 import { isPosition } from '../isPosition';
+import { getBoundingClientRect } from './getBoundingClientRect';
 
 export function getRect(element: HTMLElement | Position, arrangement: Arrangement): Rect {
     if (isPosition(element)) {
@@ -12,7 +13,7 @@ export function getRect(element: HTMLElement | Position, arrangement: Arrangemen
     }
 
     if (arrangement === ARRANGEMENTS.fixed) {
-        return element.getBoundingClientRect().toJSON();
+        return getBoundingClientRect(element);
     }
 
     return {

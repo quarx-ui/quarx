@@ -15,7 +15,7 @@ export interface PopupPropsWithoutHtml extends
     BaseProps,
     Omit<Partial<PopupStyleParams>, keyof OmittedPopupStyleParams>,
     WithClassesAndStyles<PopupStyleKeys, Omit<Partial<PopupStyleParams>, keyof OmittedPopupStyleParams>>,
-    Omit<UseFloatingProps, 'floatingRef'>
+    Omit<UseFloatingProps, 'floatingRef' | 'arrangement'>
 {
     /** Анимация Paper */
     TransitionProps?: Partial<Omit<TransitionProps, 'children'>>;

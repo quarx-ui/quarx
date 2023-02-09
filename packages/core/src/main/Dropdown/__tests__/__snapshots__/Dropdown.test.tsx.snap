@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown enabled all snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
+  >
+    <div
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
+    >
+      <span
+        class="QxDropdown-title css-5cqacw-QxDropdown-title"
+      >
+        Title
+      </span>
+      <div
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
+      >
+        <div
+          class="QxTextField-field css-1rrg5tp-QxTextField-field"
+        >
+          <div
+            class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.1553 17.5695C16.0126 17.4269 15.7868 17.4137 15.6223 17.5303C14.3169 18.4559 12.722 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.722 18.4559 14.3169 17.5303 15.6223C17.4137 15.7868 17.4269 16.0126 17.5695 16.1553L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L16.1553 17.5695ZM17 11C17 14.3137 14.3137 17 11 17C7.68629 17 5 14.3137 5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="QxTextField-content css-3ob657-QxTextField-content"
+          >
+            <input
+              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              placeholder="Test placeholder"
+              size="1"
+              value=""
+            />
+          </div>
+          <div
+            class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+          >
+            <div
+              class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
+        >
+          <div
+            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
+    >
+      Test
+    </div>
+    <div
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Применить
+        </div>
+      </button>
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Сбросить
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_large QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
+  >
+    <div
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
+    >
+      <div
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
+      >
+        <div
+          class="QxTextField-field css-7peyxb-QxTextField-field"
+        >
+          <div
+            class="QxTextField-leftItem QxTextField-sideItem css-1l6ubuc-QxTextField-leftItem-QxTextField-sideItem-TextField"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.1553 17.5695C16.0126 17.4269 15.7868 17.4137 15.6223 17.5303C14.3169 18.4559 12.722 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.722 18.4559 14.3169 17.5303 15.6223C17.4137 15.7868 17.4269 16.0126 17.5695 16.1553L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L16.1553 17.5695ZM17 11C17 14.3137 14.3137 17 11 17C7.68629 17 5 14.3137 5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="QxTextField-content css-1xd1yhs-QxTextField-content"
+          >
+            <input
+              class="QxTextField-input css-194q6zy-QxTextField-input"
+              size="1"
+              value=""
+            />
+          </div>
+          <div
+            class="QxTextField-rightItem QxTextField-sideItem css-660pa-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+          >
+            <div
+              class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
+        >
+          <div
+            class="QxTextField-bottomText css-3ykfv-QxTextField-bottomText"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
+    >
+      Title
+    </div>
+    <div
+      class="QxDropdown-footer css-6oqsar-QxDropdown-footer"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-cbtt8s-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-ovifzf-QxButton-content"
+        >
+          Применить
+        </div>
+      </button>
+      <button
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-rb7ifc-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-ovifzf-QxButton-content"
+        >
+          Сбросить
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
+  >
+    <div
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
+    >
+      <div
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
+      >
+        <div
+          class="QxTextField-field css-1rrg5tp-QxTextField-field"
+        >
+          <div
+            class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.1553 17.5695C16.0126 17.4269 15.7868 17.4137 15.6223 17.5303C14.3169 18.4559 12.722 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.722 18.4559 14.3169 17.5303 15.6223C17.4137 15.7868 17.4269 16.0126 17.5695 16.1553L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L16.1553 17.5695ZM17 11C17 14.3137 14.3137 17 11 17C7.68629 17 5 14.3137 5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="QxTextField-content css-3ob657-QxTextField-content"
+          >
+            <input
+              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              size="1"
+              value=""
+            />
+          </div>
+          <div
+            class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+          >
+            <div
+              class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
+        >
+          <div
+            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
+    >
+      Title
+    </div>
+    <div
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Применить
+        </div>
+      </button>
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Сбросить
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown searchable false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
+  >
+    <div
+      class="QxDropdown-header css-16c9x9e-QxDropdown-header"
+    />
+    <div
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
+    >
+      Title
+    </div>
+    <div
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Применить
+        </div>
+      </button>
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Сбросить
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown searchable true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
+  >
+    <div
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
+    >
+      <div
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
+      >
+        <div
+          class="QxTextField-field css-1rrg5tp-QxTextField-field"
+        >
+          <div
+            class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.1553 17.5695C16.0126 17.4269 15.7868 17.4137 15.6223 17.5303C14.3169 18.4559 12.722 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.722 18.4559 14.3169 17.5303 15.6223C17.4137 15.7868 17.4269 16.0126 17.5695 16.1553L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L16.1553 17.5695ZM17 11C17 14.3137 14.3137 17 11 17C7.68629 17 5 14.3137 5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="QxTextField-content css-3ob657-QxTextField-content"
+          >
+            <input
+              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              size="1"
+              value=""
+            />
+          </div>
+          <div
+            class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+          >
+            <div
+              class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
+        >
+          <div
+            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
+    >
+      Title
+    </div>
+    <div
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Применить
+        </div>
+      </button>
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-lmfykt-QxButton-content"
+        >
+          Сбросить
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Dropdown small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_small QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
+  >
+    <div
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
+    >
+      <div
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
+      >
+        <div
+          class="QxTextField-field css-v79zad-QxTextField-field"
+        >
+          <div
+            class="QxTextField-leftItem QxTextField-sideItem css-12kqoe5-QxTextField-leftItem-QxTextField-sideItem-TextField"
+          >
+            <svg
+              fill="currentColor"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M11.3162 12.3768C11.0893 12.15 10.9759 12.0365 10.8414 12.0188C10.7069 12.001 10.5518 12.0904 10.2416 12.2691C9.43449 12.734 8.4983 13 7.5 13C4.46243 13 2 10.5376 2 7.5C2 4.46243 4.46243 2 7.5 2C10.5376 2 13 4.46243 13 7.5C13 8.4983 12.734 9.43449 12.2691 10.2416C12.0904 10.5518 12.001 10.7069 12.0188 10.8414C12.0365 10.9759 12.15 11.0893 12.3768 11.3162L14.7803 13.7197C15.0732 14.0126 15.0732 14.4874 14.7803 14.7803C14.4874 15.0732 14.0126 15.0732 13.7197 14.7803L11.3162 12.3768ZM11.5 7.5C11.5 9.70914 9.70914 11.5 7.5 11.5C5.29086 11.5 3.5 9.70914 3.5 7.5C3.5 5.29086 5.29086 3.5 7.5 3.5C9.70914 3.5 11.5 5.29086 11.5 7.5Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="QxTextField-content css-1wvjmc6-QxTextField-content"
+          >
+            <input
+              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              size="1"
+              value=""
+            />
+          </div>
+          <div
+            class="QxTextField-rightItem QxTextField-sideItem css-1fqff76-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+          >
+            <div
+              class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
+            >
+              <svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.70714 17.7071C7.31661 18.0976 6.68345 18.0976 6.29292 17.7071C5.9024 17.3166 5.9024 16.6834 6.29292 16.2929L10.5858 12L6.29293 7.70711C5.9024 7.31658 5.9024 6.68342 6.29293 6.29289C6.68345 5.90237 7.31662 5.90237 7.70714 6.29289L12 10.5858L16.2929 6.29289C16.6834 5.90237 17.3166 5.90237 17.7071 6.29289C18.0977 6.68342 18.0977 7.31658 17.7071 7.70711L13.4142 12L17.7071 16.2929C18.0977 16.6834 18.0977 17.3166 17.7071 17.7071C17.3166 18.0976 16.6834 18.0976 16.2929 17.7071L12 13.4142L7.70714 17.7071Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
+        >
+          <div
+            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
+    >
+      Title
+    </div>
+    <div
+      class="QxDropdown-footer css-66pkkd-QxDropdown-footer"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-1oq51is-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-ovifzf-QxButton-content"
+        >
+          Применить
+        </div>
+      </button>
+      <button
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-xym8cg-QxBaseButton-root-QxButton-root"
+        type="button"
+      >
+        <div
+          class="QxButton-content css-ovifzf-QxButton-content"
+        >
+          Сбросить
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

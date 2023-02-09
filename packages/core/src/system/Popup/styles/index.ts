@@ -3,19 +3,20 @@ import {
     makeStyles,
 } from '@core/styles';
 import { cssVar } from '@core';
+import { POPUP_PAPER_REFERENCE } from './constants';
 import { PopupStyleParams } from './types';
 import { PopupCSSVarKeys } from './vars';
 
 export const useStyles = makeStyles((
     { palette },
-    { x, y, disableBackdrop }: PopupStyleParams,
+    { x, y, reference, disableBackdrop }: PopupStyleParams,
     { cssBackgroundColor, cssBorderRadius, cssPadding }: Record<PopupCSSVarKeys, string>,
 ) => ({
     root: {
         boxSizing: 'border-box',
         width: 'fit-content',
-        marginTop: y,
-        marginLeft: x,
+        transform: `translate(${x}px, ${y}px)`,
+
         [cssBackgroundColor]: palette.background.main,
         backgroundColor: cssVar(cssBackgroundColor),
         [cssBorderRadius]: '4px',
@@ -28,6 +29,19 @@ export const useStyles = makeStyles((
             left: 0,
             top: 0,
         },
+
+        ...reference === POPUP_PAPER_REFERENCE.relative && {
+            position: 'absolute',
+        },
+
+        // TODO: Просчитать баги по следующим вариантам:
+        /*
+            relative =>
+              portal  +   backdrop
+              !portal +   backdrop
+              portal  +   !backdrop
+              !portal +   !backdrop
+        */
     },
 }));
 
