@@ -10,8 +10,10 @@ import {
 import { usePropsOverwrites } from '@core/styles';
 import { If } from '@core/src/system/If';
 import { PopupProps } from './types';
-import { useStyles } from './styles';
 import { POPUP_CSS_VARS } from './styles/vars';
+import { POPUP_PAPER_REFERENCE } from './styles/constants';
+import { useStyles } from './styles';
+import { referenceToArrangementMap } from './maps';
 
 export const Popup: FC<PopupProps> = forwardRef<HTMLDivElement, PopupProps>((
     initialProps,
@@ -40,7 +42,7 @@ export const Popup: FC<PopupProps> = forwardRef<HTMLDivElement, PopupProps>((
         disableShift,
         modifiersOptions,
         customModifiers,
-        arrangement,
+        reference = POPUP_PAPER_REFERENCE.window,
         children,
 
         ...restProps
@@ -61,10 +63,10 @@ export const Popup: FC<PopupProps> = forwardRef<HTMLDivElement, PopupProps>((
         disableShift,
         modifiersOptions,
         customModifiers,
-        arrangement,
+        arrangement: referenceToArrangementMap[reference],
     });
 
-    const params = { ...floating, disableBackdrop };
+    const params = { ...floating, disableBackdrop, reference };
     const styles = useStyles({ ...params, ...styleProps });
 
     // TODO: Не работает transition. Добавить в ClickAwayListener возможность проброса внешнего ref дочерним элементам

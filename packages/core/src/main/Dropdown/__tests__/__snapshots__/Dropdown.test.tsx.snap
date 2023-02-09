@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown enabled all snapshot 1`] = `<DocumentFragment />`;
+
+exports[`Dropdown large 1`] = `<DocumentFragment />`;
+
+exports[`Dropdown medium 1`] = `<DocumentFragment />`;
+
+exports[`Dropdown searchable false 1`] = `<DocumentFragment />`;
+
+exports[`Dropdown searchable true 1`] = `<DocumentFragment />`;
+
+exports[`Dropdown small 1`] = `<DocumentFragment />`;

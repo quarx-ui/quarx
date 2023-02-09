@@ -5,17 +5,23 @@ import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { Button, TextField, TextFieldRefType, useBooleanState } from '@core';
 import { StoryDarkerContainer } from '@core/storybook/components';
-import { Popup, PopupProps } from '..';
-
-const defaultArgs = {
-    anchorYOffset: 0,
-    anchorXOffset: 0,
-};
+import { Popup, PopupProps, POPUP_PAPER_REFERENCE } from '..';
 
 interface StorybookPopupProps extends PopupProps {
     anchorYOffset?: number;
     anchorXOffset?: number;
 }
+
+const defaultArgs: Partial<StorybookPopupProps> = {
+    anchorYOffset: 0,
+    anchorXOffset: 0,
+    hidden: false,
+    disableTransition: false,
+    disablePortal: false,
+    disableBackdrop: false,
+    open: false,
+    reference: POPUP_PAPER_REFERENCE.window,
+};
 
 export default {
     title: STORY_PATHS.core.components.system('Popup'),
@@ -31,12 +37,24 @@ export default {
             open: { description: 'Видимость элемента ' },
             anchor: { description: 'Якорный элемент' },
             placement: { description: 'Расположение плавающего элемента ' },
+            modifiersOptions: { description: 'Параметры модификаторов плавающего элемента' },
+            customModifiers: { description: 'Пользовательские модификаторы координат плавающего элемента' },
             disableOffset: { description: 'Убрать отступ между floating и якорным элементами' },
-            disableFlip: { description: '' },
-            disableShift: { description: '' },
-            modifiersOptions: { description: '' },
-            customModifiers: { description: '' },
-            arrangement: { description: '' },
+            disableShift: { description: 'Отключение ограничения отрисовки только внутри видимой области' },
+            disableFlip: {
+                description: [
+                    'Отключение переворота при',
+                    'отсутствии свободного места',
+                    'для корректной отрисовки',
+                ].join(' '),
+            },
+            reference: {
+                description: [
+                    'Позиционирование контейнера.',
+                    'При relative необходимо указать position: relative,',
+                    'относительно которого будут отсчитываться координаты объекта',
+                ].join(' '),
+            },
 
             TransitionProps: { description: 'Анимация Paper' },
             disableTransition: { description: 'Отключение анимации Paper' },
@@ -81,19 +99,23 @@ const Template: Story<StorybookPopupProps> = ({
 
     return (
         <StoryDarkerContainer>
-            <div>
+            <div style={{ position: 'relative' }}>
                 <span>{text}</span>
                 <Button
                     ref={anchor}
                     type="outlined"
                     onClick={setTrue}
-                    css={{
+                    style={{
                         marginTop: anchorYOffset,
                         marginLeft: anchorXOffset,
                     }}
                 >
                     Показать
                 </Button>
+                <span style={{ display: 'block', marginTop: 8 }}>
+                    Для тестирования relative используйте disablePortal.
+                    Внешний div проставлен в position: relative
+                </span>
                 <Popup
                     {...props}
                     open={state}
