@@ -15,7 +15,7 @@ exports[`SidePage keepMounted sidePage always in the document 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="QxOverScreen QxOverScreen_placement_right QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-jjk8i-QxOverScreen-root-QxModal-root-QxSidePage-root"
+    class="QxOverScreen QxOverScreen_placement_right QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-1j86qc0-QxOverScreen-root-QxModal-root-QxSidePage-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -101,7 +101,7 @@ exports[`SidePage keepMounted sidePage always in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-h40h3z-QxOverScreen-root-QxModal-root-QxSidePage-root"
+    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-bobr5g-QxOverScreen-root-QxModal-root-QxSidePage-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -204,7 +204,7 @@ exports[`SidePage sidePage in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxModal_hasFooter QxSidePage css-h40h3z-QxOverScreen-root-QxModal-root-QxSidePage-root"
+    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxModal_hasFooter QxSidePage css-bobr5g-QxOverScreen-root-QxModal-root-QxSidePage-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -317,7 +317,7 @@ exports[`SidePage style params size medium 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-h40h3z-QxOverScreen-root-QxModal-root-QxSidePage-root"
+    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-bobr5g-QxOverScreen-root-QxModal-root-QxSidePage-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-medium"
@@ -387,7 +387,7 @@ exports[`SidePage style params size small 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-h40h3z-QxOverScreen-root-QxModal-root-QxSidePage-root"
+    class="QxOverScreen QxOverScreen_placement_right QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_body QxModal_hasHeader QxSidePage css-bobr5g-QxOverScreen-root-QxModal-root-QxSidePage-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-small"

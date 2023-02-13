@@ -1,4 +1,4 @@
-import { FC, forwardRef, memo, useCallback, useRef, useState } from 'react';
+import { FC, forwardRef, memo, useCallback, useMemo, useRef, useState } from 'react';
 import { TransitionProps as ReactTransitionProps } from 'react-transition-group/Transition';
 import { usePropsOverwrites, useTheme } from '@core/styles';
 import {
@@ -16,7 +16,8 @@ import {
     OVER_SCREEN_ROLE,
 } from '@core/src';
 import { If } from '@core/src/system/If';
-import { mergeRefs, ownerDocument, useEnhancedEffect } from '@core/utils';
+import { mergeRefs, omitProps, ownerDocument, useEnhancedEffect } from '@core/utils';
+import { convertMargins } from '@core/src/system/OverScreen/helpers/getMapStyles/convertOffsets';
 import {
     getMapStyles,
     getScrollbarSize,
@@ -68,8 +69,12 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     } = props;
 
     const [mounted, setMounted] = useState(open);
-
-    const params = { placement, margin, mounted };
+    const convertedMargin = convertMargins(margin);
+    const params = {
+        placement,
+        margin: `${convertedMargin.y1} ${convertedMargin.x1} ${convertedMargin.y2} ${convertedMargin.x2}`,
+        mounted,
+    };
     const styles = useStyles({ ...params, ...styleProps });
 
     // --------------------------- Инициализация значений --------------------------------
@@ -289,15 +294,15 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
 
     const theme = useTheme();
 
-    const commonTransitionProps = {
+    const commonTransitionProps = useMemo(() => ({
         easing: easing ?? {
             enter: theme.transitions.easing.easeOut,
             exit: theme.transitions.easing.easeOutIn,
         },
         timeout,
-    };
+    }), [easing, theme.transitions.easing.easeOut, theme.transitions.easing.easeOutIn, timeout]);
 
-    const transitionProps = {
+    const transitionProps = useMemo(() => ({
         enter: !isDisabledTransition,
         exit: !isDisabledTransition,
         unmountOnExit: !keepMounted,
@@ -321,9 +326,9 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         onEntering,
         onEntered,
         onExited,
-    };
+    }), [TransitionProps, appearance, childUniqAttr, commonTransitionProps, isDisabledTransition, keepMounted, mapStatusToStyles, onEnter, onEntered, onEntering, onExited, open, transitionStyles]);
 
-    const backdropProps = {
+    const backdropProps = useMemo(() => ({
         ...BackdropProps,
         onClick: handleBackdropClick,
         disableTransition: isDisabledTransition,
@@ -332,22 +337,22 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
             ...commonTransitionProps,
             ...BackdropProps?.TransitionProps,
         },
-    };
+    }), [BackdropProps, commonTransitionProps, handleBackdropClick, isDisabledTransition, open]);
 
-    const delayedMounterProps = {
+    const delayedMounterProps = useMemo(() => ({
         ...DelayedMounterProps,
         disableTimeout: true,
         mounted: keepMounted
             ? true
             : mounted,
-    };
+    }), [DelayedMounterProps, keepMounted, mounted]);
 
-    const portalProps = {
+    const portalProps = useMemo(() => ({
         ...PortalProps,
         disablePortal,
-    };
+    }), [PortalProps, disablePortal]);
 
-    const rootProps = {
+    const rootProps = useMemo(() => ({
         tabIndex: currentIndex,
         datatype: OVER_SCREEN_DATATYPE,
         role: OVER_SCREEN_ROLE,
@@ -357,7 +362,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         'aria-hidden': !open,
         onClick: handleClick,
         onKeyDown: handleKeyDown,
-    };
+    }), [currentIndex, handleClick, handleKeyDown, open, restProps, uniqAttr]);
 
     // --------------------------- Макет --------------------------------
 
@@ -367,7 +372,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
                 <div
                     {...rootProps}
                     ref={mergeRefs(ref, overScreenRef)}
-                    className={cn('root', params)}
+                    className={cn('root', omitProps(params, ['margin']))}
                     css={styles.root}
                 >
                     <If condition={!disableBackdrop}>

@@ -14,6 +14,12 @@ export const UNITS = [
     'vh',
     'vmin',
     'vmax',
+    'cqw',
+    'cqh',
+    'cqi',
+    'cqb',
+    'cqmin',
+    'cqmax',
 ] as const;
 
 export const reducedUnits = UNITS.reduce((acc, unit) => {
@@ -26,10 +32,18 @@ export const reducedUnits = UNITS.reduce((acc, unit) => {
 
 export const unitRegex = new RegExp(reducedUnits, 'gi');
 
-export const withUnit = (value?: number | string) =>
-    typeof value === 'string'
-        ? value
-        : `${value ?? 0}px`;
+export const withUnit = (value?: number | string) => {
+    if (typeof value === 'string') {
+        const pxsMatches: string[] = value.match(unitRegex) ?? [];
+
+        if (pxsMatches.length) {
+            return value;
+        }
+
+        return `${parseInt(value, 10) ?? 0}px`
+    }
+    return `${value ?? 0}px`;
+};
 
 export const getSizeWithUnits = (value: string | number, only = false): string => {
     if (typeof value === 'number') {

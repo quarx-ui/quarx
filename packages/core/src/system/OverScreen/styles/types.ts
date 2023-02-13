@@ -5,6 +5,7 @@ export type OverScreenPlacement = Values<typeof OVER_SCREEN_PLACEMENT>;
 
 export interface OmittedOverScreenStyleParams {
     mounted: boolean;
+    margin: string;
 }
 
 export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
@@ -21,9 +22,4 @@ export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
      *
      * @default center */
     placement: OverScreenPlacement;
-
-    /** Отступ от границ контейнера в формате строки 'x[, y]' или числа
-     *
-     * @default 0 */
-    margin: string | number;
 }
