@@ -15,7 +15,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-lxq25u-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-ykwgej-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -101,7 +101,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -204,7 +204,7 @@ exports[`Modal modal in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-19ri4b4-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-q5558t-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -317,7 +317,7 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-scrollBehaviour-body"
@@ -387,7 +387,7 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-scrollBehaviour-window"
@@ -457,7 +457,7 @@ exports[`Modal style params size medium 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-medium"
@@ -527,7 +527,7 @@ exports[`Modal style params size small 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-19ri4b4-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-small"

@@ -41,7 +41,7 @@ export interface ModalPropsWithoutHTML extends
     /** Пропсы передаваемые напрямую компоненту ModalFooter */
     FooterProps?: Partial<FooterBlockProps>;
 
-    /** Пропсы передаваемые напрямую компоненту Drawer */
+    /** Пропсы передаваемые напрямую компоненту OverScreen */
     OverScreenProps?: Partial<OverScreenProps>;
 }
 

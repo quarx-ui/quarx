@@ -93,6 +93,11 @@ export interface OverScreenPropsWithoutHtml extends
 
     /** Величина смещения дочернего элемента в формате строки 'x[, y]' или числа */
     offset?: string | number;
+
+    /** Отступ от границ контейнера в формате строки 'y1[, x1, y2, x2]', числа или массива чисел
+     *
+     * @default 0 */
+    margin?: string | number | [number, number, number?, number?];
 }
 
 export type OverScreenProps = ComponentPropsWithHTML<OverScreenPropsWithoutHtml>;
