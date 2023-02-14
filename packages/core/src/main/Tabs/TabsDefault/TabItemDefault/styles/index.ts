@@ -77,6 +77,7 @@ export const useStyles = makeStyles((
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        whiteSpace: 'nowrap',
     },
     innerPlaceholder: {
         fontWeight: 500,

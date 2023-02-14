@@ -15,6 +15,7 @@ export const useStyles = makeStyles((
     },
     tab: {
         borderRadius: borderRadii[borderRadius],
+        whiteSpace: 'nowrap',
 
         '&:not(:last-of-type)': {
             marginRight: 8,
