@@ -85,6 +85,7 @@ export const TabsSegmented = forwardRef(<T extends TabItem = TabItem>(
                     color={color}
                     borderRadius={borderRadius}
                     component={TabItemComponent}
+                    key={`${itemValue}${forInnerView ? '-inner' : ''}`}
                     {...itemProps}
                     className={clsx(cn('tab'), anyItemProps.className)}
                     css={[

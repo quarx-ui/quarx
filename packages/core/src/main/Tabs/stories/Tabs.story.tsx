@@ -166,7 +166,7 @@ export const Colors: Story<TabsProps> = (props) => DisplayVariants({
     componentProps: props,
     direction: 'vertical',
     component: (p: TabsProps) => (
-        <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+        <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', maxWidth: '100%' }}>
             {TypeVariants({ showSegmented: false })(p)}
             <Tabs
                 {...p}

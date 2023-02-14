@@ -80,6 +80,7 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
                 <TabItemContained
                     size={size}
                     component={TabItemComponent}
+                    key={`${itemValue}${forInnerView ? '-inner' : ''}`}
                     {...itemProps}
                     className={clsx(cn('tab'), anyItemProps.className)}
                     css={styles.tab}

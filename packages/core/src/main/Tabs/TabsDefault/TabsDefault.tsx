@@ -89,6 +89,7 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
                         size={size}
                         line={line}
                         component={TabItemComponent}
+                        key={itemValue}
                         {...itemProps}
                         className={clsx(cn('tab'), anyItemProps.className)}
                         css={styles.tab}

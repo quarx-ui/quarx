@@ -21,6 +21,7 @@ export const useStyles = makeStyles((
         ...hideScrollbar,
     },
     tab: {
+        whiteSpace: 'nowrap',
         '&:not(:last-of-type)': {
             marginRight: 8,
         },
