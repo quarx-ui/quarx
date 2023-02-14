@@ -29,9 +29,9 @@ export interface OverScreenPropsWithoutHtml extends
     open?: boolean;
 
     /** Тип анимации
-     * @property none Отсутствие анимации
-     * @property fade Плавное появление/исчезновение
-     * @property slide Выезд из положения `origin`
+     * - **none** – отсутствие анимации
+     * - **fade** – плавное появление/исчезновение
+     * - **slide** – выезд из положения `origin`
      *
      * @default fade */
     appearance?: OverScreenAppearance;
@@ -83,10 +83,10 @@ export interface OverScreenPropsWithoutHtml extends
     DelayedMounterProps?: Partial<DelayedMounterProps>;
 
     /** Исходное положение компонента относительно `placement`
-     * @property top
-     * @property bottom
-     * @property right
-     * @property left
+     * - **top**
+     * - **bottom**
+     * - **right**
+     * - **left**
      *
      * @default right */
     origin?: OverScreenOrigin;

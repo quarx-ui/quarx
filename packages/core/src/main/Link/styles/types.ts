@@ -8,9 +8,9 @@ export type LinkUnderline = keyof typeof LINK_UNDERLINE;
 export interface LinkStyleParams {
     /** Подчеркивание в ссылке
      *
-     * @property always подчеркивание отображается всегда
-     * @property hover подчеркивание отображается только при наведении
-     * @property none подчеркивание не отображается
+     * - **always** – подчеркивание отображается всегда
+     * - **hover** – подчеркивание отображается только при наведении
+     * - **none** – подчеркивание не отображается
      *
      * @default always */
     underline: LinkUnderline;

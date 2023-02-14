@@ -9,15 +9,15 @@ export interface OmittedOverScreenStyleParams {
 
 export interface OverScreenStyleParams extends OmittedOverScreenStyleParams {
     /** Расположение компонента на странице
-     * @property top
-     * @property bottom
-     * @property right
-     * @property left
-     * @property top-start
-     * @property top-end
-     * @property bottom-start
-     * @property bottom-end
-     * @property center
+     * - **top**
+     * - **bottom**
+     * - **right**
+     * - **left**
+     * - **top-start**
+     * - **top-end**
+     * - **bottom-start**
+     * - **bottom-end**
+     * - **center**
      *
      * @default center */
     placement: OverScreenPlacement;

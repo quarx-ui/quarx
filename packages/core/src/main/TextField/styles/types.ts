@@ -33,8 +33,8 @@ export interface OmittedFieldStyleParams {
 export interface TextFieldStyleParams extends OmittedFieldStyleParams {
     /** Видимость счетчика символов
      *
-     * @property always счетчик отображается всегда
-     * @property focus счетчик отображается при фокусе и сохраняется при введенном значении
+     * - **always** – счетчик отображается всегда
+     * - **focus** – счетчик отображается при фокусе и сохраняется при введенном значении
      *
      * @default always */
     counterVisibleOn: 'always' | 'focus';
@@ -56,8 +56,8 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
 
     /** Цветовая основа
      *
-     * @property main используется на основном фоне
-     * @property secondary используется на дополнительном фоне
+     * - **main** – используется на основном фоне
+     * - **secondary** – используется на дополнительном фоне
      *
      * @default main */
     colorBase: TextFieldColorBase;
@@ -94,9 +94,9 @@ export interface TextFieldStyleParams extends OmittedFieldStyleParams {
 
     /** Состояние, при котором иконка очистки поля будет показана
      *
-     * @property always появляется при вводе текста
-     * @property interact появление иконки, при наведении или при фокусе
-     * @property none отключение иконки
+     * - **always** – появляется при вводе текста
+     * - **interact** – появление иконки, при наведении или при фокусе
+     * - **none** – отключение иконки
      *
      * @default interact */
     clearIconVisibleOn: TextFieldClearIconVisibleOn;

@@ -17,8 +17,8 @@ export interface ModalStyleParams extends OmittedModalStyleParams {
     size: ModalSize;
 
     /** Поведение при вертикальном переполнении компонента
-     * @property window Компонент расширяется вместе с контентом
-     * @property body Компонент расширяется до границ контейнера, а у контента появляется скролл
+     * - **window** – компонент расширяется вместе с контентом
+     * - **body** – компонент расширяется до границ контейнера, а у контента появляется скролл
      *
      * @default body */
     scrollBehaviour: ModalScrollBehavior;

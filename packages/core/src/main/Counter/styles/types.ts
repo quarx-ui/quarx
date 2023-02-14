@@ -11,9 +11,9 @@ export interface CounterStyleParams {
     size: CounterSize;
 
     /** Тип заливки компонента
-     * @property filled
-     * @property white
-     * @property ghosted
+     * - **filled**
+     * - **white**
+     * - **ghosted**
      *
      * @default filled */
     type: CounterType;

@@ -19,8 +19,8 @@ export interface SelectionListStyleParams {
 
     /** Тип группировки компонента
      *
-     * @property contained группа в контейнере
-     * @property text фон компонента прозрачный
+     * - **contained** – группа в контейнере
+     * - **text** – фон компонента прозрачный
      *
      * @default text */
     type: SelectionListTypes;

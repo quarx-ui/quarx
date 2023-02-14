@@ -15,8 +15,8 @@ export interface ModalPropsWithoutHTML extends
     Pick<OverScreenProps, 'onClose' | 'disableCloseByClickAway' | 'open' | 'disableCloseByEscape'>
 {
     /** Расположение переданных кнопок
-     * @property horizontal Горизонтальное расположение
-     * @property vertical Вертикальное расположение
+     * - **horizontal** – горизонтальное расположение
+     * - **vertical** – вертикальное расположение
      *
      * @default vertical */
     footerDirection?: FooterBlockProps['direction'];
