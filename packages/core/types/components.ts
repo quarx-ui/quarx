@@ -7,8 +7,11 @@ export interface Permissions {
 
 export interface WithPermissions {
     /** Объект с правами доступа к компоненту
-     * @param disabled Изменяет состояние компонента на активное/неактивное
-     * @param hidden Удаляет элемент со страницы */
+     * @property disabled
+     * Изменяет состояние компонента на активное/неактивное
+     *
+     * @property hidden
+     * Удаляет элемент со страницы */
     permissions?: Permissions;
 }
 

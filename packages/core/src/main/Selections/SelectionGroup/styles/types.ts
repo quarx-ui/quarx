@@ -20,8 +20,8 @@ export interface SelectionGroupStyleParams {
     /** Тип заливки компонента.
      * Определяет фон компонента, а также цвет его внутренних элементов
      *
-     * @property contained группа в контейнере
-     * @property text фон компонента прозрачный
+     * - **contained** – группа в контейнере
+     * - **text** – фон компонента прозрачный
      *
      * @default text */
     type: SelectionGroupType;

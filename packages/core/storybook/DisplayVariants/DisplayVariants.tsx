@@ -21,23 +21,23 @@ interface BaseVariantProps<VariantProps> extends
     componentProps?: VariantProps | ((property: string, value: DisplayValuesType) => VariantProps);
 
     /** Направление отрисовки.
-     * @param vertical Вертикальное направление. Варианты будут расположены в колонну.
-     * @param horizontal Горизонтальное направление. Варианты будут расположены в ряд. */
+     * - **vertical** – вертикальное направление. Варианты будут расположены в колонну.
+     * - **horizontal** – горизонтальное направление. Варианты будут расположены в ряд. */
     direction?: 'vertical' | 'horizontal';
 }
 
 interface TitleProps {
     /** Размер заголовка
-     * @param primary Основной заголовок
-     * @param secondary Вторичный заголовок */
+     * - **primary** – основной заголовок
+     * - **secondary** – вторичный заголовок */
     size?: 'primary' | 'secondary';
 
     /** Показать/скрыть заголовок */
     isShown?: boolean;
 
     /** Тип заголовка
-     * @param property Название свойства
-     * @param value Значение свойства */
+     * - **property** – название свойства
+     * - **value** – значение свойства */
     type?: 'property' | 'value';
 }
 

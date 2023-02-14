@@ -8,11 +8,9 @@ export interface TabsDefaultStyleParams extends TabsStyleParamsCommon {
     /** Положение линии-индикатора относительно вкладок,
      * доступно только для `Tabs` с типом `default`.
      *
-     * @property up
-     * индикатор отображается сверху
+     * - **up** – индикатор отображается сверху
      *
-     * @property down
-     * индикатор отображается снизу
+     * - **down** – индикатор отображается снизу
      *
      * @default down */
     line: TabsLine;

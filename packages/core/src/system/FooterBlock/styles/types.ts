@@ -12,8 +12,8 @@ export interface FooterBlockStyleParams {
     size: FooterBlockSize;
 
     /** Расположение переданных кнопок
-     * @property horizontal Горизонтальное расположение
-     * @property vertical Вертикальное расположение
+     * - **horizontal** – горизонтальное расположение
+     * - **vertical** – вертикальное расположение
      *
      * @default vertical */
     direction: FooterBlockDirection;

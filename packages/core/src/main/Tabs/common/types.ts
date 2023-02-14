@@ -13,9 +13,9 @@ export interface TabsStyleParamsCommon {
 
     /** Размер компонента
      *
-     * @property small
-     * @property medium
-     * @property large
+     * - **small**
+     * - **medium**
+     * - **large**
      *
      * @default medium */
     size: TabsSize;
