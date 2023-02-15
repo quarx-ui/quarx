@@ -3,58 +3,54 @@ import { PALETTE_COLORS, QX_BORDER_SIZE, QX_SIZE } from '@kit';
 import { initTest } from '@e2e/test-utils';
 import { TestTabsProps } from '../types';
 
-const { test } = initTest<TestTabsProps>('Tabs', {
-    groupBy: ['postfix', 'props', 'value'],
+const { testProps, describe } = initTest<TestTabsProps>('Tabs', {
+    groupBy: ['testName', 'props', 'value'],
 });
 
-test('Tabs', async ({ compareSnapshotsMap }) => {
+describe('Tabs', () => {
     const tabsTestColors = Object.values(PALETTE_COLORS);
     const tabsTestSizes = [QX_SIZE.small, QX_SIZE.medium, QX_SIZE.large];
     const tabsTestRadii = Object.values(QX_BORDER_SIZE);
 
-    await compareSnapshotsMap({
+    testProps('default', {
         targetProps: {
             line: ['up', 'down'],
             color: tabsTestColors,
             size: tabsTestSizes,
         },
-        postfix: 'default',
         commonProps: {
             type: 'default',
         },
     });
 
-    await compareSnapshotsMap({
+    testProps('contained', {
         targetProps: {
             borderRadius: tabsTestRadii,
             color: tabsTestColors,
             size: tabsTestSizes,
         },
-        postfix: 'contained',
         commonProps: {
             type: 'contained',
         },
     });
 
-    await compareSnapshotsMap({
+    testProps('segmented', {
         targetProps: {
             borderRadius: tabsTestRadii,
             color: tabsTestColors,
             size: tabsTestSizes,
         },
-        postfix: 'segmented',
         commonProps: {
             type: 'segmented',
         },
     });
 
-    await compareSnapshotsMap({
+    testProps('icons', {
         targetProps: {
             borderRadius: tabsTestRadii,
             color: tabsTestColors,
             size: tabsTestSizes,
         },
-        postfix: 'icons',
         commonProps: {
             withIcons: true,
         },
