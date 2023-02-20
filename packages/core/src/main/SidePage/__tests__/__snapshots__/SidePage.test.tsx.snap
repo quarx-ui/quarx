@@ -34,7 +34,7 @@ exports[`SidePage keepMounted sidePage always in the document 1`] = `
       style="opacity: 0; transform: translate(1024px, 0px); z-index: -1;"
     >
       <div
-        class="QxModal-box QxSidePage-box css-1awz0sw-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-ou9jp5-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
@@ -120,7 +120,7 @@ exports[`SidePage keepMounted sidePage always in the document 2`] = `
       style="opacity: 1; transform: translate(0px, 0px); transition: transform 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxSidePage-box css-1awz0sw-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-ou9jp5-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
@@ -223,7 +223,7 @@ exports[`SidePage sidePage in the document 2`] = `
       style="opacity: 1; transform: translate(0px, 0px); transition: transform 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxSidePage-box css-1awz0sw-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-ou9jp5-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
@@ -337,7 +337,7 @@ exports[`SidePage style params size medium 1`] = `
       style="opacity: 1; transform: translate(0px, 0px); transition: transform 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxSidePage-box css-1awz0sw-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-ou9jp5-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
@@ -407,7 +407,7 @@ exports[`SidePage style params size small 1`] = `
       style="opacity: 1; transform: translate(0px, 0px); transition: transform 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxModal-box QxSidePage-box css-1bqem3z-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-1dchh15-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_small css-130u650-QxHeaderBlock-root"

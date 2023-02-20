@@ -38,7 +38,7 @@ export const useStyles = makeStyles((
         transition: transitions.create(['width', 'left']),
         borderRadius: borderRadii[borderRadius],
         overflow: 'hidden',
-        boxShadow: elevations.small,
+        ...elevations.main.small,
     },
     pointerInner: {
         display: 'flex',

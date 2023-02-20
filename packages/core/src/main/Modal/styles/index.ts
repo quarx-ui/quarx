@@ -48,8 +48,7 @@ export const useStyles = makeStyles((
     box: [
         {
             borderRadius: cssVar(cssBorderRadius),
-            backgroundColor: palette.background.main,
-            boxShadow: elevations.medium,
+            ...elevations.main.medium,
             color: palette.text.main,
             maxWidth: '100%',
             margin: `${cssVar(cssBoxMargin)} auto`,

@@ -44,17 +44,17 @@ export const useStyles = makeStyles((
     };
 
     const elevationOn = {
-        boxShadow: elevations.small,
+        ...elevations.main.small,
         '&:hover': !disabled && {
+            ...elevations.main.medium,
             backgroundColor: palette.colors.brand.alpha[8],
-            boxShadow: elevations.medium,
         },
         ...press,
         '&:focus-visible': !disabled && !disableFocus && {
             borderColor: 'transparent',
             ...stylesWithFocus({
+                ...elevations.main.medium,
                 borderColor: cssVar(cssFocusColor),
-                boxShadow: elevations.medium,
             }),
         },
     };
@@ -73,8 +73,8 @@ export const useStyles = makeStyles((
         borderColor: palette.colors.brand.border,
         backgroundColor: palette.colors.brand.surface,
         '&:focus-visible': !disabled && !disableFocus && {
+            ...elevations.main.medium,
             borderColor: 'transparent',
-            boxShadow: elevations.medium,
             backgroundColor: palette.colors.brand.bg,
             ...press,
             ...stylesWithFocus({
@@ -101,8 +101,8 @@ export const useStyles = makeStyles((
         },
         ...press,
         '&:focus-visible': !disabled && !disableFocus && {
+            ...elevations.main.medium,
             borderColor: 'transparent',
-            boxShadow: elevations.medium,
             ...stylesWithFocus({
                 borderColor: cssVar(cssFocusColor),
             }),

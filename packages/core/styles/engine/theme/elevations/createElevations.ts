@@ -1,46 +1,56 @@
+import { changeOpacity } from '@core/styles/engine/utils';
 import {
     CreateElevations,
-    ElevationsColorFc,
-    ElevationsInsetFc,
-    ElevationsCreateFc
+    ElevationsCreateFc,
 } from './types';
 import { DARKEST } from '../palette';
-import { DEFAULT_ELEVATIONS, DEFAULT_ELEVATIONS_OBJ } from './constants';
 import {
-    getShadowFromColor,
-    getShadows,
+    getShadowsForSize,
     getShadowsObj
 } from './helpers';
+import { DEFAULT_LIGHT_ELEVATIONS, DEFAULT_LIGHT_ELEVATIONS_OBJ } from './lightElevations';
+import { DEFAULT_DARK_ELEVATIONS_OBJ } from './darkElevations';
 
 export const createElevations: CreateElevations = (elevationsOps, palette) => {
-    const paletteColor = (palette?.type === 'light'
+    const isLightTheme = palette?.type === 'light';
+    const paletteColor = (isLightTheme
         ? palette.text.main
-        : palette?.background.main) ?? DARKEST
+        : palette?.background.textField.secondary) ?? DARKEST;
+    const paletteBackground = isLightTheme
+        ? palette?.background.main
+        : palette?.background.container.hover;
+    const getDefaultColor = (opacity: number) => changeOpacity(paletteColor, opacity / 100);
 
     const defaultOps = {
-        ...DEFAULT_ELEVATIONS_OBJ,
+        ...isLightTheme
+            ? DEFAULT_LIGHT_ELEVATIONS_OBJ
+            : DEFAULT_DARK_ELEVATIONS_OBJ,
         ...(elevationsOps ?? {}),
-    }
+    };
 
-    const elevations = getShadowsObj(defaultOps, paletteColor);
+    const elevations = getShadowsObj(defaultOps, {
+        color: getDefaultColor(12),
+        background: paletteBackground,
+    });
 
-    const setColor: ElevationsColorFc = (color, size = 'medium') => getShadowFromColor(color, defaultOps[size], paletteColor);
-    const inset: ElevationsInsetFc = (size = 'medium') => getShadows(defaultOps[size], paletteColor, true);
     const create: ElevationsCreateFc = (options = {}) => {
         const {
-            color = paletteColor,
+            type = 'main',
+            color = getDefaultColor(type === 'main' ? 12 : 20),
             size = 'medium',
             inset = false,
+            backgroundColor = paletteBackground,
         } = options;
 
-        return getShadows(defaultOps[size], color, inset);
-    }
+        return getShadowsForSize(defaultOps[type][size], {
+            color, inset,
+            background: backgroundColor,
+        });
+    };
 
     return {
-        ...DEFAULT_ELEVATIONS,
+        ...DEFAULT_LIGHT_ELEVATIONS,
         ...elevations,
-        setColor,
-        inset,
         create,
     }
 }

@@ -124,7 +124,7 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
 
         '&:hover': {
             cursor: 'pointer',
-            boxShadow: elevations.medium,
+            ...elevations.main.medium,
             transform: 'scale(1.05)',
             backgroundColor: palette.type === 'dark' ? palette.background.container.hover : undefined,
         },
@@ -135,7 +135,7 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
     },
     active: {
         backgroundColor: palette.type === 'dark' ? palette.background.container.hover : undefined,
-        boxShadow: elevations.medium,
+        ...elevations.main.medium,
         transform: 'scale(1.05)',
     },
     search: {

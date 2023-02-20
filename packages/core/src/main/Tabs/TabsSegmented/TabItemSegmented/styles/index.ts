@@ -58,8 +58,7 @@ export const useStyles = makeStyles((
             },
         }),
         selected && { '&&': {
-            backgroundColor: palette.background.main,
-            boxShadow: elevations.small,
+            ...elevations.main.small,
             color: icon
                 ? palette.colors[color].default
                 : palette.text.main,
