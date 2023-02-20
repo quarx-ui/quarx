@@ -1,4 +1,4 @@
-import { DARKEST, LIGHTEST } from '../../theme';
+import { DARKEST, LIGHTEST } from '@core/styles/engine/theme/palette/defaultColors';
 import { changeOpacity } from '../changeOpacity';
 
 interface GradientColor {

@@ -1,6 +1,6 @@
 import { withDocsPage } from '@core/storybook/docsPage';
 import { Story } from '@storybook/react/types-6-0';
-import { ElevationSize, makeStyles } from '@core';
+import { ElevationSize, ElevationType, makeStyles } from '@core';
 import { Div, H2, P, Code } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
@@ -10,43 +10,27 @@ const Documentation = () => (
         <P>
             <strong>elevations</strong>
             &nbsp;- объект, содержащий набор теней для стилизации элементов на странице.
-            Содержит в себе варианты размеров и методы для модификации используемой тени.
+            Содержит в себе варианты размеров и метод для модификации используемой тени.
         </P>
-        <Code>boxShadow: elevations.small</Code>
+        <Code>...elevations.main.small</Code>
         <H2>Размеры</H2>
         <P>
             Всего 5 вариантов размера: xSmall, small, medium, large, xLarge.
             Для выбора размера необходимо указать их в формате:
         </P>
-        <Code>elevations.[size]</Code>
+        <Code>...elevations.[type].[size]</Code>
         <H2>Методы</H2>
         <P>
-            Для задания собственного цвета тени можно использовать метод
-            {' '}
-            <strong>setColor()</strong>
-            , который принимает два параметра.
-            Цвет и размер. Если размер не задан, по умолчанию будет использован medium.
-        </P>
-        <Code>elevations.setColor(color, [size])</Code>
-        <P>
-            Может возникнуть необходимость добавить тени свойство inset.
-            Это можно сделать с помощью метода
-            {' '}
-            <strong>inset()</strong>
-            .
-            Данный метод принимает необязательный параметр size,
-            при отсутствии которого будет использован размер medium.
-        </P>
-        <Code>elevations.inset([size])</Code>
-        <P>
-            Для одновременного применения собственного цвета и свойства inset можно использовать метод
+            Для одновременного применения собственного цвета, типа и свойства inset можно использовать метод
             {' '}
             <strong>create()</strong>
             . Данный метод принимает объект со свойствами: size, color, inset.
         </P>
         <Code>
             {
-                `elevations.create({
+                `\
+elevations.create({
+    type: 'main',
     size: 'small',
     color: 'black',
     inset: true
@@ -62,6 +46,11 @@ const defaultArgTypes = {
         control: { type: 'select' },
         options: ['xSmall', 'small', 'medium', 'large', 'xLarge'],
     },
+    type: {
+        description: 'Тип тени',
+        control: { type: 'select' },
+        options: ['main', 'secondary'],
+    },
 };
 
 export default {
@@ -69,6 +58,7 @@ export default {
     argTypes: defaultArgTypes,
     args: {
         size: 'medium',
+        type: 'main',
     },
     parameters: {
         viewMode: 'docs',
@@ -84,11 +74,12 @@ export default {
 
 interface ElevationStory {
     size: ElevationSize;
+    type: ElevationType;
 }
 
 const useStyles = makeStyles((
-    { palette, borderRadii, elevations },
-    { size }: Required<ElevationStory>,
+    { borderRadii, elevations },
+    { size, type }: Required<ElevationStory>,
 ) => ({
     root: {
         display: 'flex',
@@ -99,8 +90,7 @@ const useStyles = makeStyles((
         borderRadius: borderRadii.small,
         width: 224,
         height: 128,
-        background: palette.background.main,
-        boxShadow: elevations[size],
+        ...elevations[type][size],
     },
 }), { name: 'Sandbox' });
 
