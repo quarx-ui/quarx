@@ -1,6 +1,6 @@
 import { css, CSSObject } from '@emotion/react';
 import { MakeStylesOptions } from './types';
-import { useTheme, Theme } from '../theme';
+import { useTheme} from '../theme';
 import { extractStyles, StylesWithCallback, StylesCallback, Styles } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
 
@@ -19,12 +19,11 @@ import { StylesMap } from '@core/styles/engine/types';
  * переопределения стилей элементов по их ключу
  */
 export function makeStyles<
-    // eslint-disable-next-line @typescript-eslint/ban-types
-    Props extends {},
+    Props extends object,
     ClassKey extends string = string,
     CSSVars extends string = string,
 >(
-    styles: Partial<Styles<ClassKey>> | StylesCallback<ClassKey, Props, CSSVars>,
+    styles: Styles<ClassKey> | StylesCallback<ClassKey, Props, CSSVars>,
     options: MakeStylesOptions = {}
 ): keyof Props extends never
     ? (props?: any) => StylesMap<ClassKey>

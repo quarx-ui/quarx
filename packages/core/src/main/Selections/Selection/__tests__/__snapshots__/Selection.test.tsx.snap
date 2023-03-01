@@ -1,0 +1,1332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selection style params color brand 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-color-brand"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params color danger 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-color-danger"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1hed13w-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-1llkq1p-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params color info 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-color-info"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1qk61sm-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-11p3rny-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params color secondary 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-color-secondary"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-61vz45-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-x7zqoc-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params color success 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-color-success"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1op0lzs-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-1d960bi-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params color warning 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-color-warning"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1kdmzo5-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-ku2xav-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params disableFocus false 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-disableFocus-false"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params disableFocus true 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_disableFocus QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-disableFocus-true"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params disabled false 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-disabled-false"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params disabled true 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
+    data-testid="testStyleParams-disabled-true"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            disabled=""
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1wlxu2x-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-1vekj4l-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-1up8but-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-weudvk-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-1pa91kw-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params hover false 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-hover-false"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params hover true 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_hover QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-hover-true"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_hover css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-1lmw71n-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-1lamof3-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params reverse false 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-reverse-false"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params reverse true 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_reverse QxSelection_color_brand QxSelection_size_medium css-1zai1s-QxSelection-root"
+    data-testid="testStyleParams-reverse-true"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-u01la8-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1cj2szg-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params size large 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-size-large"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-5x071e-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1fj5qrv-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-1o9ft6k-QxCheckbox-icon"
+                fill="currentcolor"
+                height="9"
+                viewBox="0 0 12 9"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.37363 3.289C1.98363 2.899 1.35063 2.899 0.959632 3.289C0.568632 3.68 0.568632 4.313 0.959632 4.704L4.66563 8.41L11.3776 1.707C11.7686 1.317 11.7686 0.684 11.3786 0.293C10.9876 -0.0969995 10.3546 -0.0979995 9.96363 0.292L4.66663 5.582L2.37363 3.289Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-v82vrn-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-1pr55gl-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-2i0732-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params size medium 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-size-medium"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params size small 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-size-small"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-15ulb7b-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-1pzv0x9-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-1pin7cv-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 10 8"
+                width="10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M1.69881 3.43125C1.38681 3.11925 0.880408 3.11925 0.567608 3.43125C0.254808 3.74405 0.254808 4.25045 0.567608 4.56325L3.53241 7.52805L8.90201 2.16565C9.21481 1.85365 9.21481 1.34725 8.90281 1.03445C8.59001 0.722449 8.08361 0.721649 7.77081 1.03365L3.53321 5.26565L1.69881 3.43125Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-wpimqb-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params type contained 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-1umvfb4-QxSelection-root"
+    data-testid="testStyleParams-type-contained"
+    tabindex="0"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_disableFocus css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-hulrmr-QxCheckbox-input"
+            tabindex="-1"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Selection style params type text 1`] = `
+<DocumentFragment>
+  <label
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    data-testid="testStyleParams-type-text"
+    tabindex="-1"
+  >
+    <div
+      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+    >
+      <div
+        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+      >
+        <label
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+        >
+          <input
+            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            tabindex="0"
+            type="checkbox"
+            value=""
+          />
+          <div
+            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+          >
+            <div
+              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+            >
+              <svg
+                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                fill="currentcolor"
+                height="8"
+                viewBox="0 0 11 8"
+                width="11"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+      >
+        <span
+          class="QxSelection-title css-cmzvj1-QxSelection-title"
+        >
+          Title
+        </span>
+        <span
+          class="QxSelection-description css-13lwzeb-QxSelection-description"
+        >
+          Description
+        </span>
+        <span
+          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+        >
+          HelperText
+        </span>
+      </div>
+    </div>
+  </label>
+</DocumentFragment>
+`;

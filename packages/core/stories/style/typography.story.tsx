@@ -1,9 +1,9 @@
-import React from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { withDocsPage } from '@core/storybook/docsPage';
 import { typography } from '@core';
 import styled from '@emotion/styled';
 import { Div, H2, P, Code } from '@storybook/components';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -72,7 +72,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: 'style/typography',
+    title: STORY_PATHS.core.style('typography'),
     argTypes: defaultArgTypes,
     parameters: {
         viewMode: 'docs',
@@ -87,9 +87,9 @@ export default {
 };
 
 interface TypographySandbox {
-    size: 'S' | 'M' | 'L' | 'XL',
-    weight: 'Regular' | 'Semibold' | 'Medium',
-    text: string,
+    size: 'S' | 'M' | 'L' | 'XL';
+    weight: 'Regular' | 'Semibold' | 'Medium';
+    text: string;
 }
 
 export const Sandbox: Story<TypographySandbox> = ({

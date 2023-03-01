@@ -7,6 +7,7 @@ const config: PlaywrightTestConfig = {
     timeout: 60 * 1000,
     testDir: './',
     workers: 3,
+    quiet: true,
     projects: [
         {
             name: 'chromium',

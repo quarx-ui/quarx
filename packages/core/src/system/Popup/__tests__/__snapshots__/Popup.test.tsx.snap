@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup tests disablePortal 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      aria-hidden="false"
+      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      data-component="QxBackdrop"
+      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    >
+      <div
+        class="QxPopup QxPopup_x_-8 QxPopup_y_-8 css-1n8lkmp-QxPopup-root"
+      >
+        Popup content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Popup tests style params disableBackdrop false 1`] = `
+<DocumentFragment>
+  <div
+    aria-hidden="false"
+    class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    data-component="QxBackdrop"
+    style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="QxPopup css-hgsm3k-QxPopup-root"
+      data-testid="testStyleParams-disableBackdrop-false"
+    >
+      Статус
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Popup tests style params disableBackdrop true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxPopup QxPopup_disableBackdrop css-1sitpu4-QxPopup-root"
+    data-testid="testStyleParams-disableBackdrop-true"
+  >
+    Статус
+  </div>
+</DocumentFragment>
+`;

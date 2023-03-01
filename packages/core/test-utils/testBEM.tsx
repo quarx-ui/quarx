@@ -1,4 +1,4 @@
-import React, { ComponentType } from 'react';
+import { ComponentType } from 'react';
 import { screen, render, cleanup } from '@testing-library/react';
 
 export const expectPropsInClasses = (
@@ -36,8 +36,8 @@ export const expectPropsMapInClasses = (element: HTMLElement, qxClassname?: stri
 };
 
 interface TestStyleParamsOptions {
-    capture?: 'element' | 'body',
-    qxClassname?: string
+    capture?: 'element' | 'body';
+    qxClassname?: string;
 }
 
 export const testStyleParams = <

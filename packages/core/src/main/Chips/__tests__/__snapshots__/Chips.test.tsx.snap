@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chips snapshots style params active false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-active-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params active true 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_active QxChips_leftIconExists QxChips_rotateRightIcon css-xkexma-QxChips-root"
+    data-testid="testStyleParams-active-true"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxChips-leftIcon css-3lolv3-QxChips-leftIcon"
+      style="opacity: 1; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params disableFocus false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-disableFocus-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params disableFocus true 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disableFocus QxChips_rotateRightIcon css-1mxa9i3-QxChips-root"
+    data-testid="testStyleParams-disableFocus-true"
+    tabindex="-1"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params disabled false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-disabled-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params disabled true 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disabled QxChips_rotateRightIcon css-ofx0fs-QxChips-root"
+    data-testid="testStyleParams-disabled-true"
+    disabled=""
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params elevation false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-elevation-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params elevation true 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_elevation QxChips_rotateRightIcon css-oi8rh6-QxChips-root"
+    data-testid="testStyleParams-elevation-true"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params exists left icon 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists css-xkexma-QxChips-root"
+    data-testid="testStyleParams-leftIconExists-[object Object]"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxChips-leftIcon css-3lolv3-QxChips-leftIcon"
+      style="opacity: 1; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    >
+      <svg
+        fill="currentColor"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.7761 4.27733C13.0688 3.98468 13.0688 3.51019 12.7761 3.21754C12.4835 2.92488 12.009 2.92488 11.7163 3.21754L8.42058 6.51328C8.22074 6.71312 8.12082 6.81304 7.99666 6.81304C7.87249 6.81304 7.77258 6.71312 7.57274 6.51328L4.27602 3.21656C3.98336 2.92391 3.50888 2.92391 3.21622 3.21656C2.92357 3.50922 2.92357 3.9837 3.21622 4.27636L6.51294 7.57308C6.71278 7.77291 6.8127 7.87283 6.8127 7.99699C6.8127 8.12116 6.71278 8.22108 6.51294 8.42091L3.21607 11.7178C2.92342 12.0104 2.92342 12.4849 3.21607 12.7776C3.50873 13.0702 3.98321 13.0702 4.27587 12.7776L7.57274 9.48071C7.77258 9.28087 7.87249 9.18095 7.99666 9.18095C8.12082 9.18095 8.22074 9.28087 8.42058 9.48071L11.7165 12.7766C12.0091 13.0693 12.4836 13.0693 12.7763 12.7766C13.0689 12.4839 13.0689 12.0095 12.7763 11.7168L9.48037 8.42091C9.28053 8.22108 9.18062 8.12116 9.18062 7.99699C9.18062 7.87283 9.28053 7.77291 9.48037 7.57308L12.7761 4.27733Z"
+        />
+      </svg>
+    </div>
+    <span />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params exists right icon 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rightIconExists css-v56nzm-QxChips-root"
+    data-testid="testStyleParams-rightIconExists-[object Object]"
+    tabindex="0"
+    type="button"
+  >
+    <span />
+    <div
+      class="QxChips-rightIcon css-1rlt4cc-QxChips-rightIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.7761 4.27733C13.0688 3.98468 13.0688 3.51019 12.7761 3.21754C12.4835 2.92488 12.009 2.92488 11.7163 3.21754L8.42058 6.51328C8.22074 6.71312 8.12082 6.81304 7.99666 6.81304C7.87249 6.81304 7.77258 6.71312 7.57274 6.51328L4.27602 3.21656C3.98336 2.92391 3.50888 2.92391 3.21622 3.21656C2.92357 3.50922 2.92357 3.9837 3.21622 4.27636L6.51294 7.57308C6.71278 7.77291 6.8127 7.87283 6.8127 7.99699C6.8127 8.12116 6.71278 8.22108 6.51294 8.42091L3.21607 11.7178C2.92342 12.0104 2.92342 12.4849 3.21607 12.7776C3.50873 13.0702 3.98321 13.0702 4.27587 12.7776L7.57274 9.48071C7.77258 9.28087 7.87249 9.18095 7.99666 9.18095C8.12082 9.18095 8.22074 9.28087 8.42058 9.48071L11.7165 12.7766C12.0091 13.0693 12.4836 13.0693 12.7763 12.7766C13.0689 12.4839 13.0689 12.0095 12.7763 11.7168L9.48037 8.42091C9.28053 8.22108 9.18062 8.12116 9.18062 7.99699C9.18062 7.87283 9.28053 7.77291 9.48037 7.57308L12.7761 4.27733Z"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params leftIconColor green 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconColor_green QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-leftIconColor-green"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params leftIconExists false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-leftIconExists-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params rightIconExists false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-rightIconExists-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params rotateRightIcon false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-rotateRightIcon-false"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params rotateRightIcon true 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-rotateRightIcon-true"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params size medium 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-size-medium"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params size small 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_small QxChips_rotateRightIcon css-110p11-QxChips-root"
+    data-testid="testStyleParams-size-small"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params variant filter 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_filter QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-variant-filter"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params variant input 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-m5t05i-QxChips-root"
+    data-testid="testStyleParams-variant-input"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;

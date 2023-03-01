@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stack style params direction column 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_8px css-1uqk013-QxStack-root"
+    data-testid="testStyleParams-direction-column"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params direction row 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_8px css-1678jv5-QxStack-root"
+    data-testid="testStyleParams-direction-row"
+  >
+    <div
+      class="QxStack-item css-4q95lh-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-4q95lh-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params inline false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_8px css-1uqk013-QxStack-root"
+    data-testid="testStyleParams-inline-false"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params inline true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_inline QxStack_spacing_8px css-15noy1d-QxStack-root"
+    data-testid="testStyleParams-inline-true"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params order default 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_8px css-1uqk013-QxStack-root"
+    data-testid="testStyleParams-order-default"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params order reverse 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_reverse QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_8px css-1afgeio-QxStack-root"
+    data-testid="testStyleParams-order-reverse"
+  >
+    <div
+      class="QxStack-item css-1yzh9ly-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-1yzh9ly-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params spacing 2em 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2em css-1xyqa49-QxStack-root"
+    data-testid="testStyleParams-spacing-2em"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params spacing 8px 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_8px css-1uqk013-QxStack-root"
+    data-testid="testStyleParams-spacing-8px"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stack style params spacing 16px 1`] = `
+<DocumentFragment>
+  <div
+    class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_16px css-16y52w2-QxStack-root"
+    data-testid="testStyleParams-spacing-16px"
+  >
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      1
+    </div>
+    <div
+      class="QxStack-item css-ujwo9i-QxStack-item"
+    >
+      2
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -76,7 +76,7 @@ export const exportIcons = async (): Promise<void> => {
         .map(({
             link,
             ...icon
-        }) => new Promise<{ name: string, params: string, data: string }>(
+        }) => new Promise<{ name: string; params: string; data: string }>(
             (resolve) => axios.get(link, { timeout: 60000 })
                 .then(({ data }) => resolve({
                     ...icon,

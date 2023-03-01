@@ -1,7 +1,6 @@
-/** @jsx jsx */
-import { jsx, ThemeProvider } from '@emotion/react';
+import { ThemeProvider } from '@emotion/react';
 import { Description, Heading, Source, Subheading, Title } from '@storybook/addon-docs';
-import React, { ComponentType, ReactChild, useCallback, useMemo, useState } from 'react';
+import { ComponentType, Fragment, ReactChild, useCallback, useMemo, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { createTheme, makeStyles, Modal, PaletteType, Tabs, TextField, valuesAsKeysFromArray } from '@core';
 import { noCase, pascalCase } from 'change-case';
@@ -131,7 +130,7 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
         },
 
         '&:focus-visible': {
-            boxShadow: `0 0 0 2px ${palette.border.focus[palette.type === 'light' ? 'dark' : 'light']}`,
+            boxShadow: `0 0 0 2px ${palette.border.focus.main}`,
         },
     },
     active: {
@@ -186,18 +185,18 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
 
 export const Icons: Story = () => {
     interface IconMetadata {
-        size: string,
-        params: string[],
-        type: string,
-        style: string,
-        name: string,
-        keywords: string[],
-        Component: ComponentType,
+        size: string;
+        params: string[];
+        type: string;
+        style: string;
+        name: string;
+        keywords: string[];
+        Component: ComponentType;
     }
 
     interface Selected {
-        name: string,
-        params: string[],
+        name: string;
+        params: string[];
     }
 
     const tabs = valuesAsKeysFromArray(['component', 'svg'] as const);
@@ -221,7 +220,7 @@ export const Icons: Story = () => {
         `${pascalCase(name)}Icon`
     );
 
-    const getIconPath = ({ name, params }: {name: string, params: string[]}) => (
+    const getIconPath = ({ name, params }: {name: string; params: string[]}) => (
         [name, ...params].join('/')
     );
 
@@ -272,7 +271,7 @@ export const Icons: Story = () => {
         const variants = groupByName[selected.name];
         if (!variants?.length || variants?.length < 2) { return null; }
         return (
-            <React.Fragment>
+            <Fragment>
                 <Subheading>
                     Варианты
                 </Subheading>
@@ -300,7 +299,7 @@ export const Icons: Story = () => {
                             );
                         })}
                 </Grid>
-            </React.Fragment>
+            </Fragment>
         );
     };
 
@@ -318,7 +317,7 @@ export const Icons: Story = () => {
 
     const examples = {
         [tabs.component]: (
-            <React.Fragment>
+            <Fragment>
                 <Source
                     dark
                     language="tsx"
@@ -329,10 +328,10 @@ export const Icons: Story = () => {
                     language="tsx"
                     code={`<${nameToComponent(selected.name)} />`}
                 />
-            </React.Fragment>
+            </Fragment>
         ),
         [tabs.svg]: (
-            <React.Fragment>
+            <Fragment>
                 <Source
                     dark
                     language="tsx"
@@ -343,7 +342,7 @@ export const Icons: Story = () => {
                     language="tsx"
                     code={`<img src={${pascalCase(selected.name)}Svg} alt="${noCase(selected.name)}" />`}
                 />
-            </React.Fragment>
+            </Fragment>
         ),
     };
 
@@ -388,7 +387,7 @@ export const Icons: Story = () => {
                 const filteredIcons = filterIcons(icons.map((name) => allIconsMap[name]));
                 if (!filteredIcons.length) { return null; }
                 return (
-                    <React.Fragment>
+                    <Fragment>
                         <div css={styles.textCenter}>
                             <Subheading>
                                 {size}
@@ -408,7 +407,7 @@ export const Icons: Story = () => {
                                 </Cell>
                             ))}
                         </Grid>
-                    </React.Fragment>
+                    </Fragment>
                 );
             })}
             <Modal
@@ -416,7 +415,7 @@ export const Icons: Story = () => {
                 onClose={closeModal}
                 title={noCase(selected.name)}
                 body={(
-                    <React.Fragment>
+                    <Fragment>
                         {renderIconInfo()}
                         <Subheading>
                             Использование
@@ -432,7 +431,7 @@ export const Icons: Story = () => {
                         />
                         {examples[currentTab]}
                         {renderVariants()}
-                    </React.Fragment>
+                    </Fragment>
                 )}
             />
         </div>
@@ -447,7 +446,7 @@ const ChangeColor: Story = () => {
 
     const examples: Record<Tab, ReactChild> = {
         [tabs.wrapper]: (
-            <React.Fragment>
+            <Fragment>
                 <Source
                     dark
                     language="tsx"
@@ -458,10 +457,10 @@ const ChangeColor: Story = () => {
                     language="tsx"
                     code={code.color.wrapper.usage}
                 />
-            </React.Fragment>
+            </Fragment>
         ),
         [tabs.icon]: (
-            <React.Fragment>
+            <Fragment>
                 <Source
                     dark
                     language="tsx"
@@ -472,7 +471,7 @@ const ChangeColor: Story = () => {
                     language="tsx"
                     code={code.color.icon.usage}
                 />
-            </React.Fragment>
+            </Fragment>
         ),
     };
 

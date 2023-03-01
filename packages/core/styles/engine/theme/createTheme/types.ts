@@ -5,7 +5,7 @@ import {
     Breakpoints,
     ButtonProps,
     CheckboxProps,
-    CheckboxSelectionProps,
+    ChipsProps,
     CounterProps,
     CreateBreakpointsArg,
     CreateElevationArg,
@@ -13,19 +13,25 @@ import {
     CreateTransitionArg,
     DatePickerProps,
     DeepPartial,
+    DividerProps,
     Elevations,
+    FooterBlockProps,
+    HeaderBlockProps,
     IconButtonProps,
     LinkProps,
     LoaderProps,
-    ModalFooterProps,
-    ModalHeaderProps,
     ModalProps,
+    OverScreenProps,
     Palette,
+    PopupProps,
     RadioButtonProps,
-    RadioButtonSelectionProps,
+    SelectionGroupProps,
+    SelectionListProps,
     SelectionProps,
+    SelectionTreeProps,
+    SidePageProps,
+    StackProps,
     SwitcherProps,
-    SwitcherSelectionProps,
     TabItemContainedProps,
     TabItemDefaultProps,
     TabItemSegmentedProps,
@@ -48,6 +54,7 @@ import { HeaderDatePickerProps } from "@core/src/styled/DatePicker/Block/compone
 import { MonthBlockProps } from "@core/src/styled/DatePicker/Block/components/MonthBlock";
 import { OffsetDayBlockProps } from "@core/src/styled/DatePicker/Block/components/OffsetDayBlock/types";
 import { HeaderDatePickerDropdownProps } from "@core/src/styled/DatePicker/Block/components/Dropdown/HeaderButton/types";
+import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -60,19 +67,27 @@ export interface ComponentsProps {
     BaseButton: BaseButtonProps;
     Button: ButtonProps;
     Checkbox: CheckboxProps;
-    CheckboxSelection: CheckboxSelectionProps;
+    Chips: ChipsProps;
     Counter: CounterProps;
+    Dialog: SidePageProps;
+    Divider: DividerProps;
+    FooterBlock: FooterBlockProps;
+    HeaderBlock: HeaderBlockProps;
     IconButton: IconButtonProps;
     Link: LinkProps;
     Loader: LoaderProps;
     Modal: ModalProps;
-    ModalFooter: ModalFooterProps;
-    ModalHeader: ModalHeaderProps;
+    OverScreen: OverScreenProps;
+    Popup: PopupProps;
     RadioButton: RadioButtonProps;
-    RadioButtonSelection: RadioButtonSelectionProps;
     Selection: SelectionProps;
+    SelectionGroup: SelectionGroupProps;
+    SelectionList: SelectionListProps;
+    SelectionTree: SelectionTreeProps;
+    SelectionTreeNode: SelectionTreeNodeProps;
+    SidePage: SidePageProps;
+    Stack: StackProps;
     Switcher: SwitcherProps;
-    SwitcherSelection: SwitcherSelectionProps;
     TabItemContained: TabItemContainedProps;
     TabItemDefault: TabItemDefaultProps;
     TabItemSegmented: TabItemSegmentedProps;

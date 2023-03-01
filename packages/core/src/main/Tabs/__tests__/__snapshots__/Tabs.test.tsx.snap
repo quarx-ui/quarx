@@ -1,0 +1,3212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs type:contained style params borderRadius large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_large QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-borderRadius-large"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-oqltv5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-oqltv5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-oqltv5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-wrsa1q-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-4s6tgh-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-4s6tgh-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-4s6tgh-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params borderRadius max 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_max QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-borderRadius-max"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-v4t4zn-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-v4t4zn-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-v4t4zn-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1hwv40x-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-17k2rtb-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-17k2rtb-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-17k2rtb-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params borderRadius medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-borderRadius-medium"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1lhv7ps-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params borderRadius small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_small QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-borderRadius-small"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-1vqqjx7-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-1vqqjx7-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-1vqqjx7-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1pd39yu-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-1m1ydlx-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-1m1ydlx-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-1m1ydlx-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params borderRadius xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_xLarge QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-borderRadius-xLarge"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-1yef0x0-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-1yef0x0-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-1yef0x0-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-xy74ls-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-mfwuot-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-mfwuot-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-mfwuot-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params borderRadius xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_xSmall QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-borderRadius-xSmall"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-1xnrk18-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-1xnrk18-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-1xnrk18-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-hpyody-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1uv1bon-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1uv1bon-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1uv1bon-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1lhv7ps-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_danger QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-b5bpmw-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-b5bpmw-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-b5bpmw-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-ru89cu-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-3l0ksn-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-3l0ksn-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-3l0ksn-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params color info 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_info QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-color-info"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-90nbqm-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-90nbqm-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-90nbqm-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-149cvww-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-12pwqgj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-12pwqgj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-12pwqgj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_secondary QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-17xdmwh-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-17xdmwh-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-17xdmwh-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1mxo8gr-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-imeunv-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-imeunv-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-imeunv-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params color success 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_success QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-color-success"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1j81ogu-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1j81ogu-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1j81ogu-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1trr7s6-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-eslri1-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-eslri1-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-eslri1-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_warning QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-color-warning"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-ylttft-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-ylttft-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-ylttft-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-t1ecfr-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-uirb32-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-uirb32-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-uirb32-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_large QxTabsContained_color_brand QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-jgm2fi-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-jgm2fi-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-jgm2fi-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1lhv7ps-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-azfh0b-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-azfh0b-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-azfh0b-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_medium QxTabsContained_color_brand QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1id8nf5-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1lhv7ps-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1033hoj-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsContained QxTabsContained_size_small QxTabsContained_color_brand QxTabsContained_borderRadius_medium QxTabs css-v1tl9w-QxTabsContainer-root-QxTabsContained-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-5xb09h-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="-1"
+      type="button"
+    >
+      Главная
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-5xb09h-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Новости
+    </button>
+    <button
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-5xb09h-QxTabItemContained-root-QxTabsContained-tab"
+      tabindex="0"
+      type="button"
+    >
+      Контакты
+    </button>
+    <div
+      class="QxTabsContained-pointer css-1lhv7ps-QxTabsContained-pointer-TabsContained"
+    >
+      <div
+        class="QxTabsContained-pointerInner css-1g23shj-QxTabsContained-pointerInner-TabsContained"
+      >
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1g6om36-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Главная
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1g6om36-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Новости
+        </button>
+        <button
+          area-disabled="true"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1g6om36-QxTabItemContained-root-QxTabsContained-tab"
+          tabindex="-1"
+          type="button"
+        >
+          Контакты
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:contained with counter 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+        <span
+          class="QxTabItemSegmented-counter css-18ywji2-QxTabItemSegmented-counter"
+        >
+          5
+        </span>
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+        <span
+          class="QxTabItemSegmented-counter css-18ywji2-QxTabItemSegmented-counter"
+        >
+          1
+        </span>
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+            <span
+              class="QxTabItemSegmented-counter css-gp0pdx-QxTabItemSegmented-counter"
+            >
+              5
+            </span>
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+            <span
+              class="QxTabItemSegmented-counter css-gp0pdx-QxTabItemSegmented-counter"
+            >
+              1
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_brand QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1m09hik-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_danger QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-3o3px7-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params color info 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_info QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-color-info"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1q3vf1f-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_secondary QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-12lshj4-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params color success 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_success QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-color-success"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1nynfjw-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_warning QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-color-warning"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1cjxhbt-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params line down 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_brand QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-line-down"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1m09hik-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params line up 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_brand QxTabsDefault_line_up QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-line-up"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabItemDefault_selected QxTabsDefault-tab css-1iojkbu-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabsDefault-tab css-128iehz-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabsDefault-tab css-128iehz-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-wnks2v-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_large QxTabsDefault_color_brand QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-14x0lfa-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabsDefault-tab css-19uv9d2-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabsDefault-tab css-19uv9d2-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1m09hik-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_medium QxTabsDefault_color_brand QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-zmmgct-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-1uwcj4i-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1m09hik-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsDefault QxTabsDefault_size_small QxTabsDefault_color_brand QxTabsDefault_line_down QxTabs css-nv26jk-QxTabsContainer-root-QxTabsDefault-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-1751m4m-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Главная
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Главная
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabsDefault-tab css-1yaih7e-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Новости
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Новости
+        </div>
+      </div>
+    </button>
+    <button
+      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabsDefault-tab css-1yaih7e-QxTabItemDefault-root-QxTabsDefault-tab"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="QxTabItemDefault-innerWrapper css-1tkd7eo-QxTabItemDefault-innerWrapper"
+      >
+        <div
+          class="QxTabItemDefault-innerPlaceholder css-12k2isz-QxTabItemDefault-innerPlaceholder"
+        >
+          Контакты
+        </div>
+        <div
+          class="QxTabItemDefault-innerContent css-1msffy5-QxTabItemDefault-innerContent"
+        >
+          Контакты
+        </div>
+      </div>
+    </button>
+    <div
+      class="QxTabsDefault-pointer css-1m09hik-QxTabsDefault-pointer-TabsDefault"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:default with counter 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+        <span
+          class="QxTabItemSegmented-counter css-18ywji2-QxTabItemSegmented-counter"
+        >
+          5
+        </span>
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+        <span
+          class="QxTabItemSegmented-counter css-18ywji2-QxTabItemSegmented-counter"
+        >
+          1
+        </span>
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+            <span
+              class="QxTabItemSegmented-counter css-gp0pdx-QxTabItemSegmented-counter"
+            >
+              5
+            </span>
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+            <span
+              class="QxTabItemSegmented-counter css-gp0pdx-QxTabItemSegmented-counter"
+            >
+              1
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params borderRadius large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_large QxTabs css-clbqux-QxTabsSegmented-root"
+    data-testid="testStyleParams-borderRadius-large"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-1545pb9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-11eu362-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-11eu362-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-1bkenyp-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-1kibdnl-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-1v1wnp9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-1v1wnp9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params borderRadius max 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_max QxTabs css-12xop51-QxTabsSegmented-root"
+    data-testid="testStyleParams-borderRadius-max"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-1bcc32z-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-1e5j3x7-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-1e5j3x7-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-dw88dd-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-120ce9o-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-1w9h2ea-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-1w9h2ea-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params borderRadius medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-borderRadius-medium"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params borderRadius small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_small QxTabs css-8vh6tr-QxTabsSegmented-root"
+    data-testid="testStyleParams-borderRadius-small"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-zn04f0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-1ee4p7z-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-1ee4p7z-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-1vy5n4a-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-5p1bjt-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-1tti7r0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-1tti7r0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params borderRadius xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_xLarge QxTabs css-1vtvu56-QxTabsSegmented-root"
+    data-testid="testStyleParams-borderRadius-xLarge"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-qw7mb7-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-1tucabz-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-1tucabz-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-1d93fia-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-1ja92xf-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-mh4ua6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-mh4ua6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params borderRadius xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_xSmall QxTabs css-1ys0lzp-QxTabsSegmented-root"
+    data-testid="testStyleParams-borderRadius-xSmall"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-1i35ba6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-mt7pa9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-mt7pa9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-sllxwi-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-z7f034-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-no73oj-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-no73oj-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_danger QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params color info 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_info QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-color-info"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_secondary QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params color success 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_success QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-color-success"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_warning QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-color-warning"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_large QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-yjxqw0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1yqh0tm-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1yqh0tm-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1ij3m1c-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1oqt95e-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1oqt95e-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_small QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-qqqaio-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1ch76px-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1ch76px-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1un80zu-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-vhlf2y-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-vhlf2y-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented with counter 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        Главная
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Новости
+        <span
+          class="QxTabItemSegmented-counter css-18ywji2-QxTabItemSegmented-counter"
+        >
+          5
+        </span>
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        Контакты
+        <span
+          class="QxTabItemSegmented-counter css-18ywji2-QxTabItemSegmented-counter"
+        >
+          1
+        </span>
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Главная
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Новости
+            <span
+              class="QxTabItemSegmented-counter css-gp0pdx-QxTabItemSegmented-counter"
+            >
+              5
+            </span>
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            Контакты
+            <span
+              class="QxTabItemSegmented-counter css-gp0pdx-QxTabItemSegmented-counter"
+            >
+              1
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs type:segmented with icons 1`] = `
+<DocumentFragment>
+  <div
+    class="QxTabsSegmented QxTabsSegmented_size_medium QxTabsSegmented_color_brand QxTabsSegmented_borderRadius_medium QxTabs css-g1s0i5-QxTabsSegmented-root"
+  >
+    <div
+      class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-1vck0jg-QxTabsContainer-root-QxTabsSegmented-container"
+    >
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-2dor22-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="-1"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="36"
+          viewBox="0 0 36 36"
+          width="36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 4.99962C25.0002 4.44734 25.4481 3.99979 26.0004 4L31.4981 4.00206C31.7741 4.00217 31.9978 4.22588 31.9979 4.50188L32 9.99962C32.0002 10.5519 31.5527 10.9998 31.0004 11C30.4481 11.0002 30.0002 10.5527 30 10.0004L29.9991 7.51614C23.592 13.9396 15.4296 18.362 6.50919 20.2088L5.20293 20.4792C4.66212 20.5912 4.13293 20.2436 4.02097 19.7027C3.909 19.1619 4.25665 18.6327 4.79747 18.5208L6.10373 18.2503C14.6879 16.4731 22.5384 12.2037 28.6852 6.00101L25.9996 6C25.4473 5.99979 24.9998 5.55191 25 4.99962Z"
+            fill="currentColor"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M24 30.6999C24 30.8655 23.8657 30.9998 23.7 30.9998H22.3C22.1343 30.9998 22 30.8655 22 30.6999V21.3873C22 20.0222 20.6626 19.0582 19.3675 19.4899L15.3675 20.8232C14.5509 21.0955 14 21.8597 14 22.7206L14 30.6998C14 30.8655 13.8657 30.9998 13.7 30.9998H12.3C12.1343 30.9998 12 30.8655 12 30.6999V26.3873C12 25.0222 10.6626 24.0582 9.36754 24.4899L5.36755 25.8232C4.55086 26.0955 4 26.8597 4 27.7206L4 30.6999C4 30.8655 3.86569 30.9998 3.7 30.9998H2.5C1.94772 30.9998 1.5 31.4476 1.5 31.9998C1.5 32.5521 1.94772 32.9998 2.5 32.9998H33.5C34.0523 32.9998 34.5 32.5521 34.5 31.9998C34.5 31.4476 34.0523 30.9998 33.5 30.9998H32.3C32.1343 30.9998 32 30.8655 32 30.6998V16.3873C32 15.0222 30.6626 14.0582 29.3675 14.4899L25.3675 15.8232C24.5509 16.0955 24 16.8597 24 17.7206V30.6999ZM30 30.6999C30 30.8655 29.8657 30.9998 29.7 30.9998H26.3C26.1343 30.9998 26 30.8655 26 30.6999V17.9368C26 17.8077 26.0826 17.6931 26.2051 17.6522L29.6051 16.5189C29.7994 16.4541 30 16.5987 30 16.8035V30.6999ZM20 30.6999C20 30.8655 19.8657 30.9998 19.7 30.9998H16.3C16.1343 30.9998 16 30.8655 16 30.6999L16 22.9368C16 22.8077 16.0826 22.6931 16.2051 22.6522L19.6051 21.5189C19.7994 21.4541 20 21.5987 20 21.8035V30.6999ZM10 30.6999C10 30.8655 9.86569 30.9998 9.7 30.9998H6.3C6.13431 30.9998 6 30.8655 6 30.6999L6 27.9368C6 27.8077 6.08263 27.6931 6.20513 27.6522L9.60513 26.5189C9.79939 26.4541 10 26.5987 10 26.8035V30.6999Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="36"
+          viewBox="0 0 36 36"
+          width="36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M16.5456 3.07385C15.2706 2.71793 14.0078 3.67648 14.0078 5.0002L14 8.97285L6.38168 11.4495C5.55778 11.7173 5 12.4852 5 13.3515V29.3998C5 29.6826 5 29.8241 4.91213 29.9119C4.82426 29.9998 4.68284 29.9998 4.4 29.9998H3C2.44772 29.9998 2 30.4475 2 30.9998C2 31.5521 2.44772 31.9998 3 31.9998L33 31.9998C33.5523 31.9998 34 31.5521 34 30.9998C34 30.4475 33.5523 29.9998 33 29.9998H31.6C31.3172 29.9998 31.1757 29.9998 31.0879 29.9119C31 29.8241 31 29.6826 31 29.3998V8.6067C31 7.70924 30.4022 6.92168 29.5378 6.68037L16.5456 3.07385ZM7 29.3998C7 29.6826 7 29.8241 7.08787 29.9119C7.17574 29.9998 7.31716 29.9998 7.6 29.9998H13.4C13.6828 29.9998 13.8243 29.9998 13.9121 29.9119C14 29.8241 14 29.6826 14 29.3998V11.9019C14 11.5246 14 11.336 13.8763 11.2462C13.7526 11.1563 13.5733 11.2146 13.2145 11.3313L7.69084 13.1269C7.35757 13.2353 7.19094 13.2894 7.09547 13.4209C7 13.5523 7 13.7275 7 14.0779V29.3998ZM16 16.5998C16 16.317 16 16.1756 16.0879 16.0877C16.1757 15.9998 16.3172 15.9998 16.6 15.9998H23C23.5523 15.9998 24 15.5521 24 14.9998C24 14.4475 23.5523 13.9998 23 13.9998H16.6005C16.3175 13.9998 16.1759 13.9998 16.088 13.9119C16.0002 13.8239 16.0003 13.6824 16.0005 13.3993L16.0071 5.78873C16.0074 5.42675 16.0076 5.24576 16.126 5.15582C16.2444 5.06588 16.4188 5.11429 16.7676 5.21111L28.2675 8.40336C28.6199 8.50118 28.7961 8.55009 28.898 8.68421C29 8.81834 29 9.0012 29 9.36692V29.3998C29 29.6826 29 29.8241 28.9121 29.9119C28.8243 29.9998 28.6828 29.9998 28.4 29.9998L16.6 29.9998C16.3172 29.9998 16.1757 29.9998 16.0879 29.9119C16 29.8241 16 29.6826 16 29.3998V26.5998C16 26.3169 16 26.1755 16.0879 26.0877C16.1757 25.9998 16.3172 25.9998 16.6 25.9998H23C23.5523 25.9998 24 25.5521 24 24.9998C24 24.4475 23.5523 23.9998 23 23.9998H16.6C16.3172 23.9998 16.1757 23.9998 16.0879 23.9119C16 23.8241 16 23.6826 16 23.3998V21.5998C16 21.3169 16 21.1755 16.0879 21.0877C16.1757 20.9998 16.3172 20.9998 16.6 20.9998H23C23.5523 20.9998 24 20.5521 24 19.9998C24 19.4475 23.5523 18.9998 23 18.9998H16.6C16.3172 18.9998 16.1757 18.9998 16.0879 18.9119C16 18.8241 16 18.6827 16 18.3998V16.5998Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1y8j20-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="36"
+          viewBox="0 0 36 36"
+          width="36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.1161 6.92365C12.3561 7.16581 12.4762 7.28688 12.603 7.30831C12.7299 7.32974 12.8773 7.25761 13.1722 7.11336C14.6297 6.40027 16.2681 6 18.0001 6C19.7321 6 21.3705 6.40027 22.828 7.11336C23.1229 7.25761 23.2703 7.32974 23.3972 7.30831C23.524 7.28688 23.6441 7.16581 23.8842 6.92365C23.9241 6.8834 23.9645 6.84367 24.0054 6.80447C24.4414 6.387 24.6594 6.17826 24.6294 5.97398C24.5994 5.7697 24.3666 5.65089 23.9009 5.41327C22.1301 4.50962 20.1246 4 18.0001 4C15.8756 4 13.8701 4.50962 12.0993 5.41327C11.6336 5.65089 11.4008 5.7697 11.3708 5.97398C11.3408 6.17826 11.5588 6.387 11.9948 6.80447C12.0357 6.84367 12.0761 6.8834 12.1161 6.92365Z"
+            fill="currentColor"
+          />
+          <path
+            d="M7.12487 18.6622C7.0756 18.3371 7.05096 18.1746 6.96096 18.0824C6.87096 17.9902 6.70266 17.9606 6.36605 17.9014C6.31136 17.8918 6.25691 17.8815 6.2027 17.8705C5.60984 17.7504 5.31341 17.6904 5.16281 17.8313C5.01222 17.9723 5.04712 18.2316 5.11692 18.7503C5.60279 22.3606 7.57061 25.5011 10.3881 27.5396C10.8353 27.8631 11.0589 28.0248 11.2587 27.9514C11.4586 27.878 11.5346 27.5678 11.6867 26.9474C11.7002 26.8924 11.7144 26.8376 11.7292 26.7832C11.8142 26.472 11.8567 26.3164 11.8168 26.2C11.7769 26.0836 11.6529 25.9905 11.4049 25.8044C9.15003 24.1126 7.56634 21.5748 7.12487 18.6622Z"
+            fill="currentColor"
+          />
+          <path
+            d="M24.1834 26.2C24.2233 26.0835 24.3473 25.9905 24.5954 25.8044C26.8502 24.1126 28.4339 21.5748 28.8753 18.6622C28.9246 18.3371 28.9492 18.1746 29.0392 18.0824C29.1292 17.9902 29.2975 17.9606 29.6342 17.9014C29.6888 17.8918 29.7433 17.8815 29.7975 17.8705C30.3904 17.7504 30.6868 17.6904 30.8374 17.8313C30.988 17.9723 30.9531 18.2316 30.8833 18.7503C30.3974 22.3606 28.4296 25.5011 25.6121 27.5396C25.1649 27.8631 24.9413 28.0248 24.7415 27.9514C24.5416 27.878 24.4656 27.5678 24.3135 26.9474C24.3 26.8924 24.2858 26.8376 24.271 26.7832C24.186 26.472 24.1435 26.3164 24.1834 26.2Z"
+            fill="currentColor"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M7.5 7C5.01472 7 3 9.01472 3 11.5C3 13.9853 5.01472 16 7.5 16C9.98528 16 12 13.9853 12 11.5C12 9.01472 9.98528 7 7.5 7ZM5 11.5C5 10.1193 6.11929 9 7.5 9C8.88071 9 10 10.1193 10 11.5C10 12.8807 8.88071 14 7.5 14C6.11929 14 5 12.8807 5 11.5Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M13.5 28.5C13.5 26.0147 15.5147 24 18 24C20.4853 24 22.5 26.0147 22.5 28.5C22.5 30.9853 20.4853 33 18 33C15.5147 33 13.5 30.9853 13.5 28.5ZM18 26C16.6193 26 15.5 27.1193 15.5 28.5C15.5 29.8807 16.6193 31 18 31C19.3807 31 20.5 29.8807 20.5 28.5C20.5 27.1193 19.3807 26 18 26Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M28.5 7C26.0147 7 24 9.01472 24 11.5C24 13.9853 26.0147 16 28.5 16C30.9853 16 33 13.9853 33 11.5C33 9.01472 30.9853 7 28.5 7ZM26 11.5C26 10.1193 27.1193 9 28.5 9C29.8807 9 31 10.1193 31 11.5C31 12.8807 29.8807 14 28.5 14C27.1193 14 26 12.8807 26 11.5Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        class="QxTabsSegmented-pointer css-90ageu-QxTabsSegmented-pointer-TabsSegmented"
+      >
+        <div
+          class="QxTabsSegmented-pointerInner css-9k5fms-QxTabsSegmented-pointerInner-TabsSegmented"
+        >
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-151ps6f-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="36"
+              viewBox="0 0 36 36"
+              width="36"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 4.99962C25.0002 4.44734 25.4481 3.99979 26.0004 4L31.4981 4.00206C31.7741 4.00217 31.9978 4.22588 31.9979 4.50188L32 9.99962C32.0002 10.5519 31.5527 10.9998 31.0004 11C30.4481 11.0002 30.0002 10.5527 30 10.0004L29.9991 7.51614C23.592 13.9396 15.4296 18.362 6.50919 20.2088L5.20293 20.4792C4.66212 20.5912 4.13293 20.2436 4.02097 19.7027C3.909 19.1619 4.25665 18.6327 4.79747 18.5208L6.10373 18.2503C14.6879 16.4731 22.5384 12.2037 28.6852 6.00101L25.9996 6C25.4473 5.99979 24.9998 5.55191 25 4.99962Z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M24 30.6999C24 30.8655 23.8657 30.9998 23.7 30.9998H22.3C22.1343 30.9998 22 30.8655 22 30.6999V21.3873C22 20.0222 20.6626 19.0582 19.3675 19.4899L15.3675 20.8232C14.5509 21.0955 14 21.8597 14 22.7206L14 30.6998C14 30.8655 13.8657 30.9998 13.7 30.9998H12.3C12.1343 30.9998 12 30.8655 12 30.6999V26.3873C12 25.0222 10.6626 24.0582 9.36754 24.4899L5.36755 25.8232C4.55086 26.0955 4 26.8597 4 27.7206L4 30.6999C4 30.8655 3.86569 30.9998 3.7 30.9998H2.5C1.94772 30.9998 1.5 31.4476 1.5 31.9998C1.5 32.5521 1.94772 32.9998 2.5 32.9998H33.5C34.0523 32.9998 34.5 32.5521 34.5 31.9998C34.5 31.4476 34.0523 30.9998 33.5 30.9998H32.3C32.1343 30.9998 32 30.8655 32 30.6998V16.3873C32 15.0222 30.6626 14.0582 29.3675 14.4899L25.3675 15.8232C24.5509 16.0955 24 16.8597 24 17.7206V30.6999ZM30 30.6999C30 30.8655 29.8657 30.9998 29.7 30.9998H26.3C26.1343 30.9998 26 30.8655 26 30.6999V17.9368C26 17.8077 26.0826 17.6931 26.2051 17.6522L29.6051 16.5189C29.7994 16.4541 30 16.5987 30 16.8035V30.6999ZM20 30.6999C20 30.8655 19.8657 30.9998 19.7 30.9998H16.3C16.1343 30.9998 16 30.8655 16 30.6999L16 22.9368C16 22.8077 16.0826 22.6931 16.2051 22.6522L19.6051 21.5189C19.7994 21.4541 20 21.5987 20 21.8035V30.6999ZM10 30.6999C10 30.8655 9.86569 30.9998 9.7 30.9998H6.3C6.13431 30.9998 6 30.8655 6 30.6999L6 27.9368C6 27.8077 6.08263 27.6931 6.20513 27.6522L9.60513 26.5189C9.79939 26.4541 10 26.5987 10 26.8035V30.6999Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="36"
+              viewBox="0 0 36 36"
+              width="36"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.5456 3.07385C15.2706 2.71793 14.0078 3.67648 14.0078 5.0002L14 8.97285L6.38168 11.4495C5.55778 11.7173 5 12.4852 5 13.3515V29.3998C5 29.6826 5 29.8241 4.91213 29.9119C4.82426 29.9998 4.68284 29.9998 4.4 29.9998H3C2.44772 29.9998 2 30.4475 2 30.9998C2 31.5521 2.44772 31.9998 3 31.9998L33 31.9998C33.5523 31.9998 34 31.5521 34 30.9998C34 30.4475 33.5523 29.9998 33 29.9998H31.6C31.3172 29.9998 31.1757 29.9998 31.0879 29.9119C31 29.8241 31 29.6826 31 29.3998V8.6067C31 7.70924 30.4022 6.92168 29.5378 6.68037L16.5456 3.07385ZM7 29.3998C7 29.6826 7 29.8241 7.08787 29.9119C7.17574 29.9998 7.31716 29.9998 7.6 29.9998H13.4C13.6828 29.9998 13.8243 29.9998 13.9121 29.9119C14 29.8241 14 29.6826 14 29.3998V11.9019C14 11.5246 14 11.336 13.8763 11.2462C13.7526 11.1563 13.5733 11.2146 13.2145 11.3313L7.69084 13.1269C7.35757 13.2353 7.19094 13.2894 7.09547 13.4209C7 13.5523 7 13.7275 7 14.0779V29.3998ZM16 16.5998C16 16.317 16 16.1756 16.0879 16.0877C16.1757 15.9998 16.3172 15.9998 16.6 15.9998H23C23.5523 15.9998 24 15.5521 24 14.9998C24 14.4475 23.5523 13.9998 23 13.9998H16.6005C16.3175 13.9998 16.1759 13.9998 16.088 13.9119C16.0002 13.8239 16.0003 13.6824 16.0005 13.3993L16.0071 5.78873C16.0074 5.42675 16.0076 5.24576 16.126 5.15582C16.2444 5.06588 16.4188 5.11429 16.7676 5.21111L28.2675 8.40336C28.6199 8.50118 28.7961 8.55009 28.898 8.68421C29 8.81834 29 9.0012 29 9.36692V29.3998C29 29.6826 29 29.8241 28.9121 29.9119C28.8243 29.9998 28.6828 29.9998 28.4 29.9998L16.6 29.9998C16.3172 29.9998 16.1757 29.9998 16.0879 29.9119C16 29.8241 16 29.6826 16 29.3998V26.5998C16 26.3169 16 26.1755 16.0879 26.0877C16.1757 25.9998 16.3172 25.9998 16.6 25.9998H23C23.5523 25.9998 24 25.5521 24 24.9998C24 24.4475 23.5523 23.9998 23 23.9998H16.6C16.3172 23.9998 16.1757 23.9998 16.0879 23.9119C16 23.8241 16 23.6826 16 23.3998V21.5998C16 21.3169 16 21.1755 16.0879 21.0877C16.1757 20.9998 16.3172 20.9998 16.6 20.9998H23C23.5523 20.9998 24 20.5521 24 19.9998C24 19.4475 23.5523 18.9998 23 18.9998H16.6C16.3172 18.9998 16.1757 18.9998 16.0879 18.9119C16 18.8241 16 18.6827 16 18.3998V16.5998Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            area-disabled="true"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-aq9a0b-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="36"
+              viewBox="0 0 36 36"
+              width="36"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.1161 6.92365C12.3561 7.16581 12.4762 7.28688 12.603 7.30831C12.7299 7.32974 12.8773 7.25761 13.1722 7.11336C14.6297 6.40027 16.2681 6 18.0001 6C19.7321 6 21.3705 6.40027 22.828 7.11336C23.1229 7.25761 23.2703 7.32974 23.3972 7.30831C23.524 7.28688 23.6441 7.16581 23.8842 6.92365C23.9241 6.8834 23.9645 6.84367 24.0054 6.80447C24.4414 6.387 24.6594 6.17826 24.6294 5.97398C24.5994 5.7697 24.3666 5.65089 23.9009 5.41327C22.1301 4.50962 20.1246 4 18.0001 4C15.8756 4 13.8701 4.50962 12.0993 5.41327C11.6336 5.65089 11.4008 5.7697 11.3708 5.97398C11.3408 6.17826 11.5588 6.387 11.9948 6.80447C12.0357 6.84367 12.0761 6.8834 12.1161 6.92365Z"
+                fill="currentColor"
+              />
+              <path
+                d="M7.12487 18.6622C7.0756 18.3371 7.05096 18.1746 6.96096 18.0824C6.87096 17.9902 6.70266 17.9606 6.36605 17.9014C6.31136 17.8918 6.25691 17.8815 6.2027 17.8705C5.60984 17.7504 5.31341 17.6904 5.16281 17.8313C5.01222 17.9723 5.04712 18.2316 5.11692 18.7503C5.60279 22.3606 7.57061 25.5011 10.3881 27.5396C10.8353 27.8631 11.0589 28.0248 11.2587 27.9514C11.4586 27.878 11.5346 27.5678 11.6867 26.9474C11.7002 26.8924 11.7144 26.8376 11.7292 26.7832C11.8142 26.472 11.8567 26.3164 11.8168 26.2C11.7769 26.0836 11.6529 25.9905 11.4049 25.8044C9.15003 24.1126 7.56634 21.5748 7.12487 18.6622Z"
+                fill="currentColor"
+              />
+              <path
+                d="M24.1834 26.2C24.2233 26.0835 24.3473 25.9905 24.5954 25.8044C26.8502 24.1126 28.4339 21.5748 28.8753 18.6622C28.9246 18.3371 28.9492 18.1746 29.0392 18.0824C29.1292 17.9902 29.2975 17.9606 29.6342 17.9014C29.6888 17.8918 29.7433 17.8815 29.7975 17.8705C30.3904 17.7504 30.6868 17.6904 30.8374 17.8313C30.988 17.9723 30.9531 18.2316 30.8833 18.7503C30.3974 22.3606 28.4296 25.5011 25.6121 27.5396C25.1649 27.8631 24.9413 28.0248 24.7415 27.9514C24.5416 27.878 24.4656 27.5678 24.3135 26.9474C24.3 26.8924 24.2858 26.8376 24.271 26.7832C24.186 26.472 24.1435 26.3164 24.1834 26.2Z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M7.5 7C5.01472 7 3 9.01472 3 11.5C3 13.9853 5.01472 16 7.5 16C9.98528 16 12 13.9853 12 11.5C12 9.01472 9.98528 7 7.5 7ZM5 11.5C5 10.1193 6.11929 9 7.5 9C8.88071 9 10 10.1193 10 11.5C10 12.8807 8.88071 14 7.5 14C6.11929 14 5 12.8807 5 11.5Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M13.5 28.5C13.5 26.0147 15.5147 24 18 24C20.4853 24 22.5 26.0147 22.5 28.5C22.5 30.9853 20.4853 33 18 33C15.5147 33 13.5 30.9853 13.5 28.5ZM18 26C16.6193 26 15.5 27.1193 15.5 28.5C15.5 29.8807 16.6193 31 18 31C19.3807 31 20.5 29.8807 20.5 28.5C20.5 27.1193 19.3807 26 18 26Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M28.5 7C26.0147 7 24 9.01472 24 11.5C24 13.9853 26.0147 16 28.5 16C30.9853 16 33 13.9853 33 11.5C33 9.01472 30.9853 7 28.5 7ZM26 11.5C26 10.1193 27.1193 9 28.5 9C29.8807 9 31 10.1193 31 11.5C31 12.8807 29.8807 14 28.5 14C27.1193 14 26 12.8807 26 11.5Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

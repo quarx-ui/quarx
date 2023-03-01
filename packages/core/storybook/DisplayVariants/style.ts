@@ -26,6 +26,7 @@ export const useStyles = makeStyles((
                 display: 'flex',
                 alignItems: containerAlign,
                 justifyContent: containerJustify,
+                maxWidth: '100%',
             },
             paramsToCss(direction)({
                 horizontal: {
@@ -73,6 +74,7 @@ export const useStyles = makeStyles((
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: variantAlign,
+                maxWidth: '100%',
                 ...typography.Text.XL.Semibold,
             },
             !optionTitle && {

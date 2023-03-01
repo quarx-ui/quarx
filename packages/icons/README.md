@@ -1,6 +1,10 @@
 # QuarX
 <p>
-  <img width="300" src="https://avatars.githubusercontent.com/u/105634579" alt="QuarX" />
+  <img
+    width="300"
+    alt="QuarX"
+    src="https://avatars.githubusercontent.com/u/105634579"
+  />
 </p>
 
 ### icons
@@ -11,10 +15,10 @@
 ### Установка пакета
 #### QuarX-icons
 ```sh
-// Для NPM
+# Для NPM
 npm install @quarx-ui/icons
  
-// Для yarn
+# Для yarn
 yarn add @quarx-ui/icons
 ```
 

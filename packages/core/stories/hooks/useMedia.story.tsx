@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { deviceToBreakpoint } from '../../styles/engine/theme/hooks/useMedia/helpers';
 
 export default {
-    title: 'hooks/useMedia',
+    title: STORY_PATHS.core.hooks('useMedia'),
     argTypes: {
         stringQuery: {
             description: 'Строковое значение медиа-запроса, согласно спецификации css',
@@ -76,8 +77,8 @@ const useScreenSize = () => {
 };
 
 type SandboxArgs = {
-    stringQuery: string,
-    device: QxDevice,
+    stringQuery: string;
+    device: QxDevice;
 }
 
 const Grid = styled('div')(({ columns }: { columns: number | string }) => ({
@@ -143,11 +144,11 @@ export const Device: Story = () => {
 
             {Object.values(QX_DEVICE)
                 .map((device) => (
-                    <>
+                    <Fragment>
                         <Code>{device}</Code>
                         <Code>{`breakpoints.only('${deviceToBreakpoint[device]}')`}</Code>
                         <Code>{breakpoints.only(deviceToBreakpoint[device])}</Code>
-                    </>
+                    </Fragment>
                 ))}
         </Grid>
     );

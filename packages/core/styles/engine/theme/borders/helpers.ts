@@ -1,5 +1,5 @@
 import { getSizeWithUnits, withUnit } from '@core/styles/engine/utils';
-import { BorderOptionArr, BorderOptionObj, BordersSide, BorderType } from "./types";
+import { BorderOptionArr, BorderOptionObj, BordersSide, BorderType } from './types';
 
 export const mapSideToWidth = (width: number | string = 0): Record<BordersSide, string> => ({
     all: withUnit(width),

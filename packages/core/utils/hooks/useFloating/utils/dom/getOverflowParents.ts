@@ -1,3 +1,4 @@
+import { ownerDocument } from '@core/utils/ownerDocument';
 import { getNearestOverflowParent } from './getNearestOverflowParent';
 import { getWindow } from './getWindow';
 import { isOverflowElement } from './is';
@@ -7,7 +8,7 @@ export function getOverflowParents(
     list: Array<Element | Window> = [],
 ): Array<Element | Window | VisualViewport> {
     const scrollableParent = getNearestOverflowParent(node);
-    const isBody = scrollableParent === node.ownerDocument?.body;
+    const isBody = scrollableParent === ownerDocument(node).body;
     const win = getWindow(scrollableParent);
     const target = isBody
         // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DelayedMounter behavior default layout 1`] = `
+<DocumentFragment>
+  <div>
+    DelayedMounter
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DelayedMounter timeout layout 1`] = `
+<DocumentFragment>
+  <div>
+    <button
+      type="button"
+    >
+      Mount Component
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DelayedMounter timeout layout 2`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      DelayedMounter
+    </div>
+    <button
+      type="button"
+    >
+      Mount Component
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DelayedMounter timeout layout 3`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      DelayedMounter
+    </div>
+    <button
+      type="button"
+    >
+      Mount Component
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DelayedMounter timeout layout 4`] = `
+<DocumentFragment>
+  <div>
+    <button
+      type="button"
+    >
+      Mount Component
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -5,6 +5,7 @@ import {
     PlaywrightTestArgs,
     PlaywrightTestConfig,
     PlaywrightWorkerOptions,
+    Response,
 } from '@playwright/test';
 import { valuesAsKeysFromArray } from '@kit';
 
@@ -26,27 +27,30 @@ export type GroupByKey = keyof typeof GROUP_BY_KEYS;
 export type GroupByType = GroupByKey[];
 
 export type SnapshotConfig = {
-    disableIfHeaded?: boolean
-    quality?: number,
+    disableIfHeaded?: boolean;
+    quality?: number;
 }
 
 export interface InitTestConfig {
-    groupBy?: GroupByType,
-    selector?: string,
-    snapshot?: SnapshotConfig,
-    test?: PlaywrightTestConfig['use'],
+    groupBy?: GroupByType;
+    selector?: string;
+    snapshot?: SnapshotConfig;
+    test?: PlaywrightTestConfig['use'];
+    disableAnimations?: boolean;
+    timeout?: number;
 }
 
 export interface BaseProps {
-    uniqSelector?: string,
-    testName?: string,
-    quality?: number,
-    state?: PropsStateType,
-    beforeSnap?: BeforeSnapFC,
-    postfix?: string,
-    timeout?: number,
-    groupBy?: GroupByType,
-    disableSnapIfHeaded?: SnapshotConfig['disableIfHeaded'],
+    uniqSelector?: string;
+    testName?: string;
+    quality?: number;
+    state?: PropsStateType;
+    beforeSnap?: BeforeSnapFC;
+    postfix?: string;
+    timeout?: number;
+    groupBy?: GroupByType;
+    disableSnapIfHeaded?: SnapshotConfig['disableIfHeaded'];
+    disableAnimations?: boolean;
     themeType?: ThemeTypes
 }
 
@@ -77,21 +81,25 @@ export interface CompareSnapshotsMapArg<Props = PropsType> extends
 }
 
 export interface ToMatchSnapshotOptions {
-    selector?: string,
-    timeout?: number,
-    disabled?: boolean,
-    path?: string[]
+    selector?: string;
+    timeout?: number;
+    disabled?: boolean;
+    path?: string[];
 }
 
 export interface TestProps<Props = PropsType> {
     compareSnapshotsMap: (options: Omit<CompareSnapshotsMapArg<Props>,
-    'testParams' | 'testName' | 'themeType'>) => Promise<void>,
-    compareSnapshots: (options: Omit<ExtendedPropsType<Props>, 'themeType'>) => Promise<void>,
-    testName: string,
-    getComponent: (uniqSelector?: string) => Locator,
-    toMatchSnapshot: (name: string, options?: ToMatchSnapshotOptions) => Promise<void>,
-    setProps: (props?: Props) => Promise<void>,
-    page: Page,
+    'testParams' | 'testName' | 'themeType'>) => Promise<void>;
+    compareSnapshots: (options: Omit<ExtendedPropsType<Props>, 'themeType'>) => Promise<void>;
+    testName: string;
+    getComponent: (uniqSelector?: string) => Locator;
+    setComponent: (component?: ComponentsListTypes | string) => Promise<Response | null>;
+    getInput: () => Locator;
+    getFrame: () => Locator;
+    toMatchSnapshot: (name: string, options?: ToMatchSnapshotOptions) => Promise<void>;
+    setProps: (props?: Props) => Promise<void>;
+    page: Page;
+    waitTimeout: (timeout?: number) => Promise<void>;
 }
 
 export interface GetScreenPathOptions {

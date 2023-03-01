@@ -1,7 +1,7 @@
 import fs from 'fs';
 import bluebird from 'bluebird';
 
-export type WriteFileType = { path: string, data: string };
+export type WriteFileType = { path: string; data: string };
 
 const writePromise = bluebird.promisify(fs.writeFile);
 

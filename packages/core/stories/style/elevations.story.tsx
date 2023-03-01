@@ -1,10 +1,8 @@
-/** @jsx jsx */
 import { withDocsPage } from '@core/storybook/docsPage';
 import { Story } from '@storybook/react/types-6-0';
-import React from 'react';
 import { ElevationSize, makeStyles } from '@core';
-import { jsx } from '@emotion/react';
 import { Div, H2, P, Code } from '@storybook/components';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -67,7 +65,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: 'style/elevations',
+    title: STORY_PATHS.core.style('elevations'),
     argTypes: defaultArgTypes,
     args: {
         size: 'medium',
@@ -85,7 +83,7 @@ export default {
 };
 
 interface ElevationStory {
-    size: ElevationSize,
+    size: ElevationSize;
 }
 
 const useStyles = makeStyles((

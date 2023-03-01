@@ -70,6 +70,7 @@ module.exports = {
         'react/jsx-indent-props': indent,
         curly: ['error', 'all'],
         '@typescript-eslint/indent': indent,
+        '@typescript-eslint/member-delimiter-style': ['error'],
         '@typescript-eslint/no-unused-vars': [
             'error',
             {
@@ -93,5 +94,8 @@ module.exports = {
         'jest/no-done-callback': ['warn'],
         'jest/no-export': 0,
         'react/require-default-props': 'off'
+        'react/jsx-uses-react': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'react/jsx-fragments': [2, 'element'],
     },
 };

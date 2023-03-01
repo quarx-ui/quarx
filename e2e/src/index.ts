@@ -3,40 +3,34 @@ import {
     Checkbox,
     Counter,
     RadioButton,
-    RadioButtonSelection,
     Switcher,
     valuesAsKeysFromArray,
 } from '@kit';
 import { ComponentsListTypes, PathTypes } from '@e2e/constants';
-import { Button, IconButton } from './Button';
-import { Badge } from './Badge';
-import { SwitcherSelection } from './Switcher';
-import { Selection } from './Selection';
-import { TextField } from './TextField';
-import { Modal } from './Modal';
-import { CheckboxSelection } from './Checkbox';
-import { Tabs } from './Tabs';
-import { Link } from './Link';
+import { Button, IconButton } from './main/Button';
+import { Badge } from './main/Badge';
+import { TextField } from './main/TextField';
+import { Modal } from './main/Modal';
+import { Tabs } from './main/Tabs';
+import { Link } from './main/Link';
+import { SidePage } from './main/SidePage';
 import { DatePicker, DatePickerAllowedDates, FrenchDatePicker } from './DatePicker';
 
 type ComponentsType = Partial<Record<ComponentsListTypes, ReactNode>>
 
 export const COMPONENTS: ComponentsType = {
+    Badge,
     Button,
     IconButton,
-    Badge,
-    Counter,
-    Switcher,
-    SwitcherSelection,
     Checkbox,
     CheckboxSelection,
     Selection,
     RadioButton,
-    RadioButtonSelection,
-    TextField,
-    Link,
+    Selection,
+    Switcher,
     Tabs,
-    Modal,
+    TextField,
+    SidePage,
     DatePicker,
     DatePickerAllowedDates,
     FrenchDatePicker,

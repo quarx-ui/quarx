@@ -3,9 +3,9 @@ import {
     PlaywrightTestArgs,
     PlaywrightWorkerOptions,
 } from '@playwright/test';
-import { ComponentsListTypes } from '@e2e/constants';
+import { ComponentsListTypes, FRAME_ID, INPUT_PROPS_ID } from '@e2e/constants';
 import { CompareSnapshotsMapArg, ExtendedPropsType, PropsType } from '@e2e/test-utils/types';
-import { getURLFromProps } from '@e2e/utils';
+import { getStringFromProps } from '@e2e/utils';
 import { runSeriesComparisons } from '@e2e/test-utils/helpers';
 import { getScreenPath } from '@e2e/test-utils/screenName';
 
@@ -29,6 +29,7 @@ export function compareSnapshots<Props = PropsType>(
             groupBy = [],
             disableSnapIfHeaded = true,
             themeType,
+            disableAnimations = true,
         } = options;
 
         const screenName = typeof extScreenName === 'string'
@@ -40,12 +41,25 @@ export function compareSnapshots<Props = PropsType>(
                 groupBy,
                 themeType,
             });
-        await page.goto(getURLFromProps(component, themeType, props));
+        
         const element = await page.locator(uniqSelector);
+
+        await page.goto(getURLFromProps(component, themeType, props));
+
+        const input = await page.locator(`#${INPUT_PROPS_ID}`);
+        await input.fill(getStringFromProps(props));
+        await input.press('Enter');
+
+        const waitTimeout = async () => {
+            if (disableAnimations) { return; }
+
+            await page.waitForTimeout(200);
+        };
 
         if (state === 'hover') {
             await element.hover();
-            await page.waitForTimeout(200);
+
+            await waitTimeout();
         } else if (state === 'press') {
             const box = await element.boundingBox();
             const x = (box?.x ?? 0) + (box?.width ?? 0) / 2;
@@ -53,10 +67,10 @@ export function compareSnapshots<Props = PropsType>(
 
             await page.mouse.move(x, y);
             await page.mouse.down();
-            await page.waitForTimeout(200);
+            await waitTimeout();
         } else if (state === 'focus') {
             await element.focus();
-            await page.waitForTimeout(200);
+            await waitTimeout();
         }
 
         if (timeout) {
@@ -91,6 +105,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             groupBy,
             disableSnapIfHeaded = true,
             themeType,
+            disableAnimations = true,
         } = options;
 
         const commonProps = {
@@ -101,6 +116,8 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             state,
             timeout,
             themeType,
+            disableSnapIfHeaded,
+            disableAnimations,
         };
 
         await runSeriesComparisons<Props>({

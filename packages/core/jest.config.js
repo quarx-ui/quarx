@@ -9,6 +9,6 @@ module.exports = {
         ],
     },
     // eslint-disable-next-line no-useless-escape
-    modulePathIgnorePatterns: ['.*\.test\.pw\..*'],
+    modulePathIgnorePatterns: ['.*\.test\.pw\..*', '.*__tests__/stubs/.*'],
     testEnvironment: 'jest-environment-jsdom',
 };

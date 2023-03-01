@@ -1,1 +1,0 @@
-export { ColumnChartIcon } from './ColumnChartIcon';

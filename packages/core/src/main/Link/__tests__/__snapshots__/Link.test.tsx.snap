@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link icons should be in document 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-leftItem css-anm82p-QxLink-leftItem"
+    >
+      <svg
+        data-testid="gear-icon"
+        fill="currentColor"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M7.99951 5.24991C6.48073 5.24991 5.24951 6.48113 5.24951 7.99991C5.24951 9.51869 6.48073 10.7499 7.99951 10.7499C9.5183 10.7499 10.7495 9.51869 10.7495 7.99991C10.7495 6.48113 9.5183 5.24991 7.99951 5.24991ZM6.74951 7.99991C6.74951 7.30955 7.30916 6.74991 7.99951 6.74991C8.68987 6.74991 9.24951 7.30955 9.24951 7.99991C9.24951 8.69026 8.68987 9.24991 7.99951 9.24991C7.30916 9.24991 6.74951 8.69026 6.74951 7.99991Z"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M7.99981 0.899902C7.62572 0.899902 7.25781 0.92854 6.89824 0.983874C6.60171 1.02951 6.36121 1.2489 6.28771 1.54083L6.07832 2.37241C6.02467 2.58549 5.8363 2.81112 5.51619 2.96611C5.20327 3.11762 4.91844 3.12382 4.71556 3.0315L3.93405 2.67587C3.66148 2.55184 3.34145 2.6032 3.12101 2.80636C2.57971 3.30524 2.11443 3.88621 1.74474 4.52992C1.59467 4.79123 1.61536 5.11738 1.79723 5.35748L2.30798 6.03174C2.44692 6.21516 2.50418 6.49752 2.4249 6.841C2.3432 7.19494 2.16226 7.43521 1.96626 7.53562L1.20689 7.92463C0.940632 8.06104 0.781138 8.34374 0.801556 8.64308C0.85294 9.39639 1.01925 10.1188 1.28324 10.7923C1.39324 11.0729 1.66017 11.26 1.96055 11.267L2.79566 11.2864C3.02569 11.2917 3.29361 11.4305 3.52056 11.7167C3.74506 11.9997 3.81873 12.2892 3.77265 12.5159L3.60439 13.3437C3.54453 13.6382 3.66581 13.9401 3.91245 14.1105C4.50991 14.5234 5.17288 14.8485 5.88276 15.0669C6.16978 15.1552 6.48158 15.0623 6.67414 14.8311L7.20888 14.1892C7.3589 14.0091 7.63566 13.8846 7.99966 13.8846C8.36363 13.8846 8.64037 14.0091 8.79039 14.1892L9.32519 14.8312C9.51774 15.0624 9.82952 15.1553 10.1165 15.067C10.8264 14.8486 11.4894 14.5236 12.0868 14.1107C12.3335 13.9403 12.4548 13.6384 12.3949 13.3439L12.2267 12.5164C12.1806 12.2896 12.2543 12 12.4789 11.7168C12.706 11.4306 12.974 11.2917 13.2041 11.2864L14.0391 11.267C14.3395 11.26 14.6064 11.0729 14.7164 10.7923C14.9803 10.1189 15.1467 9.39651 15.1981 8.64328C15.2185 8.34393 15.059 8.06122 14.7927 7.92481L14.0336 7.53592C13.8375 7.43545 13.6564 7.19504 13.5747 6.84093C13.4954 6.49727 13.5527 6.21474 13.6917 6.03121L14.2022 5.3572C14.3841 5.11709 14.4048 4.79093 14.2547 4.52961C13.885 3.88597 13.4198 3.30506 12.8785 2.80624C12.658 2.60309 12.338 2.55173 12.0655 2.67576L11.284 3.03138C11.081 3.12372 10.7962 3.11752 10.4832 2.966C10.163 2.81097 9.97454 2.58528 9.92087 2.37213L9.71154 1.54077C9.63803 1.24883 9.39751 1.02943 9.10096 0.98381C8.74152 0.928517 8.37375 0.899902 7.99981 0.899902ZM7.57284 2.55206C7.59395 2.4682 7.66643 2.40716 7.75253 2.40352C7.91665 2.39659 8.08259 2.39658 8.24671 2.40351C8.33282 2.40714 8.4053 2.46818 8.42641 2.55205L8.47355 2.73925C8.6667 3.50636 9.24754 4.03131 9.83464 4.31555C10.4271 4.60237 11.1878 4.72029 11.9004 4.39601L12.081 4.31383C12.1593 4.27821 12.2517 4.29681 12.3083 4.36172C12.4161 4.4854 12.5187 4.61375 12.6158 4.74641C12.6669 4.81626 12.6646 4.91141 12.6124 4.9804L12.5033 5.12437C12.0263 5.75413 11.97 6.5275 12.1204 7.17912C12.2673 7.81549 12.6488 8.50874 13.3549 8.87047L13.5271 8.95869C13.6036 8.99787 13.6468 9.08193 13.6316 9.16675C13.6028 9.32733 13.5673 9.48555 13.5256 9.64111C13.5031 9.72483 13.4275 9.78243 13.3412 9.78444L13.1696 9.78843C12.3714 9.80697 11.7246 10.2622 11.311 10.7836C10.8974 11.3051 10.6053 12.035 10.764 12.816L10.8002 12.9939C10.8174 13.0785 10.7786 13.1649 10.7028 13.2058C10.5625 13.2814 10.4187 13.3513 10.2718 13.4152C10.1926 13.4496 10.1007 13.4262 10.0453 13.3598L9.93567 13.2281C9.42388 12.6137 8.66752 12.3862 7.9997 12.3862C7.33183 12.3862 6.57542 12.6137 6.06359 13.2281L5.95401 13.3597C5.89865 13.4261 5.80678 13.4495 5.72758 13.4151C5.58059 13.3512 5.43677 13.2813 5.29644 13.2056C5.22065 13.1648 5.18191 13.0783 5.1991 12.9937L5.23534 12.8154C5.39406 12.0346 5.10206 11.3049 4.6885 10.7835C4.27497 10.2621 3.62826 9.80698 2.83021 9.78844L2.65847 9.78445C2.5721 9.78244 2.49654 9.72484 2.47406 9.64112C2.43226 9.4855 2.39681 9.32722 2.36801 9.16657C2.35281 9.08175 2.39598 8.9977 2.47246 8.95852L2.64491 8.87017C3.35088 8.50851 3.73234 7.81542 3.8792 7.17918C4.02958 6.52769 3.97326 5.75451 3.49634 5.1249L3.38707 4.98064C3.33481 4.91166 3.33254 4.81651 3.38364 4.74666C3.48072 4.61395 3.58334 4.48557 3.69119 4.36185C3.74778 4.29693 3.84025 4.27833 3.91852 4.31394L4.09914 4.39614C4.81174 4.72041 5.57238 4.60247 6.1648 4.31563C6.75181 4.03141 7.33251 3.50652 7.52563 2.73954L7.57284 2.55206Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </span>
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+    <span
+      class="QxLink-rightItem css-19yfd4u-QxLink-rightItem"
+    >
+      <svg
+        data-testid="chevron-right-icon"
+        fill="currentColor"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.22162 3.96967C5.92873 4.26257 5.92873 4.73744 6.22163 5.03033L8.83595 7.64462C9.00262 7.81129 9.08595 7.89462 9.08595 7.99818C9.08595 8.10173 9.00262 8.18507 8.83595 8.35173L6.22164 10.966C5.92875 11.2589 5.92875 11.7338 6.22164 12.0267C6.51454 12.3196 6.98941 12.3196 7.2823 12.0267L10.7805 8.52851C10.9212 8.38785 11.0002 8.19709 11.0002 7.99817C11.0002 7.79926 10.9212 7.60849 10.7805 7.46784L7.28228 3.96967C6.98938 3.67678 6.51451 3.67678 6.22162 3.96967Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link should work with custom Component 1`] = `
+<DocumentFragment>
+  <div
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    data-testid="custom-component"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Перейти
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Link should work with custom tag 1`] = `
+<DocumentFragment>
+  <div
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    data-testid="Link"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Перейти
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Link style params color brand 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_brand QxLink_size_inherit css-1a19wwt-QxLink-root"
+    data-testid="testStyleParams-color-brand"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params color danger 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_danger QxLink_size_inherit css-1ikooii-QxLink-root"
+    data-testid="testStyleParams-color-danger"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params color info 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    data-testid="testStyleParams-color-info"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params color secondary 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_secondary QxLink_size_inherit css-cd3xpz-QxLink-root"
+    data-testid="testStyleParams-color-secondary"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params color success 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_success QxLink_size_inherit css-tql6wx-QxLink-root"
+    data-testid="testStyleParams-color-success"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params color warning 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_warning QxLink_size_inherit css-kdyou5-QxLink-root"
+    data-testid="testStyleParams-color-warning"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params disabled false 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    data-testid="testStyleParams-disabled-false"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params disabled true 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="true"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit QxLink_disabled css-123egm4-QxLink-root"
+    data-testid="testStyleParams-disabled-true"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params size L 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_L css-79a377-QxLink-root"
+    data-testid="testStyleParams-size-L"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params size M 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_M css-r49391-QxLink-root"
+    data-testid="testStyleParams-size-M"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params size S 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_S css-19eam7e-QxLink-root"
+    data-testid="testStyleParams-size-S"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params size XL 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_XL css-1itxbps-QxLink-root"
+    data-testid="testStyleParams-size-XL"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params size inherit 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    data-testid="testStyleParams-size-inherit"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params underline always 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-3otudi-QxLink-root"
+    data-testid="testStyleParams-underline-always"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params underline hover 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_hover QxLink_color_info QxLink_size_inherit css-1y8s0eg-QxLink-root"
+    data-testid="testStyleParams-underline-hover"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1e5ydaj-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link style params underline none 1`] = `
+<DocumentFragment>
+  <a
+    aria-disabled="false"
+    class="QxLink QxLink_underline_none QxLink_color_info QxLink_size_inherit css-sruxex-QxLink-root"
+    data-testid="testStyleParams-underline-none"
+    tabindex="0"
+  >
+    <span
+      class="QxLink-content css-1c2nrl-QxLink-content"
+    >
+      Настройки
+    </span>
+  </a>
+</DocumentFragment>
+`;

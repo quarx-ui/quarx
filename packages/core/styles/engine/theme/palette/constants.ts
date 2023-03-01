@@ -1,4 +1,4 @@
-import { valuesAsKeysFromArray } from '@core/utils';
+import { valuesAsKeysFromArray, createValuesAsKeysTypeGuard } from '@core/enums';
 
 export const PALETTE_COLORS = valuesAsKeysFromArray([
     'brand',
@@ -7,7 +7,11 @@ export const PALETTE_COLORS = valuesAsKeysFromArray([
     'success',
     'warning',
     'danger',
-] as const)
+])
 
-export const PALETTE_TYPE_ARR = ['light','dark'] as const;
-export const PALETTE_TYPE = valuesAsKeysFromArray(PALETTE_TYPE_ARR);
+export const PALETTE_STANDARD_KEYS = valuesAsKeysFromArray([
+    'main',
+    'secondary',
+])
+
+export const isPaletteStandardKey = createValuesAsKeysTypeGuard(PALETTE_STANDARD_KEYS);

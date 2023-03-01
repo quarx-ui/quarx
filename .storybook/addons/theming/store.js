@@ -28,6 +28,7 @@ const setTheme = (themeType) => {
 
 const setWindowTheme = (theme) => {
     window.parent.window.QuarX = { theme };
+    window.QuarX = { theme };
 };
 
 export const ThemingAddonAPI = {

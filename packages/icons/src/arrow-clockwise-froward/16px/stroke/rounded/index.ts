@@ -1,1 +1,0 @@
-export { ArrowClockwiseFrowardIcon } from './ArrowClockwiseFrowardIcon';

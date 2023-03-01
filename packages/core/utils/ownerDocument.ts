@@ -1,3 +1,3 @@
-export function ownerDocument(node: Node | null | undefined): Document {
-    return (node && node.ownerDocument) || document;
-}
+export const ownerDocument = (node: Node | null | undefined): Document => (
+    node?.ownerDocument || document
+);

@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import { CSSObject, jsx } from '@emotion/react';
-import React, { FC, MouseEventHandler, useState } from 'react';
+import { CSSObject } from '@emotion/react';
+import { FC, MouseEventHandler, useState } from 'react';
 import { createPalette, getContrastColor, makeStyles, typography, useTheme } from '@core/styles';
 import {
     PaletteColor,
@@ -13,15 +12,16 @@ import {
     PaletteBorderFocusKey,
 } from '@core/styles/engine/theme/palette/types';
 import { Story } from '@storybook/react/types-6-0';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 
 interface ColorsStoryProps {
-    type: PaletteColor,
+    type: PaletteColor;
     value: keyof Omit<PaletteColorValues, 'weaker' | 'stronger' | 'alpha'> |
     'alpha[8]' |
-    'alpha[16]',
-    background: PaletteStandardKey | 'textField.main' | 'textField.secondary' | 'container.hover',
-    border: PaletteStandardKey | 'focus.dark' | 'focus.light',
-    text: PaletteTextKey,
+    'alpha[16]';
+    background: PaletteStandardKey | 'textField.main' | 'textField.secondary' | 'container.hover';
+    border: PaletteStandardKey | 'focus.main' | 'focus.inverse';
+    text: PaletteTextKey;
 }
 
 const defaultArgs: ColorsStoryProps = {
@@ -33,7 +33,7 @@ const defaultArgs: ColorsStoryProps = {
 };
 
 export default {
-    title: 'style/colors',
+    title: STORY_PATHS.core.style('colors'),
     argTypes: {
         type: {
             description: 'Тип цвета',
@@ -64,7 +64,7 @@ export default {
         },
         border: {
             description: 'Обводка',
-            options: ['main', 'secondary', 'focus.dark', 'focus.light'],
+            options: ['main', 'secondary', 'focus.main', 'focus.inverse'],
             control: { type: 'select' },
         },
         text: {
@@ -113,7 +113,7 @@ const useStylesSandbox = makeStyles((
         background = palette.background[srcBack];
     }
 
-    if (srcBorder === 'focus.dark' || srcBorder === 'focus.light') {
+    if (srcBorder === 'focus.main' || srcBorder === 'focus.inverse') {
         focus = srcBorder.split('.')[1] as PaletteBorderFocusKey;
         border = palette.border.focus[focus];
     } else {
@@ -168,7 +168,7 @@ Sandbox.storyName = 'Цвета';
 
 const useStylesColor = makeStyles((
     { palette, transitions },
-    { type, hover = false }: { type: PaletteColor, hover?: boolean },
+    { type, hover = false }: { type: PaletteColor; hover?: boolean },
 ) => {
     const common: CSSObject = {
         position: 'relative',
@@ -300,13 +300,13 @@ const useStylesColor = makeStyles((
 });
 
 interface TemplateItemProps {
-    type: PaletteColor,
+    type: PaletteColor;
     color: keyof Omit<PaletteColorValues, 'alpha' | 'weaker' | 'stronger' | 'contrastText'>
     | 'press16'
     | 'hover8'
     | 'press'
     | 'hover'
-    | 'contrast',
+    | 'contrast';
 }
 
 const ColorItem: FC<TemplateItemProps> = ({

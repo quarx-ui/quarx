@@ -1,6 +1,7 @@
 export interface Easing {
     easeInOut: string,
     easeOut: string,
+    easeOutIn: string,
     easeIn: string,
     sharp: string,
 }

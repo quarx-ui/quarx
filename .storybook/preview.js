@@ -18,6 +18,11 @@ export const parameters = {
             date: /Date$/,
         },
     },
+    options: {
+        storySort: {
+            order: ['core', ['Introduction']],
+        },
+    },
     previewTabs: {
         'storybook/docs/panel': {
             index: 0,

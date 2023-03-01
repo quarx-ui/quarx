@@ -1,4 +1,4 @@
-import { BorderRadiusOption, BorderRadiusSide } from "./types";
+import { BorderRadiusOption, BorderRadiusSide } from './types';
 import { getSizeWithUnits, withUnit } from '@core/styles/engine/utils';
 
 export const getMapSideToRadius = (radius: string | number = 0): Record<BorderRadiusSide, string> => ({

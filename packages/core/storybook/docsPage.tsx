@@ -1,14 +1,17 @@
-import React, { FC } from 'react';
+import { FC, Fragment } from 'react';
 import { Title, Primary, Subtitle, Stories, ArgsTable, PRIMARY_STORY } from '@storybook/addon-docs';
 import { typography } from '@core';
+import { Div } from '@storybook/components';
 
 export const withDocsPage = (Documentation: FC) => () => (
-    <>
+    <Fragment>
         <Title />
         <Primary />
         <Subtitle>Описание пропсов</Subtitle>
         <ArgsTable story={PRIMARY_STORY} />
-        <div style={typography.Text.M.Regular}><Documentation /></div>
+        <Div style={typography.Text.M.Regular}>
+            <Documentation />
+        </Div>
         <Stories title="Примеры использования" />
-    </>
+    </Fragment>
 );

@@ -43,30 +43,71 @@ export type OffsetMap = { [key in Side]: number };
 export type ClientRect = Rect & OffsetMap
 
 export interface ModifiersOptions {
-    offset?: number,
-    flip?: FlipOptions,
-    shift?: ShiftOptions,
+    /** Отступ от якорного элемента */
+    offset?: number;
+
+    /** Переворот при отсутствии свободного места для корректной отрисовки */
+    flip?: FlipOptions;
+
+    /** Ограничение отрисовки только внутри видимой области */
+    shift?: ShiftOptions;
 }
 
 export interface UseFloatingProps {
-    anchor: RefObject<HTMLElement> | Position,
-    floatingRef: RefObject<HTMLElement>,
-    open: boolean,
-    placement?: Placement,
-    disableOffset?: boolean,
-    disableFlip?: boolean,
-    disableShift?: boolean,
-    modifiersOptions?: ModifiersOptions,
-    customModifiers?: FloatingPositionModifier[],
-    arrangement?: Arrangement,
+    /** Якорный элемент */
+    anchor: RefObject<HTMLElement> | Position;
+
+    /** Плавающий элемент */
+    floatingRef: RefObject<HTMLElement>;
+
+    /** Видимость элемента */
+    open: boolean;
+
+    /** Расположение плавающего элемента */
+    placement?: Placement;
+
+    /** Отключение отступа между floating и якорным элементами
+     *
+     * @default false */
+    disableOffset?: boolean;
+
+    /** Отключение переворота при отсутствии свободного места для корректной отрисовки
+     *
+     * @default false */
+    disableFlip?: boolean;
+
+    /** Отключение ограничения отрисовки только внутри видимой области
+     *
+     * @default false */
+    disableShift?: boolean;
+
+    /** Параметры модификаторов плавающего элемента */
+    modifiersOptions?: ModifiersOptions;
+
+    /** Пользовательские модификаторы координат плавающего элемента */
+    customModifiers?: FloatingPositionModifier[];
+
+    /** Позиционирование
+     *
+     * @default absolute */
+    arrangement?: Arrangement;
 }
 
 export interface GetFloatingPositionProps {
-    placement: Placement,
-    anchor: HTMLElement | Position,
-    floating: HTMLElement,
-    arrangement: Arrangement,
-    modifiers?: (FloatingPositionModifier | false | undefined)[],
+    /** Плавающее расположение */
+    placement: Placement;
+
+    /** Якорный элемент */
+    anchor: HTMLElement | Position;
+
+    /** Плавающий элемент */
+    floating: HTMLElement;
+
+    /** Позиционирование плавающего элемента */
+    arrangement: Arrangement;
+
+    /** Пользовательские модификаторы координат плавающего элемента */
+    modifiers?: (FloatingPositionModifier | false | undefined)[];
 }
 
 export type FloatingPositionModifier = (
@@ -75,26 +116,44 @@ export type FloatingPositionModifier = (
 ) => Position
 
 export interface GetFloatingPositionContext extends Omit<GetFloatingPositionProps, 'modifiers'> {
-    mainAxis: Axis,
-    altAxis: Axis,
-    rects: Record<'anchor' | 'floating', Rect>
-    side: Side,
-    arrangement: Arrangement,
-    alignment?: Alignment,
+    /** Главная ось */
+    mainAxis: Axis;
+
+    /** Альтернативная ось */
+    altAxis: Axis;
+
+    /** Размеры и расположение */
+    rects: Record<'anchor' | 'floating', Rect>;
+
+    /** Сторона привязки относительно якорного элемента */
+    side: Side;
+
+    /** Позиционирование плавающего элемента */
+    arrangement: Arrangement;
+
+    /** Выравнивание плавающего элемента относительно якорного элемента */
+    alignment?: Alignment;
 }
 
 export interface GetFloatingPositionModifiersContext extends GetFloatingPositionContext {
+    /** Данные пользовательских модификаторов координат */
     modifiersData: {
-        previous: FloatingPositionModifier[],
-    },
+        previous: FloatingPositionModifier[];
+    };
 }
 
 export interface PositionWithModifiersProps {
-    position: Position,
-    modifiers: FloatingPositionModifier[],
-    context: GetFloatingPositionModifiersContext,
+    /** Координаты плавающего элемента */
+    position: Position;
+
+    /** Пользовательские модификаторы координат плавающего элемента */
+    modifiers: FloatingPositionModifier[];
+
+    /** Контекст обработки */
+    context: GetFloatingPositionModifiersContext;
 }
 
 export interface UseFloatingResult {
-    floating: Record<Axis, number>,
+    /** Координаты плавающего элемента */
+    floating: Record<Axis, number>;
 }
