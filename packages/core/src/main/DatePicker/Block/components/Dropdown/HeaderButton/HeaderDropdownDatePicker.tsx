@@ -1,5 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
 import React, { FC, ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { ChevronDownIcon } from '../../../assets';
@@ -9,14 +7,18 @@ import { useStyles } from './styles';
 export const HeaderDropdownDatePicker: FC<HeaderDatePickerDropdownProps> = forwardRef((
     initialProps: HeaderDatePickerDropdownProps, ref: ForwardedRef<HTMLDivElement>,
 ) => {
-    const { props, cn } = usePropsOverwrites('HeaderDropdownDatePicker', initialProps);
+    const { styleProps, props, cn } = usePropsOverwrites('HeaderDropdownDatePicker', initialProps);
     const {
-        styles: externalStyles, innerStyles, isOpen, onOpenDropdown, currentDropdown, disable, size, borderRadius,
+        innerStyles, isOpen, onOpenDropdown, currentDropdown, disable, size, borderRadius,
     } = props;
 
     const params = { isOpen, disable: !!disable, size, borderRadius };
 
-    const styles = useStyles({ ...params, styles: { ...externalStyles, ...innerStyles?.dropdownHeaderButton } });
+    const styles = useStyles({
+        ...params,
+        ...styleProps,
+        styles: { ...styleProps.styles, ...innerStyles?.dropdownHeaderButton },
+    });
 
     return (
         <div

@@ -49,7 +49,6 @@ module.exports = {
         'no-shadow': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-shadow': ['error'],
-        'react/jsx-fragments': 'off',
         'import/extensions': ['error', 'never', { svg: 'always', json: 'always' }],
         'import/no-extraneous-dependencies': 0,
         'import/prefer-default-export': 0,
@@ -93,7 +92,7 @@ module.exports = {
         'jest/valid-title': ['warn', { ignoreTypeOfDescribeName: true }],
         'jest/no-done-callback': ['warn'],
         'jest/no-export': 0,
-        'react/require-default-props': 'off'
+        'react/require-default-props': 'off',
         'react/jsx-uses-react': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/jsx-fragments': [2, 'element'],

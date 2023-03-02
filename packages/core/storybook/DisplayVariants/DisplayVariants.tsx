@@ -1,4 +1,4 @@
-import { createElement, FC } from 'react';
+import React, { createElement, FC } from 'react';
 import { createID } from '@core';
 import {
     Title,
@@ -95,18 +95,20 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
                 optionTitle={titleProps.isShown}
                 variantAlign={variantAlign}
             >
-                {titleProps.isShown && (
-                    <Title size={titleProps.size}>
-                        {titleProps.type === 'value' ? value.toString() : property}
-                    </Title>
-                )}
-                {createElement(
-                    component,
-                    {
-                        ...props as Props,
-                        [property]: value,
-                    },
-                )}
+                <React.Fragment>
+                    {titleProps.isShown && (
+                        <Title size={titleProps.size}>
+                            {titleProps.type === 'value' ? value.toString() : property}
+                        </Title>
+                    )}
+                    {createElement(
+                        component,
+                        {
+                            ...props as Props,
+                            [property]: value,
+                        },
+                    )}
+                </React.Fragment>
             </Variant>
         );
     });

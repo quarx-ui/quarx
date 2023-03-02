@@ -7,6 +7,7 @@ import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPORTS';
 import { addDays } from 'date-fns';
 import { getDateFnsLocale } from '@core';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { DatePicker,
     DATE_PICKER_DISPLAY_TYPES,
     DATE_PICKER_TIME_TYPES,
@@ -26,7 +27,7 @@ const defaultArgs: StoryType = {
 };
 
 export default {
-    title: 'core/DatePicker',
+    title: STORY_PATHS.core.components.main('block/DatePicker'),
     component: DatePicker,
     args: defaultArgs,
     argTypes: {
@@ -66,7 +67,7 @@ export default {
 export const Sandbox: Story<StoryType> = (props) => {
     const [pickedDates, setPickedDates] = useState<PeriodTypeDates | undefined>(undefined);
     return (
-        <>
+        <React.Fragment>
             {pickedDates && Object.values(pickedDates).map((date) => `${date.toString()}\n`)}
             { /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */ }
             { /* @ts-ignore */ }
@@ -78,7 +79,7 @@ export const Sandbox: Story<StoryType> = (props) => {
                 type={DATE_PICKER_TIME_TYPES.PERIOD}
                 {...props}
             />
-        </>
+        </React.Fragment>
     );
 };
 

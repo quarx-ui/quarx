@@ -42,18 +42,16 @@ import {
     TabsSegmentedProps,
     TextFieldProps,
     Transitions,
+    DayBlockProps,
+    DatePickerDropdownProps,
+    FooterDatePickerProps,
+    HeaderDatePickerProps,
+    MonthBlockProps,
+    OffsetDayBlockProps,
+    HeaderDatePickerDropdownProps,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
-import { DayBlockProps } from "@core/src/styled/DatePicker/Block/components/DayBlock/types";
-import {
-    DatePickerDropdownProps
-} from "@core/src/styled/DatePicker/Block/components/Dropdown/types";
-import { FooterDatePickerProps } from "@core/src/styled/DatePicker/Block/components/FooterDatePicker/types";
-import { HeaderDatePickerProps } from "@core/src/styled/DatePicker/Block/components/HeaderDatePicker/types";
-import { MonthBlockProps } from "@core/src/styled/DatePicker/Block/components/MonthBlock";
-import { OffsetDayBlockProps } from "@core/src/styled/DatePicker/Block/components/OffsetDayBlock/types";
-import { HeaderDatePickerDropdownProps } from "@core/src/styled/DatePicker/Block/components/Dropdown/HeaderButton/types";
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {

@@ -1,5 +1,3 @@
-/** @jsx jsx */
-
 import { jsx } from '@emotion/react';
 import { FC, ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
@@ -10,7 +8,7 @@ import { OffsetDayBlockProps } from './types';
 export const OffsetDayBlock: FC<OffsetDayBlockProps> = forwardRef((
     initialProps: OffsetDayBlockProps, ref: ForwardedRef<HTMLDivElement>,
 ) => {
-    const { props, cn } = usePropsOverwrites('OffsetDayBlock', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('OffsetDayBlock', initialProps);
 
     const { numDay, size, day, isWeekdayName, isLarge,
         innerStyles: externalStyles, dates, type, hoveredDay, viewingDate,
@@ -28,7 +26,11 @@ export const OffsetDayBlock: FC<OffsetDayBlockProps> = forwardRef((
         isHoveredPeriod,
         isWeekdayName,
         isDayInPeriodLarge };
-    const styles = useStyles({ ...params, styles: externalStyles?.offsetDay });
+    const styles = useStyles({
+        ...params,
+        ...styleProps,
+        styles: { ...externalStyles?.offsetDay, ...styleProps.styles },
+    });
     if (numDay === 0) {
         return null;
     }

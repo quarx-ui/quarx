@@ -1,8 +1,8 @@
-import { Fragment, FC } from 'react';
+import React, { Fragment, FC } from 'react';
 import { Route } from 'react-router-dom';
 import { COMPONENTS } from '@e2e/src';
-import { withPropsContext } from './withPropsContext';
 import { ThemeTypes } from '@e2e/constants';
+import { withPropsContext } from './withPropsContext';
 
 export const renderComponents = (components: typeof COMPONENTS, themeType: ThemeTypes) => Object
     .entries(components)

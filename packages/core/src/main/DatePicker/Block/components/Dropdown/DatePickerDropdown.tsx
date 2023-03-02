@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx } from '@emotion/react';
 import React, { ForwardedRef, forwardRef } from 'react';
 import { getMonth, getYear, setMonth, setYear } from 'date-fns';
@@ -13,9 +12,8 @@ import { useStyles } from './styles';
 export const DatePickerDropdown = forwardRef((
     initialProps: DatePickerDropdownProps, ref: ForwardedRef<HTMLDivElement>,
 ) => {
-    const { props, cn } = usePropsOverwrites('HeaderDatePicker', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('HeaderDatePicker', initialProps);
     const {
-        styles: externalStyles,
         innerStyles,
         type,
         dropdownData,
@@ -29,7 +27,7 @@ export const DatePickerDropdown = forwardRef((
 
     const params = { size, countWeeksInMonth };
 
-    const styles = useStyles({ ...params, styles: { ...externalStyles, ...innerStyles?.dropdown } });
+    const styles = useStyles({ ...params, ...styleProps, styles: { ...styleProps.styles, ...innerStyles?.dropdown } });
 
     const selectRefToItem = (item: number | string, index: number) => {
         if ((type === DROPDOWN_TYPES.YEARS && item === getYear(viewingDate))

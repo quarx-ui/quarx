@@ -1,5 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
 import React, { ForwardedRef, forwardRef, useMemo, useRef, useState } from 'react';
 import { useMedia, usePropsOverwrites } from '@core';
 import { addMonths, getWeeksInMonth } from 'date-fns';
@@ -12,10 +10,10 @@ import { useStyles } from './styles';
 export const DatePicker = forwardRef((
     initialProps: DatePickerProps, ref: ForwardedRef<HTMLDivElement>,
 ) => {
-    const { props, cn } = usePropsOverwrites('DatePicker', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
 
     const {
-        onChange, styles: externalStyles, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
+        onChange, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
         pickedDates, type = DATE_PICKER_TIME_TYPES.PICKER, allowedDates, initialViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
         disableYearChange, ...restProps
@@ -45,7 +43,7 @@ export const DatePicker = forwardRef((
 
     const countWeeksInMonth = getWeeksInMonth(viewingDate);
     const params = { countWeeksInMonth, isLarge, borderRadius, size, useIncreasedScopeDay };
-    const styles = useStyles({ ...params, styles: externalStyles });
+    const styles = useStyles({ ...params, ...styleProps });
     const isDropdownOpened = monthDropdownData.isOpen || yearDropdownData.isOpen;
 
     const [hoveredDay, setHoveredDay] = useState<Date | undefined>();

@@ -3,6 +3,7 @@ export * from './Button';
 export * from './Checkbox';
 export * from './Chips';
 export * from './Counter';
+export * from './DatePicker';
 export * from './Link';
 export * from './Loader';
 export * from './Modal';

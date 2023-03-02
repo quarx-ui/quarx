@@ -1,5 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
 import { format, getDate, isSameMonth } from 'date-fns';
 import { ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
@@ -9,10 +7,10 @@ import { useStyles } from './styles';
 
 export const DayBlock = forwardRef((initialProps: DayBlockProps,
     ref: ForwardedRef<HTMLDivElement>) => {
-    const { props, cn } = usePropsOverwrites('HeaderDatePicker', initialProps);
+    const { styleProps, props, cn } = usePropsOverwrites('HeaderDatePicker', initialProps);
     const { onChange, dates, type, innerStyles,
         viewingDate, allowedDates, hoveredDay, setHoveredDay, times, useIncreasedScopeDay,
-        setTimes, currentDay, size, borderRadius, styles: externalStyles, numDay, isLarge } = props;
+        setTimes, currentDay, size, borderRadius, numDay, isLarge } = props;
 
     const { isDayInPeriod,
         isDayTrusted,
@@ -65,7 +63,7 @@ export const DayBlock = forwardRef((initialProps: DayBlockProps,
         isLarge,
     };
 
-    const styles = useStyles({ ...params, styles: { ...externalStyles, ...innerStyles?.day } });
+    const styles = useStyles({ ...params, ...styleProps, styles: { ...styleProps.styles, ...innerStyles?.day } });
 
     return (
         <div

@@ -1,4 +1,3 @@
-/** @jsx jsx */
 /** @jsxFrag */
 import { jsx } from '@emotion/react';
 import React, { ForwardedRef, forwardRef, useState } from 'react';
@@ -13,12 +12,12 @@ import { useStyles } from './styles';
 export const FooterDatePicker = forwardRef((
     initialProps : FooterDatePickerProps, ref: ForwardedRef<HTMLDivElement>,
 ) => {
-    const { props, cn } = usePropsOverwrites('HeaderDatePicker', initialProps);
-    const { innerStyles, styles: externalStyles, type, setDates, dates, startTimeText,
+    const { props, cn, styleProps } = usePropsOverwrites('HeaderDatePicker', initialProps);
+    const { innerStyles, type, setDates, dates, startTimeText,
         endTimeText, selectedTimeLabel, size, times, setTimes, errorValidateTime, borderRadius,
     } = props;
     const params = { size, borderRadius };
-    const styles = useStyles({ ...params, styles: { ...innerStyles?.footer, ...externalStyles } });
+    const styles = useStyles({ ...params, ...styleProps, styles: { ...styleProps.styles, ...innerStyles?.footer } });
     const commonPeriodProps = {
         borderRadius,
         size,

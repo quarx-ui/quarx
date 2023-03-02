@@ -1,1 +1,0 @@
-export { SystemBasedThemeProvider } from './SystemBasedThemeProvider';

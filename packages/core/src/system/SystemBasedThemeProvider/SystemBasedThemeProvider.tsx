@@ -5,10 +5,11 @@ import { useSystemTheme } from '@core/utils/hooks/useSystemTheme';
 import { ThemeProviderProps } from '@emotion/react/types/theming';
 
 export interface SystemBasedThemeProviderProps extends Partial<ThemeProviderProps> {
-    themeType?: PaletteType,
-    disableCheckSystemTheme?: boolean,
-    createThemeArgs?: CreateThemeArg,
-    theme?: Theme,
+    themeType?: PaletteType;
+    disableCheckSystemTheme?: boolean;
+    createThemeArgs?: CreateThemeArg;
+    theme?: Theme;
+
 }
 
 export const SystemBasedThemeProvider: FC<SystemBasedThemeProviderProps> = ({

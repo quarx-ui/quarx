@@ -1,4 +1,3 @@
-/** @jsx jsx */
 /** @jsxFrag */
 import { jsx } from '@emotion/react';
 import React, { ForwardedRef, forwardRef, Fragment } from 'react';
@@ -9,15 +8,15 @@ import { MonthBlockProps } from './types';
 import { useStyles } from './styles';
 
 export const MonthBlock = forwardRef((initialProps: MonthBlockProps, ref: ForwardedRef<HTMLDivElement>) => {
-    const { props, cn } = usePropsOverwrites('MonthBlock', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('MonthBlock', initialProps);
     const {
-        styles: externalStyles, innerStyles, viewingDate, onChange, dates, allowedDates, type, hoveredDay,
+        innerStyles, viewingDate, onChange, dates, allowedDates, type, hoveredDay,
         setHoveredDay, isLarge, texts, times, setTimes, size, borderRadius, useIncreasedScopeDay, locale,
     } = props;
     const monthData = useMonthData(viewingDate);
     const weekdays = getWeekdayNamesByLocale(locale) || texts?.weekdays || INITIAL_WEEKDAYS();
     const params = { size, isLarge, borderRadius };
-    const styles = useStyles({ ...params, styles: { ...innerStyles?.monthBlock, ...externalStyles } });
+    const styles = useStyles({ ...params, ...styleProps, styles: { ...innerStyles?.monthBlock, ...styleProps.styles } });
 
     const commonDayOffsetProps = {
         innerStyles,
