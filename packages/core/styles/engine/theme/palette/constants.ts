@@ -17,4 +17,9 @@ export const PALETTE_STANDARD_KEYS = valuesAsKeysFromArray([
     'secondary',
 ])
 
+export const PALETTE_TYPES = valuesAsKeysFromArray([
+    'light',
+    'dark',
+])
+
 export const isPaletteStandardKey = createValuesAsKeysTypeGuard(PALETTE_STANDARD_KEYS);

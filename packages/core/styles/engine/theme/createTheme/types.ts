@@ -44,6 +44,13 @@ import {
     TabsSegmentedProps,
     TextFieldProps,
     Transitions,
+    DayBlockProps,
+    DatePickerDropdownProps,
+    FooterDatePickerProps,
+    HeaderDatePickerProps,
+    MonthBlockProps,
+    OffsetDayBlockProps,
+    HeaderDatePickerDropdownProps,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';

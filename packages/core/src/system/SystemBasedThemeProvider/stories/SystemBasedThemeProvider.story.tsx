@@ -1,19 +1,17 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react';
 import React from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { Badge, PALETTE_TYPE_ARR, useTheme } from '@core';
-import { SystemBasedThemeProviderProps } from '@core/src/unstyled/SystemBasedThemeProvider/SystemBasedThemeProvider';
+import { Badge, PALETTE_TYPES, useTheme, SystemBasedThemeProviderProps } from '@core';
 import { useSystemTheme } from '@core/utils/hooks/useSystemTheme';
+import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { SystemBasedThemeProvider } from '..';
 
 export default {
-    title: 'core/SystemBasedThemeProvider',
+    title: STORY_PATHS.core.components.system('SystemBaseThemeProvider'),
     component: SystemBasedThemeProvider,
     argTypes: {
         themeType: {
             description: 'Текущий выбранный элемент. Каждому Case передается свой уникальный',
-            options: PALETTE_TYPE_ARR,
+            options: PALETTE_TYPES,
             control: { type: 'select' },
         },
         disableCheckSystemTheme: {

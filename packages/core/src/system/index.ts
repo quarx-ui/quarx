@@ -4,6 +4,7 @@ export * from './DelayedMounter';
 export * from './Divider';
 export * from './FooterBlock';
 export * from './HeaderBlock';
+export * from './SystemBasedThemeProvider';
 export * from './OverScreen';
 export * from './Popup';
 export * from './Portal';

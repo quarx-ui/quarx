@@ -1,8 +1,8 @@
 import { DeepPartial,PALETTE_TYPE, PALETTE_STANDARD_KEYS, Values } from '@core';
 import { WithOverwrites } from '../types';
-import { PALETTE_COLORS } from './constants';
+import { PALETTE_COLORS, PALETTE_TYPES } from './constants';
 
-export type PaletteType = Values<typeof PALETTE_TYPE>;
+export type PaletteType = Values<typeof PALETTE_TYPES>;
 
 export type PaletteColor = Values<typeof PALETTE_COLORS>;
 
