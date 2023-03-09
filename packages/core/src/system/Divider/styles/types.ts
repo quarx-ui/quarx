@@ -34,4 +34,11 @@ export interface DividerStyleParams {
      *
      * @default main */
     color: PaletteStandardKey | string;
+
+    /** Толщина разделителя
+     *
+     * Передается к свойству border-width
+     *
+     * @default thin */
+    width: string;
 }
