@@ -1,13 +1,13 @@
 import { paramsToCss } from '@core/utils';
 import { ORIENTATIONS } from '@core/enums';
-import { isPaletteStandardKey, KeysFromUseStyles, makeStyles, PALETTE_STANDARD_KEYS } from '@core/styles';
+import { isPaletteStandardKey, KeysFromUseStyles, makeStyles } from '@core/styles';
 import { cssVar } from '@core/utils/cssVars';
 import { DividerCSSVarKeys } from './vars';
 import { DividerStyleParams } from './types';
 
 export const useStyles = makeStyles((
     { palette },
-    { indent, orientation, color = PALETTE_STANDARD_KEYS.main }: DividerStyleParams,
+    { indent, orientation, color, width }: DividerStyleParams,
     { cssIndent, cssColor }: Record<DividerCSSVarKeys, string>,
 ) => ({
     root: [
@@ -18,10 +18,10 @@ export const useStyles = makeStyles((
         },
         paramsToCss(orientation)({
             [ORIENTATIONS.horizontal]: {
-                borderBottom: `thin solid ${cssVar(cssColor)}`,
+                borderBottom: `${width} solid ${cssVar(cssColor)}`,
             },
             [ORIENTATIONS.vertical]: {
-                borderRight: `thin solid ${cssVar(cssColor)}`,
+                borderRight: `${width} solid ${cssVar(cssColor)}`,
             },
         }),
         Array.isArray(indent)

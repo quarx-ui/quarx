@@ -20,11 +20,12 @@ export const Divider: OverridableComponent<DividerPropsWithoutHtml, 'div'> = for
         color = PALETTE_STANDARD_KEYS.main,
         indent = false,
         orientation = ORIENTATIONS.horizontal,
+        width = 'thin',
 
         ...restProps
     } = props;
 
-    const params = { indent, orientation, color };
+    const params = { indent, orientation, color, width };
     const styles = useStyles({ ...params, ...styleProps });
 
     return (
