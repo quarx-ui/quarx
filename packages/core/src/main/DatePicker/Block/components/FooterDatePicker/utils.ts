@@ -67,6 +67,7 @@ export const mapTimesToDates = (
             return parseTime('endDate', dates, value, errorMessageSetters, inputType, errorValidateText);
         }
         const selectedTimeStr = value.trim();
+        // console.log(dates.)
         if (dates && 'selectedDate' in dates && dates.selectedDate) {
             return (!isCompletedTime(selectedTimeStr)) ? {
                 selectedDate: setTime(dates.selectedDate, '00:00:00',

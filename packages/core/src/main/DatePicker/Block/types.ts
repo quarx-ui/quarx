@@ -22,80 +22,80 @@ export type DatePickerBorderRadius = QxBorderSize;
 export type DatePickerSize = PickQxSize<'small' | 'medium' | 'large'>
 
 export interface DatePickerStyleParams {
-    size?: DatePickerSize,
-    isLarge?: boolean,
-    borderRadius?: DatePickerBorderRadius,
-    useIncreasedScopeDay?: boolean,
-    countWeeksInMonth?: number
+    size?: DatePickerSize;
+    isLarge?: boolean;
+    borderRadius?: DatePickerBorderRadius;
+    useIncreasedScopeDay?: boolean;
+    countWeeksInMonth?: number;
 }
 
 export interface DatePickerAllowedDates {
-    start?: Date,
-    end?: Date,
+    start?: Date;
+    end?: Date;
 }
 
 export interface DatePickerTEXTS {
-    placeholder?: string,
-    errorText?: string,
-    weekdays?: string[],
-    monthNames?: string[],
-    label?: string | ReactNode,
-    time?: string,
-    startTime?: string,
-    endTime?: string,
-    errorValidateTime?: string
+    placeholder?: string;
+    errorText?: string;
+    weekdays?: string[];
+    monthNames?: string[];
+    label?: string | ReactNode;
+    time?: string;
+    startTime?: string;
+    endTime?: string;
+    errorValidateTime?: string;
 }
 
 export interface PickerTypeDates {
-    selectedDate?: Date,
+    selectedDate?: Date;
 }
 
 export interface PeriodTypeDates {
-    startDate?: Date,
-    endDate?: Date,
+    startDate?: Date;
+    endDate?: Date;
 }
 
 export type PickedDatesDatePicker = PickerTypeDates | PeriodTypeDates
 
 export interface CommonDatePickerStyles {
-    dropdown: StylesMap<DropdownDatePickerStyleKeys>,
-    dropdownHeaderButton: StylesMap<DropdownButtonStyleKeys>,
-    footer: StylesMap<FooterDatePickerStyleKeys>,
-    header: StylesMap<HeaderDatePickerStyleKeys>,
-    monthBlock: StylesMap<MonthBlockStyleKeys>,
-    offsetDay: StylesMap<OffsetDayStyleKeys>,
-    day: StylesMap<DayStyleKeys>,
+    dropdown: StylesMap<DropdownDatePickerStyleKeys>;
+    dropdownHeaderButton: StylesMap<DropdownButtonStyleKeys>;
+    footer: StylesMap<FooterDatePickerStyleKeys>;
+    header: StylesMap<HeaderDatePickerStyleKeys>;
+    monthBlock: StylesMap<MonthBlockStyleKeys>;
+    offsetDay: StylesMap<OffsetDayStyleKeys>;
+    day: StylesMap<DayStyleKeys>;
 }
 
-export interface DatePickerPropsGeneric<T, D> extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge'>,
+export interface DatePickerPropsGeneric<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker> extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge'>,
     WithClassesAndStyles<DatePickerStyleKeys, DatePickerStyleParams> {
-    onChange: (value?: D) => void,
-    type: T,
-    pickedDates?: D,
-    allowedDates?: DatePickerAllowedDates,
-    initialViewingDate?: Date,
-    withTime?: boolean,
-    yearsArr?: number[],
-    popperZIndex?: number,
-    texts?: DatePickerTEXTS,
-    locale?: Locale,
-    innerStyles?: CommonDatePickerStyles,
-    display?: DatePickerDisplayTypes,
-    disableYearChange?: boolean,
+    onChange: (value?: D) => void;
+    type: T;
+    pickedDates?: D;
+    allowedDates?: DatePickerAllowedDates;
+    initialViewingDate?: Date;
+    withTime?: boolean;
+    yearsArr?: number[];
+    popperZIndex?: number;
+    texts?: DatePickerTEXTS;
+    locale?: Locale;
+    innerStyles?: CommonDatePickerStyles;
+    display?: DatePickerDisplayTypes;
+    disableYearChange?: boolean;
     permissions?: {
-        disabled?: boolean,
-        hidden?: boolean,
-    }
+        disabled?: boolean;
+        hidden?: boolean;
+    };
 }
-export interface DatePickerInnerComponentsProps extends Omit<DatePickerProps, 'listOfYears' | 'permissions'
+export interface DatePickerInnerComponentsProps<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker> extends Omit<DatePickerPropsGeneric<T, D>, 'listOfYears' | 'permissions'
 | 'locale' | 'className' | 'classes' | 'isOpen' | 'onChange' | 'changeableDates' | 'css' | 'pickedDates'
 > {
-    viewingDate: Date,
-    styles: Exclude<DatePickerProps['styles'], undefined>
-    onChange?: (dates?: PickedDatesDatePicker) => void
-    dates?: PickedDatesDatePicker,
-    isLarge: boolean
-    setViewingDate: Dispatch<SetStateAction<Date>>
+    viewingDate: Date;
+    styles: Exclude<DatePickerProps['styles'], undefined>;
+    onChange?: (dates?: D) => void;
+    dates?: D;
+    isLarge: boolean;
+    setViewingDate: Dispatch<SetStateAction<Date>>;
 }
 
 export type DatePickerProps = (
@@ -104,13 +104,13 @@ export type DatePickerProps = (
 )
 
 export interface InnerTimeValues {
-    pickedTime: string,
-    startTime: string,
-    endTime: string
+    pickedTime: string;
+    startTime: string;
+    endTime: string;
 }
 
 export interface InnerTimeSetters {
-    setPickedTime: Dispatch<SetStateAction<string>>,
-    setStartTime: Dispatch<SetStateAction<string>>,
-    setEndTime: Dispatch<SetStateAction<string>>,
+    setPickedTime: Dispatch<SetStateAction<string>>;
+    setStartTime: Dispatch<SetStateAction<string>>;
+    setEndTime: Dispatch<SetStateAction<string>>;
 }

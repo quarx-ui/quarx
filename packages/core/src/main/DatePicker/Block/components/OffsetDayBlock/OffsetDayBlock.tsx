@@ -1,12 +1,12 @@
-import { jsx } from '@emotion/react';
-import { FC, ForwardedRef, forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
+import { DatePickerTimeTypes, PickedDatesDatePicker } from '@core/src';
 import { useDayProperties } from '../../utils';
 import { useStyles } from './styles';
 import { OffsetDayBlockProps } from './types';
 
-export const OffsetDayBlock: FC<OffsetDayBlockProps> = forwardRef((
-    initialProps: OffsetDayBlockProps, ref: ForwardedRef<HTMLDivElement>,
+export const OffsetDayBlock = forwardRef(<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(
+    initialProps: OffsetDayBlockProps<T, D>, ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('OffsetDayBlock', initialProps);
 

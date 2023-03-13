@@ -8,7 +8,7 @@ import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPOR
 import { addDays } from 'date-fns';
 import { getDateFnsLocale } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { DatePicker,
+import { DatePickerBlock,
     DATE_PICKER_DISPLAY_TYPES,
     DATE_PICKER_TIME_TYPES,
     DatePickerProps, PeriodTypeDates,
@@ -27,8 +27,8 @@ const defaultArgs: StoryType = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('block/DatePicker'),
-    component: DatePicker,
+    title: STORY_PATHS.core.components.main('DatePicker/block'),
+    component: DatePickerBlock,
     args: defaultArgs,
     argTypes: {
         component: {
@@ -71,7 +71,7 @@ export const Sandbox: Story<StoryType> = (props) => {
             {pickedDates && Object.values(pickedDates).map((date) => `${date.toString()}\n`)}
             { /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */ }
             { /* @ts-ignore */ }
-            <DatePicker
+            <DatePickerBlock
                 pickedDates={pickedDates}
                 onChange={setPickedDates}
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -97,9 +97,7 @@ export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
                 {DisplayVariants({
                     property: 'size',
                     values: ['small', 'medium', 'large'],
-                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                    // @ts-ignore
-                    component: DatePicker,
+                    component: DatePickerBlock,
                     componentProps: {
                         ...props,
                         type: DATE_PICKER_TIME_TYPES.PERIOD,
@@ -113,9 +111,7 @@ export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
                 {DisplayVariants({
                     property: 'size',
                     values: ['small', 'medium', 'large'],
-                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                    // @ts-ignore
-                    component: DatePicker,
+                    component: DatePickerBlock,
                     componentProps: {
                         ...props,
                         display: DATE_PICKER_DISPLAY_TYPES.DOUBLE,
@@ -144,9 +140,7 @@ export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
                 {DisplayVariants({
                     property: 'borderRadius',
                     values: ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'],
-                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                    // @ts-ignore
-                    component: DatePicker,
+                    component: DatePickerBlock,
                     direction: 'vertical',
                     componentProps: {
                         ...props,
@@ -161,16 +155,14 @@ export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
                 {DisplayVariants({
                     property: 'borderRadius',
                     values: ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'],
-                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                    // @ts-ignore
-                    component: DatePicker,
+                    component: DatePickerBlock,
                     direction: 'vertical',
                     componentProps: ({
                         ...props,
                         type: DATE_PICKER_TIME_TYPES.PICKER,
                         onChange: setSelectedDate,
                         pickedDates: selectedDate,
-                    } as DatePickerProps),
+                    }),
                 })}
             </div>
         </div>
@@ -186,7 +178,7 @@ export const DisableYear: Story<StoryType> = (props) => {
                 values: [false, true],
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore
-                component: DatePicker,
+                component: DatePickerBlock,
                 componentProps: {
                     ...props,
                     type: DATE_PICKER_TIME_TYPES.PERIOD,
@@ -207,7 +199,7 @@ export const AllowedDates: Story<StoryType> = (props) => {
             gap: 20,
         }}
         >
-            <DatePicker
+            <DatePickerBlock
                 allowedDates={{
                     start: addDays(new Date(), -7),
                     end: addDays(new Date(), 7),
@@ -219,7 +211,7 @@ export const AllowedDates: Story<StoryType> = (props) => {
                 }}
                 type={DATE_PICKER_TIME_TYPES.PICKER}
             />
-            <DatePicker
+            <DatePickerBlock
                 allowedDates={{
                     start: addDays(new Date(), -7),
                 }}
@@ -230,7 +222,7 @@ export const AllowedDates: Story<StoryType> = (props) => {
                 }}
                 type={DATE_PICKER_TIME_TYPES.PICKER}
             />
-            <DatePicker
+            <DatePickerBlock
                 allowedDates={{
                     end: addDays(new Date(), 7),
                 }}
@@ -248,7 +240,7 @@ export const AllowedDates: Story<StoryType> = (props) => {
 export const FrenchDatePicker = (props: DatePickerProps) => {
     const [pickedDate, setPickDate] = useState<PeriodTypeDates | undefined>();
     return (
-        <DatePicker
+        <DatePickerBlock
             {...props}
             pickedDates={pickedDate}
             onChange={setPickDate}
