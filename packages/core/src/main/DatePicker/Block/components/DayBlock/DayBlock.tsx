@@ -1,11 +1,12 @@
 import { format, getDate, isSameMonth } from 'date-fns';
 import { ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
+import { DATE_PICKER_TIME_TYPES, DatePickerTimeTypes, PickedDatesDatePicker } from '@core/src';
 import { mapSelectToDates, useDayProperties } from '../../utils';
 import { DayBlockProps } from './types';
 import { useStyles } from './styles';
 
-export const DayBlock = forwardRef((initialProps: DayBlockProps,
+export const DayBlock = forwardRef(<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(initialProps: DayBlockProps<T, D>,
     ref: ForwardedRef<HTMLDivElement>) => {
     const { styleProps, props, cn } = usePropsOverwrites('HeaderDatePicker', initialProps);
     const { onChange, dates, type, innerStyles,
@@ -35,8 +36,8 @@ export const DayBlock = forwardRef((initialProps: DayBlockProps,
 
     const onSelectDay = (item: Date) => {
         if (isDayTrusted) {
-            const newDates = mapSelectToDates(item, dates, type, times, setTimes);
-            onChange?.(newDates);
+            const newDates = mapSelectToDates<T, D>(item, type, times, setTimes, dates);
+            onChange?.(newDates as D);
         }
         setHoveredDay?.(undefined);
     };

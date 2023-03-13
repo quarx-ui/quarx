@@ -1,20 +1,26 @@
-import React, { ForwardedRef, forwardRef, useMemo, useRef, useState } from 'react';
-import { useMedia, usePropsOverwrites } from '@core';
+import React, { ForwardedRef, useMemo, useRef, useState } from 'react';
+import {
+    DatePickerPropsGeneric,
+    DatePickerTimeTypes,
+    useMedia,
+    usePropsOverwrites,
+} from '@core';
+import { forwardRef } from '@core/utils';
 import { addMonths, getWeeksInMonth } from 'date-fns';
 import { useInitialDates, useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
 import { getTimeFromDate } from './components/FooterDatePicker/utils';
-import { DATE_PICKER_DISPLAY_TYPES, DATE_PICKER_TIME_TYPES, DatePickerProps, PickedDatesDatePicker } from './types';
+import { DATE_PICKER_DISPLAY_TYPES, DATE_PICKER_TIME_TYPES, PickedDatesDatePicker } from './types';
 import { useStyles } from './styles';
 
-export const DatePicker = forwardRef((
-    initialProps: DatePickerProps, ref: ForwardedRef<HTMLDivElement>,
+export const DatePickerBlock = forwardRef(<T extends DatePickerTimeTypes = 'PICKER', D extends PickedDatesDatePicker = {}>(
+    initialProps: DatePickerPropsGeneric<T, D>, ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
 
     const {
         onChange, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
-        pickedDates, type = DATE_PICKER_TIME_TYPES.PICKER, allowedDates, initialViewingDate, locale,
+        pickedDates, type, allowedDates, initialViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
         disableYearChange, ...restProps
     } = props;
@@ -27,27 +33,27 @@ export const DatePicker = forwardRef((
     const [pickedTime, setPickedTime] = useState<string>(getTimeFromDate('selectedDate', dates));
     const [startTime, setStartTime] = useState<string>(getTimeFromDate('startDate', dates));
     const [endTime, setEndTime] = useState<string>(getTimeFromDate('endDate', dates));
-    const times = {
-        pickedTime, startTime, endTime,
-    };
+    const times = { pickedTime, startTime, endTime };
     const setTimes = {
         setPickedTime, setStartTime, setEndTime,
     };
+
     const refDropdown = useRef<HTMLDivElement>(null);
     const monthDropdownData = useDropdownDatePicker(
         DROPDOWN_TYPES.MONTHS,
         { locale, content: texts?.monthNames },
     );
     const yearDropdownData = useDropdownDatePicker(DROPDOWN_TYPES.YEARS, { locale, content: yearsArr });
-    const [viewingDate, setViewingDate] = useState<Date>(initialViewingDate || new Date());
-
-    const countWeeksInMonth = getWeeksInMonth(viewingDate);
-    const params = { countWeeksInMonth, isLarge, borderRadius, size, useIncreasedScopeDay };
-    const styles = useStyles({ ...params, ...styleProps });
     const isDropdownOpened = monthDropdownData.isOpen || yearDropdownData.isOpen;
 
+    const [viewingDate, setViewingDate] = useState<Date>(initialViewingDate || new Date());
+    const countWeeksInMonth = getWeeksInMonth(viewingDate);
+
+    const params = { countWeeksInMonth, isLarge, borderRadius, size, useIncreasedScopeDay };
+    const styles = useStyles({ ...params, ...styleProps });
+
     const [hoveredDay, setHoveredDay] = useState<Date | undefined>();
-    const onSelectDay = (newDates?: PickedDatesDatePicker) => {
+    const onSelectDay = (newDates?: D) => {
         if (newDates) {
             onChange(newDates);
             setDates(newDates);
@@ -126,7 +132,7 @@ export const DatePicker = forwardRef((
                     />
                 )}
                 {!isDropdownOpened && (
-                    <MonthBlock
+                    <MonthBlock<T, D>
                         {...commonMonthBlockProps}
                         viewingDate={viewingDate}
                         key="MonthBlock_1"

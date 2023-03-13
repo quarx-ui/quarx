@@ -1,5 +1,12 @@
 import { isAfter, parse } from 'date-fns';
-import { DatePickerProps, InnerTimeValues, InnerTimeSetters } from '@core';
+import {
+    DatePickerProps,
+    InnerTimeValues,
+    InnerTimeSetters,
+    PickedDatesDatePicker,
+    PickerTypeDates,
+    PeriodTypeDates, DatePickerTimeTypes,
+} from '@core';
 import { DATE_PICKER_TIME_TYPES } from '..';
 import { isCompletedTime } from '../components/FooterDatePicker/utils';
 
@@ -23,21 +30,22 @@ const checkTime = (times: InnerTimeValues, setTimes: InnerTimeSetters) => {
     return newTimes;
 };
 
-export const mapSelectToDates = (
+export const mapSelectToDates = <T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(
     date: Date,
-    dates: DatePickerProps['pickedDates'],
-    type: DatePickerProps['type'],
+    type: T,
     times: InnerTimeValues,
     setTimes: InnerTimeSetters,
-): DatePickerProps['pickedDates'] => {
+    dates?: D,
+): PickedDatesDatePicker => {
     const checkedTimes = checkTime(times, setTimes);
     if (type === DATE_PICKER_TIME_TYPES.PERIOD) {
         if (!dates || (dates
             && (!('startDate' in dates)
                 || ('startDate' in dates && 'endDate' in dates && dates.endDate && dates.startDate)))) {
-            return {
+            const a = {
                 startDate: setDateTime(date, checkedTimes.startTime),
             };
+            return a;
         } if ('startDate' in dates && !dates.endDate && dates.startDate) {
             return isAfter(date, dates.startDate) ? {
                 startDate: setDateTime(dates.startDate, checkedTimes.startTime),

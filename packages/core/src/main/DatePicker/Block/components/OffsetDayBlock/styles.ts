@@ -1,4 +1,4 @@
-import { KeysFromUseStyles, makeStyles, OffsetDayStyleParams } from '@core';
+import { KeysFromUseStyles, makeStyles, OffsetDayStyleParams, rgbToHex } from '@core';
 import { useMemo } from 'react';
 import { DATE_PICKER_DAY_SIZE_PX, OFFSET_DAYS,
     getCustomHover,
@@ -24,7 +24,7 @@ export const useStyles = makeStyles(({ palette },
             },
             ((isLarge ? isDayInPeriodLarge : isDayInPeriod) || isDayLastInPeriod)
             && !isEqualDays && !isWeekdayName && (isHoveredPeriod ? {
-                backgroundImage: inlineSVGHover(sizeDay, OFFSET_DAYS[size]),
+                backgroundImage: inlineSVGHover(sizeDay, OFFSET_DAYS[size], palette.border.secondary),
                 ...getCustomHover(isLarge),
             } : {
                 backgroundColor: palette.colors.brand.surface,

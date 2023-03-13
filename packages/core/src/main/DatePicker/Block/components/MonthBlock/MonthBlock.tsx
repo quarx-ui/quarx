@@ -1,13 +1,14 @@
 /** @jsxFrag */
-import { jsx } from '@emotion/react';
-import React, { ForwardedRef, forwardRef, Fragment } from 'react';
+import React, { ForwardedRef, Fragment } from 'react';
 import { usePropsOverwrites } from '@core/styles';
+import { forwardRef } from '@core/utils';
+import { DatePickerTimeTypes, PickedDatesDatePicker } from '@core/src';
 import { OffsetDayBlock, DayBlock } from '..';
 import { getWeekdayNamesByLocale, INITIAL_WEEKDAYS, useMonthData } from '../../utils';
 import { MonthBlockProps } from './types';
 import { useStyles } from './styles';
 
-export const MonthBlock = forwardRef((initialProps: MonthBlockProps, ref: ForwardedRef<HTMLDivElement>) => {
+export const MonthBlock = forwardRef(<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(initialProps: MonthBlockProps<T, D>, ref: ForwardedRef<HTMLDivElement>) => {
     const { props, cn, styleProps } = usePropsOverwrites('MonthBlock', initialProps);
     const {
         innerStyles, viewingDate, onChange, dates, allowedDates, type, hoveredDay,

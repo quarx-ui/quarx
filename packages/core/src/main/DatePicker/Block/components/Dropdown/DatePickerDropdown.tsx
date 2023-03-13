@@ -1,4 +1,3 @@
-import { jsx } from '@emotion/react';
 import React, { ForwardedRef, forwardRef } from 'react';
 import { getMonth, getYear, setMonth, setYear } from 'date-fns';
 import { usePropsOverwrites } from '@core/styles';
