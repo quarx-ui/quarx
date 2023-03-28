@@ -6,7 +6,7 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPORTS';
 import { addDays } from 'date-fns';
-import { getDateFnsLocale } from '@core';
+import { Button, getDateFnsLocale } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { PopupDatePicker } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker';
 import { DatePickerBlock,
@@ -70,13 +70,12 @@ export const Sandbox: Story<StoryType> = (props) => {
     return (
         <React.Fragment>
             {pickedDates && Object.values(pickedDates).map((date) => `${(date as Date).toString()}\n`)}
-            <PopupDatePicker<'PERIOD', PeriodTypeDates>
+            <Button />
+            <PopupDatePicker
                 pickedDates={pickedDates}
                 onChange={setPickedDates}
-                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                // @ts-ignore
-                type={DATE_PICKER_TIME_TYPES.PERIOD}
                 {...props}
+                type={DATE_PICKER_TIME_TYPES.PERIOD}
             />
         </React.Fragment>
     );

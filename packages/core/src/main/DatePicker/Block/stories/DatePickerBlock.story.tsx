@@ -6,13 +6,12 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPORTS';
 import { addDays } from 'date-fns';
-import { getDateFnsLocale } from '@core';
+import { getDateFnsLocale, PeriodSelectedDates, PickerSelectedDate } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { DatePickerBlock,
     DATE_PICKER_DISPLAY_TYPES,
     DATE_PICKER_TIME_TYPES,
-    DatePickerProps, PeriodTypeDates,
-    PickerTypeDates,
+    DatePickerProps,
 } from '..';
 
 type StoryType = Omit<DatePickerProps, 'onChange' | 'pickedDates'>;
@@ -65,14 +64,14 @@ export default {
 };
 
 export const Sandbox: Story<StoryType> = (props) => {
-    const [pickedDates, setPickedDates] = useState<PeriodTypeDates | undefined>(undefined);
+    const [pickedDates, setPickedDates] = useState<PeriodSelectedDates | undefined>(undefined);
     return (
         <React.Fragment>
-            {pickedDates && Object.values(pickedDates).map((date) => `${date.toString()}\n`)}
-            { /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */ }
-            { /* @ts-ignore */ }
+            {pickedDates && Object.entries(pickedDates).map(([key, date]) => `Date ${key}: ${date.toString()}\n`)}
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore */}
             <DatePickerBlock
-                pickedDates={pickedDates}
+                selected={pickedDates}
                 onChange={setPickedDates}
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore
@@ -84,7 +83,7 @@ export const Sandbox: Story<StoryType> = (props) => {
 };
 
 export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
-    const [pickedDates, setPickedDates] = useState<PeriodTypeDates | undefined>(undefined);
+    const [selected, setSelected] = useState<PeriodSelectedDates | undefined>(undefined);
     return (
         <div
             style={{
@@ -101,8 +100,8 @@ export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
                     componentProps: {
                         ...props,
                         type: DATE_PICKER_TIME_TYPES.PERIOD,
-                        onChange: setPickedDates,
-                        pickedDates,
+                        onChange: setSelected,
+                        selected,
                     },
                 })}
             </div>
@@ -116,8 +115,8 @@ export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
                         ...props,
                         display: DATE_PICKER_DISPLAY_TYPES.DOUBLE,
                         type: DATE_PICKER_TIME_TYPES.PERIOD,
-                        onChange: setPickedDates,
-                        pickedDates,
+                        onChange: setSelected,
+                        selected,
                     },
                 })}
             </div>
@@ -126,8 +125,8 @@ export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
 };
 
 export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
-    const [pickedDates, setPickedDates] = useState<PeriodTypeDates | undefined>(undefined);
-    const [selectedDate, setSelectedDate] = useState<PickerTypeDates | undefined>(undefined);
+    const [periodSelectedDates, setPeriodSelectedDates] = useState<PeriodSelectedDates | undefined>(undefined);
+    const [selectedDate, setSelectedDate] = useState<PickerSelectedDate | undefined>(undefined);
     return (
         <div
             style={{
@@ -145,8 +144,8 @@ export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
                     componentProps: {
                         ...props,
                         type: DATE_PICKER_TIME_TYPES.PERIOD,
-                        onChange: setPickedDates,
-                        pickedDates,
+                        onChange: setPeriodSelectedDates,
+                        selected: periodSelectedDates,
                     },
                 })}
             </div>
@@ -161,7 +160,7 @@ export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
                         ...props,
                         type: DATE_PICKER_TIME_TYPES.PICKER,
                         onChange: setSelectedDate,
-                        pickedDates: selectedDate,
+                        selected: selectedDate,
                     }),
                 })}
             </div>
@@ -170,20 +169,18 @@ export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
 };
 
 export const DisableYear: Story<StoryType> = (props) => {
-    const [pickedDates, setPickedDates] = useState<PeriodTypeDates | undefined>(undefined);
+    const [selected, setSelected] = useState<PeriodSelectedDates | undefined>(undefined);
     return (
         <div>
             {DisplayVariants({
                 property: 'disableYearChange',
                 values: [false, true],
-                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                // @ts-ignore
                 component: DatePickerBlock,
                 componentProps: {
                     ...props,
                     type: DATE_PICKER_TIME_TYPES.PERIOD,
-                    onChange: setPickedDates,
-                    pickedDates,
+                    onChange: setSelected,
+                    selected,
                 },
             })}
         </div>
@@ -191,7 +188,7 @@ export const DisableYear: Story<StoryType> = (props) => {
 };
 
 export const AllowedDates: Story<StoryType> = (props) => {
-    const [pickedDates, setPickedDates] = useState<PickerTypeDates | undefined>(undefined);
+    const [selected, setSelected] = useState<PickerSelectedDate | undefined>(undefined);
     return (
         <div style={{
             display: 'flex',
@@ -205,21 +202,17 @@ export const AllowedDates: Story<StoryType> = (props) => {
                     end: addDays(new Date(), 7),
                 }}
                 {...props}
-                pickedDates={pickedDates}
-                onChange={(newDates) => {
-                    setPickedDates(newDates);
-                }}
                 type={DATE_PICKER_TIME_TYPES.PICKER}
+                selected={selected}
+                onChange={setSelected}
             />
             <DatePickerBlock
                 allowedDates={{
                     start: addDays(new Date(), -7),
                 }}
                 {...props}
-                pickedDates={pickedDates}
-                onChange={(newDates) => {
-                    setPickedDates(newDates);
-                }}
+                selected={selected}
+                onChange={setSelected}
                 type={DATE_PICKER_TIME_TYPES.PICKER}
             />
             <DatePickerBlock
@@ -227,10 +220,8 @@ export const AllowedDates: Story<StoryType> = (props) => {
                     end: addDays(new Date(), 7),
                 }}
                 {...props}
-                pickedDates={pickedDates}
-                onChange={(newDates) => {
-                    setPickedDates(newDates);
-                }}
+                selected={selected}
+                onChange={setSelected}
                 type={DATE_PICKER_TIME_TYPES.PICKER}
             />
         </div>
@@ -238,12 +229,12 @@ export const AllowedDates: Story<StoryType> = (props) => {
 };
 
 export const FrenchDatePicker = (props: DatePickerProps) => {
-    const [pickedDate, setPickDate] = useState<PeriodTypeDates | undefined>();
+    const [selected, setSelected] = useState<PeriodSelectedDates | undefined>();
     return (
         <DatePickerBlock
             {...props}
-            pickedDates={pickedDate}
-            onChange={setPickDate}
+            selected={selected}
+            onChange={setSelected}
             type={DATE_PICKER_TIME_TYPES.PERIOD}
             initialViewingDate={new Date('2022-09-07')}
             locale={getDateFnsLocale('fr')}

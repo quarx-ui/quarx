@@ -1,19 +1,18 @@
-import { ForwardedRef } from 'react';
+import { FC } from 'react';
 import {
-    DatePickerBlock, DatePickerTimeTypes,
-    PickedDatesDatePicker,
+    DatePickerBlock,
     Popup,
     usePropsOverwrites,
-    forwardRef,
+    forwardRef, isPicker, DatePickerProps,
 } from '@core';
-import { PopupDatePickerPropsGeneric } from './types';
+import { PopupDatePickerProps } from './types';
 
-export const PopupDatePicker = forwardRef((<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(
-    initialProps: PopupDatePickerPropsGeneric<T, D>,
-    ref: ForwardedRef<HTMLDivElement>,
+export const PopupDatePicker: FC<PopupDatePickerProps> = forwardRef<HTMLDivElement, PopupDatePickerProps>(((
+    initialProps,
+    ref,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
-    const { hidden = false, onClickAway, anchor, popupProps, ...datePickerProps } = props;
+    const { hidden = false, onClickAway, anchor, popupProps, datePickerProps } = props;
     // const { state: hidden, setOppositeState: toggleHidden, setState: setHidden, setFalse: hidePopup, setTrue: showPopup } = useBooleanWithExternalManagement(externalHidden, setExternalHidden);
 
     return (
@@ -24,7 +23,7 @@ export const PopupDatePicker = forwardRef((<T extends DatePickerTimeTypes, D ext
             onClickAway={onClickAway}
             anchor={anchor}
         >
-            <DatePickerBlock<T, D> {...datePickerProps} />
+            <DatePickerBlock {...datePickerProps} />
         </Popup>
     );
 }));

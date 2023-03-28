@@ -46,16 +46,14 @@ export interface DatePickerTEXTS {
     errorValidateTime?: string;
 }
 
-export interface PickerTypeDates {
-    selectedDate?: Date;
+export type PickerSelectedDate = Date;
+
+export interface PeriodSelectedDates {
+    start?: Date;
+    end?: Date;
 }
 
-export interface PeriodTypeDates {
-    startDate?: Date;
-    endDate?: Date;
-}
-
-export type PickedDatesDatePicker = PickerTypeDates | PeriodTypeDates
+export type SelectedDatesDatePicker = PeriodSelectedDates | PickerSelectedDate;
 
 export interface CommonDatePickerStyles {
     dropdown: StylesMap<DropdownDatePickerStyleKeys>;
@@ -67,11 +65,8 @@ export interface CommonDatePickerStyles {
     day: StylesMap<DayStyleKeys>;
 }
 
-export interface DatePickerPropsGeneric<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker> extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge'>,
+export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge'>,
     WithClassesAndStyles<DatePickerStyleKeys, DatePickerStyleParams> {
-    onChange: (value?: D) => void;
-    type: T;
-    pickedDates?: D;
     allowedDates?: DatePickerAllowedDates;
     initialViewingDate?: Date;
     withTime?: boolean;
@@ -87,21 +82,35 @@ export interface DatePickerPropsGeneric<T extends DatePickerTimeTypes, D extends
         hidden?: boolean;
     };
 }
-export interface DatePickerInnerComponentsProps<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker> extends Omit<DatePickerPropsGeneric<T, D>, 'listOfYears' | 'permissions'
+
+export interface PickerType extends CommonDatePickerProps {
+    type: 'PICKER';
+    selected?: Date;
+    onChange: (date: Date) => void;
+}
+
+export interface PeriodType extends CommonDatePickerProps {
+    type: 'PERIOD';
+    selected: PeriodSelectedDates;
+    onChange: (date: PeriodSelectedDates) => void;
+}
+
+export type DatePickerProps = PickerType | PeriodType
+
+export function isPicker(obj: DatePickerProps): obj is PickerType {
+    return obj.type === DATE_PICKER_TIME_TYPES.PICKER && (typeof obj.selected === 'undefined' || Object.prototype.toString.call(obj.selected) === '[object Date]');
+}
+
+export interface DatePickerInnerComponentsProps extends Omit<DatePickerProps, 'listOfYears' | 'permissions'
 | 'locale' | 'className' | 'classes' | 'isOpen' | 'onChange' | 'changeableDates' | 'css' | 'pickedDates'
 > {
     viewingDate: Date;
     styles: Exclude<DatePickerProps['styles'], undefined>;
-    onChange?: (dates?: D) => void;
-    dates?: D;
+    onChange?: (dates?: SelectedDatesDatePicker) => void;
+    dates?: SelectedDatesDatePicker;
     isLarge: boolean;
     setViewingDate: Dispatch<SetStateAction<Date>>;
 }
-
-export type DatePickerProps = (
-    DatePickerPropsGeneric<'PERIOD', PeriodTypeDates>
-    | DatePickerPropsGeneric<'PICKER', PickerTypeDates>
-)
 
 export interface InnerTimeValues {
     pickedTime: string;
