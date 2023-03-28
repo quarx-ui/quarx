@@ -1,7 +1,6 @@
-import React, { ForwardedRef, useMemo, useRef, useState } from 'react';
+import React, { FC, useMemo, useRef, useState } from 'react';
 import {
-    DatePickerPropsGeneric,
-    DatePickerTimeTypes,
+    DatePickerProps, SelectedDatesDatePicker,
     useMedia,
     usePropsOverwrites,
 } from '@core';
@@ -10,11 +9,11 @@ import { addMonths, getWeeksInMonth } from 'date-fns';
 import { useInitialDates, useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
 import { getTimeFromDate } from './components/FooterDatePicker/utils';
-import { DATE_PICKER_DISPLAY_TYPES, DATE_PICKER_TIME_TYPES, PickedDatesDatePicker } from './types';
+import { DATE_PICKER_DISPLAY_TYPES } from './types';
 import { useStyles } from './styles';
 
-export const DatePickerBlock = forwardRef(<T extends DatePickerTimeTypes = 'PICKER', D extends PickedDatesDatePicker = {}>(
-    initialProps: DatePickerPropsGeneric<T, D>, ref: ForwardedRef<HTMLDivElement>,
+export const DatePickerBlock: FC<DatePickerProps> = forwardRef<HTMLDivElement, DatePickerProps>((
+    initialProps, ref,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
 
@@ -53,7 +52,7 @@ export const DatePickerBlock = forwardRef(<T extends DatePickerTimeTypes = 'PICK
     const styles = useStyles({ ...params, ...styleProps });
 
     const [hoveredDay, setHoveredDay] = useState<Date | undefined>();
-    const onSelectDay = (newDates?: D) => {
+    const onSelectDay = (newDates?: SelectedDatesDatePicker) => {
         if (newDates) {
             onChange(newDates);
             setDates(newDates);
@@ -132,7 +131,7 @@ export const DatePickerBlock = forwardRef(<T extends DatePickerTimeTypes = 'PICK
                     />
                 )}
                 {!isDropdownOpened && (
-                    <MonthBlock<T, D>
+                    <MonthBlock
                         {...commonMonthBlockProps}
                         viewingDate={viewingDate}
                         key="MonthBlock_1"
