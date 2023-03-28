@@ -83,17 +83,23 @@ export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'coun
     };
 }
 
-export interface PickerType extends CommonDatePickerProps {
+export interface PickerMainProps {
     type: 'PICKER';
     selected?: Date;
     onChange: (date: Date) => void;
 }
 
-export interface PeriodType extends CommonDatePickerProps {
+export interface PickerType extends PickerMainProps, CommonDatePickerProps {}
+
+export interface PeriodMainProps {
     type: 'PERIOD';
     selected: PeriodSelectedDates;
     onChange: (date: PeriodSelectedDates) => void;
 }
+
+export interface PeriodType extends PeriodMainProps, CommonDatePickerProps {}
+
+export type DatePickerMainProps = PickerMainProps | PeriodMainProps;
 
 export type DatePickerProps = PickerType | PeriodType
 

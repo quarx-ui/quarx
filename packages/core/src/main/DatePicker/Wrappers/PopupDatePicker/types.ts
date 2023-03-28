@@ -1,14 +1,25 @@
-import { CommonDatePickerProps, DatePickerProps, PeriodSelectedDates, PopupProps } from '@core';
+import {
+    CommonDatePickerProps,
+    DatePickerProps,
+    PeriodSelectedDates,
+    PopupProps,
+} from '@core';
 
-type PopupComponentDatePickerProps = Omit<PopupProps, 'anchor' | 'onClickAway' | 'open'>
+type PopupComponentDatePickerProps = Omit<
+PopupProps,
+'anchor' | 'onClickAway' | 'open'
+>;
 
-export type CommonPopupDatePickerProps = Pick<PopupProps, 'onClickAway' | 'anchor'> & {
+export type PopupDatePickerProps = DatePickerProps & Pick<
+PopupProps,
+'onClickAway' | 'anchor'
+> & {
     hidden?: boolean;
     // setHidden?: (hidden: boolean) => void;
     popupProps?: PopupComponentDatePickerProps;
-    datePickerProps: DatePickerProps;
-}
-
+    // datePickerProps: DatePickerProps;
+};
+//
 // export interface PickerType extends CommonPopupDatePickerProps {
 //     type: 'PICKER';
 //     selected?: Date;
@@ -21,4 +32,4 @@ export type CommonPopupDatePickerProps = Pick<PopupProps, 'onClickAway' | 'ancho
 //     onChange: (date: PeriodSelectedDates) => void;
 // }
 //
-// export type PopupDatePickerProps = PickerType | PeriodType
+// export type PopupDatePickerProps = PickerType | PeriodType;
