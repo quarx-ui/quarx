@@ -1,0 +1,1 @@
+export { GiftIcon } from './GiftIcon';

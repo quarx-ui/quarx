@@ -277,6 +277,7 @@ import { GearIcon as Gear24pxFillRounded } from '../src/gear/24px/fill/rounded';
 import { GearIcon as Gear24pxFillSquare } from '../src/gear/24px/fill/square';
 import { GearIcon as Gear24pxStrokeRounded } from '../src/gear/24px/stroke/rounded';
 import { GearIcon as Gear24pxStrokeSquare } from '../src/gear/24px/stroke/square';
+import { GiftIcon as Gift36pxFillRounded } from '../src/gift/36px/fill/rounded';
 import { GooglePlayMarketColorIcon as GooglePlayMarketColor24pxFillRounded } from '../src/google-play-market-color/24px/fill/rounded';
 import { GooglePlayMarketColorIcon as GooglePlayMarketColor36pxFillRounded } from '../src/google-play-market-color/36px/fill/rounded';
 import { GooglePlayMarketIcon as GooglePlayMarket24pxFillRounded } from '../src/google-play-market/24px/fill/rounded';
@@ -307,6 +308,7 @@ import { InfoIcon as Info24pxStrokeSquare } from '../src/info/24px/stroke/square
 import { LightningIcon as Lightning24pxFillRounded } from '../src/lightning/24px/fill/rounded';
 import { LightningIcon as Lightning24pxStrokeRounded } from '../src/lightning/24px/stroke/rounded';
 import { LinkIcon as Link24pxStrokeRounded } from '../src/link/24px/stroke/rounded';
+import { LinkIcon as Link36pxFillRounded } from '../src/link/36px/fill/rounded';
 import { ListCheckmarkIcon as ListCheckmark36pxStrokeRounded } from '../src/list-checkmark/36px/stroke/rounded';
 import { ListHorizontalIcon as ListHorizontal36pxFillRounded } from '../src/list-horizontal/36px/fill/rounded';
 import { LockIcon as Lock24pxFillRounded } from '../src/lock/24px/fill/rounded';
@@ -765,6 +767,7 @@ export const allIcons: Record<string, ComponentType> = {
     'gear/24px/fill/square': Gear24pxFillSquare,
     'gear/24px/stroke/rounded': Gear24pxStrokeRounded,
     'gear/24px/stroke/square': Gear24pxStrokeSquare,
+    'gift/36px/fill/rounded': Gift36pxFillRounded,
     'google-play-market-color/24px/fill/rounded': GooglePlayMarketColor24pxFillRounded,
     'google-play-market-color/36px/fill/rounded': GooglePlayMarketColor36pxFillRounded,
     'google-play-market/24px/fill/rounded': GooglePlayMarket24pxFillRounded,
@@ -795,6 +798,7 @@ export const allIcons: Record<string, ComponentType> = {
     'lightning/24px/fill/rounded': Lightning24pxFillRounded,
     'lightning/24px/stroke/rounded': Lightning24pxStrokeRounded,
     'link/24px/stroke/rounded': Link24pxStrokeRounded,
+    'link/36px/fill/rounded': Link36pxFillRounded,
     'list-checkmark/36px/stroke/rounded': ListCheckmark36pxStrokeRounded,
     'list-horizontal/36px/fill/rounded': ListHorizontal36pxFillRounded,
     'lock/24px/fill/rounded': Lock24pxFillRounded,
@@ -1476,6 +1480,9 @@ export const groupByName: Record<string, string[]> = {
         '24px/stroke/rounded',
         '24px/stroke/square',
     ],
+    gift: [
+        '36px/fill/rounded',
+    ],
     'google-play-market': [
         '24px/fill/rounded',
         '36px/fill/rounded',
@@ -1545,6 +1552,7 @@ export const groupByName: Record<string, string[]> = {
     ],
     link: [
         '24px/stroke/rounded',
+        '36px/fill/rounded',
     ],
     'list-checkmark': [
         '36px/stroke/rounded',
@@ -2327,6 +2335,7 @@ export const groupBySize: Record<string, string[]> = {
         'envelope/36px/stroke/rounded',
         'folder/36px/fill/rounded',
         'folder/36px/stroke/rounded',
+        'gift/36px/fill/rounded',
         'google-play-market-color/36px/fill/rounded',
         'google-play-market/36px/fill/rounded',
         'graduate-hat/36px/fill/rounded',
@@ -2337,6 +2346,7 @@ export const groupBySize: Record<string, string[]> = {
         'house-with-sign/36px/stroke/rounded',
         'house/36px/stroke/rounded',
         'huawei-appgallery/36px/fill/rounded',
+        'link/36px/fill/rounded',
         'list-checkmark/36px/stroke/rounded',
         'list-horizontal/36px/fill/rounded',
         'minus/36px/fill/rounded',
