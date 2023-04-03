@@ -4,12 +4,12 @@ import {
     DatePickerStyleParams,
     DatePickerTimeTypes,
     InnerTimeSetters,
-    InnerTimeValues, WithClassesAndStyles,
+    InnerTimeValues, PickerSelectedDate, SelectedDatesDatePicker, WithClassesAndStyles,
 } from '@core';
 import { DayStyleKeys } from './styles';
 
-export interface DayBlockProps<T extends DatePickerTimeTypes, D> extends WithClassesAndStyles<DayStyleKeys, DayStylesParams>,
-    Omit<DatePickerInnerComponentsProps<T, D>, 'setViewingDate' | 'styles'>{
+export interface DayBlockProps<D extends SelectedDatesDatePicker = PickerSelectedDate> extends WithClassesAndStyles<DayStyleKeys, DayStylesParams>,
+    Omit<DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'>{
     currentDay: Date;
     hoveredDay?: Date;
     setHoveredDay?: Dispatch<SetStateAction<Date | undefined>>;

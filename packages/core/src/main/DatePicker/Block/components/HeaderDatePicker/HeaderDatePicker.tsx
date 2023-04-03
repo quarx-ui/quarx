@@ -1,17 +1,14 @@
-import { jsx } from '@emotion/react';
-import React, { ForwardedRef, forwardRef } from 'react';
+import React, { ForwardedRef } from 'react';
 import { addMonths, format, getMonth, getYear } from 'date-fns';
-import { IconButton, DropdownDatePickerTypes, usePropsOverwrites } from '@core';
+import { IconButton, DropdownDatePickerTypes, usePropsOverwrites, forwardRef, SelectedDatesDatePicker } from '@core';
 import { scrollParentToChild } from '../../utils';
 import { LeftArrowBigIcon, LeftArrowSmallIcon } from '../../assets';
-import {
-    HeaderDatePickerProps,
-} from './types';
+import { HeaderDatePickerProps } from './types';
 import { HeaderDropdownDatePicker, DROPDOWN_TYPES } from '..';
 import { useStyles } from './styles';
 
-export const HeaderDatePicker = forwardRef((
-    initialProps : HeaderDatePickerProps,
+export const HeaderDatePicker = forwardRef(<D extends SelectedDatesDatePicker>(
+    initialProps : HeaderDatePickerProps<D>,
     ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('HeaderDatePicker', initialProps);

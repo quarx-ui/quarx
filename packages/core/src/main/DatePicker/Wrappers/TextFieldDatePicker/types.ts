@@ -1,6 +1,6 @@
-import { DatePickerPropsGeneric, TextFieldProps } from '@core';
+import { PickerSelectedDate, SelectedDatesDatePicker, TextFieldProps } from '@core';
+import { PopupDatePickerProps } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker/types';
 
-export interface TextFieldDatePicker<T, D> extends DatePickerPropsGeneric<T, D> {
-    open?: boolean;
-    textFieldProps: TextFieldProps;
+export interface TextFieldDatePickerProps<D extends SelectedDatesDatePicker = PickerSelectedDate> extends PopupDatePickerProps<D> {
+    textFieldProps?: TextFieldProps;
 }

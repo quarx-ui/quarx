@@ -6,15 +6,15 @@ import { getMonthNamesByLocale, INITIAL_MONTHS, YEARS } from '.';
 export type DropdownItemDatePicker = string | number
 
 export interface DropdownDatePickerHookType {
-    isOpen: boolean,
-    setIsOpen: Dispatch<SetStateAction<boolean>>,
-    ref: RefObject<HTMLDivElement>,
-    content: DropdownItemDatePicker[],
+    isOpen: boolean;
+    setIsOpen: Dispatch<SetStateAction<boolean>>;
+    ref: RefObject<HTMLDivElement>;
+    content: DropdownItemDatePicker[];
 }
 
 interface ParseItemsData {
-    locale?: Locale,
-    content?: DropdownItemDatePicker[],
+    locale?: Locale;
+    content?: DropdownItemDatePicker[];
 }
 
 export const useDropdownDatePicker = (

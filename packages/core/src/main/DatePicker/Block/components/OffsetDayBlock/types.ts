@@ -1,4 +1,10 @@
-import { DatePickerInnerComponentsProps, DatePickerStyleParams, DatePickerTimeTypes, WithClassesAndStyles } from '@core';
+import {
+    DatePickerInnerComponentsProps,
+    DatePickerStyleParams,
+    DatePickerTimeTypes, PickerSelectedDate,
+    SelectedDatesDatePicker,
+    WithClassesAndStyles,
+} from '@core';
 import { UseDayPropertiesProps } from '../../utils/useDayProperties';
 import { OffsetDayStyleKeys } from './styles';
 
@@ -13,8 +19,8 @@ export interface OffsetDayStyleParams extends CommonDatePicker {
     isDayInPeriodLarge: boolean;
 }
 
-export interface OffsetDayBlockProps<T extends DatePickerTimeTypes, D> extends WithClassesAndStyles<OffsetDayStyleKeys, OffsetDayStyleParams>,
-    Pick<DatePickerInnerComponentsProps<T, D>, 'innerStyles'>, UseDayPropertiesProps, CommonDatePicker {
+export interface OffsetDayBlockProps<D extends SelectedDatesDatePicker = PickerSelectedDate> extends WithClassesAndStyles<OffsetDayStyleKeys, OffsetDayStyleParams>,
+    Pick<DatePickerInnerComponentsProps<D>, 'innerStyles'>, UseDayPropertiesProps<D>, CommonDatePicker {
     numDay: number;
     isWeekdayName?: boolean;
     isLarge?: boolean;

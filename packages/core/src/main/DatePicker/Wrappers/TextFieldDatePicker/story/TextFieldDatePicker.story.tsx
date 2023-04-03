@@ -8,7 +8,8 @@ import { Button, PeriodSelectedDates, useBooleanState } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { PopupDatePicker } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker';
 import { Div } from '@storybook/components';
-import {
+import { TextFieldDatePicker } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker';
+import { DatePickerBlock,
     DATE_PICKER_DISPLAY_TYPES,
     DatePickerProps,
 } from '../../../Block';
@@ -24,8 +25,8 @@ const defaultArgs: StoryType = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('DatePicker/wrappers/Popup'),
-    component: PopupDatePicker,
+    title: STORY_PATHS.core.components.main('DatePicker/wrappers/TextField'),
+    component: TextFieldDatePicker,
     args: defaultArgs,
     argTypes: {
         component: {

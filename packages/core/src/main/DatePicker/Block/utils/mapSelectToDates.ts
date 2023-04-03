@@ -1,13 +1,8 @@
 import { isAfter, parse } from 'date-fns';
 import {
-    DatePickerProps,
     InnerTimeValues,
-    InnerTimeSetters,
-    PickedDatesDatePicker,
-    PickerTypeDates,
-    PeriodTypeDates, DatePickerTimeTypes,
+    InnerTimeSetters, PeriodSelectedDates, PickerSelectedDate, SelectedDatesDatePicker, isPeriod,
 } from '@core';
-import { DATE_PICKER_TIME_TYPES } from '..';
 import { isCompletedTime } from '../components/FooterDatePicker/utils';
 
 export const setDateTime = (date: Date, time: string) => parse(time, 'HH:mm:ss', date);
@@ -30,36 +25,51 @@ const checkTime = (times: InnerTimeValues, setTimes: InnerTimeSetters) => {
     return newTimes;
 };
 
-export const mapSelectToDates = <T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(
+export const mergeSelectedDatesWithPeriodDates = (
     date: Date,
-    type: T,
     times: InnerTimeValues,
     setTimes: InnerTimeSetters,
-    dates?: D,
-): PickedDatesDatePicker => {
+    selected: PeriodSelectedDates,
+): PeriodSelectedDates => {
     const checkedTimes = checkTime(times, setTimes);
-    if (type === DATE_PICKER_TIME_TYPES.PERIOD) {
-        if (!dates || (dates
-            && (!('startDate' in dates)
-                || ('startDate' in dates && 'endDate' in dates && dates.endDate && dates.startDate)))) {
-            const a = {
-                startDate: setDateTime(date, checkedTimes.startTime),
-            };
-            return a;
-        } if ('startDate' in dates && !dates.endDate && dates.startDate) {
-            return isAfter(date, dates.startDate) ? {
-                startDate: setDateTime(dates.startDate, checkedTimes.startTime),
-                endDate: setDateTime(date, checkedTimes.endTime),
-            } : { startDate: setDateTime(date, checkedTimes.startTime),
-                endDate: setDateTime(dates.startDate, checkedTimes.endTime) };
-        }
-    } if (type === DATE_PICKER_TIME_TYPES.PICKER) {
-        if (dates && 'selectedDate' in dates && dates.selectedDate === date) {
-            return {};
-        }
+    if (!selected
+        || (selected && (
+            !selected.start || (selected.end && selected.start))
+        )) {
         return {
-            selectedDate: setDateTime(date, checkedTimes.pickedTime),
+            start: setDateTime(date, checkedTimes.startTime),
         };
+    } if (selected.start && !selected.end) {
+        return isAfter(date, selected.start) ? {
+            start: setDateTime(selected.start, checkedTimes.startTime),
+            end: setDateTime(date, checkedTimes.endTime),
+        } : { start: setDateTime(date, checkedTimes.startTime),
+            end: setDateTime(selected.start, checkedTimes.endTime) };
     }
     return {};
+};
+
+export const mergeSelectedDateWithPickedDate = (
+    date: Date,
+    times: InnerTimeValues,
+    setTimes: InnerTimeSetters,
+    selected?: PickerSelectedDate,
+): PickerSelectedDate => {
+    if (selected && selected === date) {
+        return undefined;
+    }
+    const checkedTimes = checkTime(times, setTimes);
+    return setDateTime(date, checkedTimes.pickedTime);
+};
+
+export const mergeDateWithSelected = <D extends SelectedDatesDatePicker>(
+    date: Date,
+    times: InnerTimeValues,
+    setTimes: InnerTimeSetters,
+    selected: D,
+): SelectedDatesDatePicker => {
+    if (isPeriod(selected)) {
+        return mergeSelectedDatesWithPeriodDates(date, times, setTimes, selected);
+    }
+    return mergeSelectedDateWithPickedDate(date, times, setTimes, selected);
 };

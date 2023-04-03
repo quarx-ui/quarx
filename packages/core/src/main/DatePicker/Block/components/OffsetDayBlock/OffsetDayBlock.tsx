@@ -1,21 +1,21 @@
 import { ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
-import { DatePickerTimeTypes, PickedDatesDatePicker } from '@core/src';
+import { SelectedDatesDatePicker } from '@core/src';
 import { useDayProperties } from '../../utils';
 import { useStyles } from './styles';
 import { OffsetDayBlockProps } from './types';
 
-export const OffsetDayBlock = forwardRef(<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(
-    initialProps: OffsetDayBlockProps<T, D>, ref: ForwardedRef<HTMLDivElement>,
+export const OffsetDayBlock = forwardRef(<D extends SelectedDatesDatePicker>(
+    initialProps: OffsetDayBlockProps<D>, ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('OffsetDayBlock', initialProps);
 
     const { numDay, size, day, isWeekdayName, isLarge,
-        innerStyles: externalStyles, dates, type, hoveredDay, viewingDate,
+        innerStyles: externalStyles, selected, hoveredDay, viewingDate,
         useIncreasedScopeDay } = props;
 
     const { isDayInPeriod, isDayLastInPeriod, isEqualDays, isHoveredPeriod, isDayInPeriodLarge } = useDayProperties(
-        { day, dates, type, hoveredDay, viewingDate },
+        { day, selected, hoveredDay, viewingDate },
     );
     const params = { isLarge,
         size,

@@ -46,7 +46,7 @@ export interface DatePickerTEXTS {
     errorValidateTime?: string;
 }
 
-export type PickerSelectedDate = Date;
+export type PickerSelectedDate = Date | undefined;
 
 export interface PeriodSelectedDates {
     start?: Date;
@@ -83,31 +83,28 @@ export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'coun
     };
 }
 
-export interface PickerType extends CommonDatePickerProps {
-    type: 'PICKER';
-    selected?: Date;
-    onChange: (date: Date) => void;
+export function isPicker(dates: SelectedDatesDatePicker): dates is PickerSelectedDate {
+    return typeof dates === 'undefined' || Object.prototype.toString.call(dates) === '[object Date]';
 }
 
-export interface PeriodType extends CommonDatePickerProps {
-    type: 'PERIOD';
-    selected: PeriodSelectedDates;
-    onChange: (date: PeriodSelectedDates) => void;
+export function isPeriod(dates: SelectedDatesDatePicker): dates is PeriodSelectedDates {
+    return !isPicker(dates);
 }
 
-export type DatePickerProps = PickerType | PeriodType
-
-export function isPicker(obj: DatePickerProps): obj is PickerType {
-    return obj.type === DATE_PICKER_TIME_TYPES.PICKER && (typeof obj.selected === 'undefined' || Object.prototype.toString.call(obj.selected) === '[object Date]');
+export function isPickerOnChange(dates: SelectedDatesDatePicker): dates is PeriodSelectedDates {
+    return !isPicker(dates);
+}
+export interface DatePickerProps<D extends SelectedDatesDatePicker = PickerSelectedDate> extends CommonDatePickerProps {
+    selected: D;
+    onChange: (dates: D) => void;
 }
 
-export interface DatePickerInnerComponentsProps extends Omit<DatePickerProps, 'listOfYears' | 'permissions'
-| 'locale' | 'className' | 'classes' | 'isOpen' | 'onChange' | 'changeableDates' | 'css' | 'pickedDates'
+export interface DatePickerInnerComponentsProps<D extends SelectedDatesDatePicker> extends Omit<DatePickerProps<D>, 'listOfYears' | 'permissions'
+| 'locale' | 'className' | 'classes' | 'isOpen' | 'changeableDates' | 'css' | 'pickedDates' | 'onChange'
 > {
+    onChange: (newDates: SelectedDatesDatePicker) => void;
     viewingDate: Date;
-    styles: Exclude<DatePickerProps['styles'], undefined>;
-    onChange?: (dates?: SelectedDatesDatePicker) => void;
-    dates?: SelectedDatesDatePicker;
+    styles: Exclude<DatePickerProps<D>['styles'], undefined>;
     isLarge: boolean;
     setViewingDate: Dispatch<SetStateAction<Date>>;
 }

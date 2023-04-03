@@ -11,6 +11,7 @@ import {
     CreateElevationArg,
     CreatePaletteArg,
     CreateTransitionArg,
+    DatePickerProps,
     DeepPartial,
     DividerProps,
     DropdownItemProps,
@@ -55,6 +56,8 @@ import {
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
+import {PopupDatePickerProps} from "@core/src/main/DatePicker/Wrappers/PopupDatePicker/types";
+import {TextFieldDatePickerProps} from "@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/types";
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -100,6 +103,16 @@ export interface ComponentsProps {
     TabsDefault: TabsDefaultProps;
     TabsSegmented: TabsSegmentedProps;
     TextField: TextFieldProps;
+    DatePicker: DatePickerProps;
+    DayBlock: DayBlockProps;
+    DatePickerDropdown: DatePickerDropdownProps;
+    HeaderDropdownDatePicker: HeaderDatePickerDropdownProps;
+    FooterDatePicker: FooterDatePickerProps;
+    HeaderDatePicker: HeaderDatePickerProps;
+    MonthBlock: MonthBlockProps;
+    OffsetDayBlock: OffsetDayBlockProps;
+    PopupDatePicker: PopupDatePickerProps;
+    TextFieldDatePicker: TextFieldDatePickerProps;
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;

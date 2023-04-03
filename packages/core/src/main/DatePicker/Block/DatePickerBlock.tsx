@@ -1,25 +1,26 @@
-import React, { FC, useMemo, useRef, useState } from 'react';
+import React, { Ref, useEffect, useMemo, useRef, useState } from 'react';
 import {
-    DatePickerProps, SelectedDatesDatePicker,
+    DatePickerProps, isPeriod, isPicker, SelectedDatesDatePicker,
     useMedia,
     usePropsOverwrites,
 } from '@core';
 import { forwardRef } from '@core/utils';
 import { addMonths, getWeeksInMonth } from 'date-fns';
-import { useInitialDates, useDropdownDatePicker } from './utils';
+import { type } from '@testing-library/user-event/dist/type';
+import { useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
 import { getTimeFromDate } from './components/FooterDatePicker/utils';
 import { DATE_PICKER_DISPLAY_TYPES } from './types';
 import { useStyles } from './styles';
 
-export const DatePickerBlock: FC<DatePickerProps> = forwardRef<HTMLDivElement, DatePickerProps>((
-    initialProps, ref,
+export const DatePickerBlock = forwardRef(<D extends SelectedDatesDatePicker>(
+    initialProps: DatePickerProps<D>, ref: Ref<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
 
     const {
         onChange, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
-        pickedDates, type, allowedDates, initialViewingDate, locale,
+        selected, allowedDates, initialViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
         disableYearChange, ...restProps
     } = props;
@@ -28,14 +29,12 @@ export const DatePickerBlock: FC<DatePickerProps> = forwardRef<HTMLDivElement, D
     const isMobile = useMedia('mobile');
     const useIncreasedScopeDay = externalUseIncreasedDay || isMobile;
 
-    const [dates, setDates] = useInitialDates(type, pickedDates);
-    const [pickedTime, setPickedTime] = useState<string>(getTimeFromDate('selectedDate', dates));
-    const [startTime, setStartTime] = useState<string>(getTimeFromDate('startDate', dates));
-    const [endTime, setEndTime] = useState<string>(getTimeFromDate('endDate', dates));
+    const [dates, setDates] = useState<SelectedDatesDatePicker>(selected);
+    const [pickedTime, setPickedTime] = useState<string>(getTimeFromDate(isPicker(dates) ? dates : undefined));
+    const [startTime, setStartTime] = useState<string>(getTimeFromDate(isPeriod(dates) ? dates.start : undefined));
+    const [endTime, setEndTime] = useState<string>(getTimeFromDate(isPeriod(dates) ? dates.end : undefined));
     const times = { pickedTime, startTime, endTime };
-    const setTimes = {
-        setPickedTime, setStartTime, setEndTime,
-    };
+    const setTimes = { setPickedTime, setStartTime, setEndTime };
 
     const refDropdown = useRef<HTMLDivElement>(null);
     const monthDropdownData = useDropdownDatePicker(
@@ -52,16 +51,20 @@ export const DatePickerBlock: FC<DatePickerProps> = forwardRef<HTMLDivElement, D
     const styles = useStyles({ ...params, ...styleProps });
 
     const [hoveredDay, setHoveredDay] = useState<Date | undefined>();
-    const onSelectDay = (newDates?: SelectedDatesDatePicker) => {
-        if (newDates) {
-            onChange(newDates);
-            setDates(newDates);
-        }
+    const onSelectDay = (newDates: SelectedDatesDatePicker) => {
+        onChange(newDates as D);
+        setDates(newDates);
     };
+
+    useEffect(() => {
+        if (selected !== dates) {
+            setDates(selected);
+        }
+    }, [dates, selected]);
 
     const commonMonthBlockProps = {
         type,
-        dates,
+        selected: dates,
         onChange: onSelectDay,
         styles: innerStyles?.monthBlock,
         isLarge,
@@ -150,10 +153,9 @@ export const DatePickerBlock: FC<DatePickerProps> = forwardRef<HTMLDivElement, D
                     times={times}
                     setTimes={setTimes}
                     innerStyles={innerStyles}
-                    type={type}
-                    dates={dates}
+                    selected={dates}
                     size={size}
-                    setDates={onSelectDay}
+                    onChange={onSelectDay}
                     borderRadius={borderRadius}
                     startTimeText={texts?.startTime || 'Начало'}
                     endTimeText={texts?.endTime || 'Конец'}

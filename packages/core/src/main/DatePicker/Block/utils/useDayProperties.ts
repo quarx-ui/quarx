@@ -1,7 +1,6 @@
 import {
     DatePickerAllowedDates,
-    DatePickerTimeTypes, PeriodTypeDates,
-    PickedDatesDatePicker, PickerTypeDates,
+    DatePickerTimeTypes, isPeriod, isPicker, SelectedDatesDatePicker,
 } from '@core';
 import {
     isAfter,
@@ -13,88 +12,80 @@ import {
     startOfMonth,
     isSameISOWeek, isEqual,
 } from 'date-fns';
-import { DATE_PICKER_TIME_TYPES } from '..';
 
-export interface UseDayPropertiesProps {
-    day: Date,
-    dates?: PickedDatesDatePicker,
-    type: DatePickerTimeTypes,
-    hoveredDay?: Date,
-    viewingDate: Date,
-    allowedDates?: DatePickerAllowedDates,
+export interface UseDayPropertiesProps<D extends SelectedDatesDatePicker> {
+    day: Date;
+    selected?: D;
+    hoveredDay?: Date;
+    viewingDate: Date;
+    allowedDates?: DatePickerAllowedDates;
 }
 
 export interface UseDayPropertiesReturn {
-    isDaySelected: boolean,
-    isPeriodSelected: boolean,
-    isDayHovered: boolean,
-    isDayInHoveredPeriod: boolean,
-    isDayInViewableMonth: boolean,
-    isDayInPeriod: boolean,
-    isDayFirstInPeriod: boolean,
-    isDayLastInPeriod: boolean,
-    isEqualDays: boolean,
-    isHoveredPeriod: boolean,
-    isDayTrusted: boolean,
-    isSecondPickInPeriod: boolean,
-    isDayInPeriodLarge:boolean,
+    isDaySelected: boolean;
+    isPeriodSelected: boolean;
+    isDayHovered: boolean;
+    isDayInHoveredPeriod: boolean;
+    isDayInViewableMonth: boolean;
+    isDayInPeriod: boolean;
+    isDayFirstInPeriod: boolean;
+    isDayLastInPeriod: boolean;
+    isEqualDays: boolean;
+    isHoveredPeriod: boolean;
+    isDayTrusted: boolean;
+    isSecondPickInPeriod: boolean;
+    isDayInPeriodLarge:boolean;
 }
 
-export type UseDayProperties = (props: UseDayPropertiesProps) => UseDayPropertiesReturn
+export type UseDayProperties = <D extends SelectedDatesDatePicker>(props: UseDayPropertiesProps<D>) => UseDayPropertiesReturn
 
-export const mapPeriodAndHoverValues = (
-    type: DatePickerTimeTypes,
-    dates?: PickedDatesDatePicker,
+export const mapPeriodAndHoverValues = <D extends SelectedDatesDatePicker>(
+    dates?: D,
     hoveredDay?: Date,
-): PickerTypeDates & PeriodTypeDates => {
+): {selectedDate?: Date; startDate?: Date; endDate?: Date} => {
     if (!dates) {
         return {};
     }
-    if (type === DATE_PICKER_TIME_TYPES.PICKER && 'selectedDate' in dates && dates.selectedDate) {
-        return { selectedDate: dates.selectedDate };
+    if (isPicker(dates) && dates) {
+        return { selectedDate: dates };
     }
 
-    if (type === DATE_PICKER_TIME_TYPES.PERIOD
-        && 'startDate' in dates && 'endDate' in dates
-        && dates.startDate && dates.endDate) {
+    if (isPeriod(dates) && dates.start && dates.end) {
         return {
-            startDate: dates.startDate,
-            endDate: dates.endDate,
+            startDate: dates.start,
+            endDate: dates.end,
         };
     }
 
-    if (type === DATE_PICKER_TIME_TYPES.PERIOD && 'startDate' in dates && hoveredDay && dates.startDate) {
-        return isAfter(hoveredDay, dates.startDate) ? {
-            startDate: dates.startDate,
+    if (isPeriod(dates) && hoveredDay && dates.start) {
+        return isAfter(hoveredDay, dates.start) ? {
+            startDate: dates.start,
             endDate: hoveredDay,
         } : { startDate: hoveredDay,
-            endDate: dates.startDate };
+            endDate: dates.start };
     }
     return {};
 };
 
-export const useDayProperties: UseDayProperties = ({ day, dates, type, hoveredDay, viewingDate,
-    allowedDates }) => {
-    const { startDate, endDate, selectedDate } = mapPeriodAndHoverValues(type, dates, hoveredDay);
-
-    const PICKER_TYPE = type === DATE_PICKER_TIME_TYPES.PICKER;
-    const PERIOD_TYPE = type === DATE_PICKER_TIME_TYPES.PERIOD;
+export const useDayProperties = <D extends SelectedDatesDatePicker>({ day, selected, hoveredDay, viewingDate,
+    allowedDates }: UseDayPropertiesProps<D>) => {
+    const { startDate, endDate, selectedDate } = mapPeriodAndHoverValues<D>(selected, hoveredDay);
 
     const isDaySelected = ((): boolean => {
-        if (PICKER_TYPE && dates && 'selectedDate' in dates) {
+        if (isPicker(selected) && selected) {
             return !!selectedDate && isSameDay(selectedDate, day);
-        } if (PERIOD_TYPE && dates && ('startDate' in dates || 'endDate' in dates)) {
+        } if (isPeriod(selected)) {
             return (!!startDate && isSameDay(startDate, day)) || (!!endDate && isSameDay(endDate, day));
         }
         return false;
     })();
 
     const isPeriodSelected = ((): boolean => {
-        if (PICKER_TYPE && dates && 'selectedDate' in dates) {
-            return !!dates.selectedDate && isSameDay(dates.selectedDate, day);
-        } if (PERIOD_TYPE && dates && ('startDate' in dates && 'endDate' in dates)) {
-            return !!dates.startDate && !!dates.endDate
-                && (isSameDay(dates.startDate, day) || isSameDay(dates.endDate, day));
+        if (isPicker(selected) && selected) {
+            return !!selected && isSameDay(selected, day);
+        } if (isPeriod(selected) && selected) {
+            return !!selected.start && !!selected.end
+                && (isSameDay(selected.start, day) || isSameDay(selected.end, day));
         }
         return false;
     })();
@@ -115,7 +106,7 @@ export const useDayProperties: UseDayProperties = ({ day, dates, type, hoveredDa
 
     const isDayHovered = !!hoveredDay && isSameDay(day, hoveredDay);
 
-    const isDayInHoveredPeriod = !!(hoveredDay && (dates && 'startDate' in dates) && dates.startDate);
+    const isDayInHoveredPeriod = !!(hoveredDay && isPeriod(selected) && selected.start);
 
     const isDayInViewableMonth = isSameMonth(day, viewingDate);
 
@@ -128,12 +119,12 @@ export const useDayProperties: UseDayProperties = ({ day, dates, type, hoveredDa
 
     const isEqualDays = !!endDate && !!startDate && isSameDay(endDate, startDate);
 
-    const isHoveredPeriod = !(dates && 'startDate' in dates && 'endDate' in dates && dates.startDate && dates.endDate);
+    const isHoveredPeriod = !(selected && isPeriod(selected) && selected.start && selected.end);
 
-    const isSecondPickInPeriod = !!dates && ('startDate' in dates && !!dates.startDate && !('endDate' in dates));
+    const isSecondPickInPeriod = !!selected && ('start' in selected && !!selected.start && !('end' in selected));
 
-    const endOfViewableMonth = endOfMonth(viewingDate);
     const startOfViewableMonth = startOfMonth(viewingDate);
+    const endOfViewableMonth = endOfMonth(viewingDate);
 
     const isDayInPeriodLarge = (() => {
         if (!!startDate && !!endDate) {

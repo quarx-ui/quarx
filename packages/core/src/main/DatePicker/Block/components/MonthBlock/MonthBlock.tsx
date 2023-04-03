@@ -1,28 +1,26 @@
-/** @jsxFrag */
 import React, { ForwardedRef, Fragment } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { forwardRef } from '@core/utils';
-import { DatePickerTimeTypes, PickedDatesDatePicker } from '@core/src';
+import { SelectedDatesDatePicker } from '@core/src';
 import { OffsetDayBlock, DayBlock } from '..';
 import { getWeekdayNamesByLocale, INITIAL_WEEKDAYS, useMonthData } from '../../utils';
 import { MonthBlockProps } from './types';
 import { useStyles } from './styles';
 
-export const MonthBlock = forwardRef(<T extends DatePickerTimeTypes, D extends PickedDatesDatePicker>(initialProps: MonthBlockProps<T, D>, ref: ForwardedRef<HTMLDivElement>) => {
+export const MonthBlock = forwardRef(<D extends SelectedDatesDatePicker>(initialProps: MonthBlockProps<D>, ref: ForwardedRef<HTMLDivElement>) => {
     const { props, cn, styleProps } = usePropsOverwrites('MonthBlock', initialProps);
     const {
-        innerStyles, viewingDate, onChange, dates, allowedDates, type, hoveredDay,
+        innerStyles, viewingDate, onChange, selected, allowedDates, hoveredDay,
         setHoveredDay, isLarge, texts, times, setTimes, size, borderRadius, useIncreasedScopeDay, locale,
     } = props;
     const monthData = useMonthData(viewingDate);
-    const weekdays = getWeekdayNamesByLocale(locale) || texts?.weekdays || INITIAL_WEEKDAYS();
+    const weekdays: string[] = getWeekdayNamesByLocale(locale) || texts?.weekdays || INITIAL_WEEKDAYS();
     const params = { size, isLarge, borderRadius };
     const styles = useStyles({ ...params, ...styleProps, styles: { ...innerStyles?.monthBlock, ...styleProps.styles } });
 
     const commonDayOffsetProps = {
         innerStyles,
-        type,
-        dates,
+        selected,
         viewingDate,
         size,
         isLarge,

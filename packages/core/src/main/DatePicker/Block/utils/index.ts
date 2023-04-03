@@ -1,4 +1,3 @@
-export * from './useInitialDates';
 export * from './useMonthData';
 export * from './constants';
 export * from './useDayProperties';

@@ -1,12 +1,9 @@
-import { CommonDatePickerProps, DatePickerProps, PeriodSelectedDates, PopupProps } from '@core';
+import { DatePickerProps, PickerSelectedDate, PopupProps, SelectedDatesDatePicker } from '@core';
 
 type PopupComponentDatePickerProps = Omit<PopupProps, 'anchor' | 'onClickAway' | 'open'>
 
-export type CommonPopupDatePickerProps = Pick<PopupProps, 'onClickAway' | 'anchor'> & {
-    hidden?: boolean;
-    // setHidden?: (hidden: boolean) => void;
+export interface PopupDatePickerProps<D extends SelectedDatesDatePicker = PickerSelectedDate> extends DatePickerProps<D>, Pick<PopupProps, 'onClickAway' | 'anchor' |'open'> {
     popupProps?: PopupComponentDatePickerProps;
-    datePickerProps: DatePickerProps;
 }
 
 // export interface PickerType extends CommonPopupDatePickerProps {

@@ -1,19 +1,20 @@
-/** @jsxFrag */
-import { jsx } from '@emotion/react';
-import React, { ForwardedRef, forwardRef, useState } from 'react';
+import React, { ForwardedRef, useState } from 'react';
 import InputMask from 'react-input-mask';
-import { TextField, TextFieldProps, usePropsOverwrites } from '@core';
+import { forwardRef, isPicker, SelectedDatesDatePicker, TextField, TextFieldProps, usePropsOverwrites } from '@core';
+import { type } from '@testing-library/user-event/dist/type';
 import { DATE_PICKER_TIME_TYPES } from '../..';
-import { createError, isCompletedTime, isValidTimeValue, mapTimesToDates,
-    TIME_INPUT_TYPE, TimeInputType } from './utils';
+import {
+    createError, isCompletedTime, isValidTimeValue, mapTimesToPeriodSelected, mapTimesToPickerSelected,
+    TIME_INPUT_TYPE, TimeInputType,
+} from './utils';
 import { FooterDatePickerProps } from './types';
 import { useStyles } from './styles';
 
-export const FooterDatePicker = forwardRef((
-    initialProps : FooterDatePickerProps, ref: ForwardedRef<HTMLDivElement>,
+export const FooterDatePicker = forwardRef(<D extends SelectedDatesDatePicker>(
+    initialProps : FooterDatePickerProps<D>, ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('HeaderDatePicker', initialProps);
-    const { innerStyles, type, setDates, dates, startTimeText,
+    const { innerStyles, onChange, selected, startTimeText,
         endTimeText, selectedTimeLabel, size, times, setTimes, errorValidateTime, borderRadius,
     } = props;
     const params = { size, borderRadius };
@@ -38,16 +39,20 @@ export const FooterDatePicker = forwardRef((
     const onTimeChange = (value: string, inputType: TimeInputType) => {
         if (isCompletedTime(value) && !isValidTimeValue(value)) {
             createError(errorMessageSetters, inputType, errorValidateTime);
-        } else if (isCompletedTime(value)) {
+        } else if (isCompletedTime(value) && onChange) {
             createError(errorMessageSetters, inputType, undefined);
-            setDates?.(mapTimesToDates(value, dates, type, inputType, errorMessageSetters, errorValidateTime));
+            if (isPicker(selected)) {
+                onChange(mapTimesToPickerSelected(value, selected, inputType, errorMessageSetters, errorValidateTime));
+            } else {
+                onChange(mapTimesToPeriodSelected(value, selected, inputType, errorMessageSetters, errorValidateTime));
+            }
         } else {
             createError(errorMessageSetters, inputType, undefined);
         }
     };
     return (
         <div css={styles.footer} ref={ref} className={cn('footer', params)}>
-            {type === DATE_PICKER_TIME_TYPES.PICKER ? (
+            {isPicker(selected) ? (
                 <InputMask
                     mask="99:99:99"
                     onChange={(e) => {
