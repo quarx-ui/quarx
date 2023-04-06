@@ -4,6 +4,7 @@ import { AndroidIcon as Android24pxFillRounded } from '../src/android/24px/fill/
 import { AndroidIcon as Android36pxFillRounded } from '../src/android/36px/fill/rounded';
 import { AppleIcon as Apple36pxFillRounded } from '../src/apple/36px/fill/rounded';
 import { AppleLogoIcon as AppleLogo24pxFillRounded } from '../src/apple-logo/24px/fill/rounded';
+import { ArchiveBoxIcon as ArchiveBox24pxStrokeRounded } from '../src/archive-box/24px/stroke/rounded';
 import { ArchiveIcon as Archive24pxFillRounded } from '../src/archive/24px/fill/rounded';
 import { ArchiveIcon as Archive24pxStrokeRounded } from '../src/archive/24px/stroke/rounded';
 import { ArchiveIcon as Archive36pxFillRounded } from '../src/archive/36px/fill/rounded';
@@ -384,6 +385,7 @@ import { PlusIcon as Plus24pxStrokeSquare } from '../src/plus/24px/stroke/square
 import { PlusIcon as Plus36pxFillRounded } from '../src/plus/36px/fill/rounded';
 import { PolarClockIcon as PolarClock36pxFillRounded } from '../src/polar-clock/36px/fill/rounded';
 import { PresentationDiagramIcon as PresentationDiagram36pxFillRounded } from '../src/presentation-diagram/36px/fill/rounded';
+import { ProhibitionSignIcon as ProhibitionSign24pxStrokeRounded } from '../src/prohibition-sign/24px/stroke/rounded';
 import { QrCodeIcon as QrCode24pxStrokeRounded } from '../src/qr-code/24px/stroke/rounded';
 import { QrSquareIcon as QrSquare24pxFillRounded } from '../src/qr-square/24px/fill/rounded';
 import { QuestionCircleIcon as QuestionCircle36pxFillRounded } from '../src/question-circle/36px/fill/rounded';
@@ -494,6 +496,7 @@ export const allIcons: Record<string, ComponentType> = {
     'android/36px/fill/rounded': Android36pxFillRounded,
     'apple-logo/24px/fill/rounded': AppleLogo24pxFillRounded,
     'apple/36px/fill/rounded': Apple36pxFillRounded,
+    'archive-box/24px/stroke/rounded': ArchiveBox24pxStrokeRounded,
     'archive/24px/fill/rounded': Archive24pxFillRounded,
     'archive/24px/stroke/rounded': Archive24pxStrokeRounded,
     'archive/36px/fill/rounded': Archive36pxFillRounded,
@@ -874,6 +877,7 @@ export const allIcons: Record<string, ComponentType> = {
     'plus/36px/fill/rounded': Plus36pxFillRounded,
     'polar-clock/36px/fill/rounded': PolarClock36pxFillRounded,
     'presentation-diagram/36px/fill/rounded': PresentationDiagram36pxFillRounded,
+    'prohibition-sign/24px/stroke/rounded': ProhibitionSign24pxStrokeRounded,
     'qr-code/24px/stroke/rounded': QrCode24pxStrokeRounded,
     'qr-square/24px/fill/rounded': QrSquare24pxFillRounded,
     'question-circle/36px/fill/rounded': QuestionCircle36pxFillRounded,
@@ -996,6 +1000,9 @@ export const groupByName: Record<string, string[]> = {
         '24px/stroke/rounded',
         '36px/fill/rounded',
         '36px/stroke/rounded',
+    ],
+    'archive-box': [
+        '24px/stroke/rounded',
     ],
     'arrow-bottom-circle': [
         '24px/fill/rounded',
@@ -1679,6 +1686,9 @@ export const groupByName: Record<string, string[]> = {
     'presentation-diagram': [
         '36px/fill/rounded',
     ],
+    'prohibition-sign': [
+        '24px/stroke/rounded',
+    ],
     'qr-code': [
         '24px/stroke/rounded',
     ],
@@ -1985,6 +1995,7 @@ export const groupBySize: Record<string, string[]> = {
     '24px': [
         'android/24px/fill/rounded',
         'apple-logo/24px/fill/rounded',
+        'archive-box/24px/stroke/rounded',
         'archive/24px/fill/rounded',
         'archive/24px/stroke/rounded',
         'arrow-bottom-circle/24px/fill/rounded',
@@ -2186,6 +2197,7 @@ export const groupBySize: Record<string, string[]> = {
         'plus-circle/24px/stroke/square',
         'plus/24px/stroke/rounded',
         'plus/24px/stroke/square',
+        'prohibition-sign/24px/stroke/rounded',
         'qr-code/24px/stroke/rounded',
         'qr-square/24px/fill/rounded',
         'question/24px/stroke/rounded',
