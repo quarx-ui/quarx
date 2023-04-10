@@ -1,0 +1,1 @@
+export { ProhibitionSignIcon } from './ProhibitionSignIcon';
