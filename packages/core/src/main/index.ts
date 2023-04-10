@@ -9,6 +9,7 @@ export * from './Modal';
 export * from './RadioButton';
 export * from './Selections';
 export * from './SidePage';
+export * from './Snackbar';
 export * from './Switcher';
 export * from './Tabs';
 export * from './TextField';

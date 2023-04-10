@@ -13,6 +13,7 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
 
         loop = false,
         rerenderOn = 'step',
+        disabled = false,
 
         onStart,
         onPause,
@@ -21,7 +22,7 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
     } = options;
 
     const intervalId = useRef<ReturnType<typeof setInterval>>();
-    const isFinished = useRef(false);
+    const isFinished = useRef(disabled);
 
     const [startTime, setInnerStartTime] = useState(defaultStartTime);
     const { setOppositeState: rerender } = useBooleanState(false);
@@ -29,10 +30,12 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
     const timerValue = useRef(startTime);
 
     const applyRerender = useCallback(() => {
+        if (disabled) { return; }
+
         if (rerenderOn === 'step' || timerValue.current === endTime) {
             rerender();
         }
-    }, [endTime, rerender, rerenderOn]);
+    }, [disabled, endTime, rerender, rerenderOn]);
 
     const clearTimer = useCallback(() => {
         if (!intervalId.current) { return; }
@@ -73,10 +76,10 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
     }, [decrementTimer, applyRerender]);
 
     const startTimer = useCallback(() => {
-        if (intervalId.current) { return; }
+        if (intervalId.current || disabled) { return; }
 
         intervalId.current = setInterval(updateTimer, interval * timeScale);
-    }, [interval, timeScale, updateTimer]);
+    }, [disabled, interval, timeScale, updateTimer]);
 
     const resume: UseTimerReturn['resume'] = useCallback(() => {
         if (isFinished.current) { return; }

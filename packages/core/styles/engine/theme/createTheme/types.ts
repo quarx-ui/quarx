@@ -30,6 +30,7 @@ import {
     SelectionTreeProps,
     SidePageProps,
     StackProps,
+    SnackbarProps,
     SwitcherProps,
     TabItemContainedProps,
     TabItemDefaultProps,
@@ -77,6 +78,7 @@ export interface ComponentsProps {
     SelectionTreeNode: SelectionTreeNodeProps;
     SidePage: SidePageProps;
     Stack: StackProps;
+    Snackbar: SnackbarProps;
     Switcher: SwitcherProps;
     TabItemContained: TabItemContainedProps;
     TabItemDefault: TabItemDefaultProps;
