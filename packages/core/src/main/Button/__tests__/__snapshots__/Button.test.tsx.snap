@@ -8,7 +8,7 @@ exports[`Button style params borderRadius large 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -24,7 +24,7 @@ exports[`Button style params borderRadius max 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -40,7 +40,7 @@ exports[`Button style params borderRadius medium 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -56,7 +56,7 @@ exports[`Button style params borderRadius small 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -72,7 +72,7 @@ exports[`Button style params borderRadius xLarge 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -88,7 +88,7 @@ exports[`Button style params borderRadius xSmall 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -104,7 +104,7 @@ exports[`Button style params color brand 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -120,7 +120,7 @@ exports[`Button style params color danger 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -136,7 +136,7 @@ exports[`Button style params color info 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -152,7 +152,7 @@ exports[`Button style params color secondary 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -168,7 +168,7 @@ exports[`Button style params color success 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -184,7 +184,7 @@ exports[`Button style params color warning 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -200,7 +200,7 @@ exports[`Button style params loading false 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -217,7 +217,7 @@ exports[`Button style params loading true 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-51lmls-QxButton-content"
+      class="QxButton-content css-11blzq7-QxButton-content"
     >
       Button
     </div>
@@ -246,7 +246,7 @@ exports[`Button style params size large 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -262,7 +262,7 @@ exports[`Button style params size medium 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -278,7 +278,7 @@ exports[`Button style params size small 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-59e1j2-QxButton-content"
     >
       Button
     </div>
@@ -294,7 +294,7 @@ exports[`Button style params size xSmall 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -310,7 +310,7 @@ exports[`Button style params type contained 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -326,7 +326,7 @@ exports[`Button style params type outlined 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>
@@ -342,7 +342,7 @@ exports[`Button style params type text 1`] = `
     type="button"
   >
     <div
-      class="QxButton-content css-hh58qu-QxButton-content"
+      class="QxButton-content css-m3eosc-QxButton-content"
     >
       Button
     </div>

@@ -68,6 +68,10 @@ export const useStyles = makeStyles((
     content: [
         flexCenter,
         loading && hidden,
+        size === 'small' && {
+            marginTop: 2,
+            marginBottom: 2,
+        },
     ],
 }));
 
