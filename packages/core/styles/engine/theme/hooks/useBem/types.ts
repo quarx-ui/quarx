@@ -16,8 +16,7 @@ export type UseBemPropsType<
 
 export type UseBemTypeCast<
     T extends object,
-    StyleKey extends string,
-    CSSVarNames extends Partial<Record<string, string>> = Record<string, string>
+    StyleKey extends string
 > =
     & UseBemPropsType<T, StyleKey>
     & {

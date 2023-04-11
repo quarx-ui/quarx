@@ -1,7 +1,7 @@
+import { handleOverflow } from '@core/utils';
 import { colorToRgb } from '../colorToRgb';
 import { valuesFromRgb } from '../valuesFromRgb';
 import { valuesToRgb } from '../valuesToRgb';
-import { handleOverflow } from '@core/utils';
 
 export const changeOpacity = (color: string, opacity: number) => {
     const rgb = colorToRgb(color);

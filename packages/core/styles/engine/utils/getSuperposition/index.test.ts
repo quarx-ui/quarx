@@ -24,7 +24,7 @@ describe('mix colors', () => {
         ${'#FFA3A3'}              | ${'rgb(255, 200, 200)'}
         ${'rgb(255,0,0)'}         | ${'rgb(255, 102, 102)'}
     `('$value -> $expected', ({ value, expected }) => {
-    expect(getLightSuperposition(value, 0.4)).toBe(expected);
+        expect(getLightSuperposition(value, 0.4)).toBe(expected);
     });
 
     it.each`
@@ -32,6 +32,6 @@ describe('mix colors', () => {
         ${'#FFA3A5'}              | ${'rgb(153, 98, 99)'}
         ${'rgb(255,10,0)'}        | ${'rgb(153, 6, 0)'}
     `('$value -> $expected', ({ value, expected }) => {
-    expect(getDarkSuperposition(value, 0.4)).toBe(expected);
+        expect(getDarkSuperposition(value, 0.4)).toBe(expected);
     });
 });

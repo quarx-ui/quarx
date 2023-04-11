@@ -1,6 +1,4 @@
-import { Narrow } from '@core';
-import { createBreakpoints } from '@core';
-import { BreakpointKey, Breakpoints } from '@core';
+import { Narrow, createBreakpoints, BreakpointKey, Breakpoints } from '@core';
 import { BREAKPOINT_KEYS as KEYS } from '../constants';
 
 type MethodKey = Narrow<keyof Breakpoints, 'up' | 'down' | 'only'>

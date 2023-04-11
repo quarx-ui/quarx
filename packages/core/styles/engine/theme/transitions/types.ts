@@ -1,9 +1,9 @@
 export interface Easing {
-    easeInOut: string,
-    easeOut: string,
-    easeOutIn: string,
-    easeIn: string,
-    sharp: string,
+    easeInOut: string;
+    easeOut: string;
+    easeOutIn: string;
+    easeIn: string;
+    sharp: string;
 }
 
 export interface Duration {
@@ -17,9 +17,9 @@ export interface Duration {
 }
 
 export interface CreateOptions {
-    duration?: number | string,
-    easing?: string,
-    delay?: number | string
+    duration?: number | string;
+    easing?: string;
+    delay?: number | string;
 }
 
 export type TransitionsCreateFc = (
@@ -28,15 +28,15 @@ export type TransitionsCreateFc = (
 ) => string;
 
 export interface CreateTransitionArg {
-    easing?: Easing,
-    duration?: Duration,
-    create?: TransitionsCreateFc,
+    easing?: Easing;
+    duration?: Duration;
+    create?: TransitionsCreateFc;
 }
 
 export type FormatMs = (milliseconds: number) => string;
 
 export interface Transitions {
-    easing: Easing,
-    duration: Duration,
-    create: TransitionsCreateFc,
+    easing: Easing;
+    duration: Duration;
+    create: TransitionsCreateFc;
 }

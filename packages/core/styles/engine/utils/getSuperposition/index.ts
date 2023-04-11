@@ -1,5 +1,5 @@
-import { colorToRgb } from '../colorToRgb';
 import { handleOverflow } from '@core/utils';
+import { colorToRgb } from '../colorToRgb';
 import { valuesFromRgb } from '../valuesFromRgb';
 import { valuesToRgb } from '../valuesToRgb';
 
@@ -88,8 +88,8 @@ export const getLightSuperpositionWithEqualAlpha = (color: string, opacity = 1) 
     // Итоговый альфа-канал
     const calculatedAlpha = Math.round((1 - (1 - alpha) ** 2) * decimal) / decimal;
 
-    return valuesToRgb({ ...rgb, a: calculatedAlpha })
-}
+    return valuesToRgb({ ...rgb, a: calculatedAlpha });
+};
 
 /** Наложение белого цвета на целевой,
  * где значение непрозрачности применяется к белому цвету и вычитается из целевого */

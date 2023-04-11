@@ -41,6 +41,7 @@ import {
     TabsSegmentedProps,
     TextFieldProps,
     Transitions,
+    CustomTheme,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
@@ -91,7 +92,7 @@ export interface ComponentsProps {
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;
 
-export type Theme = {
+export interface Theme extends CustomTheme {
     palette: Palette;
     breakpoints: Breakpoints;
     transitions: Transitions;
@@ -99,9 +100,9 @@ export type Theme = {
     borders: ReturnedBorders;
     borderRadii: ReturnedBorderRadii;
     defaultProps?: DefaultProps;
-};
+}
 
-export interface CreateThemeArg {
+export interface CreateThemeArg extends CustomTheme {
     palette?: CreatePaletteArg;
     breakpoints?: CreateBreakpointsArg;
     transitions?: CreateTransitionArg;

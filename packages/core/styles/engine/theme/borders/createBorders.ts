@@ -9,7 +9,7 @@ export const createBorders: CreateBorders = (
 ) => {
     const defaultOps = {
         ...DEFAULT_BORDERS_OBJ,
-        ...(options ?? {})
+        ...(options ?? {}),
     };
 
     const borders: Borders = {
@@ -18,25 +18,25 @@ export const createBorders: CreateBorders = (
         large: getBorder(defaultOps.large, DEFAULT_BORDERS_OBJ.large, palette.border.main),
     };
 
-    const create: BordersCreateFC = (options) => {
+    const create: BordersCreateFC = (createOptions) => {
         const {
             size = 'medium',
             color = palette.border.main,
             side = 'all',
-            style = 'solid'
-        } = options;
+            style = 'solid',
+        } = createOptions;
 
         return ({
             borderWidth: mapSideToWidth(borders[size].borderWidth)[side],
             borderColor: color as string,
             borderStyle: style,
         });
-    }
+    };
 
     return {
         ...borders,
         create,
-    }
-}
+    };
+};
 
 export const borders = createBorders();

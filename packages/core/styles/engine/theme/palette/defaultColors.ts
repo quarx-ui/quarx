@@ -26,4 +26,4 @@ export const DEFAULT_COLORS = {
             danger: '#F7142B',
         },
     },
-}
+};

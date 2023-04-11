@@ -7,11 +7,11 @@ export const PALETTE_COLORS = valuesAsKeysFromArray([
     'success',
     'warning',
     'danger',
-])
+]);
 
 export const PALETTE_STANDARD_KEYS = valuesAsKeysFromArray([
     'main',
     'secondary',
-])
+]);
 
 export const isPaletteStandardKey = createValuesAsKeysTypeGuard(PALETTE_STANDARD_KEYS);

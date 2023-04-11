@@ -9,7 +9,7 @@ export interface WithBackgroundAndBorder {
     border?: string;
 }
 export interface ElevationItem extends WithBackgroundAndBorder {
-    boxShadow: string,
+    boxShadow: string;
 }
 
 export type ElevationItems = Record<ElevationSize, ElevationItem>;
@@ -21,7 +21,7 @@ export interface ElevationOption extends Partial<Record<ElevationCoords, number 
 }
 export interface ElevationOptionWithBackgroundAndBorder extends WithBackgroundAndBorder {
     shadow: Array<ElevationOption> | ElevationOption;
-};
+}
 
 export type ElevationOptions = ElevationOptionWithBackgroundAndBorder | string;
 

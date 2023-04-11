@@ -2,13 +2,13 @@ import { DARKEST, LIGHTEST } from '@core/styles/engine/theme/palette/defaultColo
 import { changeOpacity } from '../changeOpacity';
 
 interface GradientColor {
-    color: string,
-    point?: number,
+    color: string;
+    point?: number;
 }
 
 interface CreateGradientProps {
-    angle?: number,
-    colors: GradientColor[],
+    angle?: number;
+    colors: GradientColor[];
 }
 
 type CreateGradient = (options: CreateGradientProps) => string;
@@ -35,7 +35,7 @@ export const createLightGradient = (color: string, background: string = LIGHTEST
         colors: [
             {
                 color: changeOpacity(color, 0.08),
-                point: 0.2
+                point: 0.2,
             },
             {
                 color: changeOpacity(color, 0),
@@ -54,7 +54,7 @@ export const createDarkGradient = (color: string, text: string = LIGHTEST, backg
         colors: [
             {
                 color: changeOpacity(color, 0.32),
-                point: 0.2
+                point: 0.2,
             },
             {
                 color: changeOpacity(color, 0),
@@ -68,7 +68,7 @@ export const createDarkGradient = (color: string, text: string = LIGHTEST, backg
         colors: [
             { color: changeOpacity(text, 0.12) },
             { color: changeOpacity(text, 0.12) },
-        ]
-    })
+        ],
+    });
     return `${gradient}, ${gradient2}, ${background}`;
 };

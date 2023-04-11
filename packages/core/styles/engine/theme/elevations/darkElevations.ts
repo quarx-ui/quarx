@@ -1,5 +1,5 @@
-import { defaultPalette, DARKEST } from '@core/styles/engine/theme/palette'
-import { changeOpacity, getLightSuperposition } from '@core/styles/engine/utils'
+import { defaultPalette, DARKEST } from '@core/styles/engine/theme/palette';
+import { changeOpacity, getLightSuperposition } from '@core/styles/engine/utils';
 import { getShadowsObj } from '@core/styles/engine/theme/elevations/helpers';
 import {
     CreateElevationArg,
@@ -28,7 +28,7 @@ export const DEFAULT_DARK_SECONDARY_ELEVATIONS: Record<ElevationSize, ElevationO
         shadow: {
             b: 1,
             color: getDefaultColor(20),
-        }
+        },
     },
     small: {
         shadow: [
@@ -89,7 +89,7 @@ export const DEFAULT_DARK_SECONDARY_ELEVATIONS: Record<ElevationSize, ElevationO
 
 export const DEFAULT_DARK_ELEVATIONS_OBJ: Required<CreateElevationArg> = {
     main: DEFAULT_DARK_MAIN_ELEVATIONS,
-    secondary: DEFAULT_DARK_SECONDARY_ELEVATIONS
+    secondary: DEFAULT_DARK_SECONDARY_ELEVATIONS,
 };
 
 export const DEFAULT_DARK_ELEVATIONS = getShadowsObj(DEFAULT_DARK_ELEVATIONS_OBJ, {

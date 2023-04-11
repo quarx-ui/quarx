@@ -4,7 +4,7 @@ import {
     ElevationItemsWithType,
     ElevationOption,
     ElevationOptions,
-    ElevationOptionsWithSize
+    ElevationOptionsWithSize,
 } from './types';
 
 export const getShadowItem = (options: ElevationOption | string, paletteColor: string, inset?: boolean) => {
@@ -63,7 +63,7 @@ export const getShadowsForSize = (
     if (Array.isArray(defaultOptions.shadow)) {
         shadowItem.boxShadow = defaultOptions.shadow
             .map((option) => getShadowItem(option, color, inset))
-            .join(', ')
+            .join(', ');
     } else {
         shadowItem.boxShadow = getShadowItem(defaultOptions.shadow, color, inset);
     }
