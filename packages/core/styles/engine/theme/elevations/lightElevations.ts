@@ -76,13 +76,13 @@ export const DEFAULT_LIGHT_SECONDARY_ELEVATIONS: Record<ElevationSize, Elevation
     xSmall: {
         shadow: {
             b: 1,
-        }
+        },
     },
 };
 
 export const DEFAULT_LIGHT_ELEVATIONS_OBJ: Required<CreateElevationArg> = {
     main: DEFAULT_LIGHT_MAIN_ELEVATIONS,
-    secondary: DEFAULT_LIGHT_SECONDARY_ELEVATIONS
+    secondary: DEFAULT_LIGHT_SECONDARY_ELEVATIONS,
 };
 
 export const DEFAULT_LIGHT_ELEVATIONS = getShadowsObj(DEFAULT_LIGHT_ELEVATIONS_OBJ, {

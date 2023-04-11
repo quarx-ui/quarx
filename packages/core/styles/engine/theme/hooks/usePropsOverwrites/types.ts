@@ -2,7 +2,7 @@ import { Permissions, Styles, WithPermissions } from '@core';
 import {
     TypedCnFormatter,
     UseBemPropsType,
-    UseBemTypeCast
+    UseBemTypeCast,
 } from '@core/styles/engine/theme/hooks/useBem/types';
 
 export interface StyleProps<

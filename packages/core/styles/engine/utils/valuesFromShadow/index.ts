@@ -11,7 +11,7 @@ export const valuesFromShadow = (shadow: string) => {
         .find((el) => ![units, 'inset'].includes(el));
 
     if (!units || !colorMatches) {
-        throw new Error("wrong format of value");
+        throw new Error('wrong format of value');
     }
 
     const [x, y, b, s] = units.split(' ');
@@ -23,6 +23,6 @@ export const valuesFromShadow = (shadow: string) => {
         b,
         s,
         color,
-        inset
+        inset,
     };
-}
+};

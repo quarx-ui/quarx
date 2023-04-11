@@ -1,5 +1,5 @@
-import { BorderRadiusOption, BorderRadiusSide } from './types';
 import { getSizeWithUnits, withUnit } from '@core/styles/engine/utils';
+import { BorderRadiusOption, BorderRadiusSide } from './types';
 
 export const getMapSideToRadius = (radius: string | number = 0): Record<BorderRadiusSide, string> => ({
     all: withUnit(radius),
@@ -13,8 +13,8 @@ export const getMapSideToRadius = (radius: string | number = 0): Record<BorderRa
     'bottom-right': `0 0 ${withUnit(radius)}`,
 });
 
-export function isRadiusOption (radiusEl: number | string | BorderRadiusOption): radiusEl is BorderRadiusOption {
-    return typeof radiusEl === 'object'
+export function isRadiusOption(radiusEl: number | string | BorderRadiusOption): radiusEl is BorderRadiusOption {
+    return typeof radiusEl === 'object';
 }
 
 export const getSizeFromRadius = (radius: BorderRadiusOption | number | string) => {
@@ -27,4 +27,4 @@ export const getSizeFromRadius = (radius: BorderRadiusOption | number | string) 
     }
 
     return radius;
-}
+};

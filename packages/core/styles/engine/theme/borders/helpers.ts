@@ -12,7 +12,7 @@ export const mapSideToWidth = (width: number | string = 0): Record<BordersSide, 
 export const valuesFromBorder = (
     border: string,
     defaultObj: BorderOptionObj,
-    paletteColor: string
+    paletteColor: string,
 ): BorderType => {
     const styleRegex = new RegExp(/(solid)|(dashed)|(dotted)|(ridge)|(double)/gi);
     const sideRegex = new RegExp(/(all)|(left)|(right)|(top)|(bottom)/gi);
@@ -32,13 +32,13 @@ export const valuesFromBorder = (
         borderWidth: mapSideToWidth(width)[side as BordersSide],
         borderColor: color,
         borderStyle: style,
-    }
-}
+    };
+};
 
 export const getBorder = (
     options: BorderOptionObj | BorderOptionArr | string,
     defaultObj: BorderOptionObj,
-    paletteColor: string
+    paletteColor: string,
 ): BorderType => {
     if (typeof options === 'string') {
         return valuesFromBorder(options, defaultObj, paletteColor);
@@ -55,8 +55,8 @@ export const getBorder = (
         return {
             borderColor: color,
             borderStyle: style,
-            borderWidth: mapSideToWidth(width)[side as BordersSide]
-        }
+            borderWidth: mapSideToWidth(width)[side as BordersSide],
+        };
     }
 
     const {
@@ -70,5 +70,5 @@ export const getBorder = (
         borderColor: color,
         borderStyle: style,
         borderWidth: mapSideToWidth(width)[side as BordersSide],
-    }
-}
+    };
+};

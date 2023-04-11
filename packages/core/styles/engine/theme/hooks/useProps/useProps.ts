@@ -22,7 +22,7 @@ export const usePropsWithoutTheme = <
     const resolvedProps = {
         ...(restProps ?? {}),
         ...(permissions ?? {}),
-    } as UsePropsReturn<Props>
+    } as UsePropsReturn<Props>;
 
     const qxName = `Qx${name}`;
 
@@ -34,7 +34,7 @@ export const usePropsWithoutTheme = <
         cssVars: cssVarNames,
         styles: propsStyles,
         cssPrefix: qxName,
-    }
+    };
 
     return {
         props: resolvedProps,
@@ -42,7 +42,7 @@ export const usePropsWithoutTheme = <
         name,
         qxName,
         styleProps,
-    }
+    };
 };
 
 export const useProps = <

@@ -1,4 +1,4 @@
-import { Duration, Easing } from "./types";
+import { Duration, Easing } from './types';
 
 export const DEFAULT_EASING: Easing = {
     easeInOut: 'cubic-bezier(0.4, 0, 0.2, 1)',

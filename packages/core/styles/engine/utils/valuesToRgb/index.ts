@@ -1,8 +1,8 @@
 interface ValuesToRgbArg {
-    r: number,
-    g: number,
-    b: number,
-    a?: number,
+    r: number;
+    g: number;
+    b: number;
+    a?: number;
 }
 
 export function valuesToRgb({ r, g, b, a }: ValuesToRgbArg): string {

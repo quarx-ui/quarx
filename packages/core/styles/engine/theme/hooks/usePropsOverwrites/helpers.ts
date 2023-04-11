@@ -3,7 +3,7 @@ import { deepmerge, Styles } from '@core/styles';
 export const mergeStyles = <StyleKey extends string>(
     propsStyles: Partial<Styles<StyleKey>>,
     overwriteStyles: Partial<Styles<StyleKey>>,
-    cssVarProps: Record<string, string> = {}
+    cssVarProps: Record<string, string> = {},
 ): Styles<StyleKey> => {
     if (!propsStyles && !overwriteStyles) {
         return {} as Styles<StyleKey>;
@@ -23,7 +23,6 @@ export const mergeStyles = <StyleKey extends string>(
     };
 };
 
-export const unifyClassName = (value: string) =>
-    Array
-        .from(new Set(value.split(' ')))
-        .join(' ');
+export const unifyClassName = (value: string) => Array
+    .from(new Set(value.split(' ')))
+    .join(' ');

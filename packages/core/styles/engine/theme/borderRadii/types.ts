@@ -12,14 +12,14 @@ export type BorderRadiusSide =
     'bottom-right'
 
 export type BorderRadiusOption = {
-    size: number | string,
-    side?: BorderRadiusSide,
+    size: number | string;
+    side?: BorderRadiusSide;
 }
 export type BorderRadii = Record<QxBorderSize, number | BorderRadiusOption | string>
 export type BorderRadiusStrings = Record<QxBorderSize, string>
 export type BorderRadiiCreateFC = (side: BorderRadiusSide, size?: QxBorderSize) => string
 export interface ReturnedBorderRadii extends BorderRadiusStrings {
-    create: BorderRadiiCreateFC
+    create: BorderRadiiCreateFC;
 }
 
 export type CreateBorderRadiusArg = Partial<BorderRadii>

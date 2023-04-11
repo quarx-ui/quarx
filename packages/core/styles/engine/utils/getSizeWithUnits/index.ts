@@ -40,7 +40,7 @@ export const withUnit = (value?: number | string) => {
             return value;
         }
 
-        return `${parseInt(value, 10) ?? 0}px`
+        return `${parseInt(value, 10) ?? 0}px`;
     }
     return `${value ?? 0}px`;
 };
@@ -53,11 +53,11 @@ export const getSizeWithUnits = (value: string | number, only = false): string =
     const psxMatches: string[] = value.match(unitRegex) ?? [];
 
     if (only) {
-        const max = Math.max(...psxMatches.map((el) => parseInt(el, 10)))
+        const max = Math.max(...psxMatches.map((el) => parseInt(el, 10)));
 
         if (max) {
             return psxMatches.find(
-                (el) => el.includes(String(max))
+                (el) => el.includes(String(max)),
             ) ?? withUnit(max);
         }
 
@@ -65,4 +65,4 @@ export const getSizeWithUnits = (value: string | number, only = false): string =
     }
 
     return psxMatches.join(' ');
-}
+};

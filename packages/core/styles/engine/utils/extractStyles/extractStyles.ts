@@ -8,7 +8,7 @@ export function extractStyles<
     props: Props,
     theme: Theme,
     styles?: Partial<StylesWithCallback<ClassKey, Props>> | StylesCallback<ClassKey, Props>,
-    vars?: CSSVars
+    vars?: CSSVars,
 ): Partial<Styles<ClassKey>> {
     if (!styles) {
         return {};
@@ -24,6 +24,6 @@ export function extractStyles<
                 ...acc,
                 [key]: typeof style === 'function'
                     ? style(theme, props, cssVars)
-                    : style
+                    : style,
             }), {} as Styles<ClassKey>);
 }

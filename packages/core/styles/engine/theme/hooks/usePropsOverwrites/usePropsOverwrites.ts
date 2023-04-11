@@ -1,13 +1,13 @@
-import { useTheme } from '../useTheme';
+import { ComponentsProps, useStylesOverwritesWithoutTheme } from '@core/styles';
+import { omitProps } from '@core/utils';
+import { useBem } from '@core/styles/engine/theme/hooks/useBem';
 import {
     StyleProps,
     UsePropsOverwritesPropsType,
     UsePropsOverwritesPropsTypeCast,
-    UsePropsOverwritesReturnType
+    UsePropsOverwritesReturnType,
 } from './types';
-import { ComponentsProps, useStylesOverwritesWithoutTheme } from '@core/styles';
-import { omitProps } from '@core/utils';
-import { useBem } from '@core/styles/engine/theme/hooks/useBem';
+import { useTheme } from '../useTheme';
 
 /**
  * Хук для переопределения стандартных параметров компонентов, а также обеспечения возможности
@@ -38,11 +38,11 @@ export function usePropsOverwrites<
 >(
     name: keyof ComponentsProps,
     props: UsePropsOverwritesPropsType<Props, StyleKey, CSSVarNames>,
-    cssVarNames?: CSSVarNames
+    cssVarNames?: CSSVarNames,
 ): UsePropsOverwritesReturnType<Props, StyleKey, CSSVarNames> {
     const typedProps = omitProps<
-        UsePropsOverwritesPropsTypeCast<Props, StyleKey, CSSVarNames>,
-        'classes' | 'className'
+    UsePropsOverwritesPropsTypeCast<Props, StyleKey, CSSVarNames>,
+    'classes' | 'className'
     >(props, ['classes', 'className']);
     const qxName = `Qx${name}`;
 

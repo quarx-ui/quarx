@@ -1,8 +1,8 @@
+import { getLightPalette } from '@core/styles/engine/theme/palette/getLightPalette';
+import { getDarkPalette } from '@core/styles/engine/theme/palette/getDarkPalette';
 import { deepmerge } from '../../utils';
 import { CreatePaletteArg, InitialPalette, Palette } from './types';
 import { DEFAULT_COLORS } from './defaultColors';
-import { getLightPalette } from '@core/styles/engine/theme/palette/getLightPalette';
-import { getDarkPalette } from '@core/styles/engine/theme/palette/getDarkPalette';
 
 export function createPalette(palette: CreatePaletteArg = { type: 'light' }): Palette {
     const {
@@ -10,11 +10,12 @@ export function createPalette(palette: CreatePaletteArg = { type: 'light' }): Pa
         overwrites,
         ...base
     } = palette;
-    const initial = deepmerge(DEFAULT_COLORS[type], base) as InitialPalette;
+    const defaultColors = DEFAULT_COLORS[type] ?? DEFAULT_COLORS.light;
+    const initial = deepmerge(defaultColors, base) as InitialPalette;
 
-    const getPalette = type === 'light'
-        ? getLightPalette
-        : getDarkPalette;
+    const getPalette = type === 'dark'
+        ? getDarkPalette
+        : getLightPalette;
 
     const computedPalette = getPalette(initial.colors, initial.background, initial.text);
 

@@ -24,7 +24,7 @@ export const useStylesOverwritesWithoutTheme = <
     const propsStyles = extractStyles(mergedProps as Props, theme, resolvedProps?.styles, cssVarNames);
 
     return mergeStyles(propsStyles, overwritesStyles);
-}
+};
 
 export const useStylesOverwrites = <
     Props extends object,

@@ -5,7 +5,7 @@ import {
     getLightSuperposition, getLightSuperpositionWithEqualAlpha,
     Palette, PaletteAlpha,
     PaletteColor,
-    PaletteColors, PaletteColorValues, PaletteDecimal
+    PaletteColors, PaletteColorValues, PaletteDecimal,
 } from '@core';
 import { createPoints } from '@core/styles/engine/theme/palette/createPoints';
 
@@ -24,7 +24,7 @@ export const getComputedDarkColors = (color: string, text: string, background: s
     alpha: createPoints<PaletteAlpha>(
         (key) => getLightSuperpositionWithEqualAlpha(color, key / 2),
         8,
-        0.01
+        0.01,
     ),
 });
 
@@ -38,7 +38,7 @@ export const getDarkSecondaryColors = (background = '#02050A', text = '#FFFFFF')
         },
         container: {
             hover: getLightSuperposition(background, 0.12),
-        }
+        },
     },
     text: {
         main: text,
@@ -68,11 +68,11 @@ export const getDarkPalette = (initialColors: Record<PaletteColor, string>, back
         .entries(initialColors)
         .reduce((acc, [key, value]) => ({
             ...acc,
-            [key]: getComputedDarkColors(value, text, background)
+            [key]: getComputedDarkColors(value, text, background),
         }), {});
 
     return {
         ...getDarkSecondaryColors(background, text),
-        colors
-    }
-}
+        colors,
+    };
+};

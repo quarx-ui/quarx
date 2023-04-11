@@ -1,15 +1,15 @@
+import { handleMax, handleOverflow } from '@core/utils';
 import { valuesFromHsb } from '../valuesFromHsb';
 import { colorToHsb } from '../colorToHsb';
 import { colorToRgb } from '../colorToRgb';
 import { rgbToHex } from '../rgbToHex';
-import { handleMax, handleOverflow } from '@core/utils';
 import { valuesToHsb } from '../valuesToHsb';
 
 interface ChangeHsbOptions {
-    h?: number,
-    s?: number,
-    b?: number,
-    output?: 'hex' | 'rgb' | 'hsb',
+    h?: number;
+    s?: number;
+    b?: number;
+    output?: 'hex' | 'rgb' | 'hsb';
 }
 
 export const changeHsb = (color: string, options: ChangeHsbOptions) => {

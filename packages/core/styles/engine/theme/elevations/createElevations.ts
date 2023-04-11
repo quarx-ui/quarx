@@ -6,7 +6,7 @@ import {
 import { DARKEST } from '../palette';
 import {
     getShadowsForSize,
-    getShadowsObj
+    getShadowsObj,
 } from './helpers';
 import { DEFAULT_LIGHT_ELEVATIONS, DEFAULT_LIGHT_ELEVATIONS_OBJ } from './lightElevations';
 import { DEFAULT_DARK_ELEVATIONS_OBJ } from './darkElevations';
@@ -43,7 +43,8 @@ export const createElevations: CreateElevations = (elevationsOps, palette) => {
         } = options;
 
         return getShadowsForSize(defaultOps[type][size], {
-            color, inset,
+            color,
+            inset,
             background: backgroundColor,
         });
     };
@@ -52,7 +53,7 @@ export const createElevations: CreateElevations = (elevationsOps, palette) => {
         ...DEFAULT_LIGHT_ELEVATIONS,
         ...elevations,
         create,
-    }
-}
+    };
+};
 
 export const elevations = createElevations();

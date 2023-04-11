@@ -11,7 +11,7 @@ import {
     PaletteColor,
     PaletteColors,
     PaletteColorValues,
-    PaletteDecimal
+    PaletteDecimal,
 } from './types';
 import { createPoints } from './createPoints';
 
@@ -40,7 +40,7 @@ export const getLightSecondaryColors = (background = '#FFFFFF', text = '#02050A'
         },
         container: {
             hover: getLightSuperposition(text, 0.94),
-        }
+        },
     },
     text: {
         main: text,
@@ -58,23 +58,23 @@ export const getLightSecondaryColors = (background = '#FFFFFF', text = '#02050A'
     },
     disabled: {
         main: getLightSuperposition(text, 0.64),
-        secondary:  getLightSuperposition(text, 0.72),
-        bg:  getLightSuperposition(text, 0.92),
-        border:  getLightSuperposition(text, 0.88),
-        contrast:  getLightSuperposition(text, 0.48),
+        secondary: getLightSuperposition(text, 0.72),
+        bg: getLightSuperposition(text, 0.92),
+        border: getLightSuperposition(text, 0.88),
+        contrast: getLightSuperposition(text, 0.48),
     },
-})
+});
 
 export const getLightPalette = (initialColors: Record<PaletteColor, string>, background = '#FFFFFF', text = '#02050A') => {
     const colors: Partial<PaletteColors> = Object
         .entries(initialColors)
         .reduce((acc, [key, value]) => ({
             ...acc,
-            [key]: getComputedLightColors(value, background)
+            [key]: getComputedLightColors(value, background),
         }), {});
 
     return {
         ...getLightSecondaryColors(background, text),
-        colors
-    }
-}
+        colors,
+    };
+};
