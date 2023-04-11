@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react';
 import { Link, LinkProps } from '@core';
 import { testRootCn } from '@core/test-utils/expectRootCn';
 import { LinkStyleParams } from '../styles';
-import { ChevronRight16, Gear16 } from '../stories/assets';
+import { ChevronRight16, Gear16 } from '../storybook/assets';
 
 const linkTestId = 'Link';
 

@@ -1617,7 +1617,7 @@ exports[`SelectionList styles style params type contained 1`] = `
     </label>
     <label
       class="QxSelection QxSelection_type_contained QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-19jrqtz-QxSelection-root"
-      tabindex="0"
+      tabindex="-1"
     >
       <div
         class="QxSelection-content css-1y6ld3s-QxSelection-content"
@@ -1657,7 +1657,7 @@ exports[`SelectionList styles style params type contained 1`] = `
     </label>
     <label
       class="QxSelection QxSelection_type_contained QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-19jrqtz-QxSelection-root"
-      tabindex="0"
+      tabindex="-1"
     >
       <div
         class="QxSelection-content css-1y6ld3s-QxSelection-content"

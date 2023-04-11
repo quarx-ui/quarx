@@ -22,7 +22,7 @@ export interface ButtonStyleParams {
     size: ButtonSize;
 
     /** Скругление компонента.
-     * Значения соответствуют токенам объекта `borderRadii`
+     * Значения соответствуют токенам объекта `theme.borderRadii`
      *
      * @default medium */
     borderRadius: ButtonBorderRadius;

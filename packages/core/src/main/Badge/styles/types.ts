@@ -29,7 +29,7 @@ export interface BadgeStyleParams {
      * @default brand */
     color: BadgeColor;
 
-    /** Скругление компонента. Значения соответствуют токенам объекта `borderRadii`
+    /** Скругление компонента. Значения соответствуют токенам объекта `theme.borderRadii`
      *
      * @default max */
     borderRadius: BadgeBorderRadius;
