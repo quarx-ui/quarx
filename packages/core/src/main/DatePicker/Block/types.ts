@@ -68,10 +68,9 @@ export interface CommonDatePickerStyles {
 export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge'>,
     WithClassesAndStyles<DatePickerStyleKeys, DatePickerStyleParams> {
     allowedDates?: DatePickerAllowedDates;
-    initialViewingDate?: Date;
+    viewingDate?: Date;
     withTime?: boolean;
     yearsArr?: number[];
-    popperZIndex?: number;
     texts?: DatePickerTEXTS;
     locale?: Locale;
     innerStyles?: CommonDatePickerStyles;

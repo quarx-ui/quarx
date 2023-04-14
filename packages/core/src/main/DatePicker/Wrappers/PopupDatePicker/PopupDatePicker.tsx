@@ -5,6 +5,7 @@ import {
     usePropsOverwrites,
     forwardRef, SelectedDatesDatePicker,
 } from '@core';
+import { useStyles } from './styles';
 import { PopupDatePickerProps } from './types';
 
 export const PopupDatePicker = forwardRef(<D extends SelectedDatesDatePicker>(
@@ -12,20 +13,26 @@ export const PopupDatePicker = forwardRef(<D extends SelectedDatesDatePicker>(
     ref: Ref<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('PopupDatePicker', initialProps);
-    const { open, onClickAway, anchor, popupProps, ...datePickerProps } = props;
+    const { open, onClickAway, anchor, popupProps, zIndex, ...datePickerProps } = props;
+
+    const params = { zIndex };
+
+    const styles = useStyles({ ...params, ...styleProps });
     // const { open, onClickAway, anchor, popupProps: { disablePortal = false, ...popupProps }, ...datePickerProps } = props;
     // const { state: hidden, setOppositeState: toggleHidden, setState: setHidden, setFalse: hidePopup, setTrue: showPopup } = useBooleanWithExternalManagement(externalHidden, setExternalHidden);
-    console.log(popupProps?.disablePortal);
     return (
         <Popup
             disablePortal
+            disableBackdrop
+            placement="bottom-start"
+            reference="window"
+            className={cn('root', params)}
+            css={styles.root}
             {...popupProps}
             ref={ref}
             open={open}
             onClickAway={onClickAway}
             anchor={anchor}
-            placement="bottom-start"
-            // reference="window"
         >
             <DatePickerBlock {...datePickerProps} />
         </Popup>

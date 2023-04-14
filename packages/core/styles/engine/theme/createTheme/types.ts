@@ -58,6 +58,7 @@ import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
 import {PopupDatePickerProps} from "@core/src/main/DatePicker/Wrappers/PopupDatePicker/types";
 import {TextFieldDatePickerProps} from "@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/types";
+import {DateFormatterProps} from "@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/DateFormatter/types";
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -113,6 +114,7 @@ export interface ComponentsProps {
     OffsetDayBlock: OffsetDayBlockProps;
     PopupDatePicker: PopupDatePickerProps;
     TextFieldDatePicker: TextFieldDatePickerProps;
+    DateFormatter: DateFormatterProps;
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;

@@ -3,13 +3,12 @@ import React, { useRef, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
-import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPORTS';
-import { Button, PeriodSelectedDates, useBooleanState } from '@core';
+import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants';
+import { Button, PeriodSelectedDates, PickerSelectedDate, useBooleanState } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { PopupDatePicker } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker';
 import { Div } from '@storybook/components';
 import { TextFieldDatePicker } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker';
-import { DatePickerBlock,
+import {
     DATE_PICKER_DISPLAY_TYPES,
     DatePickerProps,
 } from '../../../Block';
@@ -20,12 +19,12 @@ const defaultArgs: StoryType = {
     display: DATE_PICKER_DISPLAY_TYPES.SINGLE,
     borderRadius: 'small',
     size: 'small',
-    disableYearChange: true,
-    withTime: true,
+    disableYearChange: false,
+    withTime: false,
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('DatePicker/wrappers/TextField'),
+    title: STORY_PATHS.core.components.main('DatePicker/wrappers/TextFieldDatePicker'),
     component: TextFieldDatePicker,
     args: defaultArgs,
     argTypes: {
@@ -60,21 +59,22 @@ export default {
 };
 
 export const Sandbox: Story<StoryType> = (props) => {
-    const [pickedDates, setPickedDates] = useState<PeriodSelectedDates | undefined>(undefined);
-    const { state: isOpen, setFalse: close, setTrue: open } = useBooleanState(false);
-    const anchor = useRef<HTMLButtonElement>(null);
+    const [selectedPeriod, setSelectedPeriod] = useState<PeriodSelectedDates>({});
+    const [selectedPicker, setSelectedPicker] = useState<PickerSelectedDate>(undefined);
     return (
-        <Div>
-            {pickedDates && Object.values(pickedDates).map((date) => `${(date as Date).toString()}\n`)}
-            <Button ref={anchor} onClick={open}>Открыть календарь</Button>
-            <PopupDatePicker
+        <Div style={{ height: 1000 }}>
+            {selectedPeriod && Object.values(selectedPeriod).map((date) => `${(date as Date)?.toString()}\n`)}
+            <TextFieldDatePicker
                 {...props}
-                open={isOpen}
-                anchor={anchor}
-                onClickAway={close}
-                selected={pickedDates}
-                onChange={setPickedDates}
+                selected={selectedPeriod}
+                onChange={setSelectedPeriod}
             />
+            {/* {selectedPicker && selectedPicker?.toString()} */}
+            {/* <TextFieldDatePicker */}
+            {/*    {...props} */}
+            {/*    selected={selectedPicker} */}
+            {/*    onChange={setSelectedPicker} */}
+            {/* /> */}
         </Div>
     );
 };

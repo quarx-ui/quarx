@@ -64,6 +64,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         inputProps,
         inputRef,
         bottomIsAbsolute = false,
+        CustomInput,
         ...restProps
     } = props;
 
@@ -313,6 +314,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
                         inputProps={inputProps}
                         onChange={onInputChange}
                         ref={mergeRefs(inputRef, localInputRef)}
+                        CustomInput={CustomInput}
                     />
                 </div>
                 <RightItem

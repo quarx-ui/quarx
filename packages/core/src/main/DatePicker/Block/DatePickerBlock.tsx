@@ -5,7 +5,7 @@ import {
     usePropsOverwrites,
 } from '@core';
 import { forwardRef } from '@core/utils';
-import { addMonths, getWeeksInMonth } from 'date-fns';
+import { addMonths, getWeeksInMonth, isEqual } from 'date-fns';
 import { type } from '@testing-library/user-event/dist/type';
 import { useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
@@ -20,7 +20,7 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDatesDatePicker>(
 
     const {
         onChange, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
-        selected, allowedDates, initialViewingDate, locale,
+        selected, allowedDates, viewingDate: externalViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
         disableYearChange, ...restProps
     } = props;
@@ -44,7 +44,7 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDatesDatePicker>(
     const yearDropdownData = useDropdownDatePicker(DROPDOWN_TYPES.YEARS, { locale, content: yearsArr });
     const isDropdownOpened = monthDropdownData.isOpen || yearDropdownData.isOpen;
 
-    const [viewingDate, setViewingDate] = useState<Date>(initialViewingDate || new Date());
+    const [viewingDate, setViewingDate] = useState<Date>(externalViewingDate || new Date());
     const countWeeksInMonth = getWeeksInMonth(viewingDate);
 
     const params = { countWeeksInMonth, isLarge, borderRadius, size, useIncreasedScopeDay };
@@ -61,6 +61,12 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDatesDatePicker>(
             setDates(selected);
         }
     }, [dates, selected]);
+
+    useEffect(() => {
+        if (externalViewingDate) {
+            setViewingDate(externalViewingDate);
+        }
+    }, [externalViewingDate]);
 
     const commonMonthBlockProps = {
         type,

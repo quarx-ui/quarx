@@ -2,7 +2,7 @@ import { setHours, setMinutes, setSeconds, format } from 'date-fns';
 import {
     Values,
     valuesAsKeysFromArray,
-    DatePickerTimeTypes, PeriodSelectedDates, PickerSelectedDate,
+    PeriodSelectedDates, PickerSelectedDate,
 } from '@core';
 import { ErrorMessageSetters } from '..';
 

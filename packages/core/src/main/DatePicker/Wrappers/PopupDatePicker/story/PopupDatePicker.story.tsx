@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { defineCategory } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
-import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPORTS';
+import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants';
 import { Button, PeriodSelectedDates, useBooleanState } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { PopupDatePicker } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker';
@@ -63,7 +63,7 @@ export const Sandbox: Story<StoryType> = (props) => {
     const { state: isOpen, setFalse: close, setTrue: open } = useBooleanState(false);
     const anchor = useRef<HTMLButtonElement>(null);
     return (
-        <Div>
+        <Div style={{ height: 500 }}>
             {pickedDates && Object.values(pickedDates).map((date) => `${(date as Date).toString()}\n`)}
             <Button ref={anchor} onClick={open}>Открыть календарь</Button>
             <PopupDatePicker

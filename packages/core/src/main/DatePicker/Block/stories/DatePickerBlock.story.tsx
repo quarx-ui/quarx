@@ -4,7 +4,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants/STORYBOOK_VIEWPORTS';
+import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants';
 import { addDays } from 'date-fns';
 import {
     Button,
@@ -94,7 +94,7 @@ export const Sandbox: Story<StoryType> = ({ ...props }) => {
 };
 
 export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
-    const [selected, setSelected] = useState<PeriodSelectedDates | undefined>(undefined);
+    const [selected, setSelected] = useState<PeriodSelectedDates>();
     return (
         <div
             style={{
@@ -136,8 +136,8 @@ export const SizesAndDisplayTypes: Story<StoryType> = (props) => {
 };
 
 export const BorderRadiusAndPickType: Story<StoryType> = (props) => {
-    const [periodSelectedDates, setPeriodSelectedDates] = useState<PeriodSelectedDates | undefined>(undefined);
-    const [selectedDate, setSelectedDate] = useState<PickerSelectedDate | undefined>(undefined);
+    const [periodSelectedDates, setPeriodSelectedDates] = useState<PeriodSelectedDates>({});
+    const [selectedDate, setSelectedDate] = useState<PickerSelectedDate>(undefined);
     return (
         <div
             style={{
@@ -237,13 +237,13 @@ export const AllowedDates: Story<StoryType> = (props) => {
 };
 
 export const FrenchDatePicker = (props: DatePickerProps<PeriodSelectedDates>) => {
-    const [selected, setSelected] = useState<PeriodSelectedDates | undefined>();
+    const [selected, setSelected] = useState<PeriodSelectedDates>();
     return (
         <DatePickerBlock
             {...props}
             selected={selected}
             onChange={setSelected}
-            initialViewingDate={new Date('2022-09-07')}
+            initialViewingDate={new Date()}
             locale={getDateFnsLocale('fr')}
             texts={{
                 startTime: 'Début',
