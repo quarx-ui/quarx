@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-export const LinkIcon = forwardRef<
+export const NewTabLinkIcon = forwardRef<
 SVGSVGElement,
 JSX.IntrinsicElements['svg']
 >((props, ref) => (
