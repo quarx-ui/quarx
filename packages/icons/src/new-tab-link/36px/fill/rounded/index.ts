@@ -1,0 +1,1 @@
+export { NewTabLinkIcon } from './NewTabLinkIcon';

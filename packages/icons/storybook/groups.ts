@@ -309,7 +309,6 @@ import { InfoIcon as Info24pxStrokeSquare } from '../src/info/24px/stroke/square
 import { LightningIcon as Lightning24pxFillRounded } from '../src/lightning/24px/fill/rounded';
 import { LightningIcon as Lightning24pxStrokeRounded } from '../src/lightning/24px/stroke/rounded';
 import { LinkIcon as Link24pxStrokeRounded } from '../src/link/24px/stroke/rounded';
-import { LinkIcon as Link36pxFillRounded } from '../src/link/36px/fill/rounded';
 import { ListCheckmarkIcon as ListCheckmark36pxStrokeRounded } from '../src/list-checkmark/36px/stroke/rounded';
 import { ListHorizontalIcon as ListHorizontal36pxFillRounded } from '../src/list-horizontal/36px/fill/rounded';
 import { LockIcon as Lock24pxFillRounded } from '../src/lock/24px/fill/rounded';
@@ -329,6 +328,7 @@ import { MinusIcon as Minus16pxStrokeSquare } from '../src/minus/16px/stroke/squ
 import { MinusIcon as Minus24pxStrokeRounded } from '../src/minus/24px/stroke/rounded';
 import { MinusIcon as Minus24pxStrokeSquare } from '../src/minus/24px/stroke/square';
 import { MinusIcon as Minus36pxFillRounded } from '../src/minus/36px/fill/rounded';
+import { NewTabLinkIcon as NewTabLink36pxFillRounded } from '../src/new-tab-link/36px/fill/rounded';
 import { PageWithImageTextIcon as PageWithImageText24pxFillRounded } from '../src/page-with-image-text/24px/fill/rounded';
 import { PageWithImageTextIcon as PageWithImageText24pxStrokeRounded } from '../src/page-with-image-text/24px/stroke/rounded';
 import { PageWithImageTextIcon as PageWithImageText36pxFillRounded } from '../src/page-with-image-text/36px/fill/rounded';
@@ -427,6 +427,7 @@ import { SquaresWithPartIcon as SquaresWithPart24pxStrokeRounded } from '../src/
 import { StarIcon as Star24pxFillRounded } from '../src/star/24px/fill/rounded';
 import { StarIcon as Star24pxFillSquare } from '../src/star/24px/fill/square';
 import { StoreIcon as Store36pxFillRounded } from '../src/store/36px/fill/rounded';
+import { SubTableIcon as SubTable24pxFillRounded } from '../src/sub-table/24px/fill/rounded';
 import { SuitcaseIcon as Suitcase36pxFillRounded } from '../src/suitcase/36px/fill/rounded';
 import { SuitcaseIcon as Suitcase36pxStrokeRounded } from '../src/suitcase/36px/stroke/rounded';
 import { TableHierarchicIcon as TableHierarchic36pxFillRounded } from '../src/table-hierarchic/36px/fill/rounded';
@@ -801,7 +802,6 @@ export const allIcons: Record<string, ComponentType> = {
     'lightning/24px/fill/rounded': Lightning24pxFillRounded,
     'lightning/24px/stroke/rounded': Lightning24pxStrokeRounded,
     'link/24px/stroke/rounded': Link24pxStrokeRounded,
-    'link/36px/fill/rounded': Link36pxFillRounded,
     'list-checkmark/36px/stroke/rounded': ListCheckmark36pxStrokeRounded,
     'list-horizontal/36px/fill/rounded': ListHorizontal36pxFillRounded,
     'lock/24px/fill/rounded': Lock24pxFillRounded,
@@ -821,6 +821,7 @@ export const allIcons: Record<string, ComponentType> = {
     'minus/24px/stroke/rounded': Minus24pxStrokeRounded,
     'minus/24px/stroke/square': Minus24pxStrokeSquare,
     'minus/36px/fill/rounded': Minus36pxFillRounded,
+    'new-tab-link/36px/fill/rounded': NewTabLink36pxFillRounded,
     'page-with-image-text/24px/fill/rounded': PageWithImageText24pxFillRounded,
     'page-with-image-text/24px/stroke/rounded': PageWithImageText24pxStrokeRounded,
     'page-with-image-text/36px/fill/rounded': PageWithImageText36pxFillRounded,
@@ -919,6 +920,7 @@ export const allIcons: Record<string, ComponentType> = {
     'star/24px/fill/rounded': Star24pxFillRounded,
     'star/24px/fill/square': Star24pxFillSquare,
     'store/36px/fill/rounded': Store36pxFillRounded,
+    'sub-table/24px/fill/rounded': SubTable24pxFillRounded,
     'suitcase/36px/fill/rounded': Suitcase36pxFillRounded,
     'suitcase/36px/stroke/rounded': Suitcase36pxStrokeRounded,
     'table-hierarchic/36px/fill/rounded': TableHierarchic36pxFillRounded,
@@ -1559,7 +1561,6 @@ export const groupByName: Record<string, string[]> = {
     ],
     link: [
         '24px/stroke/rounded',
-        '36px/fill/rounded',
     ],
     'list-checkmark': [
         '36px/stroke/rounded',
@@ -1591,6 +1592,9 @@ export const groupByName: Record<string, string[]> = {
         '24px/fill/square',
         '24px/stroke/rounded',
         '24px/stroke/square',
+    ],
+    'new-tab-link': [
+        '36px/fill/rounded',
     ],
     'page-with-image-text': [
         '24px/fill/rounded',
@@ -1781,6 +1785,9 @@ export const groupByName: Record<string, string[]> = {
     ],
     store: [
         '36px/fill/rounded',
+    ],
+    'sub-table': [
+        '24px/fill/rounded',
     ],
     suitcase: [
         '36px/fill/rounded',
@@ -2225,6 +2232,7 @@ export const groupBySize: Record<string, string[]> = {
         'squares-with-part/24px/stroke/rounded',
         'star/24px/fill/rounded',
         'star/24px/fill/square',
+        'sub-table/24px/fill/rounded',
         'table/24px/fill/rounded',
         'table/24px/stroke/rounded',
         'template/24px/fill/rounded',
@@ -2358,10 +2366,10 @@ export const groupBySize: Record<string, string[]> = {
         'house-with-sign/36px/stroke/rounded',
         'house/36px/stroke/rounded',
         'huawei-appgallery/36px/fill/rounded',
-        'link/36px/fill/rounded',
         'list-checkmark/36px/stroke/rounded',
         'list-horizontal/36px/fill/rounded',
         'minus/36px/fill/rounded',
+        'new-tab-link/36px/fill/rounded',
         'page-with-image-text/36px/fill/rounded',
         'page-with-image-text/36px/stroke/rounded',
         'people/36px/fill/rounded',
