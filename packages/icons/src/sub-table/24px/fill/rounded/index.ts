@@ -1,0 +1,1 @@
+export { SubTableIcon } from './SubTableIcon';
