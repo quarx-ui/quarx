@@ -15,7 +15,7 @@ const main = async (): Promise<void> => {
         ...args,
         parent: args.parent || undefined,
     });
-    console.log(`Компонент ${path.join(args.type, args.parent ?? '', args.name)} готов к использованию.`);
+    console.log(`Шаблон компонента ${path.join(args.type, args.parent ?? '', args.name)} создан.`);
 };
 
 main().catch(console.log);
