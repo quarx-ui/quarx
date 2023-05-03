@@ -24,8 +24,7 @@ exports[`Chips snapshots style params active true 1`] = `
     type="button"
   >
     <div
-      class="QxChips-leftIcon css-3lolv3-QxChips-leftIcon"
-      style="opacity: 1; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      class="QxChips-leftIcon css-76hgdw-QxChips-leftIcon-QxChips-leftIcon appear-active"
     >
       <svg
         fill="currentColor"
@@ -148,8 +147,7 @@ exports[`Chips snapshots style params exists left icon 1`] = `
     type="button"
   >
     <div
-      class="QxChips-leftIcon css-3lolv3-QxChips-leftIcon"
-      style="opacity: 1; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      class="QxChips-leftIcon css-76hgdw-QxChips-leftIcon-QxChips-leftIcon appear-active"
     >
       <svg
         fill="currentColor"

@@ -1,6 +1,6 @@
 import { cloneElement, Ref, useCallback, useMemo, useRef } from 'react';
-import { Transition as ReactTransition } from 'react-transition-group';
-import { forwardRef, mergeRefs, useTheme } from '@core';
+import { CSSTransition as ReactCssTransition, TransitionStatus } from 'react-transition-group';
+import { addCssToElement, forwardRef, mergeRefs, useTheme } from '@core';
 import { defaultMapStatusToStyles, defaultStyles } from './constants';
 import { TransitionProps, Options, TransitionCallback } from './types';
 import { getTransitionProps, mapIsObject, styleIsObject } from './helpers';
@@ -34,7 +34,7 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
         easing = defaultEasing,
         timeout = defaultTimeout,
         mapStatusToStyles = defaultMapStatusToStyles,
-        transitionComponent: TransitionComponent = ReactTransition,
+        transitionComponent: TransitionComponent = ReactCssTransition,
         enter,
         childrenProps,
         ...restProps
@@ -114,6 +114,25 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
         return null;
     }
 
+    const renderElement = (status: TransitionStatus) => {
+        const clonedElement = cloneElement(
+            children, {
+                ...childrenProps,
+                ...children.props,
+                ref: mergeRefs(children.ref, ref, nodeRef),
+            },
+        );
+
+        const elementCss = [
+            styles,
+            resolvedMapStyles[status],
+            { transition: transition.current },
+            children.props.css,
+        ];
+
+        return addCssToElement(clonedElement, elementCss);
+    };
+
     return (
         <TransitionComponent
             appear={appear}
@@ -130,19 +149,7 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
             enter={enter}
             {...restProps}
         >
-            {(status) => cloneElement(
-                children, {
-                    ...childrenProps,
-                    ...children.props,
-                    ref: mergeRefs(children.ref, ref, nodeRef),
-                    style: {
-                        ...styles,
-                        ...resolvedMapStyles[status],
-                        transition: transition.current,
-                        ...children.props.style,
-                    },
-                },
-            )}
+            {(status) => renderElement(status)}
         </TransitionComponent>
     );
 });
