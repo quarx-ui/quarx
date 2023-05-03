@@ -1,5 +1,5 @@
 import { CSSProperties, FC, ReactElement, RefAttributes } from 'react';
-import { TransitionProps as ReactTransitionProps } from 'react-transition-group/Transition';
+import { CSSTransitionProps as ReactTransitionProps } from 'react-transition-group/CSSTransition';
 import { TransitionStatus } from 'react-transition-group';
 import { Theme } from '@core';
 

@@ -24,14 +24,12 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   >
     <div
       aria-hidden="true"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-15lu5nv-QxBackdrop-root-QxBackdrop-root"
       data-component="QxBackdrop"
-      style="opacity: 0; visibility: hidden;"
     />
     <div
-      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-1elz5fp-QxModal-scrollContainer-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 0; visibility: hidden;"
     >
       <div
         class="QxModal-box css-1qs5fkk-QxModal-box"
@@ -110,14 +108,12 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root enter-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer enter-active"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-1qs5fkk-QxModal-box"
@@ -213,14 +209,12 @@ exports[`Modal modal in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-1qs5fkk-QxModal-box"
@@ -327,14 +321,12 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-1eam5k8-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-zpb0mb-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-3f9y17-QxModal-box"
@@ -397,14 +389,12 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-1qs5fkk-QxModal-box"
@@ -467,14 +457,12 @@ exports[`Modal style params size medium 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-1qs5fkk-QxModal-box"
@@ -537,14 +525,12 @@ exports[`Modal style params size small 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-y8cyc-QxBackdrop-root"
+      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     />
     <div
-      class="QxModal-scrollContainer css-fn8zbx-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
-      style="transform: translate(0px, 0px); opacity: 1; transition: opacity 250ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
     >
       <div
         class="QxModal-box css-1i6u4nz-QxModal-box"
