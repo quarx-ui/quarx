@@ -6,9 +6,9 @@ export interface DisplayVariantsStyledProps extends ChildrenProps {
     optionTitle?: boolean;
     size?: 'primary' | 'secondary';
     direction?: 'vertical' | 'horizontal';
-    containerAlign?: 'flex-start' | 'center' | 'flex-end';
+    containerAlign?: 'flex-start' | 'center' | 'flex-end' | 'unset';
     containerJustify?: 'flex-start' | 'center' | 'flex-end' | 'space-between' | 'space-evenly';
-    variantAlign?: 'flex-start' | 'center' | 'flex-end';
+    variantAlign?: 'flex-start' | 'center' | 'flex-end' | 'unset';
 }
 
 export type TitleProps = Pick<DisplayVariantsStyledProps, 'size'>

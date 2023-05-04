@@ -1,4 +1,5 @@
 import {
+    AccordionProps,
     BackdropProps,
     BadgeProps,
     BaseButtonProps,
@@ -11,6 +12,7 @@ import {
     CreateElevationArg,
     CreatePaletteArg,
     CreateTransitionArg,
+    CustomTheme,
     DeepPartial,
     DividerProps,
     Elevations,
@@ -41,7 +43,6 @@ import {
     TabsSegmentedProps,
     TextFieldProps,
     Transitions,
-    CustomTheme,
 } from '@core';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
@@ -53,6 +54,7 @@ export type DeepPartialWithStyles<Props extends Record<string, any>> = {
 
 /* Автогенерация! Не трогать. */
 export interface ComponentsProps {
+    Accordion: AccordionProps;
     Backdrop: BackdropProps;
     Badge: BadgeProps;
     BaseButton: BaseButtonProps;

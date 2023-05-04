@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useCallback, useState } from 'react';
 
-export type UseBooleanStateProps = boolean;
+export type UseBooleanStateProps = boolean | undefined;
 
 export interface UseBooleanState {
     state: boolean;
@@ -11,7 +11,7 @@ export interface UseBooleanState {
 }
 
 export const useBooleanState = (
-    initialValue: UseBooleanStateProps,
+    initialValue: UseBooleanStateProps = false,
 ): UseBooleanState => {
     const [state, setState] = useState<boolean>(initialValue);
 
