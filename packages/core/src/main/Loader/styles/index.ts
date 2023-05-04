@@ -50,7 +50,7 @@ export const useStyles = makeStyles((
                 height: 8,
                 width: 8,
             },
-            base: {
+            medium: {
                 height: 10,
                 width: 10,
             },

@@ -4,7 +4,6 @@ import { valuesAsKeysFromArray } from './utils';
 export const QX_SIZE = valuesAsKeysFromArray([
     'xSmall',
     'small',
-    'base',
     'medium',
     'large',
     'xLarge',

@@ -37,8 +37,8 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
             size={size}
             loading={loading}
             LoaderProps={{
-                twoDots: size === 'small' || size === 'xSmall',
-                size: 'base',
+                twoDots: size === QX_SIZE.small || size === QX_SIZE.xSmall,
+                size: QX_SIZE.medium,
                 ...LoaderProps,
             }}
             {...restProps}
