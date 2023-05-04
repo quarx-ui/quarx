@@ -34,7 +34,7 @@ export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, Ico
             loading={loading}
             LoaderProps={{
                 twoDots: true,
-                size: size === 'xSmall' ? 'small' : 'base',
+                size: size === QX_SIZE.xSmall ? QX_SIZE.small : QX_SIZE.medium,
                 ...LoaderProps,
             }}
             {...restProps}

@@ -222,7 +222,7 @@ exports[`Button style params loading true 1`] = `
       Button
     </div>
     <div
-      class="QxLoader QxLoader_size_base QxBaseButton-loader css-uhsai0-QxLoader-root-QxBaseButton-loader"
+      class="QxLoader QxLoader_size_medium QxBaseButton-loader css-uhsai0-QxLoader-root-QxBaseButton-loader"
     >
       <div
         class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
@@ -572,7 +572,7 @@ exports[`IconButton style params loading true 1`] = `
       Button
     </div>
     <div
-      class="QxLoader QxLoader_size_base QxBaseButton-loader css-uhsai0-QxLoader-root-QxBaseButton-loader"
+      class="QxLoader QxLoader_size_medium QxBaseButton-loader css-uhsai0-QxLoader-root-QxBaseButton-loader"
     >
       <div
         class="QxLoader-dot css-1c9k1a7-QxLoader-dot"
