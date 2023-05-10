@@ -7,6 +7,7 @@ import {
     valuesAsKeysFromArray,
 } from '@kit';
 import { PathTypes } from '@e2e/constants';
+import { Accordion } from './main/Accordion';
 import { Button, IconButton } from './main/Button';
 import { Badge } from './main/Badge';
 import { Checkbox } from './main/Checkbox';
@@ -20,6 +21,7 @@ type ComponentsListTypes = keyof ComponentsProps
 type ComponentsType = Partial<Record<ComponentsListTypes, ReactNode>>
 
 export const COMPONENTS: ComponentsType = {
+    Accordion,
     Badge,
     Button,
     IconButton,
