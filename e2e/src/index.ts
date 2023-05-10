@@ -1,6 +1,5 @@
 import { ReactNode } from 'react';
 import {
-    Checkbox,
     ComponentsProps,
     Counter,
     RadioButton,
@@ -10,6 +9,7 @@ import {
 import { PathTypes } from '@e2e/constants';
 import { Button, IconButton } from './main/Button';
 import { Badge } from './main/Badge';
+import { Checkbox } from './main/Checkbox';
 import { TextField } from './main/TextField';
 import { Modal } from './main/Modal';
 import { Tabs } from './main/Tabs';

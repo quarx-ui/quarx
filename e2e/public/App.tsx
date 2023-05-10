@@ -10,9 +10,6 @@ import { InputForProps } from '@e2e/render-utils/InputForProps';
 
 export const App: FC = () => {
     const rootStyle: CSSProperties = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
         flexGrow: 1,
         borderRadius: borderRadii.xLarge,
         padding: 30,
