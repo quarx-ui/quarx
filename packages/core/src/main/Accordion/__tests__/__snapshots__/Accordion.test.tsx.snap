@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion style params inheritTextStyles false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-inheritTextStyles-false"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params inheritTextStyles true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_medium QxAccordion_inheritTextStyles css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-inheritTextStyles-true"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params open false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-open-false"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params open true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_open QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-open-true"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-8dorey-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxAccordion-details css-9vy496-QxAccordion-details"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params showDivider false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-showDivider-false"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params showDivider true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_medium QxAccordion_showDivider css-17k1onm-QxAccordion-root"
+    data-testid="testStyleParams-showDivider-true"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="QxDivider QxDivider_orientation_horizontal QxDivider_color_main QxDivider_width_thin QxAccordion-divider css-1m1dybe-QxDivider-root-QxAccordion-divider"
+      role="separator"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_large css-15ha8w1-QxAccordion-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-5jez2f-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_small css-lwhbdj-QxAccordion-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-1n564jx-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Accordion style params size xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAccordion QxAccordion_size_xSmall css-nry7lb-QxAccordion-root"
+    data-testid="testStyleParams-size-xSmall"
+  >
+    <div
+      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+    >
+      <div
+        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+      >
+        <div
+          class="QxAccordion-title css-14z9yhl-QxAccordion-title"
+        />
+        <div
+          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+        >
+          <div
+            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M5.29582 8.29485C5.68635 7.90432 6.31951 7.90432 6.71004 8.29485L11.436 13.0208C11.7027 13.2875 11.836 13.4208 12.0017 13.4208C12.1674 13.4208 12.3007 13.2875 12.5674 13.0208L17.2928 8.29489C17.6833 7.90434 18.3164 7.9043 18.707 8.29481C19.0975 8.68531 19.0976 9.31847 18.7071 9.70902L12.7089 15.7079C12.5214 15.8954 12.267 16.0008 12.0018 16.0008C11.7366 16.0008 11.4822 15.8954 11.2947 15.7079L5.29582 9.70906C4.9053 9.31854 4.9053 8.68537 5.29582 8.29485Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
