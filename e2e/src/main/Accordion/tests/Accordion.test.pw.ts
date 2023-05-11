@@ -7,8 +7,7 @@ test('Accordion', async ({ compareSnapshotsMap, compareSnapshots }) => {
     await compareSnapshotsMap({
         targetProps: {
             open: [true, false],
-            // TODO: не работает передача изначальных значений
-            // initialOpen: [true, false],
+            initialOpen: [true, false],
             showDivider: [true, false],
             size: ['xSmall', 'small', 'medium', 'large'],
         },
