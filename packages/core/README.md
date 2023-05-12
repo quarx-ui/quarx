@@ -17,10 +17,10 @@
 #### QuarX-core
 ```sh
 # Для NPM
-npm install @quarx-ui/core @emotion/react @emotion/main
+npm install @quarx-ui/core @emotion/react @emotion/styled
  
 # Для yarn
-yarn add @quarx-ui/core @emotion/react @emotion/main 
+yarn add @quarx-ui/core @emotion/react @emotion/styled
 ```
 
 ### Использование
