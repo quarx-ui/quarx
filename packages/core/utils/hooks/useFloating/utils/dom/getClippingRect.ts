@@ -59,7 +59,7 @@ function getClientRectFromClippingParent(
 function getClippingParents(element: Element): Array<Element> {
     const clippingParents = getOverflowParents(element);
     const canEscapeClipping = Object.keys(ARRANGEMENTS).includes(
-        getComputedStyle(element).position,
+        getComputedStyle(element).position as Arrangement,
     );
     const clipperElement = canEscapeClipping && isHTMLElement(element)
         ? getOffsetParent(element)

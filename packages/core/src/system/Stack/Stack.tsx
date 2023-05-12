@@ -39,7 +39,7 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
         divider: divider !== undefined,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const renderChild = (child: ReactChild, type: ChildType, key: number | string) => (
         typeof child === 'object'

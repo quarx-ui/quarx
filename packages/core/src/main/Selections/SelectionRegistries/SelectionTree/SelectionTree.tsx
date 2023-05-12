@@ -42,7 +42,7 @@ export const SelectionTree: FC<SelectionTreeProps> = forwardRef<HTMLDivElement, 
     } = props;
 
     const params = { size, color, type };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     useEffect(() => {
         const { checkValuesUniqueness, setDefaultValues } = SELECTION_TREE_UTILS;

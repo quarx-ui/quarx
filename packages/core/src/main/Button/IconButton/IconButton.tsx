@@ -23,7 +23,7 @@ export const IconButton: FC<IconButtonProps> = forwardRef<HTMLButtonElement, Ico
         loading,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <BaseButton

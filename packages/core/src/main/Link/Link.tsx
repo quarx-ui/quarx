@@ -25,7 +25,7 @@ export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(
 
     const params = { underline, color, size, disabled };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     if (props.hidden) {
         return null;

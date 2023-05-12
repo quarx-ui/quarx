@@ -8,3 +8,8 @@ declare module '*.svg' {
     const src: string;
     export default src;
 }
+
+interface ObjectConstructor {
+    keys<T>(obj: T): Array<Exclude<keyof T, symbol | number>>;
+    entries<T>(obj: T): Array<[Exclude<keyof T, symbol | number>, T[keyof T]]>;
+}

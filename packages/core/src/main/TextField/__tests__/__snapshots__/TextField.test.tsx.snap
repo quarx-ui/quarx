@@ -3,13 +3,13 @@
 exports[`TextField icons should be in document 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_rightItemIsExist QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_rightItemIsExist QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-leftItem QxTextField-sideItem css-q51ghs-QxTextField-leftItem-QxTextField-sideItem-TextField"
+        class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
       >
         <svg
           data-testid="warning-icon"
@@ -28,23 +28,23 @@ exports[`TextField icons should be in document 1`] = `
         </svg>
       </div>
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -60,7 +60,7 @@ exports[`TextField icons should be in document 1`] = `
           </svg>
         </div>
         <div
-          class="QxTextField-rightIcon css-16gwx7t-QxTextField-rightIcon"
+          class="QxTextField-rightIcon css-r5tlt-QxTextField-rightIcon"
         >
           <svg
             data-testid="cross-icon"
@@ -79,10 +79,10 @@ exports[`TextField icons should be in document 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -92,31 +92,31 @@ exports[`TextField icons should be in document 1`] = `
 exports[`TextField style params borderRadius large 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_large QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_large QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-borderRadius-large"
   >
     <div
-      class="QxTextField-field css-72umer-QxTextField-field"
+      class="QxTextField-field css-r027tr-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -134,10 +134,10 @@ exports[`TextField style params borderRadius large 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -147,31 +147,31 @@ exports[`TextField style params borderRadius large 1`] = `
 exports[`TextField style params borderRadius medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-borderRadius-medium"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -189,10 +189,10 @@ exports[`TextField style params borderRadius medium 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -202,31 +202,31 @@ exports[`TextField style params borderRadius medium 1`] = `
 exports[`TextField style params borderRadius small 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_small QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_small QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-borderRadius-small"
   >
     <div
-      class="QxTextField-field css-1etkajk-QxTextField-field"
+      class="QxTextField-field css-mxi0cp-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -244,10 +244,10 @@ exports[`TextField style params borderRadius small 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -257,31 +257,31 @@ exports[`TextField style params borderRadius small 1`] = `
 exports[`TextField style params borderRadius xLarge 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_xLarge QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_xLarge QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-borderRadius-xLarge"
   >
     <div
-      class="QxTextField-field css-haq8xt-QxTextField-field"
+      class="QxTextField-field css-mz3g4l-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -299,10 +299,10 @@ exports[`TextField style params borderRadius xLarge 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -312,31 +312,31 @@ exports[`TextField style params borderRadius xLarge 1`] = `
 exports[`TextField style params borderRadius xSmall 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_xSmall QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_xSmall QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-borderRadius-xSmall"
   >
     <div
-      class="QxTextField-field css-yon1iz-QxTextField-field"
+      class="QxTextField-field css-1v0lwjb-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -354,10 +354,10 @@ exports[`TextField style params borderRadius xSmall 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -367,31 +367,31 @@ exports[`TextField style params borderRadius xSmall 1`] = `
 exports[`TextField style params clearIconVisibleOn always 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_always QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_always QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-clearIconVisibleOn-always"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-so2kxd-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-8eyr00-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -409,10 +409,10 @@ exports[`TextField style params clearIconVisibleOn always 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -422,31 +422,31 @@ exports[`TextField style params clearIconVisibleOn always 1`] = `
 exports[`TextField style params clearIconVisibleOn interact 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-clearIconVisibleOn-interact"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -464,10 +464,10 @@ exports[`TextField style params clearIconVisibleOn interact 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -477,32 +477,32 @@ exports[`TextField style params clearIconVisibleOn interact 1`] = `
 exports[`TextField style params clearIconVisibleOn none 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_none QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_none QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-clearIconVisibleOn-none"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -512,31 +512,31 @@ exports[`TextField style params clearIconVisibleOn none 1`] = `
 exports[`TextField style params colorBase main 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-colorBase-main"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -554,10 +554,10 @@ exports[`TextField style params colorBase main 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -567,31 +567,31 @@ exports[`TextField style params colorBase main 1`] = `
 exports[`TextField style params colorBase secondary 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-1m20bdl-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-hgaggl-QxTextField-root"
     data-testid="testStyleParams-colorBase-secondary"
   >
     <div
-      class="QxTextField-field css-yddrwj-QxTextField-field"
+      class="QxTextField-field css-1rrg5tp-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -609,10 +609,10 @@ exports[`TextField style params colorBase secondary 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -622,31 +622,31 @@ exports[`TextField style params colorBase secondary 1`] = `
 exports[`TextField style params disableHoverStyles false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-disableHoverStyles-false"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -664,10 +664,10 @@ exports[`TextField style params disableHoverStyles false 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -677,31 +677,31 @@ exports[`TextField style params disableHoverStyles false 1`] = `
 exports[`TextField style params disableHoverStyles true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableHoverStyles QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableHoverStyles QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-disableHoverStyles-true"
   >
     <div
-      class="QxTextField-field css-4zs2k0-QxTextField-field"
+      class="QxTextField-field css-uovibj-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -719,10 +719,10 @@ exports[`TextField style params disableHoverStyles true 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -732,31 +732,31 @@ exports[`TextField style params disableHoverStyles true 1`] = `
 exports[`TextField style params disableLabel false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-disableLabel-false"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -774,10 +774,10 @@ exports[`TextField style params disableLabel false 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -787,26 +787,26 @@ exports[`TextField style params disableLabel false 1`] = `
 exports[`TextField style params disableLabel true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-disableLabel-true"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1ij3rlk-QxTextField-content"
+        class="QxTextField-content css-3ob657-QxTextField-content"
       >
         <input
-          class="QxTextField-input css-1meqori-QxTextField-input"
+          class="QxTextField-input css-1hvnc2l-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -824,10 +824,10 @@ exports[`TextField style params disableLabel true 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -837,31 +837,31 @@ exports[`TextField style params disableLabel true 1`] = `
 exports[`TextField style params error false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-error-false"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -879,10 +879,10 @@ exports[`TextField style params error false 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -892,31 +892,31 @@ exports[`TextField style params error false 1`] = `
 exports[`TextField style params error true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_error QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_error QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-error-true"
   >
     <div
-      class="QxTextField-field css-1f4gm47-QxTextField-field"
+      class="QxTextField-field css-17xv0c4-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -934,10 +934,10 @@ exports[`TextField style params error true 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-iym8x-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1hgh01h-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -947,31 +947,31 @@ exports[`TextField style params error true 1`] = `
 exports[`TextField style params filled false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-filled-false"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -989,10 +989,10 @@ exports[`TextField style params filled false 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1002,31 +1002,31 @@ exports[`TextField style params filled false 1`] = `
 exports[`TextField style params filled true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-filled-true"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-czjrur-QxTextField-label"
+          class="QxTextField-label css-1cagac0-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-np5q9x-QxTextField-input"
+          class="QxTextField-input css-1f5tj1k-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1044,10 +1044,10 @@ exports[`TextField style params filled true 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1057,31 +1057,31 @@ exports[`TextField style params filled true 1`] = `
 exports[`TextField style params focused false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-focused-false"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1099,10 +1099,10 @@ exports[`TextField style params focused false 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1112,31 +1112,31 @@ exports[`TextField style params focused false 1`] = `
 exports[`TextField style params focused true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_focused QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_filled QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_focused QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-focused-true"
   >
     <div
-      class="QxTextField-field css-23w44z-QxTextField-field"
+      class="QxTextField-field css-1qjggkm-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-czjrur-QxTextField-label"
+          class="QxTextField-label css-1cagac0-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-np5q9x-QxTextField-input"
+          class="QxTextField-input css-1f5tj1k-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1154,10 +1154,10 @@ exports[`TextField style params focused true 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1167,31 +1167,31 @@ exports[`TextField style params focused true 1`] = `
 exports[`TextField style params loading false 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-loading-false"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1209,10 +1209,10 @@ exports[`TextField style params loading false 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1222,32 +1222,32 @@ exports[`TextField style params loading false 1`] = `
 exports[`TextField style params loading true 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_loading QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_loading QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-loading-true"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-wnmlwb-QxTextField-content"
+        class="QxTextField-content css-1oliiva-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           disabled=""
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-ablmep-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-jq2ic1-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1264,24 +1264,24 @@ exports[`TextField style params loading true 1`] = `
         </div>
       </div>
       <div
-        class="QxLoader QxLoader_size_large QxTextField-loader css-ti82jo-QxLoader-root-QxTextField-loader"
+        class="QxLoader QxLoader_size_large QxTextField-loader css-31o9tm-QxLoader-root-QxTextField-loader"
       >
         <div
-          class="QxLoader-dot css-5hfjsj-QxLoader-dot"
+          class="QxLoader-dot css-117m14b-QxLoader-dot"
         />
         <div
-          class="QxLoader-dot css-5hfjsj-QxLoader-dot"
+          class="QxLoader-dot css-117m14b-QxLoader-dot"
         />
         <div
-          class="QxLoader-dot css-5hfjsj-QxLoader-dot"
+          class="QxLoader-dot css-117m14b-QxLoader-dot"
         />
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1291,31 +1291,31 @@ exports[`TextField style params loading true 1`] = `
 exports[`TextField style params size large 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-size-large"
   >
     <div
-      class="QxTextField-field css-1fjhmyp-QxTextField-field"
+      class="QxTextField-field css-pmyfcy-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-3mewg0-QxTextField-content"
+        class="QxTextField-content css-ik6ies-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1txma5n-QxTextField-label"
+          class="QxTextField-label css-12ewok1-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-g41umq-QxTextField-input"
+          class="QxTextField-input css-1fmppir-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-1itiz5a-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-660pa-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1333,10 +1333,10 @@ exports[`TextField style params size large 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-3fxpau-QxTextField-bottomText"
+        class="QxTextField-bottomText css-3ykfv-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1346,31 +1346,31 @@ exports[`TextField style params size large 1`] = `
 exports[`TextField style params size medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-size-medium"
   >
     <div
-      class="QxTextField-field css-g11qdb-QxTextField-field"
+      class="QxTextField-field css-8qeini-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-1s7oxrw-QxTextField-content"
+        class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1oqa2iv-QxTextField-label"
+          class="QxTextField-label css-vd6xzx-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1kw0hyf-QxTextField-input"
+          class="QxTextField-input css-1pq6x6v-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-4csprp-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1k0mrxe-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1388,10 +1388,10 @@ exports[`TextField style params size medium 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1401,31 +1401,31 @@ exports[`TextField style params size medium 1`] = `
 exports[`TextField style params size small 1`] = `
 <DocumentFragment>
   <div
-    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-2a4y6p-QxTextField-root"
+    class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
     data-testid="testStyleParams-size-small"
   >
     <div
-      class="QxTextField-label css-a8unal-QxTextField-label"
+      class="QxTextField-label css-g56ojd-QxTextField-label"
     >
       Text Field
     </div>
     <div
-      class="QxTextField-field css-1f59ey-QxTextField-field"
+      class="QxTextField-field css-5wpk5h-QxTextField-field"
     >
       <div
-        class="QxTextField-content css-zlhfwa-QxTextField-content"
+        class="QxTextField-content css-1wvjmc6-QxTextField-content"
       >
         <input
-          class="QxTextField-input css-1meqori-QxTextField-input"
+          class="QxTextField-input css-1hvnc2l-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
       </div>
       <div
-        class="QxTextField-rightItem QxTextField-sideItem css-cyanqu-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+        class="QxTextField-rightItem QxTextField-sideItem css-1fqff76-QxTextField-rightItem-QxTextField-sideItem-RightItem"
       >
         <div
-          class="QxTextField-closeIcon css-1hm7ql9-QxTextField-closeIcon"
+          class="QxTextField-closeIcon css-1ko6osw-QxTextField-closeIcon"
         >
           <svg
             fill="none"
@@ -1443,10 +1443,10 @@ exports[`TextField style params size small 1`] = `
       </div>
     </div>
     <div
-      class="QxTextField-bottom css-cprz9k-QxTextField-bottom"
+      class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1l7nnkx-QxTextField-bottomText"
+        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
       />
     </div>
   </div>

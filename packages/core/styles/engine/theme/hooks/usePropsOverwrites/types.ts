@@ -1,15 +1,11 @@
-import { Permissions, Styles, WithPermissions } from '@core';
-import {
-    TypedCnFormatter,
-    UseBemPropsType,
-    UseBemTypeCast,
-} from '@core/styles/engine/theme/hooks/useBem/types';
+import { Permissions, StylesProp, WithPermissions } from '@core';
+import { TypedCnFormatter, UseBemPropsType, UseBemTypeCast } from '@core/styles/engine/theme/hooks/useBem/types';
 
 export interface StyleProps<
     StyleKey extends string,
     CSSVarNames extends Partial<Record<string, string>> = Record<string, string>
 > {
-    styles: Styles<StyleKey>;
+    styles?: StylesProp<object, StyleKey>;
     cssVars?: CSSVarNames;
     cssPrefix?: string;
 }

@@ -39,7 +39,7 @@ export const TabsContained = forwardRef(<T extends TabItem = TabItem>(
         borderRadius,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const {
         value,

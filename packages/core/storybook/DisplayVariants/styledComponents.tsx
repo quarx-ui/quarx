@@ -13,7 +13,7 @@ export const Variant: FC<VariantProps> = ({
     children,
     variantAlign = 'center',
 }) => {
-    const styles = useStyles({ optionTitle, variantAlign });
+    const styles = useStyles({ params: { optionTitle, variantAlign } });
 
     return <div css={styles.variant}>{children}</div>;
 };
@@ -22,7 +22,7 @@ export const Title: FC<TitleProps> = ({
     size,
     children,
 }) => {
-    const styles = useStyles({ size });
+    const styles = useStyles({ params: { size } });
 
     return <div css={styles.title}>{children}</div>;
 };
@@ -33,7 +33,7 @@ export const Variants: FC<VariantsProps> = ({
     containerAlign = 'center',
     containerJustify = 'space-evenly',
 }) => {
-    const styles = useStyles({ direction, containerJustify, containerAlign });
+    const styles = useStyles({ params: { direction, containerJustify, containerAlign } });
 
     return <div css={styles.variantsContainer}>{children}</div>;
 };
@@ -44,7 +44,7 @@ export const Container: FC<ContainerProps> = ({
     containerJustify = 'center',
     children,
 }) => {
-    const styles = useStyles({ direction, containerAlign, containerJustify });
+    const styles = useStyles({ params: { direction, containerAlign, containerJustify } });
 
     return <div css={styles.variantsMapContainer}>{children}</div>;
 };
@@ -53,7 +53,7 @@ export const TitleOfContainer: FC<TitleOfContainerProps> = ({
     direction,
     children,
 }) => {
-    const styles = useStyles({ direction });
+    const styles = useStyles({ params: { direction } });
 
     return <div css={styles.titleOfMap}>{children}</div>;
 };
@@ -64,7 +64,7 @@ export const VerticalContainer: FC<VerticalContainerProps> = ({
     containerJustify = 'space-evenly',
     children,
 }) => {
-    const styles = useStyles({ direction, containerAlign, containerJustify });
+    const styles = useStyles({ params: { direction, containerAlign, containerJustify } });
 
     return <div css={styles.verticalMapContainer}>{children}</div>;
 };

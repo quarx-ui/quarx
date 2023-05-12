@@ -18,7 +18,7 @@ export const TabsContainer = forwardRef<HTMLDivElement, TabsContainerProps>((
 
     const params = { scrollPosition };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <div

@@ -137,10 +137,10 @@ export const Examples: Story = () => (
                 <RowTitle>emotion (template string):</RowTitle>
                 <RowContent>
                     <pre>
-                        {` 
-styled.h1(\` 
-\${typography.Text.L.Regular} 
-\`) 
+                        {`
+styled.h1(\`
+\${typography.Text.L.Regular}
+\`)
                                 `}
                     </pre>
                 </RowContent>
@@ -149,10 +149,10 @@ styled.h1(\`
                 <RowTitle>emotion (object styles):</RowTitle>
                 <RowContent>
                     <pre>
-                        {` 
-styled.h1({ 
-...typography.Text.L.Regular, 
-}) 
+                        {`
+styled.h1({
+...typography.Text.L.Regular,
+})
                                 `}
                     </pre>
                 </RowContent>
@@ -161,23 +161,23 @@ styled.h1({
                 <RowTitle>material-ui:</RowTitle>
                 <RowContent>
                     <pre>
-                        {` 
-styled('h1')({ 
-    ...typography.Text.M.Semibold, 
-}) 
+                        {`
+styled('h1')({
+    ...typography.Text.M.Semibold,
+})
                                 `}
                     </pre>
                 </RowContent>
             </Row>
             <Row>
-                <RowTitle>QuarX (makeStylesKit):</RowTitle>
+                <RowTitle>QuarX (makeStyles):</RowTitle>
                 <RowContent>
                     <pre>
-                        {` 
-makeStyles({ 
-    someCssClass: { 
-        ...typography.Text.S.Regular, 
-    } 
+                        {`
+makeStyles({
+    someCssClass: {
+        ...typography.Text.S.Regular,
+    }
 })
                                 `}
                     </pre>

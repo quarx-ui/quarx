@@ -75,7 +75,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         margin: `${convertedMargin.y1} ${convertedMargin.x1} ${convertedMargin.y2} ${convertedMargin.x2}`,
         mounted,
     };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     // --------------------------- Инициализация значений --------------------------------
 

@@ -68,7 +68,7 @@ export const SelectionGroup: FC<SelectionGroupProps> = forwardRef<HTMLDivElement
         type: synchronizedParentProps.type,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <If condition={!hidden}>

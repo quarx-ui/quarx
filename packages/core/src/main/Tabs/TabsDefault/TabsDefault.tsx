@@ -40,7 +40,7 @@ export const TabsDefault = forwardRef(<T extends TabItem = TabItem>(
         line,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const {
         value,

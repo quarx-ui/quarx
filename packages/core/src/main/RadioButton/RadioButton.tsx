@@ -42,7 +42,7 @@ export const RadioButton: FC<RadioButtonProps> = forwardRef<HTMLLabelElement, Ra
         position,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     if (hidden) {
         return null;

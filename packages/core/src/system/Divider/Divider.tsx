@@ -26,7 +26,7 @@ export const Divider: OverridableComponent<DividerPropsWithoutHtml, 'div'> = for
     } = props;
 
     const params = { indent, orientation, color, width };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <If condition={!hidden}>

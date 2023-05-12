@@ -80,7 +80,7 @@ const useStyles = makeStyles((
 }), { name: 'Sandbox' });
 
 const Template: Story<BorderRadiiStory> = ({ size = 'medium', side = 'all' }) => {
-    const styles = useStyles({ size, side });
+    const styles = useStyles({ params: { size, side } });
 
     return (
         <div css={styles.root}>

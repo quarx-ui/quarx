@@ -94,8 +94,8 @@ const useStyles = makeStyles((
     },
 }), { name: 'Sandbox' });
 
-export const Sandbox: Story<ElevationStory> = (props) => {
-    const styles = useStyles(props);
+export const Sandbox: Story<ElevationStory> = (params) => {
+    const styles = useStyles({ params });
 
     return (
         <div css={styles.root}>

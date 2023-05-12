@@ -154,7 +154,7 @@ export const Sandbox: Story<ColorsStoryProps> = ({
     background,
     text,
 }) => {
-    const styles = useStylesSandbox({ type, value, border, background, text });
+    const styles = useStylesSandbox({ params: { type, value, border, background, text } });
     return (
         <div css={styles.root}>
             <div css={styles.inner}>
@@ -315,7 +315,7 @@ const ColorItem: FC<TemplateItemProps> = ({
     children,
 }) => {
     const [hover, setHover] = useState(false);
-    const styles = useStylesColor({ type, hover });
+    const styles = useStylesColor({ params: { type, hover } });
     const [colorCopied, setColorCopied] = useState(false);
     const [pathCopied, setPathCopied] = useState(false);
 
@@ -379,7 +379,7 @@ const ColorItem: FC<TemplateItemProps> = ({
 };
 
 const Template: Story<{ type: PaletteColor }> = ({ type }) => {
-    const styles = useStylesColor({ type });
+    const styles = useStylesColor({ params: { type } });
 
     return (
         <div css={styles.root}>

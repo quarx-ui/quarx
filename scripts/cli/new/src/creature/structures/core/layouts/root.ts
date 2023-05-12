@@ -48,7 +48,7 @@ export const ${componentName}: FC<${componentName}Props> = forwardRef<HTMLDivEle
     } = props;
 
     const params = { size };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <If condition={!hidden}>

@@ -1,4 +1,4 @@
-import { ComponentsProps, useStylesOverwritesWithoutTheme } from '@core/styles';
+import { ComponentsProps } from '@core/styles';
 import { omitProps } from '@core/utils';
 import { useBem } from '@core/styles/engine/theme/hooks/useBem';
 import {
@@ -58,12 +58,12 @@ export function usePropsOverwrites<
         ...(restProps ?? {}),
         ...(permissions ?? {}),
     }, ['cssVars', 'styles']);
-    const mergedStyles = useStylesOverwritesWithoutTheme(typedProps, cssVarNames, overwrites, theme);
+
     const { cn } = useBem(qxName, props);
 
     const styleProps: StyleProps<StyleKey, CSSVarNames> = {
+        styles: typedProps.styles,
         cssVars: cssVarNames,
-        styles: mergedStyles,
         cssPrefix: qxName,
     };
 

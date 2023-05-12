@@ -5,7 +5,7 @@ import { excludeProp } from '@core/storybook/templateParams';
 import { createStoryDescription } from '@core/storybook/utils';
 import { StoryOverScreenProps, commonDisplayProps, Grid } from '../utils';
 import { OverScreen } from '../sandbox';
-import { placementDescription } from './description.md';
+import placementDescription from './description.md';
 
 export const PlacementsStory: Story<OverScreenProps> = (props) => {
     const variantProps = {

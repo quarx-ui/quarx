@@ -16,7 +16,7 @@ export const Loader: FC<LoaderProps> = forwardRef<HTMLDivElement, LoaderProps>((
 
     const params = { size };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <div

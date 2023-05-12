@@ -35,7 +35,7 @@ export const TabItemContained: OverridableComponent<TabItemContainedPropsWithout
             selected,
         };
 
-        const styles = useStyles({ ...params, ...styleProps });
+        const styles = useStyles({ params, ...styleProps });
 
         return (
             <Component

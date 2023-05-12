@@ -87,7 +87,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLLabelElement, Select
         setState: setHover,
     } = useBooleanState(externalHover ?? false);
 
-    const styledParams = {
+    const params = {
         type,
         reverse,
         disableFocus,
@@ -96,7 +96,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLLabelElement, Select
         color: synchronizedParentProps.color,
         size: synchronizedParentProps.size,
     };
-    const styles = useStyles({ ...styledParams, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     // Обработчики событий
     // Pointer, так как MouseLeave не срабатывает при disabled button.
@@ -139,7 +139,7 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLLabelElement, Select
         <If condition={!hidden}>
             <label
                 ref={ref}
-                className={cn('root', styledParams)}
+                className={cn('root', params)}
                 css={styles.root}
                 tabIndex={focusable(isContainerClickable && (!disabled && !disableFocus))}
                 onPointerEnter={pointerEnterHandler}

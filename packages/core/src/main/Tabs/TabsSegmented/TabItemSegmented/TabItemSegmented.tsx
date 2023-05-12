@@ -37,7 +37,7 @@ export const TabItemSegmented: OverridableComponent<TabItemSegmentedPropsWithout
             icon,
         };
 
-        const styles = useStyles({ ...params, ...styleProps });
+        const styles = useStyles({ params, ...styleProps });
 
         return (
             <Component

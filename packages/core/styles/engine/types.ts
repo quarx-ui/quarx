@@ -9,11 +9,11 @@ export type Styles<ClassKey extends string = string> = Record<ClassKey, CSSInter
 
 export type StylesWithCallback<
     ClassKey extends string = string,
-    Props extends object = object,
+    StyleParams extends object = object,
     CSSVars extends string = string
 > = Record<
 ClassKey,
-CSSInterpolation | ((theme: Theme, props: Required<Props>, cssVars: Record<CSSVars, string>) => CSSInterpolation)
+CSSInterpolation | ((theme: Theme, props: Required<StyleParams>, cssVars: Record<CSSVars, string>) => CSSInterpolation)
 >;
 
 export type StylesCallback<
@@ -42,3 +42,15 @@ export interface WithClassesAndStyles<
 }
 
 export type OmitClassesAndStyles<Props extends object> = Omit<Props, keyof WithClassesAndStyles<any>>
+
+export type StylesProp<
+    StyleParams extends object,
+    ClassKey extends string = string,
+    CSSVars extends string = string,
+> = Partial<StylesWithCallback<ClassKey, StyleParams, CSSVars>> | StylesCallback<ClassKey, StyleParams, CSSVars>
+
+export type StylesArray<
+    StyleParams extends object,
+    ClassKey extends string = string,
+    CSSVars extends string = string,
+> = Array<StylesProp<StyleParams, ClassKey, CSSVars> | undefined>

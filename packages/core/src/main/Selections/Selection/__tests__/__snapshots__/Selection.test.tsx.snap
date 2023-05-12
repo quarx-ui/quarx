@@ -3,33 +3,33 @@
 exports[`Selection style params color brand 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-color-brand"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -47,20 +47,20 @@ exports[`Selection style params color brand 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -73,33 +73,33 @@ exports[`Selection style params color brand 1`] = `
 exports[`Selection style params color danger 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_danger QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-color-danger"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1hed13w-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-533jna-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -117,20 +117,20 @@ exports[`Selection style params color danger 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1llkq1p-QxSelection-helperText"
+          class="QxSelection-helperText css-j8ingd-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -143,33 +143,33 @@ exports[`Selection style params color danger 1`] = `
 exports[`Selection style params color info 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_info QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-color-info"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1qk61sm-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-1n2tcwi-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -187,20 +187,20 @@ exports[`Selection style params color info 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-11p3rny-QxSelection-helperText"
+          class="QxSelection-helperText css-1dl4pyn-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -213,33 +213,33 @@ exports[`Selection style params color info 1`] = `
 exports[`Selection style params color secondary 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_secondary QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-color-secondary"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-61vz45-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-19bj5x3-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -257,20 +257,20 @@ exports[`Selection style params color secondary 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-x7zqoc-QxSelection-helperText"
+          class="QxSelection-helperText css-azkkhf-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -283,33 +283,33 @@ exports[`Selection style params color secondary 1`] = `
 exports[`Selection style params color success 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_success QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-color-success"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1op0lzs-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-dkxqeu-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -327,20 +327,20 @@ exports[`Selection style params color success 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1d960bi-QxSelection-helperText"
+          class="QxSelection-helperText css-ndyhqy-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -353,33 +353,33 @@ exports[`Selection style params color success 1`] = `
 exports[`Selection style params color warning 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_warning QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-color-warning"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+            class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1kdmzo5-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-1wiwc86-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -397,20 +397,20 @@ exports[`Selection style params color warning 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-ku2xav-QxSelection-helperText"
+          class="QxSelection-helperText css-rsap5p-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -423,33 +423,33 @@ exports[`Selection style params color warning 1`] = `
 exports[`Selection style params disableFocus false 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-disableFocus-false"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -467,20 +467,20 @@ exports[`Selection style params disableFocus false 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -493,33 +493,33 @@ exports[`Selection style params disableFocus false 1`] = `
 exports[`Selection style params disableFocus true 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_disableFocus QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_disableFocus QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-disableFocus-true"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -537,20 +537,20 @@ exports[`Selection style params disableFocus true 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -563,33 +563,33 @@ exports[`Selection style params disableFocus true 1`] = `
 exports[`Selection style params disabled false 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-disabled-false"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -607,20 +607,20 @@ exports[`Selection style params disabled false 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -633,34 +633,34 @@ exports[`Selection style params disabled false 1`] = `
 exports[`Selection style params disabled true 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-1q52wqi-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_disabled QxSelection_color_brand QxSelection_size_medium css-r7xesu-QxSelection-root"
     data-testid="testStyleParams-disabled-true"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1hqh6a0-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             disabled=""
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1wlxu2x-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-fi5oz-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-1vekj4l-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1s5ihd5-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -678,20 +678,20 @@ exports[`Selection style params disabled true 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-1up8but-QxSelection-title"
+          class="QxSelection-title css-53q8a3-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-weudvk-QxSelection-description"
+          class="QxSelection-description css-1w8cebd-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1pa91kw-QxSelection-helperText"
+          class="QxSelection-helperText css-1a8dxpi-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -704,33 +704,33 @@ exports[`Selection style params disabled true 1`] = `
 exports[`Selection style params hover false 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-hover-false"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -748,20 +748,20 @@ exports[`Selection style params hover false 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -774,33 +774,33 @@ exports[`Selection style params hover false 1`] = `
 exports[`Selection style params hover true 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_hover QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_hover QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-hover-true"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_hover css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_hover css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-1lmw71n-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-f6d59j-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-1lamof3-QxCheckbox-icon"
+                class="QxCheckbox-icon css-prscq3-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -818,20 +818,20 @@ exports[`Selection style params hover true 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -844,33 +844,33 @@ exports[`Selection style params hover true 1`] = `
 exports[`Selection style params reverse false 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-reverse-false"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -888,20 +888,20 @@ exports[`Selection style params reverse false 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -914,33 +914,33 @@ exports[`Selection style params reverse false 1`] = `
 exports[`Selection style params reverse true 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_reverse QxSelection_color_brand QxSelection_size_medium css-1zai1s-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_reverse QxSelection_color_brand QxSelection_size_medium css-1pe3v44-QxSelection-root"
     data-testid="testStyleParams-reverse-true"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-u01la8-QxSelection-content"
+      class="QxSelection-content css-1w3j8qq-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1cj2szg-QxSelection-controller"
+        class="QxSelection-controller css-ocgwhx-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -958,20 +958,20 @@ exports[`Selection style params reverse true 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -984,33 +984,33 @@ exports[`Selection style params reverse true 1`] = `
 exports[`Selection style params size large 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_large css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-size-large"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-5x071e-QxSelection-controller"
+        class="QxSelection-controller css-18fr50e-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1fj5qrv-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-knuj0s-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-1o9ft6k-QxCheckbox-icon"
+                class="QxCheckbox-icon css-1e8v94r-QxCheckbox-icon"
                 fill="currentcolor"
                 height="9"
                 viewBox="0 0 12 9"
@@ -1028,20 +1028,20 @@ exports[`Selection style params size large 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-v82vrn-QxSelection-title"
+          class="QxSelection-title css-xzu70x-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-1pr55gl-QxSelection-description"
+          class="QxSelection-description css-1nnabbv-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-2i0732-QxSelection-helperText"
+          class="QxSelection-helperText css-8tg7is-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1054,33 +1054,33 @@ exports[`Selection style params size large 1`] = `
 exports[`Selection style params size medium 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-size-medium"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -1098,20 +1098,20 @@ exports[`Selection style params size medium 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1124,33 +1124,33 @@ exports[`Selection style params size medium 1`] = `
 exports[`Selection style params size small 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_small css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-size-small"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-15ulb7b-QxSelection-controller"
+        class="QxSelection-controller css-4fgvbz-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-1pzv0x9-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-1dz3o29-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-1pin7cv-QxCheckbox-icon"
+                class="QxCheckbox-icon css-qqupxm-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 10 8"
@@ -1168,20 +1168,20 @@ exports[`Selection style params size small 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-wpimqb-QxSelection-title"
+          class="QxSelection-title css-81jp23-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1194,33 +1194,33 @@ exports[`Selection style params size small 1`] = `
 exports[`Selection style params type contained 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-1umvfb4-QxSelection-root"
+    class="QxSelection QxSelection_type_contained QxSelection_color_brand QxSelection_size_medium css-nnunrm-QxSelection-root"
     data-testid="testStyleParams-type-contained"
     tabindex="0"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_disableFocus css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_disableFocus css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-hulrmr-QxCheckbox-input"
+            class="QxCheckbox-input css-18ihdh7-QxCheckbox-input"
             tabindex="-1"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -1238,20 +1238,20 @@ exports[`Selection style params type contained 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1264,33 +1264,33 @@ exports[`Selection style params type contained 1`] = `
 exports[`Selection style params type text 1`] = `
 <DocumentFragment>
   <label
-    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-12b7igh-QxSelection-root"
+    class="QxSelection QxSelection_type_text QxSelection_color_brand QxSelection_size_medium css-xzgqft-QxSelection-root"
     data-testid="testStyleParams-type-text"
     tabindex="-1"
   >
     <div
-      class="QxSelection-content css-1y6ld3s-QxSelection-content"
+      class="QxSelection-content css-a7yohm-QxSelection-content"
     >
       <div
-        class="QxSelection-controller css-1vx60az-QxSelection-controller"
+        class="QxSelection-controller css-ucexof-QxSelection-controller"
       >
         <label
-          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+          class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
         >
           <input
-            class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+            class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
             tabindex="0"
             type="checkbox"
             value=""
           />
           <div
-            class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+            class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
           >
             <div
-              class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+              class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
             >
               <svg
-                class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+                class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
                 fill="currentcolor"
                 height="8"
                 viewBox="0 0 11 8"
@@ -1308,20 +1308,20 @@ exports[`Selection style params type text 1`] = `
         </label>
       </div>
       <div
-        class="QxSelection-texts css-1bwrr8m-QxSelection-texts"
+        class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-cmzvj1-QxSelection-title"
+          class="QxSelection-title css-11ny95e-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-13lwzeb-QxSelection-description"
+          class="QxSelection-description css-11pkris-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-vzz0hu-QxSelection-helperText"
+          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
         >
           HelperText
         </span>

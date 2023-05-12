@@ -7,7 +7,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-xf29is-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -15,7 +15,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-ykwgej-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-1vy3o3b-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -24,39 +24,39 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   >
     <div
       aria-hidden="true"
-      class="QxBackdrop css-15lu5nv-QxBackdrop-root-QxBackdrop-root"
+      class="QxBackdrop css-12ciqwh-QxBackdrop-root-QxBackdrop-root"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1elz5fp-QxModal-scrollContainer-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-16ls9vn-QxModal-scrollContainer-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-1qs5fkk-QxModal-box"
+        class="QxModal-box css-f504jh-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"
@@ -74,7 +74,7 @@ exports[`Modal keepMounted modal always in the document 1`] = `
           </button>
         </div>
         <div
-          class="QxModal-body css-l3ia4v-QxModal-body"
+          class="QxModal-body css-r81a94-QxModal-body"
         >
           Body
         </div>
@@ -91,7 +91,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-xf29is-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -99,7 +99,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-8mjgq9-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -108,39 +108,39 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root enter-active"
+      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root enter-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer enter-active"
+      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer enter-active"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-1qs5fkk-QxModal-box"
+        class="QxModal-box css-f504jh-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"
@@ -158,7 +158,7 @@ exports[`Modal keepMounted modal always in the document 2`] = `
           </button>
         </div>
         <div
-          class="QxModal-body css-l3ia4v-QxModal-body"
+          class="QxModal-body css-r81a94-QxModal-body"
           style="min-height: NaNpx;"
         >
           Body
@@ -176,7 +176,7 @@ exports[`Modal modal in the document 1`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-xf29is-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -192,7 +192,7 @@ exports[`Modal modal in the document 2`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-xf29is-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -200,7 +200,7 @@ exports[`Modal modal in the document 2`] = `
   </div>
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-q5558t-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader QxModal_hasFooter css-8mjgq9-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     datatype="overscreen"
@@ -209,39 +209,39 @@ exports[`Modal modal in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-1qs5fkk-QxModal-box"
+        class="QxModal-box css-f504jh-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"
@@ -259,40 +259,40 @@ exports[`Modal modal in the document 2`] = `
           </button>
         </div>
         <div
-          class="QxModal-body css-nwhtp5-QxModal-body"
+          class="QxModal-body css-19ur24o-QxModal-body"
           style="min-height: NaNpx;"
         >
           Body
         </div>
         <div
-          class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical css-jysxse-QxFooterBlock-root"
+          class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical css-nbm8sj-QxFooterBlock-root"
         >
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-xf29is-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
-              class="QxButton-content css-m3eosc-QxButton-content"
+              class="QxButton-content css-ovifzf-QxButton-content"
             >
               Success
             </div>
           </button>
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-r672q1-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-aql2t3-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
-              class="QxButton-content css-m3eosc-QxButton-content"
+              class="QxButton-content css-ovifzf-QxButton-content"
             >
               Secondary
             </div>
           </button>
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1ooohn3-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fi0prz-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
-              class="QxButton-content css-m3eosc-QxButton-content"
+              class="QxButton-content css-ovifzf-QxButton-content"
             >
               Danger
             </div>
@@ -311,7 +311,7 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_body QxModal_hasHeader css-8mjgq9-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-scrollBehaviour-body"
@@ -321,35 +321,35 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-zpb0mb-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1lmme1s-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-3f9y17-QxModal-box"
+        class="QxModal-box css-wx9x3a-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
             />
             <div
-              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"
@@ -379,7 +379,7 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-8mjgq9-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-scrollBehaviour-window"
@@ -389,35 +389,35 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-1qs5fkk-QxModal-box"
+        class="QxModal-box css-f504jh-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
             />
             <div
-              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"
@@ -447,7 +447,7 @@ exports[`Modal style params size medium 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_medium QxModal_scrollBehaviour_window QxModal_hasHeader css-8mjgq9-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-medium"
@@ -457,35 +457,35 @@ exports[`Modal style params size medium 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-1qs5fkk-QxModal-box"
+        class="QxModal-box css-f504jh-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_medium css-a0et6t-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1bxoecb-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
             />
             <div
-              class="QxHeaderBlock-subTitle css-1sju9ey-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"
@@ -515,7 +515,7 @@ exports[`Modal style params size small 1`] = `
   <div />
   <div
     aria-hidden="false"
-    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-q5558t-QxOverScreen-root-QxModal-root"
+    class="QxOverScreen QxOverScreen_placement_center QxOverScreen_mounted QxModal QxModal_size_small QxModal_scrollBehaviour_window QxModal_hasHeader css-8mjgq9-QxOverScreen-root-QxModal-root"
     data-component="QxOverScreen"
     data-index="0"
     data-testid="testStyleParams-size-small"
@@ -525,35 +525,35 @@ exports[`Modal style params size small 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kx5t24-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-edvtbv-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box css-1i6u4nz-QxModal-box"
+        class="QxModal-box css-1d66d94-QxModal-box"
       >
         <div
-          class="QxHeaderBlock QxHeaderBlock_size_small css-130u650-QxHeaderBlock-root"
+          class="QxHeaderBlock QxHeaderBlock_size_small css-11mwf9r-QxHeaderBlock-root"
         >
           <div
-            class="QxHeaderBlock-content css-1lmvl89-QxHeaderBlock-content"
+            class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-152ga7g-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-1epjsp2-QxHeaderBlock-title"
             />
             <div
-              class="QxHeaderBlock-subTitle css-fm9gst-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-q0oaiy-QxHeaderBlock-subTitle"
             />
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-o1d20x-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
-              class="QxIconButton-icon css-5rjpdh-QxIconButton-icon"
+              class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
             >
               <svg
                 fill="none"

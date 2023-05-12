@@ -21,7 +21,7 @@ export const Counter = forwardRef<HTMLSpanElement, CounterProps>((
     } = props;
 
     const params = { type, size, color };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     if (maxDigits < 1 || hidden) {
         return null;
