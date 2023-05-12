@@ -16,6 +16,9 @@ export default {
                 required: false,
             },
         },
+        divider: {
+            control: false,
+        },
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
         children: {
             control: false,

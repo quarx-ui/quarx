@@ -107,7 +107,7 @@ const useStyles = makeStyles((
 }), { name: 'Sandbox' });
 
 const Template: Story<BordersStory> = ({ size = 'medium', style = 'solid', side = 'all' }) => {
-    const styles = useStyles({ size, style, side });
+    const styles = useStyles({ params: { size, style, side } });
 
     return (
         <div css={styles.root}>

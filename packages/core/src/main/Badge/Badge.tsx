@@ -37,7 +37,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>((
         color,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <div

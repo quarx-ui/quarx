@@ -29,7 +29,7 @@ export const TabItemDefault: OverridableComponent<TabItemDefaultPropsWithoutHtml
 
         const params = { size, line, selected };
 
-        const styles = useStyles({ ...params, ...styleProps });
+        const styles = useStyles({ params, ...styleProps });
 
         return (
             <Component

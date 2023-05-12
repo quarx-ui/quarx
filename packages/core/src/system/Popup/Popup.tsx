@@ -65,7 +65,7 @@ export const Popup: FC<PopupProps> = forwardRef<HTMLDivElement, PopupProps>((
     });
 
     const params = { ...floating, disableBackdrop };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     // TODO: Не работает transition. Добавить в ClickAwayListener возможность проброса внешнего ref дочерним элементам
     const PopupWrapper = (

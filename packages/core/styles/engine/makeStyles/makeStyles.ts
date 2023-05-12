@@ -1,7 +1,7 @@
-import { css, CSSObject } from '@emotion/react';
-import { extractStyles, StylesWithCallback, StylesCallback, Styles } from '@core/styles';
+import { css } from '@emotion/react';
+import { extractStyles, Styles, StylesCallback } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
-import { MakeStylesOptions } from './types';
+import { MakeStylesOptions, UseStylesProps, UseStylesPropsWithParams } from './types';
 import { useTheme } from '../theme';
 
 /** Функция для создания стилей компонента с использованием глобальной темы и переданных параметров
@@ -19,34 +19,39 @@ import { useTheme } from '../theme';
  * переопределения стилей элементов по их ключу
  */
 export function makeStyles<
-    Props extends object,
+    StyleParams extends object,
     ClassKey extends string = string,
     CSSVars extends string = string,
 >(
-    styles: Styles<ClassKey> | StylesCallback<ClassKey, Props, CSSVars>,
+    styles: Styles<ClassKey> | StylesCallback<ClassKey, StyleParams, CSSVars>,
     options: MakeStylesOptions = {},
-): keyof Props extends never
-        ? (props?: any) => StylesMap<ClassKey>
-        : (props: Props & {
-            styles?: Partial<StylesWithCallback<ClassKey, Props, CSSVars>> | StylesCallback<ClassKey, Props, CSSVars>;
-            cssVars?: Partial<Record<CSSVars, string>>;
-            cssPrefix?: string;
-        }) => StylesMap<ClassKey> {
+): keyof StyleParams extends never
+        ? (props?: UseStylesProps<StyleParams, ClassKey, CSSVars>) => StylesMap<ClassKey>
+        : (props: UseStylesPropsWithParams<StyleParams, ClassKey, CSSVars>) => StylesMap<ClassKey> {
     return (props?: any) => {
         const theme = useTheme();
         const { cssPrefix } = props ?? {};
         const { name = cssPrefix ?? 'makeStyles' } = options;
 
-        const stylesObject = typeof styles === 'function'
-            ? styles(theme, props, props?.cssVars)
-            : styles;
-        const overwrites = extractStyles(props, theme, props?.styles, props?.cssVars);
+        const combinedStyles = extractStyles(
+            {
+                theme,
+                params: props?.params,
+                vars: props?.cssVars,
+            },
+            /* От порядка в массиве зависит приоритетность наложения стилей
+            * Базовые стили должны идти первыми, после них стили из пропсов */
+            [
+                styles,
+                props?.styles,
+            ],
+        );
 
-        return Object.entries(stylesObject)
-            .reduce((acc, [key, cssObject]) => {
+        return Object.entries(combinedStyles)
+            .reduce((acc, [key, cssInterpolationArr]) => {
                 const label = `${name}-${key}`;
 
-                acc[key as ClassKey] = css([cssObject as CSSObject, overwrites?.[key]], { label });
+                acc[key as ClassKey] = css(cssInterpolationArr, { label });
                 return acc;
             }, {} as StylesMap<ClassKey>);
     };

@@ -23,7 +23,7 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
         direction,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const commonButtonProps = useMemo(() => ({
         borderRadius: QX_BORDER_SIZE.medium,

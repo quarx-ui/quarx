@@ -49,7 +49,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
         hasFooter,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const [bodyRef, setBodyRef] = useState<HTMLDivElement | null>(null);
 

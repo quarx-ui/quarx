@@ -21,7 +21,7 @@ export const Backdrop: FC<BackdropProps> = forwardRef<HTMLDivElement, BackdropPr
         invisible,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     return (
         <Transition

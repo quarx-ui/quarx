@@ -3,23 +3,23 @@
 exports[`Checkbox snapshots checked 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
       checked=""
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1lvnezo-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-154u63a-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-b63rqc-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-40mdt4-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-17k8ns1-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1pculg9-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -35,7 +35,7 @@ exports[`Checkbox snapshots checked 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -46,22 +46,22 @@ exports[`Checkbox snapshots checked 1`] = `
 exports[`Checkbox snapshots color_brand 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+          class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -77,7 +77,7 @@ exports[`Checkbox snapshots color_brand 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -88,22 +88,22 @@ exports[`Checkbox snapshots color_brand 1`] = `
 exports[`Checkbox snapshots color_danger 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_danger QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+      class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1hed13w-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-533jna-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -119,7 +119,7 @@ exports[`Checkbox snapshots color_danger 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -130,22 +130,22 @@ exports[`Checkbox snapshots color_danger 1`] = `
 exports[`Checkbox snapshots color_info 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_info QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+      class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1qk61sm-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-1n2tcwi-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -161,7 +161,7 @@ exports[`Checkbox snapshots color_info 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -172,22 +172,22 @@ exports[`Checkbox snapshots color_info 1`] = `
 exports[`Checkbox snapshots color_secondary 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_secondary QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-61vz45-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-19bj5x3-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+          class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -203,7 +203,7 @@ exports[`Checkbox snapshots color_secondary 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -214,22 +214,22 @@ exports[`Checkbox snapshots color_secondary 1`] = `
 exports[`Checkbox snapshots color_success 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_success QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+      class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1op0lzs-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-dkxqeu-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -245,7 +245,7 @@ exports[`Checkbox snapshots color_success 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -256,22 +256,22 @@ exports[`Checkbox snapshots color_success 1`] = `
 exports[`Checkbox snapshots color_warning 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_warning QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1pf1ocm-QxCheckbox-input"
+      class="QxCheckbox-input css-jorhu0-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1kdmzo5-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-1wiwc86-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-wfbqif-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1kxo616-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -287,7 +287,7 @@ exports[`Checkbox snapshots color_warning 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -298,22 +298,22 @@ exports[`Checkbox snapshots color_warning 1`] = `
 exports[`Checkbox snapshots default 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+          class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -329,7 +329,7 @@ exports[`Checkbox snapshots default 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -340,23 +340,23 @@ exports[`Checkbox snapshots default 1`] = `
 exports[`Checkbox snapshots disabled 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1w7e7ew-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_disabled QxCheckbox_borderRadius_medium css-1hqh6a0-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       disabled=""
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1wlxu2x-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-fi5oz-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-1vekj4l-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1s5ihd5-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -372,7 +372,7 @@ exports[`Checkbox snapshots disabled 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-ge1smo-QxCheckbox-content"
+      class="QxCheckbox-content css-k947k6-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -383,27 +383,27 @@ exports[`Checkbox snapshots disabled 1`] = `
 exports[`Checkbox snapshots indeterminate 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium QxCheckbox_indeterminate css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <div
-          class="QxCheckbox-icon css-1j35y2q-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1t0o3x1-QxCheckbox-icon"
         />
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -414,22 +414,22 @@ exports[`Checkbox snapshots indeterminate 1`] = `
 exports[`Checkbox snapshots large 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_large QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1fj5qrv-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-knuj0s-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-1o9ft6k-QxCheckbox-icon"
+          class="QxCheckbox-icon css-1e8v94r-QxCheckbox-icon"
           fill="currentcolor"
           height="9"
           viewBox="0 0 12 9"
@@ -445,7 +445,7 @@ exports[`Checkbox snapshots large 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1lhxmyz-QxCheckbox-content"
+      class="QxCheckbox-content css-4zzbkl-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -456,22 +456,22 @@ exports[`Checkbox snapshots large 1`] = `
 exports[`Checkbox snapshots max radius 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_max css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_max css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-hsoqs8-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-1cqx3ft-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+          class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -487,7 +487,7 @@ exports[`Checkbox snapshots max radius 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -498,22 +498,22 @@ exports[`Checkbox snapshots max radius 1`] = `
 exports[`Checkbox snapshots medium 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+          class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -529,7 +529,7 @@ exports[`Checkbox snapshots medium 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -540,22 +540,22 @@ exports[`Checkbox snapshots medium 1`] = `
 exports[`Checkbox snapshots medium radius 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-xsvnul-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-elag4i-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-15a7h0r-QxCheckbox-icon"
+          class="QxCheckbox-icon css-7yff3i-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 11 8"
@@ -571,7 +571,7 @@ exports[`Checkbox snapshots medium radius 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-1rrdxxh-QxCheckbox-content"
+      class="QxCheckbox-content css-j8ii2p-QxCheckbox-content"
     >
       Checkbox
     </span>
@@ -582,22 +582,22 @@ exports[`Checkbox snapshots medium radius 1`] = `
 exports[`Checkbox snapshots small 1`] = `
 <DocumentFragment>
   <label
-    class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-k61en7-QxCheckbox-root"
+    class="QxCheckbox QxCheckbox_size_small QxCheckbox_color_brand QxCheckbox_borderRadius_medium css-1lgh59g-QxCheckbox-root"
   >
     <input
-      class="QxCheckbox-input css-1155j7a-QxCheckbox-input"
+      class="QxCheckbox-input css-zk3nke-QxCheckbox-input"
       tabindex="0"
       type="checkbox"
       value=""
     />
     <div
-      class="QxCheckbox-checkboxContainer css-1pzv0x9-QxCheckbox-checkboxContainer"
+      class="QxCheckbox-checkboxContainer css-1dz3o29-QxCheckbox-checkboxContainer"
     >
       <div
-        class="QxCheckbox-overlay css-j8jcnq-QxCheckbox-overlay"
+        class="QxCheckbox-overlay css-14q538t-QxCheckbox-overlay"
       >
         <svg
-          class="QxCheckbox-icon css-1pin7cv-QxCheckbox-icon"
+          class="QxCheckbox-icon css-qqupxm-QxCheckbox-icon"
           fill="currentcolor"
           height="8"
           viewBox="0 0 10 8"
@@ -613,7 +613,7 @@ exports[`Checkbox snapshots small 1`] = `
       </div>
     </div>
     <span
-      class="QxCheckbox-content css-ykd9w0-QxCheckbox-content"
+      class="QxCheckbox-content css-1fegedw-QxCheckbox-content"
     >
       Checkbox
     </span>

@@ -3,23 +3,23 @@
 exports[`Accordion style params inheritTextStyles false 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_medium css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-inheritTextStyles-false"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -46,23 +46,23 @@ exports[`Accordion style params inheritTextStyles false 1`] = `
 exports[`Accordion style params inheritTextStyles true 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_medium QxAccordion_inheritTextStyles css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_medium QxAccordion_inheritTextStyles css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-inheritTextStyles-true"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -89,23 +89,23 @@ exports[`Accordion style params inheritTextStyles true 1`] = `
 exports[`Accordion style params open false 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_medium css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-open-false"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -132,23 +132,23 @@ exports[`Accordion style params open false 1`] = `
 exports[`Accordion style params open true 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_open QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_open QxAccordion_size_medium css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-open-true"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-8dorey-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1fm6r61-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -169,7 +169,7 @@ exports[`Accordion style params open true 1`] = `
       </div>
     </div>
     <div
-      class="QxAccordion-details css-9vy496-QxAccordion-details"
+      class="QxAccordion-details css-1aplmk2-QxAccordion-details"
     />
   </div>
 </DocumentFragment>
@@ -178,23 +178,23 @@ exports[`Accordion style params open true 1`] = `
 exports[`Accordion style params showDivider false 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_medium css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-showDivider-false"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -221,23 +221,23 @@ exports[`Accordion style params showDivider false 1`] = `
 exports[`Accordion style params showDivider true 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_medium QxAccordion_showDivider css-17k1onm-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_medium QxAccordion_showDivider css-1b83lo1-QxAccordion-root"
     data-testid="testStyleParams-showDivider-true"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -258,7 +258,7 @@ exports[`Accordion style params showDivider true 1`] = `
       </div>
     </div>
     <div
-      class="QxDivider QxDivider_orientation_horizontal QxDivider_color_main QxDivider_width_thin QxAccordion-divider css-1m1dybe-QxDivider-root-QxAccordion-divider"
+      class="QxDivider QxDivider_orientation_horizontal QxDivider_color_main QxDivider_width_thin QxAccordion-divider css-hrbbjm-QxDivider-root-QxAccordion-divider"
       role="separator"
     />
   </div>
@@ -268,23 +268,23 @@ exports[`Accordion style params showDivider true 1`] = `
 exports[`Accordion style params size large 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_large css-15ha8w1-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_large css-vgi9ll-QxAccordion-root"
     data-testid="testStyleParams-size-large"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-5jez2f-QxAccordion-title"
+          class="QxAccordion-title css-9nwk8a-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -311,23 +311,23 @@ exports[`Accordion style params size large 1`] = `
 exports[`Accordion style params size medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_medium css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_medium css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-size-medium"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1l0g4vz-QxAccordion-title"
+          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -354,23 +354,23 @@ exports[`Accordion style params size medium 1`] = `
 exports[`Accordion style params size small 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_small css-lwhbdj-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_small css-1j7nuxx-QxAccordion-root"
     data-testid="testStyleParams-size-small"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1n564jx-QxAccordion-title"
+          class="QxAccordion-title css-10lrczt-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"
@@ -397,23 +397,23 @@ exports[`Accordion style params size small 1`] = `
 exports[`Accordion style params size xSmall 1`] = `
 <DocumentFragment>
   <div
-    class="QxAccordion QxAccordion_size_xSmall css-nry7lb-QxAccordion-root"
+    class="QxAccordion QxAccordion_size_xSmall css-1d0m4un-QxAccordion-root"
     data-testid="testStyleParams-size-xSmall"
   >
     <div
-      class="QxAccordion-summary css-ig15eu-QxAccordion-summary"
+      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-1c6cg1a-QxAccordion-headline"
+        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-14z9yhl-QxAccordion-title"
+          class="QxAccordion-title css-1c2wnnn-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-u3giya-QxAccordion-icons"
+          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
         >
           <div
-            class="QxAccordion-collapseIcon css-ejepba-QxAccordion-collapseIcon"
+            class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
           >
             <svg
               fill="none"

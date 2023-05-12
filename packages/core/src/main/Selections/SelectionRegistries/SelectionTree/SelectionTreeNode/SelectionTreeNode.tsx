@@ -54,7 +54,7 @@ export const SelectionTreeNode: FC<SelectionTreeNodeProps> = (
         isClickedToArrow,
         level,
     };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     // Обработчики событий
     const mouseEnterHandler = () => setHover(true);

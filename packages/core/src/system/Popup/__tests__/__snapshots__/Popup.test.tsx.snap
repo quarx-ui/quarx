@@ -5,11 +5,11 @@ exports[`Popup tests disablePortal 1`] = `
   <div>
     <div
       aria-hidden="false"
-      class="QxBackdrop css-15oh6of-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-1aw9kf3-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     >
       <div
-        class="QxPopup QxPopup_x_-8 QxPopup_y_-8 css-1n8lkmp-QxPopup-root"
+        class="QxPopup QxPopup_x_-8 QxPopup_y_-8 css-uarmre-QxPopup-root"
       >
         Popup content
       </div>
@@ -22,11 +22,11 @@ exports[`Popup tests style params disableBackdrop false 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="false"
-    class="QxBackdrop css-15oh6of-QxBackdrop-root-QxBackdrop-root appear-active"
+    class="QxBackdrop css-1aw9kf3-QxBackdrop-root-QxBackdrop-root appear-active"
     data-component="QxBackdrop"
   >
     <div
-      class="QxPopup css-hgsm3k-QxPopup-root"
+      class="QxPopup css-1m84fgk-QxPopup-root"
       data-testid="testStyleParams-disableBackdrop-false"
     >
       Статус
@@ -38,7 +38,7 @@ exports[`Popup tests style params disableBackdrop false 1`] = `
 exports[`Popup tests style params disableBackdrop true 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_disableBackdrop css-1sitpu4-QxPopup-root"
+    class="QxPopup QxPopup_disableBackdrop css-173u6h0-QxPopup-root"
     data-testid="testStyleParams-disableBackdrop-true"
   >
     Статус

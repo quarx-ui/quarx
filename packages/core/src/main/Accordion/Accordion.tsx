@@ -33,7 +33,7 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
     const open = externalOpen ?? innerOpen;
 
     const params = { open, size, inheritTextStyles, showDivider };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const handleClick = () => {
         onChange?.(!open);

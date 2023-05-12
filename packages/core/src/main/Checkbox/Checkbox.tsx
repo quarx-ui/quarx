@@ -58,7 +58,7 @@ export const Checkbox: FC<CheckboxProps> = forwardRef<HTMLLabelElement, Checkbox
         indeterminate,
         disableFocus,
     };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     if (hidden) {
         return null;

@@ -40,7 +40,7 @@ export const Switcher: FC<SwitcherProps> = forwardRef<HTMLLabelElement, Switcher
         hover: externalHover ?? hover,
         position,
     };
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     if (hidden) { return null; }
 

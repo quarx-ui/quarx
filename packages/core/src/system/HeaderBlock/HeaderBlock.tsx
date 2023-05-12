@@ -27,7 +27,7 @@ export const HeaderBlock: FC<HeaderBlockProps> = forwardRef<HTMLDivElement, Head
         size,
     };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     if (!title && !subTitle && !children && disableCloseButton) {
         return null;

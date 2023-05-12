@@ -146,7 +146,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         bottomIsVisible,
     ]);
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const setValue = useCallback((localValue: string) => {
         if (readOnly) { return; }

@@ -50,7 +50,7 @@ export const SelectionList: FC<SelectionListProps> = forwardRef<HTMLDivElement, 
 
     const params = { type, size, color };
 
-    const styles = useStyles({ ...params, ...styleProps });
+    const styles = useStyles({ params, ...styleProps });
 
     const CurrentController = isDefaultSelectionListController(controller)
         ? DEFAULT_CONTROLLERS[controller]
