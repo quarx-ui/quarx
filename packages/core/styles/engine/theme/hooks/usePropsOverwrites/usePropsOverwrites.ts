@@ -1,4 +1,4 @@
-import { ComponentsProps } from '@core/styles';
+import { ComponentsProps, QX_PREFIX } from '@core/styles';
 import { omitProps } from '@core/utils';
 import { useBem } from '@core/styles/engine/theme/hooks/useBem';
 import {
@@ -44,7 +44,7 @@ export function usePropsOverwrites<
     UsePropsOverwritesPropsTypeCast<Props, StyleKey, CSSVarNames>,
     'classes' | 'className'
     >(props, ['classes', 'className']);
-    const qxName = `Qx${name}`;
+    const qxName = `${QX_PREFIX}${name}`;
 
     const {
         permissions,

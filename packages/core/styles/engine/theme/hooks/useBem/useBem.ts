@@ -1,4 +1,4 @@
-import { ComponentsProps } from '@core';
+import { ComponentsProps, QX_PREFIX } from '@core';
 import { cn as bem } from '@bem-react/classname';
 import clsx from 'clsx';
 import { unifyClassName } from '@core/styles/engine/theme/hooks/usePropsOverwrites/helpers';
@@ -13,9 +13,9 @@ export const useBem = <Props extends object, StyleKey extends string>(
         classes,
         className,
     } = typedProps;
-    const qxName = name.startsWith('Qx')
+    const qxName = name.startsWith(QX_PREFIX)
         ? name
-        : `Qx${name}`;
+        : `${QX_PREFIX}${name}`;
     const bemCn = bem(qxName);
     const cn: TypedCnFormatter<StyleKey> = (key, ...args: any) => unifyClassName(
         key === 'root'

@@ -14,6 +14,7 @@ export function createTheme({
     elevations,
     borders,
     borderRadii,
+    defaultStyles,
 }: CreateThemeArg = {}): Theme {
     const palette = createPalette(initialPalette);
 
@@ -25,5 +26,6 @@ export function createTheme({
         borders: createBorders(borders, palette),
         borderRadii: createBorderRadii(borderRadii),
         defaultProps,
+        defaultStyles,
     };
 }

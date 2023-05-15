@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { extractStyles, Styles, StylesCallback } from '@core/styles';
+import { DefaultStyles, extractStyles, QX_PREFIX, Styles, StylesCallback } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
 import { MakeStylesOptions, UseStylesProps, UseStylesPropsWithParams } from './types';
 import { useTheme } from '../theme';
@@ -33,6 +33,10 @@ export function makeStyles<
         const { cssPrefix } = props ?? {};
         const { name = cssPrefix ?? 'makeStyles' } = options;
 
+        const overwrites = name?.startsWith(QX_PREFIX)
+            ? theme.defaultStyles?.[name.replace(QX_PREFIX, '') as keyof DefaultStyles]
+            : undefined;
+
         const combinedStyles = extractStyles(
             {
                 theme,
@@ -40,9 +44,10 @@ export function makeStyles<
                 vars: props?.cssVars,
             },
             /* От порядка в массиве зависит приоритетность наложения стилей
-            * Базовые стили должны идти первыми, после них стили из пропсов */
+            * Базовые стили должны идти первыми, после них стили из темы, последними – из пропсов */
             [
                 styles,
+                overwrites,
                 props?.styles,
             ],
         );
