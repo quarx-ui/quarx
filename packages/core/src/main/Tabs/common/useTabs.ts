@@ -61,7 +61,7 @@ export const useTabs = <T extends TabItem = TabItem>({
             setScrollPosition(TABS_SCROLL_POSITIONS.none);
         } else if (scrollLeft === 0) {
             setScrollPosition(TABS_SCROLL_POSITIONS.start);
-        } else if (scrollWidth - scrollLeft <= clientWidth) {
+        } else if (Math.floor(scrollWidth - scrollLeft) <= clientWidth) {
             setScrollPosition(TABS_SCROLL_POSITIONS.end);
         } else {
             setScrollPosition(TABS_SCROLL_POSITIONS.between);
