@@ -24,11 +24,11 @@ exports[`Modal keepMounted modal always in the document 1`] = `
   >
     <div
       aria-hidden="true"
-      class="QxBackdrop css-12ciqwh-QxBackdrop-root-QxBackdrop-root"
+      class="QxBackdrop css-1tawtan-QxBackdrop-root-QxBackdrop-root"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-16ls9vn-QxModal-scrollContainer-QxModal-scrollContainer"
+      class="QxModal-scrollContainer css-vdhb7a-QxModal-scrollContainer-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
     >
       <div
@@ -108,11 +108,11 @@ exports[`Modal keepMounted modal always in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root enter-active"
+      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root enter-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer enter-active"
+      class="QxModal-scrollContainer css-1yglha4-QxModal-scrollContainer-QxModal-scrollContainer enter-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -209,11 +209,11 @@ exports[`Modal modal in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1yglha4-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -321,11 +321,11 @@ exports[`Modal style params scrollBehaviour body 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1lmme1s-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1fc5oh9-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -389,11 +389,11 @@ exports[`Modal style params scrollBehaviour window 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1yglha4-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -457,11 +457,11 @@ exports[`Modal style params size medium 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1yglha4-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -525,11 +525,11 @@ exports[`Modal style params size small 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-nofk6g-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer css-1e3wdqn-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer css-1yglha4-QxModal-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div

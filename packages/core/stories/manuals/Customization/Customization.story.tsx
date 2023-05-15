@@ -17,7 +17,7 @@ export default {
             page: (): JSX.Element => (
                 <Div>
                     <Title>
-                        Расширение темы
+                        Кастомизация компонентов
                     </Title>
                     <Description
                         markdown={description}
@@ -28,5 +28,5 @@ export default {
     },
 };
 
-export const ThemeExtension: Story = () => <div />;
-ThemeExtension.storyName = 'Расширение темы';
+export const Customization: Story = () => <div />;
+Customization.storyName = 'Кастомизация компонентов';

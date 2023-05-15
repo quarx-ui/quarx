@@ -1,6 +1,6 @@
 import { FC, forwardRef, memo, useCallback, useMemo, useRef, useState } from 'react';
 import { TransitionProps as ReactTransitionProps } from 'react-transition-group/Transition';
-import { usePropsOverwrites, useTheme } from '@core/styles';
+import { QX_PREFIX, usePropsOverwrites, useTheme } from '@core/styles';
 import {
     Backdrop,
     Portal,
@@ -80,7 +80,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     // --------------------------- Инициализация значений --------------------------------
 
     const isDisabledTransition = appearance === OVER_SCREEN_APPEARANCE.none;
-    const uniqAttr = `Qx${name}`;
+    const uniqAttr = `${QX_PREFIX}${name}`;
     const childUniqAttr = `${uniqAttr}-child`;
 
     const defaultBodyStyles = useRef<DefaultStyles>({});

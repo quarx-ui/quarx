@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { forwardRef } from '@core/utils';
-import { usePropsOverwrites } from '@core/styles';
+import { QX_PREFIX, usePropsOverwrites } from '@core/styles';
 import { Transition } from '@core/src';
 import { BackdropProps } from './types';
 import { useStyles } from './styles';
@@ -36,7 +36,7 @@ export const Backdrop: FC<BackdropProps> = forwardRef<HTMLDivElement, BackdropPr
                 className={cn('root')}
                 css={styles.root}
                 {...restProps}
-                data-component={`Qx${name}`}
+                data-component={`${QX_PREFIX}${name}`}
                 aria-hidden={!mounted}
                 ref={ref}
             >

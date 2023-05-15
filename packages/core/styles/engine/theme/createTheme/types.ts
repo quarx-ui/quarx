@@ -94,6 +94,8 @@ export interface ComponentsProps {
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;
 
+export type DefaultStyles = { [key in keyof ComponentsProps]?: ComponentsProps[key]['styles'] }
+
 export interface Theme extends CustomTheme {
     palette: Palette;
     breakpoints: Breakpoints;
@@ -102,6 +104,7 @@ export interface Theme extends CustomTheme {
     borders: ReturnedBorders;
     borderRadii: ReturnedBorderRadii;
     defaultProps?: DefaultProps;
+    defaultStyles?: DefaultStyles;
 }
 
 export interface CreateThemeArg extends CustomTheme {
@@ -112,4 +115,5 @@ export interface CreateThemeArg extends CustomTheme {
     borders?: CreateBorderArg;
     borderRadii?: CreateBorderRadiusArg;
     defaultProps?: DefaultProps;
+    defaultStyles?: DefaultStyles;
 }
