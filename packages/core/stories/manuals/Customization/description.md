@@ -54,7 +54,7 @@ const App = () => (
 import { jsx } from '@emotion/react'
 
 const App = () => (
-    <Button css={{ fontSize: '20px' }}>Hello World</Button>
+    <Button css={ { fontSize: '20px' } }>Hello World</Button>
 )
 ```
 
@@ -74,14 +74,14 @@ const App = () => (
 const App = () => (
     <>
         <Button
-            styles={{
+            styles={ {
                 root: {
                     fontSize: '20px',
                 },
                 leftIcon: {
                     marginRight: '12px',
                 },
-            }}
+            } }
         >
             Hello
         </Button>
@@ -123,9 +123,7 @@ import 'button.css'
 
 const App = () => (
     <Button
-        classes={{
-            leftIcon: 'left-icon'
-        }}    
+        classes={ { leftIcon: 'left-icon' } }    
     >
         Hello World
     </Button>
