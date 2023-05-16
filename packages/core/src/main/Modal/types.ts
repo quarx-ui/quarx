@@ -33,6 +33,14 @@ export interface ModalPropsWithoutHTML extends
     header?: HeaderBlockProps['children'];
 
     /** Тело модального окна */
+    children?: ReactNode;
+
+    /** Тело модального окна.
+     *
+     * **Deprecated:** Не использовать, произойдет переход на children
+     * @deprecated Не использовать, произойдет переход на children
+     *
+     */
     body?: ReactNode;
 
     /** Пропсы передаваемые напрямую компоненту ModalHeader */
