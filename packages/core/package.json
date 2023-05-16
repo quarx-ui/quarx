@@ -34,8 +34,8 @@
   "peerDependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "gitHead": "baae451910c5f79946136e5498a22c3cf1c18af7",
   "scripts": {
