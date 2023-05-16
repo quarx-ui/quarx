@@ -31,8 +31,9 @@ export const SecondModalStory: Story<ModalProps> = (props) => {
                 open={secondIsOpened}
                 onClose={() => setSecondIsOpened(false)}
                 {...props}
-                body={undefined}
-            />
+            >
+                {undefined}
+            </KitModal>
         </div>
     );
 };

@@ -24,6 +24,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
         footerDirection,
         header,
         body,
+        children,
         open = false,
         onClose,
         scrollBehaviour = MODAL_SCROLL_BEHAVIOR.window,
@@ -95,13 +96,13 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
                     >
                         {header}
                     </HeaderBlock>
-                    <If condition={!!body}>
+                    <If condition={Boolean(children) || Boolean(body)}>
                         <div
                             css={styles.body}
                             className={cn('body')}
                             ref={setBodyRef}
                         >
-                            {body}
+                            {children ?? body}
                         </div>
                     </If>
                     <FooterBlock
