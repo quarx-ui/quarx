@@ -1,9 +1,8 @@
 import { Story } from '@storybook/react/types-6-0';
-import { StoryDarkerContainer } from '@core/storybook/components';
+import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { PALETTE_COLORS } from '@core/styles';
 import { excludeProp } from '@core/storybook/templateParams';
 import { SelectionGroup } from '@core';
-import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { TemplateSelectionGroupProps, getTemplateChildren, useTemplateChildren } from '../utils';
 
 export const ColorsStory: Story<TemplateSelectionGroupProps> = (props) => {
@@ -11,21 +10,16 @@ export const ColorsStory: Story<TemplateSelectionGroupProps> = (props) => {
 
     return (
         <StoryDarkerContainer>
-            {DisplayVariants({
-                property: 'color',
-                containerAlign: 'flex-start',
-                values: Object.values(PALETTE_COLORS),
-                component: SelectionGroup,
-                componentProps: {
-                    ...props,
-                    color: PALETTE_COLORS.brand,
-                    children: getTemplateChildren({
-                        nodes,
-                        setNodes,
-                        ...props,
-                    }),
-                },
-            })}
+            <Row>
+                {Object.values(PALETTE_COLORS).map((value) => (
+                    <Column key={value}>
+                        <Title>{value}</Title>
+                        <SelectionGroup {...props} color={value}>
+                            {getTemplateChildren({ nodes, setNodes, ...props })}
+                        </SelectionGroup>
+                    </Column>
+                ))}
+            </Row>
         </StoryDarkerContainer>
     );
 };

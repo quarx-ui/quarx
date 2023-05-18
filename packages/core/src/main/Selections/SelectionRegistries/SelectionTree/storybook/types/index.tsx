@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
-import { StoryDarkerContainer } from '@core/storybook/components';
-import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { SelectionTree, SelectionTreeProps, SELECTION_GROUP_TYPE } from '@core';
 
 export const TypesStory: Story<SelectionTreeProps> = ({
@@ -13,17 +12,21 @@ export const TypesStory: Story<SelectionTreeProps> = ({
 
     return (
         <StoryDarkerContainer>
-            {DisplayVariants({
-                property: 'type',
-                containerAlign: 'flex-start',
-                values: Object.values(SELECTION_GROUP_TYPE),
-                component: SelectionTree,
-                componentProps: {
-                    ...props,
-                    nodes: selectionTree,
-                    onUpdate: setTree,
-                },
-            })}
+            <Row>
+                {Object.values(SELECTION_GROUP_TYPE).map((value) => (
+                    <Column key={value}>
+                        <Title>
+                            {value}
+                        </Title>
+                        <SelectionTree
+                            {...props}
+                            type={value}
+                            nodes={selectionTree}
+                            onUpdate={setTree}
+                        />
+                    </Column>
+                ))}
+            </Row>
         </StoryDarkerContainer>
     );
 };

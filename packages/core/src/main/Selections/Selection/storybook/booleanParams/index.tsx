@@ -1,10 +1,14 @@
 import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
-import { P } from '@storybook/components';
+import styled from '@emotion/styled';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { Selection, SelectionProps, useBooleanState, SELECTION_TYPE } from '@core';
 import { CONTROLLER_OPTIONS, Flex, getController, Padding, SelectionTemplateProps } from '../utils';
+
+const SPAN = styled('span')({
+    margin: 12,
+});
 
 const Booleans = ['reverse', 'disabled', 'disableFocus', 'hover'];
 export const BooleanParamsStory: Story<SelectionTemplateProps> = ({
@@ -16,9 +20,9 @@ export const BooleanParamsStory: Story<SelectionTemplateProps> = ({
         <StoryDarkerContainer>
             <Flex>
                 {Booleans.map((property) => (
-                    <Padding>
+                    <Padding key={property}>
                         <Flex key={property}>
-                            <P>{property}</P>
+                            <SPAN>{property}</SPAN>
                             {DisplayVariants<SelectionProps>({
                                 title: { isShown: false },
                                 property,
