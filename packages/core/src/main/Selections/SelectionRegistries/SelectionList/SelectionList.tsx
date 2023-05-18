@@ -102,7 +102,7 @@ export const SelectionList: FC<SelectionListProps> = forwardRef<HTMLDivElement, 
                     >
                         <CurrentController
                             {...node.controllerProps}
-                            checked={node.checked}
+                            checked={Boolean(node.checked)}
                             value={String(node.value)}
                         />
                     </Selection>

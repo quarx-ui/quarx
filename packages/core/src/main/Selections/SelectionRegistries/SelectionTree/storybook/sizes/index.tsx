@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { StoryDarkerContainer } from '@core/storybook/components';
-import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { excludeProp } from '@core/storybook/templateParams';
 import { QX_SIZE, SelectionTree, SelectionTreeProps } from '@core';
+
+const sizes = [QX_SIZE.small, QX_SIZE.medium, QX_SIZE.large];
 
 export const SizesStory: Story<SelectionTreeProps> = ({
     nodes,
@@ -13,17 +14,21 @@ export const SizesStory: Story<SelectionTreeProps> = ({
 
     return (
         <StoryDarkerContainer>
-            {DisplayVariants({
-                property: 'size',
-                containerAlign: 'flex-start',
-                values: [QX_SIZE.small, QX_SIZE.medium, QX_SIZE.large],
-                component: SelectionTree,
-                componentProps: {
-                    ...props,
-                    nodes: selectionTree,
-                    onUpdate: setTree,
-                },
-            })}
+            <Row>
+                {sizes.map((value) => (
+                    <Column key={value}>
+                        <Title>
+                            {value}
+                        </Title>
+                        <SelectionTree
+                            {...props}
+                            size={value}
+                            nodes={selectionTree}
+                            onUpdate={setTree}
+                        />
+                    </Column>
+                ))}
+            </Row>
         </StoryDarkerContainer>
     );
 };

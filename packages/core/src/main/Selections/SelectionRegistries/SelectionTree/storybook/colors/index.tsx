@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { StoryDarkerContainer } from '@core/storybook/components';
-import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { excludeProp } from '@core/storybook/templateParams';
 import { PALETTE_COLORS, SelectionTree, SelectionTreeProps } from '@core';
 
@@ -13,17 +12,21 @@ export const ColorsStory: Story<SelectionTreeProps> = ({
 
     return (
         <StoryDarkerContainer>
-            {DisplayVariants({
-                property: 'color',
-                containerAlign: 'flex-start',
-                values: Object.values(PALETTE_COLORS),
-                component: SelectionTree,
-                componentProps: {
-                    ...props,
-                    nodes: selectionTree,
-                    onUpdate: setTree,
-                },
-            })}
+            <Row>
+                {Object.values(PALETTE_COLORS).map((value) => (
+                    <Column key={value}>
+                        <Title>
+                            {value}
+                        </Title>
+                        <SelectionTree
+                            {...props}
+                            color={value}
+                            nodes={selectionTree}
+                            onUpdate={setTree}
+                        />
+                    </Column>
+                ))}
+            </Row>
         </StoryDarkerContainer>
     );
 };
