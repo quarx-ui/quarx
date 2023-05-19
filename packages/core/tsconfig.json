@@ -10,7 +10,7 @@
   ],
   "exclude": [
     "./build",
-    "./storybook",
+    "**/storybook",
     "**/*.test.tsx",
     "**/*.test.pw.ts",
     "**/*.test.ts",
