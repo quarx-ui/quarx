@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.0.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.0.1&targetBranch=@quarx-ui/core@2.0.0) (2023-05-19)
+
+
+### Bug Fixes
+
+* Исправлена типизация сборки ([f76cd5f](https://github.com/quarx-ui/quarx/commits/f76cd5f44e36b4dee4c550b3ad33efcec7237226))
+
+
+
 ## [2.0.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.0.0&targetBranch=@quarx-ui/core@1.2.2) (2023-05-16)
 
 
