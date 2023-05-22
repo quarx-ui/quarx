@@ -10,6 +10,7 @@ module.exports = {
         jest: true,
     },
     extends: [
+        'plugin:jest/recommended',
         'plugin:react/recommended',
         'plugin:json/recommended',
         'plugin:@typescript-eslint/recommended',
@@ -68,6 +69,7 @@ module.exports = {
         'react/jsx-indent-props': indent,
         curly: ['error', 'all'],
         '@typescript-eslint/indent': indent,
+        '@typescript-eslint/member-delimiter-style': ['error'],
         '@typescript-eslint/no-unused-vars': [
             'error',
             {
@@ -86,6 +88,12 @@ module.exports = {
         'react/jsx-props-no-spreading': 0,
         'no-use-before-define': 'off',
         'react/prop-types': 0,
-        '@typescript-eslint/consistent-type-exports': 2
+        '@typescript-eslint/consistent-type-exports': 2,
+        'jest/valid-title': ['warn', { ignoreTypeOfDescribeName: true }],
+        'jest/no-done-callback': ['warn'],
+        'jest/no-export': 0,
+        'react/jsx-uses-react': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'react/jsx-fragments': [2, 'element'],
     },
 };

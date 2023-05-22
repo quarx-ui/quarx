@@ -16,6 +16,7 @@ module.exports = {
         filename: 'bundle.js',
         chunkFilename: '[id].js',
         clean: true,
+        publicPath: '/',
     },
     resolve: {
         extensions: ['*', '.js', '.jsx', '.ts', '.tsx'],
@@ -42,6 +43,7 @@ module.exports = {
                 options: { presets: [
                     '@babel/env',
                     ['@babel/preset-react', { runtime: 'automatic' }],
+                    '@emotion/babel-preset-css-prop',
                     '@babel/preset-typescript',
                 ] },
             },
@@ -60,6 +62,7 @@ module.exports = {
             template: path.join(PATH_TO_PROJ, 'public/index.html'),
             filename: 'index.html',
             inject: 'body',
+            showErrors: true,
         }),
     ],
 };

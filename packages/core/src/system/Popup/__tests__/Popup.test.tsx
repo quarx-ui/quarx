@@ -2,6 +2,7 @@ import { testStyleParams } from '@core/test-utils';
 import {
     OmittedPopupStyleParams,
     Popup,
+    POPUP_PAPER_REFERENCE,
     PopupProps,
     PopupStyleParams,
 } from '@core';
@@ -16,7 +17,7 @@ class ResizeObserver {
 }
 
 describe('Popup tests', () => {
-    let root = null;
+    let root: null | HTMLDivElement = null;
     window.ResizeObserver = ResizeObserver;
 
     beforeEach(() => {
@@ -29,6 +30,7 @@ describe('Popup tests', () => {
         Popup,
         {
             disableBackdrop: false,
+            reference: POPUP_PAPER_REFERENCE.window,
         },
         {
             open: true,
@@ -39,6 +41,7 @@ describe('Popup tests', () => {
         },
     )({
         disableBackdrop: [false, true],
+        reference: Object.values(POPUP_PAPER_REFERENCE),
     });
 
     const TestChildren = 'Popup content';

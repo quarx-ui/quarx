@@ -1,5 +1,5 @@
 import InputMask from 'react-input-mask';
-import NumberFormat from 'react-number-format';
+import { PatternFormat } from 'react-number-format';
 import { Story } from '@storybook/react/types-6-0';
 import { TextFieldProps } from '@core/src/main/TextField/types';
 import { TextField } from '../..';
@@ -11,7 +11,7 @@ export const MasksStory: Story<TextFieldProps> = () => (
         <InputMask mask="9999 9999 9999 9999" maskChar="*">
             {(inputProp: TextFieldProps) => <TextField label="Text Field" {...inputProp} />}
         </InputMask>
-        <NumberFormat
+        <PatternFormat
             format="#### #### #### ####"
             mask="*"
             customInput={TextField}
@@ -31,8 +31,8 @@ import NumberFormat from 'react-number-format';
 
 <InputMask mask="9999 9999 9999 9999" maskChar="*">
     {(inputProp: TextFieldProps) => (
-        <TextField 
-            label="Text Field" 
+        <TextField
+            label="Text Field"
             {...inputProp}
         />
     )}

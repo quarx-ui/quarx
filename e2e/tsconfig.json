@@ -6,6 +6,7 @@
     "module": "commonjs",
     "allowJs": true,
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "declaration": true,
     "emitDeclarationOnly": false,
     "removeComments": true,

@@ -1,4 +1,5 @@
 import { ArgTypes } from '@storybook/react';
+import { Args } from '@storybook/api';
 
 export const hiddenDocsTab = {
     previewTabs: {
@@ -22,14 +23,14 @@ export const excludeProp = (props: Array<string>, defaultArgType?: ArgTypes): Ar
     return argTypes;
 };
 
-export const defineCategory = (category: string, defaultArgType: ArgTypes): ArgTypes => {
-    const argTypes: ArgTypes = {};
+export const defineCategory = <T = Args>(category: string, defaultArgType: Partial<ArgTypes<T>>): Partial<ArgTypes<T>> => {
+    const argTypes: Partial<ArgTypes<T>> = {};
 
     Object.keys(defaultArgType).forEach((property) => {
-        argTypes[property] = {
-            ...defaultArgType[property],
+        argTypes[property as keyof T] = {
+            ...defaultArgType[property as keyof T],
             table: {
-                ...defaultArgType[property].table,
+                ...defaultArgType[property as keyof T]?.table,
                 category,
             },
         };

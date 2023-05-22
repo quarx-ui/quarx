@@ -5,6 +5,7 @@ import * as pw from '@playwright/test';
 import { testComponentProps } from '@e2e/test-utils/testComponent';
 import { disableAnimations } from '@e2e/test-utils/disableAnimations';
 import { DEFAULT_GROUP_BY } from '@e2e/test-utils/initTest/constants';
+import { PALETTE_TYPE_ARR } from '@kit';
 import { InitTestReturned } from './types';
 import {
     getComponentCreator, getFrameCreator,
@@ -58,66 +59,74 @@ export const initTest = <Props = PropsType>(
         },
 
         test: (testName, callback) => {
-            pw.test.use(testConfig);
-            pw.test(testName, async ({
-                page,
-                headless,
-            }, testInfo) => {
-                if (isDisabledAnimations) { disableAnimations(page); }
-
-                const setComponent = setComponentCreator(page, component);
-                const getFrame = getFrameCreator(page);
-                const getInput = getInputCreator(page);
-                const getComponent = getComponentCreator(page, selector);
-                const waitTimeout = waitTimeoutCreator(page, configTimeout ?? 0);
-                const setProps = setPropsCreator<Props>(page);
-                const toMatchSnapshot = toMatchSnapshotCreator({
-                    ...commonOptions,
-                    selector,
-                    headless,
-                    testName,
-                    component,
-                    getComponent,
-                    waitTimeout,
-                });
-
-                const compareSnapshotsMap: TestProps<Props>['compareSnapshotsMap'] = (
-                    options,
-                ) => initCompareSnapshotsMap<Props>(component)({
-                    ...commonOptions,
-                    ...options,
-                    testParams: { page, headless },
-                    testName,
-                });
-
-                const compareSnapshots: TestProps<Props>['compareSnapshots'] = (
-                    options,
-                ) => initCompareSnapshots<Props>({
+            PALETTE_TYPE_ARR.forEach(async (themeType) => {
+                pw.test.use(testConfig);
+                pw.test(`${testName}_${themeType}`, async ({
                     page,
                     headless,
-                }, component)({
-                    ...commonOptions,
-                    ...options,
-                    testName,
+                }, testInfo) => {
+                    if (isDisabledAnimations) {
+                        disableAnimations(page);
+                    }
+
+                    const setComponent = setComponentCreator(page, component, themeType);
+                    const getFrame = getFrameCreator(page);
+                    const getInput = getInputCreator(page);
+                    const getComponent = getComponentCreator(page, selector);
+                    const waitTimeout = waitTimeoutCreator(page, configTimeout ?? 0);
+                    // const waitElementBool = waitElement(page, configTimeout ?? 0);
+                    const setProps = setPropsCreator<Props>(page);
+                    const toMatchSnapshot = toMatchSnapshotCreator({
+                        ...commonOptions,
+                        selector,
+                        headless,
+                        testName,
+                        component,
+                        getComponent,
+                        waitTimeout,
+                        themeType,
+                    });
+
+                    const compareSnapshotsMap: TestProps<Props>['compareSnapshotsMap'] = (
+                        options,
+                    ) => initCompareSnapshotsMap<Props>(component)({
+                        ...commonOptions,
+                        ...options,
+                        testParams: { page, headless },
+                        testName,
+                        themeType,
+                    });
+
+                    const compareSnapshots: TestProps<Props>['compareSnapshots'] = (
+                        options,
+                    ) => initCompareSnapshots<Props>({
+                        page,
+                        headless,
+                    }, component)({
+                        ...commonOptions,
+                        ...options,
+                        testName,
+                        themeType,
+                    });
+
+                    await callback({
+                        page,
+                        testName,
+
+                        setComponent,
+                        setProps,
+
+                        getComponent,
+                        getInput,
+                        getFrame,
+
+                        toMatchSnapshot,
+                        waitTimeout,
+
+                        compareSnapshotsMap,
+                        compareSnapshots,
+                    }, testInfo);
                 });
-
-                await callback({
-                    page,
-                    testName,
-
-                    setComponent,
-                    setProps,
-
-                    getComponent,
-                    getInput,
-                    getFrame,
-
-                    toMatchSnapshot,
-                    waitTimeout,
-
-                    compareSnapshotsMap,
-                    compareSnapshots,
-                }, testInfo);
             });
         },
     });

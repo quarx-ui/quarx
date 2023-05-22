@@ -1,5 +1,5 @@
 import {
-    ChangeEventHandler,
+    ChangeEventHandler, Component, FunctionComponent,
     ReactElement,
     ReactNode, Ref,
 } from 'react';
@@ -56,6 +56,9 @@ export interface BaseTextFieldProps extends
 
     /** Обработчик события изменения поля ввода */
     onChange?: ChangeEventHandler<TextFieldRefType>;
+
+    /** Кастомный компонент инпута */
+    CustomInput?: FunctionComponent<{ className?: string }>;
 }
 
 export interface TextFieldPropsWithoutHtml extends

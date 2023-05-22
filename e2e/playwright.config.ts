@@ -7,6 +7,7 @@ const config: PlaywrightTestConfig = {
     timeout: 60 * 1000,
     testDir: './',
     quiet: true,
+    workers: 3,
     projects: [
         {
             name: 'chromium',
@@ -39,6 +40,7 @@ const config: PlaywrightTestConfig = {
         baseURL,
     },
     testMatch: /.*test\.pw\.(js|ts)/,
+    outputDir: 'test-diff',
 };
 
 export default config;

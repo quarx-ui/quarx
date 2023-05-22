@@ -1,8 +1,12 @@
+import { ChangeEventHandler, useRef, useState } from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
-import { Popup } from '..';
+import { Story } from '@storybook/react/types-6-0';
+import { Button, TextField, TextFieldRefType, useBooleanState } from '@core';
+import { StoryDarkerContainer } from '@core/storybook/components';
 import { StorybookPopupProps } from './types';
+import { Popup } from '..';
 
 const defaultArgs: Partial<StorybookPopupProps> = {
     anchorYOffset: 0,
@@ -28,12 +32,24 @@ export default {
             open: { description: 'Видимость элемента ' },
             anchor: { description: 'Якорный элемент' },
             placement: { description: 'Расположение плавающего элемента ' },
+            modifiersOptions: { description: 'Параметры модификаторов плавающего элемента' },
+            customModifiers: { description: 'Пользовательские модификаторы координат плавающего элемента' },
             disableOffset: { description: 'Убрать отступ между floating и якорным элементами' },
-            disableFlip: { description: '' },
-            disableShift: { description: '' },
-            modifiersOptions: { description: '' },
-            customModifiers: { description: '' },
-            arrangement: { description: '' },
+            disableShift: { description: 'Отключение ограничения отрисовки только внутри видимой области' },
+            disableFlip: {
+                description: [
+                    'Отключение переворота при',
+                    'отсутствии свободного места',
+                    'для корректной отрисовки',
+                ].join(' '),
+            },
+            reference: {
+                description: [
+                    'Позиционирование контейнера.',
+                    'При relative необходимо указать position: relative,',
+                    'относительно которого будут отсчитываться координаты объекта',
+                ].join(' '),
+            },
 
             TransitionProps: { description: 'Анимация Paper' },
             disableTransition: { description: 'Отключение анимации Paper' },
@@ -58,4 +74,67 @@ export default {
     },
 };
 
-export { SandboxStory } from './sandbox';
+const Template: Story<StorybookPopupProps> = ({
+    anchorYOffset = 0,
+    anchorXOffset = 0,
+    ...props
+}) => {
+    const [text, setText] = useState<string>('');
+    const { state, setTrue, setFalse } = useBooleanState(false);
+    const anchor = useRef<HTMLButtonElement>(null);
+
+    const setValue: ChangeEventHandler<TextFieldRefType> = (event) => (
+        setText(event.target.value)
+    );
+
+    return (
+        <StoryDarkerContainer>
+            <div style={{ position: 'relative' }}>
+                <span>{text}</span>
+                <Button
+                    ref={anchor}
+                    type="outlined"
+                    onClick={setTrue}
+                    style={{
+                        marginTop: anchorYOffset,
+                        marginLeft: anchorXOffset,
+                    }}
+                >
+                    Показать
+                </Button>
+                <span style={{ display: 'block', marginTop: 8 }}>
+                    Для тестирования relative используйте disablePortal.
+                    Внешний div проставлен в position: relative
+                </span>
+                <Popup
+                    {...props}
+                    open={state}
+                    anchor={anchor}
+                    onClickAway={setFalse}
+                >
+                    <div
+                        css={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            width: 150,
+                            gap: 12,
+                        }}
+                    >
+                        <TextField
+                            value={text}
+                            onChange={setValue}
+                            css={{ width: '100%' }}
+                        />
+                        <Button onClick={setFalse}>
+                            Закрыть
+                        </Button>
+                    </div>
+                </Popup>
+            </div>
+        </StoryDarkerContainer>
+    );
+};
+
+export const Sandbox = Template;
+Sandbox.storyName = 'Компонент';
+Sandbox.args = defaultArgs;

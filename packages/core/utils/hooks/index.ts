@@ -8,3 +8,4 @@ export * from './useEnhancedEffect';
 export * from './useForkRef';
 export * from './useEventCallback';
 export * from './useTimer';
+export * from './useSystemTheme';

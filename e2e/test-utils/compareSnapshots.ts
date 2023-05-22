@@ -29,6 +29,7 @@ export function compareSnapshots<Props = PropsType>(
             groupBy = [],
             disableSnapIfHeaded = true,
             disableAnimations = true,
+            themeType,
         } = options;
 
         const screenName = typeof extScreenName === 'string'
@@ -38,9 +39,10 @@ export function compareSnapshots<Props = PropsType>(
                 postfix,
                 testName,
                 groupBy,
+                themeType,
             });
 
-        await page.goto(`/${component}`);
+        await page.goto(`/${themeType}/${component}`);
 
         const input = await page.locator(`#${INPUT_PROPS_ID}`);
         await input.fill(getStringFromProps(props));
@@ -103,6 +105,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             groupBy,
             disableSnapIfHeaded = true,
             disableAnimations = true,
+            themeType,
         } = options;
 
         const commonProps = {
@@ -114,6 +117,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             timeout,
             disableSnapIfHeaded,
             disableAnimations,
+            themeType,
         };
 
         await runSeriesComparisons<Props>({
@@ -124,6 +128,7 @@ export function compareSnapshotsMap<Props = PropsType>(component: ComponentsList
             testName,
             postfix,
             groupBy,
+            themeType,
         });
     };
 }

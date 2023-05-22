@@ -2,6 +2,7 @@
   "name": "e2e",
   "version": "0.0.1",
   "private": true,
+  "homepage": "/",
   "scripts": {
     "e2e:serve": "webpack-dev-server",
     "e2e:serve:o": "OPEN_IN_BROWSER=true webpack-dev-server",
@@ -10,6 +11,7 @@
     "e2e:build": "cd .. && yarn run build && cd e2e && mkdir -p builds && yarn run e2e:build:kit && yarn run e2e:build:icons",
     "e2e:run": "yarn run e2e:build && yarn run e2e:serve",
     "test:init": "npx playwright install",
+    "deleteSnaps": "find ./ -type d -name \"*-snapshots\" -exec rm  -rf {} \\;",
     "test": "npx playwright test",
     "test:u": "yarn run test --update-snapshots",
     "test:chrome": "yarn run test --project=chromium",
@@ -17,10 +19,12 @@
     "test:webkit": "yarn run test --project=webkit"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "11.11.0",
+    "@playwright/test": "^1.19.2",
+    "@typescript-eslint/parser": "5.59.6",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4",
-    "html-webpack-plugin": "^5.5.0",
-    "@playwright/test": "^1.19.2"
+    "webpack-dev-server": "^4.7.4"
   }
 }
