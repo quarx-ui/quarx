@@ -24,11 +24,11 @@ exports[`SidePage keepMounted sidePage always in the document 1`] = `
   >
     <div
       aria-hidden="true"
-      class="QxBackdrop css-1tawtan-QxBackdrop-root-QxBackdrop-root"
+      class="QxBackdrop css-s2jrcg-QxBackdrop-root-QxBackdrop-root"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer QxSidePage-scrollContainer css-11verkr-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer"
+      class="QxModal-scrollContainer QxSidePage-scrollContainer css-1i0aqxr-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer"
       data-component="QxOverScreen-child"
     >
       <div
@@ -108,11 +108,11 @@ exports[`SidePage keepMounted sidePage always in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root enter-active"
+      class="QxBackdrop css-lak5sv-QxBackdrop-root-QxBackdrop-root enter-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer QxSidePage-scrollContainer css-cpzznw-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer enter-active"
+      class="QxModal-scrollContainer QxSidePage-scrollContainer css-zezqa0-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer enter-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -209,11 +209,11 @@ exports[`SidePage sidePage in the document 2`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-lak5sv-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer QxSidePage-scrollContainer css-cpzznw-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer QxSidePage-scrollContainer css-zezqa0-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -321,11 +321,11 @@ exports[`SidePage style params size medium 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-lak5sv-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer QxSidePage-scrollContainer css-cpzznw-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer QxSidePage-scrollContainer css-zezqa0-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div
@@ -389,11 +389,11 @@ exports[`SidePage style params size small 1`] = `
   >
     <div
       aria-hidden="false"
-      class="QxBackdrop css-7rv0do-QxBackdrop-root-QxBackdrop-root appear-active"
+      class="QxBackdrop css-lak5sv-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
     />
     <div
-      class="QxModal-scrollContainer QxSidePage-scrollContainer css-cpzznw-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer appear-active"
+      class="QxModal-scrollContainer QxSidePage-scrollContainer css-zezqa0-QxSidePage-scrollContainer-QxModal-scrollContainer-QxSidePage-scrollContainer-QxModal-scrollContainer appear-active"
       data-component="QxOverScreen-child"
     >
       <div

@@ -1,4 +1,4 @@
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Fragment } from 'react';
 import { CSSInterpolation } from '@emotion/serialize';
 import clsx from 'clsx';
