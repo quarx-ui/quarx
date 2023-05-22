@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.0.2](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.0.2&targetBranch=@quarx-ui/core@2.0.0) (2023-05-22)
+
+
+### Bug Fixes
+
+* Исправлен импорт `jsx` из emotion ([eaa2c21](https://github.com/quarx-ui/quarx/commits/eaa2c2153af501ae987a0f31416158d11595eaeb))
+* Исправлена типизация сборки ([f76cd5f](https://github.com/quarx-ui/quarx/commits/f76cd5f44e36b4dee4c550b3ad33efcec7237226))
+
+
+
 ### [2.0.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.0.1&targetBranch=@quarx-ui/core@2.0.0) (2023-05-19)
 
 
