@@ -49,7 +49,7 @@ export interface TextFieldDatePickerProps<D extends SelectedDates = PickerSelect
     useExperimentalDateFieldValidation?: boolean;
 
     /** Разделить поле ввода периода на два TextField
-     * @default true */
+     * @default false */
     splittedPeriod?: boolean;
 
     /** Props для TextField начала периода в splittedPeriod  */

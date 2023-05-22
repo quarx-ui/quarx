@@ -1,6 +1,6 @@
 import { KeysFromUseStyles, makeStyles } from '@core';
 import { useMemo } from 'react';
-import { MONTH_TYPOGRAPHY, OFFSET_DAYS, DATE_PICKER_DAY_SIZE_PX, OFFSET_MONTH_BLOCK } from '../../utils';
+import { MONTH_TYPOGRAPHY, OFFSET_DAYS, DATE_PICKER_DAY_SIZE_PX, OFFSET_MONTH_BLOCK, WIDTH_BY_SIZE } from '../../utils';
 import { DropdownDatePickerStyleParams } from './types';
 
 export const useStyles = makeStyles(({ palette }, { size, countWeeksInMonth }: Required<DropdownDatePickerStyleParams>) => {
@@ -15,7 +15,7 @@ export const useStyles = makeStyles(({ palette }, { size, countWeeksInMonth }: R
             flexDirection: 'column',
             height: (countWeeksInMonth + 1) * sizeDay + countWeeksInMonth * OFFSET_DAYS[size]
                 + OFFSET_MONTH_BLOCK[size] * 2,
-            width: '100%',
+            width: WIDTH_BY_SIZE(size),
             zIndex: 100,
             overflow: 'auto',
             /* This is the magic bit for Firefox */

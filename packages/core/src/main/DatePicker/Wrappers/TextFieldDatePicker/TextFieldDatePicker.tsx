@@ -10,7 +10,6 @@ import { PopupDatePicker } from '@core/src/main/DatePicker/Wrappers/PopupDatePic
 import { FocusEventHandler, MouseEventHandler, Ref, useEffect, useMemo, useRef, useState } from 'react';
 import { PopupDatePickerProps } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker/types';
 import { ACTIVE_FIELD_TYPE, ActiveFieldType } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/constants';
-import { isEqual } from 'lodash';
 import { ErrorsFromInput, TextFieldDatePickerProps } from './types';
 import { changeSelectedByValue } from './utils';
 import { DateField } from '../..';
@@ -23,7 +22,7 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
     const anchor = useRef<HTMLDivElement>(null);
     const { selected, open = false, withTime = false, onChange, viewingDate: initialViewingDate,
         errorText: externalErrorText, texts, allowedDates,
-        textFieldProps, useExperimentalDateFieldValidation = false, splittedPeriod = true,
+        textFieldProps, useExperimentalDateFieldValidation = false, splittedPeriod = false,
         popupDatePickerStyles, popupDatePickerClasses,
         ...popupDatePickerProps } = props;
 
@@ -69,6 +68,7 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
     };
 
     const onChangeWithTextFieldChanging: PopupDatePickerProps<D>['onChange'] = (dates) => {
+        console.log(dates);
         onChange(dates);
     };
 
@@ -142,7 +142,7 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
                     {...textFieldProps}
                     onClick={onTextFieldClick}
                     onChange={onDateFieldChange}
-                    getInputRef={anchor}
+                    ref={anchor}
                     value={selected}
                     isSingleDate={isPickerType}
                     withTime={withTime}

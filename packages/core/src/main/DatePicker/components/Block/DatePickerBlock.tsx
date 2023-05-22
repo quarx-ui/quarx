@@ -6,7 +6,6 @@ import {
 } from '@core';
 import { forwardRef } from '@core/utils';
 import { addMonths, getWeeksInMonth } from 'date-fns';
-import { type } from '@testing-library/user-event/dist/type';
 import { DatePickerRightSection } from './components/DatePickerRightSection';
 import { LastEditedDateType, TIMES_TO_TIME_BADGES, useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
@@ -23,10 +22,11 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
         onChange, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
         selected, allowedDates, viewingDate: externalViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
-        disableYearChanging, useTimeBadges = true, timesToTimeBadges = TIMES_TO_TIME_BADGES,
-        editablePartOfPeriod: externalEditablePartOfPeriod,
-        onChangeEditablePartOfPeriod: externalOnChangeEditablePartOfPeriod,
-        disableDefaultPeriodFlowChanging, ...restProps
+        disableYearChanging, useTimeBadges = false, timesToTimeBadges = TIMES_TO_TIME_BADGES,
+        // editablePartOfPeriod: externalEditablePartOfPeriod,
+        // onChangeEditablePartOfPeriod: externalOnChangeEditablePartOfPeriod,
+        // disableDefaultPeriodFlowChanging,
+        ...restProps
     } = props;
 
     const isLarge = useMemo(() => display === DATE_PICKER_DISPLAY_TYPES.DOUBLE, [display]);
@@ -76,7 +76,6 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
     }, [externalViewingDate]);
 
     const commonMonthBlockProps = {
-        type,
         selected: dates,
         onChange: onSelectDay,
         styles: innerStyles?.monthBlock,
