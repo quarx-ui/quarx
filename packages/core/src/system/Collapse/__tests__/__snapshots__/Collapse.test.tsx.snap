@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse default layout 1`] = `
+<DocumentFragment>
+  <div
+    class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
+  >
+    <div
+      class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
+    >
+      Traffic jams
+    </div>
+  </div>
+</DocumentFragment>
+`;

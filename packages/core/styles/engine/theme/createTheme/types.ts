@@ -7,6 +7,7 @@ import {
     ButtonProps,
     CheckboxProps,
     ChipsProps,
+    CollapseProps,
     CounterProps,
     CreateBreakpointsArg,
     CreateElevationArg,
@@ -64,6 +65,7 @@ export interface ComponentsProps {
     Button: ButtonProps;
     Checkbox: CheckboxProps;
     Chips: ChipsProps;
+    Collapse: CollapseProps;
     Counter: CounterProps;
     Dialog: SidePageProps;
     Divider: DividerProps;
