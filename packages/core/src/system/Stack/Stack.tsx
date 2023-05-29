@@ -1,9 +1,9 @@
-import { Children, ElementType, forwardRef, Fragment, ReactChild } from 'react';
+import { Children, ElementType, forwardRef, Fragment } from 'react';
 import { OverridableComponent, OverridableComponentRef } from '@core/types';
 import { usePropsOverwrites } from '@core/styles';
 import { addCssToElement } from '@core/utils';
 import { If } from '../If';
-import { StackProps, StackPropsWithoutHtml } from './types';
+import { StackChild, StackProps, StackPropsWithoutHtml } from './types';
 import { STACK_CSS_VARS, useStyles } from './styles';
 import { CHILD_TYPE, ChildType, STACK_DIRECTION, STACK_ORDER } from './styles/constants';
 
@@ -41,19 +41,48 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
 
     const styles = useStyles({ params, ...styleProps });
 
-    const renderChild = (child: ReactChild, type: ChildType, key: number | string) => (
-        typeof child === 'object'
-            ? addCssToElement(
-                { ...child, key: child.key ?? key },
-                styles[type],
-                { prepend: true, addClassName: cn(type) },
-            )
-            : (
-                <div key={key} css={styles[type]} className={cn(type)}>
-                    {child}
-                </div>
-            )
-    );
+    const renderChild = (child: StackChild, type: ChildType, key: number | string) => {
+        if (!child) { return null; }
+
+        return (
+            typeof child === 'object'
+                ? addCssToElement(
+                    {
+                        ...child,
+                        key: child.key ?? key,
+                    },
+                    styles[type],
+                    {
+                        prepend: true,
+                        addClassName: cn(type),
+                    },
+                )
+                : (
+                    <div key={key} css={styles[type]} className={cn(type)}>
+                        {child}
+                    </div>
+                )
+        );
+    };
+
+    const renderChildren = () => {
+        if (!children) { return null; }
+
+        if (Array.isArray(children)) {
+            return Children.map(children, (child, i) => (
+                divider && i < children.length - 1
+                    ? (
+                        <Fragment>
+                            {renderChild(child, CHILD_TYPE.item, i)}
+                            {renderChild(divider, CHILD_TYPE.divider, `divider-${i}`)}
+                        </Fragment>
+                    )
+                    : renderChild(child, CHILD_TYPE.item, i)
+            ));
+        }
+
+        return children;
+    };
 
     return (
         <If condition={!hidden}>
@@ -63,16 +92,7 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
                 css={styles.root}
                 {...restProps}
             >
-                {Children.map(children, (child, i) => (
-                    divider && i < children.length - 1
-                        ? (
-                            <Fragment>
-                                {renderChild(child, CHILD_TYPE.item, i)}
-                                {renderChild(divider, CHILD_TYPE.divider, `divider-${i}`)}
-                            </Fragment>
-                        )
-                        : renderChild(child, CHILD_TYPE.item, i)
-                ))}
+                {renderChildren()}
             </Component>
         </If>
     );
