@@ -65,7 +65,6 @@ export const useStyles = makeStyles((
         stack: {
             boxSizing: 'border-box',
             padding: 4,
-            height: limiter,
             maxHeight: limiter,
             overflowY: 'auto',
             backgroundColor: palette.background.main,
