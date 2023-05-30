@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import {
-    DropdownItem,
+    DropdownItem as QxDropdownItem,
     DropdownItemProps,
     DropdownItemsGroupSize,
     useBooleanState,
 } from '@core';
 
-const DropdownItemTemplate: FC<DropdownItemProps> = ({
+const DropdownItem: FC<DropdownItemProps> = ({
     size,
     title,
     ...props
@@ -16,7 +16,7 @@ const DropdownItemTemplate: FC<DropdownItemProps> = ({
         setOppositeState,
     } = useBooleanState(false);
     return (
-        <DropdownItem
+        <QxDropdownItem
             size={size}
             state={state}
             onChange={setOppositeState}
@@ -27,11 +27,11 @@ const DropdownItemTemplate: FC<DropdownItemProps> = ({
 };
 
 export const createTemplateChildren = (size: DropdownItemsGroupSize) => [
-    <DropdownItemTemplate size={size} title="SuperDelivery" />,
-    <DropdownItemTemplate size={size} title="MegaDelivery" />,
-    <DropdownItemTemplate size={size} title="TeraDelivery" />,
-    <DropdownItemTemplate size={size} title="UltraDelivery" />,
-    <DropdownItemTemplate size={size} title="Delivery+" />,
-    <DropdownItemTemplate size={size} title="DeliveryPro" />,
-    <DropdownItemTemplate size={size} title="DeliveryMax" />,
+    <DropdownItem size={size} title="SuperDelivery" />,
+    <DropdownItem size={size} title="MegaDelivery" />,
+    <DropdownItem size={size} title="TeraDelivery" />,
+    <DropdownItem size={size} title="UltraDelivery" />,
+    <DropdownItem size={size} title="Delivery+" />,
+    <DropdownItem size={size} title="DeliveryPro" />,
+    <DropdownItem size={size} title="DeliveryMax" />,
 ];

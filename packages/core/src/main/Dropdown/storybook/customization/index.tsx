@@ -123,5 +123,5 @@ export const CustomizationStory: Story<DropdownProps> = (props) => {
         </Stack>
     );
 };
-CustomizationStory.storyName = 'Пользовательский настройки';
+CustomizationStory.storyName = 'Пользовательские настройки';
 CustomizationStory.argTypes = excludeProp(['header', 'children', 'footer']);

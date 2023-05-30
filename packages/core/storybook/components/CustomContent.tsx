@@ -42,8 +42,7 @@ export const CustomContent: FC = () => {
                 Кастомизация контента
             </span>
             <span css={styles.description}>
-                Сделай Detach всего блока или замени
-                этот элемент  на свой
+                Замени на свой компонент
             </span>
         </div>
     );
