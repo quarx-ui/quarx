@@ -9,13 +9,13 @@ export const defaultArgs: Partial<StackProps> = {
     justifyContent: 'flex-start',
     alignItems: 'stretch',
     children: [
-        <Button borderRadius="small" type="outlined">
+        <Button key="submit" borderRadius="small" type="outlined">
             Отправить
         </Button>,
-        <Button borderRadius="small" type="outlined" color="secondary">
+        <Button key="edit" borderRadius="small" type="outlined" color="secondary">
             Редактировать
         </Button>,
-        <Button borderRadius="small" type="outlined" color="danger">
+        <Button key="remove" borderRadius="small" type="outlined" color="danger">
             Удалить
         </Button>,
     ],

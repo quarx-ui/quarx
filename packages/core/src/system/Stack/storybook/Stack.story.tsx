@@ -17,7 +17,7 @@ export default {
             },
         },
         divider: {
-            control: false,
+            control: 'boolean',
         },
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
         children: {

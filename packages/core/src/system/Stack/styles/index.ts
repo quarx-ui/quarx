@@ -24,15 +24,8 @@ export const useStyles = makeStyles((
                     : direction,
             justifyContent,
             alignItems,
-        },
-        item: {
-            '&:not(:last-child)': {
-                [offsetProperty]: cssVar(cssSpacing),
-            },
-        },
-        divider: {
-            alignSelf: 'center',
-            '&:not(:last-child)': {
+
+            '& > :not(:last-child)': {
                 [offsetProperty]: cssVar(cssSpacing),
             },
         },

@@ -1,11 +1,11 @@
-import { Children, ElementType, forwardRef, Fragment } from 'react';
+import { ElementType, forwardRef } from 'react';
 import { OverridableComponent, OverridableComponentRef } from '@core/types';
 import { usePropsOverwrites } from '@core/styles';
-import { addCssToElement } from '@core/utils';
 import { If } from '../If';
-import { StackChild, StackProps, StackPropsWithoutHtml } from './types';
+import { StackProps, StackPropsWithoutHtml } from './types';
 import { STACK_CSS_VARS, useStyles } from './styles';
-import { CHILD_TYPE, ChildType, STACK_DIRECTION, STACK_ORDER } from './styles/constants';
+import { STACK_DIRECTION, STACK_ORDER } from './styles/constants';
+import { addDividerToChildren } from './helpers';
 
 /** Контейнер для позиционирования элементов, расположенных на одной оси с равными отступами */
 export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forwardRef(<C extends ElementType = 'div'>(
@@ -41,49 +41,6 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
 
     const styles = useStyles({ params, ...styleProps });
 
-    const renderChild = (child: StackChild, type: ChildType, key: number | string) => {
-        if (!child) { return null; }
-
-        return (
-            typeof child === 'object'
-                ? addCssToElement(
-                    {
-                        ...child,
-                        key: child.key ?? key,
-                    },
-                    styles[type],
-                    {
-                        prepend: true,
-                        addClassName: cn(type),
-                    },
-                )
-                : (
-                    <div key={key} css={styles[type]} className={cn(type)}>
-                        {child}
-                    </div>
-                )
-        );
-    };
-
-    const renderChildren = () => {
-        if (!children) { return null; }
-
-        if (Array.isArray(children)) {
-            return Children.map(children, (child, i) => (
-                divider && i < children.length - 1
-                    ? (
-                        <Fragment>
-                            {renderChild(child, CHILD_TYPE.item, i)}
-                            {renderChild(divider, CHILD_TYPE.divider, `divider-${i}`)}
-                        </Fragment>
-                    )
-                    : renderChild(child, CHILD_TYPE.item, i)
-            ));
-        }
-
-        return children;
-    };
-
     return (
         <If condition={!hidden}>
             <Component
@@ -92,7 +49,9 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
                 css={styles.root}
                 {...restProps}
             >
-                {renderChildren()}
+                {divider
+                    ? addDividerToChildren(children, divider, direction)
+                    : children}
             </Component>
         </If>
     );
