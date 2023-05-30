@@ -15,6 +15,9 @@ import {
     CustomTheme,
     DeepPartial,
     DividerProps,
+    DropdownItemProps,
+    DropdownItemsGroupProps,
+    DropdownProps,
     Elevations,
     FooterBlockProps,
     HeaderBlockProps,
@@ -64,6 +67,9 @@ export interface ComponentsProps {
     Counter: CounterProps;
     Dialog: SidePageProps;
     Divider: DividerProps;
+    Dropdown: DropdownProps;
+    DropdownItem: DropdownItemProps;
+    DropdownItemsGroup: DropdownItemsGroupProps;
     FooterBlock: FooterBlockProps;
     HeaderBlock: HeaderBlockProps;
     IconButton: IconButtonProps;

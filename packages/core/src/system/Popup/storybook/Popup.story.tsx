@@ -28,12 +28,24 @@ export default {
             open: { description: 'Видимость элемента ' },
             anchor: { description: 'Якорный элемент' },
             placement: { description: 'Расположение плавающего элемента ' },
+            modifiersOptions: { description: 'Параметры модификаторов плавающего элемента' },
+            customModifiers: { description: 'Пользовательские модификаторы координат плавающего элемента' },
             disableOffset: { description: 'Убрать отступ между floating и якорным элементами' },
-            disableFlip: { description: '' },
-            disableShift: { description: '' },
-            modifiersOptions: { description: '' },
-            customModifiers: { description: '' },
-            arrangement: { description: '' },
+            disableShift: { description: 'Отключение ограничения отрисовки только внутри видимой области' },
+            disableFlip: {
+                description: [
+                    'Отключение переворота при',
+                    'отсутствии свободного места',
+                    'для корректной отрисовки',
+                ].join(' '),
+            },
+            reference: {
+                description: [
+                    'Позиционирование контейнера.',
+                    'При relative необходимо указать position: relative,',
+                    'относительно которого будут отсчитываться координаты объекта',
+                ].join(' '),
+            },
 
             TransitionProps: { description: 'Анимация Paper' },
             disableTransition: { description: 'Отключение анимации Paper' },

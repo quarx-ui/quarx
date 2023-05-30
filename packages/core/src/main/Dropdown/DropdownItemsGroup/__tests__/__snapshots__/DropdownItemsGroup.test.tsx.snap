@@ -1,0 +1,2896 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownItemsGroup Default snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-dgtnn0-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params limiter 50 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_50 css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-limiter-50"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1gn3vgb-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params limiter 75 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_75 css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-limiter-75"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-12qo2z0-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params limiter 100 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_100 css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-limiter-100"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-e4f668-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-limiter-Infinity"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-dgtnn0-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_large QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-sr3gd9-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-dgtnn0-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-dgtnn0-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DropdownItemsGroup style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_small QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <span
+      class="QxDropdownItemsGroup-title css-15i42sf-QxDropdownItemsGroup-title"
+    >
+      Title
+    </span>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-dgtnn0-QxStack-root-QxDropdownItemsGroup-stack"
+    >
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                SuperDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                MegaDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                TeraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                UltraDelivery
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                Delivery+
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryPro
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+      <button
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+        >
+          <div
+            class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+          >
+            <div
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+            >
+              <span
+                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+              >
+                DeliveryMax
+              </span>
+              <span
+                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+              />
+            </div>
+          </div>
+          <div
+            class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+          >
+            <svg
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-rule="evenodd"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+                fill-opacity="0.64"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
