@@ -1,8 +1,8 @@
-import { cloneElement, Ref, useCallback, useMemo, useRef } from 'react';
+import { Ref, useCallback, useMemo, useRef } from 'react';
 import { CSSTransition as ReactCssTransition, TransitionStatus } from 'react-transition-group';
-import { addCssToElement, forwardRef, mergeRefs, useTheme } from '@core';
+import { cloneElementWithCss, forwardRef, mergeRefs, useTheme } from '@core';
 import { defaultMapStatusToStyles, defaultStyles } from './constants';
-import { TransitionProps, Options, TransitionCallback } from './types';
+import { Options, TransitionCallback, TransitionProps } from './types';
 import { getTransitionProps, mapIsObject, styleIsObject } from './helpers';
 
 export const Transition = forwardRef(<Props extends object, T extends HTMLElement = HTMLDivElement>(
@@ -115,22 +115,20 @@ export const Transition = forwardRef(<Props extends object, T extends HTMLElemen
     }
 
     const renderElement = (status: TransitionStatus) => {
-        const clonedElement = cloneElement(
-            children, {
-                ...childrenProps,
-                ...children.props,
-                ref: mergeRefs(children.ref, ref, nodeRef),
-            },
-        );
-
         const elementCss = [
             styles,
             resolvedMapStyles[status],
             { transition: transition.current },
-            children.props.css,
         ];
 
-        return addCssToElement(clonedElement, elementCss);
+        const elementProps = {
+            ...childrenProps,
+            ...children.props,
+            ref: mergeRefs(children.ref, ref, nodeRef),
+            css: elementCss,
+        };
+
+        return cloneElementWithCss(children, elementProps);
     };
 
     return (

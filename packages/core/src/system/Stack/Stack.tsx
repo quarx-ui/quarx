@@ -1,7 +1,7 @@
 import { Children, ElementType, forwardRef, Fragment } from 'react';
 import { OverridableComponent, OverridableComponentRef } from '@core/types';
 import { usePropsOverwrites } from '@core/styles';
-import { addCssToElement } from '@core/utils';
+import { cloneElementWithCss } from '@core/utils';
 import { If } from '../If';
 import { StackChild, StackProps, StackPropsWithoutHtml } from './types';
 import { STACK_CSS_VARS, useStyles } from './styles';
@@ -46,15 +46,15 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
 
         return (
             typeof child === 'object'
-                ? addCssToElement(
+                ? cloneElementWithCss(
+                    child,
                     {
-                        ...child,
                         key: child.key ?? key,
+                        css: styles[type],
+                        className: cn(type),
                     },
-                    styles[type],
                     {
                         prepend: true,
-                        addClassName: cn(type),
                     },
                 )
                 : (
