@@ -11,10 +11,10 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1yoi26f-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -25,15 +25,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -74,15 +74,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -112,7 +112,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -123,15 +123,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -161,7 +161,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -172,15 +172,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -210,7 +210,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -221,15 +221,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -259,7 +259,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -270,15 +270,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -308,7 +308,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -319,15 +319,15 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -373,10 +373,10 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-et8y7r-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-4jd5lw-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -387,15 +387,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -425,7 +425,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -436,15 +436,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -474,7 +474,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -485,15 +485,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -523,7 +523,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -534,15 +534,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -572,7 +572,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -583,15 +583,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -621,7 +621,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -632,15 +632,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -670,7 +670,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -681,15 +681,15 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -735,10 +735,10 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1ccxwo9-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-14hra9l-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -749,15 +749,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -787,7 +787,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -798,15 +798,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -836,7 +836,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -847,15 +847,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -885,7 +885,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -896,15 +896,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -934,7 +934,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -945,15 +945,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -983,7 +983,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -994,15 +994,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1032,7 +1032,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1043,15 +1043,15 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1097,10 +1097,10 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1wqlpdd-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1sjirn2-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1111,15 +1111,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1149,7 +1149,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1160,15 +1160,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1198,7 +1198,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1209,15 +1209,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1247,7 +1247,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1258,15 +1258,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1296,7 +1296,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1307,15 +1307,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1345,7 +1345,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1356,15 +1356,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1394,7 +1394,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1405,15 +1405,15 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1459,10 +1459,10 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1yoi26f-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1473,15 +1473,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1511,7 +1511,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1522,15 +1522,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1560,7 +1560,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1571,15 +1571,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1609,7 +1609,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1620,15 +1620,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1658,7 +1658,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1669,15 +1669,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1707,7 +1707,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1718,15 +1718,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1756,7 +1756,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1767,15 +1767,15 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1821,10 +1821,10 @@ exports[`DropdownItemsGroup style params size large 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1yoi26f-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1835,15 +1835,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1873,7 +1873,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1884,15 +1884,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1922,7 +1922,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1933,15 +1933,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -1971,7 +1971,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1982,15 +1982,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2020,7 +2020,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2031,15 +2031,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2069,7 +2069,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2080,15 +2080,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2118,7 +2118,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2129,15 +2129,15 @@ exports[`DropdownItemsGroup style params size large 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2183,10 +2183,10 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1yoi26f-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2197,15 +2197,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2235,7 +2235,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2246,15 +2246,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2284,7 +2284,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2295,15 +2295,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2333,7 +2333,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2344,15 +2344,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2382,7 +2382,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2393,15 +2393,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2431,7 +2431,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2442,15 +2442,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2480,7 +2480,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2491,15 +2491,15 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2545,10 +2545,10 @@ exports[`DropdownItemsGroup style params size small 1`] = `
       Title
     </span>
     <div
-      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1yoi26f-QxStack-root-QxDropdownItemsGroup-stack"
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2559,15 +2559,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 SuperDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2597,7 +2597,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2608,15 +2608,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 MegaDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2646,7 +2646,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2657,15 +2657,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 TeraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2695,7 +2695,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2706,15 +2706,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 UltraDelivery
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2744,7 +2744,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2755,15 +2755,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 Delivery+
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2793,7 +2793,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2804,15 +2804,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryPro
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>
@@ -2842,7 +2842,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxStack-item css-9z4b59-QxDropdownItem-root-QxStack-item"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2853,15 +2853,15 @@ exports[`DropdownItemsGroup style params size small 1`] = `
             class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
           >
             <div
-              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1orm5hv-QxStack-root-QxDropdownItem-texts"
+              class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_flex-start QxStack_spacing_0 QxDropdownItem-texts css-1dhr0ah-QxStack-root-QxDropdownItem-texts"
             >
               <span
-                class="QxDropdownItem-title QxStack-item css-48it6p-QxStack-item-QxDropdownItem-title"
+                class="QxDropdownItem-title css-1c27r83-QxDropdownItem-title"
               >
                 DeliveryMax
               </span>
               <span
-                class="QxDropdownItem-description QxStack-item css-1ozhtco-QxStack-item-QxDropdownItem-description"
+                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
               />
             </div>
           </div>

@@ -7,6 +7,11 @@ import description from './description.md';
 
 export const WithDividerStory: Story<StackProps> = (props) => (
     <Stack>
+        <Stack {...props} direction="row" divider>
+            <div>Главная</div>
+            <div>Профиль</div>
+            <div>Настройки</div>
+        </Stack>
         <Stack {...props} direction="row" divider="•">
             <div>Главная</div>
             <div>Профиль</div>

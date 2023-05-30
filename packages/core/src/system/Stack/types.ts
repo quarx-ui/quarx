@@ -10,7 +10,7 @@ export interface StackPropsWithoutHtml extends
     WithClassesAndStyles<StackStyleKeys, StackStyleParams, StackCSSVarKeys>
 {
     /** Разделитель, располагаемый между элементами контейнера */
-    divider?: ReactChild;
+    divider?: ReactChild | boolean;
 
     children: StackChild | Array<StackChild>;
 }
