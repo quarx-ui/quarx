@@ -16,6 +16,7 @@ import { Modal } from './main/Modal';
 import { Tabs } from './main/Tabs';
 import { Link } from './main/Link';
 import { SidePage } from './main/SidePage';
+import { Collapse } from './system/Collapse';
 
 type ComponentsListTypes = keyof ComponentsProps
 type ComponentsType = Partial<Record<ComponentsListTypes, ReactNode>>
@@ -35,6 +36,7 @@ export const COMPONENTS: ComponentsType = {
     Tabs,
     TextField,
     SidePage,
+    Collapse,
 } as const;
 
 export const PATHS = valuesAsKeysFromArray(Object.keys(COMPONENTS)) as PathTypes;

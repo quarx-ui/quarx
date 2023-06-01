@@ -51,12 +51,12 @@ export function injectCommonProps<Props = PropsType>(
 }
 
 export interface RunSeriesComparisonsOptions<Props = PropsType> extends Pick<BaseProps, 'groupBy'> {
-    testParams: TestParams,
-    component: ComponentsListTypes,
-    targetProps: PropsArray<Props>,
-    commonProps: ExtendedPropsType<Props>,
-    testName: string,
-    postfix?: string,
+    testParams: TestParams;
+    component: ComponentsListTypes;
+    targetProps: PropsArray<Props>;
+    commonProps: ExtendedPropsType<Props>;
+    testName: string;
+    postfix?: string;
 }
 
 export async function runSeriesComparisons<Props = PropsType>(options: RunSeriesComparisonsOptions<Props>) {

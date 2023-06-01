@@ -1,5 +1,6 @@
 export * from './Backdrop';
 export * from './ClickAwayListener';
+export * from './Collapse';
 export * from './DelayedMounter';
 export * from './Divider';
 export * from './FooterBlock';
