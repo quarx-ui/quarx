@@ -39,7 +39,7 @@ export const StoryUtilButton: FC<StoryUtilButtonProps> = ({
     onClick,
     color = PALETTE_COLORS.brand,
 }) => {
-    const { state: isClicked, setState: setClicked } = useBooleanState(false);
+    const [isClicked, { setState: setClicked }] = useBooleanState(false);
     const styles = useStyles({ params: { isClicked } });
 
     const pointerDownHandler = () => setClicked(true);

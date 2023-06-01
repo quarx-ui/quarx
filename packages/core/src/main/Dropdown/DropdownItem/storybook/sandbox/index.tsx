@@ -5,11 +5,11 @@ export const SandboxStory: Story<DropdownItemProps> = ({
     state: externalState = false,
     ...props
 }) => {
-    const { state, setOppositeState } = useBooleanState(externalState);
+    const [state, { toggleState }] = useBooleanState(externalState);
     return (
         <DropdownItem
             state={state}
-            onChange={setOppositeState}
+            onChange={toggleState}
             {...props}
         />
     );

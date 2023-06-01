@@ -40,11 +40,7 @@ export const DropdownItem: FC<DropdownItemProps> = forwardRef<HTMLButtonElement,
         ...restProps
     } = props;
 
-    const {
-        state: hover,
-        setTrue: setHover,
-        setFalse: resetHover,
-    } = useBooleanState(false);
+    const [hover, { setTrue: setHover, setFalse: resetHover }] = useBooleanState(false);
     const isDefaultType = type === DROPDOWN_ITEM_TYPE.default;
     const isCheckboxType = type === DROPDOWN_ITEM_TYPE.checkbox;
 

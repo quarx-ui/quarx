@@ -11,7 +11,7 @@ export const EllipsisStory: Story<DropdownItemProps> = ({
     state: externalState = false,
     ...props
 }) => {
-    const { state, setOppositeState } = useBooleanState(externalState);
+    const [state, { toggleState }] = useBooleanState(externalState);
     return (
         <Row>
             <Column>
@@ -21,7 +21,7 @@ export const EllipsisStory: Story<DropdownItemProps> = ({
                         {...props}
                         title="Super puper duper delivery"
                         state={externalState || state}
-                        onChange={setOppositeState}
+                        onChange={toggleState}
                     />
                 </WidthLimiter>
             </Column>
@@ -32,7 +32,7 @@ export const EllipsisStory: Story<DropdownItemProps> = ({
                         {...props}
                         title="Super puper duper delivery"
                         state={externalState || state}
-                        onChange={setOppositeState}
+                        onChange={toggleState}
                         ellipsis
                     />
                 </WidthLimiter>
@@ -44,7 +44,7 @@ export const EllipsisStory: Story<DropdownItemProps> = ({
                         {...props}
                         title="Super puper duper delivery"
                         state={externalState || state}
-                        onChange={setOppositeState}
+                        onChange={toggleState}
                         ellipsis={{ title: true }}
                     />
                 </WidthLimiter>
@@ -56,7 +56,7 @@ export const EllipsisStory: Story<DropdownItemProps> = ({
                         {...props}
                         title="Super puper duper delivery"
                         state={externalState || state}
-                        onChange={setOppositeState}
+                        onChange={toggleState}
                         ellipsis={{ description: true }}
                     />
                 </WidthLimiter>

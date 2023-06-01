@@ -28,7 +28,7 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
         ...restProps
     } = props;
 
-    const { state: innerOpen, setOppositeState: toggleOpen } = useBooleanState(externalOpen ?? initialOpen);
+    const [innerOpen, { toggleState: toggleOpen }] = useBooleanState(externalOpen ?? initialOpen);
 
     const open = externalOpen ?? innerOpen;
 

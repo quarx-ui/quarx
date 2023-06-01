@@ -11,15 +11,13 @@ const DropdownItem: FC<DropdownItemProps> = ({
     title,
     ...props
 }) => {
-    const {
-        state,
-        setOppositeState,
-    } = useBooleanState(false);
+    const [state, { toggleState }] = useBooleanState(false);
+
     return (
         <QxDropdownItem
             size={size}
             state={state}
-            onChange={setOppositeState}
+            onChange={toggleState}
             title={title}
             {...props}
         />

@@ -24,7 +24,7 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
     const isFinished = useRef(false);
 
     const [startTime, setInnerStartTime] = useState(defaultStartTime);
-    const { setOppositeState: rerender } = useBooleanState(false);
+    const [, { toggleState: rerender }] = useBooleanState(false);
 
     const timerValue = useRef(startTime);
 
