@@ -38,9 +38,7 @@ export interface CollapsePropsWithoutHtml extends
      * @default 0 */
     collapsedSize?: number | string;
 
-    /** Свойства используемого компонента Transition
-     *
-     * @default false */
+    /** Свойства используемого компонента Transition */
     TransitionProps?: Omit<TransitionProps, 'easing' | 'timeout' | 'children' | 'childrenProps'>;
 }
 

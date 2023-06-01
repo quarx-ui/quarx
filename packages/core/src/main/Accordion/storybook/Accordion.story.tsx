@@ -42,6 +42,8 @@ export default {
             statusIcon: {},
             inheritTextStyles: {},
             showDivider: {},
+            disableTransition: {},
+            CollapseProps: {},
         }),
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },

@@ -28,7 +28,6 @@ describe('Accordion behavior', () => {
         render(<Accordion title={title}>{content}</Accordion>);
 
         expect(screen.queryByText(title)).toBeInTheDocument();
-        expect(screen.queryByText(content)).not.toBeInTheDocument();
     });
 
     it('initial open', () => {

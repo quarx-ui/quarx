@@ -2,7 +2,8 @@ import { FC, forwardRef } from 'react';
 import { QX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core/styles';
 import { If } from '@core/src/system/If';
-import { Divider, useBooleanState } from '@core';
+import { Collapse, Divider, useBooleanState } from '@core';
+import clsx from 'clsx';
 import { AccordionProps } from './types';
 import { useStyles } from './styles';
 import { ChevronDownIcon } from './assets/ChevronDownIcon';
@@ -25,6 +26,8 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
         inheritTextStyles = false,
         showDivider = false,
         onChange,
+        disableTransition = false,
+        CollapseProps,
         ...restProps
     } = props;
 
@@ -39,6 +42,8 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
         onChange?.(!open);
         toggleOpen();
     };
+
+    const timeout = disableTransition ? 0 : CollapseProps?.timeout;
 
     return (
         <If condition={!hidden}>
@@ -92,15 +97,20 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
                         </div>
                     </If>
                 </div>
-                {/* TODO: Заменить If на Collapse, когда он будет готов */}
-                <If condition={open}>
+                <Collapse
+                    open={open}
+                    {...CollapseProps}
+                    timeout={timeout}
+                    className={clsx(cn('collapse'), CollapseProps?.className)}
+                    css={styles.collapse}
+                >
                     <div
                         className={cn('details')}
                         css={styles.details}
                     >
                         {children}
                     </div>
-                </If>
+                </Collapse>
                 <If condition={showDivider}>
                     <Divider
                         className={cn('divider')}
