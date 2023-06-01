@@ -69,7 +69,12 @@ export const Collapse: FC<CollapseProps> = forwardRef<HTMLDivElement, CollapsePr
                 styles={{}}
                 {...TransitionProps}
             >
-                <div ref={mergeRefs(ref, internalRef)} className={cn('root', params)} css={styles.root} {...rest}>
+                <div
+                    ref={mergeRefs(ref, internalRef)}
+                    className={cn('root')}
+                    css={styles.root}
+                    {...rest}
+                >
                     <div ref={refToChildren} className={cn('wrapper')} css={styles.wrapper}>
                         {children}
                     </div>
