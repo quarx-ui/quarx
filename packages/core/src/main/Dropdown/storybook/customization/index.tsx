@@ -16,11 +16,7 @@ const Divider = styled.div(() => ({
 }));
 
 const useCustomizationState = () => {
-    const {
-        state,
-        setTrue,
-        setFalse,
-    } = useBooleanState(false);
+    const [state, { setTrue, setFalse }] = useBooleanState(false);
     const ref = useRef<HTMLButtonElement>(null);
     return {
         ref,

@@ -10,7 +10,7 @@ export const SandboxStory: Story<StorybookPopupProps> = ({
     ...props
 }) => {
     const [text, setText] = useState<string>('');
-    const { state, setTrue, setFalse } = useBooleanState(false);
+    const [state, { setTrue, setFalse }] = useBooleanState(false);
     const anchor = useRef<HTMLButtonElement>(null);
 
     const setValue: ChangeEventHandler<TextFieldRefType> = (event) => (

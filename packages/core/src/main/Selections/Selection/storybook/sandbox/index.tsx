@@ -7,13 +7,13 @@ export const SandboxStory: Story<SelectionTemplateProps> = ({
     children,
     ...props
 }) => {
-    const { state, setOppositeState } = useBooleanState(false);
+    const [state, { toggleState }] = useBooleanState(false);
     return (
         <StoryDarkerContainer>
             <Selection {...props}>
                 {getController({
                     checked: state,
-                    onChange: setOppositeState,
+                    onChange: toggleState,
                     variant: children ?? CONTROLLER_OPTIONS.Checkbox,
                 })}
             </Selection>

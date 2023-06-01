@@ -82,10 +82,10 @@ export const Selection: FC<SelectionProps> = forwardRef<HTMLLabelElement, Select
         childSynchronizableProps,
     );
 
-    const {
-        state: hover,
-        setState: setHover,
-    } = useBooleanState(externalHover ?? false);
+    const [
+        hover,
+        { setState: setHover },
+    ] = useBooleanState(externalHover ?? false);
 
     const params = {
         type,

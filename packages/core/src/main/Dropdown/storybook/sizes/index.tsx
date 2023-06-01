@@ -20,11 +20,7 @@ const Divider = styled.div(() => ({
 }));
 
 const useSizeState = () => {
-    const {
-        state,
-        setTrue,
-        setFalse,
-    } = useBooleanState(false);
+    const [state, { setTrue, setFalse }] = useBooleanState(false);
     const ref = useRef<HTMLButtonElement>(null);
 
     return {

@@ -10,10 +10,10 @@ export const TypesStory: Story<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {
-    const { state, setOppositeState } = useBooleanState(false);
+    const [state, { toggleState }] = useBooleanState(false);
     const children = getController({
         checked: state,
-        onChange: setOppositeState,
+        onChange: toggleState,
         variant: externalChildren ?? CONTROLLER_OPTIONS.Checkbox,
     });
 

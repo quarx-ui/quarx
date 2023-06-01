@@ -2,13 +2,14 @@ import { Dispatch, SetStateAction, useCallback, useState } from 'react';
 
 export type UseBooleanStateProps = boolean | undefined;
 
-export interface UseBooleanState {
-    state: boolean;
+export interface UseBooleanStateActions {
     setState: Dispatch<SetStateAction<boolean>>;
     setTrue(): void;
     setFalse(): void;
-    setOppositeState(): void;
+    toggleState(): void;
 }
+
+export type UseBooleanState = [ boolean, UseBooleanStateActions ]
 
 export const useBooleanState = (
     initialValue: UseBooleanStateProps = false,
@@ -17,7 +18,7 @@ export const useBooleanState = (
 
     const setTrue = useCallback(() => setState(true), []);
     const setFalse = useCallback(() => setState(false), []);
-    const setOppositeState = useCallback(() => setState((prev) => !prev), []);
+    const toggleState = useCallback(() => setState((prev) => !prev), []);
 
-    return { state, setState, setTrue, setFalse, setOppositeState };
+    return [state, { setState, setTrue, setFalse, toggleState }];
 };
