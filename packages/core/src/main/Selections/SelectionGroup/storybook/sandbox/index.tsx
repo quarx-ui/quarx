@@ -1,6 +1,7 @@
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { Story } from '@storybook/react/types-6-0';
 import { SelectionGroup } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { getTemplateChildren, TemplateSelectionGroupProps, useTemplateChildren } from '../utils';
 
 export const SandboxStory: Story<TemplateSelectionGroupProps> = (props) => {
@@ -15,4 +16,6 @@ export const SandboxStory: Story<TemplateSelectionGroupProps> = (props) => {
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

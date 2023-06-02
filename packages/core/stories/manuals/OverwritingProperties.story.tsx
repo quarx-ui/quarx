@@ -3,6 +3,7 @@ import { Description, Title } from '@storybook/addon-docs';
 import { Story } from '@storybook/react/types-6-0';
 import { Div } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 
 const descriptionMarkDown = `
 Компоненты, которые перезаписывают одинаковые свойства, работают по следующим принципам синхронизации:
@@ -66,8 +67,6 @@ export default {
     parameters: {
         viewMode: 'docs',
         controls: { disable: true },
-        actions: { disable: true },
-        design: { disable: true },
         previewTabs: {
             canvas: { hidden: true },
         },
@@ -84,7 +83,7 @@ export default {
             ),
         },
     },
-};
+} as Meta;
 
 export const OverwritingProperties: Story = () => <div />;
 OverwritingProperties.storyName = 'Перезапись свойств дочерних компонентов';

@@ -2,8 +2,7 @@ import { Fragment, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Button } from '@core';
 import { TextFieldProps } from '@core/src/main/TextField/types';
-import { createStoryDescription } from '@core/storybook/utils';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { Grid } from '../utils';
 import externalSettingsDescription from './description.md';
@@ -61,6 +60,8 @@ export const ExternalSettingsStory: Story<TextFieldProps> = (props) => {
     );
 };
 
-ExternalSettingsStory.storyName = 'Внешнее управление';
-ExternalSettingsStory.argTypes = excludeProp(['errorText', 'focused', 'filled', 'leftIconShown', 'rightIconShown']);
-ExternalSettingsStory.parameters = createStoryDescription(externalSettingsDescription);
+setStoryParams(ExternalSettingsStory, {
+    title: 'Внешнее управление',
+    description: externalSettingsDescription,
+    excludeArgs: ['errorText', 'focused', 'filled', 'leftIconShown', 'rightIconShown'],
+});

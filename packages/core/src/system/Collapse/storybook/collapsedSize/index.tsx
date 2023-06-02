@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Collapse, CollapseProps } from '@core';
 import { Column, StoryButton } from '@core/storybook/components';
-import { excludeProp } from '@core/storybook/templateParams';
-import { SizesStory } from '@core/src/main/Dropdown/DropdownItemsGroup/storybook/sizes';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Children } from '../common';
 
 export const CollapsedSizeStory: Story<CollapseProps> = (props) => {
@@ -72,5 +71,7 @@ export const CollapsedSizeStory: Story<CollapseProps> = (props) => {
     );
 };
 
-CollapsedSizeStory.storyName = 'Начальный видимый размер скрытого элемента';
-SizesStory.argTypes = excludeProp(['open']);
+setStoryParams(CollapsedSizeStory, {
+    title: 'Начальный видимый размер скрытого элемента',
+    excludeArgs: ['collapsedSize'],
+});

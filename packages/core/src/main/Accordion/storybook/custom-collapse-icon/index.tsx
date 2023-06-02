@@ -1,6 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
-import { createStoryDescription } from '@core/storybook/utils';
 import { Accordion, AccordionProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 import { ChevronRightIcon } from './ChevronRightIcon';
 
@@ -18,5 +18,7 @@ export const CustomCollapseIconStory: Story<AccordionProps> = ({ ...props }) => 
     />
 );
 
-CustomCollapseIconStory.storyName = 'Кастомная иконка';
-CustomCollapseIconStory.parameters = createStoryDescription(description);
+setStoryParams(CustomCollapseIconStory, {
+    title: 'Кастомная иконка',
+    description,
+});

@@ -2,6 +2,7 @@ import { ChangeEventHandler, useRef, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Button, Popup, TextField, TextFieldRefType, useBooleanState } from '@core';
 import { StoryDarkerContainer } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StorybookPopupProps } from '../types';
 
 export const SandboxStory: Story<StorybookPopupProps> = ({
@@ -61,4 +62,6 @@ export const SandboxStory: Story<StorybookPopupProps> = ({
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

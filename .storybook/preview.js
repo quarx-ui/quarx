@@ -10,7 +10,8 @@ const decorators = [ThemeDecorator];
 decorators.forEach((decorator) => addDecorator(decorator));
 
 export const parameters = {
-    actions: { argTypesRegex: '^on[A-Z].*' },
+    actions: { disable: true },
+    design: { disable: true },
     controls: {
         matchers: {
             color: /(background|color)$/i,
@@ -19,7 +20,7 @@ export const parameters = {
     },
     options: {
         storySort: {
-            order: ['core', ['Introduction']],
+            order: ['core', ['Introduction', 'manuals']],
         },
     },
     previewTabs: {

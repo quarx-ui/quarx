@@ -1,6 +1,8 @@
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
+import { TabsProps } from '@core';
 import { Tabs } from '../Tabs';
 import { defaultTabsStoryArgs } from './args';
 
@@ -31,10 +33,7 @@ export default {
             scrollOptions: {},
         }),
     },
-    parameters: {
-        actions: { disable: true },
-    },
-};
+} as Meta<TabsProps>;
 
 export { SandboxStory } from './sandbox';
 export { TypesStory } from './types';

@@ -2,13 +2,14 @@ import { defineCategory } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { DEMONSTRATION_ALERT } from '@core/storybook/constants';
+import { Meta } from '@storybook/react';
+import { TextFieldProps } from '@core';
 import { TextField } from '../TextField';
 import { defaultTextFieldStoryArgs } from './args';
 
 export default {
     title: STORY_PATHS.core.components.main('TextField'),
     component: TextField,
-    parameters: { actions: { disable: true } },
     args: defaultTextFieldStoryArgs,
     argTypes: {
         ...defineCategory('Состояние', {
@@ -83,7 +84,7 @@ export default {
         }),
         ...defineCategory('Общие', BASE_ARG_TYPES),
     },
-};
+} as Meta<TextFieldProps>;
 
 export { SandboxStory } from './sandbox';
 export { SizesStory } from './sizes';

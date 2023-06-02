@@ -1,7 +1,8 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { SelectionGroup } from '..';
+import { Meta } from '@storybook/react';
+import { SelectionGroup, SelectionGroupProps } from '..';
 import { TemplateSelectionGroupProps } from './utils';
 
 const defaultArgs: Partial<TemplateSelectionGroupProps> = {
@@ -16,7 +17,6 @@ export default {
     component: SelectionGroup,
     parameters: {
         layout: 'fullscreen',
-        actions: { disable: true },
     },
     args: defaultArgs,
     argTypes: {
@@ -32,7 +32,7 @@ export default {
         },
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<SelectionGroupProps>;
 
 export { SandboxStory } from './sandbox';
 export { TypesStory } from './types';

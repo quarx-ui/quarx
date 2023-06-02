@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { OVER_SCREEN_PLACEMENT, OverScreenProps } from '@core';
 import { DisplayVariants, DisplayVariantsProps } from '@core/storybook/DisplayVariants/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps, Grid } from '../utils';
 import { OverScreen } from '../sandbox';
 import placementDescription from './description.md';
@@ -45,6 +44,8 @@ export const PlacementsStory: Story<OverScreenProps> = (props) => {
     );
 };
 
-PlacementsStory.storyName = 'Расположение';
-PlacementsStory.argTypes = excludeProp(['placement']);
-PlacementsStory.parameters = createStoryDescription(placementDescription);
+setStoryParams(PlacementsStory, {
+    title: 'Расположение',
+    description: placementDescription,
+    excludeArgs: ['placement'],
+});

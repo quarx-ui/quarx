@@ -1,9 +1,9 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Title } from '@core/storybook/DisplayVariants/styledComponents';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
 import styled from '@emotion/styled';
 import { Chips, ChipsProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Flex = styled('div')({
     display: 'flex',
@@ -119,9 +119,7 @@ export const BooleanParamsStory: Story<ChipsProps> = (props) => (
     </ColumnFlex>
 );
 
-BooleanParamsStory.storyName = 'Boolean параметры';
-BooleanParamsStory.argTypes = excludeProp([
-    'disabled',
-    'active',
-    'elevation',
-]);
+setStoryParams(BooleanParamsStory, {
+    title: 'Boolean параметры',
+    excludeArgs: ['disabled', 'active', 'elevation'],
+});

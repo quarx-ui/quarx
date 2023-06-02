@@ -1,6 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Checkbox, CheckboxProps } from '@core';
 import { useState } from 'react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const SandboxStory: Story<CheckboxProps> = ({ ...props }) => {
     const [bool, setBool] = useState(false);
@@ -17,4 +18,6 @@ export const SandboxStory: Story<CheckboxProps> = ({ ...props }) => {
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

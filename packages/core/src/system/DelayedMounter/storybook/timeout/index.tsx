@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DelayedMounterProps } from '@core';
-import { createStoryDescription } from '@core/storybook/utils';
 import { StoryButton } from '@core/storybook/components';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import timeoutDescription from './description.md';
 import { FlexContainer, createDelayedMounter, useDelayedMounterStoryState, FlexRow } from '../components';
 
@@ -73,6 +72,8 @@ export const TimeoutStory: Story<DelayedMounterProps> = ({
     );
 };
 
-TimeoutStory.storyName = 'Продолжительность';
-TimeoutStory.argTypes = excludeProp(['timeout', 'mounted']);
-TimeoutStory.parameters = createStoryDescription(timeoutDescription);
+setStoryParams(TimeoutStory, {
+    title: 'Продолжительность',
+    description: timeoutDescription,
+    excludeArgs: ['timeout', 'mounted'],
+});

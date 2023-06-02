@@ -1,10 +1,11 @@
 /* import { STORY_PATHS } from '@quarx-ui/storybook/utils'; */
+// import { Meta } from '@storybook/react';
+// import { SwitchProps } from '@core/src/system/Switch';
 
 /*
 export default {
     title: STORY_PATHS.core.components.system('Switch'),
     component: Switch,
-    parameters: { actions: { disable: true } },
     args: { value: 'false' },
     argTypes: {
         value: {
@@ -13,7 +14,7 @@ export default {
             control: { type: 'select' },
         },
     },
-};
+} as Meta<SwitchProps>;
 */
 
 /* export { SandboxStory } from './sandbox' */

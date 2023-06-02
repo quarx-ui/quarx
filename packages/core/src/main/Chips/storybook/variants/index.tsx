@@ -1,7 +1,7 @@
 import { Chips, CHIPS_VARIANT, ChipsProps, ChipsVariant } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const VARIANTS: ChipsVariant[] = Object.values(CHIPS_VARIANT);
 export const VariantsStory: Story<ChipsProps> = (props) => DisplayVariants({
@@ -11,5 +11,7 @@ export const VariantsStory: Story<ChipsProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-VariantsStory.storyName = 'Варианты';
-VariantsStory.argTypes = excludeProp(['variant']);
+setStoryParams(VariantsStory, {
+    title: 'Варианты',
+    excludeArgs: ['variant'],
+});

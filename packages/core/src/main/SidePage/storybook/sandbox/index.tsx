@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react';
 import { StoryButton } from '@core/storybook/components';
 import { SidePage, SidePageProps } from '@core';
 import { Story } from '@storybook/react/types-6-0';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const SandboxStory: Story<SidePageProps> = ({ ...props }) => {
     const [open, setOpen] = useState(false);
@@ -21,4 +22,6 @@ export const SandboxStory: Story<SidePageProps> = ({ ...props }) => {
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

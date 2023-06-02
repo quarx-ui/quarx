@@ -1,6 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Link, LinkProps } from '@core';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 export const CustomTextStylesStory: Story<LinkProps> = (_) => (
@@ -17,5 +17,7 @@ export const CustomTextStylesStory: Story<LinkProps> = (_) => (
     </Link>
 );
 
-CustomTextStylesStory.storyName = 'Кастомизация шрифта';
-CustomTextStylesStory.parameters = createStoryDescription(description);
+setStoryParams(CustomTextStylesStory, {
+    title: 'Кастомизация шрифта',
+    description,
+});

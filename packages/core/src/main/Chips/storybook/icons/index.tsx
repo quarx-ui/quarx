@@ -5,8 +5,8 @@ import { Chips, CHIPS_VARIANT, ChipsProps, QX_SIZE } from '@core';
 import { DocumentIcon } from '@quarx-ui/icons/src/document/24px/stroke/rounded';
 import { TrashBinIcon } from '@quarx-ui/icons/src/trash-bin/24px/stroke/rounded';
 import { CheckmarkCircleIcon } from '@quarx-ui/icons/src/checkmark-circle/24px/fill/rounded';
-import { excludeProp } from '@core/storybook/templateParams';
 import styled from '@emotion/styled';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Flex = styled('div')({
     display: 'flex',
@@ -92,11 +92,8 @@ export const IconsStory: Story<ChipsProps> = (props) => (
         </ColumnFlex>
     </Flex>
 );
-IconsStory.storyName = 'Иконки';
-IconsStory.argTypes = excludeProp([
-    'leftIcon',
-    'rightIcon',
-    'size',
-    'variant',
-    'rotateRightIcon',
-]);
+
+setStoryParams(IconsStory, {
+    title: 'Иконки',
+    excludeArgs: ['leftIcon', 'rightIcon', 'size', 'variant', 'rotateRightIcon'],
+});

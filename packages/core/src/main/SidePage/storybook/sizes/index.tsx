@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { excludeProp } from '@core/storybook/templateParams';
 import sizesDescription from '@core/src/main/Modal/storybook/sizes/description.md';
 import { SidePage, SidePageProps } from '@core';
 import { StoryButton } from '@core/storybook/components';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { FlexRow } from '../utils';
 
 export const SizesStory: Story<SidePageProps> = ({
@@ -38,6 +37,8 @@ export const SizesStory: Story<SidePageProps> = ({
     );
 };
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
-SizesStory.parameters = createStoryDescription(sizesDescription);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    description: sizesDescription,
+    excludeArgs: ['size'],
+});

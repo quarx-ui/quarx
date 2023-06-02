@@ -1,8 +1,8 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { PALETTE_COLORS } from '@core/styles';
-import { excludeProp } from '@core/storybook/templateParams';
 import { SelectionGroup } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TemplateSelectionGroupProps, getTemplateChildren, useTemplateChildren } from '../utils';
 
 export const ColorsStory: Story<TemplateSelectionGroupProps> = (props) => {
@@ -24,5 +24,7 @@ export const ColorsStory: Story<TemplateSelectionGroupProps> = (props) => {
     );
 };
 
-ColorsStory.storyName = 'Цвета';
-ColorsStory.argTypes = excludeProp(['color']);
+setStoryParams(ColorsStory, {
+    title: 'Цвета',
+    excludeArgs: ['color'],
+});

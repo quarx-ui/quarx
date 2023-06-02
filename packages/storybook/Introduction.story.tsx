@@ -9,8 +9,6 @@ export default {
     parameters: {
         viewMode: 'docs',
         controls: { disable: true },
-        actions: { disable: true },
-        design: { disable: true },
         previewTabs: {
             canvas: { hidden: true },
         },

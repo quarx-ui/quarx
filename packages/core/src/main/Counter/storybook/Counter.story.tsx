@@ -1,6 +1,7 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { Counter, CounterProps } from '..';
 
 const defaultArgs: CounterProps = {
@@ -14,7 +15,6 @@ const defaultArgs: CounterProps = {
 export default {
     title: STORY_PATHS.core.components.main('Counter'),
     component: Counter,
-    parameters: { actions: { disable: true } },
     args: defaultArgs,
     argTypes: {
         children: {},
@@ -24,7 +24,7 @@ export default {
         maxDigits: {},
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<CounterProps>;
 
 export { SandboxStory } from './sandbox';
 export { ColorsStory } from './colors';

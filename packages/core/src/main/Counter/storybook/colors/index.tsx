@@ -1,7 +1,7 @@
 import { Counter, CounterColor, CounterProps } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const COLORS: CounterColor[] = [
     'brand',
@@ -19,5 +19,7 @@ export const ColorsStory: Story<CounterProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-ColorsStory.storyName = 'Цвета';
-ColorsStory.argTypes = excludeProp(['color']);
+setStoryParams(ColorsStory, {
+    title: 'Цвета',
+    excludeArgs: ['color'],
+});

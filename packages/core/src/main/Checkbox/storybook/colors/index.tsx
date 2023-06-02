@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Checkbox, CheckboxProps, PALETTE_COLORS } from '@core';
 import { useState } from 'react';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const ColorsParamsStory: Story<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
@@ -19,5 +19,7 @@ export const ColorsParamsStory: Story<CheckboxProps> = (props) => {
     });
 };
 
-ColorsParamsStory.storyName = 'Цвета';
-ColorsParamsStory.argTypes = excludeProp(['color']);
+setStoryParams(ColorsParamsStory, {
+    title: 'Цвета',
+    excludeArgs: ['color'],
+});

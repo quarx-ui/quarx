@@ -2,6 +2,7 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { DEMONSTRATION_ALERT } from '@core/storybook/constants';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { Badge, BadgeProps } from '..';
 
 const defaultArgs: BadgeProps = {
@@ -48,10 +49,7 @@ export default {
         }),
         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
     },
-    parameters: {
-        actions: { disable: true },
-    },
-};
+} as Meta<BadgeProps>;
 
 export { SandboxStory } from './sandbox';
 export { BorderRadiusStory } from './borderRadius';

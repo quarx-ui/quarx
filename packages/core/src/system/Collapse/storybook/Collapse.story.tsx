@@ -7,7 +7,6 @@ import { Collapse, CollapseProps, DEFAULT_ENTER_ANIMATION_FUNCTION, DEFAULT_EXIT
 export default {
     title: STORY_PATHS.core.components.system('Collapse'),
     component: Collapse,
-    parameters: { open: { disable: true }, children: { disable: true } },
     args: {
         open: false,
         easing: {
@@ -20,17 +19,8 @@ export default {
         TransitionProps: {},
     },
     argTypes: {
+        ...excludeProp(['open', 'children']),
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
-        open: {
-            table: {
-                disable: true,
-            },
-        },
-        children: {
-            table: {
-                disable: true,
-            },
-        },
     },
 } as Meta<CollapseProps>;
 

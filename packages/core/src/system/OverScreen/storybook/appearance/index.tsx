@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { OVER_SCREEN_APPEARANCE } from '@core';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps } from '../utils';
 import { OverScreen } from '../sandbox';
 import appearanceDescription from './description.md';
@@ -18,6 +17,8 @@ export const AppearancesStory: Story<StoryOverScreenProps> = (props) => DisplayV
     } as StoryOverScreenProps),
 });
 
-AppearancesStory.storyName = 'Типы появления';
-AppearancesStory.argTypes = excludeProp(['appearance']);
-AppearancesStory.parameters = createStoryDescription(appearanceDescription);
+setStoryParams(AppearancesStory, {
+    title: 'Типы появления',
+    description: appearanceDescription,
+    excludeArgs: ['appearance'],
+});

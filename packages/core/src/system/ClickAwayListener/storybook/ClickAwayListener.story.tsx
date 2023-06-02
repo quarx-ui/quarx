@@ -1,12 +1,12 @@
 import { defineCategory } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { ClickAwayListener } from '..';
+import { Meta } from '@storybook/react';
+import { ClickAwayListener, ClickAwayListenerProps } from '..';
 import { defaultClickAwayListenerArgs } from './utils';
 
 export default {
     title: STORY_PATHS.core.components.system('ClickAwayListener'),
     component: ClickAwayListener,
-    parameters: { actions: { disable: true } },
     args: defaultClickAwayListenerArgs,
     argTypes: {
         ...defineCategory('Для демонстрации', {
@@ -18,6 +18,6 @@ export default {
         children: { description: 'Элемент для прослушивания' },
         disableReactTree: { description: '' },
     },
-};
+} as Meta<ClickAwayListenerProps>;
 
 export { SandboxStory } from './sandbox';

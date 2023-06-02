@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import { excludeProp } from '@core/storybook/templateParams';
 import directionDescription from '@core/src/main/Modal/storybook/footerDirection/description.md';
 import { Story } from '@storybook/react/types-6-0';
 import { SidePage, SidePageProps } from '@core';
 import { StoryButton } from '@core/storybook/components';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { FlexRow } from '../utils';
 
 export const FooterDirectionStory: Story<SidePageProps> = ({
@@ -38,6 +37,8 @@ export const FooterDirectionStory: Story<SidePageProps> = ({
     );
 };
 
-FooterDirectionStory.storyName = 'Расположение кнопок';
-FooterDirectionStory.argTypes = excludeProp(['footerDirection']);
-FooterDirectionStory.parameters = createStoryDescription(directionDescription);
+setStoryParams(FooterDirectionStory, {
+    title: 'Расположение кнопок',
+    excludeArgs: ['footerDirection'],
+    description: directionDescription,
+});

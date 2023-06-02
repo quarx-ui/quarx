@@ -1,7 +1,8 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
-import { Popup } from '..';
+import { Meta } from '@storybook/react';
+import { Popup, PopupProps } from '..';
 import { StorybookPopupProps } from './types';
 
 const defaultArgs: Partial<StorybookPopupProps> = {
@@ -14,7 +15,6 @@ export default {
     component: Popup,
     parameters: {
         layout: 'fullscreen',
-        actions: { disable: true },
     },
     args: defaultArgs,
     argTypes: {
@@ -68,6 +68,6 @@ export default {
 
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<PopupProps>;
 
 export { SandboxStory } from './sandbox';

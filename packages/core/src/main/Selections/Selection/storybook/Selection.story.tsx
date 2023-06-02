@@ -5,6 +5,7 @@ import { Selection } from '@core';
 import { ArgsTable, Description, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
 import { Div } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { CONTROLLER_OPTIONS, SelectionTemplateProps } from './utils';
 import description from './description.md';
 
@@ -51,7 +52,6 @@ export default {
     },
     parameters: {
         layout: 'fullscreen',
-        actions: { disable: true },
         docs: {
             page: () => (
                 <Div>
@@ -74,7 +74,7 @@ export default {
             ),
         },
     },
-};
+} as Meta<SelectionTemplateProps>;
 
 export { SandboxStory } from './sandbox';
 export { AdornmentStory } from './adornment';

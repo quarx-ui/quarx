@@ -3,9 +3,9 @@ import { HR } from '@storybook/components';
 import { FourSquaresIcon } from '@quarx-ui/icons/src/four-squares/24px/stroke/rounded';
 import { BookOpenIcon } from '@quarx-ui/icons/src/book-open/24px/stroke/rounded';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { useBooleanState, Selection, SelectionProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { CONTROLLER_OPTIONS, getController, Padding, SelectionTemplateProps } from '../utils';
 
 const adornmentsDisplayProps = {
@@ -77,5 +77,7 @@ export const AdornmentStory: Story<SelectionTemplateProps> = ({
     );
 };
 
-AdornmentStory.storyName = 'Украшения';
-AdornmentStory.argTypes = excludeProp(['leftAdornment', 'rightAdornment']);
+setStoryParams(AdornmentStory, {
+    title: 'Украшения',
+    excludeArgs: ['leftAdornment', 'rightAdornment'],
+});

@@ -2,6 +2,7 @@ import { ModalProps, Modal as KitModal } from '@core';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 
 const defaultArgs: ModalProps = {
     title: 'Headline',
@@ -34,7 +35,6 @@ const defaultArgs: ModalProps = {
 export default {
     title: STORY_PATHS.core.components.main('Modal'),
     component: KitModal,
-    parameters: { actions: { disable: true } },
     args: defaultArgs,
     argTypes: {
         ...defineCategory('Элементы', {
@@ -96,7 +96,7 @@ export default {
         }),
         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
     },
-};
+} as Meta<ModalProps>;
 
 export { ModalStory } from './modal';
 export { FooterDirectionStory } from './footerDirection';

@@ -1,7 +1,7 @@
 import { Counter, CounterProps, CounterSize } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const SIZES: CounterSize[] = [
     'small',
@@ -16,5 +16,7 @@ export const SizesStory: Story<CounterProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    excludeArgs: ['size'],
+});

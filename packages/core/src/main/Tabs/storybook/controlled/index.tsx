@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import styled from '@emotion/styled';
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
-import { createStoryDescription } from '@core/storybook/utils';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Tabs } from '../..';
 import { TabsProps } from '../../types';
 import description from './description.md';
@@ -36,6 +35,8 @@ export const ControlledStory: Story<TabsProps> = (props) => {
     );
 };
 
-ControlledStory.storyName = 'Внешнее управление';
-ControlledStory.argTypes = excludeProp(['value', 'type']);
-ControlledStory.parameters = createStoryDescription(description);
+setStoryParams(ControlledStory, {
+    title: 'Внешнее управление',
+    description,
+    excludeArgs: ['value', 'type'],
+});

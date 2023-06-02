@@ -1,9 +1,8 @@
 import { Story } from '@storybook/react/types-6-0';
-import { createStoryDescription } from '@core/storybook/utils';
 import { Accordion, AccordionSize, AccordionProps } from '@core';
 import { QX_SIZE } from '@core/enums';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const SIZES: AccordionSize[] = [
@@ -22,6 +21,8 @@ export const SizesStory: Story<AccordionProps> = (props) => DisplayVariants({
     componentProps: { ...props, css: { width: '100%' } },
 });
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
-SizesStory.parameters = createStoryDescription(description);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    description,
+    excludeArgs: ['size'],
+});

@@ -1,8 +1,7 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { Tabs } from '@core';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
 import { TABS_TYPES } from '../../common';
 import { iconItems } from '../utils';
@@ -19,6 +18,8 @@ export const IconsStory: Story<TabsProps> = (props) => (
     </div>
 );
 
-IconsStory.storyName = 'Использование иконок';
-IconsStory.argTypes = excludeProp(['icons']);
-IconsStory.parameters = createStoryDescription(description);
+setStoryParams(IconsStory, {
+    title: 'Использование иконок',
+    description,
+    excludeArgs: ['icons'],
+});

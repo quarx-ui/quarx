@@ -1,8 +1,8 @@
 import { Story } from '@storybook/react/types-6-0';
-import { excludeProp } from '@core/storybook/templateParams';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { QX_SIZE, Selection, SelectionProps, useBooleanState } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import {
     Flex,
     SelectionTemplateProps,
@@ -35,5 +35,7 @@ export const SizesStory: Story<SelectionTemplateProps> = ({
     );
 };
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    excludeArgs: ['size'],
+});

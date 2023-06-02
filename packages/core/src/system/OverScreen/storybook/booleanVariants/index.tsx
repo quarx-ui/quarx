@@ -1,7 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayBooleanVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps, Grid } from '../utils';
 import { OverScreen } from '../sandbox';
 import booleanVariantsDescription from './description.md';
@@ -39,13 +38,15 @@ export const BooleanVariantsStory: Story<StoryOverScreenProps> = (props) => (
     </Grid>
 );
 
-BooleanVariantsStory.storyName = 'Boolean параметры';
-BooleanVariantsStory.parameters = createStoryDescription(booleanVariantsDescription);
-BooleanVariantsStory.argTypes = excludeProp([
-    'disableBackdrop',
-    'disableScrollLock',
-    'disablePortal',
-    'keepMounted',
-    'disableCloseByClickAway',
-    'disableCloseByEscape',
-]);
+setStoryParams(BooleanVariantsStory, {
+    title: 'Boolean параметры',
+    description: booleanVariantsDescription,
+    excludeArgs: [
+        'disableBackdrop',
+        'disableScrollLock',
+        'disablePortal',
+        'keepMounted',
+        'disableCloseByClickAway',
+        'disableCloseByEscape',
+    ],
+});

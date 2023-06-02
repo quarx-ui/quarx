@@ -1,6 +1,5 @@
 import { Story } from '@storybook/react/types-6-0';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StackProps } from '../../types';
 import { Stack } from '../../Stack';
 import description from './description.md';
@@ -13,6 +12,8 @@ export const CustomComponentStory: Story<StackProps> = (props) => (
     </Stack>
 );
 
-CustomComponentStory.storyName = 'Кастомный компонент';
-CustomComponentStory.argTypes = excludeProp(['component']);
-CustomComponentStory.parameters = createStoryDescription(description);
+setStoryParams(CustomComponentStory, {
+    title: 'Кастомный компонент',
+    description,
+    excludeArgs: ['component'],
+});
