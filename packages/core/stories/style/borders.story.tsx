@@ -4,6 +4,8 @@ import { BordersSide, BordersSize, BordersStyle, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { Div, H2, P, Code, UL, LI } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Documentation = () => (
     <Div>
@@ -75,7 +77,7 @@ export default {
             page: withDocsPage(Documentation),
         },
     },
-};
+} as Meta;
 
 interface BordersStory {
     size?: BordersSize;
@@ -118,8 +120,6 @@ const Template: Story<BordersStory> = ({ size = 'medium', style = 'solid', side 
 
 export const Sandbox: Story<BordersStory> = (props) => <Template {...props} />;
 
-Sandbox.storyName = 'Обводка';
-
 export const Sizes: Story<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
     variants: {
         size: ['small', 'medium', 'large'],
@@ -153,57 +153,43 @@ export const Sides: Story<BordersStory> = (props) => DisplayVariantsMap<BordersS
     shownTitle: false,
 });
 
-Sizes.storyName = 'Размеры';
-Sides.storyName = 'Стороны';
-Styles.storyName = 'Стили';
-
-Sizes.parameters = {
-    docs: {
-        description: {
-            story: 'Всего 3 варианта размера: `small`, `medium`, `large`.'
-                + '<br />'
-                + 'Для выбора размера необходимо указать их в формате: `borders.[size]`',
-        },
-        source: {
-            code: `
+const sizesSourceCode = `
 small: borders.small
 medium: borders.medium
 large: borders.large
-            `,
-        },
-    },
-};
-
-Sides.parameters = {
-    docs: {
-        description: {
-            story: 'Выбор стороны состоит из 5-ти вариантов: `top`, `right`, `bottom`, `left`, `all`.',
-        },
-        source: {
-            code: `
+`;
+const sidesSourceCode = `
 top: borders.create({ side: 'top' })
 right: borders.create({ side: 'right' })
 bottom: borders.create({ side: 'bottom' })
 left: borders.create({ side: 'left' })
 all: borders.create({ side: 'all' })
-            `,
-        },
-    },
-};
-
-Styles.parameters = {
-    docs: {
-        description: {
-            story: 'Принимает значения CSS-свойства border-style: `solid`, `dashed`, `dotted`, `double`, `ridge`.',
-        },
-        source: {
-            code: `
+`;
+const stylesSourceCode = `
 solid: borders.create({ style: 'solid' })
 dashed: borders.create({ style: 'dashed' })
 dotted: borders.create({ style: 'dotted' })
 double: borders.create({ style: 'double' })
 ridge: borders.create({ style: 'ridge' })
-            `,
-        },
-    },
-};
+`;
+
+setStoryParams(Sandbox, {
+    title: 'Обводка',
+});
+setStoryParams(Sizes, {
+    title: 'Размеры',
+    description: 'Всего 3 варианта размера: `small`, `medium`, `large`.'
+        + '<br />'
+        + 'Для выбора размера необходимо указать их в формате: `borders.[size]`',
+    code: sizesSourceCode,
+});
+setStoryParams(Sides, {
+    title: 'Стороны',
+    description: 'Выбор стороны состоит из 5-ти вариантов: `top`, `right`, `bottom`, `left`, `all`.',
+    code: sidesSourceCode,
+});
+setStoryParams(Styles, {
+    title: 'Стили',
+    description: 'Принимает значения CSS-свойства border-style: `solid`, `dashed`, `dotted`, `double`, `ridge`.',
+    code: stylesSourceCode,
+});

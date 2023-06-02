@@ -1,5 +1,6 @@
 import { DelayedMounter, DelayedMounterProps } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 
 const defaultArgs: Partial<DelayedMounterProps> = {
     disableTimeout: false,
@@ -9,10 +10,6 @@ const defaultArgs: Partial<DelayedMounterProps> = {
 export default {
     title: STORY_PATHS.core.components.system('DelayedMounter'),
     component: DelayedMounter,
-    parameters: {
-        actions: { disable: true },
-        design: { disable: true },
-    },
     args: defaultArgs,
     argTypes: {
         mounted: { description: 'Компонент монтирован' },
@@ -23,7 +20,7 @@ export default {
         onExitStart: { description: 'Обработчик, вызываемый в начале размонтирования компонента' },
         onExit: { description: 'Обработчик, вызываемый в конце размонтирования компонента' },
     },
-};
+} as Meta<DelayedMounterProps>;
 
 export { SandboxStory } from './sandbox';
 export { TimeoutStory } from './timeout';

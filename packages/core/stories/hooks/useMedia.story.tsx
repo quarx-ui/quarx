@@ -3,6 +3,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { deviceToBreakpoint } from '../../styles/engine/theme/hooks/useMedia/helpers';
 
 export default {
@@ -42,7 +43,7 @@ export default {
             },
         },
     },
-};
+} as Meta;
 
 // eslint-disable-next-line no-undef
 const throttleWindowEvent = (eventName: keyof WindowEventMap, customEventName: string) => {

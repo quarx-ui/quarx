@@ -1,10 +1,11 @@
 /* import { STORY_PATHS } from '@quarx-ui/storybook/utils'; */
+// import { Meta } from '@storybook/react';
+// import { IfProps } from '@core/src/system/If';
 
 /*
 export default {
     title: STORY_PATHS.core.components.system('If'),
     component: If,
-    parameters: { actions: { disable: true } },
     args: { condition: true },
     argTypes: {
         condition: {
@@ -12,7 +13,7 @@ export default {
             control: 'boolean',
         },
     },
-};
+} as Meta<IfProps>;
 */
 
 /* export { SandboxStory } from './sandbox'; */

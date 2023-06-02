@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { OVER_SCREEN_PLACEMENT } from '@core';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps } from '../utils';
 import { OverScreen } from '../sandbox';
 import marginDescription from './description.md';
@@ -19,6 +18,8 @@ export const MarginStory: Story<StoryOverScreenProps> = (props) => DisplayVarian
     } as StoryOverScreenProps),
 });
 
-MarginStory.storyName = 'Отступы';
-MarginStory.argTypes = excludeProp(['margin']);
-MarginStory.parameters = createStoryDescription(marginDescription);
+setStoryParams(MarginStory, {
+    title: 'Отступы',
+    excludeArgs: ['margin'],
+    description: marginDescription,
+});

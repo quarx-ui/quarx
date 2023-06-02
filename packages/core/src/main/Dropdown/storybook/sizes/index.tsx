@@ -1,16 +1,9 @@
 import { Story } from '@storybook/react/types-6-0';
-import { excludeProp } from '@core/storybook/templateParams';
-import {
-    Button,
-    Dropdown,
-    DropdownProps,
-    QX_SIZE,
-    Stack,
-    useBooleanState,
-} from '@core';
+import { Button, Dropdown, DropdownProps, QX_SIZE, Stack, useBooleanState } from '@core';
 import { Fragment, useRef } from 'react';
 import { Title } from '@core/storybook/DisplayVariants/styledComponents';
 import styled from '@emotion/styled';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { createDropdownChildren } from '../template';
 
 const Divider = styled.div(() => ({
@@ -130,5 +123,7 @@ export const SizesStory: Story<DropdownProps> = ({
     );
 };
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    excludeArgs: ['size'],
+});

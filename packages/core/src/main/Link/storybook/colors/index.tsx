@@ -1,8 +1,7 @@
 import { Link, LinkColor, LinkProps } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const COLORS: LinkColor[] = [
@@ -20,10 +19,8 @@ export const ColorsStory: Story<LinkProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-ColorsStory.storyName = 'Цвета';
-ColorsStory.parameters = createStoryDescription(description);
-ColorsStory.argTypes = excludeProp([
-    'showLeftItem',
-    'showRightItem',
-    'color',
-]);
+setStoryParams(ColorsStory, {
+    title: 'Цвета',
+    description,
+    excludeArgs: ['showLeftItem', 'showRightItem', 'color'],
+});

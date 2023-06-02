@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { Story } from '@storybook/react/types-6-0';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { defaultTextFieldStoryArgs } from '../args';
 import { StoryTextFieldProps } from '../utils';
@@ -22,9 +23,11 @@ export const SandboxStory: Story<StoryTextFieldProps> = ({
     );
 };
 
-SandboxStory.storyName = 'Компонент';
-SandboxStory.args = {
-    ...defaultTextFieldStoryArgs,
-    leftIconShown: true,
-    rightIconShown: true,
-};
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+    args: {
+        ...defaultTextFieldStoryArgs,
+        leftIconShown: true,
+        rightIconShown: true,
+    },
+});

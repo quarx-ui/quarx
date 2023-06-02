@@ -2,7 +2,7 @@
 import { FC, Fragment } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Link, LinkProps } from '@core';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const RouterLink:FC<any> = ({ to, ...props }) => (
@@ -37,5 +37,7 @@ export const CustomComponentStory: Story<LinkProps> = (_) => (
     </Fragment>
 );
 
-CustomComponentStory.storyName = 'Свой тег/компонент';
-CustomComponentStory.parameters = createStoryDescription(description);
+setStoryParams(CustomComponentStory, {
+    title: 'Свой тег/компонент',
+    description,
+});

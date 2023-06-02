@@ -4,6 +4,8 @@ import { BorderRadiusSide, QxBorderSize, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
 import { H2, Div, P, Code } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Documentation = () => (
     <Div>
@@ -53,7 +55,7 @@ export default {
             page: withDocsPage(Documentation),
         },
     },
-};
+} as Meta;
 
 interface BorderRadiiStory {
     size?: QxBorderSize;
@@ -91,8 +93,6 @@ const Template: Story<BorderRadiiStory> = ({ size = 'medium', side = 'all' }) =>
 
 export const Sandbox: Story<BorderRadiiStory> = (props) => <Template {...props} />;
 
-Sandbox.storyName = 'Скругления';
-
 export const Sizes: Story<BorderRadiiStory> = (props) => DisplayVariantsMap<BorderRadiiStory>({
     variants: {
         size: ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'],
@@ -114,37 +114,30 @@ export const Sides: Story<BorderRadiiStory> = (props) => DisplayVariantsMap<Bord
     shownTitle: false,
 });
 
-Sizes.storyName = 'Размеры';
-Sides.storyName = 'Стороны';
+setStoryParams(Sandbox, {
+    title: 'Скругления',
+});
 
-Sizes.parameters = {
-    docs: {
-        description: {
-            story: 'Всего 6 вариантов размера: `xSmall`, `small`, `medium`, `large`, `xLarge`, `max`.'
-                + '<br />'
-                + 'Для выбора размера необходимо указать их в формате: `borderRadii.[size]`',
-        },
-        source: {
-            code: `
+setStoryParams(Sizes, {
+    title: 'Размеры',
+    description: 'Всего 6 вариантов размера: `xSmall`, `small`, `medium`, `large`, `xLarge`, `max`.'
+        + '<br />'
+        + 'Для выбора размера необходимо указать их в формате: `borderRadii.[size]`',
+    code: `
 xSmall: borderRadii.xSmall
 small: borderRadii.small
 medium: borderRadii.medium
 large: borderRadii.large
 xLarge: borderRadii.xLarge
 max: borderRadii.max
-            `,
-        },
-    },
-};
+`,
+});
 
-Sides.parameters = {
-    docs: {
-        description: {
-            story: 'Выбор стороны состоит из 9-ти вариантов: `top`, `right`, `bottom`, `left`, '
-                + '`top-left`, `top-right`, `bottom-left`, `bottom-right`, `all`.',
-        },
-        source: {
-            code: `
+setStoryParams(Sides, {
+    title: 'Стороны',
+    description: 'Выбор стороны состоит из 9-ти вариантов: `top`, `right`, `bottom`, `left`, '
+        + '`top-left`, `top-right`, `bottom-left`, `bottom-right`, `all`.',
+    code: `
 top: borderRadii.create('top')
 right: borderRadii.create('right')
 bottom: borderRadii.create('bottom')
@@ -154,7 +147,5 @@ top-right: borderRadii.create('top-right')
 bottom-left: borderRadii.create('bottom-left')
 bottom-right: borderRadii.create('bottom-right')
 all: borderRadii.create('all')
-            `,
-        },
-    },
-};
+`,
+});

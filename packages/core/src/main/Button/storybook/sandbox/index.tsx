@@ -1,5 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Button, ButtonProps, IconButton, IconButtonProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { ChevronDownIcon, PaperClipIcon, SmallPaperClipIcon } from '../assets';
 
 interface StoryButtonProps extends ButtonProps {
@@ -42,18 +43,20 @@ export const SandboxStory: Story<StoryButtonProps> = ({
     </div>
 );
 
-SandboxStory.storyName = 'Компонент';
-SandboxStory.args = {
-    buttonType: 'button',
-    children: 'Перейти',
-    size: 'medium',
-    borderRadius: 'medium',
-    disabled: false,
-    loading: false,
-    color: 'brand',
-    type: 'contained',
-    leftIcon: <PaperClipIcon />,
-    rightIcon: <ChevronDownIcon />,
-    leftIconShown: true,
-    rightIconShown: true,
-};
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+    args: {
+        buttonType: 'button',
+        children: 'Перейти',
+        size: 'medium',
+        borderRadius: 'medium',
+        disabled: false,
+        loading: false,
+        color: 'brand',
+        type: 'contained',
+        leftIcon: <PaperClipIcon />,
+        rightIcon: <ChevronDownIcon />,
+        leftIconShown: true,
+        rightIconShown: true,
+    },
+});

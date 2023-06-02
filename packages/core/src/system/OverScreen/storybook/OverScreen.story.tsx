@@ -1,7 +1,8 @@
-import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OVER_SCREEN_PLACEMENT, OverScreen } from '@core';
+import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OVER_SCREEN_PLACEMENT, OverScreen as OverScreenKit } from '@core';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { OverScreenProps } from '..';
 
 const defaultArgs: Partial<OverScreenProps> = {
@@ -18,8 +19,7 @@ const defaultArgs: Partial<OverScreenProps> = {
 
 export default {
     title: STORY_PATHS.core.components.system('OverScreen'),
-    component: OverScreen,
-    parameters: { actions: { disable: true } },
+    component: OverScreenKit,
     args: defaultArgs,
     argTypes: {
         ...defineCategory('Расположение', {
@@ -48,9 +48,9 @@ export default {
         }),
         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
     },
-};
+} as Meta<OverScreenProps>;
 
-export { SandboxStory } from './sandbox';
+export { OverScreen } from './sandbox';
 export { AppearancesStory } from './appearance';
 export { BooleanVariantsStory } from './booleanVariants';
 export { MarginStory } from './margin';

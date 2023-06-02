@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
-import { excludeProp } from '@core/storybook/templateParams';
 import { PALETTE_COLORS, SelectionList, SelectionListProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const ColorsStory: Story<SelectionListProps> = ({
     nodes,
@@ -30,5 +30,7 @@ export const ColorsStory: Story<SelectionListProps> = ({
     );
 };
 
-ColorsStory.storyName = 'Цвета';
-ColorsStory.argTypes = excludeProp(['color']);
+setStoryParams(ColorsStory, {
+    title: 'Цвета',
+    excludeArgs: ['color'],
+});

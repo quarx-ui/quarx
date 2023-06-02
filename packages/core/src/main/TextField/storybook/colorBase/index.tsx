@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { TextFieldProps } from '@core/src/main/TextField/types';
-import { createStoryDescription } from '@core/storybook/utils';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TextField } from '../..';
 import colorBaseDescription from './description.md';
 
@@ -13,6 +12,8 @@ export const ColorBaseStory: Story<TextFieldProps> = (props) => DisplayVariants(
     componentProps: props,
 });
 
-ColorBaseStory.storyName = 'Цветовая основа';
-ColorBaseStory.argTypes = excludeProp(['colorBase', 'leftIconShown', 'rightIconShown']);
-ColorBaseStory.parameters = createStoryDescription(colorBaseDescription);
+setStoryParams(ColorBaseStory, {
+    title: 'Цветовая основа',
+    description: colorBaseDescription,
+    excludeArgs: ['colorBase', 'leftIconShown', 'rightIconShown'],
+});

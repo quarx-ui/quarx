@@ -12,12 +12,12 @@ export const designParams = (url: string) => ({
     url,
 });
 
-export const excludeProp = (props: Array<string>, defaultArgType?: ArgTypes): ArgTypes => {
+export const excludeProp = <T extends Record<string, any>>(props: Array<keyof T>, defaultArgType?: ArgTypes): ArgTypes => {
     const argTypes = {
         ...defaultArgType,
     };
     props.forEach((property) => {
-        argTypes[property] = { table: { disable: true } };
+        argTypes[String(property)] = { table: { disable: true } };
     });
     return argTypes;
 };

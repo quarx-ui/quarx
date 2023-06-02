@@ -2,8 +2,7 @@ import { Badge, BadgeColor, BadgeProps } from '@core';
 import styled from '@emotion/styled';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const COLORS: BadgeColor[] = ['brand', 'secondary', 'info', 'success', 'warning', 'danger', 'text'];
@@ -48,11 +47,8 @@ export const ColorsStory: Story<BadgeProps> = (props) => (
     </Flex>
 );
 
-ColorsStory.storyName = 'Цвета';
-ColorsStory.parameters = createStoryDescription(description);
-ColorsStory.argTypes = excludeProp([
-    'leftItemShown',
-    'rightItemShown',
-    'counterShown',
-    'color',
-]);
+setStoryParams(ColorsStory, {
+    title: 'Цвета',
+    description,
+    excludeArgs: ['leftItemShown', 'rightItemShown', 'counterShown', 'color'],
+});

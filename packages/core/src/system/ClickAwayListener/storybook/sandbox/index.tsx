@@ -4,6 +4,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { createElement, useState } from 'react';
 import { Button, ClickAwayListener } from '@core';
 import { If } from '@core/src/system/If';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SandBoxClickAwayListenerProps, SimpleModal } from '../utils';
 
 const Flex = styled('div')({
@@ -52,4 +53,7 @@ export const SandboxStory: Story<SandBoxClickAwayListenerProps> = ({
         </Flex>
     );
 };
-SandboxStory.storyName = 'Компонент';
+
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

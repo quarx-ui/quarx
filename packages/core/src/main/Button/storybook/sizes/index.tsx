@@ -1,8 +1,7 @@
 import { Button, ButtonProps, ButtonSize } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const SIZES: ButtonSize[] = ['xSmall', 'small', 'medium', 'large'];
@@ -14,10 +13,8 @@ export const SizesStory: Story<ButtonProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-SizesStory.storyName = 'Размеры';
-SizesStory.parameters = createStoryDescription(description);
-SizesStory.argTypes = excludeProp([
-    'leftIconShown',
-    'rightIconShown',
-    'size',
-]);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    description,
+    excludeArgs: ['leftIconShown', 'rightIconShown', 'size'],
+});

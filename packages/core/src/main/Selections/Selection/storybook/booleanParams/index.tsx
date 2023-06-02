@@ -1,9 +1,9 @@
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import styled from '@emotion/styled';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { Selection, SelectionProps, useBooleanState, SELECTION_TYPE } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { CONTROLLER_OPTIONS, Flex, getController, Padding, SelectionTemplateProps } from '../utils';
 
 const SPAN = styled('span')({
@@ -46,5 +46,7 @@ export const BooleanParamsStory: Story<SelectionTemplateProps> = ({
     );
 };
 
-BooleanParamsStory.storyName = 'Boolean параметры';
-BooleanParamsStory.argTypes = excludeProp(Booleans);
+setStoryParams(BooleanParamsStory, {
+    title: 'Boolean параметры',
+    excludeArgs: Booleans,
+});

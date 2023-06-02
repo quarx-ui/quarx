@@ -3,6 +3,8 @@ import { Story } from '@storybook/react/types-6-0';
 import { ElevationSize, ElevationType, makeStyles } from '@core';
 import { Div, H2, P, Code } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Documentation = () => (
     <Div>
@@ -70,7 +72,7 @@ export default {
             page: withDocsPage(Documentation),
         },
     },
-};
+} as Meta;
 
 interface ElevationStory {
     size: ElevationSize;
@@ -104,4 +106,6 @@ export const Sandbox: Story<ElevationStory> = (params) => {
     );
 };
 
-Sandbox.storyName = 'Тени';
+setStoryParams(Sandbox, {
+    title: 'Тени',
+});

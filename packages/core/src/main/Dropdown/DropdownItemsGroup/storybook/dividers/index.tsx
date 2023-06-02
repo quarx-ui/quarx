@@ -1,5 +1,4 @@
 import { Story } from '@storybook/react/types-6-0';
-import { excludeProp } from '@core/storybook/templateParams';
 import { createStoryDescription } from '@core/storybook/utils';
 import { DropdownItemsGroup, DropdownItemsGroupProps, DropdownItemSize, Stack } from '@core';
 import { Title } from '@core/storybook/DisplayVariants/styledComponents';

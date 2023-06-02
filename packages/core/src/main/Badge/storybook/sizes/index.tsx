@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Badge, BadgeProps } from '@core';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const SIZES = ['small', 'medium', 'large'];
@@ -14,11 +13,8 @@ export const SizesStory: Story<BadgeProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-SizesStory.storyName = 'Размеры';
-SizesStory.parameters = createStoryDescription(description);
-SizesStory.argTypes = excludeProp([
-    'leftItemShown',
-    'rightItemShown',
-    'counterShown',
-    'size',
-]);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    description,
+    excludeArgs: ['leftItemShown', 'rightItemShown', 'counterShown', 'size'],
+});

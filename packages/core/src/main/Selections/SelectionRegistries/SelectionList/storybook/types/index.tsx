@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { excludeProp } from '@core/storybook/templateParams';
 import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { SelectionListProps, SELECTION_GROUP_TYPE, SelectionList } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const TypesStory: Story<SelectionListProps> = ({
     nodes,
@@ -30,5 +30,7 @@ export const TypesStory: Story<SelectionListProps> = ({
     );
 };
 
-TypesStory.storyName = 'Типы';
-TypesStory.argTypes = excludeProp(['type']);
+setStoryParams(TypesStory, {
+    title: 'Типы',
+    excludeArgs: ['type'],
+});

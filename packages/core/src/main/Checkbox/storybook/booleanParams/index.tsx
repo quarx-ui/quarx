@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Checkbox, CheckboxProps } from '@core';
 import { useState } from 'react';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const BooleanParamsStory: Story<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
@@ -25,5 +25,7 @@ export const BooleanParamsStory: Story<CheckboxProps> = (props) => {
     });
 };
 
-BooleanParamsStory.storyName = 'Boolean параметры';
-BooleanParamsStory.argTypes = excludeProp(['disabled', 'indeterminate']);
+setStoryParams(BooleanParamsStory, {
+    title: 'Boolean параметры',
+    excludeArgs: ['disabled', 'indeterminate'],
+});

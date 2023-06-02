@@ -1,6 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
-import { createStoryDescription } from '@core/storybook/utils';
 import { Accordion, AccordionProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 import { CheckmarkCircleIcon } from './CheckmarkCircleIcon';
 
@@ -12,5 +12,7 @@ export const AdditionalStatusStory: Story<AccordionProps> = ({ ...props }) => (
     />
 );
 
-AdditionalStatusStory.storyName = 'Дополнительный статус';
-AdditionalStatusStory.parameters = createStoryDescription(description);
+setStoryParams(AdditionalStatusStory, {
+    title: 'Дополнительный статус',
+    description,
+});

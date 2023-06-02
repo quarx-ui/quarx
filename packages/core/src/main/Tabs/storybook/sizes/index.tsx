@@ -1,9 +1,8 @@
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { createStoryDescription } from '@core/storybook/utils';
 import { Tabs, TabsProps } from '@core';
 import { QX_SIZE } from '@core/enums';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Title } from '../utils';
 import description from './description.md';
 import { TABS_TYPES } from '../../common';
@@ -28,6 +27,8 @@ export const SizesStory: Story<TabsProps> = (props) => (
     </div>
 );
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size', 'type']);
-SizesStory.parameters = createStoryDescription(description);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    description,
+    excludeArgs: ['size', 'type'],
+});

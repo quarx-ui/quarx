@@ -1,6 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Button, QX_SIZE, RadioButton, RadioButtonProps } from '@core';
 import { Fragment, useState } from 'react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const OuterCheckedStateStory: Story<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
@@ -29,4 +30,7 @@ export const OuterCheckedStateStory: Story<RadioButtonProps> = (props) => {
         </Fragment>
     );
 };
-OuterCheckedStateStory.storyName = 'Внешнее управление компонентом';
+
+setStoryParams(OuterCheckedStateStory, {
+    title: 'Внешнее управление компонентом',
+});

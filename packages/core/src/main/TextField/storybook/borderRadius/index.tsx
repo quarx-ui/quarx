@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { TextFieldProps } from '@core/src/main/TextField/types';
-import { createStoryDescription } from '@core/storybook/utils';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TextField } from '../..';
 import borderRadiusDescription from './description.md';
 
@@ -13,6 +12,8 @@ export const BorderRadiusStory: Story<TextFieldProps> = (props) => DisplayVarian
     componentProps: props,
 });
 
-BorderRadiusStory.storyName = 'Скругления';
-BorderRadiusStory.argTypes = excludeProp(['borderRadius', 'leftIconShown', 'rightIconShown']);
-BorderRadiusStory.parameters = createStoryDescription(borderRadiusDescription);
+setStoryParams(BorderRadiusStory, {
+    title: 'Скругления',
+    description: borderRadiusDescription,
+    excludeArgs: ['borderRadius', 'leftIconShown', 'rightIconShown'],
+});

@@ -3,19 +3,22 @@ import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { DEMONSTRATION_ALERT } from '@core/storybook/constants';
+import { Meta } from '@storybook/react';
+import { LinkProps } from '@core';
 import { Link } from '../Link';
 import { defaultLinkArgs } from './constants';
 
 export default {
     title: STORY_PATHS.core.components.main('Link'),
     component: Link,
-    parameters: { actions: { disable: true } },
     args: defaultLinkArgs,
     argTypes: {
         component: {
             control: false,
             type: {
                 required: false,
+                name: 'other',
+                value: '',
             },
         },
         ...defineCategory('Для демонстрации', {
@@ -51,7 +54,7 @@ export default {
         }),
         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
     },
-};
+} as Meta<LinkProps>;
 
 export { SandboxStory } from './sandbox';
 export { ColorsStory } from './colors';

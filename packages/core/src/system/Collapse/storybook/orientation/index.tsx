@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { Collapse, CollapseProps } from '@core';
 import { Column, StoryButton } from '@core/storybook/components';
-import { SizesStory } from '@core/src/main/Dropdown/DropdownItemsGroup/storybook/sizes';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Children } from '../common';
 
 export const OrientationStory: Story<CollapseProps> = (props) => {
@@ -38,5 +37,7 @@ export const OrientationStory: Story<CollapseProps> = (props) => {
     );
 };
 
-OrientationStory.storyName = 'Вертикальное и горизонтальное направления скрытия элемента';
-SizesStory.argTypes = excludeProp(['open']);
+setStoryParams(OrientationStory, {
+    title: 'Вертикальное и горизонтальное направления скрытия элемента',
+    excludeArgs: ['orientation'],
+});

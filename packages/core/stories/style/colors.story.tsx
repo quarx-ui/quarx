@@ -13,6 +13,8 @@ import {
 } from '@core/styles/engine/theme/palette/types';
 import { Story } from '@storybook/react/types-6-0';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 interface ColorsStoryProps {
     type: PaletteColor;
@@ -80,7 +82,7 @@ export default {
             canvas: { hidden: true },
         },
     },
-};
+} as Meta<ColorsStoryProps>;
 
 const useStylesSandbox = makeStyles((
     { palette },
@@ -163,8 +165,6 @@ export const Sandbox: Story<ColorsStoryProps> = ({
         </div>
     );
 };
-
-Sandbox.storyName = 'Цвета';
 
 const useStylesColor = makeStyles((
     { palette, transitions },
@@ -414,13 +414,6 @@ export const Success = Template.bind({});
 export const Warning = Template.bind({});
 export const Danger = Template.bind({});
 
-Brand.args = { type: 'brand' };
-Secondary.args = { type: 'secondary' };
-Info.args = { type: 'info' };
-Success.args = { type: 'success' };
-Warning.args = { type: 'warning' };
-Danger.args = { type: 'danger' };
-
 const COLORS = createPalette().colors;
 
 const getColorSource = (color: PaletteColor) => `
@@ -443,38 +436,22 @@ palette: {
 }
 `;
 
-Brand.parameters = {
-    docs: {
-        source: { code: getColorSource('brand') },
-    },
+setStoryParams(Sandbox, {
+    title: 'Цвета',
+});
+
+const colorToComponent: Record<PaletteColor, Story<{ type: PaletteColor }>> = {
+    brand: Brand,
+    secondary: Secondary,
+    info: Info,
+    success: Success,
+    warning: Warning,
+    danger: Danger,
 };
 
-Secondary.parameters = {
-    docs: {
-        source: { code: getColorSource('secondary') },
-    },
-};
-
-Info.parameters = {
-    docs: {
-        source: { code: getColorSource('info') },
-    },
-};
-
-Success.parameters = {
-    docs: {
-        source: { code: getColorSource('success') },
-    },
-};
-
-Warning.parameters = {
-    docs: {
-        source: { code: getColorSource('warning') },
-    },
-};
-
-Danger.parameters = {
-    docs: {
-        source: { code: getColorSource('danger') },
-    },
-};
+(Object.entries(colorToComponent) as [PaletteColor, Story][]).forEach(([color, component]) => {
+    setStoryParams(component, {
+        args: { type: color },
+        code: getColorSource(color),
+    });
+});

@@ -3,9 +3,23 @@ import { Story } from '@storybook/react/types-6-0';
 import { ARRANGEMENTS, PLACEMENTS, Position, useFloating, UseFloatingProps } from '@core';
 import { defineCategory } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
+import { Meta } from '@storybook/react';
+
+type UseFloatingStoryProps = Omit<UseFloatingProps, 'anchor' | 'floatingRef'>;
+
+const defaultArgs: UseFloatingStoryProps = {
+    placement: PLACEMENTS.bottom,
+    arrangement: ARRANGEMENTS.absolute,
+    disableOffset: false,
+    disableFlip: false,
+    disableShift: false,
+    open: true,
+};
 
 export default {
     title: STORY_PATHS.core.hooks('useFloating'),
+    args: defaultArgs,
     argTypes: {
         ...defineCategory('Основное', {
             placement: {
@@ -98,21 +112,7 @@ export default {
             },
         }),
     },
-    parameters: {
-        actions: { disable: true },
-    },
-};
-
-type UseFloatingStoryProps = Omit<UseFloatingProps, 'anchor' | 'floatingRef'>;
-
-const defaultArgs: UseFloatingStoryProps = {
-    placement: PLACEMENTS.bottom,
-    arrangement: ARRANGEMENTS.absolute,
-    disableOffset: false,
-    disableFlip: false,
-    disableShift: false,
-    open: true,
-};
+} as Meta<UseFloatingStoryProps>;
 
 export const Sandbox: Story<UseFloatingStoryProps> = ({
     open,
@@ -197,7 +197,6 @@ export const Sandbox: Story<UseFloatingStoryProps> = ({
     );
 };
 
-Sandbox.args = defaultArgs;
 Sandbox.parameters = {
     docs: {
         source: { type: 'code' },
@@ -261,15 +260,10 @@ export const ManualPosition: Story<UseFloatingStoryProps> = () => {
     );
 };
 
-ManualPosition.args = defaultArgs;
-ManualPosition.storyName = 'Координаты привязки';
-ManualPosition.parameters = {
-    docs: {
-        description: {
-            story: 'Плавающий элемент можно привязать к любым координатам, для этого в свойство `anchor`'
-                + 'передаются координаты `x` и `y`.'
-                + '<br/>'
-                + 'В данном примере осуществляется привязка к координатам мыши.',
-        },
-    },
-};
+setStoryParams(ManualPosition, {
+    title: 'Координаты привязки',
+    description: 'Плавающий элемент можно привязать к любым координатам, для этого в свойство `anchor`'
+        + 'передаются координаты `x` и `y`.'
+        + '<br/>'
+        + 'В данном примере осуществляется привязка к координатам мыши.',
+});

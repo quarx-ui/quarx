@@ -1,6 +1,5 @@
 import { Story } from '@storybook/react/types-6-0';
-import { createStoryDescription } from '@core/storybook/utils';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { defaultTextFieldStoryArgs } from '../args';
 import { Flex, StoryTextFieldProps } from '../utils';
@@ -14,17 +13,12 @@ export const HelpersStory: Story<StoryTextFieldProps> = (props) => (
     </Flex>
 );
 
-HelpersStory.storyName = 'Подсказки';
-HelpersStory.parameters = createStoryDescription(helperDescription);
-HelpersStory.argTypes = excludeProp([
-    'helperText',
-    'counter',
-    'errorText',
-    'maxLength',
-    'leftIconShown',
-    'rightIconShown',
-]);
-HelpersStory.args = {
-    ...defaultTextFieldStoryArgs,
-    defaultValue: 'Some text',
-};
+setStoryParams(HelpersStory, {
+    title: 'Подсказки',
+    description: helperDescription,
+    excludeArgs: ['helperText', 'counter', 'errorText', 'maxLength', 'leftIconShown', 'rightIconShown'],
+    args: {
+        ...defaultTextFieldStoryArgs,
+        defaultValue: 'Some text',
+    },
+});

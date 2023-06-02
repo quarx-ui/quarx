@@ -4,6 +4,8 @@ import { typography } from '@core';
 import styled from '@emotion/styled';
 import { Div, H2, P, Code } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Documentation = () => (
     <Div>
@@ -84,7 +86,7 @@ export default {
             page: withDocsPage(Documentation),
         },
     },
-};
+} as Meta;
 
 interface TypographySandbox {
     size: 'S' | 'M' | 'L' | 'XL';
@@ -101,14 +103,6 @@ export const Sandbox: Story<TypographySandbox> = ({
         {text}
     </div>
 );
-
-Sandbox.args = {
-    size: 'M',
-    weight: 'Regular',
-    text: 'Пример текста',
-};
-
-Sandbox.storyName = 'Типографика';
 
 const Row = styled('tr')({
     display: 'flex',
@@ -187,19 +181,22 @@ makeStyles({
     </table>
 );
 
-Examples.parameters = {
-    docs: {
-        description: {
-            story: 'Применение объекта typography внутри другого объекта '
-                + '(передаваемого в styled, makeStyles, и так далее) '
-                + 'осуществляется с помощью spread-оператора, '
-                + 'например, `...typography.Text.XL.Medium`.\n\n'
-                + 'При необходимости можно использовать отдельные свойства из объекта, например, '
-                + '`fontSize: typography.Text.XL.Semibold.fontSize`.\n\n'
-                + 'Далее приведены примеры использования объекта типографики с библиотеками: '
-                + '`emotion`, `material-ui` и `QuarX`:',
-        },
+setStoryParams(Sandbox, {
+    title: 'Типографика',
+    args: {
+        size: 'M',
+        weight: 'Regular',
+        text: 'Пример текста',
     },
-};
-
-Examples.storyName = 'Применение';
+});
+setStoryParams(Examples, {
+    title: 'Применение',
+    description: 'Применение объекта typography внутри другого объекта '
+        + '(передаваемого в styled, makeStyles, и так далее) '
+        + 'осуществляется с помощью spread-оператора, '
+        + 'например, `...typography.Text.XL.Medium`.\n\n'
+        + 'При необходимости можно использовать отдельные свойства из объекта, например, '
+        + '`fontSize: typography.Text.XL.Semibold.fontSize`.\n\n'
+        + 'Далее приведены примеры использования объекта типографики с библиотеками: '
+        + '`emotion`, `material-ui` и `QuarX`:',
+});

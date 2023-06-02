@@ -1,10 +1,10 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Button, Dropdown, DropdownProps, Stack, useBooleanState } from '@core';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
-import { excludeProp } from '@core/storybook/templateParams';
 import styled from '@emotion/styled';
 import { Fragment, useRef } from 'react';
 import { CustomContent } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { createDropdownChildren } from '../template';
 
 const Divider = styled.div(() => ({
@@ -119,5 +119,8 @@ export const CustomizationStory: Story<DropdownProps> = (props) => {
         </Stack>
     );
 };
-CustomizationStory.storyName = 'Пользовательские настройки';
-CustomizationStory.argTypes = excludeProp(['header', 'children', 'footer']);
+
+setStoryParams(CustomizationStory, {
+    title: 'Пользовательские настройки',
+    excludeArgs: ['header', 'children', 'footer'],
+});

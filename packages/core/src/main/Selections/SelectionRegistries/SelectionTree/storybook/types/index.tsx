@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { SelectionTree, SelectionTreeProps, SELECTION_GROUP_TYPE } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const TypesStory: Story<SelectionTreeProps> = ({
     nodes,
@@ -31,5 +31,7 @@ export const TypesStory: Story<SelectionTreeProps> = ({
     );
 };
 
-TypesStory.storyName = 'Типы';
-TypesStory.argTypes = excludeProp(['type']);
+setStoryParams(TypesStory, {
+    title: 'Типы',
+    excludeArgs: ['type'],
+});

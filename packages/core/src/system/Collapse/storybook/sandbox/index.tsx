@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
-import { createStoryDescription } from '@core/storybook/utils';
 import { Collapse, CollapseProps } from '@core';
 import { Column, StoryButton } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Children } from '../common';
 import description from './description.md';
 
@@ -40,5 +40,7 @@ export const SandboxStory: Story<CollapseProps> = (props) => {
     );
 };
 
-SandboxStory.storyName = 'Компонент';
-SandboxStory.parameters = createStoryDescription(description);
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+    description,
+});

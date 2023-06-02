@@ -2,6 +2,7 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { QX_SIZE } from '@core';
+import { Meta } from '@storybook/react';
 import { SandboxStory } from './sandbox';
 import { CustomizationStory } from './customization';
 import { SizesStory } from './sizes';
@@ -10,9 +11,6 @@ import { Dropdown, DROPDOWN_WIDTH_PRESETS, DropdownProps } from '..';
 export default {
     title: STORY_PATHS.core.components.main('Dropdown'),
     component: Dropdown,
-    parameters: {
-        actions: { disable: true },
-    },
     argTypes: {
         ...defineCategory('Стилевые параметры', {
             size: { description: 'Размер компонента' },
@@ -62,8 +60,8 @@ export default {
         onClickAway: () => undefined,
         maxBodyHeight: 320,
         hidden: false,
-    } as Partial<DropdownProps>,
-};
+    },
+} as Meta<DropdownProps>;
 
 export {
     SandboxStory,

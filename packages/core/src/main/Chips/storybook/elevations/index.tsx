@@ -1,7 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
 import { Chips, ChipsProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const ELEVATIONS: boolean[] = [true, false];
 export const ElevationsStory: Story<ChipsProps> = (props) => DisplayVariants({
@@ -11,5 +11,7 @@ export const ElevationsStory: Story<ChipsProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-ElevationsStory.storyName = 'Тени';
-ElevationsStory.argTypes = excludeProp(['elevation']);
+setStoryParams(ElevationsStory, {
+    title: 'Тени',
+    excludeArgs: ['elevation'],
+});

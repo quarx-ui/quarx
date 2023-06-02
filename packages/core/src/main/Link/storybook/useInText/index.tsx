@@ -1,6 +1,6 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Link, LinkProps } from '@core';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 export const UseInTextStory: Story<LinkProps> = (_) => (
@@ -14,5 +14,7 @@ export const UseInTextStory: Story<LinkProps> = (_) => (
     </p>
 );
 
-UseInTextStory.storyName = 'Использование в тексте';
-UseInTextStory.parameters = createStoryDescription(description);
+setStoryParams(UseInTextStory, {
+    title: 'Использование в тексте',
+    description,
+});

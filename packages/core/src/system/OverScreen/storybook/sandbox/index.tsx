@@ -2,6 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Fragment, useState } from 'react';
 import { OverScreen as KitOverScreen } from '@core';
 import { StoryButton } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryOverScreenProps, Block } from '../utils';
 
 export const OverScreen: Story<StoryOverScreenProps> = ({
@@ -31,5 +32,6 @@ export const OverScreen: Story<StoryOverScreenProps> = ({
     );
 };
 
-export const SandboxStory = OverScreen.bind({});
-SandboxStory.storyName = 'Компонент';
+setStoryParams(OverScreen, {
+    title: 'Компонент',
+});

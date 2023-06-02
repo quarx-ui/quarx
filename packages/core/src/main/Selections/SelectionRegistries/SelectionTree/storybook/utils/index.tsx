@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { Story } from '@storybook/react/types-6-0';
 import { SelectionTree, SelectionTreeProps, SELECTION_TREE_UTILS } from '@core';
 import { StoryDarkerContainer } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryUtilButton } from '../StoryUtilButton';
 
 const CONTAINER = styled('div')({
@@ -120,4 +121,6 @@ export const UtilsStory: Story<SelectionTreeProps> = ({
     );
 };
 
-UtilsStory.storyName = 'Утилиты';
+setStoryParams(UtilsStory, {
+    title: 'Утилиты',
+});
