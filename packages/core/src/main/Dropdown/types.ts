@@ -55,7 +55,7 @@ export interface DropdownPropsWithoutHtml extends
     maxWidth?: number;
 
     /** Функция, вызываемая при клике вне дочернего компонента */
-    onClickAway(): void;
+    onClickAway(event: MouseEvent | TouchEvent): void;
 
     /** Свойства всплывающего окна */
     PopupProps?: DropdownPopupProps;
