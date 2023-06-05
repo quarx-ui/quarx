@@ -26,10 +26,13 @@ export interface PopupPropsWithoutHtml extends
     disableTransition?: boolean;
 
     /** Функция, вызываемая при клике вне popup */
-    onClickAway(event: MouseEvent | TouchEvent): void;
+    onClickAway?(event: MouseEvent | TouchEvent): void;
+
+    /** Элементы, при клике на которые onClickAway не срабатывает */
+    clickAwayIgnore?: HTMLElement | HTMLElement[] | null;
 
     /** Параметры, передаваемые ClickAwayListener компоненту */
-    ClickAwayListenerProps?: Omit<ClickAwayListenerProps, 'children' | 'onClickAway'>;
+    ClickAwayListenerProps?: Omit<ClickAwayListenerProps, 'children' | 'onClickAway' | 'ignore'>;
 
     /** Отключить портал
      *
@@ -42,7 +45,7 @@ export interface PopupPropsWithoutHtml extends
     container?: ReactElement;
 
     /** Параметры, передаваемые Backdrop компоненту */
-    BackdropProps?: BackdropProps;
+    BackdropProps?: Omit<BackdropProps, 'mounted' | 'children'>;
 
     /** Дочерние элементы popup */
     children: React.ReactNode | React.ReactNode[];

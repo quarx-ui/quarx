@@ -35,4 +35,7 @@ export interface ClickAwayListenerProps {
 
     /** Элемент для прослушивания */
     children: ReactElement;
+
+    /** Элементы, при клике на которые onClickAway не срабатывает */
+    ignore?: HTMLElement | HTMLElement[] | null;
 }
