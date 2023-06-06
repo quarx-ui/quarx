@@ -3,7 +3,6 @@ import { QX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core/styles';
 import { If } from '@core/src/system/If';
 import { Collapse, Divider, useBooleanState } from '@core';
-import clsx from 'clsx';
 import { AccordionProps } from './types';
 import { useStyles } from './styles';
 import { ChevronDownIcon } from './assets/ChevronDownIcon';
@@ -101,8 +100,6 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
                     open={open}
                     {...CollapseProps}
                     timeout={timeout}
-                    className={clsx(cn('collapse'), CollapseProps?.className)}
-                    css={styles.collapse}
                 >
                     <div
                         className={cn('details')}

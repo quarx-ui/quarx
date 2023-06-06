@@ -3,6 +3,7 @@ import { getDarkPalette } from '@core/styles/engine/theme/palette/getDarkPalette
 import { deepmerge } from '../../utils';
 import { CreatePaletteArg, InitialPalette, Palette } from './types';
 import { DEFAULT_COLORS } from './defaultColors';
+import { mergeObjectProps } from './mergeObjectProps';
 
 export function createPalette(palette: CreatePaletteArg = { type: 'light' }): Palette {
     const {
@@ -18,11 +19,11 @@ export function createPalette(palette: CreatePaletteArg = { type: 'light' }): Pa
         : getLightPalette;
 
     const computedPalette = getPalette(initial.colors, initial.background, initial.text);
+    const mergedObjects = mergeObjectProps(initial, computedPalette, ['colors']);
 
     return deepmerge({
         type,
-        ...initial,
-        ...computedPalette,
+        ...mergedObjects,
     }, overwrites);
 }
 

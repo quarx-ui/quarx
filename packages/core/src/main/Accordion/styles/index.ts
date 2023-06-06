@@ -52,21 +52,19 @@ export const useStyles = makeStyles((
         color: palette.text.secondary,
         ...sizeToTextStyle[size],
     },
-    collapse: {
-        ...paramsToCss(size)({
-            [QX_SIZE.small]: {
-                marginTop: 12,
-            },
-            [QX_SIZE.medium]: {
-                marginTop: 16,
-            },
-            [QX_SIZE.large]: {
-                marginTop: 16,
-            },
-        }),
-    },
     details: [
         !inheritTextStyles && sizeToTextStyle[size],
+        paramsToCss(size)({
+            [QX_SIZE.small]: {
+                paddingTop: 12,
+            },
+            [QX_SIZE.medium]: {
+                paddingTop: 16,
+            },
+            [QX_SIZE.large]: {
+                paddingTop: 16,
+            },
+        }),
     ],
     divider: {
         marginTop: sizeToAccordionPadding[size] - 1,
