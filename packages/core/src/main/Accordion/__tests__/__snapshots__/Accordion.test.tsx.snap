@@ -40,13 +40,13 @@ exports[`Accordion style params inheritTextStyles false 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-16xzzn4-QxAccordion-details"
+          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
         />
       </div>
     </div>
@@ -94,13 +94,13 @@ exports[`Accordion style params inheritTextStyles true 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-m6cx3q-QxAccordion-details"
+          class="QxAccordion-details css-90nyum-QxAccordion-details"
         />
       </div>
     </div>
@@ -148,13 +148,13 @@ exports[`Accordion style params open false 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-16xzzn4-QxAccordion-details"
+          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
         />
       </div>
     </div>
@@ -202,13 +202,13 @@ exports[`Accordion style params open true 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1qn9xaz-QxCollapse-root-QxCollapse-root-QxAccordion-collapse appear-active"
+      class="QxCollapse css-zowqd2-QxCollapse-root-QxCollapse-root appear-active"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-16xzzn4-QxAccordion-details"
+          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
         />
       </div>
     </div>
@@ -256,13 +256,13 @@ exports[`Accordion style params showDivider false 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-16xzzn4-QxAccordion-details"
+          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
         />
       </div>
     </div>
@@ -310,13 +310,13 @@ exports[`Accordion style params showDivider true 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-16xzzn4-QxAccordion-details"
+          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
         />
       </div>
     </div>
@@ -368,13 +368,13 @@ exports[`Accordion style params size large 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-1dw9t0b-QxAccordion-details"
+          class="QxAccordion-details css-ps667h-QxAccordion-details"
         />
       </div>
     </div>
@@ -422,13 +422,13 @@ exports[`Accordion style params size medium 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-1hi3p11-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-16xzzn4-QxAccordion-details"
+          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
         />
       </div>
     </div>
@@ -476,13 +476,13 @@ exports[`Accordion style params size small 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-2begyk-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-18ervr-QxAccordion-details"
+          class="QxAccordion-details css-1qvfua-QxAccordion-details"
         />
       </div>
     </div>
@@ -530,13 +530,13 @@ exports[`Accordion style params size xSmall 1`] = `
       </div>
     </div>
     <div
-      class="QxCollapse QxAccordion-collapse css-c098d8-QxCollapse-root-QxCollapse-root-QxAccordion-collapse"
+      class="QxCollapse css-1w91dc0-QxCollapse-root-QxCollapse-root"
     >
       <div
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-18ervr-QxAccordion-details"
+          class="QxAccordion-details css-4mauda-QxAccordion-details"
         />
       </div>
     </div>
