@@ -29,6 +29,7 @@ export const Popup: FC<PopupProps> = forwardRef<HTMLDivElement, PopupProps>((
         container,
 
         onClickAway,
+        clickAwayIgnore,
         ClickAwayListenerProps,
 
         disableBackdrop = false,
@@ -80,7 +81,8 @@ export const Popup: FC<PopupProps> = forwardRef<HTMLDivElement, PopupProps>((
             {...TransitionProps}
         >
             <ClickAwayListener
-                onClickAway={onClickAway}
+                ignore={clickAwayIgnore}
+                onClickAway={(event) => onClickAway?.(event)}
                 {...ClickAwayListenerProps}
             >
                 <div

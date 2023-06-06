@@ -12,11 +12,6 @@ export default {
         ...defineCategory('Для демонстрации', {
             usePortal: { description: 'Использовать порталы для модальных окон' },
         }),
-        mouseEvent: { description: 'Прослушиваемое событие мыши. Выключено при false.' },
-        touchEvent: { description: 'Прослушиваемое событие touch. Выключено при false.' },
-        onClickAway: { description: 'Функция, срабатываемая при клике вне дочернего компонента.' },
-        children: { description: 'Элемент для прослушивания' },
-        disableReactTree: { description: '' },
     },
 } as Meta<ClickAwayListenerProps>;
 
