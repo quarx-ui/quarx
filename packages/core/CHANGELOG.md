@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.2.0&targetBranch=@quarx-ui/core@2.0.0) (2023-06-06)
+
+
+### Features
+
+* **ClickAwayLister:** Добавлена возможность игнорирования элементов ([#239](https://github.com/quarx-ui/quarx/issues/239)) ([dae1509](https://github.com/quarx-ui/quarx/commits/dae1509bee8a75803ba9b8e5cd6b2f0925090364))
+* **Stack:** Добавлен boolean пропс для Divider ([15c8da8](https://github.com/quarx-ui/quarx/commits/15c8da8981775d35d5fb1449f1d16f01f72e5df5))
+* Добавлен компонент **Collapse** ([#228](https://github.com/quarx-ui/quarx/issues/228)) ([d23ad79](https://github.com/quarx-ui/quarx/commits/d23ad79519cf82e29906440decbd2d2d13e81510))
+* Добавлен компонент **Dropdown** ([#179](https://github.com/quarx-ui/quarx/issues/179)) ([26432b2](https://github.com/quarx-ui/quarx/commits/26432b2e55e87e759f990715050c57b0042f582b))
+* Добавлена анимация компоненту  **Accordion** с помощью компонента **Collapse** ([d71caeb](https://github.com/quarx-ui/quarx/commits/d71caebf2726d849a8403f61851986980d9d16e0))
+
+
+### Bug Fixes
+
+* **Dropdown:** Исправлена типизация ([#238](https://github.com/quarx-ui/quarx/issues/238)) ([1cdd82a](https://github.com/quarx-ui/quarx/commits/1cdd82a22099385833406e606e30cd949e38d5e0))
+* **palette:** Исправлено переопределение цветов при создании темы ([1bd244f](https://github.com/quarx-ui/quarx/commits/1bd244fa6145a1390fe2aaa3e996fb9aa534a87c))
+* **Stack:** Ошибка при рендере детей по условию ([5f2f378](https://github.com/quarx-ui/quarx/commits/5f2f3781e5569b838e0ad8252259df66e867b792))
+* Исправлен импорт `jsx` из emotion ([eaa2c21](https://github.com/quarx-ui/quarx/commits/eaa2c2153af501ae987a0f31416158d11595eaeb))
+* Исправлена типизация сборки ([f76cd5f](https://github.com/quarx-ui/quarx/commits/f76cd5f44e36b4dee4c550b3ad33efcec7237226))
+
+
+### Code Refactoring
+
+* Изменен хук useBooleanState ([043ebb7](https://github.com/quarx-ui/quarx/commits/043ebb744b767b046ec960f9a6df30766cd293eb))
+
+
+
 ## [2.1.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.1.0&targetBranch=@quarx-ui/core@2.0.0) (2023-06-02)
 
 
