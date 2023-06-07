@@ -4,6 +4,7 @@ import { PaletteColor } from '@core/styles';
 import { DROPDOWN_ITEM_TYPE } from './constants';
 
 export type DropdownItemType = Values<typeof DROPDOWN_ITEM_TYPE>;
+export type DropdownItemSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface OmittedDropdownItemStyleParams {
     /** Состояние наведения */
@@ -18,8 +19,6 @@ export interface OmittedDropdownItemStyleParams {
     /** Описание существует */
     descriptionExists: boolean;
 }
-
-export type DropdownItemSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface DropdownItemStyleParams extends OmittedDropdownItemStyleParams {
     /** Размер компонента
@@ -36,4 +35,14 @@ export interface DropdownItemStyleParams extends OmittedDropdownItemStyleParams 
      *
      * @default false */
     disableFocus: boolean;
+
+    /** Тип компонента
+     *
+     * @default default */
+    type: DropdownItemType;
+
+    /** Состояние компонента
+     *
+     * @default false */
+    state: boolean;
 }

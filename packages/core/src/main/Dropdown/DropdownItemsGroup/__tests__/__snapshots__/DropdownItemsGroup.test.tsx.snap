@@ -14,7 +14,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -63,7 +63,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -112,7 +112,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -161,7 +161,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -210,7 +210,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -259,7 +259,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -308,7 +308,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -376,7 +376,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-4jd5lw-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -425,7 +425,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -474,7 +474,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -523,7 +523,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -572,7 +572,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -621,7 +621,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -670,7 +670,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -738,7 +738,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-14hra9l-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -787,7 +787,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -836,7 +836,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -885,7 +885,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -934,7 +934,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -983,7 +983,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1032,7 +1032,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1100,7 +1100,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-1sjirn2-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1149,7 +1149,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1198,7 +1198,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1247,7 +1247,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1296,7 +1296,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1345,7 +1345,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1394,7 +1394,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1462,7 +1462,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1511,7 +1511,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1560,7 +1560,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1609,7 +1609,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1658,7 +1658,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1707,7 +1707,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1756,7 +1756,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1824,7 +1824,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1873,7 +1873,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1922,7 +1922,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -1971,7 +1971,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2020,7 +2020,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2069,7 +2069,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2118,7 +2118,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2186,7 +2186,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2235,7 +2235,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2284,7 +2284,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2333,7 +2333,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2382,7 +2382,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2431,7 +2431,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2480,7 +2480,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2548,7 +2548,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_4px QxDropdownItemsGroup-stack css-gcgo6c-QxStack-root-QxDropdownItemsGroup-stack"
     >
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2597,7 +2597,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2646,7 +2646,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2695,7 +2695,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2744,7 +2744,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2793,7 +2793,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
@@ -2842,7 +2842,7 @@ exports[`DropdownItemsGroup style params size small 1`] = `
         </div>
       </button>
       <button
-        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+        class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
         tabindex="0"
         type="button"
       >
