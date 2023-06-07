@@ -1,6 +1,6 @@
 import {
     BaseProps,
-    ComponentPropsWithHTML, DropdownItemType,
+    ComponentPropsWithHTML,
     OmittedDropdownItemStyleParams,
     TransitionProps,
     WithClassesAndStyles,
@@ -26,16 +26,6 @@ export interface DropdownItemPropsWithoutHtml extends
     Partial<Omit<DropdownItemStyleParams, keyof OmittedDropdownItemStyleParams>>,
     WithClassesAndStyles<DropdownItemStyleKeys, Omit<DropdownItemStyleParams, keyof OmittedDropdownItemStyleParams>>
 {
-    /** Тип компонента
-     *
-     * @default default */
-    type?: DropdownItemType;
-
-    /** Состояние компонента
-     *
-     * @default false */
-    state?: boolean;
-
     /** Обработчик события изменения состояния */
     onChange?(): void;
 

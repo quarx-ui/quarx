@@ -3,7 +3,7 @@
 exports[`DropdownItem Active icon 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default QxDropdownItem_state css-1fqqqwy-QxDropdownItem-root"
     tabindex="0"
     type="button"
   >
@@ -30,7 +30,7 @@ exports[`DropdownItem Active icon 1`] = `
 exports[`DropdownItem Checkbox type 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_checkbox QxDropdownItem_state css-1fqqqwy-QxDropdownItem-root"
     tabindex="0"
     type="button"
   >
@@ -87,7 +87,7 @@ exports[`DropdownItem Checkbox type 1`] = `
 exports[`DropdownItem Default type 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default QxDropdownItem_state css-1fqqqwy-QxDropdownItem-root"
     tabindex="0"
     type="button"
   >
@@ -130,7 +130,7 @@ exports[`DropdownItem Default type 1`] = `
 exports[`DropdownItem Left icon 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     tabindex="0"
     type="button"
   >
@@ -176,7 +176,7 @@ exports[`DropdownItem Left icon 1`] = `
 exports[`DropdownItem Snapshot (default component) 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     tabindex="0"
     type="button"
   >
@@ -219,7 +219,7 @@ exports[`DropdownItem Snapshot (default component) 1`] = `
 exports[`DropdownItem Snapshot (with description) 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_descriptionExists QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_descriptionExists QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     tabindex="0"
     type="button"
   >
@@ -262,7 +262,7 @@ exports[`DropdownItem Snapshot (with description) 1`] = `
 exports[`DropdownItem style params color brand 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-color-brand"
     tabindex="0"
     type="button"
@@ -306,7 +306,7 @@ exports[`DropdownItem style params color brand 1`] = `
 exports[`DropdownItem style params color danger 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_danger css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_danger QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-color-danger"
     tabindex="0"
     type="button"
@@ -350,7 +350,7 @@ exports[`DropdownItem style params color danger 1`] = `
 exports[`DropdownItem style params color info 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_info css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_info QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-color-info"
     tabindex="0"
     type="button"
@@ -394,7 +394,7 @@ exports[`DropdownItem style params color info 1`] = `
 exports[`DropdownItem style params color secondary 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_secondary css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_secondary QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-color-secondary"
     tabindex="0"
     type="button"
@@ -438,7 +438,7 @@ exports[`DropdownItem style params color secondary 1`] = `
 exports[`DropdownItem style params color success 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_success css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_success QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-color-success"
     tabindex="0"
     type="button"
@@ -482,7 +482,7 @@ exports[`DropdownItem style params color success 1`] = `
 exports[`DropdownItem style params color warning 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_warning css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_warning QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-color-warning"
     tabindex="0"
     type="button"
@@ -526,7 +526,7 @@ exports[`DropdownItem style params color warning 1`] = `
 exports[`DropdownItem style params disableFocus false 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-disableFocus-false"
     tabindex="0"
     type="button"
@@ -570,7 +570,7 @@ exports[`DropdownItem style params disableFocus false 1`] = `
 exports[`DropdownItem style params disableFocus true 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_disableFocus css-16ocx61-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_disableFocus QxDropdownItem_type_default css-16ocx61-QxDropdownItem-root"
     data-testid="testStyleParams-disableFocus-true"
     tabindex="-1"
     type="button"
@@ -614,7 +614,7 @@ exports[`DropdownItem style params disableFocus true 1`] = `
 exports[`DropdownItem style params hover false 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-hover-false"
     tabindex="0"
     type="button"
@@ -658,7 +658,7 @@ exports[`DropdownItem style params hover false 1`] = `
 exports[`DropdownItem style params size large 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_large QxDropdownItem_color_brand css-sjbhyg-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_large QxDropdownItem_color_brand QxDropdownItem_type_default css-sjbhyg-QxDropdownItem-root"
     data-testid="testStyleParams-size-large"
     tabindex="0"
     type="button"
@@ -702,7 +702,7 @@ exports[`DropdownItem style params size large 1`] = `
 exports[`DropdownItem style params size medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand css-1fqqqwy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
     data-testid="testStyleParams-size-medium"
     tabindex="0"
     type="button"
@@ -746,7 +746,7 @@ exports[`DropdownItem style params size medium 1`] = `
 exports[`DropdownItem style params size small 1`] = `
 <DocumentFragment>
   <button
-    class="QxDropdownItem QxDropdownItem_size_small QxDropdownItem_color_brand css-6zqrsy-QxDropdownItem-root"
+    class="QxDropdownItem QxDropdownItem_size_small QxDropdownItem_color_brand QxDropdownItem_type_default css-6zqrsy-QxDropdownItem-root"
     data-testid="testStyleParams-size-small"
     tabindex="0"
     type="button"

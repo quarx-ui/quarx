@@ -53,6 +53,8 @@ export const DropdownItem: FC<DropdownItemProps> = forwardRef<HTMLButtonElement,
         color,
         hover,
         disableFocus,
+        type,
+        state: Boolean(state),
     };
     const styles = useStyles({ params, ...styleProps });
 
