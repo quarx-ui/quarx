@@ -1,14 +1,11 @@
-import { cssVar } from '@core/utils';
-import { KeysFromUseStyles, makeStyles } from '@core/styles';
+import { KeysFromUseStyles, makeStyles, withUnit } from '@core/styles';
 import { StackStyleParams } from './types';
 import { STACK_ORDER } from './constants';
 import { directionAndOrderToOffsetProperty } from './maps';
-import { StackCSSVarKeys } from './vars';
 
 export const useStyles = makeStyles((
     _,
     { order, direction, justifyContent, alignItems, spacing, inline }: StackStyleParams,
-    { cssSpacing }: Record<StackCSSVarKeys, string>,
 ) => {
     const reverse = order === STACK_ORDER.reverse;
 
@@ -16,7 +13,6 @@ export const useStyles = makeStyles((
 
     return ({
         root: {
-            [cssSpacing]: spacing,
             display: inline ? 'inline-flex' : 'flex',
             flexDirection:
                 reverse
@@ -26,7 +22,7 @@ export const useStyles = makeStyles((
             alignItems,
 
             '& > :not(:last-child)': {
-                [offsetProperty]: cssVar(cssSpacing),
+                [offsetProperty]: withUnit(spacing),
             },
         },
     });
@@ -34,4 +30,3 @@ export const useStyles = makeStyles((
 
 export type StackStyleKeys = KeysFromUseStyles<typeof useStyles>;
 export * from './types';
-export * from './vars';

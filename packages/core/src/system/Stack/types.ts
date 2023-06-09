@@ -1,13 +1,13 @@
 import { BaseProps, OverridableProps, WithClassesAndStyles } from '@core';
-import { ElementType, ReactChild } from 'react';
-import { StackCSSVarKeys, StackStyleKeys, StackStyleParams } from './styles';
+import { ElementType, ReactChild, ReactNode } from 'react';
+import { StackStyleKeys, StackStyleParams } from './styles';
 
-export type StackChild = ReactChild | false | null;
+export type StackChild = ReactNode;
 
 export interface StackPropsWithoutHtml extends
-    BaseProps<HTMLDivElement>,
+    BaseProps,
     Partial<Omit<StackStyleParams, 'divider'>>,
-    WithClassesAndStyles<StackStyleKeys, StackStyleParams, StackCSSVarKeys>
+    WithClassesAndStyles<StackStyleKeys, StackStyleParams>
 {
     /** Разделитель, располагаемый между элементами контейнера */
     divider?: ReactChild | boolean;
