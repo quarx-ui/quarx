@@ -3,7 +3,7 @@ import { OverridableComponent, OverridableComponentRef } from '@core/types';
 import { usePropsOverwrites } from '@core/styles';
 import { If } from '../If';
 import { StackProps, StackPropsWithoutHtml } from './types';
-import { STACK_CSS_VARS, useStyles } from './styles';
+import { useStyles } from './styles';
 import { STACK_DIRECTION, STACK_ORDER } from './styles/constants';
 import { addDividerToChildren } from './helpers';
 
@@ -12,7 +12,7 @@ export const Stack: OverridableComponent<StackPropsWithoutHtml, 'div'> = forward
     initialProps: StackProps<C>,
     ref: OverridableComponentRef<C>,
 ) => {
-    const { cn, props, styleProps } = usePropsOverwrites('Stack', initialProps, STACK_CSS_VARS);
+    const { cn, props, styleProps } = usePropsOverwrites('Stack', initialProps);
     const {
         hidden = false,
         children,

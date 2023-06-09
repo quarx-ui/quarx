@@ -1,9 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import { cssVar, Stack, StackProps, StackStyleParams } from '@core';
+import { Stack, StackProps, StackStyleParams } from '@core';
 import { testStyleParams } from '@core/test-utils';
 import { Fragment } from 'react';
 import { STACK_DIRECTION, STACK_ORDER } from '../styles/constants';
-import { STACK_CSS_VARS } from '../styles';
 
 describe('Stack', () => {
     testStyleParams<StackStyleParams, StackProps>(
@@ -69,14 +68,10 @@ describe('Stack', () => {
             const stackColumnReverse = screen.getByTestId(stackColumnReverseId);
             const stackRowReverse = screen.getByTestId(stackRowReverseId);
 
-            [stackColumn, stackRow, stackColumnReverse, stackRowReverse].forEach((item) => {
-                expect(item).toHaveStyle(`${STACK_CSS_VARS.cssSpacing}: ${spacing}`);
-            });
-
-            expect(stackColumn.children[0]).toHaveStyle(`margin-bottom: ${cssVar(STACK_CSS_VARS.cssSpacing)}`);
-            expect(stackColumnReverse.children[0]).toHaveStyle(`margin-top: ${cssVar(STACK_CSS_VARS.cssSpacing)}`);
-            expect(stackRow.children[0]).toHaveStyle(`margin-right: ${cssVar(STACK_CSS_VARS.cssSpacing)}`);
-            expect(stackRowReverse.children[0]).toHaveStyle(`margin-left: ${cssVar(STACK_CSS_VARS.cssSpacing)}`);
+            expect(stackColumn.children[0]).toHaveStyle(`margin-bottom: ${spacing}`);
+            expect(stackColumnReverse.children[0]).toHaveStyle(`margin-top: ${spacing}`);
+            expect(stackRow.children[0]).toHaveStyle(`margin-right: ${spacing}`);
+            expect(stackRowReverse.children[0]).toHaveStyle(`margin-left: ${spacing}`);
         });
 
         it('divider should be rendered', () => {
