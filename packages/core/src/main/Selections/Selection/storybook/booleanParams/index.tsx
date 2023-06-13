@@ -10,7 +10,7 @@ const SPAN = styled('span')({
     margin: 12,
 });
 
-const Booleans = ['reverse', 'disabled', 'disableFocus', 'hover'];
+const Booleans: Array<keyof SelectionProps> = ['reverse', 'disabled', 'disableFocus', 'hover'];
 export const BooleanParamsStory: Story<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps

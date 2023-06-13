@@ -9,6 +9,7 @@ export interface UseTimerOptions {
 
     loop?: boolean;
     rerenderOn?: RerenderOn;
+    disabled?: boolean;
 
     onStart?: () => void;
     onResume?: () => void;

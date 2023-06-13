@@ -1,8 +1,9 @@
-import { Palette, PickQxSize } from '@core';
+import { Palette, Values } from '@core';
+import { ELEVATION_COORDS, ELEVATION_SIZE, ELEVATION_TYPE } from './constants';
 
-export type ElevationCoords = 'x' | 'y' | 'b' | 's';
-export type ElevationSize = PickQxSize<'xSmall' | 'small' | 'medium' | 'large' | 'xLarge'>;
-export type ElevationType = 'main' | 'secondary';
+export type ElevationCoords = Values<typeof ELEVATION_COORDS>;
+export type ElevationSize = Values<typeof ELEVATION_SIZE>;
+export type ElevationType = Values<typeof ELEVATION_TYPE>;
 
 export interface WithBackgroundAndBorder {
     backgroundColor?: string;

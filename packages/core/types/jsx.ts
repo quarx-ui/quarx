@@ -1,4 +1,5 @@
 import { ReactElement, SVGProps, ElementType, ComponentPropsWithRef } from 'react';
+import { WithDataTestId } from '@quarx-ui/core';
 
 export type JsxTag = keyof JSX.IntrinsicElements;
 
@@ -16,7 +17,7 @@ export type ComponentHTMLAttributes<
 export type ComponentPropsWithHTML<
     Props,
     Element extends JsxTag = 'div'
-> = Props & ComponentHTMLAttributes<Props, Element>
+> = Props & ComponentHTMLAttributes<Props, Element> & WithDataTestId
 
 export type MergeProps<P, O> = P & Omit<O, keyof P>
 

@@ -22,3 +22,7 @@ export interface BaseProps<ElementType extends HTMLElement = HTMLDivElement> ext
     /** Пользовательский CSS-класс для корневого элемента */
     className?: string;
 }
+
+export interface WithDataTestId {
+    'data-testid'?: string;
+}
