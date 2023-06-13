@@ -1,4 +1,5 @@
 import {
+    AlertProps,
     AccordionProps,
     BackdropProps,
     BadgeProps,
@@ -59,6 +60,7 @@ export type DeepPartialWithStyles<Props extends Record<string, any>> = {
 
 /* Автогенерация! Не трогать. */
 export interface ComponentsProps {
+    Alert: AlertProps;
     Accordion: AccordionProps;
     Backdrop: BackdropProps;
     Badge: BadgeProps;

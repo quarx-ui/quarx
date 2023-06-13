@@ -1,6 +1,6 @@
 import { FC, forwardRef, memo, useCallback, useMemo, useRef, useState } from 'react';
 import { TransitionProps as ReactTransitionProps } from 'react-transition-group/Transition';
-import { QX_PREFIX, usePropsOverwrites, useTheme } from '@core/styles';
+import { usePropsOverwrites, useTheme } from '@core/styles';
 import {
     Backdrop,
     Portal,
@@ -33,7 +33,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     initialProps,
     ref,
 ) => {
-    const { cn, props, styleProps, name } = usePropsOverwrites('OverScreen', initialProps);
+    const { cn, props, styleProps, qxName } = usePropsOverwrites('OverScreen', initialProps);
 
     const {
         open = false,
@@ -80,8 +80,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     // --------------------------- Инициализация значений --------------------------------
 
     const isDisabledTransition = appearance === OVER_SCREEN_APPEARANCE.none;
-    const uniqAttr = `${QX_PREFIX}${name}`;
-    const childUniqAttr = `${uniqAttr}-child`;
+    const childUniqAttr = `${qxName}-child`;
 
     const defaultBodyStyles = useRef<DefaultStyles>({});
     const defaultOverScreenStyles = useRef<DefaultStyles>({});
@@ -120,7 +119,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
 
         if (!overScreenRef.current) { return; }
 
-        const innerCurrentIndex = getOverScreens(overScreenRef.current, uniqAttr).length - 1;
+        const innerCurrentIndex = getOverScreens(overScreenRef.current, qxName).length - 1;
         setCurrentIndex(innerCurrentIndex);
 
         hasNextDialog.current = innerCurrentIndex > 0;
@@ -150,7 +149,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
             container.body.style.overflow = 'hidden';
         } else {
             // Отключаем бэкдропы соседних OverScreen и получаем HTML-элемент с изначальным стилями
-            const backdrop = disableNextBackdrop(overScreenRef.current, innerCurrentIndex, uniqAttr);
+            const backdrop = disableNextBackdrop(overScreenRef.current, innerCurrentIndex, qxName);
 
             if (backdrop) {
                 nextBackdrop.current = backdrop.element;
@@ -170,7 +169,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
             // и добавляем ширину, чтоб растянуть до правого края
             overScreenRef.current.style.width = `${overScreenRef.current.clientWidth + parseInt(paddingRight, 10)}px`;
         }
-    }, [disableScrollLock, uniqAttr, updateTransform, overScreenRef]);
+    }, [disableScrollLock, qxName, updateTransform, overScreenRef]);
 
     const handleUnmount = useCallback(() => {
         if (nextBackdrop.current) {
@@ -230,12 +229,12 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
 
         // Если есть открытый OverScreen - перемещаем фокус на него
         if (hasNextDialog.current && (node?.parentElement || overScreenRef.current)) {
-            const nextModal = getNextOverScreen(node?.parentElement ?? overScreenRef.current, currentIndex, uniqAttr);
+            const nextModal = getNextOverScreen(node?.parentElement ?? overScreenRef.current, currentIndex, qxName);
             nextModal?.focus();
         }
 
         TransitionProps?.onExited?.(node);
-    }, [TransitionProps, currentIndex, uniqAttr]);
+    }, [TransitionProps, currentIndex, qxName]);
 
     const handleClick: OverScreenProps['onClick'] = useCallback((event) => {
         onClick?.(event);
@@ -358,11 +357,11 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         role: OVER_SCREEN_ROLE,
         ...restProps,
         'data-index': currentIndex,
-        'data-component': uniqAttr,
+        'data-component': qxName,
         'aria-hidden': !open,
         onClick: handleClick,
         onKeyDown: handleKeyDown,
-    }), [currentIndex, handleClick, handleKeyDown, open, restProps, uniqAttr]);
+    }), [currentIndex, handleClick, handleKeyDown, open, restProps, qxName]);
 
     // --------------------------- Макет --------------------------------
 

@@ -18,7 +18,7 @@ interface BaseVariantProps<VariantProps> extends
     component: FC<VariantProps>;
 
     /** Объект с дополнительными параметрами компонента. Применяется не в качестве отдельного примера. */
-    componentProps?: VariantProps | ((property: string, value: DisplayValuesType) => VariantProps);
+    componentProps?: VariantProps | ((property: keyof VariantProps, value: DisplayValuesType) => VariantProps);
 
     /** Направление отрисовки.
      * - **vertical** – вертикальное направление. Варианты будут расположены в колонну.
@@ -43,7 +43,7 @@ interface TitleProps {
 
 export interface DisplayVariantsProps<VariantProps> extends BaseVariantProps<VariantProps> {
     /** Название отображаемого пропса */
-    property: string;
+    property: keyof VariantProps;
 
     /** Массив значений для отображаемого пропса
      * @example
@@ -54,7 +54,7 @@ export interface DisplayVariantsProps<VariantProps> extends BaseVariantProps<Var
     title?: TitleProps;
 }
 
-function isCallable<Props>(prop: BaseVariantProps<Props>['componentProps']): prop is ((property: string, value: DisplayValuesType) => Props) {
+function isCallable<Props>(prop: BaseVariantProps<Props>['componentProps']): prop is ((property: keyof Props, value: DisplayValuesType) => Props) {
     return typeof prop === 'function';
 }
 
@@ -133,7 +133,7 @@ interface DisplayVariantsMapProps<VariantProps> extends BaseVariantProps<Variant
      *     size: ['small', 'large'],
      *     color: ['warning', 'critical', 'color2', 'color1'],
      * } */
-    variants: Record<string, Array<DisplayValuesType>>;
+    variants: Partial<Record<keyof VariantProps, Array<DisplayValuesType>>>;
 
     shownTitle?: boolean;
 
@@ -158,7 +158,7 @@ export function DisplayVariantsMap<Props>(options: DisplayVariantsMapProps<Props
         },
         ...restOptions
     } = options;
-    const keysOfProps = Object.keys(variants);
+    const keysOfProps = Object.keys(variants) as Array<keyof Props>;
 
     return (
         <VerticalContainer
@@ -171,30 +171,33 @@ export function DisplayVariantsMap<Props>(options: DisplayVariantsMapProps<Props
             }
         >
             {
-                keysOfProps.map((property) => (
-                    <Container
-                        direction={direction}
-                        containerAlign={restOptions.containerAlign}
-                        containerJustify={
-                            restOptions.containerJustify
-                            ?? variants[property].length < 3
-                                ? 'center'
-                                : 'space-between'
-                        }
-                        key={createID()}
-                    >
-                        {shownTitle && <TitleOfContainer direction={direction}>{property}</TitleOfContainer>}
-                        {
-                            DisplayVariants({
-                                ...restOptions,
-                                title: optionTitle,
-                                direction,
-                                property,
-                                values: variants[property],
-                            })
-                        }
-                    </Container>
-                ))
+                keysOfProps.map((property) => {
+                    const values = variants[property] ?? [];
+                    return (
+                        <Container
+                            direction={direction}
+                            containerAlign={restOptions.containerAlign}
+                            containerJustify={
+                                restOptions.containerJustify
+                                ?? values.length < 3
+                                    ? 'center'
+                                    : 'space-between'
+                            }
+                            key={createID()}
+                        >
+                            {shownTitle && <TitleOfContainer direction={direction}>{property}</TitleOfContainer>}
+                            {
+                                DisplayVariants({
+                                    ...restOptions,
+                                    title: optionTitle,
+                                    direction,
+                                    property,
+                                    values,
+                                })
+                            }
+                        </Container>
+                    );
+                })
             }
         </VerticalContainer>
     );
@@ -208,7 +211,8 @@ interface DisplayBooleanVariantsProps<VariantProps> extends Omit<DisplayVariants
     /** Массив булевых свойств, которые необходимо вывести в качестве примера
      * @example
      * ['size', 'color'] */
-    properties: Array<string | [string, boolean]>;
+    properties: Array<keyof VariantProps | [keyof VariantProps, boolean]>;
+    bothValues?: boolean;
 }
 
 /** Функция предназначена для генерации различных вариантов компонента с булевыми свойствами.
@@ -226,15 +230,19 @@ export function DisplayBooleanVariants<Props>(options: DisplayBooleanVariantsPro
             isShown: false,
             type: 'value',
         },
+        bothValues = false,
         ...restOptions
     } = options;
-    const variants: Record<string, Array<DisplayValuesType>> = {};
+
+    const variants = {} as Partial<Record<keyof Props, Array<DisplayValuesType>>>;
 
     properties.forEach((prop) => {
         if (Array.isArray(prop)) {
             variants[prop[0]] = [prop[1]];
         } else {
-            variants[prop] = [true];
+            variants[prop] = bothValues
+                ? [false, true]
+                : [true];
         }
     });
 
