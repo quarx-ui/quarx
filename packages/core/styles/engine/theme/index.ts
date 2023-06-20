@@ -6,3 +6,5 @@ export * from './elevations';
 export * from './palette';
 export * from './borders';
 export * from './borderRadii';
+/** Закомментировано до следующего мажорного релиза, чтобы не было конфликтов */
+// export * from './typography';

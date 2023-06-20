@@ -1,11 +1,11 @@
 import { Story } from '@storybook/react/types-6-0';
 import { withDocsPage } from '@core/storybook/docsPage';
-import { typography } from '@core';
 import styled from '@emotion/styled';
 import { Div, H2, P, Code } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
 import { setStoryParams } from '@core/storybook/setStoryParams';
+import { BaseTypographySize, BaseTypographyType, typography } from '../../styles/engine/theme/typography';
 
 const Documentation = () => (
     <Div>
@@ -13,60 +13,57 @@ const Documentation = () => (
         <P>
             <strong>typography</strong>
             &nbsp;- объект, содержащий набор свойств для стилизации текста на странице.
-            Содержит в себе варианты размеров шрифта и его начертаний.
+            На данный момент содержит в себе только базовые варианты шрифтов для текста и заголовков.
             Для выбора размера и начертания необходимо указать их в формате:
         </P>
-        <Code>typography.Text.[size].[weight]</Code>
+        <Code>typography.base[тип][размер]</Code>
         <P>
-            [size] - размер,
+            <strong>тип</strong>
+            &nbsp;- текст или заголовок ( text | headline ),
             <br />
-            [weight] - начертание.
+            <strong>размер</strong>
+            &nbsp;- один из базовых размеров дизайн-системы
         </P>
         <H2>Размеры</H2>
-        <P>Всего 4 варианта размера текста:</P>
+        <P>Доступны все базовые размеры дизайн-системы:</P>
         <P>
-            <strong>S</strong>
-            &nbsp;- наименьший размер
+            <strong>xSmall</strong>
+            &nbsp;- наименьший размер шрифта
         </P>
         <P>
-            <strong>M</strong>
-            &nbsp;- средний размер
+            <strong>small</strong>
+            &nbsp;- маленький размер шрифта
         </P>
         <P>
-            <strong>L</strong>
-            &nbsp;- большой размер
+            <strong>medium</strong>
+            &nbsp;- средний размер шрифта
         </P>
         <P>
-            <strong>XL</strong>
-            &nbsp;- наибольший размер
-        </P>
-        <H2>Начертания</H2>
-        <P>Всего 3 варианта начертания текста:</P>
-        <P>
-            <strong>Regular</strong>
-            &nbsp;- стандартное начертание (400)
+            <strong>large</strong>
+            &nbsp;- большой размер шрифта
         </P>
         <P>
-            <strong>Medium</strong>
-            &nbsp;- начертание чуть жирнее стандартного (500)
-        </P>
-        <P>
-            <strong>Semibold</strong>
-            &nbsp;- полужирное начертание, жирнее Medium (600)
+            <strong>xLarge</strong>
+            &nbsp;- наибольший размер шрифта
         </P>
     </Div>
 );
 
 const defaultArgTypes = {
+    type: {
+        description: 'Текст или заголовок\n\n `typography.base[type]`',
+        control: 'select',
+        options: ['headline', 'text'],
+    },
     size: {
-        description: 'Размер текста\n\n `typography.Text.[size]`',
+        description: 'Размер текста\n\n `typography.base[type][size]`',
         control: { type: 'select' },
-        options: ['S', 'M', 'L', 'XL'],
+        options: ['xSmall', 'small', 'medium', 'large', 'xLarge'],
     },
     weight: {
-        description: 'Вес текста\n\n `typography.Text.[size].[weight]`',
+        description: 'Вес шрифта',
         control: { type: 'select' },
-        options: ['Regular', 'Medium', 'Semibold'],
+        options: [100, 200, 300, 400, 500, 600, 700, 800, 900],
     },
     text: {
         description: 'Демонстрационный текст',
@@ -89,17 +86,24 @@ export default {
 } as Meta;
 
 interface TypographySandbox {
-    size: 'S' | 'M' | 'L' | 'XL';
-    weight: 'Regular' | 'Semibold' | 'Medium';
+    type: BaseTypographyType;
+    size: BaseTypographySize;
+    weight: number;
     text: string;
 }
 
 export const Sandbox: Story<TypographySandbox> = ({
+    type,
     size,
     weight,
     text,
 }) => (
-    <div style={typography.Text[size][weight]}>
+    <div
+        style={{
+            ...typography.base[type][size],
+            fontWeight: weight,
+        }}
+    >
         {text}
     </div>
 );
@@ -113,7 +117,8 @@ const Row = styled('tr')({
 const RowTitle = styled('td')({
     padding: '10px 20px',
     width: 250,
-    ...typography.Text.L.Semibold,
+    ...typography.base.headline.xSmall,
+    fontWeight: 600,
 });
 
 const RowContent = styled('td')({
@@ -128,49 +133,62 @@ export const Examples: Story = () => (
     <table style={{ width: '100%' }}>
         <tbody>
             <Row>
-                <RowTitle>emotion (template string):</RowTitle>
+                <RowTitle>
+                    emotion
+                    <br />
+                    (template string)
+                </RowTitle>
                 <RowContent>
                     <pre>
                         {`
 styled.h1(\`
-\${typography.Text.L.Regular}
+\${typography.base.headline.xLarge}
 \`)
                                 `}
                     </pre>
                 </RowContent>
             </Row>
             <Row>
-                <RowTitle>emotion (object styles):</RowTitle>
+                <RowTitle>
+                    emotion
+                    <br />
+                    (object styles)
+                </RowTitle>
                 <RowContent>
                     <pre>
                         {`
 styled.h1({
-...typography.Text.L.Regular,
+...typography.base.text.xLarge,
 })
                                 `}
                     </pre>
                 </RowContent>
             </Row>
             <Row>
-                <RowTitle>material-ui:</RowTitle>
+                <RowTitle>material-ui</RowTitle>
                 <RowContent>
                     <pre>
                         {`
 styled('h1')({
-    ...typography.Text.M.Semibold,
+    ...typography.base.medium,
+    fontWeight: 600,
 })
                                 `}
                     </pre>
                 </RowContent>
             </Row>
             <Row>
-                <RowTitle>QuarX (makeStyles):</RowTitle>
+                <RowTitle>
+                    QuarX
+                    <br />
+                    (makeStyles)
+                </RowTitle>
                 <RowContent>
                     <pre>
                         {`
 makeStyles({
     someCssClass: {
-        ...typography.Text.S.Regular,
+        ...typography.base.text.small,
     }
 })
                                 `}
@@ -184,8 +202,9 @@ makeStyles({
 setStoryParams(Sandbox, {
     title: 'Типографика',
     args: {
-        size: 'M',
-        weight: 'Regular',
+        type: 'headline',
+        size: 'medium',
+        weight: 400,
         text: 'Пример текста',
     },
 });
@@ -194,9 +213,10 @@ setStoryParams(Examples, {
     description: 'Применение объекта typography внутри другого объекта '
         + '(передаваемого в styled, makeStyles, и так далее) '
         + 'осуществляется с помощью spread-оператора, '
-        + 'например, `...typography.Text.XL.Medium`.\n\n'
+        + 'например, `...typography.base.text.xLarge`.\n\n'
         + 'При необходимости можно использовать отдельные свойства из объекта, например, '
-        + '`fontSize: typography.Text.XL.Semibold.fontSize`.\n\n'
+        + '`fontSize: typography.base.text.xLarge.fontSize`.\n\n'
+        + 'Вес шрифта задается в стилях отдельным свойством.\n\n'
         + 'Далее приведены примеры использования объекта типографики с библиотеками: '
         + '`emotion`, `material-ui` и `QuarX`:',
 });
