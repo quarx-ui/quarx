@@ -1,3 +1,6 @@
+/** @deprecated
+ * Будет изменено в следующем мажорном релизе. Рекомендуется использовать `theme.typography`
+ * */
 export const typography = {
     Text: {
         L: {
@@ -203,4 +206,7 @@ export const typography = {
     },
 } as const;
 
+/** @deprecated
+ * Будет изменено в следующем мажорном релизе. Рекомендуется использовать `theme.typography`
+ * */
 export type Typography = typeof typography;

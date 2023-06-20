@@ -51,6 +51,7 @@ import {
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
+import { CreateTypographyArg, Typography } from '../typography';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -111,6 +112,7 @@ export interface Theme extends CustomTheme {
     elevations: Elevations;
     borders: ReturnedBorders;
     borderRadii: ReturnedBorderRadii;
+    typography: Typography;
     defaultProps?: DefaultProps;
     defaultStyles?: DefaultStyles;
 }
@@ -122,6 +124,7 @@ export interface CreateThemeArg extends CustomTheme {
     elevations?: CreateElevationArg;
     borders?: CreateBorderArg;
     borderRadii?: CreateBorderRadiusArg;
+    typography?: CreateTypographyArg;
     defaultProps?: DefaultProps;
     defaultStyles?: DefaultStyles;
 }
