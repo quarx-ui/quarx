@@ -23,6 +23,7 @@ import {
     Elevations,
     FooterBlockProps,
     HeaderBlockProps,
+    HeadlineProps,
     IconButtonProps,
     LinkProps,
     LoaderProps,
@@ -47,6 +48,7 @@ import {
     TabsProps,
     TabsSegmentedProps,
     TextFieldProps,
+    TextProps,
     Transitions,
 } from '@core';
 import { DatePickerBlockProps } from '@core/src/experimental';
@@ -56,7 +58,7 @@ import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegis
 import { DatePickerProps } from '@core/src/experimental/DatePicker/wrappers/DatePicker/types';
 import { DatePickerSelectProps } from '@core/src/experimental/DatePicker/wrappers/DatePickerSelect/types';
 import { DateFieldProps } from '@core/src/experimental/DatePicker/components/DateField/types';
-import { CreateTypographyArg, Typography } from '../typography';
+import { Typography, CreateTypographyArg } from '../typography/types';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -81,6 +83,7 @@ export interface ComponentsProps {
     DropdownItemsGroup: DropdownItemsGroupProps;
     FooterBlock: FooterBlockProps;
     HeaderBlock: HeaderBlockProps;
+    Headline: HeadlineProps;
     IconButton: IconButtonProps;
     Link: LinkProps;
     Loader: LoaderProps;
@@ -104,6 +107,7 @@ export interface ComponentsProps {
     TabsContainer: TabsContainerProps;
     TabsDefault: TabsDefaultProps;
     TabsSegmented: TabsSegmentedProps;
+    Text: TextProps;
     TextField: TextFieldProps;
     DatePickerBlock: DatePickerBlockProps;
     DatePicker: DatePickerProps;

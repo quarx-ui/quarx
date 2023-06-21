@@ -21,7 +21,7 @@ export type ComponentPropsWithHTML<
 
 export type MergeProps<P, O> = P & Omit<O, keyof P>
 
-export type OverridableProps<P, C extends ElementType> = P & { component?: C }
+export type OverridableProps<P, C extends ElementType> = P & { ref?: ComponentPropsWithRef<C>['ref']; component?: C }
 
 export type OverridableComponentRef<C extends ElementType> = ComponentPropsWithRef<C>['ref'];
 

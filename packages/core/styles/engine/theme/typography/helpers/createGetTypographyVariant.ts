@@ -12,7 +12,7 @@ export const createGetTypographyVariant = (
         sizeInPx: number,
         lineHeight: number,
         letterSpacing?: number | string,
-        fontWeight: number | string = TYPOGRAPHY_WEIGHT.regular,
+        fontWeight: number | string = TYPOGRAPHY_WEIGHT.normal,
     ): CSSProperties => ({
         fontFamily,
         fontSize: `${pxToRem(sizeInPx)}rem`,

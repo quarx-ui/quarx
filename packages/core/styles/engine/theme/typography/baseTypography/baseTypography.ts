@@ -3,7 +3,7 @@ import { deepmerge } from '../../../utils';
 import { createGetTypographyVariant } from '../helpers';
 import { BaseTypography, CreateBaseTypographyOptions } from './types';
 import {
-    BASE_TYPOGRAPHY_TYPE,
+    BASE_TYPOGRAPHY_TYPES,
     DEFAULT_FONT_SIZE,
     DEFAULT_HEADLINE_FONT_FAMILY,
     DEFAULT_TEXT_FONT_FAMILY,
@@ -29,14 +29,14 @@ export const createBaseTypography = (
     const getHeadlineVariant = createGetTypographyVariant(headlineFF, defaultFontSize);
 
     return deepmerge({
-        [BASE_TYPOGRAPHY_TYPE.text]: {
+        [BASE_TYPOGRAPHY_TYPES.text]: {
             [QX_SIZE.xSmall]: getTextVariant(11, 1.45, 0.2),
             [QX_SIZE.small]: getTextVariant(12, 1.33, 0.2),
             [QX_SIZE.medium]: getTextVariant(14, 1.43),
             [QX_SIZE.large]: getTextVariant(16, 1.5, -0.1),
             [QX_SIZE.xLarge]: getTextVariant(20, 1.4, -0.2),
         },
-        [BASE_TYPOGRAPHY_TYPE.headline]: {
+        [BASE_TYPOGRAPHY_TYPES.headline]: {
             [QX_SIZE.xSmall]: getHeadlineVariant(20, 1.4),
             [QX_SIZE.small]: getHeadlineVariant(24, 1.33),
             [QX_SIZE.medium]: getHeadlineVariant(32, 1.25, -0.2),

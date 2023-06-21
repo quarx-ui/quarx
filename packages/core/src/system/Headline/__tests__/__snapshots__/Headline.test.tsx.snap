@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Headline style params color constant 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_constant css-1a98gm9-QxHeadline-root"
+    data-testid="testStyleParams-color-constant"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params color customColor 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_customColor css-10knrxh-QxHeadline-root"
+    data-testid="testStyleParams-color-customColor"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params color main 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_main css-1uvk3y-QxHeadline-root"
+    data-testid="testStyleParams-color-main"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_secondary css-12skpg3-QxHeadline-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params color tertiary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_tertiary css-jwhucv-QxHeadline-root"
+    data-testid="testStyleParams-color-tertiary"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight black 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_black QxHeadline_color_main css-z6s6ng-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-black"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight bold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_bold QxHeadline_color_main css-1awtz7e-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-bold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight extraBold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_extraBold QxHeadline_color_main css-pzg403-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-extraBold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight extraLight 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_extraLight QxHeadline_color_main css-1sd6cvn-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-extraLight"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight light 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_light QxHeadline_color_main css-s9ochx-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-light"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_medium QxHeadline_color_main css-1xm0ol5-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-medium"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight normal 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_main css-1uvk3y-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-normal"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight semibold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_semibold QxHeadline_color_main css-u73os5-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-semibold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params fontWeight thin 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_thin QxHeadline_color_main css-fbds8o-QxHeadline-root"
+    data-testid="testStyleParams-fontWeight-thin"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_large QxHeadline_fontWeight_normal QxHeadline_color_main css-b1ooc-QxHeadline-root"
+    data-testid="testStyleParams-size-large"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_medium QxHeadline_fontWeight_normal QxHeadline_color_main css-1uvk3y-QxHeadline-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_small QxHeadline_fontWeight_normal QxHeadline_color_main css-y4a80r-QxHeadline-root"
+    data-testid="testStyleParams-size-small"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params size xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_xLarge QxHeadline_fontWeight_normal QxHeadline_color_main css-1gyvram-QxHeadline-root"
+    data-testid="testStyleParams-size-xLarge"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Headline style params size xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxHeadline QxHeadline_size_xSmall QxHeadline_fontWeight_normal QxHeadline_color_main css-1jnub04-QxHeadline-root"
+    data-testid="testStyleParams-size-xSmall"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
