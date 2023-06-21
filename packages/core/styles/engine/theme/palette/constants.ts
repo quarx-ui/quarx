@@ -18,3 +18,10 @@ export const PALETTE_STANDARD_KEYS = valuesAsKeysFromArray([
 ]);
 
 export const isPaletteStandardKey = createValuesAsKeysTypeGuard(PALETTE_STANDARD_KEYS);
+
+export const PALETTE_TEXT_KEYS = valuesAsKeysFromArray([
+    'main',
+    'secondary',
+    'tertiary',
+    'constant',
+]);

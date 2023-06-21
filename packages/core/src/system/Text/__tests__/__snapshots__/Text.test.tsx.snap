@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text style params color constant 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_constant css-n8nv6b-QxText-root"
+    data-testid="testStyleParams-color-constant"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params color customColor 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_customColor css-5k2voh-QxText-root"
+    data-testid="testStyleParams-color-customColor"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params color main 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_main css-slzmhq-QxText-root"
+    data-testid="testStyleParams-color-main"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_secondary css-1elprx-QxText-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params color tertiary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_tertiary css-q4h93o-QxText-root"
+    data-testid="testStyleParams-color-tertiary"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight black 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_black QxText_color_main css-1olk2qu-QxText-root"
+    data-testid="testStyleParams-fontWeight-black"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight bold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_bold QxText_color_main css-1igg3rv-QxText-root"
+    data-testid="testStyleParams-fontWeight-bold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight extraBold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_extraBold QxText_color_main css-1nzphfa-QxText-root"
+    data-testid="testStyleParams-fontWeight-extraBold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight extraLight 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_extraLight QxText_color_main css-wm0ey2-QxText-root"
+    data-testid="testStyleParams-fontWeight-extraLight"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight light 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_light QxText_color_main css-1awozle-QxText-root"
+    data-testid="testStyleParams-fontWeight-light"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_medium QxText_color_main css-1e6oxb-QxText-root"
+    data-testid="testStyleParams-fontWeight-medium"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight normal 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_main css-slzmhq-QxText-root"
+    data-testid="testStyleParams-fontWeight-normal"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight semibold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_semibold QxText_color_main css-jpucn2-QxText-root"
+    data-testid="testStyleParams-fontWeight-semibold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params fontWeight thin 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_thin QxText_color_main css-egkuof-QxText-root"
+    data-testid="testStyleParams-fontWeight-thin"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_large QxText_fontWeight_normal QxText_color_main css-knhxw5-QxText-root"
+    data-testid="testStyleParams-size-large"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_medium QxText_fontWeight_normal QxText_color_main css-slzmhq-QxText-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_small QxText_fontWeight_normal QxText_color_main css-14ax41n-QxText-root"
+    data-testid="testStyleParams-size-small"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params size xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_xLarge QxText_fontWeight_normal QxText_color_main css-10k7alu-QxText-root"
+    data-testid="testStyleParams-size-xLarge"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Text style params size xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxText QxText_size_xSmall QxText_fontWeight_normal QxText_color_main css-1ht19va-QxText-root"
+    data-testid="testStyleParams-size-xSmall"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
