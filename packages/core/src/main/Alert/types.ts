@@ -1,8 +1,5 @@
 import { AlertOmittedStyleParams, BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
-import { LeftItemProps } from '@core/src/main/Alert/elements/LeftItem/types';
-import { BodyProps } from '@core/src/main/Alert/elements/Body/types';
-import { ActionButtonsProps } from '@core/src/main/Alert/elements/ActionButtons/types';
-import { CloseButtonProps } from '@core/src/main/Alert/elements/CloseButton/types';
+import { LeftItemProps, BodyProps, ActionButtonsProps, CloseButtonProps } from './elements';
 import { AlertStyleParams } from './styles/types';
 import { AlertStyleKeys } from './styles';
 
