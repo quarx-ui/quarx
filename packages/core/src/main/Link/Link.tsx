@@ -19,7 +19,7 @@ export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(
         leftItem,
         rightItem,
         children,
-        component = 'a',
+        component: Component = 'a',
         ...restProps
     } = props;
 
@@ -30,8 +30,6 @@ export const Link: OverridableComponent<LinkPropsWithoutHtml, 'a'> = forwardRef(
     if (props.hidden) {
         return null;
     }
-
-    const Component = component;
 
     return (
         <Component

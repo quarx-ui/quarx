@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseTypography style params color constant 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_constant css-bgxyyp-QxBaseTypography-root"
+    data-testid="testStyleParams-color-constant"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params color customColor 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_customColor css-uhehd2-QxBaseTypography-root"
+    data-testid="testStyleParams-color-customColor"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params color main 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-18kc97n-QxBaseTypography-root"
+    data-testid="testStyleParams-color-main"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_secondary css-cu0tcv-QxBaseTypography-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params color tertiary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_tertiary css-1mblp74-QxBaseTypography-root"
+    data-testid="testStyleParams-color-tertiary"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight black 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_black QxBaseTypography_color_main css-1wi2oin-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-black"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight bold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_bold QxBaseTypography_color_main css-5r67ta-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-bold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight extraBold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_extraBold QxBaseTypography_color_main css-1b3dqq7-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-extraBold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight extraLight 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_extraLight QxBaseTypography_color_main css-gs15me-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-extraLight"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight light 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_light QxBaseTypography_color_main css-1r0loxx-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-light"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_medium QxBaseTypography_color_main css-4h6z42-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-medium"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight normal 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-18kc97n-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-normal"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight semibold 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_semibold QxBaseTypography_color_main css-1tbro2a-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-semibold"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params fontWeight thin 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_thin QxBaseTypography_color_main css-u4i5v8-QxBaseTypography-root"
+    data-testid="testStyleParams-fontWeight-thin"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_large QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-yeg1ue-QxBaseTypography-root"
+    data-testid="testStyleParams-size-large"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-18kc97n-QxBaseTypography-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_small QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-pfuynf-QxBaseTypography-root"
+    data-testid="testStyleParams-size-small"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params size xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_xLarge QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-1yxhjv0-QxBaseTypography-root"
+    data-testid="testStyleParams-size-xLarge"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params size xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_xSmall QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-1owll28-QxBaseTypography-root"
+    data-testid="testStyleParams-size-xSmall"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params type headline 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_headline QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-r5legd-QxBaseTypography-root"
+    data-testid="testStyleParams-type-headline"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BaseTypography style params type text 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBaseTypography QxBaseTypography_type_text QxBaseTypography_size_medium QxBaseTypography_fontWeight_normal QxBaseTypography_color_main css-18kc97n-QxBaseTypography-root"
+    data-testid="testStyleParams-type-text"
+  >
+    Текст для примера
+  </div>
+</DocumentFragment>
+`;

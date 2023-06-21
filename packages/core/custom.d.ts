@@ -1,5 +1,8 @@
 declare module '*.png';
-declare module '*.md';
+declare module '*.md' {
+    export const MarkDown: string;
+    export default MarkDown;
+}
 declare module '*.svg';
 declare module '*.svg' {
     // eslint-disable-next-line import/newline-after-import

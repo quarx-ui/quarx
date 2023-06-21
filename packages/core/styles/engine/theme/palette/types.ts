@@ -11,7 +11,7 @@ import {
     CustomPaletteBackgroundContainer,
     CustomPalette,
     CustomPaletteColorValues,
-    WithCustomType,
+    WithCustomType, PALETTE_TEXT_KEYS,
 } from '@core';
 import { WithOverwrites } from '../types';
 import { PALETTE_COLORS } from './constants';
@@ -24,9 +24,7 @@ export type PaletteBackgroundContainerKey = 'hover' | WithCustomType<CustomPalet
 export type PaletteBorderFocusKey = 'main' | 'inverse' | WithCustomType<CustomPaletteBorderFocus>
 export type PaletteTextKey =
     | WithCustomType<CustomPaletteText>
-    | PaletteStandardKey
-    | 'tertiary'
-    | 'constant'
+    | Values<typeof PALETTE_TEXT_KEYS>
 export type PaletteDisabledKey =
     | WithCustomType<CustomPaletteDisabled>
     | PaletteStandardKey

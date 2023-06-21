@@ -5,7 +5,9 @@ import { Div, H2, P, Code } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
 import { setStoryParams } from '@core/storybook/setStoryParams';
-import { BaseTypographySize, BaseTypographyType, typography } from '../../styles/engine/theme/typography';
+import { BaseTypographySize, BaseTypographyType } from '@core';
+import { CSSProperties } from 'react';
+import { typography } from '../../styles/engine/theme/typography/typography';
 
 const Documentation = () => (
     <Div>
@@ -100,7 +102,7 @@ export const Sandbox: Story<TypographySandbox> = ({
 }) => (
     <div
         style={{
-            ...typography.base[type][size],
+            ...typography.base[type][size] as CSSProperties,
             fontWeight: weight,
         }}
     >

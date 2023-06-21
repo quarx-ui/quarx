@@ -3,6 +3,7 @@ import {
     BackdropProps,
     BadgeProps,
     BaseButtonProps,
+    BaseTypographyProps,
     Breakpoints,
     ButtonProps,
     CheckboxProps,
@@ -51,7 +52,8 @@ import {
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
-import { CreateTypographyArg, Typography } from '../typography';
+// TODO: заменить на импорт из @core при следующем мажорном релизе
+import { Typography, CreateTypographyArg } from '../typography/types';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;
@@ -63,6 +65,7 @@ export interface ComponentsProps {
     Backdrop: BackdropProps;
     Badge: BadgeProps;
     BaseButton: BaseButtonProps;
+    BaseTypography: BaseTypographyProps;
     Button: ButtonProps;
     Checkbox: CheckboxProps;
     Chips: ChipsProps;

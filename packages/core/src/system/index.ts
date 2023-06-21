@@ -1,4 +1,5 @@
 export * from './Backdrop';
+export * from './BaseTypography';
 export * from './ClickAwayListener';
 export * from './Collapse';
 export * from './DelayedMounter';

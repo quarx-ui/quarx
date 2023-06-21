@@ -5,6 +5,7 @@ import {
     RadioButton,
     Switcher,
     valuesAsKeysFromArray,
+    BaseTypography,
 } from '@kit';
 import { PathTypes } from '@e2e/constants';
 import { Accordion } from './main/Accordion';
@@ -37,6 +38,7 @@ export const COMPONENTS: ComponentsType = {
     TextField,
     SidePage,
     Collapse,
+    BaseTypography,
 } as const;
 
 export const PATHS = valuesAsKeysFromArray(Object.keys(COMPONENTS)) as PathTypes;
