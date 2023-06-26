@@ -39,6 +39,7 @@ const mapValueToPickerSelected = ({
 const mapValueToPeriodSelected = (
     { value, withTime, setErrorText, errorsFromInput }: MapValueToTypeSelected<PeriodSelectedDates>,
 ): PeriodSelectedDates => {
+    if (!value) { return {}; }
     const [start, end] = value.split(' - ').map((dateValue, index) => getDate(dateValue, withTime, setErrorText,
         index === 0 ? errorsFromInput.errorByValidateFirstDate : errorsFromInput.errorByValidateLastDate));
     if (start && end) {

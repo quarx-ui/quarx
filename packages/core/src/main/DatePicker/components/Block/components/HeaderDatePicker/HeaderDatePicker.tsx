@@ -43,10 +43,11 @@ export const HeaderDatePicker = forwardRef(<D extends SelectedDates>(
         const refCurrentItem = dropdownType === DROPDOWN_TYPES.MONTHS ? monthDropdownData.ref : yearDropdownData.ref;
 
         setTimeout(() => {
-            if (refDropdown && refCurrentItem) {
+            if (refDropdown && refCurrentItem && size) {
                 scrollParentToChild(
                     refDropdown.current,
                     refCurrentItem.current,
+                    size,
                 );
             }
         }, 0);

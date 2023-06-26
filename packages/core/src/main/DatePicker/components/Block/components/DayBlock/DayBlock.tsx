@@ -12,9 +12,13 @@ import { useStyles } from './styles';
 export const DayBlock = forwardRef(<D extends SelectedDates>(initialProps: DayBlockProps<D>,
     ref: ForwardedRef<HTMLDivElement>) => {
     const { styleProps, props, cn } = usePropsOverwrites('HeaderDatePicker', initialProps);
-    const { onChange, selected, innerStyles, setLastEditedDateTypeInPeriod,
-        viewingDate, allowedDates, hoveredDay, setHoveredDay, times, useIncreasedScopeDay,
-        setTimes, currentDay, size, borderRadius, numDay, isLarge } = props;
+    const { onChange, selected, innerStyles,
+        viewingDate, allowedDates, hoveredDay, setHoveredDay, times, useBigPressScope,
+        setTimes, currentDay, size, borderRadius, numDay, isLarge,
+        periodChangingFlow, editablePartOfPeriod, onChangeEditablePartOfPeriod,
+        clearAllAfterChangingStartDate,
+        pickNewSelectedAfterEndDatePick,
+    } = props;
 
     const { isDayInPeriod,
         isDayTrusted,
@@ -38,9 +42,15 @@ export const DayBlock = forwardRef(<D extends SelectedDates>(initialProps: DayBl
 
     const onSelectDay = (item: Date) => {
         if (isDayTrusted) {
-            onChange(mergeDateWithSelected<D>(item, times, setTimes, selected, setLastEditedDateTypeInPeriod));
+            console.log(editablePartOfPeriod);
+            onChange(mergeDateWithSelected<D>(
+                item, times, setTimes, selected, periodChangingFlow, editablePartOfPeriod, onChangeEditablePartOfPeriod,
+                clearAllAfterChangingStartDate, pickNewSelectedAfterEndDatePick,
+            ));
         }
-        setHoveredDay?.(undefined);
+        if (isPicker(selected)) {
+            setHoveredDay?.(undefined);
+        }
     };
 
     const params = {
@@ -60,7 +70,7 @@ export const DayBlock = forwardRef(<D extends SelectedDates>(initialProps: DayBl
         isDayHovered,
         isSecondPickInPeriod,
         isDayInPeriodLarge,
-        useIncreasedScopeDay,
+        useBigPressScope,
         type: isPicker(selected) ? DATE_PICKER_TIME_TYPES.PICKER : DATE_PICKER_TIME_TYPES.PERIOD,
         isLarge,
     };
@@ -71,9 +81,9 @@ export const DayBlock = forwardRef(<D extends SelectedDates>(initialProps: DayBl
         <div
             css={styles.dayPressContainer}
             className={cn('dayPressContainer', params)}
-            onClick={useIncreasedScopeDay ? () => onSelectDay(currentDay) : undefined}
+            onClick={useBigPressScope ? () => onSelectDay(currentDay) : undefined}
             onMouseEnter={() => {
-                if (isDayTrusted && (isLarge ? isSameMonth(currentDay, viewingDate) : true) && useIncreasedScopeDay) {
+                if (isDayTrusted && (isLarge ? isSameMonth(currentDay, viewingDate) : true) && useBigPressScope) {
                     setHoveredDay?.(currentDay);
                 }
             }}
@@ -84,7 +94,7 @@ export const DayBlock = forwardRef(<D extends SelectedDates>(initialProps: DayBl
                 className={cn('dayContainer', params)}
                 onMouseEnter={() => {
                     if (isDayTrusted && (isLarge ? isSameMonth(currentDay, viewingDate) : true)
-                        && !useIncreasedScopeDay) {
+                        && !useBigPressScope) {
                         setHoveredDay?.(currentDay);
                     }
                 }}
@@ -94,7 +104,7 @@ export const DayBlock = forwardRef(<D extends SelectedDates>(initialProps: DayBl
                     css={styles.day}
                     className={cn('day', params)}
                     key={format(currentDay, 'dd-MM-yyyy')}
-                    onClick={!useIncreasedScopeDay ? () => onSelectDay(currentDay) : undefined}
+                    onClick={!useBigPressScope ? () => onSelectDay(currentDay) : undefined}
                 >
                     <time dateTime={format(currentDay, 'yyyy-MM-dd HH:mm')}>
                         {getDate(currentDay)}

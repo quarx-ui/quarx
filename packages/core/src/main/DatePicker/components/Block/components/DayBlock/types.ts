@@ -4,24 +4,23 @@ import {
     DatePickerStyleParams,
     DatePickerTimeTypes,
     InnerTimeSetters,
-    InnerTimeValues, PickerSelectedDate, SelectedDates, SetLastEditedDateType, WithClassesAndStyles,
+    InnerTimeValues, PickerSelectedDate, SelectedDates, WithClassesAndStyles,
 } from '@core';
-import { LastEditedDateType } from '@core/src/main/DatePicker/Block/utils';
 import { DayStyleKeys } from './styles';
 
 export interface DayBlockProps<D extends SelectedDates = PickerSelectedDate> extends WithClassesAndStyles<DayStyleKeys, DayStylesParams>,
-    Omit<DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'>{
+    Omit<DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'>
+{
     currentDay: Date;
     hoveredDay?: Date;
     setHoveredDay?: Dispatch<SetStateAction<Date | undefined>>;
     times: InnerTimeValues;
     setTimes: InnerTimeSetters;
     numDay: number;
-    setLastEditedDateTypeInPeriod: SetLastEditedDateType;
 }
 
 export interface DayStylesParams extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'width'> {
-    useIncreasedScopeDay: boolean;
+    useBigPressScope: boolean;
     isLarge: boolean;
     isMobile?: boolean;
     numDay: number;

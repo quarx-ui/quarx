@@ -1,21 +1,22 @@
 import {
+    EDITABLE_PERIOD_PARTS,
+    EditablePeriodParts,
     InnerTimeValues,
     isPicker,
     PeriodSelectedDates,
     SelectedDates,
 } from '@core';
-import { LAST_EDITED_DATE_TYPE, LastEditedDateType } from '../../utils';
 
-const isEditingStartTime = (
-    selected: PeriodSelectedDates, lastEditedDateTypeInPeriod?: LastEditedDateType,
-) => selected.start && (!lastEditedDateTypeInPeriod || lastEditedDateTypeInPeriod === LAST_EDITED_DATE_TYPE.START);
-
-const isEditingEndTime = (
-    selected: PeriodSelectedDates, lastEditedDateTypeInPeriod?: LastEditedDateType,
-) => lastEditedDateTypeInPeriod === LAST_EDITED_DATE_TYPE.END && selected.end;
+export const isEditingStartTime = (
+    selected: PeriodSelectedDates, editablePeriodPart?: EditablePeriodParts,
+) => (!editablePeriodPart || editablePeriodPart === EDITABLE_PERIOD_PARTS.START);
+// todo вынести ебаторию в общую папку
+export const isEditingEndTime = (
+    selected: PeriodSelectedDates, editablePeriodPart?: EditablePeriodParts,
+) => editablePeriodPart === EDITABLE_PERIOD_PARTS.END;
 
 export const getTimeOfSelectedDate = <D extends SelectedDates>(
-    time: InnerTimeValues, selected: D, lastEditedDateTypeInPeriod?: LastEditedDateType,
+    time: InnerTimeValues, selected: D, lastEditedDateTypeInPeriod?: EditablePeriodParts,
 ) => {
     if (isPicker(selected)) {
         return time.pickedTime;
@@ -30,5 +31,5 @@ export const getTimeOfSelectedDate = <D extends SelectedDates>(
 };
 
 export const getSelectedTimeWithoutSeconds = <D extends SelectedDates>(
-    time: InnerTimeValues, selected: D, lastEditedDateTypeInPeriod?: LastEditedDateType,
-) => getTimeOfSelectedDate(time, selected, lastEditedDateTypeInPeriod)?.substring(0, 5);
+    time: InnerTimeValues, selected: D, editablePeriodPart?: EditablePeriodParts,
+) => getTimeOfSelectedDate(time, selected, editablePeriodPart)?.substring(0, 5);

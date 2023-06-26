@@ -7,7 +7,7 @@ import { DATE_PICKER_DAY_SIZE_PX, OFFSET_DAYS,
 
 export const useStyles = makeStyles(({ palette },
     { size, isLarge, isDayInPeriod, isDayLastInPeriod, isEqualDays, isHoveredPeriod, isWeekdayName,
-        isDayInPeriodLarge, useIncreasedScopeDay }: Required<OffsetDayStyleParams>) => {
+        isDayInPeriodLarge, useBigPressScope }: Required<OffsetDayStyleParams>) => {
     const sizeDay = useMemo(() => DATE_PICKER_DAY_SIZE_PX[size], [size]);
     return ({
         offsetDayInPeriod: {
@@ -18,7 +18,7 @@ export const useStyles = makeStyles(({ palette },
                 height: sizeDay,
                 width: '100%',
             },
-            useIncreasedScopeDay && {
+            useBigPressScope && {
                 marginTop: 4,
                 marginLeft: 4,
             },

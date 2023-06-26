@@ -11,7 +11,9 @@ export const DatePickerRightSection = forwardRef(<D extends SelectedDates>(
     initialProps: DatePickerRightSectionProps<D>, ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('DatePickerRightSection', initialProps);
-    const { timesToTimeBadges, size, borderRadius, timeText, countWeeksInMonth, setTimes, innerStyles: externalStyles, lastEditedDateTypeInPeriod, onChange, selected, times } = props;
+    const { timesToTimeBadges, size, borderRadius, timeText, countWeeksInMonth,
+        setTimes, innerStyles: externalStyles,
+        onChange, selected, times, editablePartOfPeriod, periodChangingFlow, onChangeEditablePartOfPeriod } = props;
     const params = { size, countWeeksInMonth };
     const classes = useStyles({
         params,
@@ -47,12 +49,14 @@ export const DatePickerRightSection = forwardRef(<D extends SelectedDates>(
                         time={item}
                         setTimes={setTimes}
                         onChange={onChange}
-                        active={getSelectedTimeWithoutSeconds(times, selected, lastEditedDateTypeInPeriod) === item}
+                        active={getSelectedTimeWithoutSeconds(times, selected, editablePartOfPeriod) === item}
                         selected={selected}
                         borderRadius={borderRadius}
                         size={size}
                         innerStyles={externalStyles}
-                        lastEditedDateTypeInPeriod={lastEditedDateTypeInPeriod}
+                        editablePartOfPeriod={editablePartOfPeriod}
+                        periodChangingFlow={periodChangingFlow}
+                        onChangeEditablePartOfPeriod={onChangeEditablePartOfPeriod}
                     />
                 ))}
             </div>

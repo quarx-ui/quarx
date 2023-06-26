@@ -5,3 +5,4 @@ export * from './FooterDatePicker';
 export * from './HeaderDatePicker';
 export * from './Dropdown';
 export * from './DatePickerRightSection';
+export * from './TimeBadge';

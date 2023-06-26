@@ -35,13 +35,27 @@ export const DateField = forwardRef(<D extends SelectedDates>(initialProps: Date
     const [dateValue, setDateValue] = useState(dateValueExternal);
     const [value, setValue] = useState(mapSelectedToTextFieldValue(dateValue, withTime));
 
-    const onChange: ChangeEventHandler<HTMLInputElement> = ({ currentTarget: { value: newValue } }) => {
-        const newDate = mapTextFieldValueToSelected({ value: newValue, isSingleDate, withTime, setErrorText: setInnerErrorText, errorsFromInput }) as D;
+    const onChangeValue = (newValue: string) => {
+        const newDate = mapTextFieldValueToSelected({
+            value: newValue,
+            isSingleDate,
+            withTime,
+            setErrorText: setInnerErrorText,
+            errorsFromInput,
+        }) as D;
         setValue(newValue);
         if (validateDateString(newValue)) {
             setDateValue(newDate);
             onChangeExternal(newDate);
         }
+    };
+
+    const onChangeEvent: ChangeEventHandler<HTMLInputElement> = ({ currentTarget: { value: newValue } }) => {
+        onChangeValue(newValue);
+    };
+
+    const onClear = () => {
+        onChangeValue('');
     };
 
     useEffect(() => {
@@ -54,7 +68,8 @@ export const DateField = forwardRef(<D extends SelectedDates>(initialProps: Date
     const { format: nativeFormat, ...rest } = usePatternFormat<DateInputProps>({
         ...restProps,
         value,
-        onChange,
+        onChange: onChangeEvent,
+        onClear,
         placeholder: getPlaceholder(isSingleDate, withTime),
         mask: getMask(isSingleDate, withTime),
         format: getFormatValue(isSingleDate, withTime),

@@ -1,6 +1,7 @@
 import {
-    DatePickerProps, isPeriod,
-    isPicker,
+    EditablePeriodParts,
+    isPeriod,
+    isPicker, PERIOD_CHANGING_FLOW,
     SelectedDates,
     useBooleanState,
     usePropsOverwrites,
@@ -20,10 +21,10 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
 ) => {
     const { props, styleProps, cn } = usePropsOverwrites('TextFieldDatePicker', initialProps);
     const anchor = useRef<HTMLDivElement>(null);
-    const { selected, open = false, withTime = false, onChange, viewingDate: initialViewingDate,
+    const { selected, open = false, withTime = false, onChange,
         errorText: externalErrorText, texts, allowedDates,
         textFieldProps, useExperimentalDateFieldValidation = false, splittedPeriod = false,
-        popupDatePickerStyles, popupDatePickerClasses,
+        popupDatePickerStyles, popupDatePickerClasses, useTimeBadges,
         ...popupDatePickerProps } = props;
 
     const styles = useStyles({ ...styleProps });
@@ -49,7 +50,6 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
     };
 
     const { state: isOpen, setTrue: openPopup, setFalse: closePopup } = useBooleanState(open);
-    const [viewingDate, setViewingDate] = useState<DatePickerProps['viewingDate']>(initialViewingDate);
     const [errorText, setErrorText] = useState(externalErrorText);
     const [activeTextField, setActiveTextField] = useState<ActiveFieldType | undefined>(undefined);
     const startInputRef = useRef<HTMLDivElement>(null);
@@ -68,7 +68,6 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
     };
 
     const onChangeWithTextFieldChanging: PopupDatePickerProps<D>['onChange'] = (dates) => {
-        console.log(dates);
         onChange(dates);
     };
 
@@ -95,6 +94,10 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
         }
     };
 
+    const onChangeEditablePartOfPeriod = (editablePart: EditablePeriodParts) => {
+        setActiveTextField(editablePart);
+    };
+
     useEffect(() => {
         if (externalErrorText) {
             setErrorText(externalErrorText);
@@ -115,7 +118,7 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
                         ref={startInputRef}
                         onFocus={onFocusSplittedPeriod(ACTIVE_FIELD_TYPE.START)}
                         onChange={onChangeSplittedPeriod(ACTIVE_FIELD_TYPE.START)}
-                        useExperimentalDateFieldValidation={useExperimentalDateFieldValidation}
+                        useExperimentalDateFieldValidation={useExperimentalDateFieldValidation} // todo error text for splitted Fields
                         onClick={onTextFieldClick}
                         withTime={withTime}
                         inputProps={{
@@ -153,14 +156,20 @@ export const TextFieldDatePicker = forwardRef(<D extends SelectedDates>(
             <PopupDatePicker
                 {...popupDatePickerProps}
                 selected={selected}
-                viewingDate={viewingDate}
                 onChange={onChangeWithTextFieldChanging}
                 withTime={withTime}
                 open={isOpen}
                 onClickAway={onClickAwayDatePicker}
+                editablePartOfPeriod={activeTextField}
+                periodChangingFlow={withTime && useTimeBadges && splittedPeriod
+                    ? PERIOD_CHANGING_FLOW.AFTER_TIME_BADGE : PERIOD_CHANGING_FLOW.AFTER_EACH}
+                onChangeEditablePartOfPeriod={onChangeEditablePartOfPeriod}
                 styles={popupDatePickerStyles}
+                useTimeBadges={useTimeBadges}
                 classes={popupDatePickerClasses}
                 anchor={splittedPeriod ? activeRef : anchor}
+                clearAllAfterChangingStartDate={!splittedPeriod}
+                pickNewSelectedAfterEndDatePick={!splittedPeriod}
                 texts={restTexts}
             />
         </div>

@@ -2,7 +2,7 @@ import { isPicker, SelectedDates } from '@core';
 import { isEqual } from 'date-fns';
 import isUndefined from '@core/types/isUndefined';
 
-export const validateDateString = (value: string) => !!value && !value.match(/[^0-9.: \s-]/g);
+export const validateDateString = (value: string) => !value.match(/[^0-9.: \s-]/g);
 
 export const isEqualDateOrUndefined = (value?: Date, dateToCompare?: Date) => {
     if (value && dateToCompare) {

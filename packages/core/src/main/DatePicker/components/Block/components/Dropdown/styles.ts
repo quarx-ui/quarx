@@ -15,7 +15,7 @@ export const useStyles = makeStyles(({ palette }, { size, countWeeksInMonth }: R
             flexDirection: 'column',
             height: (countWeeksInMonth + 1) * sizeDay + countWeeksInMonth * OFFSET_DAYS[size]
                 + OFFSET_MONTH_BLOCK[size] * 2,
-            width: WIDTH_BY_SIZE(size),
+            width: WIDTH_BY_SIZE(size), // todo нестабильно, протестить
             zIndex: 100,
             overflow: 'auto',
             /* This is the magic bit for Firefox */

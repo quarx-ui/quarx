@@ -7,12 +7,15 @@ import { getWeekdayNamesByLocale, INITIAL_WEEKDAYS, useMonthData } from '../../u
 import { MonthBlockProps } from './types';
 import { useStyles } from './styles';
 
-export const MonthBlock = forwardRef(<D extends SelectedDates>(initialProps: MonthBlockProps<D>, ref: ForwardedRef<HTMLDivElement>) => {
+export const MonthBlock = forwardRef(<D extends SelectedDates>(
+    initialProps: MonthBlockProps<D>, ref: ForwardedRef<HTMLDivElement>,
+) => {
     const { props, cn, styleProps } = usePropsOverwrites('MonthBlock', initialProps);
     const {
         innerStyles, viewingDate, onChange, selected, allowedDates, hoveredDay,
-        setHoveredDay, isLarge, texts, times, setTimes, size, borderRadius, useIncreasedScopeDay, locale,
-        setLastEditedDateTypeInPeriod,
+        setHoveredDay, isLarge, texts, times, setTimes, size, borderRadius, useBigPressScope, locale,
+        periodChangingFlow, editablePartOfPeriod, onChangeEditablePartOfPeriod, clearAllAfterChangingStartDate,
+        pickNewSelectedAfterEndDatePick,
     } = props;
     const monthData = useMonthData(viewingDate);
     const weekdays: string[] = getWeekdayNamesByLocale(locale) || texts?.weekdays || INITIAL_WEEKDAYS();
@@ -26,8 +29,7 @@ export const MonthBlock = forwardRef(<D extends SelectedDates>(initialProps: Mon
         size,
         isLarge,
         hoveredDay,
-        useIncreasedScopeDay,
-        setLastEditedDateTypeInPeriod,
+        useBigPressScope,
     };
 
     const dayProps = {
@@ -38,6 +40,11 @@ export const MonthBlock = forwardRef(<D extends SelectedDates>(initialProps: Mon
         times,
         setTimes,
         borderRadius,
+        periodChangingFlow,
+        onChangeEditablePartOfPeriod,
+        editablePartOfPeriod,
+        clearAllAfterChangingStartDate,
+        pickNewSelectedAfterEndDatePick,
     };
 
     return (

@@ -12,14 +12,14 @@ export const OffsetDayBlock = forwardRef(<D extends SelectedDates>(
 
     const { numDay, size, day, isWeekdayName, isLarge,
         innerStyles: externalStyles, selected, hoveredDay, viewingDate,
-        useIncreasedScopeDay } = props;
+        useBigPressScope } = props;
 
     const { isDayInPeriod, isDayLastInPeriod, isEqualDays, isHoveredPeriod, isDayInPeriodLarge } = useDayProperties(
         { day, selected, hoveredDay, viewingDate },
     );
     const params = { isLarge,
         size,
-        useIncreasedScopeDay,
+        useBigPressScope,
         isDayInPeriod,
         isDayLastInPeriod,
         isEqualDays,

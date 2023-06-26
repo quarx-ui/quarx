@@ -9,7 +9,6 @@ import {
 import { Dispatch, SetStateAction } from 'react';
 import { Locale } from 'date-fns';
 import { TimeBadgesStyleKeys } from '@core/src/main/DatePicker/components/Block/components/DatePickerRightSection/styles';
-import { LastEditedDateType } from './utils';
 import { DatePickerStyleKeys, DayStyleKeys, FooterDatePickerStyleKeys, MonthBlockStyleKeys, HeaderDatePickerStyleKeys,
     OffsetDayStyleKeys, DropdownDatePickerStyleKeys, DropdownButtonStyleKeys } from '.';
 
@@ -21,6 +20,9 @@ export type DatePickerDisplayTypes = Values<typeof DATE_PICKER_DISPLAY_TYPES>
 
 export const EDITABLE_PERIOD_PARTS = valuesAsKeysFromArray(['START', 'END'] as const);
 export type EditablePeriodParts = Values<typeof EDITABLE_PERIOD_PARTS>
+
+export const PERIOD_CHANGING_FLOW = valuesAsKeysFromArray(['AFTER_DAY', 'AFTER_TIME_BADGE', 'AFTER_EACH', 'DEFAULT'] as const);
+export type PeriodChangingFlow = Values<typeof PERIOD_CHANGING_FLOW>
 
 export type DatePickerBorderRadius = QxBorderSize;
 
@@ -62,7 +64,6 @@ export interface DatePickerTEXTS {
     /** Ошибка валидации времени в календаре
      * @default 'Некорректное время' */
     errorValidateCalendarTime?: string;
-
 }
 
 export type PickerSelectedDate = Date | undefined;
@@ -107,24 +108,30 @@ export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'coun
     innerStyles?: CommonDatePickerStyles;
     /** Возможность отображения нескольких месяцев */
     display?: DatePickerDisplayTypes;
-    /** Отключение возможности переключения дня */
+    /** Отключение возможности переключения года в header SINGLE версии */
     disableYearChanging?: boolean;
     /** Активация выбора времени без ввода, а через нажатие на блоки */
     useTimeBadges?: boolean;
     /** Массив времен для выбора при активных баджах времени */
     timesToTimeBadges?: string[];
-    /** Использовать увеличенный размер области активации дня при клике
+    /** Использовать увеличенный размер области активации дня при клике и наведении
      * @default (by size: xSmall -- true, others -- false)) */
-    useIncreasedScopeDay?: boolean;
+    useBigPressScope?: boolean;
     /** Определяет, какая часть периода изменяется в данный момент
      * @default undefined */
     editablePartOfPeriod?: EditablePeriodParts;
-    /** Функция позволяющая отследить изменение, редактируемой части периода
+    /** Функция позволяющая отследить изменение редактируемой части периода
      * @default undefined */
     onChangeEditablePartOfPeriod?: (currentPart: EditablePeriodParts) => void;
-    /** Отключение начала изменения даты конца после даты начала и передача ответственности на onChangeEditablePartOfPeriod
-     * @default false */
-    disableDefaultPeriodChangingFlow?: boolean;
+    /** Определяет, когда нужно начинать изменение конца периода после изменения начала
+     * @default 'AFTER_DAY' */
+    periodChangingFlow?: PeriodChangingFlow;
+    /** Определяет, нужно ли очищать весь период после изменения дня начала
+     * @default true */
+    clearAllAfterChangingStartDate?: boolean;
+    /** Определяет, нужно ли начинать выбор в периоде сначала при клике на день с уже заполненным selected
+     * @default true */
+    pickNewSelectedAfterEndDatePick?: boolean;
 }
 
 export function isPicker(dates: SelectedDates): dates is PickerSelectedDate {
@@ -146,14 +153,18 @@ export interface DatePickerProps<D extends SelectedDates = PickerSelectedDate> e
 }
 
 export interface DatePickerInnerComponentsProps<D extends SelectedDates> extends Omit<DatePickerProps<D>, 'listOfYears' | 'permissions'
-| 'locale' | 'className' | 'classes' | 'isOpen' | 'changeableDates' | 'css' | 'pickedDates' | 'onChange' | 'useIncreasedScopeDay'
-> {
+| 'locale' | 'className' | 'classes' | 'isOpen' | 'changeableDates' | 'css' | 'pickedDates' | 'onChange' | 'useBigPressScope' |
+'onChangeEditablePartOfPeriod' | 'disableDefaultPeriodChangingFlow' | 'periodChangingFlow' | 'editablePartOfPeriod' |
+'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'
+>, Required<
+    Pick<DatePickerProps<D>, 'onChangeEditablePartOfPeriod' | 'periodChangingFlow' | 'editablePartOfPeriod' | 'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'>
+    > {
     onChange: (newDates: D) => void;
     viewingDate: Date;
     styles: Exclude<DatePickerProps<D>['styles'], undefined>;
     isLarge: boolean;
     setViewingDate: Dispatch<SetStateAction<Date>>;
-    useIncreasedScopeDay: boolean;
+    useBigPressScope: boolean;
 }
 
 export interface InnerTimeValues {
@@ -167,5 +178,3 @@ export interface InnerTimeSetters {
     setStartTime: Dispatch<SetStateAction<string>>;
     setEndTime: Dispatch<SetStateAction<string>>;
 }
-
-export type SetLastEditedDateType = Dispatch<SetStateAction<LastEditedDateType | undefined>>

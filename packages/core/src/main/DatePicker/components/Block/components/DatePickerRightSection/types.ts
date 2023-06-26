@@ -7,7 +7,7 @@ import {
 import { TimeBadgeProps } from '../TimeBadge/types';
 
 export interface DatePickerRightSectionProps<D extends SelectedDates = PickerSelectedDate> extends
-    Required<Pick<CommonDatePickerProps, 'timesToTimeBadges'>>,
+    Required<Pick<CommonDatePickerProps, 'timesToTimeBadges' | 'editablePartOfPeriod' | 'periodChangingFlow' | 'onChangeEditablePartOfPeriod'>>,
     Omit<TimeBadgeProps<D>, 'time' | 'active'>,
     DatePickerRightSectionStyleProps
 {

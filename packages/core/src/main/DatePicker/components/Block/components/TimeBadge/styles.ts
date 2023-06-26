@@ -19,6 +19,6 @@ export const useStyles = makeStyles(({ palette }, { size, active }: TimeBadgeSty
             cursor: 'pointer',
         },
     },
-}));
+}), { name: 'TimeBadge' });
 
-export type TimeBadgesStyleKeys = KeysFromUseStyles<typeof useStyles>
+export type TimeBadgeStyleKeys = KeysFromUseStyles<typeof useStyles>

@@ -18,7 +18,7 @@ export interface OffsetDayStyleParams extends CommonDatePicker {
     isWeekdayName?: boolean;
     isDayInPeriodLarge: boolean;
     isLarge?: boolean;
-    useIncreasedScopeDay?: boolean;
+    useBigPressScope?: boolean;
 }
 
 export interface OffsetDayBlockProps<D extends SelectedDates = PickerSelectedDate> extends WithClassesAndStyles<OffsetDayStyleKeys, OffsetDayStyleParams>,
@@ -26,5 +26,5 @@ export interface OffsetDayBlockProps<D extends SelectedDates = PickerSelectedDat
     numDay: number;
     isWeekdayName?: boolean;
     isLarge?: boolean;
-    useIncreasedScopeDay?: boolean;
+    useBigPressScope?: boolean;
 }

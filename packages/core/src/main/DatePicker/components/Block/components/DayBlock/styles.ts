@@ -31,7 +31,7 @@ const getBorderDayContainer = (numDay: number, palette: Palette) => {
 export const useStyles = makeStyles(({ palette, borderRadii },
     { size, borderRadius, numDay, isDayInPeriod, isDayTrusted, type, isLarge, isDayInPeriodLarge,
         isHoveredPeriod, isDayInHoveredPeriod, isEqualDays, isDayLastInPeriod, isDayFirstInPeriod, isPeriodSelected,
-        isDayInViewableMonth, isDaySelected, isDayHovered, isSecondPickInPeriod, useIncreasedScopeDay,
+        isDayInViewableMonth, isDaySelected, isDayHovered, isSecondPickInPeriod, useBigPressScope,
     }: Required<DayStylesParams>) => {
     const sizeDay = useMemo(() => DATE_PICKER_DAY_SIZE_PX[size], [size]);
 
@@ -41,7 +41,7 @@ export const useStyles = makeStyles(({ palette, borderRadii },
         : borderRadiusForDay;
 
     return ({
-        dayPressContainer: useIncreasedScopeDay ? {
+        dayPressContainer: useBigPressScope ? {
             padding: 4,
             width: '100%',
             ':hover': {

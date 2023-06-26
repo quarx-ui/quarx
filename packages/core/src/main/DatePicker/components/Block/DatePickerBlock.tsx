@@ -5,9 +5,12 @@ import {
     usePropsOverwrites,
 } from '@core';
 import { forwardRef } from '@core/utils';
-import { addMonths, getWeeksInMonth } from 'date-fns';
+import { addMonths, getWeeksInMonth, isAfter } from 'date-fns';
+import {
+    useEditablePeriodPartManager,
+} from '@core/src/main/DatePicker/components/Block/utils/useEditablePeriodPartManager';
 import { DatePickerRightSection } from './components/DatePickerRightSection';
-import { LastEditedDateType, TIMES_TO_TIME_BADGES, useDropdownDatePicker } from './utils';
+import { TIMES_TO_TIME_BADGES, useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
 import { getTimeFromDate } from './components/FooterDatePicker/utils';
 import { DATE_PICKER_DISPLAY_TYPES } from './types';
@@ -19,19 +22,19 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
     const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
 
     const {
-        onChange, innerStyles, useIncreasedScopeDay: externalUseIncreasedDay = false,
+        onChange, innerStyles, useBigPressScope: externalUseIncreasedDay = false,
         selected, allowedDates, viewingDate: externalViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
         disableYearChanging, useTimeBadges = false, timesToTimeBadges = TIMES_TO_TIME_BADGES,
-        // editablePartOfPeriod: externalEditablePartOfPeriod,
-        // onChangeEditablePartOfPeriod: externalOnChangeEditablePartOfPeriod,
-        // disableDefaultPeriodFlowChanging,
-        ...restProps
+        clearAllAfterChangingStartDate = true, pickNewSelectedAfterEndDatePick = true,
+        editablePartOfPeriod: externalEditablePartOfPeriod,
+        onChangeEditablePartOfPeriod: externalOnChangeEditablePartOfPeriod,
+        periodChangingFlow: externalPeriodChangingFlow, ...restProps
     } = props;
 
     const isLarge = useMemo(() => display === DATE_PICKER_DISPLAY_TYPES.DOUBLE, [display]);
     const isMobile = useMedia('mobile');
-    const useIncreasedScopeDay = externalUseIncreasedDay || isMobile;
+    const useBigPressScope = externalUseIncreasedDay || isMobile;
 
     const [dates, setDates] = useState<SelectedDates>(selected);
     const [pickedTime, setPickedTime] = useState<string>(getTimeFromDate(isPicker(dates) ? dates : undefined));
@@ -48,9 +51,17 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
     const yearDropdownData = useDropdownDatePicker(DROPDOWN_TYPES.YEARS, { locale, content: yearsArr });
     const isDropdownOpened = monthDropdownData.isOpen || yearDropdownData.isOpen;
 
-    const [lastEditedDateTypeInPeriod, setLastEditedDateTypeInPeriod] = useState<LastEditedDateType | undefined>(undefined);
-
     const [viewingDate, setViewingDate] = useState<Date>(externalViewingDate || new Date());
+
+    const { editablePartOfPeriod, onChangeEditablePartOfPeriod, periodChangingFlow } = useEditablePeriodPartManager({
+        editablePartOfPeriod: externalEditablePartOfPeriod,
+        onChangeEditablePartOfPeriod: externalOnChangeEditablePartOfPeriod,
+        periodChangingFlow: externalPeriodChangingFlow,
+        useTimeBadges,
+        display,
+        selected,
+    });
+
     const countWeeksInMonth = getWeeksInMonth(viewingDate);
 
     const params = { countWeeksInMonth, isLarge, borderRadius, size };
@@ -66,6 +77,12 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
     useEffect(() => {
         if (selected !== dates) {
             setDates(selected);
+            if (isPeriod(selected)) {
+                setStartTime(getTimeFromDate(selected.start));
+                setEndTime(getTimeFromDate(selected.end));
+            } else if (isPicker(selected)) {
+                setPickedTime(getTimeFromDate(selected));
+            }
         }
     }, [dates, selected]);
 
@@ -87,9 +104,13 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
         allowedDates,
         size,
         borderRadius,
-        useIncreasedScopeDay,
+        useBigPressScope,
         locale,
-        setLastEditedDateTypeInPeriod,
+        editablePartOfPeriod,
+        onChangeEditablePartOfPeriod,
+        periodChangingFlow,
+        clearAllAfterChangingStartDate,
+        pickNewSelectedAfterEndDatePick,
     };
 
     return (
@@ -170,7 +191,7 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
                 {useTimeBadges && withTime && !isDropdownOpened && (
                     <DatePickerRightSection
                         timesToTimeBadges={timesToTimeBadges}
-                        key="TimeBadges"
+                        key="DatePickerRightSection"
                         size={size}
                         borderRadius={borderRadius}
                         countWeeksInMonth={countWeeksInMonth}
@@ -180,7 +201,9 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
                         onChange={onChange}
                         times={times}
                         setTimes={setTimes}
-                        lastEditedDateTypeInPeriod={lastEditedDateTypeInPeriod}
+                        periodChangingFlow={periodChangingFlow}
+                        editablePartOfPeriod={editablePartOfPeriod}
+                        onChangeEditablePartOfPeriod={onChangeEditablePartOfPeriod}
                     />
                 )}
             </div>

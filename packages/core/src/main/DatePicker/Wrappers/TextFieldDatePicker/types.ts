@@ -62,8 +62,8 @@ export interface TextFieldDatePickerProps<D extends SelectedDates = PickerSelect
      * @default false */
     texts?: TextFieldDatePickerTEXTS;
 
-    popupDatePickerStyles: PopupDatePickerProps['styles'];
-    popupDatePickerClasses: PopupDatePickerProps['classes'];
+    popupDatePickerStyles?: PopupDatePickerProps['styles'];
+    popupDatePickerClasses?: PopupDatePickerProps['classes'];
 
     /** Передача Permission в TextField */
     permissions?: {

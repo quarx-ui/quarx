@@ -32,7 +32,3 @@ export const OFFSET_MONTH_BLOCK: Record<DatePickerSize, number> = {
 };
 
 export const BORDER_SIZE_ROOT = 1;
-
-export const LAST_EDITED_DATE_TYPE = valuesAsKeysFromArray(['START', 'END'] as const);
-
-export type LastEditedDateType = Values<typeof LAST_EDITED_DATE_TYPE>

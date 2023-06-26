@@ -7,7 +7,7 @@ export const DATE_PICKER_ARG_TYPES: ArgTypes<DatePickerStoryType> = ({
     ...defineCategory<DatePickerStoryType>('Стилизация', {
         size: { control: { type: 'select' } },
         borderRadius: { control: { type: 'select' } },
-        useIncreasedScopeDay: { control: { type: 'boolean' } },
+        useBigPressScope: { control: { type: 'boolean' } },
         innerStyles: { control: { type: 'none' } },
     }),
     ...defineCategory<DatePickerStoryType>('Функциональные параметры', {

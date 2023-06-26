@@ -6,12 +6,12 @@ import {
 import { LastEditedDateType } from '../../utils';
 
 export interface TimeBadgeProps<D extends SelectedDates = PickerSelectedDate> extends
-    Pick<DatePickerInnerComponentsProps<D>, 'innerStyles' | 'onChange' | 'selected' | 'allowedDates'>,
+    Pick<DatePickerInnerComponentsProps<D>, 'innerStyles' | 'onChange' | 'selected' | 'allowedDates'
+    | 'periodChangingFlow' | 'editablePartOfPeriod' | 'onChangeEditablePartOfPeriod'>,
     Required<Pick<DatePickerInnerComponentsProps<D>, 'borderRadius'>>,
     TimeBadgeStyleProps
 {
     setTimes: InnerTimeSetters;
-    lastEditedDateTypeInPeriod?: LastEditedDateType;
     time: string;
 }
 

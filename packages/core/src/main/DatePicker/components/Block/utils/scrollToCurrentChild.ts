@@ -1,4 +1,18 @@
-export function scrollParentToChild(parent : HTMLDivElement | null, child : HTMLDivElement | null) {
+import { DatePickerSize } from '@core';
+
+const DROPDOWN_ELEMENT_HEIGHT = {
+    small: 37,
+    medium: 41,
+    large: 45,
+};
+
+const HEIGHT_OF_THREE_ELEMENTS = (size: DatePickerSize) => DROPDOWN_ELEMENT_HEIGHT[size] * 3;
+
+export function scrollParentToChild(
+    parent : HTMLDivElement | null,
+    child : HTMLDivElement | null,
+    size: DatePickerSize,
+) {
     if (parent && child) {
         const parentRect = parent.getBoundingClientRect();
 
@@ -14,7 +28,7 @@ export function scrollParentToChild(parent : HTMLDivElement | null, child : HTML
 
         if (!isViewable) {
             // eslint-disable-next-line no-param-reassign
-            parent.scrollTop = (childRect.top + parent.scrollTop) - parentRect.top;
+            parent.scrollTop = (childRect.top + parent.scrollTop) - parentRect.top - HEIGHT_OF_THREE_ELEMENTS(size);
         }
     }
 }

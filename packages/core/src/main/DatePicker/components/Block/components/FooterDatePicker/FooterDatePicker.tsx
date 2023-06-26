@@ -22,6 +22,9 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
         size,
         css: styles.periodTimeTextField,
         className: cn('periodTimeTextField', params),
+        inputProps: {
+            size: 8,
+        },
         styles: {
             label: styles.labelTimeTextField,
         },
@@ -72,6 +75,9 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
                             borderRadius={borderRadius}
                             styles={{
                                 label: styles.labelTimeTextField,
+                            }}
+                            inputProps={{
+                                size: 8,
                             }}
                             size={size}
                             errorText={errorMessagePicker}

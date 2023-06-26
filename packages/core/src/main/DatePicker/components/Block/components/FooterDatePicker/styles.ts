@@ -8,7 +8,7 @@ export const useStyles = makeStyles(({ palette }, { size }: Required<FooterStyle
         borderTop: `1px solid ${palette.border.main}`,
         display: 'flex',
         flexDirection: 'column',
-        width: WIDTH_BY_SIZE(size),
+        // width: WIDTH_BY_SIZE(size),
     },
     periodTimeTextField: {
         width: '50%',

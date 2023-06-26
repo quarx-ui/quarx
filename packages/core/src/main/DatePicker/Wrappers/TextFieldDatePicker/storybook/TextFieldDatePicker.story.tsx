@@ -4,13 +4,13 @@ import { Story } from '@storybook/react/types-6-0';
 import { defineCategory } from '@core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants';
-import { PeriodSelectedDates, DATE_PICKER_DISPLAY_TYPES,
-    DatePickerProps } from '@core';
+import { PeriodSelectedDates, DATE_PICKER_DISPLAY_TYPES } from '@core';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Div } from '@storybook/components';
 import { TextFieldDatePicker } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker';
+import { TextFieldDatePickerProps } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/types';
 
-type StoryType = Omit<DatePickerProps<PeriodSelectedDates>, 'onChange' | 'selected'>;
+type StoryType = Omit<TextFieldDatePickerProps<PeriodSelectedDates>, 'onChange' | 'selected'>;
 
 const defaultArgs: StoryType = {
     display: DATE_PICKER_DISPLAY_TYPES.SINGLE,
@@ -18,6 +18,9 @@ const defaultArgs: StoryType = {
     size: 'small',
     disableYearChanging: false,
     withTime: true,
+    splittedPeriod: true,
+    useTimeBadges: true,
+    useExperimentalDateFieldValidation: false,
 };
 
 export default {
@@ -60,7 +63,7 @@ export const Sandbox: Story<StoryType> = (props) => {
     // const [selectedPicker, setSelectedPicker] = useState<PickerSelectedDate>(undefined);
     return (
         <Div style={{ height: 1000 }}>
-            {selectedPeriod && Object.values(selectedPeriod).map((date) => `${(date as Date)?.toString()}\n`)}
+            {selectedPeriod && Object.entries(selectedPeriod).map(([key, date]) => `${key}: ${(date as Date)?.toString()}\n`)}
             <TextFieldDatePicker
                 {...props}
                 selected={selectedPeriod}

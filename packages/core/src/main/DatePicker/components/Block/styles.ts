@@ -8,7 +8,7 @@ export const useStyles = makeStyles((
     root: {
         ...elevations.main.medium,
         background: palette.background.main,
-        width: 'fit-content',
+        width: 'min-content',
         borderRadius: borderRadius === 'max' ? borderRadii.xLarge : borderRadii[borderRadius],
         boxSizing: 'border-box',
         ...MONTH_TYPOGRAPHY[size],
