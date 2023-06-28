@@ -28,7 +28,10 @@ export const getComputedDarkColors = (color: string, text: string, background: s
     ),
 });
 
-export const getDarkSecondaryColors = (background = '#02050A', text = '#FFFFFF'): Omit<Palette, 'colors' | 'type'> => ({
+export const getDarkSecondaryColors = (
+    background = '#02050A',
+    text = '#FFFFFF',
+): Omit<Palette, 'colors' | 'type'> => ({
     background: {
         main: getLightSuperposition(background, 0.08),
         secondary: background,
@@ -63,13 +66,17 @@ export const getDarkSecondaryColors = (background = '#02050A', text = '#FFFFFF')
     },
 });
 
-export const getDarkPalette = (initialColors: Record<PaletteColor, string>, background = '#02050A', text = '#FFFFFF') => {
-    const colors: Partial<PaletteColors> = Object
+export const getDarkPalette = (
+    initialColors: Record<PaletteColor, string>,
+    background = '#02050A',
+    text = '#FFFFFF',
+): Omit<Palette, 'type'> => {
+    const colors: PaletteColors = Object
         .entries(initialColors)
         .reduce((acc, [key, value]) => ({
             ...acc,
             [key]: getComputedDarkColors(value, text, background),
-        }), {});
+        }), {} as PaletteColors);
 
     return {
         ...getDarkSecondaryColors(background, text),

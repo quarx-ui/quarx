@@ -14,7 +14,7 @@ export interface AccordionStyleParams {
      * @default false */
     showDivider: boolean;
 
-    /** Отключает назначение компонентом текстовых стелей для внутреннего контента
+    /** Отключает назначение компонентом текстовых стилей для внутреннего контента
      * @default false */
     inheritTextStyles: boolean;
 }

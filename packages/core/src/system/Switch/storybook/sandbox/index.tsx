@@ -1,8 +1,9 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Case, Switch, SwitchProps } from '@core/src/system/Switch';
 import { Button } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
-const Template: Story<SwitchProps> = ({ value }) => (
+export const SandboxStory: Story<SwitchProps> = ({ value }) => (
     <Button>
         <Switch value={value}>
             <Case value="false">
@@ -15,5 +16,6 @@ const Template: Story<SwitchProps> = ({ value }) => (
     </Button>
 );
 
-export const SandboxStory = Template.bind({});
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

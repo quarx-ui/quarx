@@ -1,19 +1,20 @@
 import { Story } from '@storybook/react/types-6-0';
 import { useBooleanState, Selection } from '@core';
 import { StoryDarkerContainer } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { CONTROLLER_OPTIONS, getController, SelectionTemplateProps } from '../utils';
 
 export const SandboxStory: Story<SelectionTemplateProps> = ({
     children,
     ...props
 }) => {
-    const { state, setOppositeState } = useBooleanState(false);
+    const [state, { toggleState }] = useBooleanState(false);
     return (
         <StoryDarkerContainer>
             <Selection {...props}>
                 {getController({
                     checked: state,
-                    onChange: setOppositeState,
+                    onChange: toggleState,
                     variant: children ?? CONTROLLER_OPTIONS.Checkbox,
                 })}
             </Selection>
@@ -21,4 +22,6 @@ export const SandboxStory: Story<SelectionTemplateProps> = ({
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

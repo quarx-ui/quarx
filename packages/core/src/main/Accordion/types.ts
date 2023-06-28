@@ -1,4 +1,4 @@
-import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles } from '@core';
+import { BaseProps, ComponentPropsWithHTML, WithClassesAndStyles, CollapseProps } from '@core';
 import { ReactChild, ReactElement, ReactNode } from 'react';
 import { AccordionStyleParams } from './styles/types';
 import { AccordionStyleKeys } from './styles';
@@ -33,6 +33,12 @@ export interface AccordionPropsWithoutHtml extends
     /** Обработчик открытия и закрытия аккордеона */
     onChange?: (open: boolean) => void;
 
+    /** Тумблер анимации разворачивания аккордеона
+     * @default false */
+    disableTransition?: boolean;
+
+    /** Свойства используемого компонента Collapse */
+    CollapseProps?: Omit<CollapseProps, 'open'>;
 }
 
 export type AccordionProps = ComponentPropsWithHTML<AccordionPropsWithoutHtml>;

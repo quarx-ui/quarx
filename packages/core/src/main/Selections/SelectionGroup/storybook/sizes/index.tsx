@@ -1,8 +1,8 @@
-import { excludeProp } from '@core/storybook/templateParams';
 import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_SIZE } from '@core/enums';
 import { SelectionGroup } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { getTemplateChildren, TemplateSelectionGroupProps, useTemplateChildren } from '../utils';
 
 const sizes = [QX_SIZE.small, QX_SIZE.medium, QX_SIZE.large];
@@ -25,5 +25,7 @@ export const SizesStory: Story<TemplateSelectionGroupProps> = (props) => {
     );
 };
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    excludeArgs: ['size'],
+});

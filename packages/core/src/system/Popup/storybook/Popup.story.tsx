@@ -1,12 +1,9 @@
-import { ChangeEventHandler, useRef, useState } from 'react';
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
-import { Story } from '@storybook/react/types-6-0';
-import { Button, TextField, TextFieldRefType, useBooleanState } from '@core';
-import { StoryDarkerContainer } from '@core/storybook/components';
+import { Meta } from '@storybook/react';
+import { Popup, PopupProps } from '..';
 import { StorybookPopupProps } from './types';
-import { Popup } from '..';
 
 const defaultArgs: Partial<StorybookPopupProps> = {
     anchorYOffset: 0,
@@ -18,7 +15,6 @@ export default {
     component: Popup,
     parameters: {
         layout: 'fullscreen',
-        actions: { disable: true },
     },
     args: defaultArgs,
     argTypes: {
@@ -72,69 +68,6 @@ export default {
 
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<PopupProps>;
 
-const Template: Story<StorybookPopupProps> = ({
-    anchorYOffset = 0,
-    anchorXOffset = 0,
-    ...props
-}) => {
-    const [text, setText] = useState<string>('');
-    const { state, setTrue, setFalse } = useBooleanState(false);
-    const anchor = useRef<HTMLButtonElement>(null);
-
-    const setValue: ChangeEventHandler<TextFieldRefType> = (event) => (
-        setText(event.target.value)
-    );
-
-    return (
-        <StoryDarkerContainer>
-            <div style={{ position: 'relative' }}>
-                <span>{text}</span>
-                <Button
-                    ref={anchor}
-                    type="outlined"
-                    onClick={setTrue}
-                    style={{
-                        marginTop: anchorYOffset,
-                        marginLeft: anchorXOffset,
-                    }}
-                >
-                    Показать
-                </Button>
-                <span style={{ display: 'block', marginTop: 8 }}>
-                    Для тестирования relative используйте disablePortal.
-                    Внешний div проставлен в position: relative
-                </span>
-                <Popup
-                    {...props}
-                    open={state}
-                    anchor={anchor}
-                    onClickAway={setFalse}
-                >
-                    <div
-                        css={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            width: 150,
-                            gap: 12,
-                        }}
-                    >
-                        <TextField
-                            value={text}
-                            onChange={setValue}
-                            css={{ width: '100%' }}
-                        />
-                        <Button onClick={setFalse}>
-                            Закрыть
-                        </Button>
-                    </div>
-                </Popup>
-            </div>
-        </StoryDarkerContainer>
-    );
-};
-
-export const Sandbox = Template;
-Sandbox.storyName = 'Компонент';
-Sandbox.args = defaultArgs;
+export { SandboxStory } from './sandbox';

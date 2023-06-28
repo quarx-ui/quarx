@@ -1,8 +1,9 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@core/storybook/templateParams';
-import { ChipsPropsWithoutHtml, QX_SIZE } from '@core';
+import { ChipsProps, ChipsPropsWithoutHtml, QX_SIZE } from '@core';
 import { EnvelopeIcon as EnvelopeIconMediumSize } from '@quarx-ui/icons/src/envelope/24px/stroke/rounded';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { Chips } from '../index';
 import { CHIPS_VARIANT } from '../constants';
 
@@ -33,7 +34,6 @@ Required<ChipsPropsWithoutHtml>,
 export default {
     title: STORY_PATHS.core.components.main('Chips'),
     component: Chips,
-    parameters: { actions: { disable: true } },
     args: defaultArgs,
     argTypes: {
         size: { description: 'Размер chips' },
@@ -64,7 +64,7 @@ export default {
         },
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<ChipsProps>;
 
 export { SandboxStory } from './sandbox';
 export { BooleanParamsStory } from './booleans';

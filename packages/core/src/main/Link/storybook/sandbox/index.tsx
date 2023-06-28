@@ -1,6 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Link, LinkSize } from '@core';
 import { ReactChild } from 'react';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { ChevronRight16, ChevronRight24, Gear16, Gear24 } from '../assets';
 import { defaultLinkArgs } from '../constants';
 import { LinkStoryType } from '../types';
@@ -43,9 +44,11 @@ export const SandboxStory: Story<LinkStoryType> = ({
     </Link>
 );
 
-SandboxStory.storyName = 'Компонент';
-SandboxStory.args = {
-    ...defaultLinkArgs,
-    showLeftItem: true,
-    showRightItem: true,
-};
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+    args: {
+        ...defaultLinkArgs,
+        showLeftItem: true,
+        showRightItem: true,
+    },
+});

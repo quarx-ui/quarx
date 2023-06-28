@@ -66,7 +66,7 @@ export type PropsArray<Props = PropsType> = {
 
 export interface TestComponentPropsMapArg<Props = PropsType> extends Omit<BaseProps, 'testName' | 'postfix'> {
     targetProps: PropsArray<Props>;
-    commonProps?: Props;
+    commonProps?: Partial<Props>;
 }
 
 export type TestParams = Partial<PlaywrightTestArgs & PlaywrightWorkerOptions> & { page: Page };

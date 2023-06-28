@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SwitcherProps } from '../../types';
 import { Switcher } from '../../Switcher';
 
@@ -19,4 +20,6 @@ export const SandboxStory: Story<SwitcherProps> = ({ checked: externalChecked, .
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

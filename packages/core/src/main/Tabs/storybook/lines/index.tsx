@@ -1,8 +1,7 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Tabs } from '../../Tabs';
 import { TabsProps } from '../../types';
 import { TABS_TYPES } from '../../common';
@@ -17,6 +16,8 @@ export const LinesStory: Story<TabsProps> = (props) => DisplayVariants({
     direction: 'vertical',
 });
 
-LinesStory.storyName = 'Положение индикатора';
-LinesStory.argTypes = excludeProp(['line', 'type']);
-LinesStory.parameters = createStoryDescription(description);
+setStoryParams(LinesStory, {
+    title: 'Положение индикатора',
+    description,
+    excludeArgs: ['line', 'type'],
+});

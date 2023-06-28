@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
 import { PALETTE_COLORS } from '@core/styles';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SwitcherProps } from '../../types';
 import { Switcher } from '../../Switcher';
 
@@ -22,5 +22,7 @@ export const ColorsStory: Story<SwitcherProps> = (props) => {
     });
 };
 
-ColorsStory.storyName = 'Цветовая палитра';
-ColorsStory.argTypes = excludeProp(['color']);
+setStoryParams(ColorsStory, {
+    title: 'Цветовая палитра',
+    excludeArgs: ['color'],
+});

@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
 import { Title } from '@core/storybook/DisplayVariants/styledComponents';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StackProps } from '../../types';
 import { STACK_DIRECTION, STACK_ORDER } from '../../styles/constants';
 import { Stack } from '../../Stack';
@@ -34,6 +33,8 @@ export const DirectionAndOrderStory: Story<StackProps> = (props) => (
     </Stack>
 );
 
-DirectionAndOrderStory.storyName = 'Направление и порядок элементов';
-DirectionAndOrderStory.argTypes = excludeProp(['order', 'direction']);
-DirectionAndOrderStory.parameters = createStoryDescription(description);
+setStoryParams(DirectionAndOrderStory, {
+    title: 'Направление и порядок элементов',
+    description,
+    excludeArgs: ['order', 'direction'],
+});

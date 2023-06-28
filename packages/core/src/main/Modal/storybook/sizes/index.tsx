@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { ModalProps } from '@core';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { ModalStory } from '../modal';
 import description from './description.md';
 
@@ -13,6 +12,8 @@ export const SizesStory: Story<ModalProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
-SizesStory.parameters = createStoryDescription(description);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    description,
+    excludeArgs: ['size'],
+});

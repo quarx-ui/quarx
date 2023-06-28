@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Checkbox, CheckboxProps } from '@core';
 import { useState } from 'react';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const BorderRadiusStory: Story<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
@@ -19,5 +19,7 @@ export const BorderRadiusStory: Story<CheckboxProps> = (props) => {
     });
 };
 
-BorderRadiusStory.storyName = 'Скругления';
-BorderRadiusStory.argTypes = excludeProp(['borderRadius']);
+setStoryParams(BorderRadiusStory, {
+    title: 'Скругления',
+    excludeArgs: ['borderRadius'],
+});

@@ -1,7 +1,8 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { excludeProp } from '@core/storybook/templateParams';
-import { PALETTE_COLORS, QX_SIZE } from '@core';
+import { PALETTE_COLORS, QX_SIZE, SelectionListProps } from '@core';
+import { Meta } from '@storybook/react';
 import {
     SelectionList,
     SELECTION_LIST_TYPE,
@@ -22,7 +23,6 @@ export default {
     component: SelectionList,
     parameters: {
         layout: 'fullscreen',
-        actions: { disable: true },
     },
     args: defaultArgs,
     argTypes: {
@@ -31,7 +31,7 @@ export default {
         onUpdate: { description: 'Функция, вызываемая при изменении состояния узлов' },
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<SelectionListProps>;
 
 export { SandboxStory } from './sandbox';
 export { TypesStory } from './types';

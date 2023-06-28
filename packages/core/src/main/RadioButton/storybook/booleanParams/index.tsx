@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Button, QX_SIZE, RadioButton, RadioButtonProps } from '@core';
 import { Fragment, useState } from 'react';
 import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const BooleanParamsStory: Story<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
@@ -34,5 +34,8 @@ export const BooleanParamsStory: Story<RadioButtonProps> = (props) => {
         </Fragment>
     );
 };
-BooleanParamsStory.storyName = 'Boolean параметры';
-BooleanParamsStory.argTypes = excludeProp(['disabled']);
+
+setStoryParams(BooleanParamsStory, {
+    title: 'Boolean параметры',
+    excludeArgs: ['disabled'],
+});

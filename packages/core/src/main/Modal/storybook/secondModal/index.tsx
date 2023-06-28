@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Modal as KitModal, ModalProps } from '@core';
 import { useState } from 'react';
 import { StoryButton } from '@core/storybook/components';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 export const SecondModalStory: Story<ModalProps> = (props) => {
@@ -38,5 +38,7 @@ export const SecondModalStory: Story<ModalProps> = (props) => {
     );
 };
 
-SecondModalStory.storyName = 'Второе окно';
-SecondModalStory.parameters = createStoryDescription(description);
+setStoryParams(SecondModalStory, {
+    title: 'Второе окно',
+    description,
+});

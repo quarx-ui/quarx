@@ -1,8 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Badge, BadgeProps } from '@core';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const TYPES = ['contained', 'outlined', 'ghosted'];
@@ -14,11 +13,8 @@ export const TypesStory: Story<BadgeProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-TypesStory.storyName = 'Типы заливки';
-TypesStory.parameters = createStoryDescription(description);
-TypesStory.argTypes = excludeProp([
-    'leftItemShown',
-    'rightItemShown',
-    'counterShown',
-    'type',
-]);
+setStoryParams(TypesStory, {
+    title: 'Типы заливки',
+    description,
+    excludeArgs: ['leftItemShown', 'rightItemShown', 'counterShown', 'type'],
+});

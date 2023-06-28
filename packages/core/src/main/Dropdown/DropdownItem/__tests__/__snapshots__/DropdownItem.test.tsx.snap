@@ -1,0 +1,788 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownItem Active icon 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default QxDropdownItem_state css-1fqqqwy-QxDropdownItem-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-m6a0xm-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon appear-active"
+      >
+        <div>
+          active icon
+        </div>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem Checkbox type 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_checkbox QxDropdownItem_state css-1fqqqwy-QxDropdownItem-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        <div
+          class="QxDropdownItem-icon css-1553a38-QxDropdownItem-icon"
+        >
+          <label
+            class="QxCheckbox QxCheckbox_size_medium QxCheckbox_color_brand QxCheckbox_checked QxCheckbox_borderRadius_medium QxCheckbox_disableFocus css-1lgh59g-QxCheckbox-root"
+          >
+            <input
+              checked=""
+              class="QxCheckbox-input css-18ihdh7-QxCheckbox-input"
+              tabindex="-1"
+              type="checkbox"
+              value=""
+            />
+            <div
+              class="QxCheckbox-checkboxContainer css-154u63a-QxCheckbox-checkboxContainer"
+            >
+              <div
+                class="QxCheckbox-overlay css-40mdt4-QxCheckbox-overlay"
+              >
+                <svg
+                  class="QxCheckbox-icon css-1pculg9-QxCheckbox-icon"
+                  fill="currentcolor"
+                  height="8"
+                  viewBox="0 0 11 8"
+                  width="11"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M2.03616 3.36025C1.68516 3.00925 1.11546 3.00925 0.763559 3.36025C0.411659 3.71215 0.411659 4.28185 0.763559 4.63375L4.09896 7.96915L10.1398 1.93645C10.4917 1.58545 10.4917 1.01575 10.1407 0.663847C9.78876 0.312847 9.21906 0.311947 8.86716 0.662947L4.09986 5.42395L2.03616 3.36025Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </label>
+        </div>
+        Title
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem Default type 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default QxDropdownItem_state css-1fqqqwy-QxDropdownItem-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-m6a0xm-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon appear-active"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem Left icon 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        <div>
+          left icon
+        </div>
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem Snapshot (default component) 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem Snapshot (with description) 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_descriptionExists QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1qstva2-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1qstva2-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params color brand 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-color-brand"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params color danger 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_danger QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-color-danger"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params color info 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_info QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-color-info"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params color secondary 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_secondary QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-color-secondary"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params color success 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_success QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-color-success"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params color warning 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_warning QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-color-warning"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params disableFocus false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-disableFocus-false"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params disableFocus true 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_disableFocus QxDropdownItem_type_default css-16ocx61-QxDropdownItem-root"
+    data-testid="testStyleParams-disableFocus-true"
+    tabindex="-1"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params hover false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-hover-false"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params size large 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_large QxDropdownItem_color_brand QxDropdownItem_type_default css-sjbhyg-QxDropdownItem-root"
+    data-testid="testStyleParams-size-large"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-idtf7d-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-idtf7d-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params size medium 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_medium QxDropdownItem_color_brand QxDropdownItem_type_default css-1fqqqwy-QxDropdownItem-root"
+    data-testid="testStyleParams-size-medium"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`DropdownItem style params size small 1`] = `
+<DocumentFragment>
+  <button
+    class="QxDropdownItem QxDropdownItem_size_small QxDropdownItem_color_brand QxDropdownItem_type_default css-6zqrsy-QxDropdownItem-root"
+    data-testid="testStyleParams-size-small"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxDropdownItem-container css-1jclboq-QxDropdownItem-container"
+    >
+      <div
+        class="QxDropdownItem-content css-1jclboq-QxDropdownItem-container"
+      >
+        Title
+      </div>
+      <div
+        class="QxDropdownItem-activeIcon css-14isp5s-QxDropdownItem-activeIcon-QxDropdownItem-activeIcon"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M6.95988 12.2901C7.35041 11.8996 7.98357 11.8996 8.3741 12.2901L10.1042 14.0202C10.3709 14.2868 10.5043 14.4202 10.6699 14.4202C10.8356 14.4202 10.969 14.2868 11.2356 14.0201L17.9572 7.29782C18.3477 6.90727 18.9808 6.90723 19.3714 7.29774C19.7619 7.68824 19.762 8.3214 19.3715 8.71195L11.3771 16.7072C11.1896 16.8947 10.9352 17.0001 10.67 17.0001C10.4048 17.0001 10.1504 16.8948 9.96289 16.7072L6.95989 13.7043C6.56936 13.3138 6.56936 12.6807 6.95988 12.2901Z"
+            fill-opacity="0.64"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;

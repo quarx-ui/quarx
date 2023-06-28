@@ -1,6 +1,7 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { SidePage as KitSidePage, SidePageProps } from '..';
 
 const defaultArgs: SidePageProps = {
@@ -33,7 +34,6 @@ const defaultArgs: SidePageProps = {
 export default {
     title: STORY_PATHS.core.components.main('SidePage'),
     component: KitSidePage,
-    parameters: { actions: { disable: true } },
     args: defaultArgs,
     argTypes: {
         ...defineCategory('Элементы', {
@@ -83,7 +83,7 @@ export default {
         }),
         ...excludeProp(['permissions', 'hidden'], BASE_ARG_TYPES),
     },
-};
+} as Meta<SidePageProps>;
 
 export { SandboxStory } from './sandbox';
 export { FooterDirectionStory } from './footerDirection';

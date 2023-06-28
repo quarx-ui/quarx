@@ -1,7 +1,7 @@
 import { Counter, CounterProps, CounterType } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const TYPES: CounterType[] = [
     'filled',
@@ -16,5 +16,7 @@ export const TypesStory: Story<CounterProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-TypesStory.storyName = 'Типы';
-TypesStory.argTypes = excludeProp(['type']);
+setStoryParams(TypesStory, {
+    title: 'Типы',
+    excludeArgs: ['type'],
+});

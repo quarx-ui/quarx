@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SwitcherProps } from '../../types';
 import { Switcher } from '../../Switcher';
 
@@ -26,5 +26,7 @@ export const DisabledParamStory: Story<SwitcherProps> = (props) => {
     });
 };
 
-DisabledParamStory.storyName = 'Disabled параметр';
-DisabledParamStory.argTypes = excludeProp(['disabled']);
+setStoryParams(DisabledParamStory, {
+    title: 'Disabled параметр',
+    excludeArgs: ['disabled'],
+});

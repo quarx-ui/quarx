@@ -1,7 +1,7 @@
-import { excludeProp } from '@core/storybook/templateParams';
 import { Row, Column, Title, StoryDarkerContainer } from '@core/storybook/components';
 import { Story } from '@storybook/react/types-6-0';
 import { SelectionGroup } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SELECTION_GROUP_TYPE } from '../../styles/constants';
 import { TemplateSelectionGroupProps, useTemplateChildren, getTemplateChildren } from '../utils';
 
@@ -26,5 +26,7 @@ export const TypesStory: Story<TemplateSelectionGroupProps> = (props) => {
     );
 };
 
-TypesStory.storyName = 'Типы';
-TypesStory.argTypes = excludeProp(['type']);
+setStoryParams(TypesStory, {
+    title: 'Типы',
+    excludeArgs: ['type'],
+});

@@ -1,8 +1,7 @@
 import { Link, LinkProps, LinkUnderline } from '@core';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const UNDERLINES: LinkUnderline[] = [
@@ -18,10 +17,8 @@ export const UnderlinesStory: Story<LinkProps> = (props) => DisplayVariants({
     componentProps: props,
 });
 
-UnderlinesStory.storyName = 'Подчеркивания';
-UnderlinesStory.parameters = createStoryDescription(description);
-UnderlinesStory.argTypes = excludeProp([
-    'showLeftItem',
-    'showRightItem',
-    'underline',
-]);
+setStoryParams(UnderlinesStory, {
+    title: 'Подчеркивания',
+    description,
+    excludeArgs: ['showLeftItem', 'showRightItem', 'underline'],
+});

@@ -2,6 +2,7 @@ import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { defineCategory } from '@core/storybook/templateParams';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { DEMONSTRATION_ALERT } from '@core/storybook/constants';
+import { Meta } from '@storybook/react';
 import { Button, ButtonProps } from '..';
 import { PaperClipIcon, ChevronDownIcon } from './assets';
 
@@ -21,10 +22,6 @@ const defaultArgs: ButtonProps = {
 export default {
     title: STORY_PATHS.core.components.main('Button'),
     component: Button,
-    parameters: {
-        design: { disable: true },
-        actions: { disable: true },
-    },
     args: defaultArgs,
     argTypes: {
         ...defineCategory('Стилизация', {
@@ -65,7 +62,7 @@ export default {
         }),
         ...BASE_ARG_TYPES,
     },
-};
+} as Meta<ButtonProps>;
 
 export { SandboxStory } from './sandbox';
 export { BorderRadiusStory } from './borderRadius';

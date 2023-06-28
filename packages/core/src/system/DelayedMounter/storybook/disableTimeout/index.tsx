@@ -1,7 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { DelayedMounterProps } from '@core';
 import { StoryButton } from '@core/storybook/components';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { FlexRow, FlexContainer, createDelayedMounter, useDelayedMounterStoryState } from '../components';
 
 export const DisableTimeoutStory: Story<DelayedMounterProps> = ({
@@ -52,5 +52,7 @@ export const DisableTimeoutStory: Story<DelayedMounterProps> = ({
     );
 };
 
-DisableTimeoutStory.storyName = 'Отключение задержки';
-DisableTimeoutStory.argTypes = excludeProp(['timeout', 'mounted', 'disableTimeout']);
+setStoryParams(DisableTimeoutStory, {
+    title: 'Отключение задержки',
+    excludeArgs: ['timeout', 'mounted', 'disableTimeout'],
+});

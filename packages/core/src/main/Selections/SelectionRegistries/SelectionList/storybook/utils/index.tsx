@@ -3,6 +3,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { Button, SelectionList, SelectionListProps, SelectionListStruct, SELECTION_LIST_UTILS } from '@core';
 import styled from '@emotion/styled';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const StoryButtonGroup = styled('div')({
     marginBottom: 12,
@@ -86,4 +87,6 @@ export const UtilsStory: Story<SelectionListProps> = ({
     );
 };
 
-UtilsStory.storyName = 'Утилиты';
+setStoryParams(UtilsStory, {
+    title: 'Утилиты',
+});

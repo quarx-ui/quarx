@@ -11,6 +11,11 @@ import {
     ClickAwayListenerEvents,
 } from './types';
 
+const hasIntersection = (composed: unknown[], ignore: unknown[]): boolean => {
+    const composedSet = new Set(composed);
+    return Boolean(ignore.find((el) => composedSet.has(el)));
+};
+
 const getDocumentListenerEffect = (
     node: Element | null,
     events: {
@@ -38,6 +43,7 @@ export const ClickAwayListener: FC<ClickAwayListenerProps> = ({
     mouseEvent: syntheticMouseEvent = 'onClick',
     touchEvent: syntheticTouchEvent = 'onTouchEnd',
     onClickAway,
+    ignore,
     children,
 }) => {
     const nodeRef = useRef<Element>(null);
@@ -64,6 +70,7 @@ export const ClickAwayListener: FC<ClickAwayListenerProps> = ({
         const cancelHandling = !activatedRef.current
             || !nodeRef.current
             || clickedRootScrollbar(event, doc);
+
         if (cancelHandling) { return; }
 
         if (movedRef.current) {
@@ -71,8 +78,15 @@ export const ClickAwayListener: FC<ClickAwayListenerProps> = ({
             return;
         }
 
-        const insideDOM = event.composedPath().includes(nodeRef.current);
-        if (!insideDOM && (disableReactTree || !insideReactTree)) {
+        const composed = event.composedPath();
+        const insideDOM = composed.includes(nodeRef.current);
+
+        const ignoreList = Array.isArray(ignore)
+            ? ignore
+            : [ignore];
+        const ignoredClick = hasIntersection(composed, ignoreList.filter(Boolean));
+
+        if (!ignoredClick && !insideDOM && (disableReactTree || !insideReactTree)) {
             onClickAway(event);
         }
     }) as EventListener;

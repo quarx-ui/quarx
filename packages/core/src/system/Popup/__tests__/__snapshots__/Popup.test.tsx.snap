@@ -5,12 +5,11 @@ exports[`Popup tests disablePortal 1`] = `
   <div>
     <div
       aria-hidden="false"
-      class="QxBackdrop css-kd6k92-SxBackdrop-root"
+      class="QxBackdrop css-12w97d8-QxBackdrop-root-QxBackdrop-root appear-active"
       data-component="QxBackdrop"
-      style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     >
       <div
-        class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_reference_window css-117mzdu-QxPopup-root"
+        class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_reference_window css-1wy5l3z-QxPopup-root"
       >
         Popup content
       </div>
@@ -23,12 +22,11 @@ exports[`Popup tests style params disableBackdrop false 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="false"
-    class="QxBackdrop css-80i3tw-QxBackdrop-root-QxBackdrop-root appear-active"
+    class="QxBackdrop css-12w97d8-QxBackdrop-root-QxBackdrop-root appear-active"
     data-component="QxBackdrop"
   >
     <div
-      class="QxPopup css-1m84fgk-QxPopup-root"
-      class="QxPopup QxPopup_reference_window css-twhm88-QxPopup-root"
+      class="QxPopup QxPopup_reference_window css-139kadh-QxPopup-root"
       data-testid="testStyleParams-disableBackdrop-false"
     >
       Статус
@@ -40,8 +38,7 @@ exports[`Popup tests style params disableBackdrop false 1`] = `
 exports[`Popup tests style params disableBackdrop true 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_disableBackdrop css-173u6h0-QxPopup-root"
-    class="QxPopup QxPopup_disableBackdrop QxPopup_reference_window css-1riikvp-QxPopup-root"
+    class="QxPopup QxPopup_disableBackdrop QxPopup_reference_window css-i9hc1s-QxPopup-root"
     data-testid="testStyleParams-disableBackdrop-true"
   >
     Статус
@@ -53,12 +50,11 @@ exports[`Popup tests style params reference relative 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="false"
-    class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    class="QxBackdrop css-12w97d8-QxBackdrop-root-QxBackdrop-root appear-active"
     data-component="QxBackdrop"
-    style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
   >
     <div
-      class="QxPopup QxPopup_reference_relative css-1dgjuwk-QxPopup-root"
+      class="QxPopup QxPopup_reference_relative css-1x6rewr-QxPopup-root"
       data-testid="testStyleParams-reference-relative"
     >
       Статус
@@ -71,12 +67,11 @@ exports[`Popup tests style params reference window 1`] = `
 <DocumentFragment>
   <div
     aria-hidden="false"
-    class="QxBackdrop css-kd6k92-SxBackdrop-root"
+    class="QxBackdrop css-12w97d8-QxBackdrop-root-QxBackdrop-root appear-active"
     data-component="QxBackdrop"
-    style="opacity: 1; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
   >
     <div
-      class="QxPopup QxPopup_reference_window css-twhm88-QxPopup-root"
+      class="QxPopup QxPopup_reference_window css-139kadh-QxPopup-root"
       data-testid="testStyleParams-reference-window"
     >
       Статус

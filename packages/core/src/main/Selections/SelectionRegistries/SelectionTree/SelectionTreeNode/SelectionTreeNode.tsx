@@ -36,8 +36,8 @@ export const SelectionTreeNode: FC<SelectionTreeNodeProps> = (
         },
     } = usePropsOverwrites('SelectionTreeNode', initialProps, SELECTION_TREE_NODE_CSS_VARS);
 
-    const { state: isClickedToArrow, setState: setClickedToArrow } = useBooleanState(false);
-    const { state: hover, setState: setHover } = useBooleanState(false);
+    const [isClickedToArrow, { setState: setClickedToArrow }] = useBooleanState(false);
+    const [hover, { setState: setHover }] = useBooleanState(false);
     const isMultilevelNode = Boolean(node?.children);
     const disableFocus = node?.controllerProps?.disableFocus;
     const CurrentArrowIcon = ArrowIcon[size];

@@ -1,5 +1,6 @@
 import { KeysFromUseStyles, makeStyles, sizeToHeadlineSize, typography } from '@core/styles';
 import { QX_SIZE } from '@core/enums';
+import { paramsToCss } from '@core';
 import { AccordionStyleParams } from './types';
 import { sizeToAccordionPadding, sizeToTextStyle } from './map';
 
@@ -52,10 +53,18 @@ export const useStyles = makeStyles((
         ...sizeToTextStyle[size],
     },
     details: [
-        {
-            marginTop: size === QX_SIZE.xSmall ? 12 : 16,
-        },
         !inheritTextStyles && sizeToTextStyle[size],
+        paramsToCss(size)({
+            [QX_SIZE.small]: {
+                paddingTop: 12,
+            },
+            [QX_SIZE.medium]: {
+                paddingTop: 16,
+            },
+            [QX_SIZE.large]: {
+                paddingTop: 16,
+            },
+        }),
     ],
     divider: {
         marginTop: sizeToAccordionPadding[size] - 1,

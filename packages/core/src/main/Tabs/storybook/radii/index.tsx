@@ -1,8 +1,7 @@
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_BORDER_SIZE, Tabs, TabsProps } from '@core';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { Title } from '../utils';
 import { TABS_TYPES } from '../../common';
 import description from './description.md';
@@ -25,6 +24,8 @@ export const RadiiStory: Story<TabsProps> = (props) => (
     </div>
 );
 
-RadiiStory.storyName = 'Скругления';
-RadiiStory.argTypes = excludeProp(['borderRadius', 'type']);
-RadiiStory.parameters = createStoryDescription(description);
+setStoryParams(RadiiStory, {
+    title: 'Скругления',
+    description,
+    excludeArgs: ['borderRadius', 'type'],
+});

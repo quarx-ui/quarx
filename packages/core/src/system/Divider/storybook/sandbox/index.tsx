@@ -1,8 +1,9 @@
 import { Story } from '@storybook/react/types-6-0';
 import { Badge, Divider, DividerProps, ORIENTATIONS, Stack } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { STACK_DIRECTION } from '../../../Stack/styles/constants';
 
-const Template: Story<DividerProps> = ({ ...props }) => (
+export const SandboxStory: Story<DividerProps> = ({ ...props }) => (
     <Stack
         inline
         direction={props.orientation === ORIENTATIONS.vertical
@@ -15,5 +16,6 @@ const Template: Story<DividerProps> = ({ ...props }) => (
     </Stack>
 );
 
-export const SandboxStory: Story<DividerProps> = Template.bind({});
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

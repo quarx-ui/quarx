@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { Story } from '@storybook/react/types-6-0';
 import { If, IfProps } from '@core/src/system/If';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 const Div = styled('div')({
     height: '50px',
@@ -8,7 +9,7 @@ const Div = styled('div')({
     justifyContent: 'center',
 });
 
-const Template: Story<IfProps> = ({ ...props }) => (
+export const SandboxStory: Story<IfProps> = ({ ...props }) => (
     <Div>
         <If {...props}>
             <span>Hello, World!</span>
@@ -16,5 +17,6 @@ const Template: Story<IfProps> = ({ ...props }) => (
     </Div>
 );
 
-export const SandboxStory = Template.bind({});
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

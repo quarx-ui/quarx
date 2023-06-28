@@ -3,7 +3,7 @@ import secondWindowDescription from '@core/src/main/Modal/storybook/secondModal/
 import { Story } from '@storybook/react/types-6-0';
 import { SidePageProps, SidePage } from '@core';
 import { StoryButton } from '@core/storybook/components';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const SecondSidePageStory: Story<SidePageProps> = (props) => {
     const [isOpened, setIsOpened] = useState(false);
@@ -35,5 +35,7 @@ export const SecondSidePageStory: Story<SidePageProps> = (props) => {
     );
 };
 
-SecondSidePageStory.storyName = 'Одновременное открытие';
-SecondSidePageStory.parameters = createStoryDescription(secondWindowDescription);
+setStoryParams(SecondSidePageStory, {
+    title: 'Одновременное открытие',
+    description: secondWindowDescription,
+});

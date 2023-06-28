@@ -1,9 +1,8 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
 import { ElementType, forwardRef } from 'react';
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { Tabs } from '@core';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
 import description from './description.md';
 
@@ -45,6 +44,8 @@ export const CustomComponentStory: Story<TabsProps> = (props) => {
     );
 };
 
-CustomComponentStory.storyName = 'Свой тег/компонент';
-CustomComponentStory.argTypes = excludeProp(['type']);
-CustomComponentStory.parameters = createStoryDescription(description);
+setStoryParams(CustomComponentStory, {
+    title: 'Свой тег/компонент',
+    description,
+    excludeArgs: ['type'],
+});

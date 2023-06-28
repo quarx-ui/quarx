@@ -1,8 +1,8 @@
-import { excludeProp } from '@core/storybook/templateParams';
 import { Story } from '@storybook/react/types-6-0';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { useBooleanState, Selection, SelectionProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SELECTION_TYPE } from '../../styles/constants';
 import { SelectionTemplateProps, CONTROLLER_OPTIONS, getController } from '../utils';
 
@@ -10,10 +10,10 @@ export const TypesStory: Story<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {
-    const { state, setOppositeState } = useBooleanState(false);
+    const [state, { toggleState }] = useBooleanState(false);
     const children = getController({
         checked: state,
-        onChange: setOppositeState,
+        onChange: toggleState,
         variant: externalChildren ?? CONTROLLER_OPTIONS.Checkbox,
     });
 
@@ -29,5 +29,7 @@ export const TypesStory: Story<SelectionTemplateProps> = ({
     );
 };
 
-TypesStory.storyName = 'Типы';
-TypesStory.argTypes = excludeProp(['type']);
+setStoryParams(TypesStory, {
+    title: 'Типы',
+    excludeArgs: ['type'],
+});

@@ -3,6 +3,7 @@ import { Description, Title } from '@storybook/addon-docs';
 import { Story } from '@storybook/react/types-6-0';
 import { Div } from '@storybook/components';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import description from './description.md';
 
 export default {
@@ -26,7 +27,7 @@ export default {
             ),
         },
     },
-};
+} as Meta;
 
 export const ThemeExtension: Story = () => <div />;
 ThemeExtension.storyName = 'Расширение темы';

@@ -2,6 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import { Modal as KitModal, ModalProps } from '@core';
 import { useState } from 'react';
 import { StoryButton } from '@core/storybook/components';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 
 export const ModalStory: Story<ModalProps> = (props) => {
     const [isOpened, setIsOpened] = useState(false);
@@ -22,4 +23,6 @@ export const ModalStory: Story<ModalProps> = (props) => {
     );
 };
 
-ModalStory.storyName = 'Компонент';
+setStoryParams(ModalStory, {
+    title: 'Компонент',
+});

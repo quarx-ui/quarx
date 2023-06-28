@@ -24,7 +24,7 @@ exports[`Chips snapshots style params active true 1`] = `
     type="button"
   >
     <div
-      class="QxChips-leftIcon css-1hcdmo1-QxChips-leftIcon-QxChips-leftIcon appear-active"
+      class="QxChips-leftIcon css-wlqdgb-QxChips-leftIcon-QxChips-leftIcon appear-active"
     >
       <svg
         fill="currentColor"
@@ -147,7 +147,7 @@ exports[`Chips snapshots style params exists left icon 1`] = `
     type="button"
   >
     <div
-      class="QxChips-leftIcon css-1hcdmo1-QxChips-leftIcon-QxChips-leftIcon appear-active"
+      class="QxChips-leftIcon css-wlqdgb-QxChips-leftIcon-QxChips-leftIcon appear-active"
     >
       <svg
         fill="currentColor"

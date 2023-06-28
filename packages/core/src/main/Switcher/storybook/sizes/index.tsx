@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { SwitcherProps } from '../../types';
 import { Switcher } from '../../Switcher';
 
@@ -21,5 +21,7 @@ export const SizesStory: Story<SwitcherProps> = (props) => {
     });
 };
 
-SizesStory.storyName = 'Размеры';
-SizesStory.argTypes = excludeProp(['size']);
+setStoryParams(SizesStory, {
+    title: 'Размеры',
+    excludeArgs: ['size'],
+});

@@ -1,6 +1,7 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { PALETTE_COLORS } from '@core/styles';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { Switcher, SWITCHER_POSITION, SwitcherProps } from '..';
 
 const defaultArgs: Partial<SwitcherProps> = {
@@ -13,10 +14,6 @@ const defaultArgs: Partial<SwitcherProps> = {
 export default {
     title: STORY_PATHS.core.components.main('Switcher'),
     component: Switcher,
-    parameters: {
-        actions: { disable: true },
-        design: { disable: true },
-    },
     args: defaultArgs,
     argTypes: {
         size: { description: 'Размер компонента' },
@@ -28,7 +25,7 @@ export default {
         onToggle: { description: 'Событие, возникающее при клике на компонент' },
         ...BASE_ARG_TYPES,
     },
-};
+} as Meta<SwitcherProps>;
 
 export { SandboxStory } from './sandbox';
 export { ColorsStory } from './colors';

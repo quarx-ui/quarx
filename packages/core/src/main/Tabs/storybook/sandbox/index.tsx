@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_SIZE, Tabs } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
 import { TABS_TYPES } from '../../common';
 import { iconItems } from '../utils';
@@ -33,5 +34,7 @@ export const SandboxStory: Story<TabsProps> = ({
     );
 };
 
-SandboxStory.storyName = 'Компонент';
-SandboxStory.args = { ...defaultTabsStoryArgs, size: QX_SIZE.large };
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+    args: { ...defaultTabsStoryArgs, size: QX_SIZE.large },
+});

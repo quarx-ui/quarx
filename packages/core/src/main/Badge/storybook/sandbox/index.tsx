@@ -6,6 +6,7 @@ import {
     InfoIconLarge,
     InfoIconSmall,
 } from '@core/src/main/Badge/storybook/assets';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { StoryType } from '../types';
 
 export const SandboxStory: Story<StoryType> = ({
@@ -30,9 +31,11 @@ export const SandboxStory: Story<StoryType> = ({
     </Badge>
 );
 
-SandboxStory.storyName = 'Компонент';
-SandboxStory.args = {
-    leftItemShown: true,
-    rightItemShown: true,
-    counterShown: true,
-};
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+    args: {
+        leftItemShown: true,
+        rightItemShown: true,
+        counterShown: true,
+    },
+});

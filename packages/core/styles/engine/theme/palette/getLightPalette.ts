@@ -30,7 +30,10 @@ export const getComputedLightColors = (color: string, background: string): Palet
     alpha: createPoints<PaletteAlpha>((key) => changeOpacity(color, key), 8, 0.01),
 });
 
-export const getLightSecondaryColors = (background = '#FFFFFF', text = '#02050A'): Omit<Palette, 'colors' | 'type'> => ({
+export const getLightSecondaryColors = (
+    background = '#FFFFFF',
+    text = '#02050A',
+): Omit<Palette, 'colors' | 'type'> => ({
     background: {
         main: background,
         secondary: getLightSuperposition(text, 0.96),
@@ -65,13 +68,17 @@ export const getLightSecondaryColors = (background = '#FFFFFF', text = '#02050A'
     },
 });
 
-export const getLightPalette = (initialColors: Record<PaletteColor, string>, background = '#FFFFFF', text = '#02050A') => {
-    const colors: Partial<PaletteColors> = Object
+export const getLightPalette = (
+    initialColors: Record<PaletteColor, string>,
+    background = '#FFFFFF',
+    text = '#02050A',
+): Omit<Palette, 'type'> => {
+    const colors: PaletteColors = Object
         .entries(initialColors)
         .reduce((acc, [key, value]) => ({
             ...acc,
             [key]: getComputedLightColors(value, background),
-        }), {});
+        }), {} as PaletteColors);
 
     return {
         ...getLightSecondaryColors(background, text),

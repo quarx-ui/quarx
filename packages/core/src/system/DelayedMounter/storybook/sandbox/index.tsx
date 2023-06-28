@@ -1,6 +1,7 @@
 import { Story } from '@storybook/react/types-6-0';
 import { StoryButton } from '@core/storybook/components';
 import { DelayedMounterProps } from '@core';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { FlexContainer, useDelayedMounterStoryState, createDelayedMounter } from '../components';
 
 export const SandboxStory: Story<DelayedMounterProps> = ({
@@ -31,4 +32,6 @@ export const SandboxStory: Story<DelayedMounterProps> = ({
     );
 };
 
-SandboxStory.storyName = 'Компонент';
+setStoryParams(SandboxStory, {
+    title: 'Компонент',
+});

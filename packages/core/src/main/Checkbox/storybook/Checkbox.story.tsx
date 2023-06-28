@@ -1,6 +1,7 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { PALETTE_COLORS } from '@core/styles';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
+import { Meta } from '@storybook/react';
 import { Checkbox, CheckboxProps } from '..';
 
 const defaultArgs: Partial<CheckboxProps> = {
@@ -14,7 +15,6 @@ const defaultArgs: Partial<CheckboxProps> = {
 export default {
     title: STORY_PATHS.core.components.main('Checkbox'),
     component: Checkbox,
-    parameters: { actions: { disable: true } },
     args: defaultArgs,
     argTypes: {
         borderRadius: {
@@ -34,7 +34,7 @@ export default {
         },
         ...BASE_ARG_TYPES,
     },
-};
+} as Meta<CheckboxProps>;
 
 export { SandboxStory } from './sandbox';
 export { BorderRadiusStory } from './borderRadius';

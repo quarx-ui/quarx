@@ -1,7 +1,8 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { excludeProp } from '@core/storybook/templateParams';
-import { PALETTE_COLORS, QX_SIZE, SelectionTree } from '@core';
+import { PALETTE_COLORS, QX_SIZE, SelectionTree, SelectionTreeProps } from '@core';
+import { Meta } from '@storybook/react';
 import { SELECTION_TREE_TYPE } from '../styles/constants';
 import { DEFAULT_SELECTION_TREE_CONTROLLERS } from '../constants';
 import { EXAMPLE_TREE } from './example';
@@ -20,7 +21,6 @@ export default {
     component: SelectionTree,
     parameters: {
         layout: 'fullscreen',
-        actions: { disable: true },
     },
     args: defaultArgs,
     argTypes: {
@@ -34,7 +34,7 @@ export default {
 
         ...excludeProp(['permissions'], BASE_ARG_TYPES),
     },
-};
+} as Meta<SelectionTreeProps>;
 
 export { SandboxStory } from './sandbox';
 export { TypesStory } from './types';
