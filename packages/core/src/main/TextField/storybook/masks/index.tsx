@@ -17,6 +17,9 @@ export const MasksStory: Story<TextFieldProps> = () => (
             mask="*"
             customInput={TextField}
             label="Text Field"
+            inputProps={{
+                inputMode: 'numeric', // этот пропс обязателен! иначе на мобилках не будет работать
+            }}
         />
     </Grid>
 );

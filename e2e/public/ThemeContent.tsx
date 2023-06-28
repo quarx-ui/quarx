@@ -12,14 +12,15 @@ export const useStyles = makeStyles(({ palette }) => ({
     bg: {
         background: palette.background.main,
         padding: 20,
+        color: palette.text.main,
     },
 }));
 
 export const ThemeContent: FC<ThemeContentProps> = ({ themeType }) => {
-    const classes = useStyles();
+    const styles = useStyles();
 
     return (
-        <div css={classes.bg}>
+        <div css={styles.bg}>
             <PropsProvider>
                 <Routes>
                     {renderComponents(COMPONENTS, themeType)}

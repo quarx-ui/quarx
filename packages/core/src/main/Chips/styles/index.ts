@@ -124,7 +124,7 @@ export const useStyles = makeStyles((
             margin: 0,
             outline: 'none',
             cursor: 'pointer',
-            '-webkit-tap-highlight-color': 'transparent',
+            WebkitTapHighlightColor: 'transparent',
 
             border: '1px solid',
             [cssBorderWidth]: '1px',

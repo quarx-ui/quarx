@@ -1,5 +1,5 @@
 import { FC, useEffect, useRef, useState } from 'react';
-import { Button, PaletteType, TextField, transitions } from '@kit';
+import { Button, TextField, transitions } from '@kit';
 import { usePropsContext } from '@e2e/render-utils/usePropsContext';
 import { INPUT_PROPS_ID } from '@e2e/constants';
 

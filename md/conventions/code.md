@@ -44,7 +44,7 @@ ComponentName/
         types.ts                  # типизация стилей
 
     ComponentName.tsx             # основной код
-    index.ts                  # константы или константные объекты
+    constants.ts                  # константы или константные объекты
     types.ts                      # типизация
     index.ts                      # экспорт компонента и его типов
 ```

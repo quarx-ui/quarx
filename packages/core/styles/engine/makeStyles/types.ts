@@ -9,6 +9,7 @@ export interface UseStylesProps<
     styles?: StylesProp<StyleParams, ClassKey, CSSVars>;
     cssVars?: Partial<Record<CSSVars, string>>;
     cssPrefix?: string;
+    overwritesStyles?: StylesProp<StyleParams, ClassKey, CSSVars>;
 }
 
 export interface UseStylesPropsWithParams<

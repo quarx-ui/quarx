@@ -44,7 +44,6 @@ const BaseTextField: FC<BaseTextFieldProps> = forwardRef<TextFieldRefType, BaseT
         maxRows: externalMaxRows,
         minRows: externalMinRows,
         rows: externalRows,
-        CustomInput,
         ...restProps
     } = props;
 
@@ -73,14 +72,6 @@ const BaseTextField: FC<BaseTextFieldProps> = forwardRef<TextFieldRefType, BaseT
     useLayoutEffect(() => {
         listenRowsChanges(innerInputRef, maxRows);
     }, [innerInputRef, maxRows]);
-
-    if (CustomInput) {
-        return (
-            <CustomInput
-                className={className}
-            />
-        );
-    }
 
     if (multiline) {
         return (

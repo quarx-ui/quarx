@@ -6,29 +6,32 @@ import { ThemeContent } from './ThemeContent';
 
 export const useStyles = makeStyles({
     root: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
+        textAlign: 'center',
         flexGrow: 1,
         borderRadius: borderRadii.xLarge,
+    },
+    container: {
+        display: 'inline-block',
     },
 });
 
 export const App: FC = () => {
-    const classes = useStyles();
+    const styles = useStyles();
 
     return (
-        <div css={classes.root}>
-            {PALETTE_TYPE_ARR.map((themeType) => (
-                <ThemeProvider
-                    theme={createTheme({
-                        palette: { type: themeType },
-                    })}
-                    key={themeType}
-                >
-                    <ThemeContent themeType={themeType} />
-                </ThemeProvider>
-            ))}
+        <div css={styles.root}>
+            <div css={styles.container}>
+                {PALETTE_TYPE_ARR.map((themeType) => (
+                    <ThemeProvider
+                        theme={createTheme({
+                            palette: { type: themeType },
+                        })}
+                        key={themeType}
+                    >
+                        <ThemeContent themeType={themeType} />
+                    </ThemeProvider>
+                ))}
+            </div>
         </div>
     );
 };

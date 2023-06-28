@@ -13,7 +13,6 @@ import {
     CreateElevationArg,
     CreatePaletteArg,
     CreateTransitionArg,
-    DatePickerProps,
     CustomTheme,
     DeepPartial,
     DividerProps,
@@ -48,25 +47,25 @@ import {
     TabsSegmentedProps,
     TextFieldProps,
     Transitions,
-    DayBlockProps,
+} from '@core';
+import { DatePickerProps, DayBlockProps,
     DatePickerDropdownProps,
     FooterDatePickerProps,
     HeaderDatePickerProps,
     MonthBlockProps,
     OffsetDayBlockProps,
-    HeaderDatePickerDropdownProps,
-} from '@core';
+    HeaderDatePickerDropdownProps } from '@core/src/experimental';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
-import { CreateTypographyArg, Typography } from '../typography';
-import { PopupDatePickerProps } from '@core/src/main/DatePicker/Wrappers/PopupDatePicker/types';
-import { TextFieldDatePickerProps } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/types';
-import { DateFieldProps } from '@core/src/main/DatePicker/components/DateField/types';
+import { PopupDatePickerProps } from '@core/src/experimental/DatePicker/Wrappers/PopupDatePicker/types';
+import { TextFieldDatePickerProps } from '@core/src/experimental/DatePicker/Wrappers/TextFieldDatePicker/types';
+import { DateFieldProps } from '@core/src/experimental/DatePicker/components/DateField/types';
 import {
     DatePickerRightSectionProps,
-} from '@core/src/main/DatePicker/components/Block/components/DatePickerRightSection/types';
-import { TimeBadgeProps } from '@core/src/main/DatePicker/components/Block/components/TimeBadge/types';
+} from '@core/src/experimental/DatePicker/components/Block/components/DatePickerRightSection/types';
+import { TimeBadgeProps } from '@core/src/experimental/DatePicker/components/Block/components/TimeBadge/types';
+import { CreateTypographyArg, Typography } from '../typography';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
     [Property in keyof Props]?: DeepPartial<Omit<Props[Property], 'styles'>> & Pick<Props[Property], 'styles'>;

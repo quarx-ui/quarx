@@ -20,7 +20,7 @@ export const useStyles = makeStyles((
                 cursor: 'pointer',
                 color: palette.colors[color].default,
                 transition: transitions.create(['color', 'box-shadow'], { duration: transitions.duration.shorter }),
-                '-webkit-tap-highlight-color': 'transparent',
+                WebkitTapHighlightColor: 'transparent',
 
                 '&:hover, &:focus-visible': {
                     [underlineColor]: palette.colors[color].default,
