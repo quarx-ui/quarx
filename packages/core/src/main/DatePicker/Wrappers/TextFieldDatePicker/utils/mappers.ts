@@ -1,11 +1,11 @@
-import { DatePickerProps, PeriodSelectedDates, PickerSelectedDate, SelectedDatesDatePicker } from '@core';
+import { DatePickerProps, PeriodSelectedDates, PickerSelectedDate, SelectedDates } from '@core';
 import { Dispatch, SetStateAction } from 'react';
 import { ErrorsFromInput } from '@core/src/main/DatePicker/Wrappers/TextFieldDatePicker/types';
 import { getDate } from './common';
 
-type SetViewingDateType<D extends SelectedDatesDatePicker> = Dispatch<SetStateAction<DatePickerProps<D>['viewingDate']>>;
+type SetViewingDateType<D extends SelectedDates> = Dispatch<SetStateAction<DatePickerProps<D>['viewingDate']>>;
 
-export type MapValueToTypeSelected<D extends SelectedDatesDatePicker> = Omit<MapTextFieldValueToSelectedProps<D>, 'isPickerType'>
+export type MapValueToTypeSelected<D extends SelectedDates> = Omit<MapTextFieldValueToSelectedProps<D>, 'isPickerType'>
 
 const mapValueToPickerSelected = ({
     value,
@@ -44,7 +44,7 @@ const mapValueToPeriodSelected = (
     return {};
 };
 
-export interface MapTextFieldValueToSelectedProps<D extends SelectedDatesDatePicker> extends Pick<DatePickerProps<D>, 'withTime'>{
+export interface MapTextFieldValueToSelectedProps<D extends SelectedDates> extends Pick<DatePickerProps<D>, 'withTime'>{
     value: string;
     isPickerType: boolean;
     setViewingDate: SetViewingDateType<D>;
@@ -52,7 +52,7 @@ export interface MapTextFieldValueToSelectedProps<D extends SelectedDatesDatePic
     errorsFromInput: Required<ErrorsFromInput>;
 }
 
-export const mapTextFieldValueToSelected = <D extends SelectedDatesDatePicker>(
+export const mapTextFieldValueToSelected = <D extends SelectedDates>(
     { isPickerType, ...props }: MapTextFieldValueToSelectedProps<D>,
 ): D => (isPickerType ? mapValueToPickerSelected(props) as D
     : mapValueToPeriodSelected(props) as D);

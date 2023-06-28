@@ -3,9 +3,9 @@ import {
     DATE_PICKER_DAY_SIZE_PX,
     OFFSET_DAYS,
 } from '../../utils';
-import { TimeBadgeStyleProps } from './types';
+import { TimeBadgeStyleParams } from './types';
 
-export const useStyles = makeStyles(({ palette }, { size, active }: TimeBadgeStyleProps) => ({
+export const useStyles = makeStyles(({ palette }, { size, active }: TimeBadgeStyleParams) => ({
     badge: {
         height: DATE_PICKER_DAY_SIZE_PX[size],
         color: active ? palette.text.constant : palette.text.main,

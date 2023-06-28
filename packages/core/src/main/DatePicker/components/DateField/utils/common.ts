@@ -2,12 +2,14 @@ import { DatePickerProps, SelectedDates } from '@core';
 import { isValid, parse } from 'date-fns';
 import { Dispatch, SetStateAction } from 'react';
 import isUndefined from '@core/types/isUndefined';
-import { SetErrorText } from '../../../Wrappers/TextFieldDatePicker/utils';
 import { validateDateString } from './validators';
+import { SetErrorText } from './mappers';
 
 export const getFormat = (withTime: DatePickerProps['withTime']) => (withTime ? 'dd.MM.yyyy HH:mm' : 'dd.MM.yyyy');
 
-export const clearErrorText = (setErrorText: Dispatch<SetStateAction<string | undefined>>, errorTextToCompare: string) => {
+export const clearErrorText = (
+    setErrorText: Dispatch<SetStateAction<string | undefined>>, errorTextToCompare: string,
+) => {
     setErrorText(
         (prevState) => (
             !isUndefined(prevState) && prevState === errorTextToCompare ? undefined : prevState),

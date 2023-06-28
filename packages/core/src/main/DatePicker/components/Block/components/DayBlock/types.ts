@@ -8,7 +8,8 @@ import {
 } from '@core';
 import { DayStyleKeys } from './styles';
 
-export interface DayBlockProps<D extends SelectedDates = PickerSelectedDate> extends WithClassesAndStyles<DayStyleKeys, DayStylesParams>,
+export interface DayBlockProps<D extends SelectedDates = PickerSelectedDate> extends
+    WithClassesAndStyles<DayStyleKeys, DayStylesParams>,
     Omit<DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'>
 {
     currentDay: Date;

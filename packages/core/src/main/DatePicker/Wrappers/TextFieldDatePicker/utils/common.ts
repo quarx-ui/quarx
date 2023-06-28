@@ -1,20 +1,19 @@
-import { DatePickerProps, SelectedDatesDatePicker } from '@core';
+import { DatePickerProps, SelectedDates } from '@core';
 import { isValid, parse } from 'date-fns';
 import { Dispatch, SetStateAction } from 'react';
 import isUndefined from '@core/types/isUndefined';
-import { validateDateString } from './validators';
 import { MapValueToTypeSelected } from './mappers';
+import { validateDateString } from '../../../components/DateField/utils/validators';
 
 export const getFormat = (withTime: DatePickerProps['withTime']) => (withTime ? 'dd.MM.yyyy HH:mm' : 'dd.MM.yyyy');
 
-export const clearErrorText = (setErrorText: Dispatch<SetStateAction<string | undefined>>, errorTextToCompare: string) => {
-    setErrorText((prevState) => {
-        console.log(prevState === errorTextToCompare);
-        return !isUndefined(prevState) && prevState === errorTextToCompare ? undefined : prevState;
-    });
+export const clearErrorText = (
+    setErrorText: Dispatch<SetStateAction<string | undefined>>, errorTextToCompare: string,
+) => {
+    setErrorText((prevState) => (!isUndefined(prevState) && prevState === errorTextToCompare ? undefined : prevState));
 };
 
-export const parseDateValue = <D extends SelectedDatesDatePicker>(
+export const parseDateValue = <D extends SelectedDates>(
     value: string, withTime: DatePickerProps['withTime'], setError: MapValueToTypeSelected<D>['setErrorText'],
     validationErrorText: string,
 ) => {
@@ -28,7 +27,7 @@ export const parseDateValue = <D extends SelectedDatesDatePicker>(
     return undefined;
 };
 
-export const getDate = <D extends SelectedDatesDatePicker>(
+export const getDate = <D extends SelectedDates>(
     value: string, withTime: DatePickerProps['withTime'], setError: MapValueToTypeSelected<D>['setErrorText'],
     validationErrorText: string,
 ) => {

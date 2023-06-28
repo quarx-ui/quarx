@@ -1,21 +1,22 @@
 import {
     DatePickerInnerComponentsProps,
     DatePickerSize, InnerTimeSetters, PickerSelectedDate,
-    SelectedDates,
+    SelectedDates, WithClassesAndStyles,
 } from '@core';
-import { LastEditedDateType } from '../../utils';
+import { TimeBadgeStyleKeys } from './styles';
 
 export interface TimeBadgeProps<D extends SelectedDates = PickerSelectedDate> extends
     Pick<DatePickerInnerComponentsProps<D>, 'innerStyles' | 'onChange' | 'selected' | 'allowedDates'
     | 'periodChangingFlow' | 'editablePartOfPeriod' | 'onChangeEditablePartOfPeriod'>,
     Required<Pick<DatePickerInnerComponentsProps<D>, 'borderRadius'>>,
-    TimeBadgeStyleProps
+    TimeBadgeStyleParams,
+    WithClassesAndStyles<TimeBadgeStyleKeys, TimeBadgeStyleParams>
 {
     setTimes: InnerTimeSetters;
     time: string;
 }
 
-export interface TimeBadgeStyleProps {
+export interface TimeBadgeStyleParams {
     size: DatePickerSize;
     active: boolean;
 }

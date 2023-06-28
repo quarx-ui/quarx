@@ -8,7 +8,8 @@ import {
 } from '@core';
 import { Dispatch, SetStateAction } from 'react';
 import { Locale } from 'date-fns';
-import { TimeBadgesStyleKeys } from '@core/src/main/DatePicker/components/Block/components/DatePickerRightSection/styles';
+import { TimeBadgeStyleKeys } from '@core/src';
+import { DatePickerRightSectionStyleKeys } from './components/DatePickerRightSection/styles';
 import { DatePickerStyleKeys, DayStyleKeys, FooterDatePickerStyleKeys, MonthBlockStyleKeys, HeaderDatePickerStyleKeys,
     OffsetDayStyleKeys, DropdownDatePickerStyleKeys, DropdownButtonStyleKeys } from '.';
 
@@ -21,7 +22,9 @@ export type DatePickerDisplayTypes = Values<typeof DATE_PICKER_DISPLAY_TYPES>
 export const EDITABLE_PERIOD_PARTS = valuesAsKeysFromArray(['START', 'END'] as const);
 export type EditablePeriodParts = Values<typeof EDITABLE_PERIOD_PARTS>
 
-export const PERIOD_CHANGING_FLOW = valuesAsKeysFromArray(['AFTER_DAY', 'AFTER_TIME_BADGE', 'AFTER_EACH', 'DEFAULT'] as const);
+export const PERIOD_CHANGING_FLOW = valuesAsKeysFromArray(
+    ['AFTER_DAY', 'AFTER_TIME_BADGE', 'AFTER_EACH', 'DEFAULT'] as const,
+);
 export type PeriodChangingFlow = Values<typeof PERIOD_CHANGING_FLOW>
 
 export type DatePickerBorderRadius = QxBorderSize;
@@ -83,8 +86,8 @@ export interface CommonDatePickerStyles {
     monthBlock: StylesMap<MonthBlockStyleKeys>;
     offsetDay: StylesMap<OffsetDayStyleKeys>;
     day: StylesMap<DayStyleKeys>;
-    timeBadge: StylesMap<TimeBadgesStyleKeys>;
-    datePickerRightSection: StylesMap<TimeBadgesStyleKeys>;
+    timeBadge: StylesMap<TimeBadgeStyleKeys>;
+    datePickerRightSection: StylesMap<DatePickerRightSectionStyleKeys>;
 }
 
 export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge' | 'width'>,
@@ -152,12 +155,13 @@ export interface DatePickerProps<D extends SelectedDates = PickerSelectedDate> e
     onChange: (dates: D) => void;
 }
 
-export interface DatePickerInnerComponentsProps<D extends SelectedDates> extends Omit<DatePickerProps<D>, 'listOfYears' | 'permissions'
-| 'locale' | 'className' | 'classes' | 'isOpen' | 'changeableDates' | 'css' | 'pickedDates' | 'onChange' | 'useBigPressScope' |
-'onChangeEditablePartOfPeriod' | 'disableDefaultPeriodChangingFlow' | 'periodChangingFlow' | 'editablePartOfPeriod' |
-'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'
+export interface DatePickerInnerComponentsProps<D extends SelectedDates> extends Omit<DatePickerProps<D>,
+'listOfYears' | 'permissions' | 'locale' | 'className' | 'classes' | 'isOpen' | 'changeableDates' | 'css' |
+'pickedDates' | 'onChange' | 'useBigPressScope' | 'onChangeEditablePartOfPeriod' | 'disableDefaultPeriodChangingFlow'
+| 'periodChangingFlow' | 'editablePartOfPeriod' | 'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'
 >, Required<
-    Pick<DatePickerProps<D>, 'onChangeEditablePartOfPeriod' | 'periodChangingFlow' | 'editablePartOfPeriod' | 'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'>
+    Pick<DatePickerProps<D>, 'onChangeEditablePartOfPeriod' | 'periodChangingFlow' | 'editablePartOfPeriod' |
+    'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'>
     > {
     onChange: (newDates: D) => void;
     viewingDate: Date;

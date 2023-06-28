@@ -87,8 +87,10 @@ export interface ToMatchSnapshotOptions {
 }
 
 export interface TestProps<Props = PropsType> {
-    compareSnapshotsMap: (options: Omit<CompareSnapshotsMapArg<Props>, 'testParams' | 'testName'>) => Promise<void>;
-    compareSnapshots: (options: ExtendedPropsType<Props>) => Promise<void>;
+    compareSnapshotsMap: (
+        options: Omit<CompareSnapshotsMapArg<Props>, 'testParams' | 'testName' | 'themeType'>
+    ) => Promise<void>;
+    compareSnapshots: (options: Omit<ExtendedPropsType<Props>, 'themeType'>) => Promise<void>;
     testName: string;
     getComponent: (uniqSelector?: string) => Locator;
     setComponent: (component?: ComponentsListTypes | string) => Promise<Response | null>;

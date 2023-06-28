@@ -5,9 +5,9 @@ import {
     OFFSET_MONTH_BLOCK,
     OFFSET_ROOT,
 } from '../../utils';
-import { DatePickerRightSectionStyleProps } from './types';
+import { DatePickerRightSectionStyleParams } from './types';
 
-export const useStyles = makeStyles(({ palette }, { size, countWeeksInMonth }: DatePickerRightSectionStyleProps) => ({
+export const useStyles = makeStyles(({ palette }, { size, countWeeksInMonth }: DatePickerRightSectionStyleParams) => ({
     root: {
         display: 'flex',
         flexDirection: 'column',
@@ -49,4 +49,4 @@ export const useStyles = makeStyles(({ palette }, { size, countWeeksInMonth }: D
     },
 }));
 
-export type TimeBadgesStyleKeys = KeysFromUseStyles<typeof useStyles>
+export type DatePickerRightSectionStyleKeys = KeysFromUseStyles<typeof useStyles>
