@@ -1,0 +1,1456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert elements 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical css-17ly7cl-QxAlert-root"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-etb728-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-1cvqrdd-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      >
+        <span
+          class="QxAlertBody-title css-79db7y-QxAlertBody-title"
+        >
+          Title
+        </span>
+        <p
+          class="QxAlertBody-description css-1xqqzah-QxAlertBody-description"
+        >
+          Description
+        </p>
+      </div>
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_12px QxAlertActionButtons QxAlertActionButtons_type_vertical QxAlertBody-actions css-1svblju-QxStack-root-QxAlertActionButtons-root-QxAlertBody-actions"
+      >
+        <button
+          class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_small QxAlertActionButtons-button css-16z69wj-QxBaseButton-root-QxButton-root-QxAlertActionButtons-button"
+          type="button"
+        >
+          <div
+            class="QxButton-content css-lmfykt-QxButton-content"
+          >
+            Primary
+          </div>
+        </button>
+        <button
+          class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small QxAlertActionButtons-button css-16bvpm2-QxBaseButton-root-QxButton-root-QxAlertActionButtons-button"
+          type="button"
+        >
+          <div
+            class="QxButton-content css-lmfykt-QxButton-content"
+          >
+            Secondary
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-1qfr7ei-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        data-testid="alert-close-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params background main 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-background-main"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params background secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_secondary QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-background-secondary"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_brand QxAlert_type_vertical QxAlert_isMinimalView css-11p9zzk-QxAlert-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-qllt2y-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11 26C11 25.4477 11.4477 25 12 25H24C24.5523 25 25 25.4477 25 26C25 26.5523 24.5523 27 24 27H12C11.4477 27 11 26.5523 11 26Z"
+          fill="currentColor"
+        />
+        <path
+          d="M12 20C11.4477 20 11 20.4477 11 21C11 21.5523 11.4477 22 12 22L24 22C24.5523 22 25 21.5523 25 21C25 20.4477 24.5523 20 24 20L12 20Z"
+          fill="currentColor"
+        />
+        <path
+          d="M12.5 15C11.9477 15 11.5 15.4477 11.5 16C11.5 16.5523 11.9477 17 12.5 17H17C17.5523 17 18 16.5523 18 16C18 15.4477 17.5523 15 17 15H12.5Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M8.57494 3.11875C9.45869 2.99994 10.5753 2.99997 11.9294 3L18.9289 3C20.1552 3 20.7683 3 21.3196 3.22836C21.8709 3.45672 22.3045 3.89026 23.1716 4.75734L29.2426 10.8284C30.1097 11.6955 30.5433 12.1291 30.7716 12.6804C31 13.2317 31 13.8448 31 15.0711L31 26.0706C31 27.4247 31.0001 28.5413 30.8813 29.4251C30.7565 30.3529 30.4845 31.1723 29.8284 31.8284C29.1723 32.4845 28.3529 32.7565 27.4251 32.8813C26.5413 33.0001 25.4247 33 24.0706 33H11.9294C10.5753 33 9.45869 33.0001 8.57494 32.8813C7.64711 32.7565 6.82769 32.4845 6.17158 31.8284C5.51547 31.1723 5.2435 30.3529 5.11876 29.4251C4.99994 28.5413 4.99997 27.4247 5 26.0706L5 9.9294C4.99997 8.57529 4.99994 7.45869 5.11876 6.57494C5.2435 5.64711 5.51547 4.82769 6.17158 4.17158C6.82769 3.51547 7.64711 3.2435 8.57494 3.11875ZM19.8828 5.11716C20 5.23432 20 5.42288 20 5.8L20 9.06586C20 9.95235 19.9999 10.7162 20.0821 11.3278C20.1703 11.9833 20.369 12.6117 20.8787 13.1214C21.3884 13.631 22.0167 13.8298 22.6722 13.9179C23.2839 14.0001 24.0477 14.0001 24.9342 14L28.2 14C28.5771 14 28.7657 14 28.8828 14.1172C29 14.2343 29 14.4229 29 14.8L29 26C29 27.4425 28.9979 28.4238 28.8991 29.1586C28.8042 29.8646 28.6368 30.1916 28.4142 30.4142C28.1916 30.6368 27.8646 30.8042 27.1586 30.8991C26.4238 30.9979 25.4425 31 24 31H12C10.5575 31 9.57626 30.9979 8.84144 30.8991C8.13538 30.8042 7.80836 30.6368 7.58579 30.4142C7.36322 30.1916 7.19585 29.8646 7.10092 29.1586C7.00213 28.4238 7 27.4425 7 26V10C7 8.55752 7.00213 7.57626 7.10092 6.84144C7.19585 6.13538 7.36322 5.80836 7.58579 5.58579C7.80836 5.36322 8.13538 5.19585 8.84144 5.10092C9.57626 5.00213 10.5575 5 12 5L19.2 5C19.5771 5 19.7657 5 19.8828 5.11716ZM27.2877 11.8766C27.2366 12 27.0311 12 26.6201 12H25C24.0289 12 23.4012 11.9979 22.9387 11.9357C22.505 11.8774 22.369 11.7833 22.2929 11.7071C22.2168 11.631 22.1226 11.4951 22.0643 11.0613C22.0021 10.5988 22 9.97111 22 9.00003V7.37993C22 6.96894 22 6.76345 22.1235 6.71231C22.2469 6.66117 22.3922 6.80648 22.6828 7.09709L26.903 11.3172C27.1936 11.6078 27.3389 11.7531 27.2877 11.8766Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_danger QxAlert_type_vertical QxAlert_isMinimalView css-1ik07x5-QxAlert-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-b0xszb-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color default 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-color-default"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color info 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_info QxAlert_type_vertical QxAlert_isMinimalView css-4eiea2-QxAlert-root"
+    data-testid="testStyleParams-color-info"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-kvjtbg-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 23.6002C19.4001 24.3734 18.7733 25.0002 18.0001 25.0002C17.2269 25.0002 16.6001 24.3734 16.6001 23.6002C16.6001 22.827 17.2269 22.2002 18.0001 22.2002C18.7733 22.2002 19.4001 22.827 19.4001 23.6002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V19.5C17 20.0523 17.4477 20.5 18 20.5C18.5523 20.5 19 20.0523 19 19.5L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M4 18C4 10.268 10.268 4 18 4C25.732 4 32 10.268 32 18C32 25.732 25.732 32 18 32C10.268 32 4 25.732 4 18ZM18 6C11.3726 6 6 11.3726 6 18C6 24.6274 11.3726 30 18 30C24.6274 30 30 24.6274 30 18C30 11.3726 24.6274 6 18 6Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_secondary QxAlert_type_vertical QxAlert_isMinimalView css-1tbh82k-QxAlert-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-14qye6s-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M26.0706 6H9.92943C8.57533 5.99997 7.45869 5.99994 6.57494 6.11876C5.64711 6.2435 4.82769 6.51547 4.17158 7.17158C3.51547 7.82769 3.2435 8.64711 3.11876 9.57494C2.99994 10.4587 2.99997 11.5753 3 12.9294V21.0732C2.99998 22.8966 2.99995 24.3664 3.15537 25.5223C3.31672 26.7225 3.66191 27.733 4.46447 28.5355C5.26703 29.3381 6.27752 29.6833 7.47767 29.8446C8.63363 30.0001 10.1034 30 11.9269 30H24.0731C25.8966 30 27.3664 30.0001 28.5223 29.8446C29.7225 29.6833 30.733 29.3381 31.5355 28.5355C32.3381 27.733 32.6833 26.7225 32.8446 25.5223C33.0001 24.3664 33 22.8966 33 21.0731V12.9295C33 11.5753 33.0001 10.4587 32.8813 9.57494C32.7565 8.64711 32.4845 7.82769 31.8284 7.17158C31.1723 6.51547 30.3529 6.2435 29.4251 6.11876C28.5413 5.99994 27.4247 5.99997 26.0706 6ZM5.58579 8.58579C5.80836 8.36322 6.13538 8.19585 6.84144 8.10092C7.57626 8.00213 8.55752 8 10 8H26C27.4425 8 28.4238 8.00213 29.1586 8.10092C29.8646 8.19585 30.1916 8.36322 30.4142 8.58579C30.6368 8.80836 30.8042 9.13538 30.8991 9.84144C30.9501 10.221 30.9754 10.6664 30.9878 11.2072C30.9995 11.712 31.0053 11.9645 30.8821 12.181C30.759 12.3976 30.5328 12.5252 30.0805 12.7804L22.422 17.1005C21.2053 17.7869 20.3538 18.266 19.6441 18.5803C18.9541 18.8859 18.4687 19.0024 18.0001 19.0024C17.5315 19.0024 17.0461 18.8859 16.3562 18.5803C15.6465 18.266 14.7949 17.7869 13.5782 17.1005L5.91955 12.7802C5.4672 12.5251 5.24102 12.3975 5.11786 12.1809C4.9947 11.9643 5.00053 11.7119 5.01218 11.207C5.02465 10.6663 5.04989 10.221 5.10092 9.84144C5.19585 9.13538 5.36322 8.80836 5.58579 8.58579ZM5.8948 15.0625C5.49654 14.8379 5.29741 14.7256 5.14871 14.8124C5 14.8993 5 15.1279 5 15.5851V21C5 22.9139 5.00213 24.2487 5.13753 25.2558C5.26907 26.2342 5.50967 26.7523 5.87868 27.1213C6.2477 27.4903 6.7658 27.7309 7.74416 27.8625C8.7513 27.9979 10.0861 28 12 28H24C25.9139 28 27.2487 27.9979 28.2558 27.8625C29.2342 27.7309 29.7523 27.4903 30.1213 27.1213C30.4903 26.7523 30.7309 26.2342 30.8625 25.2558C30.9979 24.2487 31 22.9139 31 21V15.5853C31 15.128 31 14.8994 30.8513 14.8125C30.7026 14.7257 30.5035 14.838 30.1052 15.0627L23.3613 18.8669C22.198 19.5232 21.2626 20.0508 20.454 20.409C19.6157 20.7803 18.8446 21.0024 18.0001 21.0024C17.1557 21.0024 16.3846 20.7803 15.5462 20.409C14.7376 20.0508 13.8022 19.5232 12.6389 18.8669L5.8948 15.0625Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color success 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_success QxAlert_type_vertical QxAlert_isMinimalView css-92xxut-QxAlert-root"
+    data-testid="testStyleParams-color-success"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-196ghrk-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.2071 15.7071C24.5976 15.3166 24.5976 14.6834 24.2071 14.2929C23.8166 13.9024 23.1834 13.9024 22.7929 14.2929L17.5657 19.5201C17.299 19.7868 17.1657 19.9201 17 19.9201C16.8343 19.9201 16.701 19.7868 16.4343 19.5201L14.7071 17.7929C14.3166 17.4024 13.6834 17.4024 13.2929 17.7929C12.9024 18.1834 12.9024 18.8166 13.2929 19.2071L16.2929 22.2071C16.6834 22.5976 17.3166 22.5976 17.7071 22.2071L24.2071 15.7071Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M18 4C10.268 4 4 10.268 4 18C4 25.732 10.268 32 18 32C25.732 32 32 25.732 32 18C32 10.268 25.732 4 18 4ZM6 18C6 11.3726 11.3726 6 18 6C24.6274 6 30 11.3726 30 18C30 24.6274 24.6274 30 18 30C11.3726 30 6 24.6274 6 18Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_warning QxAlert_type_vertical QxAlert_isMinimalView css-19owe3s-QxAlert-root"
+    data-testid="testStyleParams-color-warning"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-1d7xums-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 25.1002C19.4001 25.8734 18.7733 26.5002 18.0001 26.5002C17.2269 26.5002 16.6001 25.8734 16.6001 25.1002C16.6001 24.327 17.2269 23.7002 18.0001 23.7002C18.7733 23.7002 19.4001 24.327 19.4001 25.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12V21C17 21.5523 17.4477 22 18 22C18.5523 22 19 21.5523 19 21V12Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.2984 4.06839C17.7621 3.97331 18.2404 3.9733 18.7041 4.06836C19.5699 4.24583 20.206 4.81987 20.7639 5.5101C21.3101 6.18579 21.9022 7.13059 22.6264 8.2862L31.6201 22.6373C32.4297 23.9291 33.0863 24.9769 33.4915 25.8381C33.9007 26.708 34.1613 27.602 33.8883 28.5088C33.7444 28.9867 33.5 29.4282 33.1715 29.8039C32.5481 30.5168 31.6521 30.7707 30.6978 30.8859C29.7529 30.9999 28.5163 30.9999 26.9917 30.9998L9.01166 30.9998C7.48723 30.9998 6.25077 30.9998 5.30594 30.8858C4.3516 30.7706 3.4557 30.5167 2.83226 29.8038C2.50375 29.4282 2.25937 28.9866 2.1155 28.5088C1.84247 27.602 2.10306 26.708 2.51221 25.8381C2.9173 24.977 3.57389 23.9292 4.3834 22.6374L13.3762 8.28656C14.1003 7.13088 14.6925 6.18594 15.2386 5.51021C15.7965 4.81995 16.4326 4.24589 17.2984 4.06839ZM18.3025 6.02762C18.1038 5.98688 17.8988 5.98689 17.7001 6.02764C17.5177 6.06503 17.2525 6.20026 16.7941 6.76742C16.3328 7.33812 15.8038 8.179 15.0356 9.40497L6.11458 23.6413C5.25994 25.0051 4.6695 25.9506 4.32199 26.6894C3.97249 27.4324 3.97645 27.7524 4.03058 27.9322C4.09224 28.137 4.19697 28.3262 4.33776 28.4872C4.46137 28.6285 4.73039 28.8018 5.54558 28.9002C6.35613 28.998 7.47087 28.9997 9.08038 28.9998L26.9232 28.9998C28.5328 28.9998 29.6476 28.9981 30.4581 28.9003C31.2734 28.8019 31.5424 28.6286 31.666 28.4873C31.8068 28.3263 31.9115 28.1371 31.9732 27.9323C32.0273 27.7525 32.0313 27.4325 31.6817 26.6895C31.3342 25.9507 30.7437 25.0051 29.8889 23.6412L20.9671 9.40486C20.1988 8.17892 19.6698 7.33806 19.2085 6.76737C18.7501 6.20023 18.4849 6.06501 18.3025 6.02762Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params elevation large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_large QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-lh91qy-QxAlert-root"
+    data-testid="testStyleParams-elevation-large"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params elevation medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-elevation-medium"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params elevation small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_small QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1nx9dd-QxAlert-root"
+    data-testid="testStyleParams-elevation-small"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params elevation xLarge 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_xLarge QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-cz9r3v-QxAlert-root"
+    data-testid="testStyleParams-elevation-xLarge"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params elevation xSmall 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_xSmall QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-17j1bhl-QxAlert-root"
+    data-testid="testStyleParams-elevation-xSmall"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params isMinimalView false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-isMinimalView-false"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params isMinimalView true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-isMinimalView-true"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_small QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-18epdx3-QxAlert-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_small QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody-texts css-1yrigkk-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_xSmall QxAlertCloseButton-button css-1tawqyh-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.7761 4.27733C13.0688 3.98468 13.0688 3.51019 12.7761 3.21754C12.4835 2.92488 12.009 2.92488 11.7163 3.21754L8.42058 6.51328C8.22074 6.71312 8.12082 6.81304 7.99666 6.81304C7.87249 6.81304 7.77258 6.71312 7.57274 6.51328L4.27602 3.21656C3.98336 2.92391 3.50888 2.92391 3.21622 3.21656C2.92357 3.50922 2.92357 3.9837 3.21622 4.27636L6.51294 7.57308C6.71278 7.77291 6.8127 7.87283 6.8127 7.99699C6.8127 8.12116 6.71278 8.22108 6.51294 8.42091L3.21607 11.7178C2.92342 12.0104 2.92342 12.4849 3.21607 12.7776C3.50873 13.0702 3.98321 13.0702 4.27587 12.7776L7.57274 9.48071C7.77258 9.28087 7.87249 9.18095 7.99666 9.18095C8.12082 9.18095 8.22074 9.28087 8.42058 9.48071L11.7165 12.7766C12.0091 13.0693 12.4836 13.0693 12.7763 12.7766C13.0689 12.4839 13.0689 12.0095 12.7763 11.7168L9.48037 8.42091C9.28053 8.22108 9.18062 8.12116 9.18062 7.99699C9.18062 7.87283 9.28053 7.77291 9.48037 7.57308L12.7761 4.27733Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params type horizontal 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_horizontal QxAlert_isMinimalView css-ds8egx-QxAlert-root"
+    data-testid="testStyleParams-type-horizontal"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_horizontal QxAlert-closeButton css-nidevc-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-1faol0o-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert style params type vertical 1`] = `
+<DocumentFragment>
+  <div
+    class="QxAlert QxAlert_size_large QxAlert_background_main QxAlert_elevation_medium QxAlert_color_default QxAlert_type_vertical QxAlert_isMinimalView css-1ip2112-QxAlert-root"
+    data-testid="testStyleParams-type-vertical"
+  >
+    <div
+      class="QxAlertLeftItem QxAlert-leftItem css-lpj5k-QxAlertLeftItem-root-QxAlert-leftItem"
+    >
+      <svg
+        fill="none"
+        height="36"
+        viewBox="0 0 36 36"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.4001 24.1002C19.4001 24.8734 18.7733 25.5002 18.0001 25.5002C17.2269 25.5002 16.6001 24.8734 16.6001 24.1002C16.6001 23.327 17.2269 22.7002 18.0001 22.7002C18.7733 22.7002 19.4001 23.327 19.4001 24.1002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M19 11C19 10.4477 18.5523 10 18 10C17.4477 10 17 10.4477 17 11V20C17 20.5523 17.4477 21 18 21C18.5523 21 19 20.5523 19 20L19 11Z"
+          fill="currentColor"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M17.4365 3.04088C17.8103 2.98767 18.1898 2.98767 18.5637 3.04088C19.3085 3.14689 19.9259 3.50479 20.5264 3.98532C21.1016 4.44563 21.7462 5.09026 22.5276 5.87164L30.1285 13.4726C30.9099 14.2539 31.5545 14.8985 32.0148 15.4737C32.4954 16.0742 32.8533 16.6916 32.9593 17.4365C33.0125 17.8103 33.0125 18.1898 32.9593 18.5637C32.8533 19.3085 32.4954 19.9259 32.0148 20.5264C31.5545 21.1016 30.9099 21.7462 30.1285 22.5276L22.5276 30.1285C21.7462 30.9099 21.1016 31.5545 20.5264 32.0148C19.9259 32.4954 19.3085 32.8533 18.5637 32.9593C18.1898 33.0125 17.8103 33.0125 17.4365 32.9593C16.6916 32.8533 16.0742 32.4954 15.4737 32.0148C14.8985 31.5545 14.254 30.9099 13.4727 30.1286L5.87161 22.5276C5.09024 21.7462 4.44562 21.1016 3.98532 20.5264C3.50479 19.9259 3.14689 19.3085 3.04088 18.5637C2.98767 18.1898 2.98767 17.8103 3.04088 17.4365C3.14689 16.6916 3.50479 16.0742 3.98532 15.4737C4.44563 14.8985 5.09026 14.2539 5.87164 13.4726L13.4726 5.87164C14.2539 5.09026 14.8985 4.44563 15.4737 3.98532C16.0742 3.50479 16.6916 3.14689 17.4365 3.04088ZM18.2819 5.02093C18.095 4.99433 17.9052 4.99433 17.7183 5.02093C17.4722 5.05594 17.1863 5.17642 16.7233 5.54689C16.245 5.92966 15.6783 6.49435 14.8464 7.32625L7.32625 14.8464C6.49434 15.6783 5.92966 16.245 5.54689 16.7233C5.17642 17.1863 5.05594 17.4722 5.02093 17.7183C4.99433 17.9052 4.99433 18.095 5.02093 18.2819C5.05594 18.5279 5.17642 18.8138 5.54689 19.2768C5.92966 19.7552 6.49435 20.3219 7.32625 21.1538L14.8464 28.6739C15.6783 29.5058 16.245 30.0705 16.7233 30.4533C17.1863 30.8237 17.4722 30.9442 17.7183 30.9792C17.9052 31.0058 18.095 31.0058 18.2819 30.9792C18.5279 30.9442 18.8138 30.8237 19.2768 30.4533C19.7552 30.0705 20.3219 29.5058 21.1538 28.6739L28.6739 21.1538C29.5058 20.3219 30.0705 19.7551 30.4533 19.2768C30.8237 18.8138 30.9442 18.5279 30.9792 18.2819C31.0058 18.095 31.0058 17.9052 30.9792 17.7183C30.9442 17.4722 30.8237 17.1863 30.4533 16.7233C30.0705 16.245 29.5058 15.6783 28.6739 14.8464L21.1538 7.32625C20.3219 6.49434 19.7551 5.92966 19.2768 5.54689C18.8138 5.17642 18.5279 5.05594 18.2819 5.02093Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_0px QxAlertBody QxAlertBody_size_large QxAlert-content css-ejq1q3-QxStack-root-QxAlertBody-root-QxAlert-content"
+    >
+      <div
+        class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
+      />
+    </div>
+    <div
+      class="QxAlertCloseButton QxAlertCloseButton_type_vertical QxAlert-closeButton css-46zmkj-QxAlertCloseButton-root-QxAlert-closeButton"
+    >
+      <button
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxAlertCloseButton-button css-j7scsk-QxBaseButton-root-QxIconButton-root-QxAlertCloseButton-button"
+        type="button"
+      >
+        <div
+          class="QxIconButton-icon css-10kmd5c-QxIconButton-icon"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.2926 17.7071C16.6832 18.0976 17.3163 18.0976 17.7069 17.7071C18.0974 17.3166 18.0974 16.6834 17.7069 16.2929L13.6261 12.2122C13.509 12.095 13.509 11.9051 13.6261 11.7879L17.7069 7.70711C18.0974 7.31658 18.0974 6.68342 17.7069 6.29289C17.3164 5.90237 16.6832 5.90237 16.2927 6.29289L12.2119 10.3737C12.0948 10.4908 11.9048 10.4908 11.7877 10.3737L7.70686 6.29289C7.31634 5.90237 6.68317 5.90237 6.29265 6.29289C5.90212 6.68342 5.90212 7.31658 6.29265 7.70711L10.3734 11.7879C10.4906 11.9051 10.4906 12.095 10.3734 12.2122L6.29271 16.2929C5.90218 16.6834 5.90218 17.3166 6.29271 17.7071C6.68323 18.0976 7.3164 18.0976 7.70692 17.7071L11.7877 13.6264C11.9048 13.5092 12.0948 13.5092 12.2119 13.6264L16.2926 17.7071Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -7,7 +7,7 @@ export type ButtonBorderRadius = QxBorderSize;
 
 export interface ButtonStyleParams {
     /** Цветовая палитра компонента.
-     * Значения соответствуют токенам объекта `palette.colors`
+     * Значения соответствуют токенам объекта `theme.palette.colors`
      *
      * @default brand */
     color: ButtonColor;

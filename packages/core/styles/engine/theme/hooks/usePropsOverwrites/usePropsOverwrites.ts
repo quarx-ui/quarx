@@ -36,7 +36,7 @@ export function usePropsOverwrites<
     StyleKey extends string,
     CSSVarNames extends Record<string, string>
 >(
-    name: keyof ComponentsProps,
+    name: keyof ComponentsProps | string,
     props: UsePropsOverwritesPropsType<Props, StyleKey, CSSVarNames>,
     cssVarNames?: CSSVarNames,
 ): UsePropsOverwritesReturnType<Props, StyleKey, CSSVarNames> {
@@ -52,7 +52,7 @@ export function usePropsOverwrites<
     } = typedProps;
 
     const theme = useTheme();
-    const overwrites = theme?.defaultProps?.[name] as typeof typedProps;
+    const overwrites = theme?.defaultProps?.[name as keyof ComponentsProps] as typeof typedProps;
     const mergedProps = omitProps<typeof typedProps, 'cssVars' | 'styles'>({
         ...(overwrites ?? {}),
         ...(restProps ?? {}),

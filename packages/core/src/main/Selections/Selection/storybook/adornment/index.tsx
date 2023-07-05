@@ -6,9 +6,10 @@ import { DisplayVariants } from '@core/storybook/DisplayVariants';
 import { StoryDarkerContainer } from '@core/storybook/components';
 import { useBooleanState, Selection, SelectionProps } from '@core';
 import { setStoryParams } from '@core/storybook/setStoryParams';
+import { DisplayVariantsProps } from '@core/storybook/DisplayVariants/DisplayVariants';
 import { CONTROLLER_OPTIONS, getController, Padding, SelectionTemplateProps } from '../utils';
 
-const adornmentsDisplayProps = {
+const adornmentsDisplayProps: DisplayVariantsProps<SelectionProps> = {
     property: 'reverse',
     title: { isShown: false },
     values: [false, true],
