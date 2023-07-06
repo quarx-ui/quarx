@@ -53,3 +53,5 @@ export interface StackStyleParams {
      * Значения аналогичны css-свойству `align-items` для flex-контейнеров */
     alignItems?: AlignItems;
 }
+
+export type { StackDirection, StackOrder } from './constants';

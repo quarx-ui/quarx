@@ -14,10 +14,3 @@ export const STACK_ORDER = valuesAsKeysFromArray([
 ]);
 
 export type StackOrder = Values<typeof STACK_ORDER>
-
-export const CHILD_TYPE = valuesAsKeysFromArray([
-    'item',
-    'divider',
-]);
-
-export type ChildType = Values<typeof CHILD_TYPE>
