@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
 import { DATE_PICKER_TIME_TYPES, DatePickerBlock, PeriodSelectedDates } from '@core/src/experimental';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import description from './description.md';
 
@@ -25,5 +25,7 @@ export const DisableYearStory: Story<DatePickerStoryType> = (props) => {
     );
 };
 
-DisableYearStory.storyName = 'Возможность изменения года';
-DisableYearStory.parameters = createStoryDescription(description);
+setStoryParams(DisableYearStory, {
+    title: 'Возможность изменения года',
+    description,
+});

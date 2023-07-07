@@ -1,6 +1,6 @@
 import { PatternFormatProps } from 'react-number-format';
 import { TextFieldProps } from '@core';
-import { DatePickerProps, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
+import { DatePickerBlockProps, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 
 export interface DateFieldTexts {
     errorByValidationSingleDate?: string;
@@ -8,9 +8,13 @@ export interface DateFieldTexts {
     errorByValidateLastDate?: string;
 }
 
+type PatternFormatPropsToDateField = Omit<
+Partial<PatternFormatProps<TextFieldProps>>, 'value' | 'onChange' | 'inputProps'
+>
+
 export interface DateFieldProps<D extends SelectedDates = PickerSelectedDate> extends
-    Omit<Partial<PatternFormatProps<TextFieldProps>>, 'value' | 'onChange' | 'inputProps'>,
-    Pick<DatePickerProps, 'withTime'> {
+    PatternFormatPropsToDateField,
+    Pick<DatePickerBlockProps, 'withTime'> {
     isSingleDate: boolean;
     value?: D;
     onChange: (date: D) => void;

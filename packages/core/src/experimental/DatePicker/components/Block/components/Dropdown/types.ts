@@ -1,8 +1,8 @@
 import { valuesAsKeysFromArray, WithClassesAndStyles } from '@core';
-import { DatePickerStyleParams, SelectedDates, PickerSelectedDate } from '@core/src/experimental';
+import { SelectedDates, PickerSelectedDate } from '@core/src/experimental';
 import { Dispatch, RefObject, SetStateAction } from 'react';
 import { DropdownDatePickerHookType } from '../../utils';
-import { DropdownDatePickerStyleKeys } from './styles';
+import { DropdownDatePickerStyleKeys, DropdownDatePickerStyleParams } from './styles/types';
 import { DatePickerInnerComponentsProps } from '../../types';
 
 export const DROPDOWN_TYPES = valuesAsKeysFromArray([
@@ -11,10 +11,6 @@ export const DROPDOWN_TYPES = valuesAsKeysFromArray([
 ] as const);
 
 export type DropdownDatePickerTypes = keyof typeof DROPDOWN_TYPES;
-
-export interface DropdownDatePickerStyleParams extends Pick<DatePickerStyleParams, 'size' | 'borderRadius'> {
-    countWeeksInMonth: number;
-}
 
 export interface DatePickerDropdownProps<D extends SelectedDates = PickerSelectedDate> extends
     WithClassesAndStyles<DropdownDatePickerStyleKeys, DropdownDatePickerStyleParams>,

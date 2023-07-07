@@ -1,3 +1,3 @@
 export * from './types';
 export * from './DayBlock';
-export type { DayStyleKeys } from './styles';
+export type { DayStyleKeys } from './styles/types';

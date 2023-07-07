@@ -2,8 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
 import { Button } from '@core';
 import { DatePickerBlock, SelectedDates } from '@core/src/experimental';
-import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import { isPicker } from '../../types';
 import description from './description.md';
@@ -32,8 +31,7 @@ export const Sandbox: Story<DatePickerStoryType> = ({ ...props }) => {
     );
 };
 
-Sandbox.storyName = 'Компонент';
-Sandbox.parameters = {
-    ...STORYBOOK_VIEWPORTS,
-};
-Sandbox.parameters = createStoryDescription(description);
+setStoryParams(Sandbox, {
+    title: 'Компонент',
+    description,
+});

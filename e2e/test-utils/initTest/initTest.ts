@@ -1,6 +1,7 @@
 import { ComponentsListTypes } from '@e2e/constants';
 import { InitTestConfig, PropsType, TestProps } from '@e2e/test-utils/types';
-import { compareSnapshots as initCompareSnapshots, compareSnapshotsMap as initCompareSnapshotsMap } from '@e2e/test-utils/compareSnapshots';
+import { compareSnapshots as initCompareSnapshots, compareSnapshotsMap as initCompareSnapshotsMap }
+    from '@e2e/test-utils/compareSnapshots';
 import * as pw from '@playwright/test';
 import { testComponentProps } from '@e2e/test-utils/testComponent';
 import { disableAnimations } from '@e2e/test-utils/disableAnimations';
@@ -74,7 +75,6 @@ export const initTest = <Props = PropsType>(
                     const getInput = getInputCreator(page);
                     const getComponent = getComponentCreator(page, selector);
                     const waitTimeout = waitTimeoutCreator(page, configTimeout ?? 0);
-                    // const waitElementBool = waitElement(page, configTimeout ?? 0);
                     const setProps = setPropsCreator<Props>(page);
                     const toMatchSnapshot = toMatchSnapshotCreator({
                         ...commonOptions,

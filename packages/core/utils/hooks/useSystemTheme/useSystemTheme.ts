@@ -20,29 +20,28 @@ export const useSystemTheme = (initialTheme?: PaletteType) => {
     const [theme, setTheme] = useState(initialTheme || null);
 
     useEffect(() => {
-        // SSR or matchMedia not supported
-        if (!(typeof window === 'undefined' || !window.matchMedia)) {
-            const lightMatch = window.matchMedia(colorSchemes.light);
-            const onLightMatches = onThemeChange(() => {
-                setTheme('light');
-            });
-
-            lightMatch.addEventListener('change', onLightMatches);
-
-            const darkMatch = window.matchMedia(colorSchemes.dark);
-            const onDarkMatches = onThemeChange(() => {
-                setTheme('dark');
-            });
-
-            darkMatch.addEventListener('change', onDarkMatches);
-
-            return () => {
-                lightMatch.removeEventListener('change', onLightMatches);
-                darkMatch.removeEventListener('change', onDarkMatches);
-            };
+        // SSR или matchMedia не поддерживаются
+        if ((typeof window === 'undefined' || !window.matchMedia)) {
+            return undefined;
         }
+        const lightMatch = window.matchMedia(colorSchemes.light);
+        const onLightMatches = onThemeChange(() => {
+            setTheme('light');
+        });
 
-        return undefined;
+        lightMatch.addEventListener('change', onLightMatches);
+
+        const darkMatch = window.matchMedia(colorSchemes.dark);
+        const onDarkMatches = onThemeChange(() => {
+            setTheme('dark');
+        });
+
+        darkMatch.addEventListener('change', onDarkMatches);
+
+        return () => {
+            lightMatch.removeEventListener('change', onLightMatches);
+            darkMatch.removeEventListener('change', onDarkMatches);
+        };
     }, []);
 
     useEnhancedEffect(() => {

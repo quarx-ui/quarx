@@ -1,9 +1,9 @@
 import { KeysFromUseStyles, makeStyles } from '@core';
-import { MONTH_TYPOGRAPHY } from './utils';
+import { getMonthTypography } from './utils';
 import { DatePickerStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, elevations, borderRadii },
+    { palette, elevations, borderRadii, typography },
     { borderRadius, size }: Required<DatePickerStyleParams>,
 ) => ({
     root: {
@@ -12,7 +12,7 @@ export const useStyles = makeStyles((
         width: 'min-content',
         borderRadius: borderRadius === 'max' ? borderRadii.xLarge : borderRadii[borderRadius],
         boxSizing: 'border-box',
-        ...MONTH_TYPOGRAPHY[size],
+        ...getMonthTypography(typography)[size],
     },
 
     content: {

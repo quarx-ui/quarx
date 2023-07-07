@@ -1,11 +1,11 @@
-import { DatePickerProps, SelectedDates } from '@core/src/experimental';
+import { DatePickerBlockProps, SelectedDates } from '@core/src/experimental';
 import { isValid, parse } from 'date-fns';
 import { Dispatch, SetStateAction } from 'react';
 import isUndefined from '@core/types/isUndefined';
 import { validateDateString } from './validators';
 import { SetErrorText } from './mappers';
 
-export const getFormat = (withTime: DatePickerProps['withTime']) => (withTime ? 'dd.MM.yyyy HH:mm' : 'dd.MM.yyyy');
+export const getFormat = (withTime: DatePickerBlockProps['withTime']) => (withTime ? 'dd.MM.yyyy HH:mm' : 'dd.MM.yyyy');
 
 export const clearErrorText = (
     setErrorText: Dispatch<SetStateAction<string>>, errorTextToCompare: string,
@@ -17,7 +17,7 @@ export const clearErrorText = (
 };
 
 export const parseDateValue = <D extends SelectedDates>(
-    value: string, withTime: DatePickerProps<D>['withTime'], setError: SetErrorText,
+    value: string, withTime: DatePickerBlockProps<D>['withTime'], setError: SetErrorText,
     validationErrorText: string,
 ) => {
     const date = parse(value, getFormat(withTime), new Date());
@@ -31,7 +31,7 @@ export const parseDateValue = <D extends SelectedDates>(
 };
 
 export const getDate = <D extends SelectedDates>(
-    value: string, withTime: DatePickerProps['withTime'], setError: SetErrorText,
+    value: string, withTime: DatePickerBlockProps['withTime'], setError: SetErrorText,
     validationErrorText: string,
 ) => {
     if (validateDateString(value)) {

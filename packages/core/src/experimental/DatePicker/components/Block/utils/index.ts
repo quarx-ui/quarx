@@ -3,7 +3,7 @@ export * from './constants';
 export * from './useDayProperties';
 export * from './mapSelectToDates';
 export * from './scrollToCurrentChild';
-export * from './styleContstants';
+export * from './styleConstants';
 export * from './styleUtils';
 export * from './timeUtils';
 export * from './useDropdownDatePicker';

@@ -2,7 +2,7 @@ import { ForwardedRef, forwardRef } from 'react';
 import { usePropsOverwrites } from '@core/styles';
 import { SelectedDates } from '@core/src/experimental';
 import { useDayProperties } from '../../utils';
-import { useStyles } from './styles';
+import { useStyles } from './styles/index';
 import { OffsetDayBlockProps } from './types';
 
 export const OffsetDayBlock = forwardRef(<D extends SelectedDates>(

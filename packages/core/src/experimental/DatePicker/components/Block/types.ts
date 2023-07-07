@@ -3,33 +3,37 @@ import {
     PickQxSize,
     StylesMap,
     Values,
-    valuesAsKeysFromArray,
-    WithClassesAndStyles,
+    WithClassesAndStyles, ComponentPropsWithHTML,
 } from '@core';
 import { Dispatch, SetStateAction } from 'react';
 import { Locale } from 'date-fns';
 import { TimeBadgeStyleKeys } from '@core/src/experimental';
-import { DatePickerRightSectionStyleKeys } from './components/DatePickerRightSection/styles';
-import { DatePickerStyleKeys, DayStyleKeys, FooterDatePickerStyleKeys, MonthBlockStyleKeys, HeaderDatePickerStyleKeys,
-    OffsetDayStyleKeys, DropdownDatePickerStyleKeys, DropdownButtonStyleKeys } from '.';
+import {
+    DatePickerStyleKeys, DayStyleKeys, FooterDatePickerStyleKeys, MonthBlockStyleKeys, HeaderDatePickerStyleKeys,
+    OffsetDayStyleKeys, DropdownDatePickerStyleKeys, DropdownButtonStyleKeys, DatePickerRightSectionStyleKeys,
+} from '.';
+import {
+    DATE_PICKER_DISPLAY_TYPES,
+    DATE_PICKER_TIME_TYPES,
+    EDITABLE_PERIOD_PARTS, PERIOD_CHANGING_FLOW,
+} from './constants';
 
-export const DATE_PICKER_TIME_TYPES = valuesAsKeysFromArray(['PERIOD', 'PICKER'] as const);
 export type DatePickerTimeTypes = Values<typeof DATE_PICKER_TIME_TYPES>
 
-export const DATE_PICKER_DISPLAY_TYPES = valuesAsKeysFromArray(['SINGLE', 'DOUBLE'] as const);
 export type DatePickerDisplayTypes = Values<typeof DATE_PICKER_DISPLAY_TYPES>
 
-export const EDITABLE_PERIOD_PARTS = valuesAsKeysFromArray(['START', 'END'] as const);
 export type EditablePeriodParts = Values<typeof EDITABLE_PERIOD_PARTS>
 
-export const PERIOD_CHANGING_FLOW = valuesAsKeysFromArray(
-    ['AFTER_DAY', 'AFTER_TIME_BADGE', 'AFTER_EACH', 'DEFAULT'] as const,
-);
 export type PeriodChangingFlow = Values<typeof PERIOD_CHANGING_FLOW>
 
 export type DatePickerBorderRadius = QxBorderSize;
 
 export type DatePickerSize = PickQxSize<'small' | 'medium' | 'large'>
+
+interface PeriodDates {
+    start?: Date;
+    end?: Date;
+}
 
 export interface DatePickerStyleParams {
     /** Размер компонента (small, medium, large)
@@ -42,12 +46,9 @@ export interface DatePickerStyleParams {
     countWeeksInMonth: number;
 }
 
-export interface DatePickerAllowedDates {
-    start?: Date;
-    end?: Date;
-}
+export type DatePickerAllowedDates = PeriodDates;
 
-export interface DatePickerTEXTS {
+export interface DatePickerTexts {
     /** Перевод названий дней недели
      * @default ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'] */
     weekdays?: string[];
@@ -70,10 +71,7 @@ export interface DatePickerTEXTS {
 
 export type PickerSelectedDate = Date | undefined;
 
-export interface PeriodSelectedDates {
-    start?: Date;
-    end?: Date;
-}
+export type PeriodSelectedDates = PeriodDates;
 
 export type SelectedDates = PeriodSelectedDates | PickerSelectedDate;
 
@@ -89,7 +87,10 @@ export interface CommonDatePickerStyles {
     datePickerRightSection: StylesMap<DatePickerRightSectionStyleKeys>;
 }
 
-export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge' | 'width'>,
+type DatePickerStyleParamsToProps = Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'isLarge' | 'width'>
+
+export interface CommonDatePickerProps extends
+    DatePickerStyleParamsToProps,
     WithClassesAndStyles<DatePickerStyleKeys, DatePickerStyleParams> {
     /** Объект разрешенных к выбору дат. Возможна работа с одним из значений периода.
      *  При передаче как минимум одного ключа, все, что вне периода становится неактивным */
@@ -102,7 +103,7 @@ export interface CommonDatePickerProps extends Omit<DatePickerStyleParams, 'coun
      * @default [1980,...,2040] */
     yearsArr?: number[];
     /** Объект переводов текста */
-    texts?: DatePickerTEXTS;
+    texts?: DatePickerTexts;
     /** Объект date-fns локали для перевода названий дней недели и месяцев автоматически (для полного перевода нужно заполнить `texts`)
      * @default ru_RU */
     locale?: Locale;
@@ -144,27 +145,19 @@ export function isPeriod(dates: SelectedDates): dates is PeriodSelectedDates {
     return !isPicker(dates);
 }
 
-export interface DatePickerProps<D extends SelectedDates = PickerSelectedDate> extends CommonDatePickerProps {
-    /** Параметр, отвечающий за выбранную/нные даты. На их основе вычисляется тип календаря (Picker/Period).
-     * Поэтому важно передавать правильные типы, даже если значения не выбраны
-     * @default Picker: undefined; Period: {} */
-    selected: D;
-    /** Callback изменения выбранного времени. Срабатывает при клике на день календаря,
-     * или изменении даты/времени с клавиатуры, если все валидации успешны. */
-    onChange: (dates: D) => void;
-}
-
-export interface DatePickerInnerComponentsProps<D extends SelectedDates> extends Omit<DatePickerProps<D>,
+type InnerDatePickerProps<D extends SelectedDates> = Omit<DatePickerBlockProps<D>,
 'listOfYears' | 'permissions' | 'locale' | 'className' | 'classes' | 'isOpen' | 'changeableDates' | 'css' |
 'pickedDates' | 'onChange' | 'bigPressScope' | 'onChangeEditablePartOfPeriod' | 'disableDefaultPeriodChangingFlow'
 | 'periodChangingFlow' | 'editablePartOfPeriod' | 'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'
->, Required<
-    Pick<DatePickerProps<D>, 'onChangeEditablePartOfPeriod' | 'periodChangingFlow' | 'editablePartOfPeriod' |
-    'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'>
-    > {
+>
+
+export interface DatePickerInnerComponentsProps<D extends SelectedDates> extends InnerDatePickerProps<D>, Required<
+Pick<DatePickerBlockProps<D>, 'onChangeEditablePartOfPeriod' | 'periodChangingFlow' | 'editablePartOfPeriod' |
+'clearAllAfterChangingStartDate' | 'pickNewSelectedAfterEndDatePick'>
+> {
     onChange: (newDates: D) => void;
     viewingDate: Date;
-    styles: Exclude<DatePickerProps<D>['styles'], undefined>;
+    styles: Exclude<DatePickerBlockProps<D>['styles'], undefined>;
     isLarge: boolean;
     setViewingDate: Dispatch<SetStateAction<Date>>;
     bigPressScope: boolean;
@@ -181,3 +174,17 @@ export interface InnerTimeSetters {
     setStartTime: Dispatch<SetStateAction<string>>;
     setEndTime: Dispatch<SetStateAction<string>>;
 }
+
+export interface DatePickerPropsWithoutHTML<D extends SelectedDates = PickerSelectedDate>
+    extends CommonDatePickerProps {
+    /** Параметр, отвечающий за выбранную/нные даты. На их основе вычисляется тип календаря (Picker/Period).
+     * Поэтому важно передавать правильные типы, даже если значения не выбраны
+     * @default Picker: undefined; Period: {} */
+    selected: D;
+    /** Callback изменения выбранного времени. Срабатывает при клике на день календаря,
+     * или изменении даты/времени с клавиатуры, если все валидации успешны. */
+    onChange: (dates: D) => void;
+}
+
+export type DatePickerBlockProps<D extends SelectedDates = PickerSelectedDate> =
+    ComponentPropsWithHTML<DatePickerPropsWithoutHTML<D>>

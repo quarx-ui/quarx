@@ -12,13 +12,14 @@ import {
 import { TIMES_TO_TIME_BADGES, useDropdownDatePicker } from './utils';
 import { MonthBlock, HeaderDatePicker, DROPDOWN_TYPES, DatePickerDropdown, FooterDatePicker } from '.';
 import { getTimeFromDate } from './components/FooterDatePicker/utils';
-import { DATE_PICKER_DISPLAY_TYPES, isPeriod, isPicker, DatePickerProps, SelectedDates } from './types';
+import { isPeriod, isPicker, DatePickerBlockProps, SelectedDates } from './types';
 import { useStyles } from './styles';
+import { DEFAULT_TEXTS, DATE_PICKER_DISPLAY_TYPES } from './constants';
 
 export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
-    initialProps: DatePickerProps<D>, ref: Ref<HTMLDivElement>,
+    initialProps: DatePickerBlockProps<D>, ref: Ref<HTMLDivElement>,
 ) => {
-    const { props, cn, styleProps } = usePropsOverwrites('DatePicker', initialProps);
+    const { props, cn, styleProps } = usePropsOverwrites('DatePickerBlock', initialProps);
 
     const {
         onChange, innerStyles, bigPressScope: externalUseIncreasedDay = false,
@@ -118,8 +119,9 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
             className={cn('root', params)}
             css={styles.root}
             ref={ref}
-            onMouseLeave={() => {
+            onMouseLeave={(e) => {
                 setHoveredDay(undefined);
+                restProps?.onMouseLeave?.(e);
             }}
         >
             <div
@@ -214,10 +216,10 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
                     size={size}
                     onChange={onSelectDay}
                     borderRadius={borderRadius}
-                    startTimeText={texts?.startTime || 'Начало'}
-                    endTimeText={texts?.endTime || 'Конец'}
-                    selectedTimeLabel={texts?.time || 'Время'}
-                    errorValidateTime={texts?.errorValidateCalendarTime || 'Некорректное время'}
+                    startTimeText={texts?.startTime || DEFAULT_TEXTS.start}
+                    endTimeText={texts?.endTime || DEFAULT_TEXTS.end}
+                    selectedTimeLabel={texts?.time || DEFAULT_TEXTS.time}
+                    errorValidateTime={texts?.errorValidateCalendarTime || DEFAULT_TEXTS.errorValidateCalendarTime}
                     key="FooterDatePicker"
                 />
             )}

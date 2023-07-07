@@ -31,7 +31,7 @@ export const DATE_PICKER_ARG_TYPES: ArgTypes<DatePickerStoryType> = ({
         texts: {
             table: {
                 type: {
-                    summary: 'DatePickerTEXTS',
+                    summary: 'DatePickerTexts',
                     detail: "weekdays?: string[] = ['Пн',...,'Вс'], // Массив названий дней недели\n"
                         + "monthNames?: string[] = ['Январь',...,'Декабрь'], // Массив названий месяцев\n"
                         + 'time?: string = "Время", // Текст времени в footer при активном `withTime` \n'

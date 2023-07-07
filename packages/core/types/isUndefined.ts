@@ -1,10 +1,8 @@
 /**
- * Checks if `value` is `undefined`.
+ * Поверка если `value` это `undefined`.
  *
- * @since 0.1.0
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is `undefined`, else `false`.
+ * @param {*} value Значение для проверки.
+ * @returns {boolean} Возвращает `true` если `value` это `undefined`, иначе `false`.
  * @example
  *
  * isUndefined(void 0)

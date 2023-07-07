@@ -6,7 +6,7 @@ import { scrollParentToChild } from '../../utils';
 import { LeftArrowBigIcon, LeftArrowSmallIcon } from '../../assets';
 import { HeaderDatePickerProps } from './types';
 import { HeaderDropdownDatePicker, DROPDOWN_TYPES } from '..';
-import { useStyles } from './styles';
+import { useStyles } from './styles/index';
 
 export const HeaderDatePicker = forwardRef(<D extends SelectedDates>(
     initialProps : HeaderDatePickerProps<D>,

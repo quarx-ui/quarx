@@ -2,6 +2,7 @@ import { NumberFormatBase, usePatternFormat } from 'react-number-format';
 import { ChangeEventHandler, Ref, useEffect, useState } from 'react';
 import { forwardRef } from '@core/utils';
 import { SelectedDates } from '@core/src/experimental';
+import { DEFAULT_TEXTS } from './constants';
 import { isEmptySelected, isEqualValue, validateDateString } from './utils/validators';
 import {
     mapSelectedToTextFieldValue,
@@ -22,9 +23,9 @@ export const DateField = forwardRef(<D extends SelectedDates>(
         value: dateValueExternal, onChange: onChangeExternal, errorText, texts, ...restProps } = initialProps;
 
     const {
-        errorByValidateFirstDate = 'Некорректная дата начала периода',
-        errorByValidateLastDate = 'Некорректная дата конца периода',
-        errorByValidationSingleDate = 'Некорректная дата',
+        errorByValidateFirstDate = DEFAULT_TEXTS.errorByValidateFirstDate,
+        errorByValidateLastDate = DEFAULT_TEXTS.errorByValidateLastDate,
+        errorByValidationSingleDate = DEFAULT_TEXTS.errorByValidationSingleDate,
     } = texts || {};
 
     const errorsFromInput: Required<DateFieldTexts> = {

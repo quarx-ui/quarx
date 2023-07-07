@@ -7,7 +7,7 @@ import {
     TIME_INPUT_TYPE, TimeInputType,
 } from './utils';
 import { FooterDatePickerProps } from './types';
-import { useStyles } from './styles';
+import { useStyles } from './styles/index';
 import { isPicker } from '../../types';
 
 export const FooterDatePicker = forwardRef(<D extends SelectedDates>(

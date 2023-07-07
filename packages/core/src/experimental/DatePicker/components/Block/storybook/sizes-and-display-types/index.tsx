@@ -4,8 +4,7 @@ import {
     DATE_PICKER_DISPLAY_TYPES, DATE_PICKER_TIME_TYPES, DatePickerBlock, PeriodSelectedDates,
 } from '@core/src/experimental';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { createStoryDescription } from '@core/storybook/utils';
-import { excludeProp } from '@core/storybook/templateParams';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import description from './description.md';
 
@@ -51,6 +50,8 @@ export const SizesAndDisplayTypesStory: Story<DatePickerStoryType> = (props) => 
     );
 };
 
-SizesAndDisplayTypesStory.storyName = 'Размеры и типы отображения календаря';
-SizesAndDisplayTypesStory.argTypes = excludeProp(['size', 'types']);
-SizesAndDisplayTypesStory.parameters = createStoryDescription(description);
+setStoryParams(SizesAndDisplayTypesStory, {
+    title: 'Размеры и типы отображения календаря',
+    excludeArgs: ['size', 'types'],
+    description,
+});

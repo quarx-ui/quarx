@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
 import { getDateFnsLocale } from '@core';
 import { PeriodSelectedDates, DatePickerBlock } from '@core/src/experimental';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import description from './description.md';
 
@@ -24,5 +24,7 @@ export const FrenchDatePickerStory: Story<DatePickerStoryType> = (props) => {
     );
 };
 
-FrenchDatePickerStory.storyName = 'Возможность передачи locale из date-fns';
-FrenchDatePickerStory.parameters = createStoryDescription(description);
+setStoryParams(FrenchDatePickerStory, {
+    title: 'Возможность передачи locale из date-fns',
+    description,
+});

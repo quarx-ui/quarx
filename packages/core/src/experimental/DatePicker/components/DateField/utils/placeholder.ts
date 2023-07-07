@@ -1,8 +1,8 @@
-import { DatePickerProps } from '@core/src/experimental';
+import { DatePickerBlockProps } from '@core/src/experimental';
 
-const getPlaceholderDate = (withTime: DatePickerProps['withTime']) => (withTime ? 'ДД.ММ.ГГГГ ЧЧ:ММ' : 'ДД.ММ.ГГГГ');
+const getPlaceholderDate = (withTime: DatePickerBlockProps['withTime']) => (withTime ? 'ДД.ММ.ГГГГ ЧЧ:ММ' : 'ДД.ММ.ГГГГ');
 
-export const getPlaceholder = (isPickerType: boolean, withTime: DatePickerProps['withTime']) => {
+export const getPlaceholder = (isPickerType: boolean, withTime: DatePickerBlockProps['withTime']) => {
     if (isPickerType) {
         return getPlaceholderDate(withTime);
     }

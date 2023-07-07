@@ -1,3 +1,3 @@
-import { DatePickerProps, SelectedDates } from '@core/src/experimental';
+import { DatePickerBlockProps, SelectedDates } from '@core/src/experimental';
 
-export type DatePickerStoryType = Omit<DatePickerProps<SelectedDates>, 'onChange' | 'selected'>;
+export type DatePickerStoryType = Omit<DatePickerBlockProps<SelectedDates>, 'onChange' | 'selected'>;

@@ -2,7 +2,7 @@ import { Story } from '@storybook/react/types-6-0';
 import React, { useState } from 'react';
 import { DatePickerBlock, PickerSelectedDate } from '@core/src/experimental';
 import { addDays } from 'date-fns';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import description from './description.md';
 
@@ -44,5 +44,7 @@ export const AllowedDatesStory: Story<DatePickerStoryType> = (props) => {
     );
 };
 
-AllowedDatesStory.storyName = 'Возможность выбора даты только в разрешенном периоде';
-AllowedDatesStory.parameters = createStoryDescription(description);
+setStoryParams(AllowedDatesStory, {
+    title: 'Возможность выбора даты только в разрешенном периоде',
+    description,
+});

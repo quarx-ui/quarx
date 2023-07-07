@@ -1,9 +1,10 @@
-import { DatePickerProps } from '@core/src/experimental';
+import { DatePickerBlockProps } from '@core/src/experimental';
 import { getPlaceholder } from './placeholder';
 
-const getFormatMaskDate = (withTime: DatePickerProps['withTime']) => (withTime ? '##.##.#### ##:##' : '##.##.####');
+const getFormatMaskDate = (withTime: DatePickerBlockProps['withTime']) => (withTime
+    ? '##.##.#### ##:##' : '##.##.####');
 
-export const getFormatValue = (isSingleDate: boolean, withTime: DatePickerProps['withTime']) => {
+export const getFormatValue = (isSingleDate: boolean, withTime: DatePickerBlockProps['withTime']) => {
     if (isSingleDate) {
         return getFormatMaskDate(withTime);
     }
@@ -11,5 +12,5 @@ export const getFormatValue = (isSingleDate: boolean, withTime: DatePickerProps[
 };
 
 export const getMask = (
-    isSingleDate: boolean, withTime: DatePickerProps['withTime'],
+    isSingleDate: boolean, withTime: DatePickerBlockProps['withTime'],
 ) => getPlaceholder(isSingleDate, withTime).split('').filter((symbol) => symbol.match(/[ДМГЧ]/g));

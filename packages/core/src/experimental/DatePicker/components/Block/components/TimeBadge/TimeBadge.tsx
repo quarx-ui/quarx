@@ -8,7 +8,7 @@ import {
     SelectedDates,
 } from '@core/src/experimental';
 import { Badge } from '@core';
-import { useStyles } from './styles';
+import { useStyles } from './styles/index';
 import { TimeBadgeProps } from './types';
 import { getDateFromTimeByBadgeInPeriod, getDateFromTimeByBadgeInPicker } from './utils';
 import { isPeriod, isPicker } from '../../types';

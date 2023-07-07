@@ -1,19 +1,12 @@
-import { createTheme, CreateThemeArg, PaletteType, Theme } from '@core';
-import React, { FC } from 'react';
+import { createTheme } from '@core';
+import { FC } from 'react';
 import { ThemeProvider } from '@emotion/react';
 import { useSystemTheme } from '@core/utils/hooks/useSystemTheme';
-import { ThemeProviderProps } from '@emotion/react/types/theming';
-
-export interface SystemBasedThemeProviderProps extends Partial<ThemeProviderProps> {
-    themeType?: PaletteType;
-    disableCheckSystemTheme?: boolean;
-    createThemeArgs?: CreateThemeArg;
-    theme?: Theme;
-}
+import { SystemBasedThemeProviderProps } from './types';
 
 export const SystemBasedThemeProvider: FC<SystemBasedThemeProviderProps> = (initialProps) => {
     const {
-        themeType: initialThemeType, disableCheckSystemTheme, createThemeArgs, ...props } = initialProps;
+        themeType: initialThemeType, disableCheckSystemTheme = false, createThemeArgs, ...props } = initialProps;
     const systemThemeType = useSystemTheme(initialThemeType);
     const theme = createTheme({
         ...createThemeArgs,

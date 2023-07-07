@@ -1,10 +1,10 @@
-import { DatePickerProps } from '@core/src/experimental';
+import { DatePickerBlockProps } from '@core/src/experimental';
 import { getFormatValue } from './format';
 
 export interface ValidateJoinedDateProps {
     joinedInput: string;
     isSingleDate: boolean;
-    withTime: DatePickerProps['withTime'];
+    withTime: DatePickerBlockProps['withTime'];
 }
 
 interface DatePart {

@@ -35,12 +35,7 @@ export default {
         onChange: {},
         ...DATE_PICKER_ARG_TYPES,
     },
-    parameters: { actions: { disable: true }, ...STORYBOOK_VIEWPORTS },
+    parameters: STORYBOOK_VIEWPORTS,
 };
 
 export { Sandbox } from './sandbox';
-// export { SizesAndDisplayTypesStory } from './sizes-and-display-types';
-// export { FrenchDatePickerStory } from './french-datepicker';
-// export { DisableYearStory } from './disable-year';
-// export { BorderRadiusOnVariousTypesStory } from './border-radius-on-various-types';
-// export { AllowedDatesStory } from './allowed-dates';

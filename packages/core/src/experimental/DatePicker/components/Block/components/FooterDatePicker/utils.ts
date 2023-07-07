@@ -4,7 +4,7 @@ import { PeriodSelectedDates, PickerSelectedDate } from '@core/src/experimental'
 import { isValidTime } from '../../utils';
 import { ErrorMessageSetters } from '..';
 
-export const TIME_INPUT_TYPE = valuesAsKeysFromArray(['PICK', 'START', 'END'] as const);
+export const TIME_INPUT_TYPE = valuesAsKeysFromArray(['PICK', 'START', 'END']);
 
 export type TimeInputType = Values<typeof TIME_INPUT_TYPE>
 

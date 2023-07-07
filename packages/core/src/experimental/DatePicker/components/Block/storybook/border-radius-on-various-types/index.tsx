@@ -4,7 +4,7 @@ import {
     DATE_PICKER_TIME_TYPES, DatePickerBlock, PeriodSelectedDates, PickerSelectedDate,
 } from '@core/src/experimental';
 import { DisplayVariants } from '@core/storybook/DisplayVariants';
-import { createStoryDescription } from '@core/storybook/utils';
+import { setStoryParams } from '@core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import description from './description.md';
 
@@ -52,5 +52,7 @@ export const BorderRadiusOnVariousTypesStory: Story<DatePickerStoryType> = (prop
     );
 };
 
-BorderRadiusOnVariousTypesStory.storyName = 'Радиусы и типы выбора дат';
-BorderRadiusOnVariousTypesStory.parameters = createStoryDescription(description);
+setStoryParams(BorderRadiusOnVariousTypesStory, {
+    title: 'Радиусы и типы выбора дат',
+    description,
+});

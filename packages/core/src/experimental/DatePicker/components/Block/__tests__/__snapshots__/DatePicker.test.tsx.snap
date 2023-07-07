@@ -3,23 +3,23 @@
 exports[`DatePicker Snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="QxDatePicker QxDatePicker_countWeeksInMonth_5 QxDatePicker_borderRadius_small QxDatePicker_size_large css-ft872n-QxDatePicker-root"
+    class="QxDatePickerBlock QxDatePickerBlock_countWeeksInMonth_5 QxDatePickerBlock_borderRadius_small QxDatePickerBlock_size_large css-zgwuzx-QxDatePickerBlock-root"
   >
     <div
-      class="QxDatePicker-content css-1kls56w-QxDatePicker-content"
+      class="QxDatePickerBlock-content css-jybi1u-QxDatePickerBlock-content"
     >
       <div
-        class="QxDatePicker-leftContent css-1gvqdiy-QxDatePicker-leftContent"
+        class="QxDatePickerBlock-leftContent css-1ercudb-QxDatePickerBlock-leftContent"
       >
         <div
           class="QxHeaderDatePicker QxHeaderDatePicker_size_large css-segbkv-QxHeaderDatePicker-root"
         >
           <div
-            class="QxHeaderDropdownDatePicker QxHeaderDropdownDatePicker_size_large QxHeaderDropdownDatePicker_borderRadius_small css-5fv5ok-QxHeaderDropdownDatePicker-root"
+            class="QxHeaderDropdownDatePicker QxHeaderDropdownDatePicker_size_large QxHeaderDropdownDatePicker_borderRadius_small css-8kvqtz-QxHeaderDropdownDatePicker-root"
           >
             Сентябрь
             <svg
-              class="QxHeaderDropdownDatePicker-dropdownArrow css-a281cl-QxHeaderDropdownDatePicker-dropdownArrow"
+              class="QxHeaderDropdownDatePicker-dropdownArrow css-1sk6p28-QxHeaderDropdownDatePicker-dropdownArrow"
               fill="none"
               height="24"
               viewBox="0 0 24 24"
@@ -35,11 +35,11 @@ exports[`DatePicker Snapshot 1`] = `
             </svg>
           </div>
           <div
-            class="QxHeaderDropdownDatePicker QxHeaderDropdownDatePicker_size_large QxHeaderDropdownDatePicker_borderRadius_small css-5fv5ok-QxHeaderDropdownDatePicker-root"
+            class="QxHeaderDropdownDatePicker QxHeaderDropdownDatePicker_size_large QxHeaderDropdownDatePicker_borderRadius_small css-8kvqtz-QxHeaderDropdownDatePicker-root"
           >
             2022
             <svg
-              class="QxHeaderDropdownDatePicker-dropdownArrow css-a281cl-QxHeaderDropdownDatePicker-dropdownArrow"
+              class="QxHeaderDropdownDatePicker-dropdownArrow css-1sk6p28-QxHeaderDropdownDatePicker-dropdownArrow"
               fill="none"
               height="24"
               viewBox="0 0 24 24"
@@ -56,13 +56,13 @@ exports[`DatePicker Snapshot 1`] = `
           </div>
         </div>
         <div
-          class="css-wwcnwh-QxDatePicker-calendar"
+          class="css-1i9dhk6-QxDatePickerBlock-calendar"
         >
           <div
             class="QxMonthBlock QxMonthBlock_size_large QxMonthBlock_borderRadius_small css-5z6lei-QxMonthBlock-root"
           >
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Пн
             </div>
@@ -70,7 +70,7 @@ exports[`DatePicker Snapshot 1`] = `
               class="QxOffsetDayBlock QxOffsetDayBlock_size_large QxOffsetDayBlock_isHoveredPeriod QxOffsetDayBlock_isWeekdayName css-1i4h695-QxOffsetDayBlock-root"
             />
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Вт
             </div>
@@ -78,7 +78,7 @@ exports[`DatePicker Snapshot 1`] = `
               class="QxOffsetDayBlock QxOffsetDayBlock_size_large QxOffsetDayBlock_isHoveredPeriod QxOffsetDayBlock_isWeekdayName css-1i4h695-QxOffsetDayBlock-root"
             />
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Ср
             </div>
@@ -86,7 +86,7 @@ exports[`DatePicker Snapshot 1`] = `
               class="QxOffsetDayBlock QxOffsetDayBlock_size_large QxOffsetDayBlock_isHoveredPeriod QxOffsetDayBlock_isWeekdayName css-1i4h695-QxOffsetDayBlock-root"
             />
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Чт
             </div>
@@ -94,7 +94,7 @@ exports[`DatePicker Snapshot 1`] = `
               class="QxOffsetDayBlock QxOffsetDayBlock_size_large QxOffsetDayBlock_isHoveredPeriod QxOffsetDayBlock_isWeekdayName css-1i4h695-QxOffsetDayBlock-root"
             />
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Пт
             </div>
@@ -102,7 +102,7 @@ exports[`DatePicker Snapshot 1`] = `
               class="QxOffsetDayBlock QxOffsetDayBlock_size_large QxOffsetDayBlock_isHoveredPeriod QxOffsetDayBlock_isWeekdayName css-1i4h695-QxOffsetDayBlock-root"
             />
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Сб
             </div>
@@ -110,7 +110,7 @@ exports[`DatePicker Snapshot 1`] = `
               class="QxOffsetDayBlock QxOffsetDayBlock_size_large QxOffsetDayBlock_isHoveredPeriod QxOffsetDayBlock_isWeekdayName css-1i4h695-QxOffsetDayBlock-root"
             />
             <div
-              class="QxMonthBlock-weekdayContainer css-10my3rg-QxMonthBlock-weekdayContainer"
+              class="QxMonthBlock-weekdayContainer css-169uqfm-QxMonthBlock-weekdayContainer"
             >
               Вс
             </div>
@@ -121,7 +121,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1gk70tr-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-38sa65-QxDayBlock-day"
+                  class="QxDayBlock-day css-hnlr5q-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -142,7 +142,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-38sa65-QxDayBlock-day"
+                  class="QxDayBlock-day css-hnlr5q-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -163,7 +163,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-38sa65-QxDayBlock-day"
+                  class="QxDayBlock-day css-hnlr5q-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -184,7 +184,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -205,7 +205,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -226,7 +226,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -247,7 +247,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-g55n9x-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -265,7 +265,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1gk70tr-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -286,7 +286,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -307,7 +307,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -328,7 +328,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -349,7 +349,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -370,7 +370,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -391,7 +391,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-g55n9x-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -409,7 +409,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1gk70tr-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -430,7 +430,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -451,7 +451,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -472,7 +472,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -493,7 +493,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -514,7 +514,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -535,7 +535,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-g55n9x-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -553,7 +553,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1gk70tr-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -574,7 +574,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -595,7 +595,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -616,7 +616,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -637,7 +637,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -658,7 +658,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -679,7 +679,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-g55n9x-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -697,7 +697,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1gk70tr-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -718,7 +718,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -739,7 +739,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -760,7 +760,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -781,7 +781,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-smsdth-QxDayBlock-day"
+                  class="QxDayBlock-day css-ypiuo7-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -802,7 +802,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-1u7faut-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-38sa65-QxDayBlock-day"
+                  class="QxDayBlock-day css-hnlr5q-QxDayBlock-day"
                   type="button"
                 >
                   <time
@@ -823,7 +823,7 @@ exports[`DatePicker Snapshot 1`] = `
                 class="QxDayBlock-dayContainer css-g55n9x-QxDayBlock-dayContainer"
               >
                 <button
-                  class="QxDayBlock-day css-38sa65-QxDayBlock-day"
+                  class="QxDayBlock-day css-hnlr5q-QxDayBlock-day"
                   type="button"
                 >
                   <time

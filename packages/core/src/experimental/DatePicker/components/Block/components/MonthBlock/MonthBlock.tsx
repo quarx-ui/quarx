@@ -5,7 +5,7 @@ import { SelectedDates } from '@core/src/experimental';
 import { OffsetDayBlock, DayBlock } from '..';
 import { getWeekdayNamesByLocale, INITIAL_WEEKDAYS, useMonthData } from '../../utils';
 import { MonthBlockProps } from './types';
-import { useStyles } from './styles';
+import { useStyles } from './styles/index';
 
 export const MonthBlock = forwardRef(<D extends SelectedDates>(
     initialProps: MonthBlockProps<D>, ref: ForwardedRef<HTMLDivElement>,

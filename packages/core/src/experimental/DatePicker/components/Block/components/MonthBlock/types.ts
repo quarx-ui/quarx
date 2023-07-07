@@ -1,15 +1,17 @@
 import { Dispatch, SetStateAction } from 'react';
 import { WithClassesAndStyles } from '@core';
-import { DatePickerStyleParams, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
+import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { Locale } from 'date-fns';
-import { MonthBlockStyleKeys } from './styles';
 import { DatePickerInnerComponentsProps, InnerTimeSetters, InnerTimeValues } from '../../types';
+import { MonthBlockStyleKeys, MonthBlockStyleParams } from './styles/types';
 
-export type MonthBlockStyleProps = Pick<DatePickerStyleParams, 'size'>
+type CommonPropsToMonthBlock<D extends SelectedDates> = Omit<
+DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'
+>
 
 export interface MonthBlockProps<D extends SelectedDates = PickerSelectedDate> extends
-    WithClassesAndStyles<MonthBlockStyleKeys, MonthBlockStyleProps>,
-    Omit<DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'> {
+    WithClassesAndStyles<MonthBlockStyleKeys, MonthBlockStyleParams>,
+    CommonPropsToMonthBlock<D> {
     hoveredDay?: Date;
     setHoveredDay?: Dispatch<SetStateAction<Date | undefined>>;
     times: InnerTimeValues;

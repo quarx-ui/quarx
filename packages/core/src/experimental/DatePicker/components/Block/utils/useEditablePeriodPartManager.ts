@@ -1,6 +1,6 @@
 import {
     DATE_PICKER_DISPLAY_TYPES,
-    DatePickerProps, EDITABLE_PERIOD_PARTS,
+    DatePickerBlockProps, EDITABLE_PERIOD_PARTS,
     EditablePeriodParts, PERIOD_CHANGING_FLOW,
     PeriodChangingFlow,
     SelectedDates,
@@ -9,7 +9,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { isPeriod } from '../types';
 
 export const useEditablePeriodPartManager = <D extends SelectedDates>(
-    props: Pick<DatePickerProps<D>,
+    props: Pick<DatePickerBlockProps<D>,
     'editablePartOfPeriod' | 'onChangeEditablePartOfPeriod' | 'periodChangingFlow' | 'useTimeBadges'
     | 'selected' | 'display'>,
 ) => {
