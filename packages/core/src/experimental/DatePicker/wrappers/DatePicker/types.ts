@@ -1,10 +1,10 @@
+import { CSSProperties } from 'react';
+import { PopupProps, WithClassesAndStyles } from '@core';
 import {
     DatePickerBlockProps,
     PickerSelectedDate,
     SelectedDates,
-} from '@core/src/experimental';
-import { CSSProperties } from 'react';
-import { PopupProps, WithClassesAndStyles } from '@core';
+} from '../../components';
 import { DatePickerStyleKeys } from './styles';
 
 type PopupComponentDatePickerProps = Omit<PopupProps, 'anchor' | 'onClickAway' | 'open'>

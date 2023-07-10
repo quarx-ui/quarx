@@ -162,7 +162,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                 <DateField
                     {...textFieldProps}
                     onClick={onTextFieldClick}
-                    onChange={(dates) => {
+                    onChange={(dates: D) => {
                         setViewingDate(isPicker(dates) ? dates : (dates.end || dates.start));
                         onDateFieldChange(dates);
                     }}

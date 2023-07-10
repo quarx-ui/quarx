@@ -108,7 +108,7 @@ export const useStyles = makeStyles(({ palette, borderRadii, typography },
                 color: palette.text.tertiary,
             }) : isDayTrusted ? {
                 color: palette.text.main,
-                ':hover': {
+                ':&hover': {
                     cursor: 'pointer',
                 },
                 '&:active': {

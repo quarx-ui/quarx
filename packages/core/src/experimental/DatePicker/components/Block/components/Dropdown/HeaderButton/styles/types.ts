@@ -4,7 +4,7 @@ import { useStyles } from './index';
 
 export type DropdownButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
 
-export interface DropdownButtonStyleParam extends Pick<DatePickerStyleParams, 'borderRadius' | 'size'>{
+export interface DropdownButtonStyleParams extends Pick<DatePickerStyleParams, 'borderRadius' | 'size'>{
     isOpen: boolean;
     disable?: boolean;
 }

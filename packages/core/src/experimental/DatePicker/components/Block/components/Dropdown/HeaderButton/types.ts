@@ -3,14 +3,13 @@ import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { DropdownItemDatePicker } from '../../../utils';
 import { DropdownDatePickerTypes } from '..';
 import { DatePickerInnerComponentsProps } from '../../../types';
-import { DropdownButtonStyleKeys, DropdownButtonStyleParam } from './styles/types';
+import { DropdownButtonStyleKeys, DropdownButtonStyleParams } from './styles/types';
 
 export interface HeaderDatePickerDropdownProps<D extends SelectedDates = PickerSelectedDate> extends
-    WithClassesAndStyles<DropdownButtonStyleKeys, DropdownButtonStyleParam>, DropdownButtonStyleParam,
+    WithClassesAndStyles<DropdownButtonStyleKeys, DropdownButtonStyleParams>, DropdownButtonStyleParams,
     Pick<DatePickerInnerComponentsProps<D>, 'innerStyles'> {
     onOpenDropdown: () => void;
     type: DropdownDatePickerTypes;
-    isOpen: boolean;
     viewingDate: Date;
     currentDropdown: DropdownItemDatePicker;
 }

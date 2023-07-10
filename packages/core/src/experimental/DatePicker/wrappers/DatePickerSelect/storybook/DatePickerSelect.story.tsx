@@ -6,9 +6,9 @@ import { STORYBOOK_VIEWPORTS } from '@core/storybook/constants';
 import { PeriodSelectedDates, DATE_PICKER_DISPLAY_TYPES } from '@core/src/experimental';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Div } from '@storybook/components';
-import { DatePickerSelect } from 'packages/core/src/experimental/DatePicker/wrappers/DatePickerSelect';
-import { DatePickerSelectProps } from '@core/src/experimental/DatePicker/wrappers/DatePickerSelect/types';
 import { setStoryParams } from '@core/storybook/setStoryParams';
+import { DatePickerSelectProps } from '../types';
+import { DatePickerSelect } from '../DatePickerSelect';
 
 type StoryType = Omit<DatePickerSelectProps<PeriodSelectedDates>, 'onChange' | 'selected'>;
 

@@ -1,10 +1,10 @@
 import { makeStyles } from '@core';
 import { getHeaderTypography } from '../../../../utils';
 import { ARROW_SIZES } from '../constants';
-import { DropdownButtonStyleParam } from './types';
+import { DropdownButtonStyleParams } from './types';
 
 export const useStyles = makeStyles(({ palette, borderRadii, typography, transitions },
-    { isOpen, disable, size, borderRadius }: Required<DropdownButtonStyleParam>) => ({
+    { isOpen, disable, size, borderRadius }: Required<DropdownButtonStyleParams>) => ({
     root: [{
         display: 'flex',
         alignItems: 'center',

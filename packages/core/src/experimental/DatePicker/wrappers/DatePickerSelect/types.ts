@@ -1,6 +1,6 @@
 import { TextFieldProps } from '@core';
 import { DatePickerTexts, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
-import { DatePickerProps } from '@core/src/experimental/DatePicker/wrappers/DatePicker/types';
+import { DatePickerProps } from '../DatePicker/types';
 
 export interface ErrorsFromInput {
     /** Дата конца раньше даты начала в периоде */
