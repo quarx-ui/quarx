@@ -1,6 +1,6 @@
 import { useCallback, useRef, useState } from 'react';
 import { useBooleanState, useEnhancedEffect } from '@core/utils';
-import { END_TIME, START_TIME, STEP, TIME_SCALE } from './constants';
+import { END_TIME, RERENDER_VALUES, START_TIME, STEP, TIME_SCALE } from './constants';
 import { UseTimerOptions, UseTimerReturn } from './types';
 
 export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
@@ -12,7 +12,7 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
         interval = STEP,
 
         loop = false,
-        rerenderOn = 'step',
+        rerenderOn = RERENDER_VALUES.step,
         disabled = false,
 
         onStart,
@@ -32,7 +32,7 @@ export const useTimer = (options: UseTimerOptions = {}): UseTimerReturn => {
     const applyRerender = useCallback(() => {
         if (disabled) { return; }
 
-        if (rerenderOn === 'step' || timerValue.current === endTime) {
+        if (rerenderOn === RERENDER_VALUES.step || timerValue.current === endTime) {
             rerender();
         }
     }, [disabled, endTime, rerender, rerenderOn]);
