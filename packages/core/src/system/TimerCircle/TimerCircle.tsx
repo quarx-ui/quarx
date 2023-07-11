@@ -1,10 +1,10 @@
-import { Fragment, FC, useMemo, useEffect, forwardRef } from 'react';
+import { Fragment, FC, useMemo, forwardRef } from 'react';
 import { usePropsOverwrites, useTimer } from '@core';
 import { If } from '@core/src/system/If';
 import { CIRCLE_RADIUS, CIRCLE_SIZE, MIN_OFFSET } from './constants';
 import { useStyles } from './styles';
 import { TimerCircleProps } from './types';
-import { getOffset } from './helpers';
+import { useRequestAnimationTimer } from './helpers';
 
 export const TimerCircle: FC<TimerCircleProps> = forwardRef<HTMLDivElement, TimerCircleProps>((
     initialProps,
@@ -17,8 +17,8 @@ export const TimerCircle: FC<TimerCircleProps> = forwardRef<HTMLDivElement, Time
         value: externalValue,
 
         startTime = circleSegments,
-        endTime,
-        interval,
+        endTime = 0,
+        interval = 1,
         disabled = Boolean(externalValue),
         onStart,
         onFinish,
@@ -28,31 +28,41 @@ export const TimerCircle: FC<TimerCircleProps> = forwardRef<HTMLDivElement, Time
         ...htmlProps
     } = props;
 
-    const styles = useStyles(styleProps);
+    const params = {
+        interval,
+    };
 
-    const { value: innerValue, pause } = useTimer({
+    const styles = useStyles({ params, ...styleProps });
+
+    // const { value: innerValue, pause } = useTimer({
+    //     startTime,
+    //     endTime,
+    //     interval,
+    //     disabled,
+    //     onStart,
+    //     onFinish,
+    // });
+
+    // useEffect(() => {
+    //     if (disabled) {
+    //         pause();
+    //     }
+    // }, [disabled, pause]);
+
+    // const timerValue = externalValue ?? /* innerValue */ 0;
+    const { targetRef, value, offset } = useRequestAnimationTimer({
+        interval,
         startTime,
         endTime,
-        interval,
+        circleSegments,
         disabled,
-        onStart,
-        onFinish,
     });
 
-    useEffect(() => {
-        if (disabled) {
-            pause();
-        }
-    }, [disabled, pause]);
-
-    const timerValue = externalValue ?? innerValue;
-    const currentOffset = getOffset(timerValue, circleSegments);
-
     const content = useMemo(() => (
-        Number.isFinite(timerValue)
-            ? (timerValue ?? '')
+        Number.isFinite(value)
+            ? (value ?? '')
             : <Fragment>&infin;</Fragment>
-    ), [timerValue]);
+    ), [value]);
 
     return (
         <If condition={!hidden}>
@@ -92,13 +102,14 @@ export const TimerCircle: FC<TimerCircleProps> = forwardRef<HTMLDivElement, Time
                     <circle
                         cy="50%"
                         cx="50%"
+                        ref={targetRef}
                         dominantBaseline="middle"
                         fill="none"
                         strokeWidth={2.5}
                         r={CIRCLE_RADIUS}
                         stroke="currentColor"
                         strokeDasharray={MIN_OFFSET}
-                        strokeDashoffset={currentOffset}
+                        strokeDashoffset={offset}
                         css={styles.loaderBorder}
                         className={cn('loaderBorder')}
                     />

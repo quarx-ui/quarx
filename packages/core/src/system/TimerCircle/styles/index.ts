@@ -2,6 +2,7 @@ import { KeysFromUseStyles, makeStyles } from '@core/styles';
 
 export const useStyles = makeStyles((
     { palette, typography },
+    { interval }: { interval: number },
 ) => ({
     root: {
         color: palette.text.main,
@@ -18,7 +19,7 @@ export const useStyles = makeStyles((
         },
     },
     loaderBorder: {
-        transition: 'stroke-dashoffset 1s linear',
+        transition: `stroke-dashoffset ${(interval / 10) * 1.4}s linear`,
         transformOrigin: 'center',
         transform: 'rotate(-90deg)',
     },
