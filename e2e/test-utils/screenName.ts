@@ -35,6 +35,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         postfix: externalPostfix,
         name: externalName,
         path: externalPath,
+        themeType,
     } = options;
 
     const testName = externalTestName?.replace(/ /, '-');
@@ -45,6 +46,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
         component,
         props: property,
         value: joinToName([value]),
+        themeType,
         postfix,
     };
 
@@ -72,7 +74,7 @@ export const getScreenPath = (options: GetScreenPathOptions): string[] => {
 };
 
 export function createScreenNames<Props = PropsType>(options: CreateScreenNameOptions<Props>): Array<ExtendedPropsType<Props>> {
-    const { props: { props }, testName, postfix, component, groupBy } = options;
+    const { props: { props }, testName, postfix, component, groupBy, themeType } = options;
 
     return props
         .map((prop) => {
@@ -88,7 +90,9 @@ export function createScreenNames<Props = PropsType>(options: CreateScreenNameOp
                     value,
                     postfix,
                     groupBy,
+                    themeType,
                 }),
+                themeType,
             });
         });
 }

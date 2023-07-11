@@ -2,6 +2,7 @@ import { CompareSnapshotsMapArg, GroupByType, PropsType, TestComponentPropsMapAr
 import * as pw from '@playwright/test';
 import { TestInfo } from '@playwright/test';
 import { ComponentsListTypes } from '@e2e/constants';
+import { PaletteType } from '@kit';
 
 export interface InitTestReturned<Props = PropsType> extends
     Pick<pw.TestType<pw.PlaywrightTestArgs & pw.PlaywrightTestOptions,
@@ -28,4 +29,5 @@ export interface ToMatchSnapshotCreatorProps {
     getComponent: (uSelector?: string) => pw.Locator;
     waitTimeout: (timeout?: number) => Promise<void>;
     groupBy: GroupByType;
+    themeType: PaletteType;
 }

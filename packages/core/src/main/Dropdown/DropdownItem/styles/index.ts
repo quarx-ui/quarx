@@ -64,7 +64,7 @@ export const useStyles = makeStyles((
         justifyContent: 'space-between',
 
         backgroundColor: palette.background.main,
-        '-webkit-tap-highlight-color': 'transparent',
+        WebkitTapHighlightColor: 'transparent',
 
         transition: transitions.create(
             ['background-color', 'padding'],

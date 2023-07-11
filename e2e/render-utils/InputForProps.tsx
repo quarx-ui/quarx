@@ -41,6 +41,7 @@ export const InputForProps: FC = () => {
                 display: 'flex',
                 alignItems: 'center',
                 gap: 10,
+                marginBottom: 10,
             }}
             ref={rootRef}
         >

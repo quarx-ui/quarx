@@ -94,6 +94,7 @@ module.exports = {
         'jest/no-export': 0,
         'react/jsx-uses-react': 'off',
         'react/react-in-jsx-scope': 'off',
+        'react/require-default-props': 'off',
         'react/jsx-fragments': [2, 'element'],
     },
 };

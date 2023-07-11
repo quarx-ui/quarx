@@ -7,7 +7,10 @@ export const PALETTE_COLORS = valuesAsKeysFromArray([
     'success',
     'warning',
     'danger',
-]);
+] as const);
+
+export const PALETTE_TYPE_ARR = ['light', 'dark'] as const;
+export const PALETTE_TYPES = valuesAsKeysFromArray(PALETTE_TYPE_ARR);
 
 export const PALETTE_STANDARD_KEYS = valuesAsKeysFromArray([
     'main',

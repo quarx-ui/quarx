@@ -30,7 +30,7 @@ export function makeStyles<
         : (props: UseStylesPropsWithParams<StyleParams, ClassKey, CSSVars>) => StylesMap<ClassKey> {
     return (props?: any) => {
         const theme = useTheme();
-        const { cssPrefix } = props ?? {};
+        const { cssPrefix, overwritesStyles } = props ?? {};
         const { name = cssPrefix ?? 'makeStyles' } = options;
 
         const overwrites = name?.startsWith(QX_PREFIX)
@@ -49,6 +49,7 @@ export function makeStyles<
                 styles,
                 overwrites,
                 props?.styles,
+                overwritesStyles,
             ],
         );
 

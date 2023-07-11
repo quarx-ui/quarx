@@ -7,7 +7,7 @@ import {
     PlaywrightWorkerOptions,
     Response,
 } from '@playwright/test';
-import { valuesAsKeysFromArray } from '@kit';
+import { PaletteType, valuesAsKeysFromArray } from '@kit';
 
 export type PropsType = Record<string, PropValueType>
 export type PropsStateType = 'hover' | 'press' | 'focus'
@@ -17,6 +17,7 @@ export const GROUP_BY_KEYS = valuesAsKeysFromArray([
     'testName',
     'component',
     'props',
+    'themeType',
     'value',
     'postfix',
 ]);
@@ -50,11 +51,13 @@ export interface BaseProps {
     groupBy?: GroupByType;
     disableSnapIfHeaded?: SnapshotConfig['disableIfHeaded'];
     disableAnimations?: boolean;
+    themeType?: PaletteType;
 }
 
 export interface ExtendedPropsType<Props = PropsType> extends BaseProps {
     props: Props;
     screenName?: string | string[];
+    themeType: PaletteType;
 }
 
 export type PropsArray<Props = PropsType> = {
@@ -73,6 +76,7 @@ export interface CompareSnapshotsMapArg<Props = PropsType> extends
     Pick<BaseProps, 'testName' | 'postfix'>
 {
     testParams: TestParams;
+    themeType: PaletteType;
 }
 
 export interface ToMatchSnapshotOptions {
@@ -83,8 +87,10 @@ export interface ToMatchSnapshotOptions {
 }
 
 export interface TestProps<Props = PropsType> {
-    compareSnapshotsMap: (options: Omit<CompareSnapshotsMapArg<Props>, 'testParams' | 'testName'>) => Promise<void>;
-    compareSnapshots: (options: ExtendedPropsType<Props>) => Promise<void>;
+    compareSnapshotsMap: (
+        options: Omit<CompareSnapshotsMapArg<Props>, 'testParams' | 'testName' | 'themeType'>
+    ) => Promise<void>;
+    compareSnapshots: (options: Omit<ExtendedPropsType<Props>, 'themeType'>) => Promise<void>;
     testName: string;
     getComponent: (uniqSelector?: string) => Locator;
     setComponent: (component?: ComponentsListTypes | string) => Promise<Response | null>;
@@ -105,6 +111,7 @@ export interface GetScreenPathOptions {
     postfix?: string;
     property?: string;
     value?: PropValueType;
+    themeType: PaletteType;
 }
 
 export interface CreateScreenNameOptions<Props = PropsType> {
@@ -113,4 +120,5 @@ export interface CreateScreenNameOptions<Props = PropsType> {
     props: { props: Array<Props> };
     postfix?: string;
     groupBy: GroupByType;
+    themeType: PaletteType;
 }

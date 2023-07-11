@@ -2,6 +2,7 @@ import { PropsArray, ExtendedPropsType, PropsType, TestParams, BaseProps } from 
 import { ComponentsListTypes } from '@e2e/constants';
 import { compareSnapshots } from '@e2e/test-utils/compareSnapshots';
 import { createScreenNames } from '@e2e/test-utils/screenName';
+import { PaletteType } from '@kit';
 
 export async function runSeriesPromises<Props = PropsType>(
     iterable: Array<ExtendedPropsType<Props>>,
@@ -56,6 +57,7 @@ export interface RunSeriesComparisonsOptions<Props = PropsType> extends Pick<Bas
     targetProps: PropsArray<Props>;
     commonProps: ExtendedPropsType<Props>;
     testName: string;
+    themeType: PaletteType;
     postfix?: string;
 }
 
@@ -67,6 +69,7 @@ export async function runSeriesComparisons<Props = PropsType>(options: RunSeries
         commonProps,
         testName,
         postfix,
+        themeType,
         groupBy = [],
     } = options;
 
@@ -80,6 +83,7 @@ export async function runSeriesComparisons<Props = PropsType>(options: RunSeries
         props: convertedProps,
         postfix,
         groupBy,
+        themeType,
     });
     const propsWithCommon = injectCommonProps<Props>(propsWithScreenNames, commonProps);
 

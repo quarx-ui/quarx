@@ -3,14 +3,16 @@ import { PropsType, ToMatchSnapshotOptions } from '@e2e/test-utils';
 import { getStringFromProps } from '@e2e/utils';
 import { getScreenPath } from '@e2e/test-utils/screenName';
 import { ComponentsListTypes, FRAME_ID, INPUT_PROPS_ID } from '@e2e/constants';
+import { PaletteType } from '@kit';
 import { ToMatchSnapshotCreatorProps } from './types';
 
 export const setComponentCreator = (
     page: pw.Page,
     component: ComponentsListTypes,
+    themeType: PaletteType,
 ) => (
     uComponent: ComponentsListTypes | string = component,
-) => page.goto(`/${uComponent}`);
+) => page.goto(`/${themeType}/${uComponent}`);
 
 export const getInputCreator = (page: pw.Page) => () => page.locator(`#${INPUT_PROPS_ID}`);
 
@@ -58,6 +60,7 @@ export const toMatchSnapshotCreator = (
         getComponent,
         waitTimeout,
         groupBy,
+        themeType,
     } = props;
 
     const {
@@ -87,5 +90,6 @@ export const toMatchSnapshotCreator = (
             component,
             postfix,
             path,
+            themeType,
         }));
 };

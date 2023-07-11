@@ -1,0 +1,20 @@
+import { Dispatch, SetStateAction } from 'react';
+import { WithClassesAndStyles } from '@core';
+import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
+import { DayStyleKeys, DayStylesParams } from './styles/types';
+import { InnerTimeSetters, InnerTimeValues, DatePickerInnerComponentsProps } from '../../types';
+
+type CommonDatePickerPropsToDay<D extends SelectedDates> = Omit<DatePickerInnerComponentsProps<D>,
+'setViewingDate' | 'styles'>;
+
+export interface DayBlockProps<D extends SelectedDates = PickerSelectedDate> extends
+    WithClassesAndStyles<DayStyleKeys, DayStylesParams>,
+    CommonDatePickerPropsToDay<D>
+{
+    currentDay: Date;
+    hoveredDay?: Date;
+    setHoveredDay?: Dispatch<SetStateAction<Date | undefined>>;
+    times: InnerTimeValues;
+    setTimes: InnerTimeSetters;
+    numDay: number;
+}

@@ -14,10 +14,12 @@ import {
     WithCustomType,
 } from '@core';
 import { WithOverwrites } from '../types';
-import { PALETTE_COLORS } from './constants';
+import { PALETTE_COLORS, PALETTE_TYPES } from './constants';
 
-export type PaletteType = 'light' | 'dark';
+export type PaletteType = Values<typeof PALETTE_TYPES>;
+
 export type PaletteColor = Values<typeof PALETTE_COLORS> | WithCustomType<CustomPaletteColor>;
+
 export type PaletteStandardKey = Values<typeof PALETTE_STANDARD_KEYS>;
 export type PaletteBackgroundTextFieldKey = PaletteStandardKey
 export type PaletteBackgroundContainerKey = 'hover' | WithCustomType<CustomPaletteBackgroundContainer>

@@ -49,9 +49,13 @@ import {
     TextFieldProps,
     Transitions,
 } from '@core';
+import { DatePickerBlockProps } from '@core/src/experimental';
 import { CreateBorderArg, ReturnedBorders } from '@core/styles/engine/theme/borders';
 import { ReturnedBorderRadii, CreateBorderRadiusArg } from '@core/styles/engine/theme/borderRadii';
 import { SelectionTreeNodeProps } from '@core/src/main/Selections/SelectionRegistries/SelectionTree/SelectionTreeNode';
+import { DatePickerProps } from '@core/src/experimental/DatePicker/wrappers/DatePicker/types';
+import { DatePickerSelectProps } from '@core/src/experimental/DatePicker/wrappers/DatePickerSelect/types';
+import { DateFieldProps } from '@core/src/experimental/DatePicker/components/DateField/types';
 import { CreateTypographyArg, Typography } from '../typography';
 
 export type DeepPartialWithStyles<Props extends Record<string, any>> = {
@@ -101,6 +105,10 @@ export interface ComponentsProps {
     TabsDefault: TabsDefaultProps;
     TabsSegmented: TabsSegmentedProps;
     TextField: TextFieldProps;
+    DatePickerBlock: DatePickerBlockProps;
+    DatePicker: DatePickerProps;
+    DatePickerSelect: DatePickerSelectProps;
+    DateField: DateFieldProps;
 }
 
 export type DefaultProps = DeepPartialWithStyles<ComponentsProps>;
