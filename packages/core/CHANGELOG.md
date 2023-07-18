@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.4.0&targetBranch=@quarx-ui/core@2.3.0) (2023-07-18)
+
+
+### Features
+
+* **theme:** В тему добавлена базовая типографика ([2c32089](https://github.com/quarx-ui/quarx/commits/2c32089ce4bb8970fbe6df8f7b0bd6e356086dc5))
+* Добавлен компонент **Alert** ([1613f40](https://github.com/quarx-ui/quarx/commits/1613f4090464d2083a532ce79b8af50d86a47798))
+* Добавлен компонент **DatePicker** ([#254](https://github.com/quarx-ui/quarx/issues/254)) ([ba9c604](https://github.com/quarx-ui/quarx/commits/ba9c60495c41634a6522a001d3271f07e3baf491))
+* Добавлен компонент **TimerCircle** ([3355ca8](https://github.com/quarx-ui/quarx/commits/3355ca89b914a09677842649e98d7f5d48a4389e))
+* Добавлены компоненты **Text** и **Headline** ([39a92ab](https://github.com/quarx-ui/quarx/commits/39a92abca12df5eeed892b4eaefa41a6e9f19396)), closes [#222](https://github.com/quarx-ui/quarx/issues/222)
+
+
+### Bug Fixes
+
+* **Stack:** Исправлен конфликт css-переменных для дочерних элементов ([2d742f2](https://github.com/quarx-ui/quarx/commits/2d742f2761366d19c9edd08c3be397d62410437e))
+* Типы `StackDirection` и `StackOrder` добавлены в экспорт ([#257](https://github.com/quarx-ui/quarx/issues/257)) ([f9f7baa](https://github.com/quarx-ui/quarx/commits/f9f7baa771a2b310a6c37eecf6c9cfc99b326e6d))
+
+
+
 ## [2.3.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.3.0&targetBranch=@quarx-ui/core@2.0.0) (2023-06-07)
 
 
