@@ -7,7 +7,7 @@ import { Children } from '../common';
 import description from './description.md';
 
 export const SandboxStory: Story<CollapseProps> = (props) => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
 
     return (
         <Column>
