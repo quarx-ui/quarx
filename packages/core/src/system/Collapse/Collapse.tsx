@@ -1,7 +1,7 @@
-import { FC, forwardRef, useRef } from 'react';
+import { FC, forwardRef, useEffect, useRef, useState } from 'react';
 import { usePropsOverwrites, useTheme } from '@core/styles';
 import { If } from '@core/src/system/If';
-import { Transition } from '@core/src';
+import { MapTransitionStatusToStyles, Transition } from '@core/src';
 import { mergeRefs } from '@core/utils';
 import { ORIENTATIONS } from '@core/enums';
 import { DEFAULT_ENTER_ANIMATION_FUNCTION, DEFAULT_EXIT_ANIMATION_FUNCTION } from './styles/constants';
@@ -33,24 +33,28 @@ export const Collapse: FC<CollapseProps> = forwardRef<HTMLDivElement, CollapsePr
     const internalRef = useRef<HTMLDivElement>(null);
     const refToChildren = useRef<HTMLDivElement>(null);
 
-    const childrenHeightOrWidth = refToChildren.current?.[isVertical ? 'offsetHeight' : 'offsetWidth'];
     const timeoutPropertyCamel = isVertical ? 'maxHeight' : 'maxWidth';
     const timeoutPropertyKebab = isVertical ? 'max-height' : 'max-width';
 
-    const mapStatusToStyles = {
-        entering: {
-            [timeoutPropertyCamel]: childrenHeightOrWidth,
-        },
-        entered: {
-            [timeoutPropertyCamel]: childrenHeightOrWidth,
-        },
-        exiting: {
-            [timeoutPropertyCamel]: collapsedSize,
-        },
-        exited: {
-            [timeoutPropertyCamel]: collapsedSize,
-        },
-    };
+    const [mapStatusToStyles, setMapStatusToStyles] = useState<MapTransitionStatusToStyles>();
+
+    useEffect(() => {
+        const childrenHeightOrWidth = refToChildren.current?.[isVertical ? 'offsetHeight' : 'offsetWidth'];
+        setMapStatusToStyles({
+            entering: {
+                [timeoutPropertyCamel]: childrenHeightOrWidth,
+            },
+            entered: {
+                [timeoutPropertyCamel]: childrenHeightOrWidth,
+            },
+            exiting: {
+                [timeoutPropertyCamel]: collapsedSize,
+            },
+            exited: {
+                [timeoutPropertyCamel]: collapsedSize,
+            },
+        });
+    }, [collapsedSize, isVertical, timeoutPropertyCamel]);
 
     return (
         <If condition={!hidden}>
