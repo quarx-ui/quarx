@@ -23,6 +23,7 @@ export function createPalette(palette: CreatePaletteArg = { type: 'light' }): Pa
 
     return deepmerge({
         type,
+        ...base,
         ...mergedObjects,
     }, overwrites);
 }
