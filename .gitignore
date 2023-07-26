@@ -25,3 +25,5 @@ packages/core/coverage/
 /e2e/builds
 /test-results
 **/test-results
+/test-diff
+**/test-diff
