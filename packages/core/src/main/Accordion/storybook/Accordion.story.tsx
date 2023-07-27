@@ -1,13 +1,14 @@
 import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { defineCategory, excludeProp } from '@core/storybook/templateParams';
-import { Accordion, AccordionProps } from '@core';
+import { Accordion, AccordionProps, QX_SIZE } from '@core';
 import { Meta } from '@storybook/react';
 
 const defaultArgs: Partial<AccordionProps> = {
     title: 'Название',
     description: 'Описание',
     showDivider: true,
+    size: QX_SIZE.small,
     children: (
         <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto autem commodi cupiditate
@@ -38,6 +39,7 @@ export default {
         }),
         ...defineCategory('Кастомизация', {
             size: {},
+            leftIcon: {},
             collapseIcon: {},
             statusIcon: {},
             inheritTextStyles: {},
@@ -52,4 +54,5 @@ export default {
 export { SandboxStory } from './sandbox';
 export { SizesStory } from './sizes';
 export { CustomCollapseIconStory } from './custom-collapse-icon';
+export { LeftIconStory } from './left-icon';
 export { AdditionalStatusStory } from './additional-status';

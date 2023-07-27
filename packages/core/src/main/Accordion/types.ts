@@ -18,6 +18,9 @@ export interface AccordionPropsWithoutHtml extends
     /** Заголовок компонента, отображаемый в summary */
     title?: ReactChild;
 
+    /** Иконка, отображаемая слева от заголовка */
+    leftIcon?: ReactElement;
+
     /** Дополнительное описание в summary */
     description?: ReactChild;
 

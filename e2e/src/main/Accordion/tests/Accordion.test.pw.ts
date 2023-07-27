@@ -21,6 +21,7 @@ test('Accordion', async ({ compareSnapshotsMap, compareSnapshots }) => {
         props: {
             collapseIcon: true,
             statusIcon: true,
+            leftIcon: true,
             title: 'Название',
             description: 'Описание',
         },
