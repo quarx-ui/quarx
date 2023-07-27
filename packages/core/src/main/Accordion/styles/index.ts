@@ -19,20 +19,34 @@ export const useStyles = makeStyles((
     ],
     summary: {
         cursor: 'pointer',
+        display: 'grid',
+        gridTemplateAreas: `
+            "leftIcon headline"
+            ". description"`,
+        gridTemplateColumns: 'auto 1fr',
+        alignItems: 'center',
     },
     headline: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
+        gridArea: 'headline',
     },
     title: {
         color: palette.text.main,
         ...typography.Headline[sizeToHeadlineSize[size]].Semibold,
     },
+    leftIcon: {
+        gridArea: 'leftIcon',
+        marginRight: 8,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
     icons: {
         display: 'inline-grid',
         gridAutoFlow: 'column',
-        gap: '14px',
+        columnGap: '14px',
     },
     collapseIcon: [
         {
@@ -51,6 +65,7 @@ export const useStyles = makeStyles((
     description: {
         color: palette.text.secondary,
         ...sizeToTextStyle[size],
+        gridArea: 'description',
     },
     details: [
         !inheritTextStyles && sizeToTextStyle[size],

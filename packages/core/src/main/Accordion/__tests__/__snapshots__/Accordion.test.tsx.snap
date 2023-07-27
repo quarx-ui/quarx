@@ -7,16 +7,16 @@ exports[`Accordion style params inheritTextStyles false 1`] = `
     data-testid="testStyleParams-inheritTextStyles-false"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -61,16 +61,16 @@ exports[`Accordion style params inheritTextStyles true 1`] = `
     data-testid="testStyleParams-inheritTextStyles-true"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -115,16 +115,16 @@ exports[`Accordion style params open false 1`] = `
     data-testid="testStyleParams-open-false"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -169,16 +169,16 @@ exports[`Accordion style params open true 1`] = `
     data-testid="testStyleParams-open-true"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1fm6r61-QxAccordion-collapseIcon"
@@ -223,16 +223,16 @@ exports[`Accordion style params showDivider false 1`] = `
     data-testid="testStyleParams-showDivider-false"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -277,16 +277,16 @@ exports[`Accordion style params showDivider true 1`] = `
     data-testid="testStyleParams-showDivider-true"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -335,16 +335,16 @@ exports[`Accordion style params size large 1`] = `
     data-testid="testStyleParams-size-large"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-9nwk8a-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -389,16 +389,16 @@ exports[`Accordion style params size medium 1`] = `
     data-testid="testStyleParams-size-medium"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -443,16 +443,16 @@ exports[`Accordion style params size small 1`] = `
     data-testid="testStyleParams-size-small"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-10lrczt-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"
@@ -497,16 +497,16 @@ exports[`Accordion style params size xSmall 1`] = `
     data-testid="testStyleParams-size-xSmall"
   >
     <div
-      class="QxAccordion-summary css-18dtwar-QxAccordion-summary"
+      class="QxAccordion-summary css-psxjzn-QxAccordion-summary"
     >
       <div
-        class="QxAccordion-headline css-xyvu8i-QxAccordion-headline"
+        class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
           class="QxAccordion-title css-1c2wnnn-QxAccordion-title"
         />
         <div
-          class="QxAccordion-icons css-r83ep7-QxAccordion-icons"
+          class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
         >
           <div
             class="QxAccordion-collapseIcon css-1n9o4gc-QxAccordion-collapseIcon"

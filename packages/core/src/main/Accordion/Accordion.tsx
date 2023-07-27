@@ -17,6 +17,7 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
         initialOpen = false,
         title,
         description,
+        leftIcon,
         collapseIcon,
         statusIcon,
         children,
@@ -57,6 +58,11 @@ export const Accordion: FC<AccordionProps> = forwardRef<HTMLDivElement, Accordio
                     css={styles.summary}
                     onClick={handleClick}
                 >
+                    {leftIcon && (
+                        <div className={cn('leftIcon')} css={styles.leftIcon}>
+                            {leftIcon}
+                        </div>
+                    )}
                     <div
                         className={cn('headline')}
                         css={styles.headline}
