@@ -3,8 +3,13 @@ import InputMask from 'react-input-mask';
 import { forwardRef, TextField, TextFieldProps, usePropsOverwrites } from '@core';
 import { SelectedDates } from '@core/src/experimental';
 import {
-    createError, isCompletedTime, isValidTimeValue, mapTimesToPeriodSelected, mapTimesToPickerSelected,
-    TIME_INPUT_TYPE, TimeInputType,
+    createError,
+    isCompletedTime,
+    isValidTimeValue,
+    mapTimesToPeriodSelected,
+    mapTimesToPickerSelected,
+    TIME_INPUT_TYPE,
+    TimeInputType,
 } from './utils';
 import { FooterDatePickerProps } from './types';
 import { useStyles } from './styles/index';
@@ -14,7 +19,7 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
     initialProps : FooterDatePickerProps<D>, ref: ForwardedRef<HTMLDivElement>,
 ) => {
     const { props, cn, styleProps } = usePropsOverwrites('FooterDatePicker', initialProps);
-    const { innerStyles: externalStyles, onChange, selected, startTimeText,
+    const { innerStyles: externalStyles, onChange, selected, startTimeText, withSeconds,
         endTimeText, selectedTimeLabel, size, times, setTimes, errorValidateTime, borderRadius,
     } = props;
     const params = { size };
@@ -57,14 +62,19 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
             createError(errorMessageSetters, inputType, undefined);
         }
     };
+
+    const inputMask = withSeconds ? '99:99:99' : '99:99';
+    const getValueWithSecondsIfCompleted = (value: string) => !withSeconds && isCompletedTime(value) ? `${value}:00` : value;
+
     return (
         <div css={styles.root} ref={ref} className={cn('root', params)}>
             {isPicker(selected) ? (
                 <InputMask
-                    mask="99:99:99"
+                    mask={inputMask}
                     onChange={(e) => {
-                        setPickedTime(e.currentTarget.value);
-                        onTimeChange(e.currentTarget.value, TIME_INPUT_TYPE.PICK);
+                        const timeValue = getValueWithSecondsIfCompleted(e.currentTarget.value);
+                        setPickedTime(timeValue);
+                        onTimeChange(timeValue, TIME_INPUT_TYPE.PICK);
                     }}
                     value={pickedTime}
                 >
@@ -92,10 +102,11 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
             ) : (
                 <div css={styles.timeTextFieldContainer} className={cn('timeTextFieldContainer')}>
                     <InputMask
-                        mask="99:99:99"
+                        mask={inputMask}
                         onChange={(e) => {
-                            setStartTime(e.currentTarget.value);
-                            onTimeChange(e.currentTarget.value, TIME_INPUT_TYPE.START);
+                            const timeValue = getValueWithSecondsIfCompleted(e.currentTarget.value);
+                            setStartTime(timeValue);
+                            onTimeChange(timeValue, TIME_INPUT_TYPE.START);
                         }}
                         value={startTime}
                     >
@@ -110,10 +121,11 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
                         )}
                     </InputMask>
                     <InputMask
-                        mask="99:99:99"
+                        mask={inputMask}
                         onChange={(e) => {
-                            setEndTime(e.currentTarget.value);
-                            onTimeChange(e.currentTarget.value, TIME_INPUT_TYPE.END);
+                            const timeValue = getValueWithSecondsIfCompleted(e.currentTarget.value);
+                            setEndTime(timeValue);
+                            onTimeChange(timeValue, TIME_INPUT_TYPE.END);
                         }}
                         value={endTime}
                     >

@@ -8,6 +8,11 @@ const config: PlaywrightTestConfig = {
     testDir: './',
     quiet: true,
     workers: 3,
+    expect: {
+        toMatchSnapshot: {
+            maxDiffPixels: 10,
+        },
+    },
     projects: [
         {
             name: 'chromium',

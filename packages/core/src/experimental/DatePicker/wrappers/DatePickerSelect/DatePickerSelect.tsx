@@ -21,7 +21,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
     const anchor = useRef<HTMLDivElement>(null);
     const { selected, open = false, withTime = false, onChange, viewingDate: externalViewingDate,
         errorText: externalErrorText, startErrorText: externalStartErrorText, endErrorText: externalEndErrorText,
-        texts, allowedDates,
+        texts, allowedDates, withSeconds = true,
         textFieldProps, useExperimentalDateFieldValidation = false, splittedPeriod = false,
         popupDatePickerStyles, popupDatePickerClasses, useTimeBadges,
         ...popupDatePickerProps } = props;
@@ -138,6 +138,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                         errorText={startErrorText}
                         onClick={onTextFieldClick}
                         withTime={withTime}
+                        withSeconds={withSeconds}
                         inputProps={{
                             'data-field-type': ACTIVE_FIELD_TYPE.START,
                         }}
@@ -153,6 +154,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                         onClick={onTextFieldClick}
                         errorText={endErrorText}
                         withTime={withTime}
+                        withSeconds={withSeconds}
                         inputProps={{
                             'data-field-type': ACTIVE_FIELD_TYPE.END,
                         }}
@@ -170,6 +172,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                     value={selected}
                     isSingleDate={isPickerType}
                     withTime={withTime}
+                    withSeconds={withSeconds}
                     errorText={errorText}
                     useExperimentalDateFieldValidation={useExperimentalDateFieldValidation}
                 />
@@ -180,6 +183,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                 selected={selected}
                 onChange={onChangeWithTextFieldChanging}
                 withTime={withTime}
+                withSeconds={withSeconds}
                 open={isOpen}
                 onClickAway={onClickAwayDatePicker}
                 editablePartOfPeriod={activeTextField}

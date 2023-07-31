@@ -13,6 +13,7 @@ export interface FooterDatePickerProps<D extends SelectedDates = PickerSelectedD
     endTimeText: string;
     selectedTimeLabel: string;
     size: DatePickerSize;
+    withSeconds: boolean;
     times: InnerTimeValues;
     setTimes: InnerTimeSetters;
     errorValidateTime: string;

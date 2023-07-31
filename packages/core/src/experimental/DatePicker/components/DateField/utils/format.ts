@@ -1,16 +1,38 @@
 import { DatePickerBlockProps } from '@core/src/experimental';
 import { getPlaceholder } from './placeholder';
+import {
+    MASK_DATE,
+    MASK_DATETIME,
+    MASK_DATETIME_WITH_SECONDS
+} from "./constants";
 
-const getFormatMaskDate = (withTime: DatePickerBlockProps['withTime']) => (withTime
-    ? '##.##.#### ##:##' : '##.##.####');
-
-export const getFormatValue = (isSingleDate: boolean, withTime: DatePickerBlockProps['withTime']) => {
-    if (isSingleDate) {
-        return getFormatMaskDate(withTime);
+const getFormatMaskDate = (
+    withTime: DatePickerBlockProps['withTime'],
+    withSeconds: DatePickerBlockProps['withSeconds']
+) => {
+    if (withTime && withSeconds) {
+        return MASK_DATETIME_WITH_SECONDS;
     }
-    return `${getFormatMaskDate(withTime)} - ${getFormatMaskDate(withTime)}`;
+    if (withTime) {
+        return MASK_DATETIME
+    }
+    return MASK_DATE;
+}
+
+
+export const getFormatValue = (
+    isSingleDate: boolean,
+    withTime: DatePickerBlockProps['withTime'],
+    withSeconds: DatePickerBlockProps['withSeconds']
+) => {
+    if (isSingleDate) {
+        return getFormatMaskDate(withTime, withSeconds);
+    }
+    return `${getFormatMaskDate(withTime, withSeconds)} - ${getFormatMaskDate(withTime, withSeconds)}`;
 };
 
 export const getMask = (
-    isSingleDate: boolean, withTime: DatePickerBlockProps['withTime'],
-) => getPlaceholder(isSingleDate, withTime).split('').filter((symbol) => symbol.match(/[ДМГЧ]/g));
+    isSingleDate: boolean,
+    withTime: DatePickerBlockProps['withTime'],
+    withSeconds: DatePickerBlockProps['withSeconds'],
+) => getPlaceholder(isSingleDate, withTime, withSeconds).split('').filter((symbol) => symbol.match(/[ДМГЧС]/g));
