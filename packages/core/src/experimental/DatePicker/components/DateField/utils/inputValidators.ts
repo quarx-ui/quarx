@@ -5,6 +5,7 @@ export interface ValidateJoinedDateProps {
     joinedInput: string;
     isSingleDate: boolean;
     withTime: DatePickerBlockProps['withTime'];
+    withSeconds: DatePickerBlockProps['withSeconds'];
 }
 
 interface DatePart {
@@ -12,7 +13,7 @@ interface DatePart {
     type: 'DAY' | 'MONTH' | 'YEAR' | 'HOUR' | 'MINUTE' | 'SECOND';
 }
 
-type PickerTypeAndWithTime = Pick<ValidateJoinedDateProps, 'withTime' | 'isSingleDate'>;
+type PickerTypeAndWithTime = Pick<ValidateJoinedDateProps, 'withTime' | 'isSingleDate' | 'withSeconds'>;
 
 export const checkLimitValue = (value: number, lowLimit: number, highLimit: number) => {
     // console.log(value, lowLimit, highLimit);
@@ -38,8 +39,8 @@ export const getValidDay = (day: number) => checkZeroPrefix(checkLimitValue(day,
 export const getValidMonth = (month: number) => checkZeroPrefix(checkLimitValue(month, 1, 12));
 
 const mapFormatToFormatCells = (
-    { isSingleDate, withTime }: PickerTypeAndWithTime,
-) => getFormatValue(isSingleDate, withTime).split(/[^#]/).filter(Boolean);
+    { isSingleDate, withTime, withSeconds }: PickerTypeAndWithTime,
+) => getFormatValue(isSingleDate, withTime, withSeconds).split(/[^#]/).filter(Boolean);
 const mapFormatCellsToSplittingRegExp = (formatCells: string[], joinedInput: string): RegExp => {
     const regExp = new RegExp(formatCells.reduce((acc, item) => {
         const lengthOfPreviousParts = acc.replace(/[^0-9]/g, '')
@@ -56,9 +57,9 @@ const mapFormatCellsToSplittingRegExp = (formatCells: string[], joinedInput: str
 const splitJoinedInputOnParts = (joinedInput: string, regExp: RegExp) => joinedInput.match(regExp)?.splice(1);
 
 const mapJoinedInputToDateTimeStringParts = (
-    joinedInput: string, { isSingleDate, withTime }: PickerTypeAndWithTime,
+    joinedInput: string, { isSingleDate, withTime, withSeconds }: PickerTypeAndWithTime,
 ) => {
-    const formatCells = mapFormatToFormatCells({ isSingleDate, withTime });
+    const formatCells = mapFormatToFormatCells({ isSingleDate, withTime, withSeconds });
     // console.log(lengthEachBlockOfDate);
     const regExpForSplit = mapFormatCellsToSplittingRegExp(formatCells, joinedInput);
     // console.log(regExpForSplit);
@@ -111,8 +112,8 @@ const joinValidInputPartWithInvalidInputSymbols = (validInputPart: string, joine
         ? `${validInputPart}${joinedInput.substring(validInputPart.length)}` : validInputPart);
 
 export const validateDateOnInput = (props: ValidateJoinedDateProps) => {
-    const { isSingleDate, withTime, joinedInput } = props;
-    const dateTimeStringParts = mapJoinedInputToDateTimeStringParts(joinedInput, { isSingleDate, withTime });
+    const { isSingleDate, withTime, withSeconds, joinedInput } = props;
+    const dateTimeStringParts = mapJoinedInputToDateTimeStringParts(joinedInput, { isSingleDate, withTime, withSeconds });
     if (dateTimeStringParts) {
         const dateParts: DatePart[] = mapDateTimeStringPartsToDateParts(dateTimeStringParts, withTime);
         const validDateParts = mapDatePartsToValidString(dateParts);

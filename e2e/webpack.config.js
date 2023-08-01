@@ -29,7 +29,7 @@ module.exports = {
     devServer: {
         port: PORT,
         client: {
-            overlay: true,
+            overlay: false,
         },
         static: {
             directory: path.join(PATH_TO_PROJ, 'dist'),

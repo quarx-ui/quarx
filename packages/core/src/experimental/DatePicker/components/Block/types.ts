@@ -99,6 +99,9 @@ export interface CommonDatePickerProps extends
     viewingDate?: Date;
     /** Возможность отображения и изменения времени вместе с датой  */
     withTime?: boolean;
+    /** Возможность отображения времени с секундами
+     * @default false */
+    withSeconds?: boolean;
     /** Массив номеров года для отображения в Dropdown
      * @default [1980,...,2040] */
     yearsArr?: number[];

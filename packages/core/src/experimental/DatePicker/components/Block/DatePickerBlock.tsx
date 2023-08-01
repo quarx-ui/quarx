@@ -25,7 +25,7 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
         onChange, innerStyles, bigPressScope: externalUseIncreasedDay = false,
         selected, allowedDates, viewingDate: externalViewingDate, locale,
         display = DATE_PICKER_DISPLAY_TYPES.SINGLE, borderRadius = 'small', size = 'large', texts, yearsArr, withTime,
-        disableYearChanging, useTimeBadges = false, timesToTimeBadges = TIMES_TO_TIME_BADGES,
+        withSeconds = false, disableYearChanging, useTimeBadges = false, timesToTimeBadges = TIMES_TO_TIME_BADGES,
         clearAllAfterChangingStartDate = true, pickNewSelectedAfterEndDatePick = true,
         editablePartOfPeriod: externalEditablePartOfPeriod,
         onChangeEditablePartOfPeriod: externalOnChangeEditablePartOfPeriod,
@@ -214,6 +214,7 @@ export const DatePickerBlock = forwardRef(<D extends SelectedDates>(
                     innerStyles={innerStyles}
                     selected={dates}
                     size={size}
+                    withSeconds={withSeconds}
                     onChange={onSelectDay}
                     borderRadius={borderRadius}
                     startTimeText={texts?.startTime || DEFAULT_TEXTS.start}

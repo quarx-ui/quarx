@@ -20,7 +20,7 @@ export const DateField = forwardRef(<D extends SelectedDates>(
     initialProps: DateFieldProps<D>, ref: Ref<HTMLDivElement>,
 ) => {
     const { isSingleDate, withTime, useExperimentalDateFieldValidation = false,
-        value: dateValueExternal, onChange: onChangeExternal, errorText, texts, ...restProps } = initialProps;
+        value: dateValueExternal, onChange: onChangeExternal, errorText, texts, withSeconds, ...restProps } = initialProps;
 
     const {
         errorByValidateFirstDate = DEFAULT_TEXTS.errorByValidateFirstDate,
@@ -36,13 +36,14 @@ export const DateField = forwardRef(<D extends SelectedDates>(
 
     const [innerErrorText, setInnerErrorText] = useState(errorText || '');
     const [dateValue, setDateValue] = useState(dateValueExternal);
-    const [value, setValue] = useState(mapSelectedToTextFieldValue(dateValue, withTime));
+    const [value, setValue] = useState(mapSelectedToTextFieldValue(dateValue, withTime, withSeconds));
 
     const onChangeValue = (newValue: string) => {
         const newDate = mapTextFieldValueToSelected({
             value: newValue,
             isSingleDate,
             withTime,
+            withSeconds,
             setErrorText: setInnerErrorText,
             errorsFromInput,
         }) as D;
@@ -65,10 +66,10 @@ export const DateField = forwardRef(<D extends SelectedDates>(
     useEffect(() => {
         if (!isEqualValue(dateValue, dateValueExternal) && !(errorText && isEmptySelected(dateValueExternal))) {
             setDateValue(dateValueExternal);
-            setValue(mapSelectedToTextFieldValue(dateValueExternal, withTime));
+            setValue(mapSelectedToTextFieldValue(dateValueExternal, withTime, withSeconds));
             setInnerErrorText(errorText || '');
         }
-    }, [dateValue, dateValueExternal, errorText, withTime]);
+    }, [dateValue, dateValueExternal, errorText, withTime, withSeconds]);
 
     useEffect(() => {
         if (errorText && errorText !== innerErrorText) {
@@ -81,16 +82,16 @@ export const DateField = forwardRef(<D extends SelectedDates>(
         value,
         onChange: onChangeEvent,
         onClear,
-        placeholder: getPlaceholder(isSingleDate, withTime),
-        mask: getMask(isSingleDate, withTime),
-        format: getFormatValue(isSingleDate, withTime),
+        placeholder: getPlaceholder(isSingleDate, withTime, withSeconds),
+        mask: getMask(isSingleDate, withTime, withSeconds),
+        format: getFormatValue(isSingleDate, withTime, withSeconds),
         useExperimentalDateFieldValidation,
         customInput: DateInput,
         errorText: errorText || innerErrorText,
         getInputRef: ref,
     });
 
-    const format = (joinedInput: string) => nativeFormat(validateDateOnInput({ joinedInput, isSingleDate, withTime }));
+    const format = (joinedInput: string) => nativeFormat(validateDateOnInput({ joinedInput, isSingleDate, withTime, withSeconds }));
 
     return (<NumberFormatBase {...rest} format={useExperimentalDateFieldValidation ? format : nativeFormat} />);
 });
