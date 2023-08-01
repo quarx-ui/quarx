@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.5.0&targetBranch=@quarx-ui/core@2.4.0) (2023-08-01)
+
+
+### Features
+
+* **Accordion:** Добавлена возможность передать иконку слева ([6380fff](https://github.com/quarx-ui/quarx/commits/6380fff97a9c8bd0c3b2d0424c5a2f47995a322a)), closes [#259](https://github.com/quarx-ui/quarx/issues/259)
+* **DatePickerBlock:** добавлено скрытие секунд в полях ввода времени DatePickerBlock ([#263](https://github.com/quarx-ui/quarx/issues/263)) ([b752cf7](https://github.com/quarx-ui/quarx/commits/b752cf70cdedcab1a89da6e854a39d568d8d2a29))
+* Добавлена функция для смешивания цветов с разной непрозрачностью, отрефакторены соседние утилиты ([56dc7b1](https://github.com/quarx-ui/quarx/commits/56dc7b187d7facdcb797a52f1bc8660af8eb9763))
+
+
+### Bug Fixes
+
+* **Collapse:** Анимация при первом триггере open при изначалном значении open=true ([60cd5fd](https://github.com/quarx-ui/quarx/commits/60cd5fd5017baad22bc121ac0b23e1ae11b41176))
+* **createPalette:** Исправлен мердж темы при расширении ([7bf8722](https://github.com/quarx-ui/quarx/commits/7bf8722895539a7569183a31ce36379b38bee986))
+
+
+
 ## [2.4.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.4.0&targetBranch=@quarx-ui/core@2.3.0) (2023-07-18)
 
 
