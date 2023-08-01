@@ -1,4 +1,4 @@
-import { mixAlphaColors, mixColors, getLightSuperposition, getDarkSuperposition } from './index';
+import { getSuperPosition, mixColors, getLightSuperposition, getDarkSuperposition } from './index';
 
 describe('mix colors', () => {
     it.each`
@@ -6,7 +6,7 @@ describe('mix colors', () => {
         ${'#1a802d'}                | ${'#b9dbf7'}             | ${'rgb(106, 174, 146)'}
         ${'#18c5ce'}                | ${'#1e1e20'}             | ${'rgb(27, 114, 119)'}
         ${'#2FDE4F'}                | ${'#FF0000'}             | ${'rgb(151, 111, 40)'}
-        ${'#2b299e'}                | ${'#ff5c5c'}             | ${'rgb(149, 67, 125)'} 
+        ${'#2b299e'}                | ${'#ff5c5c'}             | ${'rgb(149, 67, 125)'}
     `('$back + $fore -> $expected', ({ back, fore, expected }) => {
         expect(mixColors(back, fore)).toBe(expected);
     });
@@ -16,7 +16,7 @@ describe('mix colors', () => {
         ${'#1368F6'}                | ${'#FF0000'}             | ${'rgb(113, 62, 148)'}
         ${'rgb(196,196,196)'}       | ${'rgb(255,0,0)'}        | ${'rgb(220, 118, 118)'}
     `('$back + $fore -> $expected', ({ back, fore, expected }) => {
-        expect(mixAlphaColors(back, fore, 0.4)).toBe(expected);
+        expect(getSuperPosition(back, fore, 0.4)).toBe(expected);
     });
 
     it.each`
