@@ -112,6 +112,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "storybook-addon-designs": "^6.0.1",
+    "@storybook/addon-docs": "^6.5.13",
     "mock-match-media": "^0.4.2",
     "terser-webpack-plugin": "^5.1.1",
     "ts-node": "^10.2.1",
@@ -120,7 +121,7 @@
     "typescript": "^4.4.4",
     "typescript-transform-paths": "2.2.3"
   },
-  "dependencies": {
-    "@storybook/addon-docs": "^6.5.13"
+  "resolutions": {
+    "es5-ext": "0.10.53"
   }
 }
