@@ -89,41 +89,43 @@ export const Dropdown: FC<DropdownProps> = forwardRef<HTMLDivElement, DropdownPr
                 {...PopupProps}
                 {...restProps}
             >
-                <div
-                    className={cn('header')}
-                    css={styles.header}
-                >
-                    {header ?? (
-                        <Fragment>
-                            <If condition={Boolean(title)}>
-                                <span
-                                    className={cn('title')}
-                                    css={styles.title}
-                                >
-                                    {title}
-                                </span>
-                            </If>
-                            <If condition={searchable}>
-                                <TextField
-                                    className={cn('searchTextField')}
-                                    css={styles.searchTextField}
-                                    colorBase="secondary"
-                                    size={size}
-                                    placeholder={searchPlaceHolder}
-                                    leftItem={<ActualSearchIcon />}
-                                    onChange={onSearchChange}
-                                    onClear={onSearchClear}
-                                    loading={searchLoading}
-                                    value={searchText}
-                                    /** Чтобы не растягивался input. По умолчанию 20 символов.
+                <If condition={Boolean(header || title || searchable)}>
+                    <div
+                        className={cn('header')}
+                        css={styles.header}
+                    >
+                        {header ?? (
+                            <Fragment>
+                                <If condition={Boolean(title)}>
+                                    <span
+                                        className={cn('title')}
+                                        css={styles.title}
+                                    >
+                                        {title}
+                                    </span>
+                                </If>
+                                <If condition={searchable}>
+                                    <TextField
+                                        className={cn('searchTextField')}
+                                        css={styles.searchTextField}
+                                        colorBase="secondary"
+                                        size={size}
+                                        placeholder={searchPlaceHolder}
+                                        leftItem={<ActualSearchIcon />}
+                                        onChange={onSearchChange}
+                                        onClear={onSearchClear}
+                                        loading={searchLoading}
+                                        value={searchText}
+                                        /** Чтобы не растягивался input. По умолчанию 20 символов.
                                     * Используется вместо clearIconVisibleOn=always */
-                                    inputProps={{ size: 1 }}
-                                    {...SearchableTextFieldProps}
-                                />
-                            </If>
-                        </Fragment>
-                    )}
-                </div>
+                                        inputProps={{ size: 1 }}
+                                        {...SearchableTextFieldProps}
+                                    />
+                                </If>
+                            </Fragment>
+                        )}
+                    </div>
+                </If>
                 <div
                     className={cn('body')}
                     css={styles.body}

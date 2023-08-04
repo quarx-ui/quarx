@@ -24,7 +24,7 @@ interface TextPairEllipsis {
 export interface DropdownItemPropsWithoutHtml extends
     BaseProps<HTMLButtonElement>,
     Partial<Omit<DropdownItemStyleParams, keyof OmittedDropdownItemStyleParams>>,
-    WithClassesAndStyles<DropdownItemStyleKeys, Omit<DropdownItemStyleParams, keyof OmittedDropdownItemStyleParams>>
+    WithClassesAndStyles<DropdownItemStyleKeys, DropdownItemStyleParams>
 {
     /** Обработчик события изменения состояния */
     onChange?(): void;

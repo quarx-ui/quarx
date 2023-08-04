@@ -32,9 +32,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -81,9 +78,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -130,9 +124,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -179,9 +170,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -228,9 +216,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -277,9 +262,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -326,9 +308,6 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -394,9 +373,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -443,9 +419,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -492,9 +465,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -541,9 +511,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -590,9 +557,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -639,9 +603,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -688,9 +649,6 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -756,9 +714,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -805,9 +760,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -854,9 +806,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -903,9 +852,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -952,9 +898,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1001,9 +944,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1050,9 +990,6 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1118,9 +1055,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1167,9 +1101,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1216,9 +1147,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1265,9 +1193,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1314,9 +1239,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1363,9 +1285,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1412,9 +1331,6 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1480,9 +1396,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1529,9 +1442,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1578,9 +1488,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1627,9 +1534,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1676,9 +1580,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1725,9 +1626,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1774,9 +1672,6 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1842,9 +1737,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1891,9 +1783,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1940,9 +1829,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -1989,9 +1875,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2038,9 +1921,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2087,9 +1967,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2136,9 +2013,6 @@ exports[`DropdownItemsGroup style params size large 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2204,9 +2078,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2253,9 +2124,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2302,9 +2170,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2351,9 +2216,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2400,9 +2262,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2449,9 +2308,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2498,9 +2354,6 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2566,9 +2419,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 SuperDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2615,9 +2465,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 MegaDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2664,9 +2511,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 TeraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2713,9 +2557,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 UltraDelivery
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2762,9 +2603,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 Delivery+
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2811,9 +2649,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 DeliveryPro
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div
@@ -2860,9 +2695,6 @@ exports[`DropdownItemsGroup style params size small 1`] = `
               >
                 DeliveryMax
               </span>
-              <span
-                class="QxDropdownItem-description css-15cu3l-QxDropdownItem-description"
-              />
             </div>
           </div>
           <div

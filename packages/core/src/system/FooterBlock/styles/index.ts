@@ -1,4 +1,4 @@
-import { KeysFromUseStyles, makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles, paramsToCss } from '@core';
 import { FooterBlockStyleParams } from './types';
 
 export const useStyles = makeStyles((
@@ -12,7 +12,7 @@ export const useStyles = makeStyles((
             color: palette.text.main,
         },
 
-        direction === 'vertical' && {
+        (direction === 'vertical' || direction === 'vertical-reverse') && {
             flexDirection: 'column',
 
             '& button:not(:last-of-type)': {
@@ -24,18 +24,27 @@ export const useStyles = makeStyles((
             padding: 24,
         },
     ],
-    successButtons: {
-        display: 'flex',
-        marginLeft: 'auto',
+    successButtons: [
+        {
+            display: 'flex',
 
-        'button + &': {
-            paddingLeft: 16,
-        },
+            'button + &': {
+                paddingLeft: 16,
+            },
 
-        '& button:not(:last-of-type)': {
-            marginRight: 16,
+            '& button:not(:last-of-type)': {
+                marginRight: 16,
+            },
         },
-    },
+        paramsToCss(direction)({
+            horizontal: {
+                marginLeft: 'auto',
+            },
+            'horizontal-reverse': {
+                marginRight: 'auto',
+            },
+        }),
+    ],
 }));
 
 export type FooterBlockStyleKeys = KeysFromUseStyles<typeof useStyles>

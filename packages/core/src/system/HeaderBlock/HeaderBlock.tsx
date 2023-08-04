@@ -46,18 +46,22 @@ export const HeaderBlock: FC<HeaderBlockProps> = forwardRef<HTMLDivElement, Head
                         css={styles.content}
                         className={cn('content')}
                     >
-                        <div
-                            css={styles.title}
-                            className={cn('title')}
-                        >
-                            {title}
-                        </div>
-                        <div
-                            css={styles.subTitle}
-                            className={cn('subTitle')}
-                        >
-                            {subTitle}
-                        </div>
+                        {title && (
+                            <div
+                                css={styles.title}
+                                className={cn('title')}
+                            >
+                                {title}
+                            </div>
+                        )}
+                        {subTitle && (
+                            <div
+                                css={styles.subTitle}
+                                className={cn('subTitle')}
+                            >
+                                {subTitle}
+                            </div>
+                        )}
                     </div>
                     {!disableCloseButton && (
                         CloseButton ?? (
