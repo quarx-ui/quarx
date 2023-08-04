@@ -125,12 +125,14 @@ export const DropdownItem: FC<DropdownItemProps> = forwardRef<HTMLButtonElement,
                                 >
                                     {title}
                                 </span>
-                                <span
-                                    className={cn('description')}
-                                    css={styles.description}
-                                >
-                                    {description}
-                                </span>
+                                <If condition={Boolean(description)}>
+                                    <span
+                                        className={cn('description')}
+                                        css={styles.description}
+                                    >
+                                        {description}
+                                    </span>
+                                </If>
                             </Stack>
                         )}
                     </div>

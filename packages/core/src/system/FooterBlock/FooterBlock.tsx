@@ -30,8 +30,9 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
         size,
     }), [size]);
 
+    const isHorizontal = direction === FOOTER_DIRECTION.horizontal || direction === FOOTER_DIRECTION['horizontal-reverse'];
     const ButtonWrapper: FC = useMemo(() => ({ children: buttonChildren }) => (
-        direction === FOOTER_DIRECTION.horizontal
+        isHorizontal
             ? (
                 <div
                     css={styles.successButtons}
@@ -41,7 +42,7 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
                 </div>
             )
             : <Fragment>{buttonChildren}</Fragment>
-    ), [cn, direction, styles.successButtons]);
+    ), [cn, isHorizontal, styles.successButtons]);
 
     const buttonDanger = useMemo(() => buttons?.danger && (
         <Button
@@ -73,6 +74,10 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
         return null;
     }
 
+    const order = direction === 'horizontal' || direction === 'vertical-reverse'
+        ? 'reverse'
+        : 'default';
+
     return (
         <div
             css={styles.root}
@@ -82,13 +87,13 @@ export const FooterBlock: FC<FooterBlockProps> = forwardRef<HTMLDivElement, Foot
         >
             {children ?? (
                 <Fragment>
-                    {direction === 'horizontal' && buttonDanger}
+                    {order === 'reverse' && buttonDanger}
                     <ButtonWrapper>
-                        {direction === 'vertical' && buttonSuccess}
+                        {order === 'default' && buttonSuccess}
                         {buttonSecondary}
-                        {direction === 'horizontal' && buttonSuccess}
+                        {order === 'reverse' && buttonSuccess}
                     </ButtonWrapper>
-                    {direction === 'vertical' && buttonDanger}
+                    {order === 'default' && buttonDanger}
                 </Fragment>
             )}
         </div>

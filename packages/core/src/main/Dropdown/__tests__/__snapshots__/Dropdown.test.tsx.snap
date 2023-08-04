@@ -321,9 +321,6 @@ exports[`Dropdown searchable false 1`] = `
     class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-header css-16c9x9e-QxDropdown-header"
-    />
-    <div
       class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Title
