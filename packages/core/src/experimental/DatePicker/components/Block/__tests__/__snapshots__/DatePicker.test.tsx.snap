@@ -851,7 +851,7 @@ exports[`DatePicker Snapshot 1`] = `
             class="QxTextField-content css-ik6ies-QxTextField-content"
           >
             <div
-              class="QxTextField-label css-1tncotx-QxFooterDatePicker-labelTimeTextField-QxTextField-label"
+              class="QxTextField-label css-12ewok1-QxTextField-label"
             >
               Время
             </div>

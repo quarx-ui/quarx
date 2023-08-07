@@ -1,6 +1,7 @@
 import { css } from '@emotion/react';
 import { DefaultStyles, extractStyles, QX_PREFIX, Styles, StylesCallback } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
+import { flattenDeep } from '@core/utils';
 import { MakeStylesOptions, UseStylesProps, UseStylesPropsWithParams } from './types';
 import { useTheme } from '../theme';
 
@@ -48,7 +49,7 @@ export function makeStyles<
             [
                 styles,
                 overwrites,
-                props?.styles,
+                ...flattenDeep(props?.styles),
                 overwritesStyles,
             ],
         );
