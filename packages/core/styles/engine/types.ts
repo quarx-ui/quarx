@@ -38,7 +38,8 @@ export interface WithClassesAndStyles<
     /** Объект с переопределениями стилей для элементов компонента */
     styles?:
     | Partial<StylesWithCallback<Keys, Props>>
-    | ((theme: Theme, props: Required<Props>, cssVars: Record<CSSVars, string>) => Partial<Styles<Keys>>);
+    | ((theme: Theme, props: Required<Props>, cssVars: Record<CSSVars, string>) => Partial<Styles<Keys>>)
+    | StylesArray<Props, Keys, CSSVars>;
 }
 
 export type OmitClassesAndStyles<Props extends object> = Omit<Props, keyof WithClassesAndStyles<any>>

@@ -265,7 +265,7 @@ exports[`SidePage sidePage in the document 2`] = `
           Body
         </div>
         <div
-          class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical QxSidePage-footerBlock css-w3fajl-QxSidePage-footerBlock-root-QxFooterBlock-root"
+          class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical QxSidePage-footerBlock css-l1hdy0-QxSidePage-footerBlock-QxFooterBlock-root"
         >
           <button
             class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"

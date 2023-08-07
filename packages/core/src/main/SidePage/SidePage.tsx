@@ -1,4 +1,3 @@
-import { css } from '@emotion/react';
 import { FC, forwardRef } from 'react';
 import { Styles, usePropsOverwrites } from '@core/styles';
 import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_PLACEMENT, Modal } from '@core/src';
@@ -16,8 +15,6 @@ export const SidePage: FC<SidePageProps> = forwardRef<HTMLDivElement, SidePagePr
 
     const styles = useStyles(styleProps);
 
-    const footerBlockExternalStyles = props.FooterProps?.styles as Styles<FooterBlockStyleKeys>;
-
     return (
         <Modal
             {...props}
@@ -30,11 +27,13 @@ export const SidePage: FC<SidePageProps> = forwardRef<HTMLDivElement, SidePagePr
             }}
             css={styles.root}
             className={cn('root')}
-            styles={{
-                ...styleProps.styles,
-                box: styles.box,
-                scrollContainer: styles.scrollContainer,
-            }}
+            styles={[
+                styleProps.styles,
+                {
+                    box: styles.box,
+                    scrollContainer: styles.scrollContainer,
+                },
+            ]}
             classes={{
                 ...props.classes,
                 box: clsx(cn('box'), props.classes?.box),
@@ -42,10 +41,10 @@ export const SidePage: FC<SidePageProps> = forwardRef<HTMLDivElement, SidePagePr
             }}
             FooterProps={{
                 ...props.FooterProps,
-                styles: {
-                    ...props.FooterProps?.styles,
-                    root: css([styles.footerBlock, footerBlockExternalStyles?.root]),
-                },
+                styles: [
+                    props.FooterProps?.styles as Styles<FooterBlockStyleKeys>,
+                    { root: styles.footerBlock },
+                ],
                 classes: {
                     ...props.FooterProps?.classes,
                     root: clsx(cn('footerBlock'), props.FooterProps?.classes?.root),
