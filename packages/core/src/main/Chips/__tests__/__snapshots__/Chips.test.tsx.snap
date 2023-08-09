@@ -8,7 +8,9 @@ exports[`Chips snapshots style params active false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -40,7 +42,9 @@ exports[`Chips snapshots style params active true 1`] = `
         />
       </svg>
     </div>
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -55,7 +59,9 @@ exports[`Chips snapshots style params disableFocus false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -70,7 +76,9 @@ exports[`Chips snapshots style params disableFocus true 1`] = `
     tabindex="-1"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -85,7 +93,9 @@ exports[`Chips snapshots style params disabled false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -101,7 +111,9 @@ exports[`Chips snapshots style params disabled true 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -116,7 +128,9 @@ exports[`Chips snapshots style params elevation false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -131,7 +145,9 @@ exports[`Chips snapshots style params elevation true 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -161,7 +177,9 @@ exports[`Chips snapshots style params exists left icon 1`] = `
         />
       </svg>
     </div>
-    <span />
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    />
   </button>
 </DocumentFragment>
 `;
@@ -174,7 +192,9 @@ exports[`Chips snapshots style params exists right icon 1`] = `
     tabindex="0"
     type="button"
   >
-    <span />
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    />
     <div
       class="QxChips-rightIcon css-5aj8d6-QxChips-rightIcon"
     >
@@ -202,7 +222,9 @@ exports[`Chips snapshots style params leftIconColor green 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -217,7 +239,9 @@ exports[`Chips snapshots style params leftIconExists false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -232,7 +256,9 @@ exports[`Chips snapshots style params rightIconExists false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -247,7 +273,9 @@ exports[`Chips snapshots style params rotateRightIcon false 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -262,7 +290,9 @@ exports[`Chips snapshots style params rotateRightIcon true 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -277,7 +307,9 @@ exports[`Chips snapshots style params size medium 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -292,7 +324,9 @@ exports[`Chips snapshots style params size small 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -307,7 +341,9 @@ exports[`Chips snapshots style params variant filter 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>
@@ -322,7 +358,9 @@ exports[`Chips snapshots style params variant input 1`] = `
     tabindex="0"
     type="button"
   >
-    <span>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
       chips
     </span>
   </button>

@@ -44,6 +44,12 @@ export default {
         disableFocus: { description: 'Отключение фокусировки' },
         leftIcon: { description: 'Левая иконка' },
         leftIconColor: { description: 'Цвет левой иконки' },
+        activeStateIcon: {
+            type: 'boolean',
+            control: {
+                options: [true, false],
+            },
+        },
         rotateRightIcon: {
             description: [
                 'Переворачивать картинку на 180 ',
