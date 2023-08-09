@@ -45,7 +45,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
     const ActiveStateIcon = isValidElement(activeStateIcon)
         ? activeStateIcon
         : createElement(CheckMarkIcon[size]);
-    const LeftIcon = active
+    const LeftIcon = active && activeStateIcon !== false
         ? ActiveStateIcon
         : isValidElement(leftIcon) && leftIcon;
     const leftIconExists = Boolean(LeftIcon);
@@ -116,7 +116,12 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
                     </Transition>
                 </SwitchTransition>
             </If>
-            <span>{children}</span>
+            <span
+                css={styles.content}
+                className={cn('content')}
+            >
+                {children}
+            </span>
             <If condition={rightIconExists}>
                 <div
                     className={cn('rightIcon')}

@@ -13,10 +13,10 @@ export interface ChipsPropsWithoutHtml extends
     /** Текст */
     children?: string;
 
-    /** Иконка, отображаемая слева в активированном состоянии
+    /** Иконка, отображаемая слева в активированном состоянии (если передан "false" иконка скрыта)
      *
      * @default CheckMarkIcon */
-    activeStateIcon?: ReactElement | SVGIcon;
+    activeStateIcon?: false | ReactElement | SVGIcon;
 
     /** Левая иконка */
     leftIcon?: ReactElement | SVGIcon;

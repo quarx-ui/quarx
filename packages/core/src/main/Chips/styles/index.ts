@@ -182,6 +182,8 @@ export const useStyles = makeStyles((
             }),
         },
 
+        content: {},
+
         leftIcon: {
             display: 'flex',
             ...canChangeLeftIconColor && {
