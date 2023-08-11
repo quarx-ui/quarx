@@ -34,7 +34,7 @@ export const DropdownItemsGroup: FC<DropdownItemsGroupProps> = forwardRef<HTMLDi
     const params = {
         size,
         limiter,
-        scrollTopPosition,
+        notScrolled: scrollTopPosition === 0,
     };
     const styles = useStyles({ params, ...styleProps });
 

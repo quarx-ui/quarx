@@ -3,7 +3,7 @@
 exports[`DropdownItemsGroup Default snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
   >
     <span
       class="QxDropdownItemsGroup-title css-5u6hjk-QxDropdownItemsGroup-title"
@@ -343,7 +343,7 @@ exports[`DropdownItemsGroup Default snapshot 1`] = `
 exports[`DropdownItemsGroup style params limiter 50 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_50 css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_50 QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-limiter-50"
   >
     <span
@@ -684,7 +684,7 @@ exports[`DropdownItemsGroup style params limiter 50 1`] = `
 exports[`DropdownItemsGroup style params limiter 75 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_75 css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_75 QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-limiter-75"
   >
     <span
@@ -1025,7 +1025,7 @@ exports[`DropdownItemsGroup style params limiter 75 1`] = `
 exports[`DropdownItemsGroup style params limiter 100 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_100 css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_100 QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-limiter-100"
   >
     <span
@@ -1366,7 +1366,7 @@ exports[`DropdownItemsGroup style params limiter 100 1`] = `
 exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-limiter-Infinity"
   >
     <span
@@ -1707,7 +1707,7 @@ exports[`DropdownItemsGroup style params limiter Infinity 1`] = `
 exports[`DropdownItemsGroup style params size large 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_large QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_large QxDropdownItemsGroup_limiter_Infinity QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-size-large"
   >
     <span
@@ -2048,7 +2048,7 @@ exports[`DropdownItemsGroup style params size large 1`] = `
 exports[`DropdownItemsGroup style params size medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_medium QxDropdownItemsGroup_limiter_Infinity QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-size-medium"
   >
     <span
@@ -2389,7 +2389,7 @@ exports[`DropdownItemsGroup style params size medium 1`] = `
 exports[`DropdownItemsGroup style params size small 1`] = `
 <DocumentFragment>
   <div
-    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_small QxDropdownItemsGroup_limiter_Infinity css-1r9a3yl-QxDropdownItemsGroup-root"
+    class="QxDropdownItemsGroup QxDropdownItemsGroup_size_small QxDropdownItemsGroup_limiter_Infinity QxDropdownItemsGroup_notScrolled css-1r9a3yl-QxDropdownItemsGroup-root"
     data-testid="testStyleParams-size-small"
   >
     <span
