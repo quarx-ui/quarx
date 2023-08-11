@@ -3,8 +3,8 @@ import { PickQxSize } from '@core/enums';
 export type DropdownItemsGroupSize = PickQxSize<'small' | 'medium' | 'large'>;
 
 export interface OmittedDropdownItemsGroupStyleParams {
-    /** Позиция скролла Stack`а */
-    scrollTopPosition: number;
+    /** Наличие скролла Stack`а */
+    notScrolled: boolean;
 }
 
 export interface DropdownItemsGroupStyleParams extends OmittedDropdownItemsGroupStyleParams {
