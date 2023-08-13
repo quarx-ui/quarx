@@ -3,11 +3,28 @@
 exports[`Chips snapshots style params active false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-active-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -20,13 +37,13 @@ exports[`Chips snapshots style params active false 1`] = `
 exports[`Chips snapshots style params active true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_active QxChips_leftIconExists QxChips_rotateRightIcon css-7mpl59-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_active QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-active-true"
     tabindex="0"
     type="button"
   >
     <div
-      class="QxChips-leftIcon css-wlqdgb-QxChips-leftIcon-QxChips-leftIcon appear-active"
+      class="QxChips-leftIcon css-v60zdn-QxChips-leftIcon"
     >
       <svg
         fill="currentColor"
@@ -54,11 +71,28 @@ exports[`Chips snapshots style params active true 1`] = `
 exports[`Chips snapshots style params disableFocus false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-disableFocus-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -71,11 +105,28 @@ exports[`Chips snapshots style params disableFocus false 1`] = `
 exports[`Chips snapshots style params disableFocus true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disableFocus QxChips_rotateRightIcon css-ye2rgc-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disableFocus QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1q8q3e7-QxChips-root"
     data-testid="testStyleParams-disableFocus-true"
     tabindex="-1"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -88,11 +139,28 @@ exports[`Chips snapshots style params disableFocus true 1`] = `
 exports[`Chips snapshots style params disabled false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-disabled-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -105,12 +173,29 @@ exports[`Chips snapshots style params disabled false 1`] = `
 exports[`Chips snapshots style params disabled true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disabled QxChips_rotateRightIcon css-dn2h78-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_disabled QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1ky9s75-QxChips-root"
     data-testid="testStyleParams-disabled-true"
     disabled=""
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -123,11 +208,28 @@ exports[`Chips snapshots style params disabled true 1`] = `
 exports[`Chips snapshots style params elevation false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-elevation-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -140,11 +242,28 @@ exports[`Chips snapshots style params elevation false 1`] = `
 exports[`Chips snapshots style params elevation true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_elevation QxChips_rotateRightIcon css-1vf4pj8-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_elevation QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-ggykyn-QxChips-root"
     data-testid="testStyleParams-elevation-true"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -157,13 +276,13 @@ exports[`Chips snapshots style params elevation true 1`] = `
 exports[`Chips snapshots style params exists left icon 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists css-7mpl59-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists css-1xk85al-QxChips-root"
     data-testid="testStyleParams-leftIconExists-[object Object]"
     tabindex="0"
     type="button"
   >
     <div
-      class="QxChips-leftIcon css-wlqdgb-QxChips-leftIcon-QxChips-leftIcon appear-active"
+      class="QxChips-leftIcon css-1ndlryb-QxChips-leftIcon-QxChips-leftIcon appear-active"
     >
       <svg
         fill="currentColor"
@@ -187,11 +306,28 @@ exports[`Chips snapshots style params exists left icon 1`] = `
 exports[`Chips snapshots style params exists right icon 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rightIconExists css-1ke4ydf-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rightIconExists QxChips_onlyStateIcon css-zrt43k-QxChips-root"
     data-testid="testStyleParams-rightIconExists-[object Object]"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     />
@@ -217,11 +353,28 @@ exports[`Chips snapshots style params exists right icon 1`] = `
 exports[`Chips snapshots style params leftIconColor green 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconColor_green QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_leftIconColor_green QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-leftIconColor-green"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-1hwl3y5-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -234,11 +387,62 @@ exports[`Chips snapshots style params leftIconColor green 1`] = `
 exports[`Chips snapshots style params leftIconExists false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-leftIconExists-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="QxChips-content css-2ti2hm-QxChips-content"
+    >
+      chips
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Chips snapshots style params onlyStateIcon false 1`] = `
+<DocumentFragment>
+  <button
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
+    data-testid="testStyleParams-onlyStateIcon-false"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -251,11 +455,28 @@ exports[`Chips snapshots style params leftIconExists false 1`] = `
 exports[`Chips snapshots style params rightIconExists false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-rightIconExists-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -268,11 +489,28 @@ exports[`Chips snapshots style params rightIconExists false 1`] = `
 exports[`Chips snapshots style params rotateRightIcon false 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-rotateRightIcon-false"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -285,11 +523,28 @@ exports[`Chips snapshots style params rotateRightIcon false 1`] = `
 exports[`Chips snapshots style params rotateRightIcon true 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-rotateRightIcon-true"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -302,11 +557,28 @@ exports[`Chips snapshots style params rotateRightIcon true 1`] = `
 exports[`Chips snapshots style params size medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-size-medium"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -319,11 +591,28 @@ exports[`Chips snapshots style params size medium 1`] = `
 exports[`Chips snapshots style params size small 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_small QxChips_rotateRightIcon css-dke2wb-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_small QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-yd07q5-QxChips-root"
     data-testid="testStyleParams-size-small"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M12.781 5.22012C13.0736 5.51327 13.0732 5.98814 12.7801 6.28078L7.52972 11.5222C7.23676 11.8146 6.76223 11.8144 6.46952 11.5217L4.21528 9.26746C3.92238 8.97457 3.92238 8.4997 4.21528 8.2068C4.50817 7.91391 4.98304 7.91391 5.27594 8.2068L6.82367 9.75454C6.92125 9.85211 7.07942 9.85218 7.17708 9.75469L11.7203 5.21922C12.0134 4.92657 12.4883 4.92698 12.781 5.22012Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -336,11 +625,28 @@ exports[`Chips snapshots style params size small 1`] = `
 exports[`Chips snapshots style params variant filter 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_filter QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_filter QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-variant-filter"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >
@@ -353,11 +659,28 @@ exports[`Chips snapshots style params variant filter 1`] = `
 exports[`Chips snapshots style params variant input 1`] = `
 <DocumentFragment>
   <button
-    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_rotateRightIcon css-1ftnet4-QxChips-root"
+    class="QxChips QxChips_variant_input QxChips_size_medium QxChips_leftIconExists QxChips_rotateRightIcon QxChips_onlyStateIcon css-1xk85al-QxChips-root"
     data-testid="testStyleParams-variant-input"
     tabindex="0"
     type="button"
   >
+    <div
+      class="QxChips-leftIcon css-wc3d9d-QxChips-leftIcon"
+    >
+      <svg
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6.29289 12.2901C6.68342 11.8996 7.31658 11.8996 7.70711 12.2901L9.43724 14.0202C9.70392 14.2868 9.83727 14.4202 10.003 14.4202C10.1686 14.4202 10.302 14.2868 10.5686 14.0201L17.2902 7.29782C17.6807 6.90727 18.3138 6.90723 18.7044 7.29774C19.0949 7.68824 19.095 8.3214 18.7045 8.71195L10.7101 16.7072C10.5226 16.8947 10.2683 17.0001 10.003 17.0001C9.7378 17.0001 9.48344 16.8948 9.29589 16.7072L6.29289 13.7043C5.90237 13.3138 5.90237 12.6807 6.29289 12.2901Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
     <span
       class="QxChips-content css-2ti2hm-QxChips-content"
     >

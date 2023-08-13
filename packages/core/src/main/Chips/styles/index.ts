@@ -24,6 +24,7 @@ export const useStyles = makeStyles((
         disableFocus,
         variant,
         rotateRightIcon,
+        onlyStateIcon,
     }: ChipsStyleParams,
     {
         cssBorderWidth,
@@ -44,6 +45,7 @@ export const useStyles = makeStyles((
     };
 
     const elevationOn = {
+        [cssBorderWidth]: '0px',
         ...elevations.main.small,
         '&:hover': !disabled && {
             ...elevations.main.medium,
@@ -52,8 +54,8 @@ export const useStyles = makeStyles((
         ...press,
         '&:focus-visible': !disabled && !disableFocus && {
             borderColor: 'transparent',
+            ...elevations.main.medium,
             ...stylesWithFocus({
-                ...elevations.main.medium,
                 borderColor: cssVar(cssFocusColor),
             }),
         },
@@ -115,58 +117,46 @@ export const useStyles = makeStyles((
     };
 
     return ({
-        root: {
-            boxSizing: 'border-box',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: 8,
-            margin: 0,
-            outline: 'none',
-            cursor: 'pointer',
-            WebkitTapHighlightColor: 'transparent',
+        root: [
+            {
+                boxSizing: 'border-box',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 8,
+                margin: 0,
+                outline: 'none',
+                cursor: 'pointer',
+                WebkitTapHighlightColor: 'transparent',
+                borderStyle: 'solid',
+                borderWidth: cssVar(cssBorderWidth),
+                borderRadius: 20,
+                color: palette.text.main,
+                transition: transitions.create([
+                    'background-color',
+                    'color',
+                    'box-shadow',
+                    'border-color',
+                    'padding',
+                ], { duration: transitions.duration.shorter }),
 
-            border: '1px solid',
-            [cssBorderWidth]: '1px',
-            [cssFocusWidth]: '3px',
-            [cssFocusColor]: palette.border.focus.main,
-            ...baseFocusStyles({
+                [cssBorderWidth]: '1px',
+                [cssFocusWidth]: '3px',
+                [cssFocusColor]: palette.border.focus.main,
+            },
+            baseFocusStyles({
                 transitions,
                 borderWidth: cssVar(cssBorderWidth),
                 focusWidth: cssVar(cssFocusWidth),
             }),
-
-            borderRadius: 20,
-            color: palette.text.main,
-
-            transition: transitions.create([
-                'background-color',
-                'color',
-                'box-shadow',
-                'border-color',
-                'padding',
-            ], { duration: transitions.duration.shorter }),
-
-            ...paramsToCss(`elevation-${String(elevation)}`, `active-${active}`)({
-                'elevation-true': {
-                    'active-true': {
-                        ...elevationOn,
-                        ...activeElevationState,
-                        ...disabledAndElevation,
-                    },
-                    'active-false': {
-                        ...elevationOn,
-                        ...inactiveElevationState,
-                        ...disabledAndElevation,
-                    },
-                },
-                'elevation-false': {
-                    'active-true': elevationOff,
-                    'active-false': elevationOff,
-                },
+            elevation && elevationOn,
+            elevation && paramsToCss(`active-${active}`)({
+                'active-true': activeElevationState,
+                'active-false': inactiveElevationState,
             }),
-
-            ...paramsToCss(size)({
+            elevation && disabledAndElevation,
+            !elevation && elevationOff,
+            paramsToCss(size)({
                 [QX_SIZE.medium]: {
                     padding: 8,
                     paddingLeft: leftIconExists ? 12 : 20,
@@ -180,16 +170,29 @@ export const useStyles = makeStyles((
                     ...typography.Text.M.Medium,
                 },
             }),
-        },
+        ],
 
         content: {},
 
-        leftIcon: {
-            display: 'flex',
-            ...canChangeLeftIconColor && {
-                color: leftIconColor,
+        leftIcon: [
+            {
+                display: 'flex',
+
+                ...canChangeLeftIconColor && {
+                    color: leftIconColor,
+                },
             },
-        },
+            onlyStateIcon && {
+                width: 24,
+                transition: transitions.create(['width', 'padding', 'margin', 'opacity']),
+            },
+            onlyStateIcon && !active && {
+                width: 0,
+                padding: 0,
+                margin: 0,
+                opacity: 0,
+            },
+        ],
 
         rightIcon: {
             display: 'flex',
