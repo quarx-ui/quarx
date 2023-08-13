@@ -32,6 +32,7 @@ describe('Chips snapshots', () => {
             leftIconExists: false,
             rightIconExists: false,
             rotateRightIcon: false,
+            onlyStateIcon: false,
         },
         { children: 'chips' },
     )({
@@ -45,6 +46,7 @@ describe('Chips snapshots', () => {
         elevation: bools,
         disableFocus: bools,
         size: [QX_SIZE.small, QX_SIZE.medium],
+        onlyStateIcon: [false],
     });
 
     const testIcons = (propName: string, styleParam: string, value: ReactElement | boolean) => (

@@ -1,12 +1,20 @@
 import { ReactElement } from 'react';
-import { BaseProps, ComponentPropsWithHTML, SVGIcon, Values, WithClassesAndStyles } from '@core';
+import {
+    BaseProps,
+    ComponentPropsWithHTML,
+    OmittedChipsStyleParams,
+    SVGIcon,
+    Values,
+    WithClassesAndStyles,
+} from '@core';
 import { CHIPS_VARIANT } from './constants';
 import { ChipsCSSVarKeys, ChipsStyleKeys, ChipsStyleParams } from './styles';
 
 export type ChipsVariant = Values<typeof CHIPS_VARIANT>;
+type StyleParams = Partial<Omit<ChipsStyleParams, keyof OmittedChipsStyleParams>>
 
 export interface ChipsPropsWithoutHtml extends
-    Partial<Omit<ChipsStyleParams, 'leftIconExists' | 'rightIconExists'>>,
+    StyleParams,
     WithClassesAndStyles<ChipsStyleKeys, ChipsStyleParams, ChipsCSSVarKeys>,
     BaseProps<HTMLButtonElement>
 {

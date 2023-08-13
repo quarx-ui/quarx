@@ -3,7 +3,13 @@ import { ChipsVariant } from '@core/src';
 
 export type ChipsSize = PickQxSize<'small' | 'medium'>;
 
-export interface ChipsStyleParams {
+export interface OmittedChipsStyleParams {
+    leftIconExists: boolean;
+    rightIconExists: boolean;
+    onlyStateIcon: boolean;
+}
+
+export interface ChipsStyleParams extends OmittedChipsStyleParams {
     /** Вариант Chips
      *
      * @default input */
@@ -30,20 +36,10 @@ export interface ChipsStyleParams {
      * @default false */
     disabled: boolean;
 
-    /** Наличие левой иконки
-     *
-     * @default false */
-    leftIconExists: boolean;
-
     /** Цвет левой иконки
      *
      * @default undefined */
     leftIconColor?: string;
-
-    /** Наличие иконки для закрытия(в случае Input)/Dropdown(в случае Filter)
-     *
-     * @default false */
-    rightIconExists: boolean;
 
     /** Отключение фокусировки
      *

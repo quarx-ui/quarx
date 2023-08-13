@@ -45,7 +45,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
     const ActiveStateIcon = isValidElement(activeStateIcon)
         ? activeStateIcon
         : createElement(CheckMarkIcon[size]);
-    const LeftIcon = active && activeStateIcon !== false
+    const LeftIcon = activeStateIcon !== false && (active || !leftIcon)
         ? ActiveStateIcon
         : isValidElement(leftIcon) && leftIcon;
     const leftIconExists = Boolean(LeftIcon);
@@ -81,6 +81,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
         leftIconColor,
         rotateRightIcon,
         rightIconExists,
+        onlyStateIcon: leftIconExists && !leftIcon,
     };
 
     const styles = useStyles({ params, ...styleProps });
@@ -97,7 +98,7 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
             tabIndex={focusable(!disableFocus)}
             {...restProps}
         >
-            <If condition={leftIconExists}>
+            <If condition={leftIconExists && Boolean(leftIcon)}>
                 <SwitchTransition mode="out-in">
                     <Transition
                         key={leftIconId}
@@ -115,6 +116,15 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
                         </div>
                     </Transition>
                 </SwitchTransition>
+            </If>
+            <If condition={leftIconExists && !leftIcon}>
+                <div
+                    ref={leftIconRef}
+                    className={cn('leftIcon')}
+                    css={styles.leftIcon}
+                >
+                    {LeftIcon}
+                </div>
             </If>
             <span
                 css={styles.content}
