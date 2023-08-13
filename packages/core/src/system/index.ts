@@ -14,3 +14,4 @@ export * from './Stack';
 export * from './Text';
 export * from './Transition';
 export * from './TimerCircle';
+export * from './ThemeProvider';
