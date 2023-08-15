@@ -11,6 +11,7 @@ export function createBreakpoints({
         S: 768,
         M: 1024,
         L: 1280,
+        XL: 1440,
     },
     ...overwriteValues };
 

@@ -6,6 +6,7 @@ export const BREAKPOINT_KEYS_ARR = [
     'S',
     'M',
     'L',
+    'XL',
 ] as const;
 
 export const BREAKPOINT_KEYS = valuesAsKeysFromArray(BREAKPOINT_KEYS_ARR);
