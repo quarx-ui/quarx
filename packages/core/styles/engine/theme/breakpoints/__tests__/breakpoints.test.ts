@@ -10,18 +10,21 @@ const results: Record<MethodKey, ResultMap> = {
         S: '@media (min-width:768px)',
         M: '@media (min-width:1024px)',
         L: '@media (min-width:1280px)',
+        XL: '@media (min-width:1440px)',
     },
     down: {
         XS: '@media (max-width:319.95px)',
         S: '@media (max-width:767.95px)',
         M: '@media (max-width:1023.95px)',
         L: '@media (max-width:1279.95px)',
+        XL: '@media (max-width:1439.95px)',
     },
     only: {
         XS: '@media (max-width:767.95px)',
         S: '@media (min-width:768px) and (max-width:1023.95px)',
         M: '@media (min-width:1024px) and (max-width:1279.95px)',
-        L: '@media (min-width:1280px)',
+        L: '@media (min-width:1280px) and (max-width:1439.95px)',
+        XL: '@media (min-width:1440px)',
     },
 };
 
