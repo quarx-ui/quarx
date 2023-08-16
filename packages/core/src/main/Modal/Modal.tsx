@@ -75,7 +75,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
                 css={styles.scrollContainer}
                 className={cn('scrollContainer')}
                 onClick={(e) => {
-                    if (!disableCloseByClickAway) {
+                    if (!disableCloseByClickAway && e.target === e.currentTarget) {
                         onClose?.(e, OVER_SCREEN_CLOSE_REASON.clickAway);
                     }
                 }}
@@ -83,7 +83,6 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>((
                 <div
                     css={styles.box}
                     className={cn('box')}
-                    onClick={(e) => e.stopPropagation()}
                 >
                     <HeaderBlock
                         title={title}
