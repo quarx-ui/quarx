@@ -181,6 +181,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                 {...popupDatePickerProps}
                 viewingDate={viewingDate}
                 selected={selected}
+                allowedDates={allowedDates}
                 onChange={onChangeWithTextFieldChanging}
                 withTime={withTime}
                 withSeconds={withSeconds}
