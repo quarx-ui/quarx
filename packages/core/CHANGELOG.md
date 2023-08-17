@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.6.0&targetBranch=@quarx-ui/core@2.5.0) (2023-08-17)
+
+
+### Features
+
+* **breakpoints:** Добавлено значение XL для 1440 ([19973a4](https://github.com/quarx-ui/quarx/commits/19973a46047c4de24245842c2b99b72bf45971cc))
+* **Chips:** Добавлена возможность отключить иконку состояния ([f2e651f](https://github.com/quarx-ui/quarx/commits/f2e651fc2681ef8dc41efa43caf84c1415b727be))
+* **useTheme:** Добавлена возможность изолировать тему библиотеки в провайдере от сторонних пакетов на основе emotion ([f96f048](https://github.com/quarx-ui/quarx/commits/f96f048b2724df79b3f4bcb7f3459cec3ee04d35))
+* Добавлена возможность передавать в styles компонента массив стилей ([aa9685b](https://github.com/quarx-ui/quarx/commits/aa9685bc6d0b48bf92e445a0d1c8f2fc5d5fcc0f))
+
+
+### Bug Fixes
+
+* **Chips:** Исправлена анимация появления иконки состояния и мелкие исправления в стилях ([5c7e478](https://github.com/quarx-ui/quarx/commits/5c7e4786e1744aeebb9d2fb61ac5df513860164a))
+* **DatePickerSelect:** Исправлена валидация периода allowDates ([#277](https://github.com/quarx-ui/quarx/issues/277)) ([bf3b675](https://github.com/quarx-ui/quarx/commits/bf3b675a9d68f482171348a5e6aedc26dd3114db))
+* **DropdownItemsGroup:** Оптимизирована передача состояния скролла ([0271dc0](https://github.com/quarx-ui/quarx/commits/0271dc0a51eee40282aed3ea1316de1e55549b5c))
+* **Modal:** Удален stopPropagation при клике на элемент ([bd23da3](https://github.com/quarx-ui/quarx/commits/bd23da3948c653c0e943a15591a3def4432f9967))
+* Из devDependencies перенесены зависимости необходимые в сборке ([b27c583](https://github.com/quarx-ui/quarx/commits/b27c5839671dd4457e66488d41ba20e8f1b81367))
+* Мелкие исправления ([12eb10d](https://github.com/quarx-ui/quarx/commits/12eb10de05d44d8f0ac770dd4513342b102408e9))
+
+
+
 ## [2.5.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.5.0&targetBranch=@quarx-ui/core@2.4.0) (2023-08-01)
 
 
