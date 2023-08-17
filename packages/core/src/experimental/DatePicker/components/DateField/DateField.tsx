@@ -21,7 +21,6 @@ export const DateField = forwardRef(<D extends SelectedDates>(
 ) => {
     const { isSingleDate, withTime, useExperimentalDateFieldValidation = false,
         value: dateValueExternal, onChange: onChangeExternal, errorText, texts, withSeconds, ...restProps } = initialProps;
-
     const {
         errorByValidateFirstDate = DEFAULT_TEXTS.errorByValidateFirstDate,
         errorByValidateLastDate = DEFAULT_TEXTS.errorByValidateLastDate,
@@ -72,7 +71,7 @@ export const DateField = forwardRef(<D extends SelectedDates>(
     }, [dateValue, dateValueExternal, errorText, withTime, withSeconds]);
 
     useEffect(() => {
-        if (errorText && errorText !== innerErrorText) {
+        if (errorText !== innerErrorText) {
             setInnerErrorText(errorText || '');
         }
     }, [errorText, innerErrorText]);

@@ -33,14 +33,13 @@ export interface ValidatePeriodDatesPositionProps extends
 const validateDateToAllowedDates = (
     props: Omit<ValidateDateToAllowedDates, 'setEndErrorText' | 'setStartErrorText'>,
 ) => {
-    const { date, allowedDates, setErrorText, errorText } = props;
+    const { allowedDates, setErrorText, errorText, value: date } = props;
     if (date) {
         const emptyStart = isUndefined(allowedDates.start);
         const emptyEnd = isUndefined(allowedDates.end);
         const selectedDateBeforeAllowedEnd = !!allowedDates.end && isBefore(date, allowedDates.end);
         const selectedDateAfterAllowedStart = !!allowedDates.start && isAfter(date, allowedDates.start);
         const emptyStartEnd = emptyStart && emptyEnd;
-
         if (!(emptyStartEnd
             || (emptyStart && selectedDateBeforeAllowedEnd)
             || (emptyEnd && selectedDateAfterAllowedStart)
@@ -67,7 +66,7 @@ export const validateAllowedDatesOnPeriod = (props: ValidateAllowedPeriodWithout
             setErrorText: setStartErrorText },
     );
     const isEndDateValid = validateDateToAllowedDates(
-        { value: value.start,
+        { value: value.end,
             errorText: errorsFromInput.errorByDisallowedEndDate,
             ...rest,
             setErrorText: setEndErrorText },
