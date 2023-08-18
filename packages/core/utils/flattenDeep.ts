@@ -16,5 +16,5 @@ const baseFlatten = (array: any[], result: any[] = []) => {
 };
 
 export const flattenDeep = (array: any) => (
-    array?.length ? baseFlatten(array) : []
+    array?.length ? baseFlatten(array) : [array].filter(Boolean)
 );
