@@ -2,6 +2,7 @@ import { css } from '@emotion/react';
 import { DefaultStyles, extractStyles, QX_PREFIX, Styles, StylesCallback } from '@core/styles';
 import { StylesMap } from '@core/styles/engine/types';
 import { flattenDeep } from '@core/utils';
+import { useMemo } from 'react';
 import { MakeStylesOptions, UseStylesProps, UseStylesPropsWithParams } from './types';
 import { useTheme } from '../theme';
 
@@ -34,11 +35,13 @@ export function makeStyles<
         const { cssPrefix, overwritesStyles } = props ?? {};
         const { name = cssPrefix ?? 'makeStyles' } = options;
 
-        const overwrites = name?.startsWith(QX_PREFIX)
-            ? theme.defaultStyles?.[name.replace(QX_PREFIX, '') as keyof DefaultStyles]
-            : undefined;
+        const overwrites = useMemo(() => (
+            name?.startsWith(QX_PREFIX)
+                ? theme.defaultStyles?.[name.replace(QX_PREFIX, '') as keyof DefaultStyles]
+                : undefined
+        ), [name, theme.defaultStyles]);
 
-        const combinedStyles = extractStyles(
+        const combinedStyles = useMemo(() => extractStyles(
             {
                 theme,
                 params: props?.params,
@@ -52,14 +55,14 @@ export function makeStyles<
                 ...flattenDeep(props?.styles),
                 overwritesStyles,
             ],
-        );
+        ), [overwrites, overwritesStyles, props?.cssVars, props?.params, props?.styles, theme]);
 
-        return Object.entries(combinedStyles)
+        return useMemo(() => Object.entries(combinedStyles)
             .reduce((acc, [key, cssInterpolationArr]) => {
                 const label = `${name}-${key}`;
 
                 acc[key as ClassKey] = css(cssInterpolationArr, { label });
                 return acc;
-            }, {} as StylesMap<ClassKey>);
+            }, {} as StylesMap<ClassKey>), [combinedStyles, name]);
     };
 }
