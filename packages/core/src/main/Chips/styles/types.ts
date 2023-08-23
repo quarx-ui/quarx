@@ -4,8 +4,6 @@ import { ChipsVariant } from '@core/src';
 export type ChipsSize = PickQxSize<'small' | 'medium'>;
 
 export interface OmittedChipsStyleParams {
-    leftIconExists: boolean;
-    rightIconExists: boolean;
     onlyStateIcon: boolean;
 }
 

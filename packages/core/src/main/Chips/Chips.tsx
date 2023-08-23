@@ -77,10 +77,8 @@ export const Chips: FC<ChipsProps> = forwardRef<HTMLButtonElement, ChipsProps>((
         elevation: Boolean(elevation),
         disabled: Boolean(disabled),
         disableFocus: Boolean(disableFocus),
-        leftIconExists,
         leftIconColor,
         rotateRightIcon,
-        rightIconExists,
         onlyStateIcon: leftIconExists && !leftIcon,
     };
 

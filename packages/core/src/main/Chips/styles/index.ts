@@ -1,8 +1,4 @@
-import {
-    KeysFromUseStyles,
-    makeStyles,
-    typography,
-} from '@core/styles';
+import { KeysFromUseStyles, makeStyles } from '@core/styles';
 import { cssVar } from '@core/utils/cssVars';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { QX_SIZE } from '@core';
@@ -12,14 +8,12 @@ import { ChipsCSSVarKeys } from './vars';
 import { ChipsStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, elevations, transitions },
+    { palette, elevations, transitions, typography },
     {
         elevation,
         active,
         size,
-        leftIconExists,
         leftIconColor,
-        rightIconExists,
         disabled,
         disableFocus,
         variant,
@@ -30,6 +24,10 @@ export const useStyles = makeStyles((
         cssBorderWidth,
         cssFocusColor,
         cssFocusWidth,
+        cssOutsideMargin,
+        cssInsideMargin,
+        cssPaddingX,
+        cssPaddingY,
     }: Record<ChipsCSSVarKeys, string>,
 ) => {
     const canChangeLeftIconColor = !disabled && leftIconColor;
@@ -116,6 +114,9 @@ export const useStyles = makeStyles((
         },
     };
 
+    const calcPaddingY = `calc(${cssVar(cssPaddingY)} - ${cssVar(cssBorderWidth)})`;
+    const calcPaddingX = `calc(${cssVar(cssPaddingX)} - ${cssVar(cssBorderWidth)})`;
+
     return ({
         root: [
             {
@@ -123,7 +124,6 @@ export const useStyles = makeStyles((
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: 8,
                 margin: 0,
                 outline: 'none',
                 cursor: 'pointer',
@@ -132,6 +132,7 @@ export const useStyles = makeStyles((
                 borderWidth: cssVar(cssBorderWidth),
                 borderRadius: 20,
                 color: palette.text.main,
+                padding: `${calcPaddingY} ${calcPaddingX}`,
                 transition: transitions.create([
                     'background-color',
                     'color',
@@ -140,9 +141,11 @@ export const useStyles = makeStyles((
                     'padding',
                 ], { duration: transitions.duration.shorter }),
 
+                [cssInsideMargin]: '8px',
                 [cssBorderWidth]: '1px',
                 [cssFocusWidth]: '3px',
                 [cssFocusColor]: palette.border.focus.main,
+                [cssOutsideMargin]: `calc(12px - ${cssVar(cssPaddingX)})`,
             },
             baseFocusStyles({
                 transitions,
@@ -158,16 +161,16 @@ export const useStyles = makeStyles((
             !elevation && elevationOff,
             paramsToCss(size)({
                 [QX_SIZE.medium]: {
-                    padding: 8,
-                    paddingLeft: leftIconExists ? 12 : 20,
-                    paddingRight: rightIconExists ? 12 : 20,
-                    ...typography.Text.L.Medium,
+                    [cssPaddingX]: '20px',
+                    [cssPaddingY]: '8px',
+                    ...typography.base.text.large,
+                    fontWeight: 500,
                 },
                 [QX_SIZE.small]: {
-                    padding: 6,
-                    paddingLeft: leftIconExists ? 12 : 16,
-                    paddingRight: rightIconExists ? 12 : 16,
-                    ...typography.Text.M.Medium,
+                    [cssPaddingX]: '16px',
+                    [cssPaddingY]: '6px',
+                    ...typography.base.text.medium,
+                    fontWeight: 500,
                 },
             }),
         ],
@@ -177,10 +180,11 @@ export const useStyles = makeStyles((
         leftIcon: [
             {
                 display: 'flex',
-
-                ...canChangeLeftIconColor && {
-                    color: leftIconColor,
-                },
+                marginRight: cssVar(cssInsideMargin),
+                marginLeft: cssVar(cssOutsideMargin),
+            },
+            canChangeLeftIconColor && {
+                color: leftIconColor,
             },
             onlyStateIcon && {
                 width: 24,
@@ -194,15 +198,19 @@ export const useStyles = makeStyles((
             },
         ],
 
-        rightIcon: {
-            display: 'flex',
-            transition: transitions.create([
-                'transform',
-            ], { duration: transitions.duration.shorter }),
-            ...rotateActiveRightistFilterIcon && {
+        rightIcon: [
+            {
+                display: 'flex',
+                marginLeft: cssVar(cssInsideMargin),
+                marginRight: cssVar(cssOutsideMargin),
+                transition: transitions.create('transform', {
+                    duration: transitions.duration.shorter,
+                }),
+            },
+            rotateActiveRightistFilterIcon && {
                 transform: 'rotate(180deg)',
             },
-        },
+        ],
     });
 });
 
