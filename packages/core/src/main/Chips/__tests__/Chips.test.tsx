@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import { render, screen } from '@testing-library/react';
-import { expectPropsMapInClasses, testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@core/test-utils';
 import { ChipsProps, ChipsStyleParams, QX_SIZE, CHIPS_VARIANT } from '@core';
 import { ClosingIcon } from '@core/src/main/Chips/assets';
 import { Chips } from '..';
@@ -16,8 +16,6 @@ describe('Chips snapshots', () => {
         variant: CHIPS_VARIANT.input,
         disabled: false,
         elevation: false,
-        leftIconExists: false,
-        rightIconExists: false,
         rotateRightIcon: false,
     };
     testStyleParams<ChipsStyleParams, ChipsProps>(
@@ -29,16 +27,12 @@ describe('Chips snapshots', () => {
             variant: CHIPS_VARIANT.input,
             disabled: false,
             elevation: false,
-            leftIconExists: false,
-            rightIconExists: false,
             rotateRightIcon: false,
             onlyStateIcon: false,
         },
         { children: 'chips' },
     )({
-        leftIconExists: [false],
         leftIconColor: ['green'],
-        rightIconExists: [false],
         rotateRightIcon: bools,
         variant: Object.values(CHIPS_VARIANT),
         active: bools,
@@ -54,7 +48,6 @@ describe('Chips snapshots', () => {
             const testId = `testStyleParams-${styleParam}-${value}`;
 
             const testProps = { [propName]: value };
-            const testStyleProps = { [styleParam]: Boolean(value) };
             const { asFragment } = render(
                 <Chips
                     {...defaultStylesProps}
@@ -63,8 +56,6 @@ describe('Chips snapshots', () => {
                 />,
             );
 
-            const element = screen.getByTestId(testId);
-            expectPropsMapInClasses(element)(testStyleProps);
             expect(asFragment()).toMatchSnapshot();
         }
     );

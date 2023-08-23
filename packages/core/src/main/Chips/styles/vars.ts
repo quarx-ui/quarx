@@ -4,6 +4,10 @@ export const chipsCssVarNames = [
     'cssBorderWidth',
     'cssFocusColor',
     'cssFocusWidth',
+    'cssInsideMargin',
+    'cssOutsideMargin',
+    'cssPaddingX',
+    'cssPaddingY',
 ] as const;
 
 export type ChipsCSSVarKeys = CssVarKeys<typeof chipsCssVarNames>
