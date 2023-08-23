@@ -1,9 +1,9 @@
-import { QxSize, Values } from '@core';
+import { CustomBaseTypographyType, WithCustomType, QxSize, Values } from '@core';
 import { CSSObject } from '@emotion/react';
 import { BASE_TYPOGRAPHY_TYPES } from './constants';
 import { WithOverwrites } from '../../types';
 
-export type BaseTypographyType = Values<typeof BASE_TYPOGRAPHY_TYPES>
+export type BaseTypographyType = Values<typeof BASE_TYPOGRAPHY_TYPES> | WithCustomType<CustomBaseTypographyType>
 
 export type BaseTypographySize = QxSize
 

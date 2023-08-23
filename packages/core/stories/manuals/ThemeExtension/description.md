@@ -180,3 +180,5 @@ const YourComponent = () => (
 | CustomPaletteColor               |   union   | PaletteColor               |
 | CustomPaletteColorValues         | interface | PaletteColorValues         |
 | CustomTheme                      | interface | Theme                      |
+| CustomTypography                 | interface | Typography                 |
+| CustomBaseTypographyType         |   union   | BaseTypographyType         |

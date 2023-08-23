@@ -9,3 +9,5 @@ export interface CustomPaletteBorderFocus {}
 export interface CustomPaletteBackground {}
 export interface CustomPaletteBackgroundContainer {}
 export interface CustomPalette {}
+export interface CustomTypography {}
+export interface CustomBaseTypographyType {}
