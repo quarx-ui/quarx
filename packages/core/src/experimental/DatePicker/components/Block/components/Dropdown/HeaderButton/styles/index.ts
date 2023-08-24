@@ -1,5 +1,5 @@
 import { makeStyles } from '@core';
-import { getHeaderTypography } from '../../../../utils';
+import { getHeaderTypography, mapSizeToHeaderButtonFontWeight } from '../../../../utils';
 import { ARROW_SIZES } from '../constants';
 import { DropdownButtonStyleParams } from './types';
 
@@ -19,6 +19,7 @@ export const useStyles = makeStyles(({ palette, borderRadii, typography, transit
         borderRadius: borderRadii[borderRadius],
         color: palette.text.main,
         ...getHeaderTypography(typography)[size],
+        fontWeight: mapSizeToHeaderButtonFontWeight[size],
         '&:hover': {
             color: palette.text.main,
             background: palette.colors.brand.alpha[8],

@@ -48,6 +48,7 @@ export const changeSelectedByValue = <D extends SelectedDates>({
             setEndErrorText,
             splittedPeriod,
         });
+    console.log(isValidAllowedDates);
     if (isValidAllowedDates && isValidPeriodDates) {
         setStartErrorText('');
         setEndErrorText('');

@@ -8,7 +8,7 @@ import { isPicker } from '../../Block/types';
 export const mapSelectedToTextFieldValue = <D extends SelectedDates>(
     selected: D,
     withTime: DatePickerBlockProps['withTime'],
-    withSeconds: DatePickerBlockProps['withSeconds']
+    withSeconds: DatePickerBlockProps['withSeconds'],
 ) => {
     const formatValue = getFormat(withTime, withSeconds);
     if (isPicker(selected) && selected) {

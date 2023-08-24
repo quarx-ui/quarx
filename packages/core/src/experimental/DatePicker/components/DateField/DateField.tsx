@@ -19,8 +19,11 @@ import { validateDateOnInput } from './utils/inputValidators';
 export const DateField = forwardRef(<D extends SelectedDates>(
     initialProps: DateFieldProps<D>, ref: Ref<HTMLDivElement>,
 ) => {
+    // todo определенно нужно делать компонент умнее и добавить все пропсы валидации значений, как в календаре
+    // todo а также перенести логику splittedPeriod из DatePickerSelect (работа капитальная, по времени займет прилично)
     const { isSingleDate, withTime, useExperimentalDateFieldValidation = false,
-        value: dateValueExternal, onChange: onChangeExternal, errorText, texts, withSeconds, ...restProps } = initialProps;
+        value: dateValueExternal, onChange: onChangeExternal, errorText, texts,
+        withSeconds, ...restProps } = initialProps;
     const {
         errorByValidateFirstDate = DEFAULT_TEXTS.errorByValidateFirstDate,
         errorByValidateLastDate = DEFAULT_TEXTS.errorByValidateLastDate,
@@ -63,7 +66,8 @@ export const DateField = forwardRef(<D extends SelectedDates>(
     };
 
     useEffect(() => {
-        if (!isEqualValue(dateValue, dateValueExternal) && !(errorText && isEmptySelected(dateValueExternal))) {
+        console.log(errorText, dateValueExternal);
+        if (!errorText && !isEqualValue(dateValue, dateValueExternal) && !isEmptySelected(dateValueExternal)) {
             setDateValue(dateValueExternal);
             setValue(mapSelectedToTextFieldValue(dateValueExternal, withTime, withSeconds));
             setInnerErrorText(errorText || '');

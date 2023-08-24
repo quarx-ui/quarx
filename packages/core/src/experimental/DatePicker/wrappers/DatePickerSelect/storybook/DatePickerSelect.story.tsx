@@ -64,6 +64,7 @@ const SelectedPreviewer = ({ selected }: {selected: PeriodSelectedDates}) => (
 
 export const Sandbox: Story<StoryType> = (props) => {
     const [selectedPeriod, setSelectedPeriod] = useState<PeriodSelectedDates>({});
+    // const [selectedPicker, setSelectedPicker] = useState<PickerSelectedDate>();
     return (
         <Div style={{ height: 1000 }}>
             <SelectedPreviewer selected={selectedPeriod} />
@@ -71,7 +72,20 @@ export const Sandbox: Story<StoryType> = (props) => {
                 {...props}
                 selected={selectedPeriod}
                 onChange={setSelectedPeriod}
+                allowedDates={{
+                    start: new Date(2023, 7, 10),
+                    end: new Date(2023, 7, 20),
+                }}
             />
+            {/* <DatePickerSelect */}
+            {/*    {...props} */}
+            {/*    selected={selectedPicker} */}
+            {/*    onChange={setSelectedPicker} */}
+            {/*    allowedDates={{ */}
+            {/*        start: new Date(2023, 7, 10), */}
+            {/*        end: new Date(2023, 7, 20), */}
+            {/*    }} */}
+            {/* /> */}
         </Div>
     );
 };

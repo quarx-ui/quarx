@@ -8,10 +8,16 @@ import { Typography } from '@core/styles/engine/theme/typography/types';
 import { CSSObject } from '@emotion/react';
 
 export const getHeaderTypography = (typography: Typography): Record<DatePickerSize, CSSObject> => ({
-    small: typography.base.headline.medium,
-    medium: typography.base.headline.large,
-    large: typography.base.headline.xLarge,
+    small: typography.base.text.medium,
+    medium: typography.base.text.large,
+    large: typography.base.text.xLarge,
 });
+
+export const mapSizeToHeaderButtonFontWeight: Record<DatePickerSize, number> = {
+    small: 500,
+    medium: 400,
+    large: 500,
+};
 
 export const getMonthTypography = (typography: Typography): Record<DatePickerSize, CSSObject> => ({
     small: typography.base.text.medium,

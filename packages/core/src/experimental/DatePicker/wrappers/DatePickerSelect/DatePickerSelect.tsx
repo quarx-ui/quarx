@@ -4,7 +4,7 @@ import {
     usePropsOverwrites,
 } from '@core';
 import { forwardRef } from '@core/utils';
-import { FocusEventHandler, MouseEventHandler, Ref, useMemo, useRef, useState } from 'react';
+import { FocusEventHandler, MouseEventHandler, Ref, useEffect, useMemo, useRef, useState } from 'react';
 import {
     DatePickerBlockProps, isPeriod, isPicker, EditablePeriodParts, SelectedDates,
 } from '../../components/Block/types';
@@ -78,6 +78,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
     };
 
     const onChangeWithTextFieldChanging: DatePickerBlockProps<D>['onChange'] = (dates) => {
+        setErrorText('');
         changeSelectedByValue<D>({
             onChange,
             isPickerType,

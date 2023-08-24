@@ -31,7 +31,7 @@ export interface ValidatePeriodDatesPositionProps extends
 }
 
 const validateDateToAllowedDates = (
-    props: Omit<ValidateDateToAllowedDates, 'setEndErrorText' | 'setStartErrorText'>,
+    props: Omit<ValidateDateToAllowedDates, 'setEndErrorText' | 'setStartErrorText' | 'splittedPeriod'>,
 ) => {
     const { allowedDates, setErrorText, errorText, value: date } = props;
     if (date) {
@@ -58,18 +58,18 @@ export const validateAllowedDatesOnPicker = (props: ValidateAllowedPeriodWithout
     return validateDateToAllowedDates({ value, errorText: errorsFromInput.errorByDisallowedPickerDate, ...restProps });
 };
 export const validateAllowedDatesOnPeriod = (props: ValidateAllowedPeriodWithoutType<PeriodSelectedDates>) => {
-    const { value, errorsFromInput, setEndErrorText, setStartErrorText, ...rest } = props;
+    const { value, errorsFromInput, setEndErrorText, setStartErrorText, setErrorText, splittedPeriod, ...rest } = props;
     const isStartDateValid = validateDateToAllowedDates(
         { value: value.start,
             errorText: errorsFromInput.errorByDisallowedStartDate,
             ...rest,
-            setErrorText: setStartErrorText },
+            setErrorText: splittedPeriod ? setStartErrorText : setErrorText },
     );
     const isEndDateValid = validateDateToAllowedDates(
         { value: value.end,
             errorText: errorsFromInput.errorByDisallowedEndDate,
             ...rest,
-            setErrorText: setEndErrorText },
+            setErrorText: splittedPeriod ? setEndErrorText : setErrorText },
     );
     return isStartDateValid && isEndDateValid;
 };
