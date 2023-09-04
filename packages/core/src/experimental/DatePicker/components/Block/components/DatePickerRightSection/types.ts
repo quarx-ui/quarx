@@ -1,8 +1,9 @@
 import { WithClassesAndStyles } from '@core';
 import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
-import { DatePickerRightSectionStyleKeys, DatePickerRightSectionStyleParams } from './styles/types';
+import { DatePickerRightSectionStyleParams } from './styles/types';
 import { TimeBadgeProps } from '../TimeBadge/types';
 import { CommonDatePickerProps, InnerTimeValues } from '../../types';
+import { DatePickerRightSectionStyleKeys } from './styles';
 
 type CommonDatePickerPropsToRightSections<D extends SelectedDates> = Omit<TimeBadgeProps<D>,
 'time' | 'active' | 'styles' | 'classes'>;

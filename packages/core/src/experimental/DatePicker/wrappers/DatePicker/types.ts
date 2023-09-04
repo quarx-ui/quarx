@@ -1,4 +1,3 @@
-import { CSSProperties } from 'react';
 import { PopupProps, WithClassesAndStyles } from '@core';
 import {
     DatePickerBlockProps,
@@ -6,6 +5,7 @@ import {
     SelectedDates,
 } from '../../components';
 import { DatePickerStyleKeys } from './styles';
+import { DatePickerStyleParams } from './styles/types';
 
 type PopupComponentDatePickerProps = Omit<PopupProps, 'anchor' | 'onClickAway' | 'open'>
 
@@ -19,9 +19,4 @@ export interface DatePickerProps<D extends SelectedDates = PickerSelectedDate> e
 {
     /** Props Popup компонента */
     popupProps?: PopupComponentDatePickerProps;
-}
-
-export interface DatePickerStyleParams {
-    /** zIndex Popper компонента */
-    zIndex: CSSProperties['zIndex'];
 }

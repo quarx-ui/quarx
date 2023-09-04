@@ -1,4 +1,4 @@
-import { makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import {
     DATE_PICKER_DAY_SIZE_PX,
     OFFSET_MONTH_BLOCK,
@@ -33,3 +33,5 @@ export const useStyles = makeStyles(({ palette, typography },
         },
     });
 });
+
+export type MonthBlockStyleKeys = KeysFromUseStyles<typeof useStyles>

@@ -1,14 +1,13 @@
 import { DatePickerBlockProps, PeriodSelectedDates, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { format } from 'date-fns';
-import { Dispatch, SetStateAction } from 'react';
 import { DateFieldTexts } from '@core/src/experimental/DatePicker/components/DateField/types';
-import { getFormat, getDate } from './common';
+import { getFormat, getDate, SetErrorText } from './common';
 import { isPicker } from '../../Block/types';
 
 export const mapSelectedToTextFieldValue = <D extends SelectedDates>(
     selected: D,
     withTime: DatePickerBlockProps['withTime'],
-    withSeconds: DatePickerBlockProps['withSeconds']
+    withSeconds: DatePickerBlockProps['withSeconds'],
 ) => {
     const formatValue = getFormat(withTime, withSeconds);
     if (isPicker(selected) && selected) {
@@ -23,8 +22,6 @@ export const mapSelectedToTextFieldValue = <D extends SelectedDates>(
 };
 
 export type MapValueToTypeSelected<D extends SelectedDates> = Omit<MapTextFieldValueToSelectedProps<D>, 'isSingleDate'>
-
-export type SetErrorText = Dispatch<SetStateAction<string>>;
 
 const mapValueToPickerSelected = ({
     value,

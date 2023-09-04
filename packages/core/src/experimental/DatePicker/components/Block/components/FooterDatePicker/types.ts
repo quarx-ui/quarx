@@ -1,9 +1,10 @@
 import { Dispatch, SetStateAction } from 'react';
 import { WithClassesAndStyles } from '@core';
 import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
-import { DatePickerSize, FooterDatePickerStyleKeys } from '../..';
+import { DatePickerSize } from '../..';
 import { DatePickerInnerComponentsProps, InnerTimeValues, InnerTimeSetters } from '../../types';
 import { FooterStyleParams } from './styles/types';
+import { FooterDatePickerStyleKeys } from './styles/index';
 
 export interface FooterDatePickerProps<D extends SelectedDates = PickerSelectedDate> extends
     WithClassesAndStyles<FooterDatePickerStyleKeys, FooterStyleParams>,

@@ -1,8 +1,4 @@
-import { KeysFromUseStyles } from '@core';
 import { DatePickerStyleParams, DatePickerTimeTypes } from '@core/src/experimental';
-import { useStyles } from './index';
-
-export type DayStyleKeys = KeysFromUseStyles<typeof useStyles>
 
 export interface DayStylesParams extends Omit<DatePickerStyleParams, 'countWeeksInMonth' | 'width'> {
     bigPressScope: boolean;

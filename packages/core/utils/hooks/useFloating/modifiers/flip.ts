@@ -1,31 +1,12 @@
-import { FloatingPositionModifier, Placement, Side } from '../types';
+import { FlipOptions, FloatingPositionModifier, Placement, Side } from '../types';
 import { axisAlignmentToSide, axisToDimension, sideToAlignment, sideToOppositeSide } from '../maps';
 import {
     applyModifiers,
     getFloatingCoords,
     getFloatingContext,
     calcOverflow,
-    CalcOverflowOptions,
 } from '../utils';
 import { changePlacement } from '../utils/getFloatingPosition/changePlacement';
-
-export interface FlipOptions extends CalcOverflowOptions {
-    /**
-     * Проверка переполнения по основной оси
-     * @default true
-     */
-    mainAxis?: boolean;
-    /**
-     * Проверка переполнения по оси выравнивания
-     * @default false
-     */
-    altAxis?: boolean;
-    /**
-     * Расстояние от границы переполнения, на котором начинает происходить переворот
-     * @default 8
-     * */
-    edgeOffset?: number;
-}
 
 export const flip = (options?: FlipOptions): FloatingPositionModifier => (
     position,

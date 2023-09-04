@@ -3,8 +3,9 @@ import { isValid, parse } from 'date-fns';
 import { Dispatch, SetStateAction } from 'react';
 import isUndefined from '@core/types/isUndefined';
 import { validateDateString } from './validators';
-import { SetErrorText } from './mappers';
-import { FORMAT_DATETIME_WITH_SECONDS, FORMAT_DATETIME, FORMAT_DATE } from "./constants";
+import { FORMAT_DATETIME_WITH_SECONDS, FORMAT_DATETIME, FORMAT_DATE } from './constants';
+
+export type SetErrorText = Dispatch<SetStateAction<string>>;
 
 export const getFormat = (
     withTime: DatePickerBlockProps['withTime'],

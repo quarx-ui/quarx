@@ -1,14 +1,25 @@
-import { DatePickerAllowedDates, PeriodSelectedDates, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
+import {
+    DatePickerAllowedDates,
+    DatePickerBlockProps,
+    PeriodSelectedDates,
+    PickerSelectedDate,
+    SelectedDates,
+} from '@core/src/experimental';
 import { isAfter, isBefore } from 'date-fns';
 import isUndefined from '@core/types/isUndefined';
-import { ChangeSelectedByValueProps } from './setters';
-import { clearErrorText } from '../../../components/DateField/utils/common';
-import { isPicker } from '../../../components/Block/types';
+import { clearErrorText, SetErrorText } from '@core/src/experimental/DatePicker/components/DateField/utils/common';
+import { isPicker } from '@core/src/experimental/DatePicker/components/Block/types';
+import { ErrorsFromInput } from '../types';
 
 export interface ValidateAllowedPeriod<D extends SelectedDates = PickerSelectedDate> extends
-    Pick<ChangeSelectedByValueProps<D>, 'setErrorText' | 'errorsFromInput' | 'isPickerType' | 'allowedDates'
-    | 'setStartErrorText' | 'setEndErrorText' | 'splittedPeriod'
-    > {
+    Pick<DatePickerBlockProps<D>, 'allowedDates'>
+{
+    setErrorText: SetErrorText;
+    errorsFromInput: Required<ErrorsFromInput>;
+    isPickerType: boolean;
+    setStartErrorText: SetErrorText;
+    setEndErrorText: SetErrorText;
+    splittedPeriod: boolean;
     value: D;
 }
 
@@ -24,7 +35,7 @@ interface ValidateDateToAllowedDates extends
 }
 
 export interface ValidatePeriodDatesPositionProps extends
-    Pick<ChangeSelectedByValueProps<PeriodSelectedDates>, 'setErrorText' | 'setEndErrorText' | 'setStartErrorText'
+    Pick<ValidateAllowedPeriod<PeriodSelectedDates>, 'setErrorText' | 'setEndErrorText' | 'setStartErrorText'
     | 'splittedPeriod'> {
     value: PeriodSelectedDates;
     errorText: string;

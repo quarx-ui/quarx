@@ -1,4 +1,4 @@
-import { makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import { OffsetDayStyleParams } from './types';
 import { DATE_PICKER_DAY_SIZE_PX, OFFSET_DAYS,
     getCustomHover,
@@ -30,3 +30,5 @@ export const useStyles = makeStyles(({ palette },
         ],
     });
 });
+
+export type OffsetDayStyleKeys = KeysFromUseStyles<typeof useStyles>

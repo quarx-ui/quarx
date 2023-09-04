@@ -3,17 +3,7 @@ import { Position } from '@core';
 import { getBoundingClientRect, isPosition } from '@core/utils/hooks/useFloating/utils';
 import { DROPDOWN_WIDTH_PRESETS } from '../constants';
 import { DropdownWidth } from '../types';
-
-export interface DropdownWidths {
-    /** Ширина Dropdown */
-    width: number | string;
-
-    /** Минимальная ширина Dropdown */
-    minWidth: number | string;
-
-    /** Максимальная ширина Dropdown */
-    maxWidth: number | string;
-}
+import { DropdownWidths } from './types';
 
 export const DEFAULT_DROPDOWN_WIDTHS: DropdownWidths = {
     width: 'fit-content',

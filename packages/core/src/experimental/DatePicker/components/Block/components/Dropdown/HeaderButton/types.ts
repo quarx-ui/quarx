@@ -1,9 +1,10 @@
 import { WithClassesAndStyles } from '@core';
 import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { DropdownItemDatePicker } from '../../../utils';
-import { DropdownDatePickerTypes } from '..';
+import { DropdownDatePickerTypes } from '../types';
 import { DatePickerInnerComponentsProps } from '../../../types';
-import { DropdownButtonStyleKeys, DropdownButtonStyleParams } from './styles/types';
+import { DropdownButtonStyleParams } from './styles/types';
+import { DropdownButtonStyleKeys } from './styles';
 
 export interface HeaderDatePickerDropdownProps<D extends SelectedDates = PickerSelectedDate> extends
     WithClassesAndStyles<DropdownButtonStyleKeys, DropdownButtonStyleParams>, DropdownButtonStyleParams,

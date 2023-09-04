@@ -2,8 +2,9 @@ import { valuesAsKeysFromArray, WithClassesAndStyles } from '@core';
 import { SelectedDates, PickerSelectedDate } from '@core/src/experimental';
 import { Dispatch, RefObject, SetStateAction } from 'react';
 import { DropdownDatePickerHookType } from '../../utils';
-import { DropdownDatePickerStyleKeys, DropdownDatePickerStyleParams } from './styles/types';
+import { DropdownDatePickerStyleParams } from './styles/types';
 import { DatePickerInnerComponentsProps } from '../../types';
+import { DropdownDatePickerStyleKeys } from './styles';
 
 export const DROPDOWN_TYPES = valuesAsKeysFromArray([
     'MONTHS',

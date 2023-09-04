@@ -1,24 +1,6 @@
-import { calcOverflow, CalcOverflowOptions } from '../utils';
-import { FloatingPositionModifier, Position } from '../types';
+import { calcOverflow } from '../utils';
+import { FloatingPositionModifier, Position, ShiftOptions } from '../types';
 import { axisToDimension, axisToSides } from '../maps';
-
-export interface ShiftOptions extends CalcOverflowOptions {
-    /**
-     * Проверка переполнения по основной оси
-     * @default true
-     */
-    mainAxis?: boolean;
-    /**
-     * Проверка переполнения по оси выравнивания
-     * @default true
-     */
-    altAxis?: boolean;
-    /**
-     * Расстояние от границы переполнения, на котором начинает происходить смещение
-     * @default 8
-     * */
-    edgeOffset?: number;
-}
 
 export const shift = (options?: ShiftOptions): FloatingPositionModifier => (
     position,
