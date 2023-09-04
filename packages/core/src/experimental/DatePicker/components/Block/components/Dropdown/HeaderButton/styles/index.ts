@@ -1,4 +1,4 @@
-import { makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import { getHeaderTypography } from '../../../../utils';
 import { ARROW_SIZES } from '../constants';
 import { DropdownButtonStyleParams } from './types';
@@ -65,3 +65,5 @@ export const useStyles = makeStyles(({ palette, borderRadii, typography, transit
         },
     }],
 }));
+
+export type DropdownButtonStyleKeys = KeysFromUseStyles<typeof useStyles>

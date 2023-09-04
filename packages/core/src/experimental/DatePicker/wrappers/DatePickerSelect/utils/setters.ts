@@ -1,21 +1,22 @@
 import { DatePickerBlockProps, SelectedDates } from '@core/src/experimental';
-import { SetErrorText } from '@core/src/experimental/DatePicker/components/DateField/utils';
-import { ErrorsFromInput } from '../types';
+import { isPicker } from '@core/src/experimental/DatePicker/components/Block/types';
 import {
     validateAllowedDates,
+    ValidateAllowedPeriod,
     validatePeriodDatesPosition,
 } from './validators';
-import { isPicker } from '../../../components/Block/types';
 
 export interface ChangeSelectedByValueProps<D extends SelectedDates> extends
-    Pick<DatePickerBlockProps<D>, 'onChange' | 'allowedDates'> {
-    setErrorText: SetErrorText;
-    errorsFromInput: Required<ErrorsFromInput>;
-    isPickerType: boolean;
+    Pick<DatePickerBlockProps<D>, 'onChange' | 'allowedDates'>,
+    Pick<ValidateAllowedPeriod,
+    | 'setErrorText'
+    | 'errorsFromInput'
+    | 'isPickerType'
+    | 'setStartErrorText'
+    | 'setEndErrorText'
+    | 'splittedPeriod'>
+{
     value: D;
-    setStartErrorText: SetErrorText;
-    setEndErrorText: SetErrorText;
-    splittedPeriod: boolean;
 }
 
 export const changeSelectedByValue = <D extends SelectedDates>({

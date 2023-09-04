@@ -1,4 +1,4 @@
-import { makeStyles, Palette } from '@core';
+import { KeysFromUseStyles, makeStyles, Palette } from '@core';
 import { DATE_PICKER_TIME_TYPES } from '@core/src/experimental';
 import {
     getActiveDayStyles, getCommonAfter,
@@ -134,3 +134,5 @@ export const useStyles = makeStyles(({ palette, borderRadii, typography },
         ],
     });
 });
+
+export type DayStyleKeys = KeysFromUseStyles<typeof useStyles>

@@ -1,4 +1,4 @@
-import { changeOpacity, makeStyles } from '@core';
+import { changeOpacity, KeysFromUseStyles, makeStyles } from '@core';
 import {
     DATE_PICKER_DAY_SIZE_PX,
     OFFSET_DAYS,
@@ -20,3 +20,5 @@ export const useStyles = makeStyles(({ palette }, { size, active }: TimeBadgeSty
         },
     },
 }));
+
+export type TimeBadgeStyleKeys = KeysFromUseStyles<typeof useStyles>

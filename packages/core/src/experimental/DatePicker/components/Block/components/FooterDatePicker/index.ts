@@ -1,3 +1,3 @@
 export * from './FooterDatePicker';
 export * from './types';
-export type { FooterDatePickerStyleKeys } from './styles/types';
+export type { FooterDatePickerStyleKeys } from './styles/index';

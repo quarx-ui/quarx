@@ -1,5 +1,15 @@
 import { PickQxSize } from '@core/enums';
-import { DropdownWidths } from './utils';
+
+export interface DropdownWidths {
+    /** Ширина Dropdown */
+    width: number | string;
+
+    /** Минимальная ширина Dropdown */
+    minWidth: number | string;
+
+    /** Максимальная ширина Dropdown */
+    maxWidth: number | string;
+}
 
 export type DropdownSize = PickQxSize<'small' | 'medium' | 'large'>;
 

@@ -3,7 +3,8 @@ import { WithClassesAndStyles } from '@core';
 import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { Locale } from 'date-fns';
 import { DatePickerInnerComponentsProps, InnerTimeSetters, InnerTimeValues } from '../../types';
-import { MonthBlockStyleKeys, MonthBlockStyleParams } from './styles/types';
+import { MonthBlockStyleParams } from './styles/types';
+import { MonthBlockStyleKeys } from './styles/index';
 
 type CommonPropsToMonthBlock<D extends SelectedDates> = Omit<
 DatePickerInnerComponentsProps<D>, 'setViewingDate' | 'styles'

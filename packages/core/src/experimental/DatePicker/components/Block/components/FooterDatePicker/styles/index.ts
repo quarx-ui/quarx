@@ -1,4 +1,4 @@
-import { makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import { OFFSET_ROOT } from '../../../utils';
 import { FooterStyleParams } from './types';
 
@@ -25,3 +25,5 @@ export const useStyles = makeStyles(({ palette }, { size }: Required<FooterStyle
         color: palette.text.secondary,
     },
 }));
+
+export type FooterDatePickerStyleKeys = KeysFromUseStyles<typeof useStyles>

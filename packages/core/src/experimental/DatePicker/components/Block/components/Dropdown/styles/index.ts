@@ -1,4 +1,4 @@
-import { makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import {
     OFFSET_DAYS,
     DATE_PICKER_DAY_SIZE_PX,
@@ -40,3 +40,5 @@ export const useStyles = makeStyles(({ palette, typography },
         },
     });
 });
+
+export type DropdownDatePickerStyleKeys = KeysFromUseStyles<typeof useStyles>

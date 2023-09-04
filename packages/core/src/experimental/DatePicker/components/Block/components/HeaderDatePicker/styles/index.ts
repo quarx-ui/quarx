@@ -1,4 +1,4 @@
-import { makeStyles } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import { OFFSET_ROOT } from '../../../utils';
 import { HeaderStyleParams } from './types';
 
@@ -26,3 +26,5 @@ export const useStyles = makeStyles(({ palette }, { size }: Required<HeaderStyle
         justifyContent: 'center',
     },
 }));
+
+export type HeaderDatePickerStyleKeys = KeysFromUseStyles<typeof useStyles>

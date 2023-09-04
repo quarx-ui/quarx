@@ -1,7 +1,7 @@
 import { Dispatch, RefObject, SetStateAction } from 'react';
 import { WithClassesAndStyles } from '@core';
 import { SelectedDates, PickerSelectedDate } from '@core/src/experimental';
-import { HeaderDatePickerStyleKeys } from '.';
+import { HeaderDatePickerStyleKeys } from './styles';
 import { DropdownDatePickerHookType } from '../../utils';
 import { DatePickerInnerComponentsProps } from '../../types';
 import { HeaderStyleParams } from './styles/types';

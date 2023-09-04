@@ -1,8 +1,7 @@
 import { RefObject } from 'react';
 import { Values } from '@core/types';
+import { CalcOverflowOptions } from '@core/utils/hooks/useFloating/utils';
 import { ALIGNMENTS, AXES, DIMENSIONS, ARRANGEMENTS, SIDES, CLIPPING_CONTEXTS, ROOT_BOUNDARIES } from './constants';
-import { FlipOptions } from './modifiers/flip';
-import { ShiftOptions } from './modifiers/shift';
 
 export type Side = Values<typeof SIDES>
 
@@ -41,6 +40,42 @@ export type OffsetTuple =
 export type OffsetMap = { [key in Side]: number };
 
 export type ClientRect = Rect & OffsetMap
+
+export interface FlipOptions extends CalcOverflowOptions {
+    /**
+     * Проверка переполнения по основной оси
+     * @default true
+     */
+    mainAxis?: boolean;
+    /**
+     * Проверка переполнения по оси выравнивания
+     * @default false
+     */
+    altAxis?: boolean;
+    /**
+     * Расстояние от границы переполнения, на котором начинает происходить переворот
+     * @default 8
+     * */
+    edgeOffset?: number;
+}
+
+export interface ShiftOptions extends CalcOverflowOptions {
+    /**
+     * Проверка переполнения по основной оси
+     * @default true
+     */
+    mainAxis?: boolean;
+    /**
+     * Проверка переполнения по оси выравнивания
+     * @default true
+     */
+    altAxis?: boolean;
+    /**
+     * Расстояние от границы переполнения, на котором начинает происходить смещение
+     * @default 8
+     * */
+    edgeOffset?: number;
+}
 
 export interface ModifiersOptions {
     /** Отступ от якорного элемента */

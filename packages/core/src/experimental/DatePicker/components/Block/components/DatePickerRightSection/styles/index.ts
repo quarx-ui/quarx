@@ -1,4 +1,4 @@
-import { changeOpacity, makeStyles } from '@core';
+import { changeOpacity, KeysFromUseStyles, makeStyles } from '@core';
 import {
     DATE_PICKER_DAY_SIZE_PX, getHeaderTypography,
     OFFSET_DAYS,
@@ -51,3 +51,5 @@ export const useStyles = makeStyles((
         backgroundColor: 'transparent',
     },
 }));
+
+export type DatePickerRightSectionStyleKeys = KeysFromUseStyles<typeof useStyles>

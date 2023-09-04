@@ -1,7 +1,8 @@
 import { PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { WithClassesAndStyles } from '@core';
-import { TimeBadgeStyleKeys, TimeBadgeStyleParams } from './styles/types';
+import { TimeBadgeStyleParams } from './styles/types';
 import { DatePickerInnerComponentsProps, InnerTimeSetters } from '../../types';
+import { TimeBadgeStyleKeys } from './styles/index';
 
 export interface TimeBadgeProps<D extends SelectedDates = PickerSelectedDate> extends
     Pick<DatePickerInnerComponentsProps<D>, 'innerStyles' | 'onChange' | 'selected'

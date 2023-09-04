@@ -1,3 +1,3 @@
 export * from './HeaderDatePicker';
 export * from './types';
-export type { HeaderDatePickerStyleKeys } from './styles/types';
+export type { HeaderDatePickerStyleKeys } from './styles';
