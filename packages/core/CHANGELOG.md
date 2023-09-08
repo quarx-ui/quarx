@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.7.0&targetBranch=@quarx-ui/core@2.6.0) (2023-09-08)
+
+
+### Features
+
+* **Chips:** Изменен способ задания расстояния между элементами ([3bea4f6](https://github.com/quarx-ui/quarx/commits/3bea4f69ba1d1e7cc8957b531b55541cb0ceb4c5))
+* **typography:** Возможность расширения дефолтных интерфейсов Typography ([b1725bd](https://github.com/quarx-ui/quarx/commits/b1725bd09267765e9a482c646832077f5a7b0bd9))
+* **useStyles:** Возвращаемый объект стилей помещен в `useMemo` ([1f3a445](https://github.com/quarx-ui/quarx/commits/1f3a445e4d1303ef2941d5668041693203547f54))
+
+
+### Bug Fixes
+
+* **flattenDeep:** Исправлен возврат пустого массива ([b48dc0d](https://github.com/quarx-ui/quarx/commits/b48dc0d153121c90d0566ff7e0353dbdefb0fd92))
+* **TextField:** Интерфейсы с исключением вынесены в отдельные типы ([e0e2220](https://github.com/quarx-ui/quarx/commits/e0e2220cc8ea660f14d73510e193e15717c0c2fd))
+
+
+### Code Refactoring
+
+* Исправлены циклические зависимости ([dc9d0dd](https://github.com/quarx-ui/quarx/commits/dc9d0dd4887eed131bbf209596a0b745eb30bbec))
+
+
+
 ## [2.6.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.6.0&targetBranch=@quarx-ui/core@2.5.0) (2023-08-17)
 
 
