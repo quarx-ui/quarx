@@ -15,9 +15,11 @@ import {
 
 export type TextFieldRefType = HTMLInputElement | HTMLTextAreaElement;
 
+type OmittedBaseProps = Omit<BaseProps<TextFieldRefType>, 'permissions'>;
+
 export interface BaseTextFieldProps extends
     Partial<BaseTextFieldStyleParams>,
-    Omit<BaseProps<TextFieldRefType>, 'permissions'>
+    OmittedBaseProps
 {
     /** Максимальное количество символов */
     maxLength?: number;
@@ -58,9 +60,12 @@ export interface BaseTextFieldProps extends
     onChange?: ChangeEventHandler<TextFieldRefType>;
 }
 
+type StyleParams = Partial<Omit<TextFieldStyleParams, keyof OmittedFieldStyleParams>>;
+type OmittedBaseTextFieldProps = Omit<BaseTextFieldProps, 'className' | 'ref'>
+
 export interface TextFieldPropsWithoutHtml extends
-    Omit<Partial<TextFieldStyleParams>, keyof OmittedFieldStyleParams>,
-    Omit<BaseTextFieldProps, 'className' | 'ref'>,
+    StyleParams,
+    OmittedBaseTextFieldProps,
     WithClassesAndStyles<TextFieldStyleKeys, TextFieldStyleParams & BaseTextFieldStyleParams, TextFieldCSSVarKeys>,
     BaseProps
 {
