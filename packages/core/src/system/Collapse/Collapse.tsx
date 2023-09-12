@@ -38,8 +38,9 @@ export const Collapse: FC<CollapseProps> = forwardRef<HTMLDivElement, CollapsePr
 
     const [mapStatusToStyles, setMapStatusToStyles] = useState<MapTransitionStatusToStyles>();
 
+    const childrenHeightOrWidth = refToChildren.current?.[isVertical ? 'offsetHeight' : 'offsetWidth'];
+
     useEffect(() => {
-        const childrenHeightOrWidth = refToChildren.current?.[isVertical ? 'offsetHeight' : 'offsetWidth'];
         setMapStatusToStyles({
             entering: {
                 [timeoutPropertyCamel]: childrenHeightOrWidth,
@@ -54,7 +55,7 @@ export const Collapse: FC<CollapseProps> = forwardRef<HTMLDivElement, CollapsePr
                 [timeoutPropertyCamel]: collapsedSize,
             },
         });
-    }, [collapsedSize, isVertical, timeoutPropertyCamel]);
+    }, [collapsedSize, isVertical, timeoutPropertyCamel, childrenHeightOrWidth]);
 
     return (
         <If condition={!hidden}>

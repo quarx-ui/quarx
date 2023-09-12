@@ -41,7 +41,7 @@ export interface AccordionPropsWithoutHtml extends
     disableTransition?: boolean;
 
     /** Свойства используемого компонента Collapse */
-    CollapseProps?: Omit<CollapseProps, 'open'>;
+    CollapseProps?: Omit<CollapseProps, 'open' | 'children'>;
 }
 
 export type AccordionProps = ComponentPropsWithHTML<AccordionPropsWithoutHtml>;
