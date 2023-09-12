@@ -25,14 +25,13 @@ type DropdownSearchableTextFieldProps = Omit<TextFieldProps,
 | 'loading'
 | 'value'
 >;
-type DropdownButtonsProps = Omit<ButtonProps,
-| 'onClick'
->;
+
+type StyleParams = Omit<DropdownStyleParams, keyof OmittedDropdownStyleParams>;
 
 export interface DropdownPropsWithoutHtml extends
-    BaseProps<HTMLDivElement>,
-    Partial<Omit<DropdownStyleParams, keyof OmittedDropdownStyleParams>>,
-    WithClassesAndStyles<DropdownStyleKeys, Omit<DropdownStyleParams, keyof OmittedDropdownStyleParams>>
+    BaseProps,
+    Partial<StyleParams>,
+    WithClassesAndStyles<DropdownStyleKeys, StyleParams>
 {
     // ---------- Popup properties ----------
     /** Якорный элемент */
@@ -108,7 +107,7 @@ export interface DropdownPropsWithoutHtml extends
     /** Свойства кнопки "Принять"
      *
      * @default {} */
-    AcceptButtonProps?: DropdownButtonsProps;
+    AcceptButtonProps?: ButtonProps;
 
     /** Обработчик события клика по кнопке сброса */
     onCancelButtonClick?: ButtonProps['onClick'];
@@ -116,7 +115,7 @@ export interface DropdownPropsWithoutHtml extends
     /** Свойства кнопки "Отменить"
      *
      * @default {} */
-    CancelButtonProps?: DropdownButtonsProps;
+    CancelButtonProps?: ButtonProps;
 
     /** Пользовательский подвал компонента. Заменяет подвал по умолчанию
      *
