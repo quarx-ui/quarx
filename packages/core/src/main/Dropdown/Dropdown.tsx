@@ -145,7 +145,7 @@ export const Dropdown: FC<DropdownProps> = forwardRef<HTMLDivElement, DropdownPr
                                 size={mapSizeToFooterButtonsSize[size]}
                                 {...AcceptButtonProps}
                             >
-                                Применить
+                                {AcceptButtonProps?.children ?? 'Применить'}
                             </Button>
                             <Button
                                 type="text"
@@ -154,7 +154,7 @@ export const Dropdown: FC<DropdownProps> = forwardRef<HTMLDivElement, DropdownPr
                                 size={mapSizeToFooterButtonsSize[size]}
                                 {...CancelButtonProps}
                             >
-                                Сбросить
+                                {CancelButtonProps?.children ?? 'Сбросить'}
                             </Button>
                         </div>
                     </If>

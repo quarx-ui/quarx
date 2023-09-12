@@ -41,3 +41,4 @@ export interface ChipsPropsWithoutHtml extends
 export type ChipsProps = ComponentPropsWithHTML<ChipsPropsWithoutHtml, 'button'>;
 
 export * from './styles/types';
+export * from './styles/vars';
