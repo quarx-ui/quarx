@@ -30,7 +30,9 @@ export const useDelayedMounter = (props: UseDelayedMounterProps) => {
     const timoutId = useRef<ReturnType<typeof setTimeout>>();
 
     useEnhancedEffect(() => {
-        if (initialMounted === mounted) { return; }
+        if (initialMounted === mounted) {
+            return;
+        }
 
         if (initialMounted) {
             onEnter?.();
@@ -49,7 +51,7 @@ export const useDelayedMounter = (props: UseDelayedMounterProps) => {
                 onExit?.();
             }, timeout);
         }
-    }, [initialMounted, timeout, disableTimeout]);
+    }, [initialMounted, timeout, disableTimeout, mounted, onEnter, onExitStart, onExit]);
 
     return { mounted };
 };

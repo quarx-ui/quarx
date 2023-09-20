@@ -46,6 +46,9 @@ module.exports = {
         '@typescript-eslint',
     ],
     rules: {
+        'react-hooks/exhaustive-deps': [2, {
+            additionalHooks: "(useEnhancedEffect)",
+        }],
         'no-shadow': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-shadow': ['error'],

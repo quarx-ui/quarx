@@ -341,9 +341,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     const delayedMounterProps = useMemo(() => ({
         ...DelayedMounterProps,
         disableTimeout: true,
-        mounted: keepMounted
-            ? true
-            : mounted,
+        mounted: keepMounted || mounted,
     }), [DelayedMounterProps, keepMounted, mounted]);
 
     const portalProps = useMemo(() => ({

@@ -5,7 +5,7 @@ export const omitProps = <T extends object, Keys extends keyof T>(
     const props = { ...initialProps };
 
     excludedProps.forEach((property) => {
-        if (!props[property]) { return; }
+        if (!(property in props)) { return; }
 
         delete props[property];
     });
