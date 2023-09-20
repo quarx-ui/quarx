@@ -2,12 +2,12 @@ import { DatePickerBlockProps } from '@core/src/experimental';
 import {
     PLACEHOLDER_DATE,
     PLACEHOLDER_DATETIME,
-    PLACEHOLDER_DATETIME_WITH_SECONDS
+    PLACEHOLDER_DATETIME_WITH_SECONDS,
 } from './constants';
 
 const getPlaceholderDate = (
     withTime: DatePickerBlockProps['withTime'],
-    withSeconds: DatePickerBlockProps['withSeconds']
+    withSeconds: DatePickerBlockProps['withSeconds'],
 ) => {
     if (withTime && withSeconds) {
         return PLACEHOLDER_DATETIME_WITH_SECONDS;
@@ -16,12 +16,12 @@ const getPlaceholderDate = (
         return PLACEHOLDER_DATETIME;
     }
     return PLACEHOLDER_DATE;
-}
+};
 
 export const getPlaceholder = (
     isPickerType: boolean,
     withTime: DatePickerBlockProps['withTime'],
-    withSeconds: DatePickerBlockProps['withSeconds']
+    withSeconds: DatePickerBlockProps['withSeconds'],
 ) => {
     if (isPickerType) {
         return getPlaceholderDate(withTime, withSeconds);

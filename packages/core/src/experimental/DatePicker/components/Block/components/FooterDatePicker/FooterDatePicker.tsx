@@ -64,7 +64,7 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
     };
 
     const inputMask = withSeconds ? '99:99:99' : '99:99';
-    const getValueWithSecondsIfCompleted = (value: string) => !withSeconds && isCompletedTime(value) ? `${value}:00` : value;
+    const getValueWithSecondsIfCompleted = (value: string) => (!withSeconds && isCompletedTime(value) ? `${value}:00` : value);
 
     return (
         <div css={styles.root} ref={ref} className={cn('root', params)}>
