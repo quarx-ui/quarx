@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.7.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.7.1&targetBranch=@quarx-ui/core@2.7.0) (2023-09-25)
+
+
+### Bug Fixes
+
+* **Collapse:** Фикс использования устаревшего значения высоты ([0d08e31](https://github.com/quarx-ui/quarx/commits/0d08e31748f896163bc7a91bf36a300b38513d52))
+* **DelayedMounter:** Фикс использования устаревшего значения ([0601d00](https://github.com/quarx-ui/quarx/commits/0601d0088b04380c1492ef98b464c34f9645bb29))
+* **DropdownItem:** Фикс передачи текста в кнопках ([55432d2](https://github.com/quarx-ui/quarx/commits/55432d25e0dc94999b4fd6759c927636e644f278))
+* **usePropsOverwrites:** Из типизации возвращаемых props исключено свойство classes ([9205fa9](https://github.com/quarx-ui/quarx/commits/9205fa9ff0dad6f9e1ac190e42b9bc710dcab0ea))
+
+
+
 ## [2.7.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.7.0&targetBranch=@quarx-ui/core@2.6.0) (2023-09-08)
 
 
