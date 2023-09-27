@@ -38,12 +38,12 @@ exports[`Alert elements 1`] = `
         class="QxStack QxStack_order_default QxStack_direction_column QxStack_alignItems_stretch QxStack_spacing_2px QxAlertBody-texts css-ro7mz3-QxStack-root-QxAlertBody-texts"
       >
         <span
-          class="QxAlertBody-title css-79db7y-QxAlertBody-title"
+          class="QxAlertBody-title css-57cqxc-QxAlertBody-title"
         >
           Title
         </span>
         <p
-          class="QxAlertBody-description css-1xqqzah-QxAlertBody-description"
+          class="QxAlertBody-description css-1mfp9lh-QxAlertBody-description"
         >
           Description
         </p>
