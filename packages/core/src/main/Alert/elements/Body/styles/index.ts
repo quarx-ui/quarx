@@ -1,27 +1,33 @@
-import { KeysFromUseStyles, makeStyles, paramsToCss, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, paramsToCss } from '@core';
 import { BodyStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette },
+    { palette, typography },
     { size }: BodyStyleParams,
 ) => ({
     root: {
         width: '100%',
     },
     texts: {},
-    title: paramsToCss(size)({
-        small: typography.Text.M.Semibold,
-        large: typography.Text.L.Semibold,
-    }),
+    title: [
+        paramsToCss(size)({
+            small: typography.base.text.medium,
+            large: typography.base.text.large,
+        }),
+        {
+            wordBreak: 'break-word',
+            fontWeight: 600,
+        },
+    ],
     description: [
         {
-            textAlign: 'justify',
+            wordBreak: 'break-word',
             margin: 0,
             color: palette.text.secondary,
         },
         paramsToCss(size)({
-            small: typography.Text.M.Regular,
-            large: typography.Text.L.Regular,
+            small: typography.base.text.medium,
+            large: typography.base.text.large,
         }),
     ],
 
