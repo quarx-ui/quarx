@@ -1,6 +1,6 @@
 import {
     KeysFromUseStyles,
-    makeStyles, typography,
+    makeStyles,
 } from '@core/styles';
 import { cssVar } from '@core/utils/cssVars';
 import { paramsToCss, QX_SIZE } from '@core';
@@ -30,7 +30,7 @@ const ellipsisStyles = {
 };
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         size,
         hover,
@@ -135,9 +135,9 @@ export const useStyles = makeStyles((
             ...titleEllipsis && ellipsisStyles,
         },
         paramsToCss(size)({
-            [QX_SIZE.small]: typography.Text.M.Regular,
-            [QX_SIZE.medium]: typography.Text.L.Regular,
-            [QX_SIZE.large]: typography.Text.XL.Regular,
+            [QX_SIZE.small]: typography.base.text.medium,
+            [QX_SIZE.medium]: typography.base.text.large,
+            [QX_SIZE.large]: typography.base.text.xLarge,
         }),
     ],
     description: [
@@ -147,9 +147,9 @@ export const useStyles = makeStyles((
             ...descriptionEllipsis && ellipsisStyles,
         },
         paramsToCss(size)({
-            [QX_SIZE.small]: typography.Text.M.Regular,
-            [QX_SIZE.medium]: typography.Text.M.Regular,
-            [QX_SIZE.large]: typography.Text.L.Regular,
+            [QX_SIZE.small]: typography.base.text.medium,
+            [QX_SIZE.medium]: typography.base.text.medium,
+            [QX_SIZE.large]: typography.base.text.large,
         }),
     ],
     activeIcon: {

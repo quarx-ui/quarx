@@ -1,9 +1,9 @@
-import { KeysFromUseStyles, makeStyles, typography } from '@core/styles';
+import { KeysFromUseStyles, makeStyles, TYPOGRAPHY_WEIGHT } from '@core/styles';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { CounterStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette },
+    { palette, typography },
     { type, size, color }: CounterStyleParams,
 ) => {
     const colorValue = (color === 'text'
@@ -20,16 +20,19 @@ export const useStyles = makeStyles((
             color: palette.background.main,
             backgroundColor: colorValue,
             padding: '0 6px',
-            ...typography.Text.M.Medium,
+            ...typography.base.text.medium,
+            fontWeight: TYPOGRAPHY_WEIGHT.medium,
 
             ...paramsToCss(size)({
                 small: {
                     padding: '0 4px',
-                    ...typography.Text.S.Medium,
+                    ...typography.base.text.small,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
                 large: {
                     padding: '0 7px',
-                    ...typography.Text.L.Medium,
+                    ...typography.base.text.large,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
             }),
 

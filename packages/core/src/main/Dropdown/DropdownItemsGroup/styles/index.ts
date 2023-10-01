@@ -1,13 +1,12 @@
 import {
     KeysFromUseStyles,
-    makeStyles,
-    typography,
+    makeStyles, TYPOGRAPHY_WEIGHT,
 } from '@core/styles';
 import { paramsToCss, QX_SIZE } from '@core';
 import { DropdownItemsGroupStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         size,
         limiter,
@@ -43,15 +42,17 @@ export const useStyles = makeStyles((
         paramsToCss(size)({
             [QX_SIZE.small]: {
                 padding: '12px 12px 4px 12px',
-                ...typography.Text.S.Medium,
+                ...typography.base.text.small,
+                fontWeight: TYPOGRAPHY_WEIGHT.medium,
             },
             [QX_SIZE.medium]: {
                 padding: '16px 16px 4px 16px',
-                ...typography.Text.M.Medium,
+                ...typography.base.text.medium,
+                fontWeight: TYPOGRAPHY_WEIGHT.medium,
             },
             [QX_SIZE.large]: {
                 padding: '16px 16px 4px 16px',
-                ...typography.Text.L.Regular,
+                ...typography.base.text.large,
             },
         }),
     ],

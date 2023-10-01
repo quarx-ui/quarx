@@ -5,14 +5,13 @@ import {
 import { cssVar } from '@core/utils/cssVars';
 import { paramsToCss } from '@core/utils/paramsToCss/paramsToCss';
 import { QX_SIZE } from '@core/enums/QxSize';
-import { typography } from '@core/styles/typography/typography';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
 import { SelectionCSSVarKeys } from './vars';
 import { SelectionStyleParams } from './types';
 import { SELECTION_TYPE } from './constants';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         type,
         color,
@@ -29,9 +28,9 @@ export const useStyles = makeStyles((
     }: Record<SelectionCSSVarKeys, string>,
 ) => {
     const text = paramsToCss(size)({
-        [QX_SIZE.small]: typography.Text.M.Regular,
-        [QX_SIZE.medium]: typography.Text.M.Regular,
-        [QX_SIZE.large]: typography.Text.L.Regular,
+        [QX_SIZE.small]: typography.base.text.medium,
+        [QX_SIZE.medium]: typography.base.text.medium,
+        [QX_SIZE.large]: typography.base.text.large,
     });
 
     const box = {
@@ -129,9 +128,9 @@ export const useStyles = makeStyles((
             color: palette.text.main,
             wordBreak: 'break-word',
             ...paramsToCss(size)({
-                [QX_SIZE.small]: typography.Text.M.Regular,
-                [QX_SIZE.medium]: typography.Text.L.Regular,
-                [QX_SIZE.large]: typography.Text.XL.Regular,
+                [QX_SIZE.small]: typography.base.text.medium,
+                [QX_SIZE.medium]: typography.base.text.large,
+                [QX_SIZE.large]: typography.base.text.xLarge,
             }),
             ...disabled && { color: palette.text.secondary },
         },

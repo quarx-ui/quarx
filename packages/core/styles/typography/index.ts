@@ -1,3 +1,3 @@
 export type { Typography } from './typography';
-export { sizeToHeadlineSize } from './helpers';
+export { sizeToHeadlineSize, oldTypographySizeToSize } from './helpers';
 export { typography } from './typography';

@@ -1,14 +1,13 @@
 import {
     KeysFromUseStyles,
-    makeStyles,
-    typography,
+    makeStyles, TYPOGRAPHY_WEIGHT,
 } from '@core/styles';
 import { paramsToCss, QX_SIZE } from '@core';
 import { SelectionGroupStyleParams } from './types';
 import { SELECTION_GROUP_TYPE } from './constants';
 
 export const useStyles = makeStyles((
-    { palette },
+    { palette, typography },
     {
         color,
         size,
@@ -42,10 +41,11 @@ export const useStyles = makeStyles((
             color: palette.text.main,
             ...text,
             ...paramsToCss(size)({
-                [QX_SIZE.small]: typography.Text.M.Semibold,
-                [QX_SIZE.medium]: typography.Text.L.Semibold,
-                [QX_SIZE.large]: typography.Text.XL.Semibold,
+                [QX_SIZE.small]: typography.base.text.medium,
+                [QX_SIZE.medium]: typography.base.text.large,
+                [QX_SIZE.large]: typography.base.text.xLarge,
             }),
+            fontWeight: TYPOGRAPHY_WEIGHT.semibold,
 
             '& + span': { marginTop: 4 },
         },
@@ -54,14 +54,14 @@ export const useStyles = makeStyles((
             ...text,
             color: palette.text.secondary,
             ...paramsToCss(size)({
-                [QX_SIZE.small]: typography.Text.M.Regular,
-                [QX_SIZE.medium]: typography.Text.M.Regular,
-                [QX_SIZE.large]: typography.Text.L.Regular,
+                [QX_SIZE.small]: typography.base.text.medium,
+                [QX_SIZE.medium]: typography.base.text.medium,
+                [QX_SIZE.large]: typography.base.text.large,
             }),
         },
 
         helperText: {
-            ...typography.Text.L.Regular,
+            ...typography.base.text.large,
             ...text,
             color: palette.colors[color].default,
         },

@@ -1,10 +1,10 @@
-import { KeysFromUseStyles, makeStyles, QX_SIZE, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, QX_SIZE } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { TabItemDefaultStyleParams } from './types';
 import { TABS_LINES } from '../../constants';
 
 export const useStyles = makeStyles((
-    { palette, borderRadii, transitions },
+    { palette, borderRadii, transitions, typography },
     { size, selected, line }: TabItemDefaultStyleParams,
 ) => ({
     root: [
@@ -55,15 +55,15 @@ export const useStyles = makeStyles((
         },
         paramsToCss(size)({
             [QX_SIZE.large]: {
-                ...typography.Text.XL.Regular,
+                ...typography.base.text.xLarge,
                 padding: '16px 0',
             },
             [QX_SIZE.medium]: {
-                ...typography.Text.L.Regular,
+                ...typography.base.text.large,
                 padding: '14px 0',
             },
             [QX_SIZE.small]: {
-                ...typography.Text.M.Regular,
+                ...typography.base.text.medium,
                 padding: '10px 0',
             },
         }),

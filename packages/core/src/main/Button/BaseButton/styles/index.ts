@@ -1,5 +1,4 @@
-import { typography } from '@core/styles';
-import { KeysFromUseStyles, makeStyles, ButtonStyleParams } from '@core';
+import { KeysFromUseStyles, makeStyles, ButtonStyleParams, TYPOGRAPHY_WEIGHT } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { cssVar } from '@core/utils/cssVars';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
@@ -7,7 +6,7 @@ import { flexCenter } from '../../mixins';
 import { BaseButtonCSSVarKeys } from './vars';
 
 export const useStyles = makeStyles((
-    { palette, transitions, borders, borderRadii },
+    { palette, transitions, borders, borderRadii, typography },
     { type, size, color, borderRadius, loading, disabled }: ButtonStyleParams,
     {
         cssFocusColor,
@@ -80,22 +79,26 @@ export const useStyles = makeStyles((
                 xSmall: {
                     [cssPaddingY]: '6px',
                     [cssPaddingX]: '12px',
-                    ...typography.Text.M.Medium,
+                    ...typography.base.text.medium,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
                 small: {
                     [cssPaddingY]: '10px',
                     [cssPaddingX]: '16px',
-                    ...typography.Text.M.Medium,
+                    ...typography.base.text.medium,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
                 medium: {
                     [cssPaddingY]: '14px',
                     [cssPaddingX]: '20px',
-                    ...typography.Text.L.Medium,
+                    ...typography.base.text.large,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
                 large: {
                     [cssPaddingY]: '16px',
                     [cssPaddingX]: '24px',
-                    ...typography.Text.XL.Medium,
+                    ...typography.base.text.xLarge,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
             }),
 

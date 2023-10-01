@@ -1,4 +1,4 @@
-import { changeOpacity, KeysFromUseStyles, makeStyles, typography } from '@core/styles';
+import { changeOpacity, KeysFromUseStyles, makeStyles, TYPOGRAPHY_WEIGHT } from '@core/styles';
 import { CSSObject, keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { TextFieldCSSVarKeys } from '@core/src/main/TextField/styles/vars';
@@ -6,7 +6,7 @@ import { cssVar } from '@core/utils/cssVars';
 import { BaseTextFieldStyleParams, TextFieldStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, transitions, borderRadii },
+    { palette, transitions, borderRadii, typography },
     {
         filled, error,
         borderRadius, size, loading,
@@ -63,7 +63,7 @@ export const useStyles = makeStyles((
         },
     };
 
-    const shadow = `inset 0 0 0 ${cssVar(cssBorderShadowWidth)} ${cssVar(cssBorderShadowColor)}, 
+    const shadow = `inset 0 0 0 ${cssVar(cssBorderShadowWidth)} ${cssVar(cssBorderShadowColor)},
     0 0 0 ${cssVar(cssOuterShadowWidth)} ${cssVar(cssOuterShadowColor)}`;
 
     return ({
@@ -224,7 +224,7 @@ export const useStyles = makeStyles((
 
                 color: palette.text.secondary,
             },
-            typography.Text.L.Regular,
+            typography.base.text.large,
             filled && {
                 transform: 'translateY(-9px) scale(0.875)',
             },
@@ -244,14 +244,15 @@ export const useStyles = makeStyles((
                     whiteSpace: 'unset',
                     maxWidth: '100%',
                     color: palette.text.main,
-                    ...typography.Text.L.Medium,
+                    ...typography.base.text.large,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
                 },
                 medium: { ...filled && {
                     maxWidth: 'calc(100% / 0.875 - 8px)',
                 } },
                 large: {
                     top: 16,
-                    ...typography.Text.XL.Regular,
+                    ...typography.base.text.xLarge,
                 },
             }),
             disabled && {
@@ -264,7 +265,10 @@ export const useStyles = makeStyles((
                 marginLeft: 1,
                 color: palette.colors.danger.default,
             },
-            size === 'small' && typography.Text.L.Semibold,
+            size === 'small' && {
+                ...typography.base.text.large,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
+            },
             disabled && {
                 color: palette.text.secondary,
             },
@@ -299,8 +303,8 @@ export const useStyles = makeStyles((
                     },
                 },
             },
-            typography.Text.L.Regular,
-            size === 'large' && typography.Text.XL.Regular,
+            typography.base.text.large,
+            size === 'large' && typography.base.text.xLarge,
             multiline && {
                 resize: 'none',
             },
@@ -440,8 +444,8 @@ export const useStyles = makeStyles((
                 color: palette.colors.danger.default,
             },
             size === 'large'
-                ? typography.Text.L.Regular
-                : typography.Text.M.Regular,
+                ? typography.base.text.large
+                : typography.base.text.medium,
             vertCenter,
         ],
         errorText: {
@@ -449,7 +453,8 @@ export const useStyles = makeStyles((
         },
         length: [
             error && overflowed && {
-                ...typography.Text.M.Semibold,
+                ...typography.base.text.medium,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
                 color: palette.colors.danger.press,
             },
         ],
@@ -471,7 +476,7 @@ export const useStyles = makeStyles((
             counterVisibleOn === 'focus' && focused && {
                 opacity: 1,
             },
-            typography.Text.M.Regular,
+            typography.base.text.medium,
             error && overflowed && {
                 color: palette.colors.danger.default,
             },

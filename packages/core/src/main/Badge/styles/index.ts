@@ -1,10 +1,10 @@
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { CSSObject } from '@emotion/react';
-import { KeysFromUseStyles, makeStyles, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, TYPOGRAPHY_WEIGHT } from '@core';
 import { BadgeStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, borderRadii },
+    { palette, borderRadii, typography },
     { type, color, size, borderRadius }: BadgeStyleParams,
 ) => {
     const flexCenter: CSSObject = {
@@ -35,20 +35,23 @@ export const useStyles = makeStyles((
             borderRadius: borderRadii[borderRadius],
             height: 32,
             padding: '2px 10px',
-            ...typography.Text.L.Medium,
+
+            ...typography.base.text.large,
 
             ...paramsToCss(size)({
                 small: {
                     height: 24,
-                    ...typography.Text.M.Medium,
+                    ...typography.base.text.medium,
                     padding: '0px 10px',
                 },
                 large: {
                     height: 40,
-                    ...typography.Text.XL.Medium,
+                    ...typography.base.text.xLarge,
                     padding: '4px 14px',
                 },
             }),
+
+            fontWeight: TYPOGRAPHY_WEIGHT.medium,
 
             ...paramsToCss(type)({
                 outlined: {

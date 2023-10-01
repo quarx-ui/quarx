@@ -1,11 +1,11 @@
-import { KeysFromUseStyles, makeStyles, sizeToHeadlineSize, typography } from '@core/styles';
+import { KeysFromUseStyles, makeStyles, TYPOGRAPHY_WEIGHT } from '@core/styles';
 import { QX_SIZE } from '@core/enums';
 import { paramsToCss } from '@core';
 import { AccordionStyleParams } from './types';
-import { sizeToAccordionPadding, sizeToTextStyle } from './map';
+import { sizeToAccordionPadding } from './map';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         open,
         size,
@@ -34,7 +34,8 @@ export const useStyles = makeStyles((
     },
     title: {
         color: palette.text.main,
-        ...typography.Headline[sizeToHeadlineSize[size]].Semibold,
+        ...typography.base.headline[size],
+        fontWeight: TYPOGRAPHY_WEIGHT.semibold,
     },
     leftIcon: {
         gridArea: 'leftIcon',
@@ -64,11 +65,21 @@ export const useStyles = makeStyles((
     },
     description: {
         color: palette.text.secondary,
-        ...sizeToTextStyle[size],
+        ...paramsToCss(size)({
+            xSmall: typography.base.text.medium,
+            small: typography.base.text.medium,
+            medium: typography.base.text.large,
+            large: typography.base.text.xLarge,
+        }),
         gridArea: 'description',
     },
     details: [
-        !inheritTextStyles && sizeToTextStyle[size],
+        !inheritTextStyles && paramsToCss(size)({
+            xSmall: typography.base.text.medium,
+            small: typography.base.text.medium,
+            medium: typography.base.text.large,
+            large: typography.base.text.xLarge,
+        }),
         paramsToCss(size)({
             [QX_SIZE.small]: {
                 paddingTop: 12,

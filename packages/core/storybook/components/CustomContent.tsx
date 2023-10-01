@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import { makeStyles, typography } from '@core';
+import { makeStyles, TYPOGRAPHY_WEIGHT } from '@core';
 import { ArrowsClockwiseIcon } from '@quarx-ui/icons/src/arrows-clockwise/24px/stroke/rounded';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(({ typography }) => ({
     root: {
         boxSizing: 'border-box',
         width: '100%',
@@ -18,16 +18,17 @@ const useStyles = makeStyles({
         marginBottom: 12,
     },
     title: {
-        ...typography.Text.M.Semibold,
+        ...typography.base.text.medium,
+        fontWeight: TYPOGRAPHY_WEIGHT.semibold,
         color: '#523BC7',
     },
     description: {
-        ...typography.Text.M.Regular,
+        ...typography.base.text.medium,
         color: '#523BC7',
         textAlign: 'center',
         maxWidth: 195,
     },
-});
+}));
 
 export const CustomContent: FC = () => {
     const styles = useStyles();

@@ -1,13 +1,12 @@
 import {
     KeysFromUseStyles,
-    makeStyles,
-    typography,
+    makeStyles, TYPOGRAPHY_WEIGHT,
 } from '@core/styles';
 import { paramsToCss, QX_SIZE } from '@core';
 import { DropdownStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette },
+    { palette, typography },
     {
         size,
         width,
@@ -47,15 +46,18 @@ export const useStyles = makeStyles((
         paramsToCss(size)({
             [QX_SIZE.small]: {
                 padding: '14px 12px 10px',
-                ...typography.Text.M.Semibold,
+                ...typography.base.text.medium,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
             },
             [QX_SIZE.medium]: {
                 padding: '16px 16px 12px',
-                ...typography.Text.L.Semibold,
+                ...typography.base.text.large,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
             },
             [QX_SIZE.large]: {
                 padding: '18px 16px 14px',
-                ...typography.Text.XL.Semibold,
+                ...typography.base.text.xLarge,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
             },
         }),
     ],
