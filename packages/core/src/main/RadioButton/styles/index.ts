@@ -1,4 +1,4 @@
-import { cssVar, KeysFromUseStyles, makeStyles, PALETTE_COLORS, typography } from '@core';
+import { cssVar, KeysFromUseStyles, makeStyles, PALETTE_COLORS } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
 import { RadioButtonCSSVarKeys } from './vars';
@@ -6,7 +6,7 @@ import { RADIO_BUTTON_POSITION } from '../constants';
 import { RadioButtonStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         color = PALETTE_COLORS.brand,
         size,
@@ -188,9 +188,9 @@ export const useStyles = makeStyles((
             }),
 
             paramsToCss(size)({
-                small: typography.Text.M.Regular,
-                medium: typography.Text.L.Regular,
-                large: typography.Text.XL.Regular,
+                small: typography.base.text.medium,
+                medium: typography.base.text.large,
+                large: typography.base.text.xLarge,
             }),
         ],
     });

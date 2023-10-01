@@ -1,9 +1,9 @@
-import { KeysFromUseStyles, makeStyles, QX_SIZE, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, QX_SIZE } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { TabItemSegmentedStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, borderRadii, transitions, elevations },
+    { palette, borderRadii, transitions, elevations, typography },
     { color, size, selected, borderRadius, icon }: TabItemSegmentedStyleParams,
 ) => ({
     root: [
@@ -44,15 +44,15 @@ export const useStyles = makeStyles((
             },
             false: {
                 large: {
-                    ...typography.Text.XL.Regular,
+                    ...typography.base.text.xLarge,
                     padding: '14px 18px',
                 },
                 medium: {
-                    ...typography.Text.L.Regular,
+                    ...typography.base.text.large,
                     padding: '12px 16px',
                 },
                 small: {
-                    ...typography.Text.M.Regular,
+                    ...typography.base.text.medium,
                     padding: '8px 12px',
                 },
             },

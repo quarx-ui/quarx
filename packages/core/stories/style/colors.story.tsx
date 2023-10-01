@@ -1,6 +1,6 @@
 import { CSSObject } from '@emotion/react';
 import { FC, MouseEventHandler, useState } from 'react';
-import { createPalette, getContrastColor, makeStyles, typography, useTheme } from '@core/styles';
+import { createPalette, getContrastColor, makeStyles, TYPOGRAPHY_WEIGHT, useTheme } from '@core/styles';
 import {
     PaletteColor,
     PaletteColorValues,
@@ -85,7 +85,7 @@ export default {
 } as Meta<ColorsStoryProps>;
 
 const useStylesSandbox = makeStyles((
-    { palette },
+    { palette, typography },
     { type, value: srcValue, border: srcBorder, background: srcBack, text }: ColorsStoryProps,
 ) => {
     let alpha: PaletteAlphaKey;
@@ -144,7 +144,8 @@ const useStylesSandbox = makeStyles((
         },
         text: {
             color: palette.text[text],
-            ...typography.Text.L.Medium,
+            ...typography.base.text.large,
+            fontWeight: TYPOGRAPHY_WEIGHT.medium,
         },
     });
 });
@@ -167,7 +168,7 @@ export const Sandbox: Story<ColorsStoryProps> = ({
 };
 
 const useStylesColor = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     { type, hover = false }: { type: PaletteColor; hover?: boolean },
 ) => {
     const common: CSSObject = {
@@ -183,7 +184,8 @@ const useStylesColor = makeStyles((
             gridTemplateColumns: 'repeat(5, 1fr)',
             gap: 8,
             width: '100%',
-            ...typography.Text.M.Medium,
+            ...typography.base.text.medium,
+            fontWeight: TYPOGRAPHY_WEIGHT.medium,
         },
         wrap: {
             display: 'flex',

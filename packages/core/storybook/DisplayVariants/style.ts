@@ -1,10 +1,10 @@
-import { typography, makeStyles } from '@core';
+import { makeStyles, TYPOGRAPHY_WEIGHT } from '@core';
 import { CSSObject } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { DisplayVariantsStyledProps } from './types';
 
 export const useStyles = makeStyles((
-    theme,
+    { typography },
     {
         size,
         direction = 'horizontal',
@@ -65,8 +65,14 @@ export const useStyles = makeStyles((
             { margin: '8px 0 12px' },
 
             size && paramsToCss(size)({
-                primary: typography.Text.XL.Semibold,
-                secondary: typography.Text.L.Medium,
+                primary: {
+                    ...typography.base.text.xLarge,
+                    fontWeight: TYPOGRAPHY_WEIGHT.semibold,
+                },
+                secondary: {
+                    ...typography.base.text.large,
+                    fontWeight: TYPOGRAPHY_WEIGHT.medium,
+                },
             }),
         ],
         variant: [
@@ -75,7 +81,8 @@ export const useStyles = makeStyles((
                 flexDirection: 'column',
                 alignItems: variantAlign,
                 maxWidth: '100%',
-                ...typography.Text.XL.Semibold,
+                ...typography.base.text.xLarge,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
             },
             !optionTitle && {
                 marginBottom: 0,
@@ -84,8 +91,10 @@ export const useStyles = makeStyles((
         ],
         titleOfMap: [
             { marginRight: 30 },
-            typography.Text.XL.Semibold,
-
+            {
+                ...typography.base.text.xLarge,
+                fontWeight: TYPOGRAPHY_WEIGHT.semibold,
+            },
             isVertical && {
                 marginBottom: 30,
                 marginRight: 0,

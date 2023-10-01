@@ -1,9 +1,9 @@
-import { KeysFromUseStyles, makeStyles, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, TYPOGRAPHY_WEIGHT } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { HeaderBlockStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette },
+    { palette, typography },
     { size }: HeaderBlockStyleParams,
 ) => ({
     root: [
@@ -25,14 +25,17 @@ export const useStyles = makeStyles((
 
     content: {},
 
-    title: paramsToCss(size)({
-        small: typography.Headline.S.Semibold,
-        medium: typography.Headline.M.Semibold,
-    }),
+    title: [
+        paramsToCss(size)({
+            small: typography.base.headline.small,
+            medium: typography.base.headline.medium,
+        }),
+        { fontWeight: TYPOGRAPHY_WEIGHT.semibold },
+    ],
 
     subTitle: paramsToCss(size)({
-        small: typography.Text.L.Regular,
-        medium: typography.Text.XL.Regular,
+        small: typography.base.text.large,
+        medium: typography.base.text.xLarge,
     }),
 
     closeButton: {

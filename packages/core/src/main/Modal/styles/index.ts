@@ -1,11 +1,11 @@
-import { KeysFromUseStyles, makeStyles, typography } from '@core';
+import { KeysFromUseStyles, makeStyles } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { cssVar } from '@core/utils/cssVars';
 import { ModalCSSVarKeys } from '@core/src/main/Modal/styles/vars';
 import { ModalStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, borders, borderRadii, elevations },
+    { palette, borders, borderRadii, elevations, typography },
     { size, scrollBehaviour, hasHeader, hasFooter }: ModalStyleParams,
     { cssBoxMargin, cssBorderRadius }: Record<ModalCSSVarKeys, string>,
 ) => ({
@@ -63,11 +63,11 @@ export const useStyles = makeStyles((
         paramsToCss(size)({
             small: {
                 width: 480,
-                ...typography.Text.M.Regular,
+                ...typography.base.text.medium,
             },
             medium: {
                 width: 512,
-                ...typography.Text.L.Regular,
+                ...typography.base.text.large,
             },
         }),
 

@@ -1,10 +1,10 @@
-import { KeysFromUseStyles, makeStyles, typography } from '@core';
+import { isSize, KeysFromUseStyles, makeStyles, TYPOGRAPHY_WEIGHT, oldTypographySizeToSize } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { LinkStyleParams } from './types';
 import { LINK_UNDERLINE } from '../constants';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     { underline, color, size, disabled }: LinkStyleParams,
 ) => {
     const underlineColor = '--underline-color';
@@ -45,7 +45,10 @@ export const useStyles = makeStyles((
                     [underlineColor]: 'transparent',
                 },
             }),
-            size && size !== 'inherit' && typography.Text[size].Medium,
+            size && size !== 'inherit' && (isSize(size)
+                ? typography.base.text[size]
+                : typography.base.text[oldTypographySizeToSize[size]]),
+            { fontWeight: TYPOGRAPHY_WEIGHT.medium },
             disabled && {
                 '&&': {
                     cursor: 'not-allowed',

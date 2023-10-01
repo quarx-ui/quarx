@@ -5,10 +5,11 @@ import { setStoryParams } from '@core/storybook/setStoryParams';
 import description from './description.md';
 
 const SIZES: LinkSize[] = [
-    'S',
-    'M',
-    'L',
-    'XL',
+    'xSmall',
+    'small',
+    'medium',
+    'large',
+    'xLarge',
 ];
 
 export const SizesStory: Story<LinkProps> = (props) => DisplayVariants({

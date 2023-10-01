@@ -1,4 +1,4 @@
-import { KeysFromUseStyles, makeStyles, QX_BORDER_SIZE, typography } from '@core';
+import { KeysFromUseStyles, makeStyles, QX_BORDER_SIZE } from '@core';
 import { keyframes } from '@emotion/react';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { PALETTE_COLORS } from '@core/styles';
@@ -23,7 +23,7 @@ Record<'base' | 'brandColor', number>
 };
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         size,
         borderRadius,
@@ -267,9 +267,9 @@ export const useStyles = makeStyles((
                 color: palette.text.secondary,
             },
             paramsToCss(size)({
-                small: typography.Text.M.Regular,
-                medium: typography.Text.L.Regular,
-                large: typography.Text.XL.Regular,
+                small: typography.base.text.medium,
+                medium: typography.base.text.large,
+                large: typography.base.text.xLarge,
             }),
         ],
     });

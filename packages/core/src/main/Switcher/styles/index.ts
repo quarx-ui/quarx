@@ -1,11 +1,11 @@
-import { SWITCHER_POSITION, typography, KeysFromUseStyles, makeStyles, cssVar, PALETTE_COLORS } from '@core';
+import { SWITCHER_POSITION, KeysFromUseStyles, makeStyles, cssVar, PALETTE_COLORS } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { SwitcherCSSVarKeys } from '@core/src/main/Switcher/styles/vars';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
 import { SwitcherStyleParams } from './types';
 
 export const useStyles = makeStyles((
-    { palette, transitions },
+    { palette, transitions, typography },
     {
         size,
         checked,
@@ -229,9 +229,9 @@ export const useStyles = makeStyles((
                 color: palette.text.main,
             },
             paramsToCss(size)({
-                small: typography.Text.M.Regular,
-                medium: typography.Text.L.Regular,
-                large: typography.Text.XL.Regular,
+                small: typography.base.text.medium,
+                medium: typography.base.text.large,
+                large: typography.base.text.xLarge,
             }),
             paramsToCss(position)({
                 [SWITCHER_POSITION.left]: { marginLeft: cssVar(cssContentMargin) },
