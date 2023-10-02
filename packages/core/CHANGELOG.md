@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.7.2](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.7.2&targetBranch=@quarx-ui/core@2.7.1) (2023-10-02)
+
+
+### Bug Fixes
+
+* **Alert:** Исправлено переполнение текстом ([e336dd9](https://github.com/quarx-ui/quarx/commits/e336dd9c6f36fa389821fa7c4363de4ffb3ab983))
+
+
+### Code Refactoring
+
+* В компонентах теперь используется типографика из темы ([8e22865](https://github.com/quarx-ui/quarx/commits/8e2286507610b067f13644cb722e6da4a555102a))
+
+
+
 ### [2.7.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.7.1&targetBranch=@quarx-ui/core@2.7.0) (2023-09-25)
 
 
