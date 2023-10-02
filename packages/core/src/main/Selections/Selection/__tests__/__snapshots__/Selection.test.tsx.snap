@@ -50,17 +50,17 @@ exports[`Selection style params color brand 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -120,17 +120,17 @@ exports[`Selection style params color danger 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-j8ingd-QxSelection-helperText"
+          class="QxSelection-helperText css-1ofcmzq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -190,17 +190,17 @@ exports[`Selection style params color info 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1dl4pyn-QxSelection-helperText"
+          class="QxSelection-helperText css-cpl835-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -260,17 +260,17 @@ exports[`Selection style params color secondary 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-azkkhf-QxSelection-helperText"
+          class="QxSelection-helperText css-qsdj3g-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -330,17 +330,17 @@ exports[`Selection style params color success 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-ndyhqy-QxSelection-helperText"
+          class="QxSelection-helperText css-1vmts2p-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -400,17 +400,17 @@ exports[`Selection style params color warning 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-rsap5p-QxSelection-helperText"
+          class="QxSelection-helperText css-jjr609-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -470,17 +470,17 @@ exports[`Selection style params disableFocus false 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -540,17 +540,17 @@ exports[`Selection style params disableFocus true 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -610,17 +610,17 @@ exports[`Selection style params disabled false 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -681,17 +681,17 @@ exports[`Selection style params disabled true 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-53q8a3-QxSelection-title"
+          class="QxSelection-title css-wx7cwf-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-1w8cebd-QxSelection-description"
+          class="QxSelection-description css-1fpqrgb-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1a8dxpi-QxSelection-helperText"
+          class="QxSelection-helperText css-f1pjsc-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -751,17 +751,17 @@ exports[`Selection style params hover false 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -821,17 +821,17 @@ exports[`Selection style params hover true 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -891,17 +891,17 @@ exports[`Selection style params reverse false 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -961,17 +961,17 @@ exports[`Selection style params reverse true 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1031,17 +1031,17 @@ exports[`Selection style params size large 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-xzu70x-QxSelection-title"
+          class="QxSelection-title css-5v7g2q-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-1nnabbv-QxSelection-description"
+          class="QxSelection-description css-8u9ezk-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-8tg7is-QxSelection-helperText"
+          class="QxSelection-helperText css-19vld2f-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1101,17 +1101,17 @@ exports[`Selection style params size medium 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1171,17 +1171,17 @@ exports[`Selection style params size small 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-81jp23-QxSelection-title"
+          class="QxSelection-title css-2pifnp-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1241,17 +1241,17 @@ exports[`Selection style params type contained 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>
@@ -1311,17 +1311,17 @@ exports[`Selection style params type text 1`] = `
         class="QxSelection-texts css-zluihr-QxSelection-texts"
       >
         <span
-          class="QxSelection-title css-11ny95e-QxSelection-title"
+          class="QxSelection-title css-1px6wum-QxSelection-title"
         >
           Title
         </span>
         <span
-          class="QxSelection-description css-11pkris-QxSelection-description"
+          class="QxSelection-description css-13lzdit-QxSelection-description"
         >
           Description
         </span>
         <span
-          class="QxSelection-helperText css-1ch7yhl-QxSelection-helperText"
+          class="QxSelection-helperText css-1lvfrhq-QxSelection-helperText"
         >
           HelperText
         </span>

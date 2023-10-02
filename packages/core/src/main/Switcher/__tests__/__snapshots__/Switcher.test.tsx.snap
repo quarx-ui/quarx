@@ -20,7 +20,7 @@ exports[`Switcher style params color brand 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -48,7 +48,7 @@ exports[`Switcher style params color danger 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -76,7 +76,7 @@ exports[`Switcher style params color info 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -104,7 +104,7 @@ exports[`Switcher style params color secondary 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -132,7 +132,7 @@ exports[`Switcher style params color success 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -160,7 +160,7 @@ exports[`Switcher style params color warning 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -188,7 +188,7 @@ exports[`Switcher style params disabled false 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -217,7 +217,7 @@ exports[`Switcher style params disabled true 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -245,7 +245,7 @@ exports[`Switcher style params position left 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -260,7 +260,7 @@ exports[`Switcher style params position right 1`] = `
     data-testid="testStyleParams-position-right"
   >
     <div
-      class="QxSwitcher-content css-17vihdq-QxSwitcher-content"
+      class="QxSwitcher-content css-k0ay4v-QxSwitcher-content"
     >
       Статус
     </div>
@@ -301,7 +301,7 @@ exports[`Switcher style params size large 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-1od8eaj-QxSwitcher-content"
+      class="QxSwitcher-content css-ml31qi-QxSwitcher-content"
     >
       Статус
     </div>
@@ -329,7 +329,7 @@ exports[`Switcher style params size medium 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-18m9ids-QxSwitcher-content"
+      class="QxSwitcher-content css-77ulyy-QxSwitcher-content"
     >
       Статус
     </div>
@@ -357,7 +357,7 @@ exports[`Switcher style params size small 1`] = `
       />
     </div>
     <div
-      class="QxSwitcher-content css-s2mi71-QxSwitcher-content"
+      class="QxSwitcher-content css-dp9oc4-QxSwitcher-content"
     >
       Статус
     </div>

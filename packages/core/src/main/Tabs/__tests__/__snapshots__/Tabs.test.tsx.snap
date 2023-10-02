@@ -7,21 +7,21 @@ exports[`Tabs type:contained style params borderRadius large 1`] = `
     data-testid="testStyleParams-borderRadius-large"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-35k8ym-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-1eht5z4-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-35k8ym-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-1eht5z4-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-35k8ym-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabsContained-tab css-1eht5z4-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -35,7 +35,7 @@ exports[`Tabs type:contained style params borderRadius large 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-t5vasv-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-1pfyyps-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -43,7 +43,7 @@ exports[`Tabs type:contained style params borderRadius large 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-t5vasv-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-1pfyyps-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -51,7 +51,7 @@ exports[`Tabs type:contained style params borderRadius large 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-t5vasv-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_large QxTabItemContained_selected QxTabsContained-tab css-1pfyyps-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -70,21 +70,21 @@ exports[`Tabs type:contained style params borderRadius max 1`] = `
     data-testid="testStyleParams-borderRadius-max"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-1fcno1b-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-1wh1l29-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-1fcno1b-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-1wh1l29-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-1fcno1b-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabsContained-tab css-1wh1l29-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -98,7 +98,7 @@ exports[`Tabs type:contained style params borderRadius max 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-1uj8n0w-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-lowy6p-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -106,7 +106,7 @@ exports[`Tabs type:contained style params borderRadius max 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-1uj8n0w-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-lowy6p-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -114,7 +114,7 @@ exports[`Tabs type:contained style params borderRadius max 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-1uj8n0w-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_max QxTabItemContained_selected QxTabsContained-tab css-lowy6p-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -133,21 +133,21 @@ exports[`Tabs type:contained style params borderRadius medium 1`] = `
     data-testid="testStyleParams-borderRadius-medium"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -161,7 +161,7 @@ exports[`Tabs type:contained style params borderRadius medium 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -169,7 +169,7 @@ exports[`Tabs type:contained style params borderRadius medium 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -177,7 +177,7 @@ exports[`Tabs type:contained style params borderRadius medium 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -196,21 +196,21 @@ exports[`Tabs type:contained style params borderRadius small 1`] = `
     data-testid="testStyleParams-borderRadius-small"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-8k2dd1-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-c84132-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-8k2dd1-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-c84132-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-8k2dd1-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabsContained-tab css-c84132-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -224,7 +224,7 @@ exports[`Tabs type:contained style params borderRadius small 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-1v8ufwh-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-q9qgut-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -232,7 +232,7 @@ exports[`Tabs type:contained style params borderRadius small 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-1v8ufwh-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-q9qgut-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -240,7 +240,7 @@ exports[`Tabs type:contained style params borderRadius small 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-1v8ufwh-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_small QxTabItemContained_selected QxTabsContained-tab css-q9qgut-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -259,21 +259,21 @@ exports[`Tabs type:contained style params borderRadius xLarge 1`] = `
     data-testid="testStyleParams-borderRadius-xLarge"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-1021dp5-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-k6y83y-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-1021dp5-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-k6y83y-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-1021dp5-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabsContained-tab css-k6y83y-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -287,7 +287,7 @@ exports[`Tabs type:contained style params borderRadius xLarge 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-1t730g7-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-1pe3mxa-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -295,7 +295,7 @@ exports[`Tabs type:contained style params borderRadius xLarge 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-1t730g7-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-1pe3mxa-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -303,7 +303,7 @@ exports[`Tabs type:contained style params borderRadius xLarge 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-1t730g7-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xLarge QxTabItemContained_selected QxTabsContained-tab css-1pe3mxa-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -322,21 +322,21 @@ exports[`Tabs type:contained style params borderRadius xSmall 1`] = `
     data-testid="testStyleParams-borderRadius-xSmall"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-r7nzvk-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-1mf6kww-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-r7nzvk-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-1mf6kww-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-r7nzvk-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabsContained-tab css-1mf6kww-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -350,7 +350,7 @@ exports[`Tabs type:contained style params borderRadius xSmall 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1d5afiz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1tcebo9-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -358,7 +358,7 @@ exports[`Tabs type:contained style params borderRadius xSmall 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1d5afiz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1tcebo9-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -366,7 +366,7 @@ exports[`Tabs type:contained style params borderRadius xSmall 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1d5afiz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_xSmall QxTabItemContained_selected QxTabsContained-tab css-1tcebo9-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -385,21 +385,21 @@ exports[`Tabs type:contained style params color brand 1`] = `
     data-testid="testStyleParams-color-brand"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -413,7 +413,7 @@ exports[`Tabs type:contained style params color brand 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -421,7 +421,7 @@ exports[`Tabs type:contained style params color brand 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -429,7 +429,7 @@ exports[`Tabs type:contained style params color brand 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -448,21 +448,21 @@ exports[`Tabs type:contained style params color danger 1`] = `
     data-testid="testStyleParams-color-danger"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1g85qgj-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-gz67f5-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1g85qgj-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-gz67f5-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1g85qgj-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-gz67f5-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -476,7 +476,7 @@ exports[`Tabs type:contained style params color danger 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-aiqrns-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-yuspah-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -484,7 +484,7 @@ exports[`Tabs type:contained style params color danger 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-aiqrns-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-yuspah-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -492,7 +492,7 @@ exports[`Tabs type:contained style params color danger 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-aiqrns-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_danger QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-yuspah-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -511,21 +511,21 @@ exports[`Tabs type:contained style params color info 1`] = `
     data-testid="testStyleParams-color-info"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1wc09me-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-x0r2kh-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1wc09me-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-x0r2kh-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1wc09me-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-x0r2kh-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -539,7 +539,7 @@ exports[`Tabs type:contained style params color info 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-8xpln3-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1l6q0v8-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -547,7 +547,7 @@ exports[`Tabs type:contained style params color info 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-8xpln3-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1l6q0v8-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -555,7 +555,7 @@ exports[`Tabs type:contained style params color info 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-8xpln3-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_info QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1l6q0v8-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -574,21 +574,21 @@ exports[`Tabs type:contained style params color secondary 1`] = `
     data-testid="testStyleParams-color-secondary"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-9idhzg-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1jcso2-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-9idhzg-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1jcso2-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-9idhzg-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1jcso2-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -602,7 +602,7 @@ exports[`Tabs type:contained style params color secondary 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1bppxxr-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-15d0sod-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -610,7 +610,7 @@ exports[`Tabs type:contained style params color secondary 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1bppxxr-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-15d0sod-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -618,7 +618,7 @@ exports[`Tabs type:contained style params color secondary 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1bppxxr-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_secondary QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-15d0sod-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -637,21 +637,21 @@ exports[`Tabs type:contained style params color success 1`] = `
     data-testid="testStyleParams-color-success"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-11i63ax-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-qzjiop-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-11i63ax-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-qzjiop-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-11i63ax-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-qzjiop-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -665,7 +665,7 @@ exports[`Tabs type:contained style params color success 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-13dfyuv-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-ea7ijp-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -673,7 +673,7 @@ exports[`Tabs type:contained style params color success 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-13dfyuv-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-ea7ijp-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -681,7 +681,7 @@ exports[`Tabs type:contained style params color success 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-13dfyuv-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_success QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-ea7ijp-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -700,21 +700,21 @@ exports[`Tabs type:contained style params color warning 1`] = `
     data-testid="testStyleParams-color-warning"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-of5xd-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1cvflzr-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-of5xd-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1cvflzr-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-of5xd-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1cvflzr-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -728,7 +728,7 @@ exports[`Tabs type:contained style params color warning 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-be4em2-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-mgtqcp-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -736,7 +736,7 @@ exports[`Tabs type:contained style params color warning 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-be4em2-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-mgtqcp-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -744,7 +744,7 @@ exports[`Tabs type:contained style params color warning 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-be4em2-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_warning QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-mgtqcp-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -763,21 +763,21 @@ exports[`Tabs type:contained style params size large 1`] = `
     data-testid="testStyleParams-size-large"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-fkqu4x-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1obtfcd-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-fkqu4x-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1obtfcd-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-fkqu4x-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabsContained-tab css-1obtfcd-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -791,7 +791,7 @@ exports[`Tabs type:contained style params size large 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1sqmlaj-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1d08ps9-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -799,7 +799,7 @@ exports[`Tabs type:contained style params size large 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1sqmlaj-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1d08ps9-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -807,7 +807,7 @@ exports[`Tabs type:contained style params size large 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1sqmlaj-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_large QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1d08ps9-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -826,21 +826,21 @@ exports[`Tabs type:contained style params size medium 1`] = `
     data-testid="testStyleParams-size-medium"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-16mkyxx-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabsContained-tab css-3opd80-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -854,7 +854,7 @@ exports[`Tabs type:contained style params size medium 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -862,7 +862,7 @@ exports[`Tabs type:contained style params size medium 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -870,7 +870,7 @@ exports[`Tabs type:contained style params size medium 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1tac8nz-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_medium QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1yg94mg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -889,21 +889,21 @@ exports[`Tabs type:contained style params size small 1`] = `
     data-testid="testStyleParams-size-small"
   >
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-ps6szr-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-m3g4c-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="-1"
       type="button"
     >
       Главная
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-ps6szr-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-m3g4c-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
       Новости
     </button>
     <button
-      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-ps6szr-QxTabItemContained-root-QxTabsContained-tab"
+      class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabsContained-tab css-m3g4c-QxTabItemContained-root-QxTabsContained-tab"
       tabindex="0"
       type="button"
     >
@@ -917,7 +917,7 @@ exports[`Tabs type:contained style params size small 1`] = `
       >
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-f704kr-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1wcywvg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -925,7 +925,7 @@ exports[`Tabs type:contained style params size small 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-f704kr-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1wcywvg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -933,7 +933,7 @@ exports[`Tabs type:contained style params size small 1`] = `
         </button>
         <button
           area-disabled="true"
-          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-f704kr-QxTabItemContained-root-QxTabsContained-tab"
+          class="QxTabItemContained QxTabItemContained_color_brand QxTabItemContained_size_small QxTabItemContained_borderRadius_medium QxTabItemContained_selected QxTabsContained-tab css-1wcywvg-QxTabItemContained-root-QxTabsContained-tab"
           tabindex="-1"
           type="button"
         >
@@ -954,14 +954,14 @@ exports[`Tabs type:contained with counter 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -973,7 +973,7 @@ exports[`Tabs type:contained with counter 1`] = `
         </span>
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -992,7 +992,7 @@ exports[`Tabs type:contained with counter 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1000,7 +1000,7 @@ exports[`Tabs type:contained with counter 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1013,7 +1013,7 @@ exports[`Tabs type:contained with counter 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1038,7 +1038,7 @@ exports[`Tabs type:default style params color brand 1`] = `
     data-testid="testStyleParams-color-brand"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1058,7 +1058,7 @@ exports[`Tabs type:default style params color brand 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1078,7 +1078,7 @@ exports[`Tabs type:default style params color brand 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1111,7 +1111,7 @@ exports[`Tabs type:default style params color danger 1`] = `
     data-testid="testStyleParams-color-danger"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1131,7 +1131,7 @@ exports[`Tabs type:default style params color danger 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1151,7 +1151,7 @@ exports[`Tabs type:default style params color danger 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1184,7 +1184,7 @@ exports[`Tabs type:default style params color info 1`] = `
     data-testid="testStyleParams-color-info"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1204,7 +1204,7 @@ exports[`Tabs type:default style params color info 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1224,7 +1224,7 @@ exports[`Tabs type:default style params color info 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1257,7 +1257,7 @@ exports[`Tabs type:default style params color secondary 1`] = `
     data-testid="testStyleParams-color-secondary"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1277,7 +1277,7 @@ exports[`Tabs type:default style params color secondary 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1297,7 +1297,7 @@ exports[`Tabs type:default style params color secondary 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1330,7 +1330,7 @@ exports[`Tabs type:default style params color success 1`] = `
     data-testid="testStyleParams-color-success"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1350,7 +1350,7 @@ exports[`Tabs type:default style params color success 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1370,7 +1370,7 @@ exports[`Tabs type:default style params color success 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1403,7 +1403,7 @@ exports[`Tabs type:default style params color warning 1`] = `
     data-testid="testStyleParams-color-warning"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1423,7 +1423,7 @@ exports[`Tabs type:default style params color warning 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1443,7 +1443,7 @@ exports[`Tabs type:default style params color warning 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1476,7 +1476,7 @@ exports[`Tabs type:default style params line down 1`] = `
     data-testid="testStyleParams-line-down"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1496,7 +1496,7 @@ exports[`Tabs type:default style params line down 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1516,7 +1516,7 @@ exports[`Tabs type:default style params line down 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1549,7 +1549,7 @@ exports[`Tabs type:default style params line up 1`] = `
     data-testid="testStyleParams-line-up"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabItemDefault_selected QxTabsDefault-tab css-nv17x2-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabItemDefault_selected QxTabsDefault-tab css-owlh02-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1569,7 +1569,7 @@ exports[`Tabs type:default style params line up 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabsDefault-tab css-11ygnys-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabsDefault-tab css-1b8f623-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1589,7 +1589,7 @@ exports[`Tabs type:default style params line up 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabsDefault-tab css-11ygnys-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_up QxTabsDefault-tab css-1b8f623-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1622,7 +1622,7 @@ exports[`Tabs type:default style params size large 1`] = `
     data-testid="testStyleParams-size-large"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-17x9nxw-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-1gtlo97-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1642,7 +1642,7 @@ exports[`Tabs type:default style params size large 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabsDefault-tab css-66crmk-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabsDefault-tab css-awfrap-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1662,7 +1662,7 @@ exports[`Tabs type:default style params size large 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabsDefault-tab css-66crmk-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_large QxTabItemDefault_line_down QxTabsDefault-tab css-awfrap-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1695,7 +1695,7 @@ exports[`Tabs type:default style params size medium 1`] = `
     data-testid="testStyleParams-size-medium"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-f97nl7-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-9vdjs9-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1715,7 +1715,7 @@ exports[`Tabs type:default style params size medium 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1735,7 +1735,7 @@ exports[`Tabs type:default style params size medium 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-v9mc7b-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_medium QxTabItemDefault_line_down QxTabsDefault-tab css-156mvoh-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1768,7 +1768,7 @@ exports[`Tabs type:default style params size small 1`] = `
     data-testid="testStyleParams-size-small"
   >
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-1m3t475-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabItemDefault_selected QxTabsDefault-tab css-109jblq-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="-1"
       type="button"
     >
@@ -1788,7 +1788,7 @@ exports[`Tabs type:default style params size small 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabsDefault-tab css-5iiby2-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabsDefault-tab css-1126xqy-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1808,7 +1808,7 @@ exports[`Tabs type:default style params size small 1`] = `
       </div>
     </button>
     <button
-      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabsDefault-tab css-5iiby2-QxTabItemDefault-root-QxTabsDefault-tab"
+      class="QxTabItemDefault QxTabItemDefault_size_small QxTabItemDefault_line_down QxTabsDefault-tab css-1126xqy-QxTabItemDefault-root-QxTabsDefault-tab"
       tabindex="0"
       type="button"
     >
@@ -1843,14 +1843,14 @@ exports[`Tabs type:default with counter 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -1862,7 +1862,7 @@ exports[`Tabs type:default with counter 1`] = `
         </span>
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -1881,7 +1881,7 @@ exports[`Tabs type:default with counter 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1889,7 +1889,7 @@ exports[`Tabs type:default with counter 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1902,7 +1902,7 @@ exports[`Tabs type:default with counter 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1930,21 +1930,21 @@ exports[`Tabs type:segmented style params borderRadius large 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-w9ghpu-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-3i1dn6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-hipbgg-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-sm9hgo-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-hipbgg-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabsSegmented-tab css-sm9hgo-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -1958,7 +1958,7 @@ exports[`Tabs type:segmented style params borderRadius large 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-1ystkly-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-x32aw5-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1966,7 +1966,7 @@ exports[`Tabs type:segmented style params borderRadius large 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-qj6e07-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-1x055cr-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1974,7 +1974,7 @@ exports[`Tabs type:segmented style params borderRadius large 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-qj6e07-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_large QxTabItemSegmented_selected QxTabsSegmented-tab css-1x055cr-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -1997,21 +1997,21 @@ exports[`Tabs type:segmented style params borderRadius max 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-1w5s2dp-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-ywo3zb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-tih20q-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-80ppur-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-tih20q-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabsSegmented-tab css-80ppur-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2025,7 +2025,7 @@ exports[`Tabs type:segmented style params borderRadius max 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-g8d37i-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-1heu2a5-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2033,7 +2033,7 @@ exports[`Tabs type:segmented style params borderRadius max 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-ovzytl-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-12weysh-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2041,7 +2041,7 @@ exports[`Tabs type:segmented style params borderRadius max 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-ovzytl-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_max QxTabItemSegmented_selected QxTabsSegmented-tab css-12weysh-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2064,21 +2064,21 @@ exports[`Tabs type:segmented style params borderRadius medium 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2092,7 +2092,7 @@ exports[`Tabs type:segmented style params borderRadius medium 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2100,7 +2100,7 @@ exports[`Tabs type:segmented style params borderRadius medium 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2108,7 +2108,7 @@ exports[`Tabs type:segmented style params borderRadius medium 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2131,21 +2131,21 @@ exports[`Tabs type:segmented style params borderRadius small 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-1ydoos6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-1ha0h1y-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-j6u2fo-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-1kno808-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-j6u2fo-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabsSegmented-tab css-1kno808-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2159,7 +2159,7 @@ exports[`Tabs type:segmented style params borderRadius small 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-1221mrr-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-1979u9k-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2167,7 +2167,7 @@ exports[`Tabs type:segmented style params borderRadius small 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-f8a4db-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-18wsrg-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2175,7 +2175,7 @@ exports[`Tabs type:segmented style params borderRadius small 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-f8a4db-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_small QxTabItemSegmented_selected QxTabsSegmented-tab css-18wsrg-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2198,21 +2198,21 @@ exports[`Tabs type:segmented style params borderRadius xLarge 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-dre3ru-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-1p75vsj-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-jy01bq-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-1gm2rgt-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-jy01bq-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabsSegmented-tab css-1gm2rgt-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2226,7 +2226,7 @@ exports[`Tabs type:segmented style params borderRadius xLarge 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-1001yt1-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-1q0pk9n-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2234,7 +2234,7 @@ exports[`Tabs type:segmented style params borderRadius xLarge 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-12cmdjc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-16ia2q2-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2242,7 +2242,7 @@ exports[`Tabs type:segmented style params borderRadius xLarge 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-12cmdjc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xLarge QxTabItemSegmented_selected QxTabsSegmented-tab css-16ia2q2-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2265,21 +2265,21 @@ exports[`Tabs type:segmented style params borderRadius xSmall 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-xln1xf-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-oq2d9x-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-gltbid-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-tbzpd0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-gltbid-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabsSegmented-tab css-tbzpd0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2293,7 +2293,7 @@ exports[`Tabs type:segmented style params borderRadius xSmall 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-116gsvg-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-t0mfc6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2301,7 +2301,7 @@ exports[`Tabs type:segmented style params borderRadius xSmall 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-1ten119-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-8b6eeb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2309,7 +2309,7 @@ exports[`Tabs type:segmented style params borderRadius xSmall 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-1ten119-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_xSmall QxTabItemSegmented_selected QxTabsSegmented-tab css-8b6eeb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2332,21 +2332,21 @@ exports[`Tabs type:segmented style params color brand 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2360,7 +2360,7 @@ exports[`Tabs type:segmented style params color brand 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2368,7 +2368,7 @@ exports[`Tabs type:segmented style params color brand 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2376,7 +2376,7 @@ exports[`Tabs type:segmented style params color brand 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2399,21 +2399,21 @@ exports[`Tabs type:segmented style params color danger 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2427,7 +2427,7 @@ exports[`Tabs type:segmented style params color danger 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2435,7 +2435,7 @@ exports[`Tabs type:segmented style params color danger 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2443,7 +2443,7 @@ exports[`Tabs type:segmented style params color danger 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_danger QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2466,21 +2466,21 @@ exports[`Tabs type:segmented style params color info 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2494,7 +2494,7 @@ exports[`Tabs type:segmented style params color info 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2502,7 +2502,7 @@ exports[`Tabs type:segmented style params color info 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2510,7 +2510,7 @@ exports[`Tabs type:segmented style params color info 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_info QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2533,21 +2533,21 @@ exports[`Tabs type:segmented style params color secondary 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2561,7 +2561,7 @@ exports[`Tabs type:segmented style params color secondary 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2569,7 +2569,7 @@ exports[`Tabs type:segmented style params color secondary 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2577,7 +2577,7 @@ exports[`Tabs type:segmented style params color secondary 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_secondary QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2600,21 +2600,21 @@ exports[`Tabs type:segmented style params color success 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2628,7 +2628,7 @@ exports[`Tabs type:segmented style params color success 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2636,7 +2636,7 @@ exports[`Tabs type:segmented style params color success 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2644,7 +2644,7 @@ exports[`Tabs type:segmented style params color success 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_success QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2667,21 +2667,21 @@ exports[`Tabs type:segmented style params color warning 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2695,7 +2695,7 @@ exports[`Tabs type:segmented style params color warning 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2703,7 +2703,7 @@ exports[`Tabs type:segmented style params color warning 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2711,7 +2711,7 @@ exports[`Tabs type:segmented style params color warning 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_warning QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2734,21 +2734,21 @@ exports[`Tabs type:segmented style params size large 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-t50q8j-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-11vbbb0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-qq8h09-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-n5h9nb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-qq8h09-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-n5h9nb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2762,7 +2762,7 @@ exports[`Tabs type:segmented style params size large 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1iilk3j-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-17ali3x-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2770,7 +2770,7 @@ exports[`Tabs type:segmented style params size large 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1nyfjau-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1f1fsjh-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2778,7 +2778,7 @@ exports[`Tabs type:segmented style params size large 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1nyfjau-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_large QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1f1fsjh-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2801,21 +2801,21 @@ exports[`Tabs type:segmented style params size medium 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2829,7 +2829,7 @@ exports[`Tabs type:segmented style params size medium 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2837,7 +2837,7 @@ exports[`Tabs type:segmented style params size medium 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2845,7 +2845,7 @@ exports[`Tabs type:segmented style params size medium 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2868,21 +2868,21 @@ exports[`Tabs type:segmented style params size small 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1oytoi7-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1blngnd-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1faooyf-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-38zi35-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
         Новости
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1faooyf-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-38zi35-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2896,7 +2896,7 @@ exports[`Tabs type:segmented style params size small 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-nhn4ak-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-75swc0-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2904,7 +2904,7 @@ exports[`Tabs type:segmented style params size small 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1pduzy9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1emx8jw-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2912,7 +2912,7 @@ exports[`Tabs type:segmented style params size small 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1pduzy9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_small QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1emx8jw-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2934,14 +2934,14 @@ exports[`Tabs type:segmented with counter 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
         Главная
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2953,7 +2953,7 @@ exports[`Tabs type:segmented with counter 1`] = `
         </span>
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -2972,7 +2972,7 @@ exports[`Tabs type:segmented with counter 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2980,7 +2980,7 @@ exports[`Tabs type:segmented with counter 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -2993,7 +2993,7 @@ exports[`Tabs type:segmented with counter 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -3020,7 +3020,7 @@ exports[`Tabs type:segmented with icons 1`] = `
       class="QxTabsContainer QxTabsContainer_scrollPosition_none QxTabsSegmented-container css-nlu3fm-QxTabsContainer-root-QxTabsSegmented-container"
     >
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1bltc2s-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-12xmvs9-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="-1"
         type="button"
       >
@@ -3044,7 +3044,7 @@ exports[`Tabs type:segmented with icons 1`] = `
         </svg>
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -3064,7 +3064,7 @@ exports[`Tabs type:segmented with icons 1`] = `
         </svg>
       </button>
       <button
-        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-gsy5jb-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+        class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabsSegmented-tab css-1rm3hpc-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
         tabindex="0"
         type="button"
       >
@@ -3115,7 +3115,7 @@ exports[`Tabs type:segmented with icons 1`] = `
         >
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-hlku2l-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-ytzja6-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -3140,7 +3140,7 @@ exports[`Tabs type:segmented with icons 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >
@@ -3161,7 +3161,7 @@ exports[`Tabs type:segmented with icons 1`] = `
           </button>
           <button
             area-disabled="true"
-            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-1x8q7ut-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
+            class="QxTabItemSegmented QxTabItemSegmented_color_brand QxTabItemSegmented_size_medium QxTabItemSegmented_borderRadius_medium QxTabItemSegmented_selected QxTabsSegmented-tab css-9v71ef-QxTabItemSegmented-root-QxTabsSegmented-tab-renderItems"
             tabindex="-1"
             type="button"
           >

@@ -13,7 +13,7 @@ exports[`Accordion style params inheritTextStyles false 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -46,7 +46,7 @@ exports[`Accordion style params inheritTextStyles false 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
+          class="QxAccordion-details css-1y873mk-QxAccordion-details"
         />
       </div>
     </div>
@@ -67,7 +67,7 @@ exports[`Accordion style params inheritTextStyles true 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -121,7 +121,7 @@ exports[`Accordion style params open false 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -154,7 +154,7 @@ exports[`Accordion style params open false 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
+          class="QxAccordion-details css-1y873mk-QxAccordion-details"
         />
       </div>
     </div>
@@ -175,7 +175,7 @@ exports[`Accordion style params open true 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -208,7 +208,7 @@ exports[`Accordion style params open true 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
+          class="QxAccordion-details css-1y873mk-QxAccordion-details"
         />
       </div>
     </div>
@@ -229,7 +229,7 @@ exports[`Accordion style params showDivider false 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -262,7 +262,7 @@ exports[`Accordion style params showDivider false 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
+          class="QxAccordion-details css-1y873mk-QxAccordion-details"
         />
       </div>
     </div>
@@ -283,7 +283,7 @@ exports[`Accordion style params showDivider true 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -316,7 +316,7 @@ exports[`Accordion style params showDivider true 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
+          class="QxAccordion-details css-1y873mk-QxAccordion-details"
         />
       </div>
     </div>
@@ -341,7 +341,7 @@ exports[`Accordion style params size large 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-9nwk8a-QxAccordion-title"
+          class="QxAccordion-title css-18d8pxk-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -374,7 +374,7 @@ exports[`Accordion style params size large 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-ps667h-QxAccordion-details"
+          class="QxAccordion-details css-x6hjk2-QxAccordion-details"
         />
       </div>
     </div>
@@ -395,7 +395,7 @@ exports[`Accordion style params size medium 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1ti6pvr-QxAccordion-title"
+          class="QxAccordion-title css-1nzfuik-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -428,7 +428,7 @@ exports[`Accordion style params size medium 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-2yvlwo-QxAccordion-details"
+          class="QxAccordion-details css-1y873mk-QxAccordion-details"
         />
       </div>
     </div>
@@ -449,7 +449,7 @@ exports[`Accordion style params size small 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-10lrczt-QxAccordion-title"
+          class="QxAccordion-title css-1f5uowy-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -482,7 +482,7 @@ exports[`Accordion style params size small 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-1qvfua-QxAccordion-details"
+          class="QxAccordion-details css-1wih1nu-QxAccordion-details"
         />
       </div>
     </div>
@@ -503,7 +503,7 @@ exports[`Accordion style params size xSmall 1`] = `
         class="QxAccordion-headline css-s7lr0r-QxAccordion-headline"
       >
         <div
-          class="QxAccordion-title css-1c2wnnn-QxAccordion-title"
+          class="QxAccordion-title css-1ciwu8q-QxAccordion-title"
         />
         <div
           class="QxAccordion-icons css-oq9g9v-QxAccordion-icons"
@@ -536,7 +536,7 @@ exports[`Accordion style params size xSmall 1`] = `
         class="QxCollapse-wrapper css-43rt2t-QxCollapse-wrapper"
       >
         <div
-          class="QxAccordion-details css-4mauda-QxAccordion-details"
+          class="QxAccordion-details css-19gtwjt-QxAccordion-details"
         />
       </div>
     </div>

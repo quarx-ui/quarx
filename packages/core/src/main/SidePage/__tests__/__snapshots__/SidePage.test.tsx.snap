@@ -7,7 +7,7 @@ exports[`SidePage keepMounted sidePage always in the document 1`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -32,7 +32,7 @@ exports[`SidePage keepMounted sidePage always in the document 1`] = `
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box QxSidePage-box css-3oh5up-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-lekud0-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
@@ -41,18 +41,18 @@ exports[`SidePage keepMounted sidePage always in the document 1`] = `
             class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-rqd63l-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-18wacyg-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-1n6ihjx-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -91,7 +91,7 @@ exports[`SidePage keepMounted sidePage always in the document 2`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -116,7 +116,7 @@ exports[`SidePage keepMounted sidePage always in the document 2`] = `
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box QxSidePage-box css-3oh5up-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-lekud0-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
@@ -125,18 +125,18 @@ exports[`SidePage keepMounted sidePage always in the document 2`] = `
             class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-rqd63l-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-18wacyg-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-1n6ihjx-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -176,7 +176,7 @@ exports[`SidePage sidePage in the document 1`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -192,7 +192,7 @@ exports[`SidePage sidePage in the document 2`] = `
   <div>
     <div>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
         data-testid="buttonTestId"
         type="button"
       />
@@ -217,7 +217,7 @@ exports[`SidePage sidePage in the document 2`] = `
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box QxSidePage-box css-3oh5up-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-lekud0-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
@@ -226,18 +226,18 @@ exports[`SidePage sidePage in the document 2`] = `
             class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           >
             <div
-              class="QxHeaderBlock-title css-1p40syo-QxHeaderBlock-title"
+              class="QxHeaderBlock-title css-rqd63l-QxHeaderBlock-title"
             >
               Title
             </div>
             <div
-              class="QxHeaderBlock-subTitle css-12h5hex-QxHeaderBlock-subTitle"
+              class="QxHeaderBlock-subTitle css-18wacyg-QxHeaderBlock-subTitle"
             >
               SubTitle
             </div>
           </div>
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-1n6ihjx-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -268,7 +268,7 @@ exports[`SidePage sidePage in the document 2`] = `
           class="QxFooterBlock QxFooterBlock_size_medium QxFooterBlock_direction_vertical QxSidePage-footerBlock css-l1hdy0-QxSidePage-footerBlock-QxFooterBlock-root"
         >
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
@@ -278,7 +278,7 @@ exports[`SidePage sidePage in the document 2`] = `
             </div>
           </button>
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-aql2t3-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-dc59f4-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
@@ -288,7 +288,7 @@ exports[`SidePage sidePage in the document 2`] = `
             </div>
           </button>
           <button
-            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fi0prz-QxBaseButton-root-QxButton-root"
+            class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-18ju0uc-QxBaseButton-root-QxButton-root"
             type="button"
           >
             <div
@@ -329,7 +329,7 @@ exports[`SidePage style params size medium 1`] = `
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box QxSidePage-box css-3oh5up-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-lekud0-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_medium css-9oje8r-QxHeaderBlock-root"
@@ -338,7 +338,7 @@ exports[`SidePage style params size medium 1`] = `
             class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           />
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-1n6ihjx-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div
@@ -390,7 +390,7 @@ exports[`SidePage style params size small 1`] = `
       data-component="QxOverScreen-child"
     >
       <div
-        class="QxModal-box QxSidePage-box css-halxhf-QxSidePage-box-QxModal-box"
+        class="QxModal-box QxSidePage-box css-1lje4f0-QxSidePage-box-QxModal-box"
       >
         <div
           class="QxHeaderBlock QxHeaderBlock_size_small css-11mwf9r-QxHeaderBlock-root"
@@ -399,7 +399,7 @@ exports[`SidePage style params size small 1`] = `
             class="QxHeaderBlock-content css-8aatdw-QxHeaderBlock-content"
           />
           <button
-            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-yj9ie1-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
+            class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small QxHeaderBlock-closeButton css-1n6ihjx-QxBaseButton-root-QxIconButton-root-QxHeaderBlock-closeButton"
             type="button"
           >
             <div

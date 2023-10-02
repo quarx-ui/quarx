@@ -6,7 +6,7 @@ exports[`TextField icons should be in document 1`] = `
     class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_rightItemIsExist QxTextField_counterVisibleOn_focus css-s5hqmf-QxTextField-root"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
@@ -31,12 +31,12 @@ exports[`TextField icons should be in document 1`] = `
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           value=""
         />
       </div>
@@ -82,7 +82,7 @@ exports[`TextField icons should be in document 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -96,18 +96,18 @@ exports[`TextField style params borderRadius large 1`] = `
     data-testid="testStyleParams-borderRadius-large"
   >
     <div
-      class="QxTextField-field css-r027tr-QxTextField-field"
+      class="QxTextField-field css-n9ngso-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -137,7 +137,7 @@ exports[`TextField style params borderRadius large 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -151,18 +151,18 @@ exports[`TextField style params borderRadius medium 1`] = `
     data-testid="testStyleParams-borderRadius-medium"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -192,7 +192,7 @@ exports[`TextField style params borderRadius medium 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -206,18 +206,18 @@ exports[`TextField style params borderRadius small 1`] = `
     data-testid="testStyleParams-borderRadius-small"
   >
     <div
-      class="QxTextField-field css-mxi0cp-QxTextField-field"
+      class="QxTextField-field css-17utow7-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -247,7 +247,7 @@ exports[`TextField style params borderRadius small 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -261,18 +261,18 @@ exports[`TextField style params borderRadius xLarge 1`] = `
     data-testid="testStyleParams-borderRadius-xLarge"
   >
     <div
-      class="QxTextField-field css-mz3g4l-QxTextField-field"
+      class="QxTextField-field css-fmbu1a-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -302,7 +302,7 @@ exports[`TextField style params borderRadius xLarge 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -316,18 +316,18 @@ exports[`TextField style params borderRadius xSmall 1`] = `
     data-testid="testStyleParams-borderRadius-xSmall"
   >
     <div
-      class="QxTextField-field css-1v0lwjb-QxTextField-field"
+      class="QxTextField-field css-104dcob-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -357,7 +357,7 @@ exports[`TextField style params borderRadius xSmall 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -371,18 +371,18 @@ exports[`TextField style params clearIconVisibleOn always 1`] = `
     data-testid="testStyleParams-clearIconVisibleOn-always"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -412,7 +412,7 @@ exports[`TextField style params clearIconVisibleOn always 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -426,18 +426,18 @@ exports[`TextField style params clearIconVisibleOn interact 1`] = `
     data-testid="testStyleParams-clearIconVisibleOn-interact"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -467,7 +467,7 @@ exports[`TextField style params clearIconVisibleOn interact 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -481,18 +481,18 @@ exports[`TextField style params clearIconVisibleOn none 1`] = `
     data-testid="testStyleParams-clearIconVisibleOn-none"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -502,7 +502,7 @@ exports[`TextField style params clearIconVisibleOn none 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -516,18 +516,18 @@ exports[`TextField style params colorBase main 1`] = `
     data-testid="testStyleParams-colorBase-main"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -557,7 +557,7 @@ exports[`TextField style params colorBase main 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -571,18 +571,18 @@ exports[`TextField style params colorBase secondary 1`] = `
     data-testid="testStyleParams-colorBase-secondary"
   >
     <div
-      class="QxTextField-field css-1rrg5tp-QxTextField-field"
+      class="QxTextField-field css-xvotku-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -612,7 +612,7 @@ exports[`TextField style params colorBase secondary 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -626,18 +626,18 @@ exports[`TextField style params disableHoverStyles false 1`] = `
     data-testid="testStyleParams-disableHoverStyles-false"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -667,7 +667,7 @@ exports[`TextField style params disableHoverStyles false 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -681,18 +681,18 @@ exports[`TextField style params disableHoverStyles true 1`] = `
     data-testid="testStyleParams-disableHoverStyles-true"
   >
     <div
-      class="QxTextField-field css-uovibj-QxTextField-field"
+      class="QxTextField-field css-tigsca-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -722,7 +722,7 @@ exports[`TextField style params disableHoverStyles true 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -736,18 +736,18 @@ exports[`TextField style params disableLabel false 1`] = `
     data-testid="testStyleParams-disableLabel-false"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -777,7 +777,7 @@ exports[`TextField style params disableLabel false 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -791,13 +791,13 @@ exports[`TextField style params disableLabel true 1`] = `
     data-testid="testStyleParams-disableLabel-true"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-3ob657-QxTextField-content"
       >
         <input
-          class="QxTextField-input css-1hvnc2l-QxTextField-input"
+          class="QxTextField-input css-49ott5-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -827,7 +827,7 @@ exports[`TextField style params disableLabel true 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -841,18 +841,18 @@ exports[`TextField style params error false 1`] = `
     data-testid="testStyleParams-error-false"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -882,7 +882,7 @@ exports[`TextField style params error false 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -896,18 +896,18 @@ exports[`TextField style params error true 1`] = `
     data-testid="testStyleParams-error-true"
   >
     <div
-      class="QxTextField-field css-17xv0c4-QxTextField-field"
+      class="QxTextField-field css-454qks-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -937,7 +937,7 @@ exports[`TextField style params error true 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-1hgh01h-QxTextField-bottomText"
+        class="QxTextField-bottomText css-w1v4gg-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -951,18 +951,18 @@ exports[`TextField style params filled false 1`] = `
     data-testid="testStyleParams-filled-false"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -992,7 +992,7 @@ exports[`TextField style params filled false 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1006,18 +1006,18 @@ exports[`TextField style params filled true 1`] = `
     data-testid="testStyleParams-filled-true"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1cagac0-QxTextField-label"
+          class="QxTextField-label css-1iiv8nn-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1f5tj1k-QxTextField-input"
+          class="QxTextField-input css-igllpa-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1047,7 +1047,7 @@ exports[`TextField style params filled true 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1061,18 +1061,18 @@ exports[`TextField style params focused false 1`] = `
     data-testid="testStyleParams-focused-false"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1102,7 +1102,7 @@ exports[`TextField style params focused false 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1116,18 +1116,18 @@ exports[`TextField style params focused true 1`] = `
     data-testid="testStyleParams-focused-true"
   >
     <div
-      class="QxTextField-field css-1qjggkm-QxTextField-field"
+      class="QxTextField-field css-bxe9ih-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-1cagac0-QxTextField-label"
+          class="QxTextField-label css-1iiv8nn-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1f5tj1k-QxTextField-input"
+          class="QxTextField-input css-igllpa-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1157,7 +1157,7 @@ exports[`TextField style params focused true 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1171,18 +1171,18 @@ exports[`TextField style params loading false 1`] = `
     data-testid="testStyleParams-loading-false"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1212,7 +1212,7 @@ exports[`TextField style params loading false 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1226,18 +1226,18 @@ exports[`TextField style params loading true 1`] = `
     data-testid="testStyleParams-loading-true"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1oliiva-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           disabled=""
           placeholder="Enter a value"
           value=""
@@ -1281,7 +1281,7 @@ exports[`TextField style params loading true 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1295,18 +1295,18 @@ exports[`TextField style params size large 1`] = `
     data-testid="testStyleParams-size-large"
   >
     <div
-      class="QxTextField-field css-pmyfcy-QxTextField-field"
+      class="QxTextField-field css-iiqgqo-QxTextField-field"
     >
       <div
         class="QxTextField-content css-ik6ies-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-12ewok1-QxTextField-label"
+          class="QxTextField-label css-12sbocy-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1fmppir-QxTextField-input"
+          class="QxTextField-input css-4u8r03-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1336,7 +1336,7 @@ exports[`TextField style params size large 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-3ykfv-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1i4fgon-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1350,18 +1350,18 @@ exports[`TextField style params size medium 1`] = `
     data-testid="testStyleParams-size-medium"
   >
     <div
-      class="QxTextField-field css-8qeini-QxTextField-field"
+      class="QxTextField-field css-1tml5w5-QxTextField-field"
     >
       <div
         class="QxTextField-content css-13xoinj-QxTextField-content"
       >
         <div
-          class="QxTextField-label css-vd6xzx-QxTextField-label"
+          class="QxTextField-label css-vnouyb-QxTextField-label"
         >
           Text Field
         </div>
         <input
-          class="QxTextField-input css-1pq6x6v-QxTextField-input"
+          class="QxTextField-input css-1lfbyx3-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1391,7 +1391,7 @@ exports[`TextField style params size medium 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
@@ -1405,18 +1405,18 @@ exports[`TextField style params size small 1`] = `
     data-testid="testStyleParams-size-small"
   >
     <div
-      class="QxTextField-label css-g56ojd-QxTextField-label"
+      class="QxTextField-label css-163bu1z-QxTextField-label"
     >
       Text Field
     </div>
     <div
-      class="QxTextField-field css-5wpk5h-QxTextField-field"
+      class="QxTextField-field css-we6ofa-QxTextField-field"
     >
       <div
         class="QxTextField-content css-1wvjmc6-QxTextField-content"
       >
         <input
-          class="QxTextField-input css-1hvnc2l-QxTextField-input"
+          class="QxTextField-input css-49ott5-QxTextField-input"
           placeholder="Enter a value"
           value=""
         />
@@ -1446,7 +1446,7 @@ exports[`TextField style params size small 1`] = `
       class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
     >
       <div
-        class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+        class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
       />
     </div>
   </div>
