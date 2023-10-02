@@ -3,7 +3,7 @@
 exports[`Button style params borderRadius large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxButton QxButton_size_medium css-1ub1wmz-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxButton QxButton_size_medium css-ilckt4-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-borderRadius-large"
     type="button"
   >
@@ -19,7 +19,7 @@ exports[`Button style params borderRadius large 1`] = `
 exports[`Button style params borderRadius max 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_max QxButton QxButton_size_medium css-1br41rj-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_max QxButton QxButton_size_medium css-1a2libf-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-borderRadius-max"
     type="button"
   >
@@ -35,7 +35,7 @@ exports[`Button style params borderRadius max 1`] = `
 exports[`Button style params borderRadius medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-borderRadius-medium"
     type="button"
   >
@@ -51,7 +51,7 @@ exports[`Button style params borderRadius medium 1`] = `
 exports[`Button style params borderRadius small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxButton QxButton_size_medium css-8k5wf0-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxButton QxButton_size_medium css-vvdoj2-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-borderRadius-small"
     type="button"
   >
@@ -67,7 +67,7 @@ exports[`Button style params borderRadius small 1`] = `
 exports[`Button style params borderRadius xLarge 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxButton QxButton_size_medium css-1tnoh5b-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxButton QxButton_size_medium css-e71xz4-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-borderRadius-xLarge"
     type="button"
   >
@@ -83,7 +83,7 @@ exports[`Button style params borderRadius xLarge 1`] = `
 exports[`Button style params borderRadius xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxButton QxButton_size_medium css-1x3b0ub-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxButton QxButton_size_medium css-1l712ja-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-borderRadius-xSmall"
     type="button"
   >
@@ -99,7 +99,7 @@ exports[`Button style params borderRadius xSmall 1`] = `
 exports[`Button style params color brand 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-color-brand"
     type="button"
   >
@@ -115,7 +115,7 @@ exports[`Button style params color brand 1`] = `
 exports[`Button style params color danger 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-egfqu9-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-tpd3op-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-color-danger"
     type="button"
   >
@@ -131,7 +131,7 @@ exports[`Button style params color danger 1`] = `
 exports[`Button style params color info 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1wor5td-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-j77i26-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-color-info"
     type="button"
   >
@@ -147,7 +147,7 @@ exports[`Button style params color info 1`] = `
 exports[`Button style params color secondary 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1efdbgj-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-qmz44v-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-color-secondary"
     type="button"
   >
@@ -163,7 +163,7 @@ exports[`Button style params color secondary 1`] = `
 exports[`Button style params color success 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1ozmdzy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-zm0qmi-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-color-success"
     type="button"
   >
@@ -179,7 +179,7 @@ exports[`Button style params color success 1`] = `
 exports[`Button style params color warning 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-at7shv-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-15xp5ld-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-color-warning"
     type="button"
   >
@@ -195,7 +195,7 @@ exports[`Button style params color warning 1`] = `
 exports[`Button style params loading false 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-loading-false"
     type="button"
   >
@@ -211,7 +211,7 @@ exports[`Button style params loading false 1`] = `
 exports[`Button style params loading true 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxButton QxButton_size_medium QxButton_loading css-1uy0fc1-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxButton QxButton_size_medium QxButton_loading css-1fy9cfh-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-loading-true"
     disabled=""
     type="button"
@@ -241,7 +241,7 @@ exports[`Button style params loading true 1`] = `
 exports[`Button style params size large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_large css-k4gsun-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_large css-1lj498o-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-size-large"
     type="button"
   >
@@ -257,7 +257,7 @@ exports[`Button style params size large 1`] = `
 exports[`Button style params size medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-size-medium"
     type="button"
   >
@@ -273,7 +273,7 @@ exports[`Button style params size medium 1`] = `
 exports[`Button style params size small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-ilqipc-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-2y01ra-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-size-small"
     type="button"
   >
@@ -289,7 +289,7 @@ exports[`Button style params size small 1`] = `
 exports[`Button style params size xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-o0lqzv-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-9u94k8-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-size-xSmall"
     type="button"
   >
@@ -305,7 +305,7 @@ exports[`Button style params size xSmall 1`] = `
 exports[`Button style params type contained 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-3dyhpy-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1fbw8lm-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-type-contained"
     type="button"
   >
@@ -321,7 +321,7 @@ exports[`Button style params type contained 1`] = `
 exports[`Button style params type outlined 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-cbtt8s-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-61ndx9-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-type-outlined"
     type="button"
   >
@@ -337,7 +337,7 @@ exports[`Button style params type outlined 1`] = `
 exports[`Button style params type text 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-o22j1h-QxBaseButton-root-QxButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-ws1lc9-QxBaseButton-root-QxButton-root"
     data-testid="testStyleParams-type-text"
     type="button"
   >
@@ -353,7 +353,7 @@ exports[`Button style params type text 1`] = `
 exports[`IconButton style params borderRadius large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxIconButton QxIconButton_size_medium css-5g5jcg-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_large QxIconButton QxIconButton_size_medium css-173josa-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-borderRadius-large"
     type="button"
   >
@@ -369,7 +369,7 @@ exports[`IconButton style params borderRadius large 1`] = `
 exports[`IconButton style params borderRadius max 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_max QxIconButton QxIconButton_size_medium css-f3gpgt-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_max QxIconButton QxIconButton_size_medium css-1uh590j-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-borderRadius-max"
     type="button"
   >
@@ -385,7 +385,7 @@ exports[`IconButton style params borderRadius max 1`] = `
 exports[`IconButton style params borderRadius medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1t4t2po-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-8ktg0a-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-borderRadius-medium"
     type="button"
   >
@@ -401,7 +401,7 @@ exports[`IconButton style params borderRadius medium 1`] = `
 exports[`IconButton style params borderRadius small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxIconButton QxIconButton_size_medium css-1owt149-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_small QxIconButton QxIconButton_size_medium css-2sx44r-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-borderRadius-small"
     type="button"
   >
@@ -417,7 +417,7 @@ exports[`IconButton style params borderRadius small 1`] = `
 exports[`IconButton style params borderRadius xLarge 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxIconButton QxIconButton_size_medium css-10nl3em-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xLarge QxIconButton QxIconButton_size_medium css-mp1wch-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-borderRadius-xLarge"
     type="button"
   >
@@ -433,7 +433,7 @@ exports[`IconButton style params borderRadius xLarge 1`] = `
 exports[`IconButton style params borderRadius xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxIconButton QxIconButton_size_medium css-kt38zj-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_xSmall QxIconButton QxIconButton_size_medium css-ny3nnz-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-borderRadius-xSmall"
     type="button"
   >
@@ -449,7 +449,7 @@ exports[`IconButton style params borderRadius xSmall 1`] = `
 exports[`IconButton style params color brand 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1t4t2po-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-8ktg0a-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-color-brand"
     type="button"
   >
@@ -465,7 +465,7 @@ exports[`IconButton style params color brand 1`] = `
 exports[`IconButton style params color danger 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-gmga1s-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_danger QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-v96kdr-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-color-danger"
     type="button"
   >
@@ -481,7 +481,7 @@ exports[`IconButton style params color danger 1`] = `
 exports[`IconButton style params color info 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-12h1fwu-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_info QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-139os9-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-color-info"
     type="button"
   >
@@ -497,7 +497,7 @@ exports[`IconButton style params color info 1`] = `
 exports[`IconButton style params color secondary 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1295dfr-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-19ftbb2-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-color-secondary"
     type="button"
   >
@@ -513,7 +513,7 @@ exports[`IconButton style params color secondary 1`] = `
 exports[`IconButton style params color success 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-v9sp9q-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_success QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1cpw16y-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-color-success"
     type="button"
   >
@@ -529,7 +529,7 @@ exports[`IconButton style params color success 1`] = `
 exports[`IconButton style params color warning 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-j9s2ur-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_warning QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1aqmpdh-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-color-warning"
     type="button"
   >
@@ -545,7 +545,7 @@ exports[`IconButton style params color warning 1`] = `
 exports[`IconButton style params loading false 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1t4t2po-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-8ktg0a-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-loading-false"
     type="button"
   >
@@ -561,7 +561,7 @@ exports[`IconButton style params loading false 1`] = `
 exports[`IconButton style params loading true 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxIconButton QxIconButton_size_medium QxIconButton_loading css-1nbcdjz-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxBaseButton_loading QxIconButton QxIconButton_size_medium QxIconButton_loading css-1jjenx6-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-loading-true"
     disabled=""
     type="button"
@@ -588,7 +588,7 @@ exports[`IconButton style params loading true 1`] = `
 exports[`IconButton style params size large 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_large css-1q2ichz-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_large QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_large css-1lbtzzm-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-size-large"
     type="button"
   >
@@ -604,7 +604,7 @@ exports[`IconButton style params size large 1`] = `
 exports[`IconButton style params size medium 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1t4t2po-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-8ktg0a-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-size-medium"
     type="button"
   >
@@ -620,7 +620,7 @@ exports[`IconButton style params size medium 1`] = `
 exports[`IconButton style params size small 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small css-1grymb6-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_small css-1cb0r6h-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-size-small"
     type="button"
   >
@@ -636,7 +636,7 @@ exports[`IconButton style params size small 1`] = `
 exports[`IconButton style params size xSmall 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_xSmall css-1pr1m8e-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_xSmall css-jb3fu4-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-size-xSmall"
     type="button"
   >
@@ -652,7 +652,7 @@ exports[`IconButton style params size xSmall 1`] = `
 exports[`IconButton style params type contained 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1t4t2po-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_contained QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-8ktg0a-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-type-contained"
     type="button"
   >
@@ -668,7 +668,7 @@ exports[`IconButton style params type contained 1`] = `
 exports[`IconButton style params type outlined 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1whr47t-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1fvou5g-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-type-outlined"
     type="button"
   >
@@ -684,7 +684,7 @@ exports[`IconButton style params type outlined 1`] = `
 exports[`IconButton style params type text 1`] = `
 <DocumentFragment>
   <button
-    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-1u0c268-QxBaseButton-root-QxIconButton-root"
+    class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_text QxBaseButton_borderRadius_medium QxIconButton QxIconButton_size_medium css-181lyz2-QxBaseButton-root-QxIconButton-root"
     data-testid="testStyleParams-type-text"
     type="button"
   >

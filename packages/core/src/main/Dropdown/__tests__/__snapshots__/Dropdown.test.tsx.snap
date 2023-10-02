@@ -9,7 +9,7 @@ exports[`Dropdown enabled all snapshot 1`] = `
       class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
     >
       <span
-        class="QxDropdown-title css-5cqacw-QxDropdown-title"
+        class="QxDropdown-title css-1fgaqp7-QxDropdown-title"
       >
         Title
       </span>
@@ -17,7 +17,7 @@ exports[`Dropdown enabled all snapshot 1`] = `
         class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-1rrg5tp-QxTextField-field"
+          class="QxTextField-field css-xvotku-QxTextField-field"
         >
           <div
             class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
@@ -40,7 +40,7 @@ exports[`Dropdown enabled all snapshot 1`] = `
             class="QxTextField-content css-3ob657-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               placeholder="Test placeholder"
               size="1"
               value=""
@@ -71,7 +71,7 @@ exports[`Dropdown enabled all snapshot 1`] = `
           class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
@@ -85,7 +85,7 @@ exports[`Dropdown enabled all snapshot 1`] = `
       class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -95,7 +95,7 @@ exports[`Dropdown enabled all snapshot 1`] = `
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -121,7 +121,7 @@ exports[`Dropdown large 1`] = `
         class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-7peyxb-QxTextField-field"
+          class="QxTextField-field css-164d520-QxTextField-field"
         >
           <div
             class="QxTextField-leftItem QxTextField-sideItem css-1l6ubuc-QxTextField-leftItem-QxTextField-sideItem-TextField"
@@ -144,7 +144,7 @@ exports[`Dropdown large 1`] = `
             class="QxTextField-content css-1xd1yhs-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-194q6zy-QxTextField-input"
+              class="QxTextField-input css-1adtfth-QxTextField-input"
               size="1"
               value=""
             />
@@ -174,7 +174,7 @@ exports[`Dropdown large 1`] = `
           class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-3ykfv-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1i4fgon-QxTextField-bottomText"
           />
         </div>
       </div>
@@ -188,7 +188,7 @@ exports[`Dropdown large 1`] = `
       class="QxDropdown-footer css-6oqsar-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-cbtt8s-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-61ndx9-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -198,7 +198,7 @@ exports[`Dropdown large 1`] = `
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-rb7ifc-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-eblkf4-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -224,7 +224,7 @@ exports[`Dropdown medium 1`] = `
         class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-1rrg5tp-QxTextField-field"
+          class="QxTextField-field css-xvotku-QxTextField-field"
         >
           <div
             class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
@@ -247,7 +247,7 @@ exports[`Dropdown medium 1`] = `
             class="QxTextField-content css-3ob657-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               size="1"
               value=""
             />
@@ -277,7 +277,7 @@ exports[`Dropdown medium 1`] = `
           class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
@@ -291,7 +291,7 @@ exports[`Dropdown medium 1`] = `
       class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -301,7 +301,7 @@ exports[`Dropdown medium 1`] = `
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -329,7 +329,7 @@ exports[`Dropdown searchable false 1`] = `
       class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -339,7 +339,7 @@ exports[`Dropdown searchable false 1`] = `
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -365,7 +365,7 @@ exports[`Dropdown searchable true 1`] = `
         class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-1rrg5tp-QxTextField-field"
+          class="QxTextField-field css-xvotku-QxTextField-field"
         >
           <div
             class="QxTextField-leftItem QxTextField-sideItem css-etclum-QxTextField-leftItem-QxTextField-sideItem-TextField"
@@ -388,7 +388,7 @@ exports[`Dropdown searchable true 1`] = `
             class="QxTextField-content css-3ob657-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               size="1"
               value=""
             />
@@ -418,7 +418,7 @@ exports[`Dropdown searchable true 1`] = `
           class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
@@ -432,7 +432,7 @@ exports[`Dropdown searchable true 1`] = `
       class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hrnbya-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -442,7 +442,7 @@ exports[`Dropdown searchable true 1`] = `
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-hso1t-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -468,7 +468,7 @@ exports[`Dropdown small 1`] = `
         class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-v79zad-QxTextField-field"
+          class="QxTextField-field css-1rkt0ss-QxTextField-field"
         >
           <div
             class="QxTextField-leftItem QxTextField-sideItem css-12kqoe5-QxTextField-leftItem-QxTextField-sideItem-TextField"
@@ -491,7 +491,7 @@ exports[`Dropdown small 1`] = `
             class="QxTextField-content css-1wvjmc6-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1hvnc2l-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               size="1"
               value=""
             />
@@ -521,7 +521,7 @@ exports[`Dropdown small 1`] = `
           class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-i5kgpy-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
@@ -535,7 +535,7 @@ exports[`Dropdown small 1`] = `
       class="QxDropdown-footer css-66pkkd-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-1oq51is-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-u53owg-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
@@ -545,7 +545,7 @@ exports[`Dropdown small 1`] = `
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-xym8cg-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-ggechv-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div

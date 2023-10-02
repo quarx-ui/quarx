@@ -4,7 +4,7 @@ exports[`Link icons should be in document 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     tabindex="0"
   >
     <span
@@ -61,7 +61,7 @@ exports[`Link should work with custom Component 1`] = `
 <DocumentFragment>
   <div
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     data-testid="custom-component"
     tabindex="0"
   >
@@ -78,7 +78,7 @@ exports[`Link should work with custom tag 1`] = `
 <DocumentFragment>
   <div
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     data-testid="Link"
     tabindex="0"
   >
@@ -95,7 +95,7 @@ exports[`Link style params color brand 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_brand QxLink_size_inherit css-316x8e-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_brand QxLink_size_inherit css-g7vb5e-QxLink-root"
     data-testid="testStyleParams-color-brand"
     tabindex="0"
   >
@@ -112,7 +112,7 @@ exports[`Link style params color danger 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_danger QxLink_size_inherit css-1jxdddp-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_danger QxLink_size_inherit css-q932lo-QxLink-root"
     data-testid="testStyleParams-color-danger"
     tabindex="0"
   >
@@ -129,7 +129,7 @@ exports[`Link style params color info 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     data-testid="testStyleParams-color-info"
     tabindex="0"
   >
@@ -146,7 +146,7 @@ exports[`Link style params color secondary 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_secondary QxLink_size_inherit css-1p9c9gp-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_secondary QxLink_size_inherit css-1dnl8re-QxLink-root"
     data-testid="testStyleParams-color-secondary"
     tabindex="0"
   >
@@ -163,7 +163,7 @@ exports[`Link style params color success 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_success QxLink_size_inherit css-a523fz-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_success QxLink_size_inherit css-dmsf25-QxLink-root"
     data-testid="testStyleParams-color-success"
     tabindex="0"
   >
@@ -180,7 +180,7 @@ exports[`Link style params color warning 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_warning QxLink_size_inherit css-pjqw31-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_warning QxLink_size_inherit css-1skbg28-QxLink-root"
     data-testid="testStyleParams-color-warning"
     tabindex="0"
   >
@@ -197,7 +197,7 @@ exports[`Link style params disabled false 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     data-testid="testStyleParams-disabled-false"
     tabindex="0"
   >
@@ -214,7 +214,7 @@ exports[`Link style params disabled true 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="true"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit QxLink_disabled css-1b4z7df-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit QxLink_disabled css-2qgve9-QxLink-root"
     data-testid="testStyleParams-disabled-true"
     tabindex="0"
   >
@@ -231,7 +231,7 @@ exports[`Link style params size L 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_L css-f3u81g-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_L css-6r20ts-QxLink-root"
     data-testid="testStyleParams-size-L"
     tabindex="0"
   >
@@ -248,7 +248,7 @@ exports[`Link style params size M 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_M css-1wobivw-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_M css-15zqggq-QxLink-root"
     data-testid="testStyleParams-size-M"
     tabindex="0"
   >
@@ -265,7 +265,7 @@ exports[`Link style params size S 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_S css-hl1l7y-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_S css-1s8m9b-QxLink-root"
     data-testid="testStyleParams-size-S"
     tabindex="0"
   >
@@ -282,7 +282,7 @@ exports[`Link style params size XL 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_XL css-1uyptfk-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_XL css-vgexyi-QxLink-root"
     data-testid="testStyleParams-size-XL"
     tabindex="0"
   >
@@ -299,7 +299,7 @@ exports[`Link style params size inherit 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     data-testid="testStyleParams-size-inherit"
     tabindex="0"
   >
@@ -316,7 +316,7 @@ exports[`Link style params underline always 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1d3y5jv-QxLink-root"
+    class="QxLink QxLink_underline_always QxLink_color_info QxLink_size_inherit css-1kg4h5r-QxLink-root"
     data-testid="testStyleParams-underline-always"
     tabindex="0"
   >
@@ -333,7 +333,7 @@ exports[`Link style params underline hover 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_hover QxLink_color_info QxLink_size_inherit css-l60gd-QxLink-root"
+    class="QxLink QxLink_underline_hover QxLink_color_info QxLink_size_inherit css-y0f5yq-QxLink-root"
     data-testid="testStyleParams-underline-hover"
     tabindex="0"
   >
@@ -350,7 +350,7 @@ exports[`Link style params underline none 1`] = `
 <DocumentFragment>
   <a
     aria-disabled="false"
-    class="QxLink QxLink_underline_none QxLink_color_info QxLink_size_inherit css-1cn4zum-QxLink-root"
+    class="QxLink QxLink_underline_none QxLink_color_info QxLink_size_inherit css-1i53igr-QxLink-root"
     data-testid="testStyleParams-underline-none"
     tabindex="0"
   >

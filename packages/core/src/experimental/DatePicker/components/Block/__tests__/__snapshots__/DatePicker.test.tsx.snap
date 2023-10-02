@@ -845,18 +845,18 @@ exports[`DatePicker Snapshot 1`] = `
         class="QxTextField QxTextField_borderRadius_small QxTextField_size_large QxTextField_colorBase_main QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxFooterDatePicker-selectedTime css-1v4bu99-QxTextField-root-QxFooterDatePicker-selectedTime"
       >
         <div
-          class="QxTextField-field css-16jtwkf-QxTextField-field"
+          class="QxTextField-field css-ul17r3-QxTextField-field"
         >
           <div
             class="QxTextField-content css-ik6ies-QxTextField-content"
           >
             <div
-              class="QxTextField-label css-1tncotx-QxFooterDatePicker-labelTimeTextField-QxTextField-label"
+              class="QxTextField-label css-8dsmvq-QxFooterDatePicker-labelTimeTextField-QxTextField-label"
             >
               Время
             </div>
             <input
-              class="QxTextField-input css-1fmppir-QxTextField-input"
+              class="QxTextField-input css-4u8r03-QxTextField-input"
               size="8"
               value=""
             />
@@ -886,7 +886,7 @@ exports[`DatePicker Snapshot 1`] = `
           class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-3ykfv-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1i4fgon-QxTextField-bottomText"
           />
         </div>
       </div>
