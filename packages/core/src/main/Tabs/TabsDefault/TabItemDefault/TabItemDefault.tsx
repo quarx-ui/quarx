@@ -3,7 +3,7 @@ import {
     QX_SIZE,
     usePropsOverwrites,
     OverridableComponent,
-    OverridableComponentRef,
+    OverridableComponentRef, isNullOrUndefined,
 } from '@core';
 import { TabItemDefaultProps, TabItemDefaultPropsWithoutHtml } from './types';
 import { useStyles } from './styles';
@@ -57,7 +57,7 @@ export const TabItemDefault: OverridableComponent<TabItemDefaultPropsWithoutHtml
                         {children}
                     </div>
                 </div>
-                {counter && (
+                {!isNullOrUndefined(counter) && (
                     <span
                         className={cn('counter')}
                         css={styles.counter}
