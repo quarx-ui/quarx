@@ -37,8 +37,7 @@ export const Collapse: FC<CollapseProps> = forwardRef<HTMLDivElement, CollapsePr
     const timeoutPropertyKebab = isVertical ? 'max-height' : 'max-width';
 
     const [mapStatusToStyles, setMapStatusToStyles] = useState<MapTransitionStatusToStyles>();
-
-    const childrenHeightOrWidth = refToChildren.current?.[isVertical ? 'offsetHeight' : 'offsetWidth'];
+    const [childrenHeightOrWidth, setChildrenHeightOrWidth] = useState<number>(0);
 
     useEffect(() => {
         setMapStatusToStyles({
@@ -80,7 +79,16 @@ export const Collapse: FC<CollapseProps> = forwardRef<HTMLDivElement, CollapsePr
                     css={styles.root}
                     {...rest}
                 >
-                    <div ref={refToChildren} className={cn('wrapper')} css={styles.wrapper}>
+                    <div
+                        ref={(elem) => {
+                            if (!elem) {
+                                return;
+                            }
+                            setChildrenHeightOrWidth(elem[isVertical ? 'offsetHeight' : 'offsetWidth']);
+                        }}
+                        className={cn('wrapper')}
+                        css={styles.wrapper}
+                    >
                         {children}
                     </div>
                 </div>
