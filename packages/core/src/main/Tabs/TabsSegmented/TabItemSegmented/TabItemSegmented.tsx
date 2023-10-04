@@ -4,7 +4,7 @@ import {
     PALETTE_COLORS,
     usePropsOverwrites,
     OverridableComponent,
-    OverridableComponentRef,
+    OverridableComponentRef, isNullOrUndefined,
 } from '@core';
 import { TabItemSegmentedProps, TabItemSegmentedPropsWithoutHtml } from './types';
 import { useStyles } from './styles';
@@ -49,7 +49,7 @@ export const TabItemSegmented: OverridableComponent<TabItemSegmentedPropsWithout
                 {...restProps}
             >
                 {children}
-                {counter && !icon && (
+                {!isNullOrUndefined(counter) && !icon && (
                     <span
                         className={cn('counter')}
                         css={styles.counter}

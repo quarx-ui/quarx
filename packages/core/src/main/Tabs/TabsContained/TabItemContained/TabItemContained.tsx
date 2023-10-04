@@ -4,7 +4,7 @@ import {
     PALETTE_COLORS,
     usePropsOverwrites,
     OverridableComponent,
-    OverridableComponentRef,
+    OverridableComponentRef, isNullOrUndefined,
 } from '@core';
 import { TabItemContainedProps, TabItemContainedPropsWithoutHtml } from './types';
 import { useStyles } from './styles';
@@ -47,7 +47,7 @@ export const TabItemContained: OverridableComponent<TabItemContainedPropsWithout
                 {...restProps}
             >
                 {children}
-                {counter && (
+                {!isNullOrUndefined(counter) && (
                     <span
                         className={cn('counter')}
                         css={styles.counter}
