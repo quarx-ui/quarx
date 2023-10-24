@@ -25,6 +25,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         counter = false,
         error: externalError,
         errorText: externalErrorText,
+        errorIcon,
         internalErrors,
         helperText,
         maxLength,
@@ -333,6 +334,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
                 styles={styles}
                 cn={cn}
                 errorText={errorText}
+                errorIcon={errorIcon}
                 length={length}
                 maxLength={maxLength}
                 helperText={helperText}

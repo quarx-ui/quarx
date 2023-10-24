@@ -1,7 +1,8 @@
 import {
     ChangeEventHandler,
     ReactElement,
-    ReactNode, Ref,
+    ReactNode,
+    Ref,
 } from 'react';
 import { BaseProps, ComponentPropsWithHTML } from '@core/types';
 import { WithClassesAndStyles } from '@core/styles';
@@ -92,6 +93,9 @@ export interface TextFieldPropsWithoutHtml extends
 
     /** Текст ошибки */
     errorText?: string;
+
+    /** Иконка рядом с текстом ошибки */
+    errorIcon?: ReactNode;
 
     /** Объект с текстами ошибок */
     internalErrors?: {

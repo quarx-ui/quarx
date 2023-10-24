@@ -6,6 +6,7 @@ export const Bottom: FC<BottomProps> = ({
     helperText,
     counter,
     errorText,
+    errorIcon = <WarningIcon />,
     maxLength,
     length,
     styles,
@@ -25,7 +26,7 @@ export const Bottom: FC<BottomProps> = ({
                 {hasErrorText
                     ? (
                         <Fragment>
-                            <WarningIcon />
+                            {errorIcon}
                             <div
                                 css={styles.errorText}
                                 className={cn('errorText')}

@@ -8,7 +8,7 @@ export interface BaseStylesProps {
 }
 
 export interface BottomProps extends
-    Pick<TextFieldPropsWithoutHtml, 'helperText' | 'counter' | 'errorText'>,
+    Pick<TextFieldPropsWithoutHtml, 'helperText' | 'counter' | 'errorText' | 'errorIcon'>,
     Pick<BaseTextFieldProps, 'maxLength'>,
     BaseStylesProps
 {
