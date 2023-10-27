@@ -1,0 +1,1924 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs Collapse custom. from start 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="ellipsis"
+        href="#"
+        tabindex="0"
+      >
+        ...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Collapse custom. simple 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="ellipsis"
+        href="#"
+        tabindex="0"
+      >
+        ...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Collapse custom. until the end 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="ellipsis"
+        href="#"
+        tabindex="0"
+      >
+        ...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Collapse default 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="ellipsis"
+        href="#"
+        tabindex="0"
+      >
+        ...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Collapse default. less than 5 crumbs 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Divider 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        -
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        -
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        -
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        -
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        -
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        -
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params color brand 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-color-brand"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params color danger 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_danger QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-color-danger"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-ftfr2e-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-ftfr2e-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-ftfr2e-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-ftfr2e-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-ftfr2e-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-ftfr2e-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_danger QxBreadcrumb_type_link css-1jpk10a-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params color info 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_info QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-color-info"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1gpnn7m-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1gpnn7m-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1gpnn7m-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1gpnn7m-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1gpnn7m-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1gpnn7m-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_info QxBreadcrumb_type_link css-9dvgqh-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params color secondary 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_secondary QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-color-secondary"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1e8trlr-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1e8trlr-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1e8trlr-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1e8trlr-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1e8trlr-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1e8trlr-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_secondary QxBreadcrumb_type_link css-4g5x0e-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params color success 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_success QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-color-success"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-4v8ewc-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-4v8ewc-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-4v8ewc-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-4v8ewc-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-4v8ewc-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-4v8ewc-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_success QxBreadcrumb_type_link css-fkuicy-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params color warning 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_warning QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-color-warning"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1slxbwp-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1slxbwp-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1slxbwp-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1slxbwp-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1slxbwp-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1slxbwp-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_warning QxBreadcrumb_type_link css-1m4ogft-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params disableFocus false 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-disableFocus-false"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params disableFocus true 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link QxBreadcrumbs_disableFocus css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-disableFocus-true"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="-1"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="-1"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="-1"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="-1"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="-1"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="-1"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link QxBreadcrumb_disableFocus css-duaxm3-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="-1"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params size large 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_large QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-size-large"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_8px QxStack_divider QxBreadcrumbs-stack css-vo4xkp-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-soy12w-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-soy12w-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-soy12w-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-soy12w-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-soy12w-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-soy12w-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_large QxBreadcrumb_color_brand QxBreadcrumb_type_link css-69a34f-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params size medium 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-size-medium"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params size small 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_small QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-size-small"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-p5vhnd-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-p5vhnd-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-p5vhnd-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-p5vhnd-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-p5vhnd-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-p5vhnd-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_small QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1fnf11p-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params type contained 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_contained css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-type-contained"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_2px QxStack_divider QxBreadcrumbs-stack css-1qqs3gk-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1042wrx-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1042wrx-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1042wrx-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1042wrx-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1042wrx-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-1042wrx-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_contained css-1b4jvhv-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs style params type link 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+    data-testid="testStyleParams-type-link"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Главная
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Продукты
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Самокат
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Напитки
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Энергетики от самоката
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Скидка 300 ₽ на любой заказ от 1...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Кастомные компоненты 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="0"
+      >
+        Главная
+      </span>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="1"
+      >
+        Продукты
+      </span>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="2"
+      >
+        Самокат
+      </span>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="3"
+      >
+        Напитки
+      </span>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="4"
+      >
+        Энергетики
+      </span>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="5"
+      >
+        Энергетики от самоката
+      </span>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <span
+        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        color="brand"
+        type="link"
+        value="6"
+      >
+        Скидка 300 ₽ на любой заказ от 1 500 ₽
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumbs Ограничители 1`] = `
+<DocumentFragment>
+  <div
+    class="QxBreadcrumbs QxBreadcrumbs_size_medium QxBreadcrumbs_color_brand QxBreadcrumbs_type_link css-1ju1st-QxBreadcrumbs-root"
+  >
+    <div
+      class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
+    >
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="0"
+        href="#"
+        tabindex="0"
+      >
+        Гла...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="1"
+        href="#"
+        tabindex="0"
+      >
+        Про...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="2"
+        href="#"
+        tabindex="0"
+      >
+        Сам...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="3"
+        href="#"
+        tabindex="0"
+      >
+        Нап...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="4"
+        href="#"
+        tabindex="0"
+      >
+        Эне...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="5"
+        href="#"
+        tabindex="0"
+      >
+        Эне...
+      </a>
+      <div
+        class="QxBreadcrumbs-divider css-185bo5x-QxBreadcrumbs-divider"
+      >
+        /
+      </div>
+      <a
+        class="QxBreadcrumb QxBreadcrumb_size_medium QxBreadcrumb_color_brand QxBreadcrumb_type_link css-1ve1cr-QxBreadcrumb-root"
+        data-value="6"
+        href="#"
+        tabindex="0"
+      >
+        Ск...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

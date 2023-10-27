@@ -1,12 +1,16 @@
 import { FC } from 'react';
 import { makeStyles } from '@core';
 
-const useStyles = makeStyles(({ typography }) => ({
+const useStyles = makeStyles(({
+    palette,
+    typography,
+}) => ({
     root: {
         margin: 12,
         ...typography.base.text.medium,
         fontSize: 18,
-        color: '#333333BB',
+        color: palette.text.main,
+        textAlign: 'center',
     },
 }));
 

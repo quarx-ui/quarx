@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb style params disableFocus false 1`] = `
+<DocumentFragment>
+  <a
+    class="QxDroppedBreadcrumb QxDroppedBreadcrumb_size_medium QxDroppedBreadcrumb_color_brand QxDroppedBreadcrumb_type_link css-6baust-QxDroppedBreadcrumb-root"
+    data-testid="testStyleParams-disableFocus-false"
+    data-value="1"
+    href="#"
+    tabindex="0"
+  >
+    Скидка 300 ₽ на любой заказ от 1 500 ₽
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Breadcrumb style params disableFocus true 1`] = `
+<DocumentFragment>
+  <a
+    class="QxDroppedBreadcrumb QxDroppedBreadcrumb_disableFocus QxDroppedBreadcrumb_size_medium QxDroppedBreadcrumb_color_brand QxDroppedBreadcrumb_type_link css-6uyx31-QxDroppedBreadcrumb-root"
+    data-testid="testStyleParams-disableFocus-true"
+    data-value="1"
+    href="#"
+    tabindex="-1"
+  >
+    Скидка 300 ₽ на любой заказ от 1 500 ₽
+  </a>
+</DocumentFragment>
+`;
