@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.0&targetBranch=@quarx-ui/core@2.7.2) (2023-11-03)
+
+
+### Features
+
+* **TextField:** Добавлена возможность изменения иконки рядом с ошибкой ([#294](https://github.com/quarx-ui/quarx/issues/294)) ([f7748bd](https://github.com/quarx-ui/quarx/commits/f7748bd8bcfaa6b6d523d7963fe54331ffd2875d))
+* Добавлен компонент **Breadcrumbs** ([#194](https://github.com/quarx-ui/quarx/issues/194)) ([66dcfd9](https://github.com/quarx-ui/quarx/commits/66dcfd918f7256819f42df4060cf1b178a619456)), closes [#117](https://github.com/quarx-ui/quarx/issues/117)
+
+
+### Bug Fixes
+
+* **Collapse:** исправлен баг с расчетом размера дочернего компонента ([6d2c27d](https://github.com/quarx-ui/quarx/commits/6d2c27d6aac404a56b693b206df54f03a9609357))
+* **Tabs:** исправлено некорректное отображение counter при передаче туда 0 ([beb39e2](https://github.com/quarx-ui/quarx/commits/beb39e28310c91dd4b4ab2b74a702c4a7c0ef159))
+
+
+
 ### [2.7.2](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.7.2&targetBranch=@quarx-ui/core@2.7.1) (2023-10-02)
 
 
