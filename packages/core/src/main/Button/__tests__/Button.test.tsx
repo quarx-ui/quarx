@@ -2,11 +2,17 @@ import { FC, ReactNode } from 'react';
 import { cleanup, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { testStyleParams } from '@core/test-utils';
-import { Button, IconButton, ButtonStyleParams, ButtonProps, IconButtonProps } from '@core';
+import {
+    Button,
+    IconButton,
+    BaseButtonStyleParams,
+    ButtonProps,
+    IconButtonProps,
+} from '@core';
 import { PaperClipIcon } from '../storybook/assets';
 
-const checkComponent = (Component: FC<ButtonProps & IconButtonProps>, children: ReactNode) => {
-    testStyleParams<Partial<ButtonStyleParams>, ButtonProps & IconButtonProps>(
+const checkComponent = (Component: FC<ButtonProps> | FC<IconButtonProps>, children: ReactNode) => {
+    testStyleParams<Partial<BaseButtonStyleParams>>(
         Component,
         {
             size: 'medium',

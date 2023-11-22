@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import { OmitClassesAndStyles, WithClassesAndStyles } from '@core/styles';
-import { BaseButtonProps, ButtonStyleParams } from '@core/src';
-import { ButtonStyleKeys, ButtonCSSVarKeys } from './styles';
+import { BaseButtonProps } from '@core/src';
+import { ButtonStyleKeys, ButtonCSSVarKeys, ButtonStyleParams } from './styles';
 
 export interface ButtonPropsWithoutStyling extends OmitClassesAndStyles<BaseButtonProps> {
     /** Иконка расположенная слева */

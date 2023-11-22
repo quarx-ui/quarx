@@ -1,13 +1,13 @@
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { KeysFromUseStyles, makeStyles } from '@core/styles/engine/makeStyles';
 import { cssVar } from '@core/utils';
-import { ButtonStyleParams } from '@core/src';
+import { BaseButtonStyleParams } from '@core/src';
 import { flexCenter, hidden } from '../../mixins';
 import { ButtonCSSVarKeys } from './vars';
 
 export const useStyles = makeStyles((
     theme,
-    { size, loading }: Pick<ButtonStyleParams, 'size' | 'loading'>,
+    { size, loading }: Pick<BaseButtonStyleParams, 'size' | 'loading'>,
     {
         cssPaddingX,
         cssPaddingY,
@@ -77,3 +77,4 @@ export const useStyles = makeStyles((
 
 export type ButtonStyleKeys = KeysFromUseStyles<typeof useStyles>
 export * from './vars';
+export * from './types';

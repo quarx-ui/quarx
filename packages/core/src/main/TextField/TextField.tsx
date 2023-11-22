@@ -43,6 +43,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
         requiredSymbol = '*',
         leftItem,
         rightItem,
+        underFieldItem,
         placeholder,
         required = false,
         colorBase = 'main',
@@ -330,6 +331,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
                     />
                 )}
             </div>
+            {underFieldItem}
             <Bottom
                 styles={styles}
                 cn={cn}

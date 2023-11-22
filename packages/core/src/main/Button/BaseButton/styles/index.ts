@@ -1,4 +1,4 @@
-import { KeysFromUseStyles, makeStyles, ButtonStyleParams, TYPOGRAPHY_WEIGHT } from '@core';
+import { KeysFromUseStyles, makeStyles, BaseButtonStyleParams, TYPOGRAPHY_WEIGHT } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { cssVar } from '@core/utils/cssVars';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
@@ -7,7 +7,7 @@ import { BaseButtonCSSVarKeys } from './vars';
 
 export const useStyles = makeStyles((
     { palette, transitions, borders, borderRadii, typography },
-    { type, size, color, borderRadius, loading, disabled }: ButtonStyleParams,
+    { type, size, color, borderRadius, loading, disabled }: BaseButtonStyleParams,
     {
         cssFocusColor,
         cssFocusWidth,

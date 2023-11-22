@@ -1,11 +1,11 @@
-import { KeysFromUseStyles, makeStyles, ButtonStyleParams, cssVar } from '@core';
+import { KeysFromUseStyles, makeStyles, BaseButtonStyleParams, cssVar } from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { flexCenter, hidden } from '../../mixins';
 import { IconButtonCSSVarKeys } from './vars';
 
 export const useStyles = makeStyles((
     theme,
-    { size, loading }: Pick<ButtonStyleParams, 'size' | 'loading'>,
+    { size, loading }: Pick<BaseButtonStyleParams, 'size' | 'loading'>,
     { cssSize, cssPaddingY, cssPaddingX }: Record<IconButtonCSSVarKeys, string>,
 ) => ({
     root: [
