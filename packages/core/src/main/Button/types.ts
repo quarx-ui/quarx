@@ -5,7 +5,7 @@ export type ButtonType = 'contained' | 'outlined' | 'text';
 export type ButtonColor = PaletteColor;
 export type ButtonBorderRadius = QxBorderSize;
 
-export interface ButtonStyleParams {
+export interface BaseButtonStyleParams {
     /** Цветовая палитра компонента.
      * Значения соответствуют токенам объекта `theme.palette.colors`
      *

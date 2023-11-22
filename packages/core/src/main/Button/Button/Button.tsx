@@ -25,6 +25,8 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
     const params = {
         size,
         loading,
+        leftIcon: Boolean(leftIcon),
+        rightIcon: Boolean(rightIcon),
     };
 
     const styles = useStyles({ params, ...styleProps });
@@ -52,10 +54,7 @@ export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps
                 </div>
             )}
             {children && (
-                <div
-                    className={cn('content')}
-                    css={styles.content}
-                >
+                <div className={cn('content')} css={styles.content}>
                     {children}
                 </div>
             )}

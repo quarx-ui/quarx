@@ -115,6 +115,9 @@ export interface TextFieldPropsWithoutHtml extends
     /** Левый элемент поля */
     leftItem?: ReactElement;
 
+    /** Компонент, находящийся под полем */
+    underFieldItem?: ReactElement;
+
     /** Подсказка обязательного поля
      *
      * @default '*' */
