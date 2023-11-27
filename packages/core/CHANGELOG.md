@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.8.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.1&targetBranch=@quarx-ui/core@2.8.0) (2023-11-27)
+
+**Note:** Version bump only for package @quarx-ui/core
+
+
+
+
+
 ## [2.8.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.0&targetBranch=@quarx-ui/core@2.7.2) (2023-11-03)
 
 
