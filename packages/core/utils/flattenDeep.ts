@@ -1,4 +1,4 @@
-const baseFlatten = (array: any[], result: any[] = []) => {
+const baseFlatten = (array: unknown[], result: unknown[] = []) => {
     if (array === null) {
         return result;
     }
@@ -15,6 +15,6 @@ const baseFlatten = (array: any[], result: any[] = []) => {
     return result;
 };
 
-export const flattenDeep = (array: any) => (
-    array?.length ? baseFlatten(array) : [array].filter(Boolean)
+export const flattenDeep = (value: unknown) => (
+    Array.isArray(value) ? baseFlatten(value) : [value].filter(Boolean)
 );
