@@ -9,7 +9,6 @@
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react",
     "declaration": true,
-    "removeComments": true,
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
