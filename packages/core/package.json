@@ -43,7 +43,7 @@
     "build": "yarn run build:commonjs && yarn run build:esm && yarn run build:d.ts",
     "build:commonjs": "BABEL_ENV=build babel ./ --root-mode upward --out-dir build --copy-files --no-copy-ignored --extensions .ts,.tsx,.svg,.js,.json,.log,.md,.snap,.png --delete-dir-on-start --no-comments",
     "build:esm": "BABEL_ENV=buildES babel ./ --root-mode upward --out-dir build/esm --copy-files --no-copy-ignored --extensions .ts,.tsx,.svg,.js,.json,.log,.md,.snap,.png --delete-dir-on-start --no-comments",
-    "build:d.ts": "ttsc --outDir build --emitDeclarationOnly true",
+    "build:d.ts": "tsc --outDir build --emitDeclarationOnly true",
     "build:clean": "rm -rf build/esm/build && rm -f build/tsconfig.json && rm -f build/*.log && rm -f build/esm/tsconfig.json && rm -f build/esm/*.log"
   }
 }
