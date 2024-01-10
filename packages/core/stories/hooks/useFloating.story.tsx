@@ -1,10 +1,10 @@
 import { MouseEventHandler, useEffect, useRef, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { ARRANGEMENTS, PLACEMENTS, Position, useFloating, UseFloatingProps } from '@core';
-import { defineCategory } from '@core/storybook/templateParams';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { setStoryParams } from '@core/storybook/setStoryParams';
+import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
+import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Meta } from '@storybook/react';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 type UseFloatingStoryProps = Omit<UseFloatingProps, 'anchor' | 'floatingRef'>;
 

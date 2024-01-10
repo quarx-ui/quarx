@@ -23,7 +23,7 @@ export const sizesStory = (componentName: string): string => `\
 import { Story } from '@storybook/react/types-6-0';
 import { ${componentName}, ${componentName}Size, ${componentName}Props } from '@core';
 import { QX_SIZE } from '@core/enums';
-import { DisplayVariants } from '@core/storybook/DisplayVariants';
+import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import description from './description.md';
 
 const SIZES: ${componentName}Size[] = [
@@ -53,9 +53,9 @@ export const storybook = (
 ): string => `\
 import { Story } from '@storybook/react/types-6-0';
 import { Meta } from '@storybook/react';
-import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
-import { excludeProp } from '@core/storybook/templateParams';
+import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { ${componentName}, ${componentName}Props } from '..';
 
 const defaultArgs: Partial<${componentName}Props> = {};

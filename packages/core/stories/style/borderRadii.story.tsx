@@ -1,11 +1,11 @@
 import { Story } from '@storybook/react/types-6-0';
-import { withDocsPage } from '@core/storybook/docsPage';
+import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
 import { BorderRadiusSide, QxBorderSize, makeStyles } from '@core';
-import { DisplayVariantsMap } from '@core/storybook/DisplayVariants';
+import { DisplayVariantsMap } from '@quarx-ui/core/storybook/DisplayVariants';
 import { H2, Div, P, Code } from '@storybook/components';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
-import { setStoryParams } from '@core/storybook/setStoryParams';
+import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>

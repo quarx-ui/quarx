@@ -4,7 +4,7 @@
 2. DefaultArgs описываются только в Component.story.tsx при экспорте. Дополнительно применять к каждой нет необходимости, за исключением случаев, когда вам необходимо проставить конкретной истории параметры. В таком случае присваивать сразу в файле index.tsx вашей истории
 3. Для настройки Story (заголовок, описание, defaultArgs и т.д.) используется функция `setStoryParams`:
 ```ts
-import { setStoryParams } from '@core/storybook/setStoryParams';
+import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
 setStoryParams(ExampleStory, {
     title: 'Пример заголовка',

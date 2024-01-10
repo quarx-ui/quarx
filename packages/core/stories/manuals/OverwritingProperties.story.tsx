@@ -1,9 +1,9 @@
-import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
+import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { Description, Title } from '@storybook/addon-docs';
 import { Story } from '@storybook/react/types-6-0';
 import { Div } from '@storybook/components';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const descriptionMarkDown = `
 Компоненты, которые перезаписывают одинаковые свойства, работают по следующим принципам синхронизации:

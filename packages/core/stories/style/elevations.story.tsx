@@ -1,10 +1,10 @@
-import { withDocsPage } from '@core/storybook/docsPage';
+import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
 import { Story } from '@storybook/react/types-6-0';
 import { ElevationSize, ElevationType, makeStyles } from '@core';
 import { Div, H2, P, Code } from '@storybook/components';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
-import { setStoryParams } from '@core/storybook/setStoryParams';
+import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>

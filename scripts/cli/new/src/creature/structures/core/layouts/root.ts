@@ -30,7 +30,7 @@ export const component = (componentName: string): string => `\
 import { FC, forwardRef } from 'react';
 import { QX_SIZE } from '@core/enums';
 import { usePropsOverwrites } from '@core/styles';
-import { If } from '@core/src/system/If';
+import { If } from '@core/components/system/If';
 import { ${componentName}Props } from './types';
 import { useStyles } from './styles';
 import { ${capitalize(componentName)}_CSS_VARS } from './styles/vars';
