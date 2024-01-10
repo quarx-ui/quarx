@@ -3,8 +3,7 @@ const toPath = (p) => path.join(process.cwd(), p);
 
 module.exports = {
     stories: [
-        '../packages/core/storybook/*.story.tsx',
-        '../packages/**/*.story.tsx',
+        '../**/*.story.tsx',
     ],
     addons: [
         '@storybook/addon-links',
@@ -26,7 +25,7 @@ module.exports = {
                     root: ['.'],
                     alias: {
                         '@quarx-ui': './packages',
-                        '@core': './packages/core',
+                        '@core': './packages/core/src',
                         '@emotion/styled': toPath('node_modules/@emotion/styled'),
                         'emotion/theming': toPath('node_modules/@emotion/react'),
                     },

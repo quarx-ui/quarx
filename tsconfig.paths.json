@@ -6,10 +6,10 @@
         "packages/*"
       ],
       "@core": [
-        "packages/core/index"
+        "packages/core/src"
       ],
       "@core/*": [
-        "packages/core/*"
+        "packages/core/src/*"
       ]
     }
   }

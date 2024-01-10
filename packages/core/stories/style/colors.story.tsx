@@ -12,9 +12,9 @@ import {
     PaletteBorderFocusKey,
 } from '@core/styles/engine/theme/palette/types';
 import { Story } from '@storybook/react/types-6-0';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
-import { setStoryParams } from '@core/storybook/setStoryParams';
+import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 interface ColorsStoryProps {
     type: PaletteColor;

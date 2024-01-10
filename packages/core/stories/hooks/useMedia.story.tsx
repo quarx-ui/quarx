@@ -2,9 +2,9 @@ import { Fragment, useEffect, useState } from 'react';
 import { Story } from '@storybook/react/types-6-0';
 import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
-import { deviceToBreakpoint } from '../../styles/engine/theme/hooks/useMedia/helpers';
+import { deviceToBreakpoint } from '@core/styles/engine/theme/hooks/useMedia/helpers';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 export default {
     title: STORY_PATHS.core.hooks('useMedia'),

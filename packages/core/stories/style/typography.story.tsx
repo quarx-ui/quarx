@@ -1,13 +1,13 @@
 import { Story } from '@storybook/react/types-6-0';
-import { withDocsPage } from '@core/storybook/docsPage';
+import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
 import styled from '@emotion/styled';
 import { Div, H2, P, Code } from '@storybook/components';
-import { STORY_PATHS } from '@quarx-ui/storybook/utils';
 import { Meta } from '@storybook/react';
-import { setStoryParams } from '@core/storybook/setStoryParams';
+import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { BaseTypographySize, BaseTypographyType } from '@core';
 import { CSSProperties } from 'react';
 import { typography } from '@core/styles/engine/theme/typography/typography';
+import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>

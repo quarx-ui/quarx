@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import { Story } from '@storybook/react/types-6-0';
 import { ArgTypes } from '@storybook/react';
-import { excludeProp } from '@core/storybook/templateParams';
+import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 
 interface SetStoryParamsOptions<T extends Record<string, any> = Record<string, any>> {
     title?: string;

@@ -1,4 +1,4 @@
-import { defineCategory, excludeProp } from '@core/storybook/templateParams';
+import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 
 export const BASE_ARG_TYPES = defineCategory('Общие', {
     hidden: {

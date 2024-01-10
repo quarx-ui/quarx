@@ -61,7 +61,7 @@ const plugins = [
             root: ['.'],
             alias: {
                 '@quarx-ui': '../',
-                '@core': './',
+                '@core': './src',
             },
         },
     ],

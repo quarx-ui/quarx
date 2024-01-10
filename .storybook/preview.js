@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArgsTable, Primary, PRIMARY_STORY, Stories, Subtitle, Title, Description } from '@storybook/addon-docs';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
-import '../packages/core/styles/fonts/font-faces.css';
+import '../packages/core/src/styles/fonts/font-faces.css';
 import { addDecorator } from '@storybook/react'
 import { ThemingAddonAPI as ThemeAddonAPI } from './addons/theming/store';
 import { ThemeDecorator } from './addons/theming/decorator';

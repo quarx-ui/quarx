@@ -1,7 +1,7 @@
 import ReadmeMD from '@quarx-ui/icons/README.md';
 import { Story } from '@storybook/react/types-6-0';
 import { Description } from '@storybook/components';
-import { BASE_ARG_TYPES } from '@core/storybook/BASE_ARG_TYPES';
+import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 
 export default {
     title: 'icons/Introduction',
