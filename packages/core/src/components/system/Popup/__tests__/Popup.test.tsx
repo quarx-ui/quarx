@@ -1,4 +1,4 @@
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import {
     OmittedPopupStyleParams,
     Popup,

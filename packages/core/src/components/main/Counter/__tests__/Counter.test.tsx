@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { Counter, CounterProps } from '@core';
-import { expectRootCn, testStyleParams } from '@core/test-utils';
+import { expectRootCn, testStyleParams } from '@quarx-ui/core/test-utils';
 import { CounterStyleParams } from '@core/components/main/Counter/styles';
 
 describe('Counter', () => {

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { QX_SIZE, Accordion, AccordionProps, AccordionStyleParams } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('Accordion', () => {
     testStyleParams<AccordionStyleParams, AccordionProps>(

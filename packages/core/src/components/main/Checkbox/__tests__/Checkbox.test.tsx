@@ -3,7 +3,7 @@ import { CheckboxStyleParams } from '@core/components/main/Checkbox/types';
 import { FC } from 'react';
 import { PALETTE_COLORS, Checkbox } from '@core';
 import userEvent from '@testing-library/user-event';
-import { expectPropsMapInClasses } from '@core/test-utils';
+import { expectPropsMapInClasses } from '@quarx-ui/core/test-utils';
 
 const checkPropsInClasses = (props: Partial<CheckboxStyleParams>) => {
     const {

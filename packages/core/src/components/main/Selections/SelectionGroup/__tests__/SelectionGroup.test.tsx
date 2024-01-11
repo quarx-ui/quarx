@@ -8,7 +8,7 @@ import {
     SelectionGroupStyleParams,
     SelectionList,
 } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('SelectionGroup', () => {
     testStyleParams<Partial<SelectionGroupStyleParams>, SelectionGroupProps>(

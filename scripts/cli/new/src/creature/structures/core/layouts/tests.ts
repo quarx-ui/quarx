@@ -1,7 +1,7 @@
 export const jest = (componentName: string): string => `\
 import { render, screen } from '@testing-library/react';
 import { QX_SIZE, ${componentName}, ${componentName}Props, ${componentName}StyleParams } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('${componentName}', () => {
     testStyleParams<${componentName}StyleParams, ${componentName}Props>(

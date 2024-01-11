@@ -2,7 +2,7 @@ import { cleanup, render, screen } from '@testing-library/react';
 import { RadioButtonProps, RadioButtonStyleParams } from '@core/components/main/RadioButton/types';
 import { RadioButton } from '@core';
 import userEvent from '@testing-library/user-event';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('RadioButton', () => {
     testStyleParams<Partial<RadioButtonStyleParams>, RadioButtonProps>(

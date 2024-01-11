@@ -4,7 +4,7 @@ import {
     BreadcrumbStyleParams,
     PALETTE_COLORS,
 } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('Breadcrumb', () => {
     testStyleParams<BreadcrumbStyleParams, BreadcrumbProps>(

@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import React, { useState, forwardRef, ForwardedRef } from 'react';
-import { expectRootCn } from '@core/test-utils';
+import { expectRootCn } from '@quarx-ui/core/test-utils';
 import { DatePickerBlock, PickerSelectedDate } from '..';
 
 const TestableDatePicker = forwardRef((props, ref: ForwardedRef<HTMLDivElement>) => {

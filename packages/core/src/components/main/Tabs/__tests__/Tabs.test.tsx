@@ -1,10 +1,10 @@
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import { BaseProps, PALETTE_COLORS, QX_BORDER_SIZE, QX_SIZE } from '@core';
 import { render } from '@testing-library/react';
 import { ArrowGraphIcon } from '@quarx-ui/icons/src/arrow-graph/36px/stroke/rounded';
 import { BuildingsIcon } from '@quarx-ui/icons/src/buildings/36px/stroke/rounded';
 import { CirclesOnCircleIcon } from '@quarx-ui/icons/src/circles-on-circle/36px/stroke/rounded';
-import { testRootCn } from '@core/test-utils/expectRootCn';
+import { testRootCn } from '@quarx-ui/core/test-utils/expectRootCn';
 import { Tabs, TabsContainedStyleParams, TabsDefaultStyleParams, TabsProps, TabsSegmentedStyleParams } from '..';
 import { TabsSize, TabsType } from '../common';
 import { TABS_LINES } from '../TabsDefault/constants';

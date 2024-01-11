@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { Stack, StackProps, StackStyleParams } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import { Fragment } from 'react';
 import { STACK_DIRECTION, STACK_ORDER } from '../styles/constants';
 

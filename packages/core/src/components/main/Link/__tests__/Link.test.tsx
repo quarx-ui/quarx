@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import { render, screen } from '@testing-library/react';
 import { Link, LinkProps } from '@core';
-import { testRootCn } from '@core/test-utils/expectRootCn';
+import { testRootCn } from '@quarx-ui/core/test-utils/expectRootCn';
 import { LinkStyleParams } from '../styles';
 import { ChevronRight16, Gear16 } from '../storybook/assets';
 

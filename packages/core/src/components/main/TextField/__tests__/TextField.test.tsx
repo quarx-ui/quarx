@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { expectPropsInClasses, expectRootCn, testStyleParams } from '@core/test-utils';
+import { expectPropsInClasses, expectRootCn, testStyleParams } from '@quarx-ui/core/test-utils';
 import { render, screen } from '@testing-library/react';
 import { TextField, TextFieldProps, TextFieldStyleParams } from '@core';
 import userEvent from '@testing-library/user-event';

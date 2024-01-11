@@ -1,4 +1,4 @@
-import { KeysFromUseStyles, makeStyles } from '../../../../../../../index';
+import { KeysFromUseStyles, makeStyles } from '@core/styles';
 import { DatePickerStyleParams } from './types';
 
 export const useStyles = makeStyles(({ palette }, {

@@ -5,7 +5,7 @@ import {
     BreadCrumbVisualProps,
     PALETTE_COLORS,
 } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import { render } from '@testing-library/react';
 import styled from '@emotion/styled';
 import { FC } from 'react';

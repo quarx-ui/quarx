@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { act, render, screen } from '@testing-library/react';
 import { DelayedMounter } from '@core';
 import userEvent from '@testing-library/user-event';
-import { setTimeoutCalls } from '@core/test-utils';
+import { setTimeoutCalls } from '@quarx-ui/core/test-utils';
 
 describe('DelayedMounter behavior', () => {
     it('text should be in the document', () => {

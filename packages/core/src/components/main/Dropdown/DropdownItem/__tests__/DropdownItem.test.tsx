@@ -7,7 +7,7 @@ import {
     PALETTE_COLORS,
     QX_SIZE,
 } from '@core';
-import { expectRootCn, testStyleParams } from '@core/test-utils';
+import { expectRootCn, testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('DropdownItem', () => {
     it('className', () => {
