@@ -18,7 +18,10 @@ export const SizesStory: Story<AccordionProps> = (props) => DisplayVariants({
     containerAlign: 'unset',
     direction: 'vertical',
     component: Accordion,
-    componentProps: { ...props, css: { width: '100%' } },
+    componentProps: { ...props,
+        // @ts-expect-error
+        css: { width: '100%' },
+    },
 });
 
 setStoryParams(SizesStory, {
