@@ -18,11 +18,12 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+      - uses: oven-sh/setup-bun@v1
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
-      - run: yarn install --production=false
+      - run: bun install --frozen-lockfile
 
   build:
     name: Run Build
@@ -36,11 +37,12 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+      - uses: oven-sh/setup-bun@v1
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
-      - run: yarn run build
+      - run: bun run build
 
   linter:
     name: Run Linters
@@ -54,11 +56,12 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+      - uses: oven-sh/setup-bun@v1
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
-      - run: yarn run lint:branch
+      - run: bun run lint:branch
 
   tests:
     name: Run Tests
@@ -72,8 +75,9 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+      - uses: oven-sh/setup-bun@v1
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
-      - run: yarn run test
+      - run: bun run test

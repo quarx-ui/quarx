@@ -46,11 +46,12 @@ jobs:
             **/node_modules
             ./node_modules
           key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
+      - uses: oven-sh/setup-bun@v1
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - run: yarn install --production=false
-      - run: yarn run storybook:build
+          node-version: 16.19.1
+      - run: bun install --frozen-lockfile
+      - run: bun run storybook:build
       - uses: JamesIves/github-pages-deploy-action@v4.3.4
         with:
           branch: main

@@ -1734,7 +1734,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
       class="QxStack QxStack_order_default QxStack_direction_row QxStack_alignItems_center QxStack_spacing_6px QxStack_divider QxBreadcrumbs-stack css-1j1wte0-QxStack-root-QxBreadcrumbs-stack"
     >
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="0"
@@ -1747,7 +1747,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
         /
       </div>
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="1"
@@ -1760,7 +1760,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
         /
       </div>
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="2"
@@ -1773,7 +1773,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
         /
       </div>
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="3"
@@ -1786,7 +1786,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
         /
       </div>
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="4"
@@ -1799,7 +1799,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
         /
       </div>
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="5"
@@ -1812,7 +1812,7 @@ exports[`Breadcrumbs Кастомные компоненты 1`] = `
         /
       </div>
       <span
-        class="css-r2tzsh-CustomComponent e1kfqj1s0"
+        class="css-r2tzsh-CustomComponent evcli4y0"
         color="brand"
         type="link"
         value="6"
