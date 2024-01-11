@@ -9,7 +9,7 @@ import {
     ELEVATION_SIZE,
     ELEVATION_TYPE,
 } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import userEvent from '@testing-library/user-event';
 
 describe('Alert', () => {

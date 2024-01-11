@@ -2,7 +2,7 @@ import { cleanup, render, screen } from '@testing-library/react';
 import { SwitcherProps, SwitcherStyleParams } from '@core/components/main/Switcher/types';
 import { Switcher } from '@core';
 import userEvent from '@testing-library/user-event';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('Switcher', () => {
     testStyleParams<Partial<SwitcherStyleParams>, SwitcherProps>(

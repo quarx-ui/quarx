@@ -1,5 +1,5 @@
 import { ReactElement, SVGProps, ElementType, ComponentPropsWithRef } from 'react';
-import { WithDataTestId } from '@quarx-ui/core';
+import { WithDataTestId } from '@core';
 
 export type JsxTag = keyof JSX.IntrinsicElements;
 

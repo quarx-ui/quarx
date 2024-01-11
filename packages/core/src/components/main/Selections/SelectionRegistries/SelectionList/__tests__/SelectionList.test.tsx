@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import {
     PALETTE_COLORS,
     SELECTION_LIST_TYPE,

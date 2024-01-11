@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
 import { render, screen } from '@testing-library/react';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import { Button, SidePageProps, SidePage } from '@core';
 import userEvent from '@testing-library/user-event';
 import { SidePageStyleParams } from '@core/components/main/SidePage/styles';

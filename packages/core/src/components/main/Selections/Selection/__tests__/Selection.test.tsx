@@ -9,7 +9,7 @@ import {
     SelectionStyleParams,
 } from '@core';
 import userEvent from '@testing-library/user-event';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 import { SELECTION_TYPE } from '../styles/constants';
 
 describe('Selection', () => {

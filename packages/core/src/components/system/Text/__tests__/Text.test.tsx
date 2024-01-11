@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { PALETTE_TEXT_KEYS, QX_SIZE, Text, TextProps, TextStyleParams, TYPOGRAPHY_WEIGHT } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('Text', () => {
     testStyleParams<TextStyleParams, TextProps>(

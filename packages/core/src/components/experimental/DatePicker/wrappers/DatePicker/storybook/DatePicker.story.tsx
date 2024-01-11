@@ -18,6 +18,7 @@ const defaultArgs: Omit<StoryType, 'anchor' | 'open'> = {
     size: 'small',
     disableYearChanging: true,
     withTime: true,
+    onClickAway: () => undefined,
 };
 
 export default {

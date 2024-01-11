@@ -6,13 +6,11 @@
     "emitDeclarationOnly": true
   },
   "include": [
-    "./"
+    "./src",
   ],
   "exclude": [
-    "./build",
     "**/storybook",
     "**/*.test.tsx",
-    "**/*.test.pw.ts",
     "**/*.test.ts",
     "**/*.story.ts",
     "**/*.story.tsx"

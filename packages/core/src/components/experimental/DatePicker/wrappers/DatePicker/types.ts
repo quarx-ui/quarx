@@ -1,4 +1,4 @@
-import { PopupProps, WithClassesAndStyles } from '../../../../../../index';
+import { PopupProps, WithClassesAndStyles } from '@core';
 import {
     DatePickerBlockProps,
     PickerSelectedDate,

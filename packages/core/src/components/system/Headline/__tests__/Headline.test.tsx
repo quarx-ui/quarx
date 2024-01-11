@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { Headline, HeadlineProps, HeadlineStyleParams, PALETTE_TEXT_KEYS, QX_SIZE, TYPOGRAPHY_WEIGHT } from '@core';
-import { testStyleParams } from '@core/test-utils';
+import { testStyleParams } from '@quarx-ui/core/test-utils';
 
 describe('Headline', () => {
     testStyleParams<HeadlineStyleParams, HeadlineProps>(
