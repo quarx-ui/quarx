@@ -1,6 +1,6 @@
 import { FC, forwardRef } from 'react';
 import { PALETTE_COLORS, usePropsOverwrites } from '@core/styles';
-import { Loader } from '@core/components';
+import { BUTTON_TYPE, Loader } from '@core/components';
 import { QX_BORDER_SIZE, QX_SIZE } from '@core/enums';
 import { useStyles, BASE_BUTTON_CSS_VARS } from './styles';
 import { BaseButtonProps } from './types';
@@ -15,7 +15,7 @@ export const BaseButton: FC<BaseButtonProps> = forwardRef<HTMLButtonElement, Bas
         children,
         size = QX_SIZE.medium,
         color = PALETTE_COLORS.brand,
-        type = 'contained',
+        type = BUTTON_TYPE.contained,
         borderRadius = QX_BORDER_SIZE.medium,
         disabled = false,
         loading = false,
