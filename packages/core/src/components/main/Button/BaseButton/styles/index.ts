@@ -1,4 +1,11 @@
-import { KeysFromUseStyles, makeStyles, BaseButtonStyleParams, TYPOGRAPHY_WEIGHT } from '@core';
+import {
+    KeysFromUseStyles,
+    makeStyles,
+    BaseButtonStyleParams,
+    TYPOGRAPHY_WEIGHT,
+    BUTTON_TYPE,
+    PALETTE_COLORS,
+} from '@core';
 import { paramsToCss } from '@core/utils/paramsToCss';
 import { cssVar } from '@core/utils/cssVars';
 import { baseFocusStyles, stylesWithFocus } from '@core/styles/mixins/focus';
@@ -62,7 +69,7 @@ export const useStyles = makeStyles((
                 borderWidth: cssVar(cssBorderWidth),
             }),
 
-            type !== 'contained' && !disabledOrLoading && {
+            type !== BUTTON_TYPE.contained && !disabledOrLoading && {
                 '&:hover, &:focus-visible': {
                     background: palette.colors[color].alpha.min,
                 },
@@ -71,7 +78,7 @@ export const useStyles = makeStyles((
                 },
             },
 
-            type !== 'contained' && !(color === 'secondary' && !isLight) && {
+            type !== BUTTON_TYPE.contained && !(color === PALETTE_COLORS.secondary && !isLight) && {
                 color: palette.colors[color].default,
             },
 
@@ -138,7 +145,7 @@ export const useStyles = makeStyles((
                 },
             },
 
-            type === 'contained' && color === 'secondary' && !disabledOrLoading && isLight && {
+            type === BUTTON_TYPE.contained && color === PALETTE_COLORS.secondary && !disabledOrLoading && isLight && {
                 [cssFocusColor]: palette.border.focus.inverse,
                 '&:focus-visible': {
                     borderColor: cssVar(cssFocusColor),
