@@ -17,6 +17,8 @@ export interface ErrorsFromInput {
     errorByDisallowedEndDate?: string;
     /** Выбранная дата вне разрешенного диапазона */
     errorByDisallowedPickerDate?: string;
+    /** Одна из выбранных дат вне разрешенного диапазона */
+    errorByDisallowedMultipleDates?: string;
 }
 
 export interface DatePickerSelectTexts extends DatePickerTexts, ErrorsFromInput {}

@@ -46,7 +46,18 @@ export interface DatePickerStyleParams {
     countWeeksInMonth: number;
 }
 
-export type DatePickerAllowedDates = PeriodDates;
+export type AllowedDatesValidationFunction = (day: Date) => boolean;
+
+export function isAllowedDatesPeriod(dates: DatePickerAllowedDates | undefined): dates is PeriodDates {
+    return !!dates && typeof dates === 'object' && !!(dates?.start || dates?.end);
+}
+
+export function isAllowedDatesValidationFunction(dates: DatePickerAllowedDates | undefined)
+    : dates is AllowedDatesValidationFunction {
+    return typeof dates === 'function';
+}
+
+export type DatePickerAllowedDates = PeriodDates | AllowedDatesValidationFunction;
 
 export interface DatePickerTexts {
     /** Перевод названий дней недели
@@ -73,7 +84,9 @@ export type PickerSelectedDate = Date | undefined;
 
 export type PeriodSelectedDates = PeriodDates;
 
-export type SelectedDates = PeriodSelectedDates | PickerSelectedDate;
+export type MultipleSelectedDates = Date[];
+
+export type SelectedDates = PeriodSelectedDates | PickerSelectedDate | MultipleSelectedDates;
 
 export interface CommonDatePickerStyles {
     dropdown: StylesMap<DropdownDatePickerStyleKeys>;
@@ -92,8 +105,9 @@ type DatePickerStyleParamsToProps = Omit<DatePickerStyleParams, 'countWeeksInMon
 export interface CommonDatePickerProps extends
     DatePickerStyleParamsToProps,
     WithClassesAndStyles<DatePickerStyleKeys, DatePickerStyleParams> {
-    /** Объект разрешенных к выбору дат. Возможна работа с одним из значений периода.
-     *  При передаче как минимум одного ключа, все, что вне периода становится неактивным */
+    /** Объект разрешенных к выбору дат или функция для каждой даты отдельно. Возможна работа с одним из значений периода.
+     *  При передаче как минимум одного ключа, все, что вне периода становится неактивным
+     *  При передаче функции, ее вызов с проверяемой датой должен возвращать true */
     allowedDates?: DatePickerAllowedDates;
     /** Дата, которая отобразится первой (значение отслеживается при изменении пропса, можно изменяя его менять отображаемый месяц)  */
     viewingDate?: Date;
@@ -145,7 +159,11 @@ export function isPicker(dates: SelectedDates): dates is PickerSelectedDate {
 }
 
 export function isPeriod(dates: SelectedDates): dates is PeriodSelectedDates {
-    return !isPicker(dates);
+    return !isPicker(dates) && !isMultiple(dates);
+}
+
+export function isMultiple(dates: SelectedDates): dates is MultipleSelectedDates {
+    return Array.isArray(dates);
 }
 
 type InnerDatePickerProps<D extends SelectedDates> = Omit<DatePickerBlockProps<D>,

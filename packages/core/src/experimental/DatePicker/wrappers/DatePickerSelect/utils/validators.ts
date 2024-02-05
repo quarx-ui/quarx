@@ -3,7 +3,13 @@ import { isAfter, isBefore } from 'date-fns';
 import isUndefined from '@core/types/isUndefined';
 import { ChangeSelectedByValueProps } from './setters';
 import { clearErrorText } from '../../../components/DateField/utils/common';
-import { isPicker } from '../../../components/Block/types';
+import {
+    isAllowedDatesPeriod,
+    isAllowedDatesValidationFunction,
+    isMultiple,
+    isPicker,
+    MultipleSelectedDates,
+} from '../../../components/Block/types';
 
 export interface ValidateAllowedPeriod<D extends SelectedDates = PickerSelectedDate> extends
     Pick<ChangeSelectedByValueProps<D>, 'setErrorText' | 'errorsFromInput' | 'isPickerType' | 'allowedDates'
@@ -34,7 +40,7 @@ const validateDateToAllowedDates = (
     props: Omit<ValidateDateToAllowedDates, 'setEndErrorText' | 'setStartErrorText' | 'splittedPeriod'>,
 ) => {
     const { allowedDates, setErrorText, errorText, value: date } = props;
-    if (date) {
+    if (isAllowedDatesPeriod(allowedDates) && date) {
         const emptyStart = isUndefined(allowedDates.start);
         const emptyEnd = isUndefined(allowedDates.end);
         const selectedDateBeforeAllowedEnd = !!allowedDates.end && isBefore(date, allowedDates.end);
@@ -45,6 +51,13 @@ const validateDateToAllowedDates = (
             || (emptyEnd && selectedDateAfterAllowedStart)
             || (selectedDateAfterAllowedStart && selectedDateBeforeAllowedEnd))
         ) {
+            setErrorText(errorText);
+            return false;
+        }
+    }
+    if (date && isAllowedDatesValidationFunction(allowedDates)) {
+        const isValid = allowedDates(date);
+        if (!isValid) {
             setErrorText(errorText);
             return false;
         }
@@ -74,6 +87,13 @@ export const validateAllowedDatesOnPeriod = (props: ValidateAllowedPeriodWithout
     return isStartDateValid && isEndDateValid;
 };
 
+export const validateAllowedDatesOnMultiply = (props: ValidateAllowedPeriodWithoutType<MultipleSelectedDates>): boolean => {
+    const { value, errorsFromInput, ...rest } = props;
+    return value.length === 0 || !value.some((date) => !validateDateToAllowedDates(
+        { value: date, errorText: errorsFromInput.errorByDisallowedMultipleDates, ...rest },
+    ));
+};
+
 export const validateAllowedDates = <D extends SelectedDates = PickerSelectedDate>(
     props: ValidateAllowedPeriod<D>,
 ): boolean => {
@@ -81,6 +101,9 @@ export const validateAllowedDates = <D extends SelectedDates = PickerSelectedDat
     if (allowedDates) {
         if (isPicker(value)) {
             return validateAllowedDatesOnPicker({ value, allowedDates, ...restProps });
+        }
+        if (isMultiple(value)) {
+            return validateAllowedDatesOnMultiply({ value, allowedDates, ...restProps });
         }
         return validateAllowedDatesOnPeriod({ value, allowedDates, ...restProps });
     }

@@ -12,7 +12,7 @@ import {
     startOfMonth,
     isSameISOWeek, isEqual,
 } from 'date-fns';
-import { isPeriod, isPicker } from '../types';
+import { isAllowedDatesPeriod, isAllowedDatesValidationFunction, isMultiple, isPeriod, isPicker } from '../types';
 
 export interface UseDayPropertiesProps<D extends SelectedDates> {
     day: Date;
@@ -77,6 +77,8 @@ export const useDayProperties = <D extends SelectedDates>({ day, selected, hover
             return !!selectedDate && isSameDay(selectedDate, day);
         } if (isPeriod(selected)) {
             return (!!startDate && isSameDay(startDate, day)) || (!!endDate && isSameDay(endDate, day));
+        } if (isMultiple(selected)) {
+            return selected.some((date) => isSameDay(date, day));
         }
         return false;
     })();
@@ -92,7 +94,7 @@ export const useDayProperties = <D extends SelectedDates>({ day, selected, hover
     })();
 
     const isDayTrusted = (() => {
-        if (allowedDates) {
+        if (isAllowedDatesPeriod(allowedDates)) {
             if (allowedDates.start && allowedDates.end) {
                 return isAfter(day, allowedDates.start)
                     && isBefore(day, allowedDates.end);
@@ -101,6 +103,10 @@ export const useDayProperties = <D extends SelectedDates>({ day, selected, hover
             } if (allowedDates.start) {
                 return isAfter(day, allowedDates.start);
             }
+        }
+        console.log(allowedDates);
+        if (isAllowedDatesValidationFunction(allowedDates)) {
+            return allowedDates(day);
         }
         return true;
     })();

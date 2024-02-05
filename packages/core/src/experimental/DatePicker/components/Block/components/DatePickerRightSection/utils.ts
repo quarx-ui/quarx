@@ -1,5 +1,5 @@
 import { EDITABLE_PERIOD_PARTS, EditablePeriodParts, PeriodSelectedDates, SelectedDates } from '@core/src/experimental';
-import { InnerTimeValues, isPicker } from '../../types';
+import { InnerTimeValues, isPicker, isPeriod } from '../../types';
 
 export const isEditingStartTime = (
     selected: PeriodSelectedDates, editablePeriodPart?: EditablePeriodParts,
@@ -15,11 +15,13 @@ export const getTimeOfSelectedDate = <D extends SelectedDates>(
     if (isPicker(selected)) {
         return time.pickedTime;
     }
-    if (isEditingEndTime(selected, lastEditedDateTypeInPeriod)) {
-        return time.endTime;
-    }
-    if (isEditingStartTime(selected, lastEditedDateTypeInPeriod)) {
-        return time.startTime;
+    if (isPeriod(selected)) {
+        if (isEditingEndTime(selected, lastEditedDateTypeInPeriod)) {
+            return time.endTime;
+        }
+        if (isEditingStartTime(selected, lastEditedDateTypeInPeriod)) {
+            return time.startTime;
+        }
     }
     return undefined;
 };

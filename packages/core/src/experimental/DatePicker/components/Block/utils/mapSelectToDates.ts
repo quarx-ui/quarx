@@ -1,10 +1,10 @@
-import { isAfter, parse } from 'date-fns';
+import { isAfter, isSameDay, parse } from 'date-fns';
 import {
     PeriodSelectedDates, PickerSelectedDate, SelectedDates,
     EditablePeriodParts, EDITABLE_PERIOD_PARTS, PeriodChangingFlow, PERIOD_CHANGING_FLOW,
 } from '@core/src/experimental';
 import { isCompletedTime } from '../components/FooterDatePicker/utils';
-import { InnerTimeValues, InnerTimeSetters, isPeriod } from '../types';
+import { InnerTimeValues, InnerTimeSetters, isPeriod, isMultiple, MultipleSelectedDates } from '../types';
 
 export const setDateTime = (date: Date, time: string) => parse(time, 'HH:mm:ss', date);
 
@@ -113,6 +113,19 @@ export const mergeSelectedDateWithPickedDate = (
     return setDateTime(date, checkedTimes.pickedTime);
 };
 
+export const mergeSelectedDatesWithMultipleDates = (
+    date: Date,
+    times: InnerTimeValues,
+    setTimes: InnerTimeSetters,
+    selected: MultipleSelectedDates,
+): MultipleSelectedDates => {
+    const indexDate = selected?.indexOf(date);
+    if (indexDate === -1) {
+        return [...selected, date];
+    }
+    return selected.filter((checkedDate) => !isSameDay(checkedDate, date));
+};
+
 export const mergeDateWithSelected = <D extends SelectedDates>(
     date: Date,
     times: InnerTimeValues,
@@ -128,6 +141,9 @@ export const mergeDateWithSelected = <D extends SelectedDates>(
         return mergeSelectedDatesWithPeriodDates(date, times, setTimes, selected,
             periodChangingFlow, editablePartOfPeriod, onChangeEditablePartOfPeriod, clearAllAfterChangingStartDate,
             pickNewSelectedAfterEndDatePick) as D;
+    }
+    if (isMultiple(selected)) {
+        return mergeSelectedDatesWithMultipleDates(date, times, setTimes, selected) as D;
     }
     return mergeSelectedDateWithPickedDate(date, times, setTimes, selected) as D;
 };

@@ -4,7 +4,8 @@ import { Dispatch, SetStateAction } from 'react';
 import isUndefined from '@core/types/isUndefined';
 import { validateDateString } from './validators';
 import { SetErrorText } from './mappers';
-import { FORMAT_DATETIME_WITH_SECONDS, FORMAT_DATETIME, FORMAT_DATE } from "./constants";
+import { FORMAT_DATETIME_WITH_SECONDS, FORMAT_DATETIME, FORMAT_DATE } from './constants';
+import { getPlaceholderDate } from '.';
 
 export const getFormat = (
     withTime: DatePickerBlockProps['withTime'],
@@ -48,11 +49,12 @@ export const parseDateValue = <D extends SelectedDates>(
 export const getDate = <D extends SelectedDates>(
     value: string,
     withTime: DatePickerBlockProps<D>['withTime'],
-    withSeconds: DatePickerBlockProps<D>['withTime'],
+    withSeconds: DatePickerBlockProps<D>['withSeconds'],
     setError: SetErrorText,
     validationErrorText: string,
 ) => {
-    if (validateDateString(value)) {
+    const placeholderDate = getPlaceholderDate(withTime, withSeconds);
+    if (validateDateString(value, placeholderDate)) {
         return parseDateValue<D>(value, withTime, withSeconds, setError, validationErrorText);
     }
     clearErrorText(setError, validationErrorText);

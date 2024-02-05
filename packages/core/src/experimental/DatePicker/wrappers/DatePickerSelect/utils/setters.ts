@@ -5,7 +5,7 @@ import {
     validateAllowedDates,
     validatePeriodDatesPosition,
 } from './validators';
-import { isPicker } from '../../../components/Block/types';
+import { isMultiple, isPicker } from '../../../components/Block/types';
 
 export interface ChangeSelectedByValueProps<D extends SelectedDates> extends
     Pick<DatePickerBlockProps<D>, 'onChange' | 'allowedDates'> {
@@ -39,7 +39,7 @@ export const changeSelectedByValue = <D extends SelectedDates>({
         setEndErrorText,
         splittedPeriod,
     });
-    const isValidPeriodDates = isPicker(value) ? true
+    const isValidPeriodDates = isPicker(value) || isMultiple(value) ? true
         : validatePeriodDatesPosition({
             value,
             setErrorText,
@@ -48,7 +48,7 @@ export const changeSelectedByValue = <D extends SelectedDates>({
             setEndErrorText,
             splittedPeriod,
         });
-    console.log(isValidAllowedDates);
+    console.log(isValidPeriodDates, isValidAllowedDates);
     if (isValidAllowedDates && isValidPeriodDates) {
         setStartErrorText('');
         setEndErrorText('');

@@ -14,7 +14,7 @@ Partial<PatternFormatProps<TextFieldProps>>, 'value' | 'onChange' | 'inputProps'
 
 export interface DateFieldProps<D extends SelectedDates = PickerSelectedDate> extends
     PatternFormatPropsToDateField,
-    Pick<DatePickerBlockProps, 'withTime' | 'withSeconds'> {
+    Pick<DatePickerBlockProps<D>, 'withTime' | 'withSeconds'> {
     isSingleDate: boolean;
     value?: D;
     onChange: (date: D) => void;

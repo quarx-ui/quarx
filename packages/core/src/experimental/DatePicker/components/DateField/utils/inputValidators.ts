@@ -1,7 +1,7 @@
-import { DatePickerBlockProps } from '@core/src/experimental';
+import { DatePickerBlockProps, PickerSelectedDate, SelectedDates } from '@core/src/experimental';
 import { getFormatValue } from './format';
 
-export interface ValidateJoinedDateProps {
+export interface ValidateJoinedDateProps<D extends SelectedDates = PickerSelectedDate> extends Pick<DatePickerBlockProps<D>, 'selected'> {
     joinedInput: string;
     isSingleDate: boolean;
     withTime: DatePickerBlockProps['withTime'];
@@ -13,7 +13,7 @@ interface DatePart {
     type: 'DAY' | 'MONTH' | 'YEAR' | 'HOUR' | 'MINUTE' | 'SECOND';
 }
 
-type PickerTypeAndWithTime = Pick<ValidateJoinedDateProps, 'withTime' | 'isSingleDate' | 'withSeconds'>;
+type PickerTypeAndWithTime<D extends SelectedDates = PickerSelectedDate> = Pick<ValidateJoinedDateProps<D>, 'withTime' | 'isSingleDate' | 'withSeconds' | 'selected'>;
 
 export const checkLimitValue = (value: number, lowLimit: number, highLimit: number) => {
     // console.log(value, lowLimit, highLimit);
@@ -38,14 +38,13 @@ export const getValidMinuteOrSecond = (minuteOrSecond: number) => checkZeroPrefi
 export const getValidDay = (day: number) => checkZeroPrefix(checkLimitValue(day, 1, 31));
 export const getValidMonth = (month: number) => checkZeroPrefix(checkLimitValue(month, 1, 12));
 
-const mapFormatToFormatCells = (
-    { isSingleDate, withTime, withSeconds }: PickerTypeAndWithTime,
-) => getFormatValue(isSingleDate, withTime, withSeconds).split(/[^#]/).filter(Boolean);
+const mapFormatToFormatCells = <D extends SelectedDates = PickerSelectedDate>(
+    { isSingleDate, selected, withTime, withSeconds }: PickerTypeAndWithTime<D>,
+) => getFormatValue(selected, isSingleDate, withTime, withSeconds).split(/[^#]/).filter(Boolean);
 const mapFormatCellsToSplittingRegExp = (formatCells: string[], joinedInput: string): RegExp => {
     const regExp = new RegExp(formatCells.reduce((acc, item) => {
         const lengthOfPreviousParts = acc.replace(/[^0-9]/g, '')
             .split('').filter(Boolean).reduce((sum, a) => sum + +a, 0);
-        // console.log(joinedInput.length, lengthOfPreviousParts);
         if (joinedInput.length > lengthOfPreviousParts && (joinedInput.length >= 2)) {
             return `${acc}(.{${item.length}})`;
         }
@@ -56,13 +55,11 @@ const mapFormatCellsToSplittingRegExp = (formatCells: string[], joinedInput: str
 
 const splitJoinedInputOnParts = (joinedInput: string, regExp: RegExp) => joinedInput.match(regExp)?.splice(1);
 
-const mapJoinedInputToDateTimeStringParts = (
-    joinedInput: string, { isSingleDate, withTime, withSeconds }: PickerTypeAndWithTime,
+const mapJoinedInputToDateTimeStringParts = <D extends SelectedDates = PickerSelectedDate>(
+    joinedInput: string, { isSingleDate, withTime, withSeconds, selected }: PickerTypeAndWithTime<D>,
 ) => {
-    const formatCells = mapFormatToFormatCells({ isSingleDate, withTime, withSeconds });
-    // console.log(lengthEachBlockOfDate);
+    const formatCells = mapFormatToFormatCells({ isSingleDate, withTime, withSeconds, selected });
     const regExpForSplit = mapFormatCellsToSplittingRegExp(formatCells, joinedInput);
-    // console.log(regExpForSplit);
     return splitJoinedInputOnParts(joinedInput, regExpForSplit);
 };
 
@@ -111,9 +108,9 @@ const joinValidInputPartWithInvalidInputSymbols = (validInputPart: string, joine
     validInputPart.length < joinedInput.length
         ? `${validInputPart}${joinedInput.substring(validInputPart.length)}` : validInputPart);
 
-export const validateDateOnInput = (props: ValidateJoinedDateProps) => {
-    const { isSingleDate, withTime, withSeconds, joinedInput } = props;
-    const dateTimeStringParts = mapJoinedInputToDateTimeStringParts(joinedInput, { isSingleDate, withTime, withSeconds });
+export const validateDateOnInput = <D extends SelectedDates = PickerSelectedDate>(props: ValidateJoinedDateProps<D>) => {
+    const { isSingleDate, withTime, withSeconds, joinedInput, selected } = props;
+    const dateTimeStringParts = mapJoinedInputToDateTimeStringParts(joinedInput, { isSingleDate, selected, withTime, withSeconds });
     if (dateTimeStringParts) {
         const dateParts: DatePart[] = mapDateTimeStringPartsToDateParts(dateTimeStringParts, withTime);
         const validDateParts = mapDatePartsToValidString(dateParts);

@@ -12,4 +12,5 @@ export const DEFAULT_TEXTS = {
     errorByEndDateBeforeStartDate: 'Дата конца периода раньше начала периода',
     errorByDisallowedStartDate: 'Дата начала вне разрешенного диапазона',
     errorByDisallowedEndDate: 'Дата конца вне разрешенного диапазона',
+    errorByDisallowedMultipleDates: 'Одна из выбранных дат вне разрешенного диапазона',
 };

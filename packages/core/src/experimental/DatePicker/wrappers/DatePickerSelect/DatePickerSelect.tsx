@@ -5,6 +5,7 @@ import {
 } from '@core';
 import { forwardRef } from '@core/utils';
 import { FocusEventHandler, MouseEventHandler, Ref, useEffect, useMemo, useRef, useState } from 'react';
+import { parseActualViewingDate } from '@core/src/experimental/DatePicker/wrappers/DatePickerSelect/utils/utils';
 import {
     DatePickerBlockProps, isPeriod, isPicker, EditablePeriodParts, SelectedDates,
 } from '../../components/Block/types';
@@ -28,6 +29,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
 
     const {
         errorByDisallowedPickerDate = DEFAULT_TEXTS.errorByDisallowedPickerDate,
+        errorByDisallowedMultipleDates = DEFAULT_TEXTS.errorByDisallowedMultipleDates,
         errorByValidateFirstDate = DEFAULT_TEXTS.errorByValidateFirstDate,
         errorByValidateLastDate = DEFAULT_TEXTS.errorByValidateLastDate,
         errorByValidateSelectedPickerDate = DEFAULT_TEXTS.errorByValidateSelectedPickerDate,
@@ -45,6 +47,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
         errorByDisallowedStartDate,
         errorByDisallowedEndDate,
         errorByEndDateBeforeStartDate,
+        errorByDisallowedMultipleDates,
     };
 
     const [isOpen, { setTrue: openPopup, setFalse: closePopup }] = useBooleanState(open);
@@ -166,7 +169,7 @@ export const DatePickerSelect = forwardRef(<D extends SelectedDates>(
                     {...textFieldProps}
                     onClick={onTextFieldClick}
                     onChange={(dates: D) => {
-                        setViewingDate(isPicker(dates) ? dates : (dates.end || dates.start));
+                        setViewingDate(parseActualViewingDate(dates));
                         onDateFieldChange(dates);
                     }}
                     ref={anchor}

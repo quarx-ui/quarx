@@ -108,9 +108,6 @@ export const useStyles = makeStyles(({ palette, borderRadii, typography },
                 color: palette.text.tertiary,
             }) : isDayTrusted ? {
                 color: palette.text.main,
-                ':&hover': {
-                    cursor: 'pointer',
-                },
                 '&:active': {
                     ...getActiveDayStyles(palette),
                 },
@@ -120,14 +117,18 @@ export const useStyles = makeStyles(({ palette, borderRadii, typography },
             isDaySelected && {
                 ...getActiveDayStyles(palette),
             },
-            isDayHovered && (isSecondPickInPeriod ? {
+            isDayHovered && [isSecondPickInPeriod ? {
                 background: palette.colors.brand.alpha[8],
                 color: palette.text.main,
             } : {
                 background: palette.background.main,
                 color: palette.text.main,
                 border: `1px solid ${palette.border.secondary}`,
-            }),
+            }, {
+                '&:hover': {
+                    cursor: 'pointer',
+                },
+            }],
             isDayInPeriod && !isHoveredPeriod && {
                 color: palette.text.main,
             },

@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import { Dispatch, SetStateAction } from 'react';
 import { DateFieldTexts } from '@core/src/experimental/DatePicker/components/DateField/types';
 import { getFormat, getDate } from './common';
-import { isPicker } from '../../Block/types';
+import { isMultiple, isPeriod, isPicker, MultipleSelectedDates } from '../../Block/types';
 
 export const mapSelectedToTextFieldValue = <D extends SelectedDates>(
     selected: D,
@@ -13,6 +13,8 @@ export const mapSelectedToTextFieldValue = <D extends SelectedDates>(
     const formatValue = getFormat(withTime, withSeconds);
     if (isPicker(selected) && selected) {
         return format(selected, formatValue);
+    } if (isMultiple(selected)) {
+        return selected.map((date) => format(date, formatValue)).join(', ');
     } if (selected?.start && selected?.end) {
         return `${format(selected.start, formatValue)} - ${format(selected.end, formatValue)}`;
     } if (selected?.start) {
@@ -22,7 +24,7 @@ export const mapSelectedToTextFieldValue = <D extends SelectedDates>(
     return '';
 };
 
-export type MapValueToTypeSelected<D extends SelectedDates> = Omit<MapTextFieldValueToSelectedProps<D>, 'isSingleDate'>
+export type MapValueToTypeSelected<D extends SelectedDates> = Omit<MapTextFieldValueToSelectedProps<D>, 'selected'>
 
 export type SetErrorText = Dispatch<SetStateAction<string>>;
 
@@ -56,8 +58,16 @@ const mapValueToPeriodSelected = (
     return {};
 };
 
+const mapValueToMultipleSelected = (
+    { value, withTime, withSeconds, setErrorText, errorsFromInput }: MapValueToTypeSelected<MultipleSelectedDates>,
+): MultipleSelectedDates => {
+    if (!value) { return []; }
+    return value.split(', ').map((dateValue) => getDate(dateValue, withTime, withSeconds, setErrorText,
+        errorsFromInput.errorByValidationSingleDate)).filter(Boolean) as Date[];
+};
+
 export interface MapTextFieldValueToSelectedProps<D extends SelectedDates> extends
-    Pick<DatePickerBlockProps<D>, 'withTime' | 'withSeconds'>
+    Pick<DatePickerBlockProps<D>, 'withTime' | 'withSeconds' | 'selected'>
 {
     value: string;
     isSingleDate: boolean;
@@ -66,6 +76,12 @@ export interface MapTextFieldValueToSelectedProps<D extends SelectedDates> exten
 }
 
 export const mapTextFieldValueToSelected = <D extends SelectedDates>(
-    { isSingleDate, ...props }: MapTextFieldValueToSelectedProps<D>,
-): D => (isSingleDate ? mapValueToPickerSelected(props) as D
-    : mapValueToPeriodSelected(props) as D);
+    { selected, ...props }: MapTextFieldValueToSelectedProps<D>,
+): D => {
+    if (isPicker(selected)) {
+        return mapValueToPickerSelected(props) as D;
+    } if (isPeriod(selected)) {
+        return mapValueToPeriodSelected(props) as D;
+    }
+    return mapValueToMultipleSelected(props) as D;
+};

@@ -13,7 +13,7 @@ import {
 } from './utils';
 import { FooterDatePickerProps } from './types';
 import { useStyles } from './styles/index';
-import { isPicker } from '../../types';
+import { isPicker, isPeriod } from '../../types';
 
 export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
     initialProps : FooterDatePickerProps<D>, ref: ForwardedRef<HTMLDivElement>,
@@ -53,7 +53,7 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
                 onChange(
                     mapTimesToPickerSelected(value, selected, inputType, errorMessageSetters, errorValidateTime) as D,
                 );
-            } else {
+            } else if (isPeriod(selected)) {
                 onChange(
                     mapTimesToPeriodSelected(value, selected, inputType, errorMessageSetters, errorValidateTime) as D,
                 );
@@ -64,7 +64,7 @@ export const FooterDatePicker = forwardRef(<D extends SelectedDates>(
     };
 
     const inputMask = withSeconds ? '99:99:99' : '99:99';
-    const getValueWithSecondsIfCompleted = (value: string) => !withSeconds && isCompletedTime(value) ? `${value}:00` : value;
+    const getValueWithSecondsIfCompleted = (value: string) => (!withSeconds && isCompletedTime(value) ? `${value}:00` : value);
 
     return (
         <div css={styles.root} ref={ref} className={cn('root', params)}>
