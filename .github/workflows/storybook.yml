@@ -47,6 +47,8 @@ jobs:
             ./node_modules
           key: ${{ runner.os }}-nm-${{ hashFiles('**/yarn.lock') }}
       - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: 1.0.20
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
