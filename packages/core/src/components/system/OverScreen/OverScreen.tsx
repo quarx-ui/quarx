@@ -13,7 +13,7 @@ import {
     BackdropProps as BackdropPropsType,
     OVER_SCREEN_ORIGIN,
     OVER_SCREEN_DATATYPE,
-    OVER_SCREEN_ROLE,
+    OVER_SCREEN_ROLE, useBooleanState,
 } from '@core';
 import { If } from '@core/components/system/If';
 import { mergeRefs, omitProps, ownerDocument, useEnhancedEffect } from '@core/utils';
@@ -34,6 +34,11 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     ref,
 ) => {
     const { cn, props, styleProps, qxName } = usePropsOverwrites('OverScreen', initialProps);
+
+    const [
+        rootOnClickDisabled,
+        { setTrue: disableRootOnClick, setFalse: enableRootOnClick },
+    ] = useBooleanState();
 
     const {
         open = false,
@@ -237,6 +242,11 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
     }, [TransitionProps, currentIndex, qxName]);
 
     const handleClick: OverScreenProps['onClick'] = useCallback((event) => {
+        if (rootOnClickDisabled) {
+            enableRootOnClick();
+            return;
+        }
+
         onClick?.(event);
 
         if (event.target !== event.currentTarget) {
@@ -246,7 +256,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         if (!disableCloseByClickAway) {
             onClose?.(event, OVER_SCREEN_CLOSE_REASON.clickAway);
         }
-    }, [disableCloseByClickAway, onClick, onClose]);
+    }, [rootOnClickDisabled, onClick, disableCloseByClickAway, enableRootOnClick, onClose]);
 
     const handleBackdropClick: BackdropPropsType['onClick'] = useCallback((event) => {
         if (event.target !== event.currentTarget) {
@@ -316,6 +326,8 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         childrenProps: {
             ...TransitionProps?.childrenProps,
             'data-component': childUniqAttr,
+            onMouseUp: enableRootOnClick,
+            onMouseDown: disableRootOnClick,
         },
         styles: {
             ...TransitionProps?.styles,
@@ -325,7 +337,7 @@ export const OverScreen: FC<OverScreenProps> = memo(forwardRef<HTMLDivElement, O
         onEntering,
         onEntered,
         onExited,
-    }), [TransitionProps, appearance, childUniqAttr, commonTransitionProps, isDisabledTransition, keepMounted, mapStatusToStyles, onEnter, onEntered, onEntering, onExited, open, transitionStyles]);
+    }), [TransitionProps, appearance, childUniqAttr, commonTransitionProps, disableRootOnClick, enableRootOnClick, isDisabledTransition, keepMounted, mapStatusToStyles, onEnter, onEntered, onEntering, onExited, open, transitionStyles]);
 
     const backdropProps = useMemo(() => ({
         ...BackdropProps,
