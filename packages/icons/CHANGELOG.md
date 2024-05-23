@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.0.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/icons@2.0.1&targetBranch=@quarx-ui/icons@2.0.0) (2024-05-23)
+
+
+### Code Refactoring
+
+* Из билда убраны лишние файлы, отключена сборка commonjs ([b0b80ba](https://github.com/quarx-ui/quarx/commits/b0b80ba987ab9311732b363072ed9a8ff8790c62))
+* Изменена структура директорий ([a87662e](https://github.com/quarx-ui/quarx/commits/a87662ee3ac172d7c3424e285b0dd6774fbf45a3))
+
+
+
 ## [2.0.0](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/icons@2.0.0&targetBranch=@quarx-ui/icons@1.0.3) (2023-05-16)
 
 

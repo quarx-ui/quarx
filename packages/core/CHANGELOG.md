@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.8.2](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.2&targetBranch=@quarx-ui/core@2.8.1) (2024-05-23)
+
+
+### Bug Fixes
+
+* **makeStyles:** Исправлена проверка на массив при слиянии стилей ([7b46a77](https://github.com/quarx-ui/quarx/commits/7b46a77425c482362934ced39d66e34053b0b630))
+* **OverScreen:** Отключены ложные срабатывания закрытия при перетягивании мыши за пределы children ([73b3f58](https://github.com/quarx-ui/quarx/commits/73b3f584596477228536b7342a5e2557abc50230))
+* **ThemeProvider:** Исправлено пробрасывание темы для случаев, когда она не определена изначально ([ea25eab](https://github.com/quarx-ui/quarx/commits/ea25eabd00200db83cf1397d1d0fa79137c011a5))
+
+
+### Code Refactoring
+
+* Из билда убраны лишние файлы, отключена сборка commonjs ([b0b80ba](https://github.com/quarx-ui/quarx/commits/b0b80ba987ab9311732b363072ed9a8ff8790c62))
+* Изменена структура директорий ([a87662e](https://github.com/quarx-ui/quarx/commits/a87662ee3ac172d7c3424e285b0dd6774fbf45a3))
+
+
+
 ### [2.8.1](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.1&targetBranch=@quarx-ui/core@2.8.0) (2023-11-27)
 
 **Note:** Version bump only for package @quarx-ui/core
