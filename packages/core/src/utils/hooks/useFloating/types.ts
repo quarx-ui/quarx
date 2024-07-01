@@ -1,4 +1,4 @@
-import { RefObject } from 'react';
+import { MutableRefObject, RefObject } from 'react';
 import { Values } from '@core/types';
 import { CalcOverflowOptions } from '@core/utils/hooks/useFloating/utils';
 import { ALIGNMENTS, AXES, DIMENSIONS, ARRANGEMENTS, SIDES, CLIPPING_CONTEXTS, ROOT_BOUNDARIES } from './constants';
@@ -57,6 +57,13 @@ export interface FlipOptions extends CalcOverflowOptions {
      * @default 8
      * */
     edgeOffset?: number;
+    /** Зафиксировать сторону открытия после первого рендера */
+    lockPlacementWhileOpen?: boolean;
+    /**
+     * Реф с положением попапа после первого рендера.
+     * Уже передается из useFloating, его не нужно передавать
+     * */
+    placementAfterFirstRenderRef: MutableRefObject<Placement| null>;
 }
 
 export interface ShiftOptions extends CalcOverflowOptions {
@@ -82,7 +89,7 @@ export interface ModifiersOptions {
     offset?: number;
 
     /** Переворот при отсутствии свободного места для корректной отрисовки */
-    flip?: FlipOptions;
+    flip?: Omit<FlipOptions, 'placementAfterFirstRenderRef'>;
 
     /** Ограничение отрисовки только внутри видимой области */
     shift?: ShiftOptions;
