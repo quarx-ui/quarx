@@ -8,7 +8,7 @@ import {
 } from '../utils';
 import { changePlacement } from '../utils/getFloatingPosition/changePlacement';
 
-export const flip = (options?: FlipOptions): FloatingPositionModifier => (
+export const flip = (options: FlipOptions): FloatingPositionModifier => (
     position,
     context,
 ) => {
@@ -32,6 +32,8 @@ export const flip = (options?: FlipOptions): FloatingPositionModifier => (
         mainAxis: checkMainAxis = true,
         altAxis: checkAltAxis = false,
         edgeOffset = 8,
+        lockPlacementWhileOpen = false,
+        placementAfterFirstRenderRef,
         ...calcOverflowOptions
     } = options ?? {};
 
@@ -116,6 +118,34 @@ export const flip = (options?: FlipOptions): FloatingPositionModifier => (
     const newPlacement: Placement = flippedPlacement.alignment
         ? `${flippedPlacement.side}-${flippedPlacement.alignment}`
         : flippedPlacement.side;
+
+    if (placementAfterFirstRenderRef.current === null) {
+        placementAfterFirstRenderRef.current = newPlacement;
+    }
+
+    if (lockPlacementWhileOpen) {
+        const lockedContext = getFloatingContext({
+            placement: placementAfterFirstRenderRef.current,
+            anchor,
+            floating,
+            arrangement,
+        });
+
+        changePlacement(placementAfterFirstRenderRef.current, context);
+
+        const lockedPosition = getFloatingCoords(lockedContext);
+
+        const prevMods = context.modifiersData.previous;
+
+        return applyModifiers({
+            position: lockedPosition,
+            context: {
+                ...lockedContext,
+                modifiersData: { previous: [] },
+            },
+            modifiers: prevMods,
+        });
+    }
 
     if (newPlacement !== placement) {
         const newContext = getFloatingContext({

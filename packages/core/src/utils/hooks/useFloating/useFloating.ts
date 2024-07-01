@@ -1,6 +1,6 @@
 import deepEqual from 'deep-equal';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Axis, ClientRect, UseFloatingProps, UseFloatingResult } from './types';
+import { Axis, ClientRect, Placement, UseFloatingProps, UseFloatingResult } from './types';
 import { ARRANGEMENTS, SIDES } from './constants';
 import { flip, offset, shift } from './modifiers';
 import {
@@ -36,6 +36,8 @@ export const useFloating = ({
     const [floatingPosition, setFloatingPosition] = useState<Record<Axis, number>>({ x: 0, y: 0 });
     const anchorComputedPosition = useRef<Partial<ClientRect>>(INITIAL_ANCHOR_COMPUTED_POSITION);
 
+    const firstRenderWhileOpenPlacement = useRef<Placement | null>(null);
+
     const updateCoords = useCallback(() => {
         if (!floatingRef.current) {
             return;
@@ -54,7 +56,11 @@ export const useFloating = ({
             arrangement,
             modifiers: [
                 !disableOffset && offset((modifiersOptions ?? {}).offset),
-                !disableFlip && flip((modifiersOptions ?? {}).flip),
+                !disableFlip && flip(
+                    modifiersOptions
+                        ? { ...(modifiersOptions.flip), placementAfterFirstRenderRef: firstRenderWhileOpenPlacement }
+                        : { placementAfterFirstRenderRef: firstRenderWhileOpenPlacement },
+                ),
                 !disableShift && shift((modifiersOptions ?? {}).shift),
                 ...(customModifiers ?? []),
             ],
@@ -145,6 +151,12 @@ export const useFloating = ({
         floatingRef,
         updateCoords,
     ]);
+
+    useEffect(() => {
+        if (!open) {
+            firstRenderWhileOpenPlacement.current = null;
+        }
+    }, [open]);
 
     return ({
         floating: { ...floatingPosition },
