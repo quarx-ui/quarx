@@ -104,6 +104,11 @@ export const useStyles = makeStyles((
         display: 'flex',
         width: '100%',
         overflow: 'hidden',
+    },
+    content: {
+        display: 'flex',
+        alignItems: 'flex-start',
+        overflow: 'hidden',
         ...!descriptionExists && {
             alignItems: 'center',
         },
@@ -113,18 +118,12 @@ export const useStyles = makeStyles((
             [QX_SIZE.large]: gap(16, 'right'),
         }),
     },
-    content: [
-        {
-            display: 'flex',
-            alignItems: 'flex-start',
-            overflow: 'hidden',
-        },
-    ],
     icon: !descriptionExists || paramsToCss(size)({
         [QX_SIZE.small]: { marginTop: 2 },
         [QX_SIZE.medium]: { marginTop: 3 },
         [QX_SIZE.large]: { marginTop: 4 },
     }),
+    leftItem: [],
     texts: {
         overflow: 'hidden',
     },

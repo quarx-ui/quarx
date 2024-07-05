@@ -91,7 +91,7 @@ export const DropdownItem: FC<DropdownItemProps> = forwardRef<HTMLButtonElement,
                 >
                     <div
                         className={cn('content')}
-                        css={styles.container}
+                        css={styles.content}
                     >
                         <If condition={isCheckboxType}>
                             <div
@@ -109,7 +109,12 @@ export const DropdownItem: FC<DropdownItemProps> = forwardRef<HTMLButtonElement,
                             </div>
                         </If>
                         <If condition={Boolean(leftItem)}>
-                            {leftItem}
+                            <div
+                                className={cn('leftItem')}
+                                css={styles.leftItem}
+                            >
+                                {leftItem}
+                            </div>
                         </If>
                         {children ?? (
                             <Stack
