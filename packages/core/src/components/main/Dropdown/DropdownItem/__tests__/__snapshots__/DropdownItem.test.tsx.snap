@@ -8,10 +8,10 @@ exports[`DropdownItem Active icon 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -35,10 +35,10 @@ exports[`DropdownItem Checkbox type 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         <div
           class="QxDropdownItem-icon css-1553a38-QxDropdownItem-icon"
@@ -92,10 +92,10 @@ exports[`DropdownItem Default type 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -135,13 +135,17 @@ exports[`DropdownItem Left icon 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
-        <div>
-          left icon
+        <div
+          class="QxDropdownItem-leftItem css-i9dxao-QxDropdownItem-leftItem"
+        >
+          <div>
+            left icon
+          </div>
         </div>
         Title
       </div>
@@ -181,10 +185,10 @@ exports[`DropdownItem Snapshot (default component) 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -224,10 +228,10 @@ exports[`DropdownItem Snapshot (with description) 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1qstva2-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1qstva2-QxDropdownItem-container"
+        class="QxDropdownItem-content css-u7yb3c-QxDropdownItem-content"
       >
         Title
       </div>
@@ -268,10 +272,10 @@ exports[`DropdownItem style params color brand 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -312,10 +316,10 @@ exports[`DropdownItem style params color danger 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -356,10 +360,10 @@ exports[`DropdownItem style params color info 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -400,10 +404,10 @@ exports[`DropdownItem style params color secondary 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -444,10 +448,10 @@ exports[`DropdownItem style params color success 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -488,10 +492,10 @@ exports[`DropdownItem style params color warning 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -532,10 +536,10 @@ exports[`DropdownItem style params disableFocus false 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -576,10 +580,10 @@ exports[`DropdownItem style params disableFocus true 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -620,10 +624,10 @@ exports[`DropdownItem style params hover false 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -664,10 +668,10 @@ exports[`DropdownItem style params size large 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-idtf7d-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-idtf7d-QxDropdownItem-container"
+        class="QxDropdownItem-content css-1urohja-QxDropdownItem-content"
       >
         Title
       </div>
@@ -708,10 +712,10 @@ exports[`DropdownItem style params size medium 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1sw8tm1-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1sw8tm1-QxDropdownItem-container"
+        class="QxDropdownItem-content css-lmv2qa-QxDropdownItem-content"
       >
         Title
       </div>
@@ -752,10 +756,10 @@ exports[`DropdownItem style params size small 1`] = `
     type="button"
   >
     <div
-      class="QxDropdownItem-container css-1jclboq-QxDropdownItem-container"
+      class="QxDropdownItem-container css-1vvwejo-QxDropdownItem-container"
     >
       <div
-        class="QxDropdownItem-content css-1jclboq-QxDropdownItem-container"
+        class="QxDropdownItem-content css-17wx78q-QxDropdownItem-content"
       >
         Title
       </div>
