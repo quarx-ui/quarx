@@ -110,10 +110,10 @@ export interface TextFieldPropsWithoutHtml extends
     onClear?: (value: string) => void;
 
     /** Правый элемент поля */
-    rightItem?: ReactElement;
+    rightItem?: ReactNode;
 
     /** Левый элемент поля */
-    leftItem?: ReactElement;
+    leftItem?: ReactNode;
 
     /** Компонент, находящийся под полем */
     underFieldItem?: ReactElement;
