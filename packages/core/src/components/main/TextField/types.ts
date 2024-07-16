@@ -92,7 +92,7 @@ export interface TextFieldPropsWithoutHtml extends
     counter?: boolean;
 
     /** Текст ошибки */
-    errorText?: string;
+    errorText?: ReactNode;
 
     /** Иконка рядом с текстом ошибки */
     errorIcon?: ReactNode;
@@ -104,7 +104,7 @@ export interface TextFieldPropsWithoutHtml extends
     };
 
     /** Подсказка */
-    helperText?: string;
+    helperText?: ReactNode;
 
     /** Обработчик события очистки поля */
     onClear?: (value: string) => void;
