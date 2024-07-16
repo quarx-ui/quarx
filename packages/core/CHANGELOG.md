@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.8.5](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.5&targetBranch=@quarx-ui/core@2.8.4) (2024-07-16)
+
+
+### Code Refactoring
+
+* **TextField:** Расширен тип helperText и errorText ([cebd602](https://github.com/quarx-ui/quarx/commits/cebd60264f0e64299c263a05dc5cfaa853ba0903))
+
+
+
 ### [2.8.4](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.4&targetBranch=@quarx-ui/core@2.8.3) (2024-07-12)
 
 **Note:** Version bump only for package @quarx-ui/core
