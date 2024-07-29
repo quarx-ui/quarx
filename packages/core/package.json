@@ -39,8 +39,8 @@
   },
   "gitHead": "baae451910c5f79946136e5498a22c3cf1c18af7",
   "scripts": {
-    "build": "yarn run build:esm && yarn run build:d.ts",
+    "build": "bun run build:esm && bun run build:d.ts",
     "build:esm": "BABEL_ENV=buildES babel ./src --root-mode upward --out-dir build --copy-files --no-copy-ignored --extensions .ts,.tsx,.svg,.js,.json,.log,.md,.snap,.png --delete-dir-on-start --no-comments",
-    "build:d.ts": "tsc --outDir build --emitDeclarationOnly true"
+    "build:d.ts": "ttsc --outDir build --emitDeclarationOnly true"
   }
 }
