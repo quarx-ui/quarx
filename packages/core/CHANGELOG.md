@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.8.6](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.6&targetBranch=@quarx-ui/core@2.8.5) (2024-07-29)
+
+
+### Bug Fixes
+
+* Возврат от tsc к ttsc ([4089dbd](https://github.com/quarx-ui/quarx/commits/4089dbd1c8f52b7a802583db441454aa55944199))
+
+
+
 ### [2.8.5](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.5&targetBranch=@quarx-ui/core@2.8.4) (2024-07-16)
 
 
