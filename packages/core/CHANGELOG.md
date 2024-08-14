@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.8.7](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.7&targetBranch=@quarx-ui/core@2.8.6) (2024-08-14)
+
+
+### Bug Fixes
+
+* **Tabs:** пробрасывание классов в компоненты Tabs ([eaff6c8](https://github.com/quarx-ui/quarx/commits/eaff6c8cfb9ad3e3976673b963a1f72a1b4c00ff))
+
+
+
 ### [2.8.6](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.6&targetBranch=@quarx-ui/core@2.8.5) (2024-07-29)
 
 
