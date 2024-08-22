@@ -103,6 +103,7 @@ export const useStyles = makeStyles((
                 paddingLeft: 14,
                 paddingRight: 14,
                 boxShadow: shadow,
+                cursor: 'pointer',
 
                 '&:hover': {
                     ...!disableHoverStyles && {
@@ -174,6 +175,7 @@ export const useStyles = makeStyles((
         ],
         content: [
             {
+                height: '100%',
                 boxSizing: 'border-box',
                 display: 'flex',
                 position: 'relative',
@@ -348,6 +350,9 @@ export const useStyles = makeStyles((
             },
         ],
         leftItem: [
+            {
+                height: '100%',
+            },
             paramsToCss(size)({
                 small: {
                     marginLeft: -6,
@@ -364,6 +369,9 @@ export const useStyles = makeStyles((
             }),
         ],
         rightItem: [
+            {
+                height: '100%',
+            },
             paramsToCss(size)({
                 small: {
                     marginRight: -6,
@@ -379,9 +387,15 @@ export const useStyles = makeStyles((
                 },
             }),
         ],
-        rightIcon: vertCenter,
+        rightIcon: [
+            vertCenter,
+            {
+                height: '100%',
+            }
+        ],
         closeIcon: [
             {
+                height: '100%',
                 color: palette.text.tertiary,
                 width: 0,
                 opacity: 0,
