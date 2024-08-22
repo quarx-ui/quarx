@@ -195,7 +195,6 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
 
         setValue('');
 
-        localInputRef.current?.focus();
         onClear?.(currentValue);
     }, [disabled, hasValue, onClear, readOnly, setValue]);
 
@@ -281,6 +280,9 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
             <div
                 css={styles.field}
                 className={cn('field')}
+                onClick={onClickToFocus}
+                onBlur={onBlur}
+                onMouseDown={(event) => event.preventDefault()}
             >
                 {leftItem && (
                     <div
@@ -293,8 +295,6 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
                 <div
                     css={styles.content}
                     className={cn('content')}
-                    onClick={onClickToFocus}
-                    onBlur={onBlur}
                 >
                     {size !== 'small' && <Label {...labelProps} />}
                     <BaseTextField
