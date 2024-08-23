@@ -3,24 +3,24 @@
 exports[`Dropdown enabled all snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-12d5dhg-QxPopup-root-QxDropdown-root"
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-header css-1wyqd0e-QxDropdown-header"
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
     >
       <span
-        class="QxDropdown-title css-1qfsazl-QxDropdown-title"
+        class="QxDropdown-title css-1fgaqp7-QxDropdown-title"
       >
         Title
       </span>
       <div
-        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-13t1ig0-QxTextField-root-QxDropdown-searchTextField"
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-jxa0ft-QxTextField-field"
+          class="QxTextField-field css-k5fytz-QxTextField-field"
         >
           <div
-            class="QxTextField-leftItem QxTextField-sideItem css-l6u5og-QxTextField-leftItem-QxTextField-sideItem-TextField"
+            class="QxTextField-leftItem QxTextField-sideItem css-1yyq3ui-QxTextField-leftItem-QxTextField-sideItem-TextField"
           >
             <svg
               fill="currentColor"
@@ -37,20 +37,20 @@ exports[`Dropdown enabled all snapshot 1`] = `
             </svg>
           </div>
           <div
-            class="QxTextField-content css-1bm2lwh-QxTextField-content"
+            class="QxTextField-content css-1bljv97-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1u7c8m9-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               placeholder="Test placeholder"
               size="1"
               value=""
             />
           </div>
           <div
-            class="QxTextField-rightItem QxTextField-sideItem css-k2l41v-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+            class="QxTextField-rightItem QxTextField-sideItem css-1rqd3y3-QxTextField-rightItem-QxTextField-sideItem-RightItem"
           >
             <div
-              class="QxTextField-closeIcon css-1c9wh0s-QxTextField-closeIcon"
+              class="QxTextField-closeIcon css-16iclvl-QxTextField-closeIcon"
             >
               <svg
                 fill="none"
@@ -68,38 +68,38 @@ exports[`Dropdown enabled all snapshot 1`] = `
           </div>
         </div>
         <div
-          class="QxTextField-bottom css-1kmqyn6-QxTextField-bottom"
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-1u9txdx-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
     </div>
     <div
-      class="QxDropdown-body css-goh9kj-QxDropdown-body"
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Test
     </div>
     <div
-      class="QxDropdown-footer css-e934fj-QxDropdown-footer"
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-qq1z3f-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Применить
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-b2yswh-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Сбросить
         </div>
@@ -112,19 +112,19 @@ exports[`Dropdown enabled all snapshot 1`] = `
 exports[`Dropdown large 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_large QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-12d5dhg-QxPopup-root-QxDropdown-root"
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_large QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-header css-1wyqd0e-QxDropdown-header"
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
     >
       <div
-        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-13t1ig0-QxTextField-root-QxDropdown-searchTextField"
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_large QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-5j2yx1-QxTextField-field"
+          class="QxTextField-field css-12o8rq0-QxTextField-field"
         >
           <div
-            class="QxTextField-leftItem QxTextField-sideItem css-nvz7rv-QxTextField-leftItem-QxTextField-sideItem-TextField"
+            class="QxTextField-leftItem QxTextField-sideItem css-hlzp86-QxTextField-leftItem-QxTextField-sideItem-TextField"
           >
             <svg
               fill="currentColor"
@@ -141,19 +141,19 @@ exports[`Dropdown large 1`] = `
             </svg>
           </div>
           <div
-            class="QxTextField-content css-g1uzqn-QxTextField-content"
+            class="QxTextField-content css-1nvrrkq-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1s4r2ez-QxTextField-input"
+              class="QxTextField-input css-1adtfth-QxTextField-input"
               size="1"
               value=""
             />
           </div>
           <div
-            class="QxTextField-rightItem QxTextField-sideItem css-kpyuty-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+            class="QxTextField-rightItem QxTextField-sideItem css-lwrd7-QxTextField-rightItem-QxTextField-sideItem-RightItem"
           >
             <div
-              class="QxTextField-closeIcon css-1c9wh0s-QxTextField-closeIcon"
+              class="QxTextField-closeIcon css-16iclvl-QxTextField-closeIcon"
             >
               <svg
                 fill="none"
@@ -171,38 +171,38 @@ exports[`Dropdown large 1`] = `
           </div>
         </div>
         <div
-          class="QxTextField-bottom css-1kmqyn6-QxTextField-bottom"
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-8f0kf8-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1i4fgon-QxTextField-bottomText"
           />
         </div>
       </div>
     </div>
     <div
-      class="QxDropdown-body css-goh9kj-QxDropdown-body"
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Title
     </div>
     <div
-      class="QxDropdown-footer css-w46ba3-QxDropdown-footer"
+      class="QxDropdown-footer css-6oqsar-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-1w3t8uj-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-61ndx9-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-12y0hdo-QxButton-content"
+          class="QxButton-content css-ovifzf-QxButton-content"
         >
           Применить
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-95gvg2-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_medium QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_medium css-eblkf4-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-12y0hdo-QxButton-content"
+          class="QxButton-content css-ovifzf-QxButton-content"
         >
           Сбросить
         </div>
@@ -215,19 +215,19 @@ exports[`Dropdown large 1`] = `
 exports[`Dropdown medium 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-12d5dhg-QxPopup-root-QxDropdown-root"
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-header css-1wyqd0e-QxDropdown-header"
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
     >
       <div
-        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-13t1ig0-QxTextField-root-QxDropdown-searchTextField"
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-jxa0ft-QxTextField-field"
+          class="QxTextField-field css-k5fytz-QxTextField-field"
         >
           <div
-            class="QxTextField-leftItem QxTextField-sideItem css-l6u5og-QxTextField-leftItem-QxTextField-sideItem-TextField"
+            class="QxTextField-leftItem QxTextField-sideItem css-1yyq3ui-QxTextField-leftItem-QxTextField-sideItem-TextField"
           >
             <svg
               fill="currentColor"
@@ -244,19 +244,19 @@ exports[`Dropdown medium 1`] = `
             </svg>
           </div>
           <div
-            class="QxTextField-content css-1bm2lwh-QxTextField-content"
+            class="QxTextField-content css-1bljv97-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1u7c8m9-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               size="1"
               value=""
             />
           </div>
           <div
-            class="QxTextField-rightItem QxTextField-sideItem css-k2l41v-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+            class="QxTextField-rightItem QxTextField-sideItem css-1rqd3y3-QxTextField-rightItem-QxTextField-sideItem-RightItem"
           >
             <div
-              class="QxTextField-closeIcon css-1c9wh0s-QxTextField-closeIcon"
+              class="QxTextField-closeIcon css-16iclvl-QxTextField-closeIcon"
             >
               <svg
                 fill="none"
@@ -274,38 +274,38 @@ exports[`Dropdown medium 1`] = `
           </div>
         </div>
         <div
-          class="QxTextField-bottom css-1kmqyn6-QxTextField-bottom"
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-1u9txdx-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
     </div>
     <div
-      class="QxDropdown-body css-goh9kj-QxDropdown-body"
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Title
     </div>
     <div
-      class="QxDropdown-footer css-e934fj-QxDropdown-footer"
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-qq1z3f-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Применить
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-b2yswh-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Сбросить
         </div>
@@ -318,32 +318,32 @@ exports[`Dropdown medium 1`] = `
 exports[`Dropdown searchable false 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-12d5dhg-QxPopup-root-QxDropdown-root"
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-body css-goh9kj-QxDropdown-body"
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Title
     </div>
     <div
-      class="QxDropdown-footer css-e934fj-QxDropdown-footer"
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-qq1z3f-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Применить
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-b2yswh-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Сбросить
         </div>
@@ -356,19 +356,19 @@ exports[`Dropdown searchable false 1`] = `
 exports[`Dropdown searchable true 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-12d5dhg-QxPopup-root-QxDropdown-root"
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_medium QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-header css-1wyqd0e-QxDropdown-header"
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
     >
       <div
-        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-13t1ig0-QxTextField-root-QxDropdown-searchTextField"
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_medium QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-jxa0ft-QxTextField-field"
+          class="QxTextField-field css-k5fytz-QxTextField-field"
         >
           <div
-            class="QxTextField-leftItem QxTextField-sideItem css-l6u5og-QxTextField-leftItem-QxTextField-sideItem-TextField"
+            class="QxTextField-leftItem QxTextField-sideItem css-1yyq3ui-QxTextField-leftItem-QxTextField-sideItem-TextField"
           >
             <svg
               fill="currentColor"
@@ -385,19 +385,19 @@ exports[`Dropdown searchable true 1`] = `
             </svg>
           </div>
           <div
-            class="QxTextField-content css-1bm2lwh-QxTextField-content"
+            class="QxTextField-content css-1bljv97-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1u7c8m9-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               size="1"
               value=""
             />
           </div>
           <div
-            class="QxTextField-rightItem QxTextField-sideItem css-k2l41v-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+            class="QxTextField-rightItem QxTextField-sideItem css-1rqd3y3-QxTextField-rightItem-QxTextField-sideItem-RightItem"
           >
             <div
-              class="QxTextField-closeIcon css-1c9wh0s-QxTextField-closeIcon"
+              class="QxTextField-closeIcon css-16iclvl-QxTextField-closeIcon"
             >
               <svg
                 fill="none"
@@ -415,38 +415,38 @@ exports[`Dropdown searchable true 1`] = `
           </div>
         </div>
         <div
-          class="QxTextField-bottom css-1kmqyn6-QxTextField-bottom"
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-1u9txdx-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
     </div>
     <div
-      class="QxDropdown-body css-goh9kj-QxDropdown-body"
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Title
     </div>
     <div
-      class="QxDropdown-footer css-e934fj-QxDropdown-footer"
+      class="QxDropdown-footer css-aqiwza-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-qq1z3f-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-1eq65yc-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Применить
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-b2yswh-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_small QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_small css-18lf0l1-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-1cp0whq-QxButton-content"
+          class="QxButton-content css-lmfykt-QxButton-content"
         >
           Сбросить
         </div>
@@ -459,19 +459,19 @@ exports[`Dropdown searchable true 1`] = `
 exports[`Dropdown small 1`] = `
 <DocumentFragment>
   <div
-    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_small QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-12d5dhg-QxPopup-root-QxDropdown-root"
+    class="QxPopup QxPopup_x_-8 QxPopup_y_-8 QxPopup_disableBackdrop QxPopup_reference_window QxDropdown QxDropdown_size_small QxDropdown_searchable QxDropdown_zIndex_auto QxDropdown_maxBodyHeight_320 QxDropdown_headerExists QxDropdown_width_fit-content QxDropdown_minWidth_fit-content QxDropdown_maxWidth_512 css-1psbr88-QxPopup-root-QxDropdown-root"
   >
     <div
-      class="QxDropdown-header css-1wyqd0e-QxDropdown-header"
+      class="QxDropdown-header css-1f6g8gb-QxDropdown-header"
     >
       <div
-        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-13t1ig0-QxTextField-root-QxDropdown-searchTextField"
+        class="QxTextField QxTextField_borderRadius_medium QxTextField_size_small QxTextField_colorBase_secondary QxTextField_disableLabel QxTextField_clearIconVisibleOn_interact QxTextField_counterVisibleOn_focus QxDropdown-searchTextField css-erpeyz-QxTextField-root-QxDropdown-searchTextField"
       >
         <div
-          class="QxTextField-field css-114fwin-QxTextField-field"
+          class="QxTextField-field css-84n67q-QxTextField-field"
         >
           <div
-            class="QxTextField-leftItem QxTextField-sideItem css-1tv7a5g-QxTextField-leftItem-QxTextField-sideItem-TextField"
+            class="QxTextField-leftItem QxTextField-sideItem css-15vkkqj-QxTextField-leftItem-QxTextField-sideItem-TextField"
           >
             <svg
               fill="currentColor"
@@ -488,19 +488,19 @@ exports[`Dropdown small 1`] = `
             </svg>
           </div>
           <div
-            class="QxTextField-content css-lop1mp-QxTextField-content"
+            class="QxTextField-content css-1o8fyy0-QxTextField-content"
           >
             <input
-              class="QxTextField-input css-1u7c8m9-QxTextField-input"
+              class="QxTextField-input css-49ott5-QxTextField-input"
               size="1"
               value=""
             />
           </div>
           <div
-            class="QxTextField-rightItem QxTextField-sideItem css-1sn1o48-QxTextField-rightItem-QxTextField-sideItem-RightItem"
+            class="QxTextField-rightItem QxTextField-sideItem css-wd8ye3-QxTextField-rightItem-QxTextField-sideItem-RightItem"
           >
             <div
-              class="QxTextField-closeIcon css-1c9wh0s-QxTextField-closeIcon"
+              class="QxTextField-closeIcon css-16iclvl-QxTextField-closeIcon"
             >
               <svg
                 fill="none"
@@ -518,38 +518,38 @@ exports[`Dropdown small 1`] = `
           </div>
         </div>
         <div
-          class="QxTextField-bottom css-1kmqyn6-QxTextField-bottom"
+          class="QxTextField-bottom css-yg0qi0-QxTextField-bottom"
         >
           <div
-            class="QxTextField-bottomText css-1u9txdx-QxTextField-bottomText"
+            class="QxTextField-bottomText css-1ut143t-QxTextField-bottomText"
           />
         </div>
       </div>
     </div>
     <div
-      class="QxDropdown-body css-goh9kj-QxDropdown-body"
+      class="QxDropdown-body css-1lz383c-QxDropdown-body"
     >
       Title
     </div>
     <div
-      class="QxDropdown-footer css-1g9cn62-QxDropdown-footer"
+      class="QxDropdown-footer css-66pkkd-QxDropdown-footer"
     >
       <button
-        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-17nsg4t-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_brand QxBaseButton_type_outlined QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-u53owg-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-12y0hdo-QxButton-content"
+          class="QxButton-content css-ovifzf-QxButton-content"
         >
           Применить
         </div>
       </button>
       <button
-        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-1r7txbc-QxBaseButton-root-QxButton-root"
+        class="QxBaseButton QxBaseButton_size_xSmall QxBaseButton_color_secondary QxBaseButton_type_text QxBaseButton_borderRadius_medium QxButton QxButton_size_xSmall css-ggechv-QxBaseButton-root-QxButton-root"
         type="button"
       >
         <div
-          class="QxButton-content css-12y0hdo-QxButton-content"
+          class="QxButton-content css-ovifzf-QxButton-content"
         >
           Сбросить
         </div>
