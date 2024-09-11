@@ -195,6 +195,7 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
 
         setValue('');
 
+        localInputRef.current?.focus();
         onClear?.(currentValue);
     }, [disabled, hasValue, onClear, readOnly, setValue]);
 
@@ -282,7 +283,6 @@ export const TextField: FC<TextFieldProps> = forwardRef<HTMLDivElement, TextFiel
                 className={cn('field')}
                 onClick={onClickToFocus}
                 onBlur={onBlur}
-                onMouseDown={(event) => event.preventDefault()}
             >
                 {leftItem && (
                     <div
