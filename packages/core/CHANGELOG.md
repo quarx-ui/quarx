@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.8.9](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.9&targetBranch=@quarx-ui/core@2.8.7) (2024-09-12)
+
+
+### Bug Fixes
+
+* Клик по полю ввода TextField корректно ставит каретку ([eff158a](https://github.com/quarx-ui/quarx/commits/eff158af4df9d1ad0cc526aeb92f1fcc26332603))
+
+
+
 ### [2.8.8](https://github.com/quarx-ui/quarx/compare/diff?sourceBranch=@quarx-ui/core@2.8.8&targetBranch=@quarx-ui/core@2.8.7) (2024-08-23)
 
 **Note:** Version bump only for package @quarx-ui/core
