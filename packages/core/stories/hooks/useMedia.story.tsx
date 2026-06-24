@@ -61,12 +61,13 @@ const throttleWindowEvent = (eventName: keyof WindowEventMap, customEventName: s
 };
 
 const useScreenSize = () => {
-    const [screenSize, setScreenSize] = useState(window.visualViewport.width);
+    const getViewportWidth = () => window.visualViewport?.width ?? window.innerWidth;
+    const [screenSize, setScreenSize] = useState(getViewportWidth);
 
     useEffect(() => {
         const cancelThrottle = throttleWindowEvent('resize', 'optimizedResize');
 
-        const handleScreenResize = () => setScreenSize(window.visualViewport.width);
+        const handleScreenResize = () => setScreenSize(getViewportWidth);
         window.addEventListener('optimizedResize', handleScreenResize);
         return () => {
             window.removeEventListener('optimizedResize', handleScreenResize);

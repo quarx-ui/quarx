@@ -21,12 +21,12 @@ export const getActiveDayStyles = (palette: Palette) => ({
 const isFirstDayOfRow = ':nth-of-type(15n+1)';
 const isLastDayOfRow = ':nth-of-type(15n)';
 
-export const getCustomHover = (isLarge: boolean) => (isLarge ? {} : {
+export const getCustomHover = (isLarge: boolean, height: number, color: string) => (isLarge ? {} : {
     [`&${isFirstDayOfRow}`]: {
-        backgroundImage: inlineSVGHoverFirstDay,
+        backgroundImage: inlineSVGHoverFirstDay(height, color),
     },
     [`&${isLastDayOfRow}`]: {
-        backgroundImage: inlineSVGHoverLastDay,
+        backgroundImage: inlineSVGHoverLastDay(height, color),
     },
 });
 

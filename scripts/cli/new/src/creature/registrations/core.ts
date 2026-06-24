@@ -31,27 +31,21 @@ export const addComponentExport = async ({
 
     /* Префикс './' Используется только для стандарта экспорта, принятого на проекте */
     const nodes: ts.Node[] = [];
-    const newModuleLiteral: ts.StringLiteral = factory?.createStringLiteral(
-        `./${componentName}`,
-        true,
-    );
-    const componentPath: string = printer.printNode(ts.EmitHint.Unspecified, newModuleLiteral, sourceFile);
-    const modules: Set<string> = new Set([componentPath]);
+    const modules: Set<string> = new Set([`./${componentName}`]);
     ts.forEachChild(sourceFile, (node) => {
         if (!ts.isExportDeclaration(node)) {
             nodes.push(node);
             return;
         }
-        const module: string | undefined = node.moduleSpecifier?.getText(sourceFile);
-        if (!module) { return; }
-        modules.add(module);
+        const { moduleSpecifier } = node;
+        if (!moduleSpecifier || !ts.isStringLiteral(moduleSpecifier)) { return; }
+        modules.add(moduleSpecifier.text);
     });
 
     const exports: ts.Node[] = [];
     Array.from(modules).sort().forEach((module) => {
-        const stringLiteral: ts.Identifier = factory?.createIdentifier(module);
+        const stringLiteral = factory.createStringLiteral(module, true);
         const exportNode: ts.Node = factory?.createExportDeclaration(
-            undefined,
             undefined,
             false,
             undefined,
@@ -143,7 +137,6 @@ const addComponentToComponentsProps = async ({
             const uniqTypes = uniqueNodesByPrint(types, printer, sourceFile);
 
             const componentPropsInterface: ts.InterfaceDeclaration = factory?.createInterfaceDeclaration(
-                node.decorators,
                 node.modifiers,
                 node.name,
                 node.typeParameters,

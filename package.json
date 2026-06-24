@@ -5,7 +5,7 @@
   "license": "Sber Public License at-nc-sa",
   "private": true,
   "scripts": {
-    "build": "lerna exec --parallel 'yarn run build'",
+    "build": "lerna exec --parallel 'bun run build'",
     "publish": "yarn run build && lerna version && yarn run publish:prepare && lerna exec 'cd build && yarn publish --non-interactive'",
     "publish:prepare": "yarn run publish:prepare:copy && yarn run publish:prepare:packageJson",
     "publish:prepare:copy": "lerna exec --parallel 'cp package.json CHANGELOG.md README.md build'",
@@ -119,9 +119,7 @@
     "terser-webpack-plugin": "^5.1.1",
     "ts-node": "^10.2.1",
     "tslib": "2.3.1",
-    "ttypescript": "^1.5.12",
-    "typescript": "^4.4.4",
-    "typescript-transform-paths": "2.2.3"
+    "typescript": "5.8.3"
   },
   "resolutions": {
     "es5-ext": "0.10.53"

@@ -60,7 +60,7 @@ function isCallable<Props>(prop: BaseVariantProps<Props>['componentProps']): pro
 
 /** Функция предназначена для генерации различных вариантов компонента.
  * Принимает одно свойство и несколько значений. */
-export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
+export function DisplayVariants<Props extends object>(options: DisplayVariantsProps<Props>) {
     const {
         property,
         values,
@@ -101,12 +101,12 @@ export function DisplayVariants<Props>(options: DisplayVariantsProps<Props>) {
                             {titleProps.type === 'value' ? value.toString() : property}
                         </Title>
                     )}
-                    {createElement(
+                    {createElement<Props>(
                         component,
                         {
                             ...props as Props,
                             [property]: value,
-                        },
+                        } as Props,
                     )}
                 </React.Fragment>
             </Variant>
@@ -148,7 +148,7 @@ interface DisplayVariantsMapProps<VariantProps> extends BaseVariantProps<Variant
  * Возможен выбор вертикального или горизонтального направления
  * @return
  * Будут выведены варианты компонента сгруппированные по свойствам, для каждого значения по одному варианту */
-export function DisplayVariantsMap<Props>(options: DisplayVariantsMapProps<Props>) {
+export function DisplayVariantsMap<Props extends object>(options: DisplayVariantsMapProps<Props>) {
     const {
         variants,
         direction = 'horizontal',
@@ -209,7 +209,7 @@ DisplayVariantsMap.defaultProps = {
     componentProps: {},
 };
 
-interface DisplayBooleanVariantsProps<VariantProps> extends Omit<DisplayVariantsMapProps<VariantProps>, 'variants'> {
+interface DisplayBooleanVariantsProps<VariantProps extends object> extends Omit<DisplayVariantsMapProps<VariantProps>, 'variants'> {
     /** Массив булевых свойств, которые необходимо вывести в качестве примера
      * @example
      * ['size', 'color'] */
@@ -223,7 +223,7 @@ interface DisplayBooleanVariantsProps<VariantProps> extends Omit<DisplayVariants
  * Названия значений свойств по умолчанию не выводятся, но это можно изменить.
  * @return
  * Будут выведены варианты компонента, где для каждого булевого свойства установлено значение `true` */
-export function DisplayBooleanVariants<Props>(options: DisplayBooleanVariantsProps<Props>) {
+export function DisplayBooleanVariants<Props extends object>(options: DisplayBooleanVariantsProps<Props>) {
     const {
         properties,
         direction = 'vertical',
@@ -248,7 +248,7 @@ export function DisplayBooleanVariants<Props>(options: DisplayBooleanVariantsPro
         }
     });
 
-    return DisplayVariantsMap({
+    return DisplayVariantsMap<Props>({
         variants,
         direction,
         optionTitle,

@@ -32,7 +32,7 @@ export type UsePropsOverwritesPropsTypeCast<
     & WithPermissions
 
 export interface UsePropsOverwritesReturnType<
-    Props,
+    Props extends object,
     StyleKey extends string,
     CSSVars extends Partial<Record<string, string>>
 > {

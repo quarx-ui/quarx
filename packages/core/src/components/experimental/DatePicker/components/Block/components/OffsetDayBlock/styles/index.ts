@@ -5,7 +5,7 @@ import { DATE_PICKER_DAY_SIZE_PX, OFFSET_DAYS,
     inlineSVGHover,
 } from '../../../utils';
 
-export const useStyles = makeStyles(({ palette },
+export const useStyles = makeStyles<OffsetDayStyleParams, 'root'>(({ palette },
     { size, isLarge, isDayInPeriod, isDayLastInPeriod, isEqualDays, isHoveredPeriod, isWeekdayName,
         isDayInPeriodLarge, bigPressScope }: Required<OffsetDayStyleParams>) => {
     const sizeDay = DATE_PICKER_DAY_SIZE_PX[size];
@@ -23,7 +23,7 @@ export const useStyles = makeStyles(({ palette },
             !stableOffset && ((isLarge ? isDayInPeriodLarge : isDayInPeriod) || isDayLastInPeriod)
             && !isEqualDays && !isWeekdayName && (isHoveredPeriod ? {
                 backgroundImage: inlineSVGHover(sizeDay, OFFSET_DAYS[size], palette.border.secondary),
-                ...getCustomHover(isLarge),
+                ...getCustomHover(isLarge, sizeDay, palette.border.secondary),
             } : !stableOffset && {
                 backgroundColor: palette.colors.brand.surface,
             }),

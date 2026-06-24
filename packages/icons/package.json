@@ -17,8 +17,8 @@
   },
   "sideEffects": false,
   "scripts": {
-    "build": "yarn run build:js && yarn run build:d.ts",
+    "build": "bun run build:js && bun run build:d.ts",
     "build:js": "BABEL_ENV=build babel ./src --out-dir build --copy-files --no-copy-ignored --extensions .ts,.tsx --delete-dir-on-start --no-comments",
-    "build:d.ts": "ttsc --outDir build --emitDeclarationOnly true"
+    "build:d.ts": "tsc --outDir build --emitDeclarationOnly true"
   }
 }

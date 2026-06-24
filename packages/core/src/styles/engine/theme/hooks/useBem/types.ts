@@ -1,4 +1,4 @@
-import { Classes, StylesCallback, StylesWithCallback } from '@core';
+import { Classes, StylesProp } from '@core';
 import { ClassNameList, NoStrictEntityMods } from '@bem-react/classname';
 
 export interface TypedCnFormatter<Key extends string> {
@@ -20,6 +20,6 @@ export type UseBemTypeCast<
 > =
     & UseBemPropsType<T, StyleKey>
     & {
-        styles?: Partial<StylesWithCallback<StyleKey, T>> | StylesCallback<StyleKey, T>;
+        styles?: StylesProp<object, StyleKey>;
         className?: string;
     }

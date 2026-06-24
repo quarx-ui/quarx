@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.paths.json",
-  "exclude": ["e2e", "storybook-static"],
+  "exclude": ["e2e", "storybook-static", "**/build"],
   "compilerOptions": {
     "baseUrl": "./",
     "target": "es2019",
@@ -17,9 +17,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "plugins": [
-      { "transform": "typescript-transform-paths", "afterDeclarations": true }
-    ]
+    "noEmit": true
   }
 }
