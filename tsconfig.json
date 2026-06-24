@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.paths.json",
-  "exclude": ["e2e", "storybook-static", "**/build"],
+  "exclude": ["storybook-static", "**/build"],
   "compilerOptions": {
     "baseUrl": "./",
     "target": "es2019",

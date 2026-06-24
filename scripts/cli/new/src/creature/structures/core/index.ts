@@ -77,7 +77,6 @@ const createTestsFiles = async ({
     const folder = '__tests__';
     const files = {
         snapshots: `${folder}/${componentName}.test.tsx`,
-        pw: `${componentName}.test.pw.ts`,
     };
 
     await makeDir(folder);

@@ -16,8 +16,6 @@ const buildIgnoredFiles = [
     '**/__tests__',
     '**/*.test.ts',
     '**/*.test.tsx',
-    '**/*.test.pw.ts',
-    '**/*.test.pw.tsx',
     '**/*.story.ts',
     '**/*.story.tsx',
     ...ignoredFiles,
