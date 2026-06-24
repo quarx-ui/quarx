@@ -1,6 +1,6 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
 import { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { QX_SIZE, Tabs } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
@@ -8,7 +8,7 @@ import { TABS_TYPES } from '../../common';
 import { iconItems } from '../utils';
 import { defaultTabsStoryArgs } from '../args';
 
-export const SandboxStory: Story<TabsProps> = ({
+export const SandboxStory: StoryFn<TabsProps> = ({
     line,
     icons,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars

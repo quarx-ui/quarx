@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayBooleanVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps, Grid } from '../utils';
 import { OverScreen } from '../sandbox';
-import booleanVariantsDescription from './description.md';
+import booleanVariantsDescription from './description.md?raw';
 
-export const BooleanVariantsStory: Story<StoryOverScreenProps> = (props) => (
+export const BooleanVariantsStory: StoryFn<StoryOverScreenProps> = (props) => (
     <Grid>
         {DisplayBooleanVariants({
             ...commonDisplayProps,

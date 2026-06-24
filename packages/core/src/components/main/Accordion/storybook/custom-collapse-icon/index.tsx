@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Accordion, AccordionProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 import { ChevronRightIcon } from './ChevronRightIcon';
 
-export const CustomCollapseIconStory: Story<AccordionProps> = ({ ...props }) => (
+export const CustomCollapseIconStory: StoryFn<AccordionProps> = ({ ...props }) => (
     <Accordion
         {...props}
         collapseIcon={<ChevronRightIcon />}

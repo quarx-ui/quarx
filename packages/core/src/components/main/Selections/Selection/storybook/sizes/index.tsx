@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { QX_SIZE, Selection, SelectionProps, useBooleanState } from '@core';
@@ -10,7 +10,7 @@ import {
     getController,
 } from '../utils';
 
-export const SizesStory: Story<SelectionTemplateProps> = ({
+export const SizesStory: StoryFn<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {

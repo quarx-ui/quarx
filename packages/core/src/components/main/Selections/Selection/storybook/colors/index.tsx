@@ -1,11 +1,11 @@
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { PALETTE_COLORS, Selection, SelectionProps, useBooleanState } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { CONTROLLER_OPTIONS, getController, SelectionTemplateProps } from '../utils';
 
-export const ColorsStory: Story<SelectionTemplateProps> = ({
+export const ColorsStory: StoryFn<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {

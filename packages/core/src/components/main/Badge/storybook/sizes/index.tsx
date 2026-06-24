@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Badge, BadgeProps } from '@core';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const SIZES = ['small', 'medium', 'large'];
 
-export const SizesStory: Story<BadgeProps> = (props) => DisplayVariants({
+export const SizesStory: StoryFn<BadgeProps> = (props) => DisplayVariants({
     property: 'size',
     values: SIZES,
     component: Badge,

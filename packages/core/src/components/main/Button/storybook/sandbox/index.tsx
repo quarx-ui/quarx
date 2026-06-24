@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Button, ButtonProps, IconButton, IconButtonProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { ChevronDownIcon, PaperClipIcon, SmallPaperClipIcon } from '../assets';
@@ -8,7 +8,7 @@ interface StoryButtonProps extends ButtonProps {
     rightIconShown: boolean;
 }
 
-export const SandboxStory: Story<StoryButtonProps> = ({
+export const SandboxStory: StoryFn<StoryButtonProps> = ({
     leftIcon,
     rightIcon,
     leftIconShown = true,

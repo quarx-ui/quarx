@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Link, LinkSize, QX_SIZE } from '@core';
 import { ReactChild } from 'react';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
@@ -24,7 +24,7 @@ const sizeToRightItem: Record<LinkSize, ReactChild> = {
     [QX_SIZE.xLarge]: <ChevronRight24 />,
 };
 
-export const SandboxStory: Story<LinkStoryType> = ({
+export const SandboxStory: StoryFn<LinkStoryType> = ({
     children,
     size = QX_SIZE.xLarge,
     color,

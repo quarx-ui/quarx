@@ -1,8 +1,8 @@
 import { Link, LinkColor, LinkProps } from '@core';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const COLORS: LinkColor[] = [
     'brand',
@@ -12,7 +12,7 @@ const COLORS: LinkColor[] = [
     'danger',
 ];
 
-export const ColorsStory: Story<LinkProps> = (props) => DisplayVariants({
+export const ColorsStory: StoryFn<LinkProps> = (props) => DisplayVariants({
     property: 'color',
     values: COLORS,
     component: Link,

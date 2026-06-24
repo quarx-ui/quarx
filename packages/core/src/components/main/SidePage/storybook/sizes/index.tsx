@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
-import sizesDescription from '@core/components/main/Modal/storybook/sizes/description.md';
+import { StoryFn } from '@storybook/react-vite';
+import sizesDescription from '@core/components/main/Modal/storybook/sizes/description.md?raw';
 import { SidePage, SidePageProps } from '@core';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { FlexRow } from '../utils';
 
-export const SizesStory: Story<SidePageProps> = ({
+export const SizesStory: StoryFn<SidePageProps> = ({
     open: externalOpen,
     ...props
 }) => {

@@ -1,8 +1,7 @@
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { TimerCircle, TimerCircleProps } from '@core';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const defaultArgs: TimerCircleProps = {
     circleSegments: 10,
@@ -10,7 +9,8 @@ const defaultArgs: TimerCircleProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.system('TimerCircle'),
+    title: 'core/components/system/TimerCircle',
+    tags: ['autodocs'],
     component: TimerCircle,
     args: defaultArgs,
     argTypes: {

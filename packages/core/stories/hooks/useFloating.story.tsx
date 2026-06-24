@@ -1,10 +1,8 @@
 import { MouseEventHandler, useEffect, useRef, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { ARRANGEMENTS, PLACEMENTS, Position, useFloating, UseFloatingProps } from '@core';
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 type UseFloatingStoryProps = Omit<UseFloatingProps, 'anchor' | 'floatingRef'>;
 
@@ -18,7 +16,7 @@ const defaultArgs: UseFloatingStoryProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.hooks('useFloating'),
+    title: 'core/hooks/useFloating',
     args: defaultArgs,
     argTypes: {
         ...defineCategory('Основное', {
@@ -114,7 +112,7 @@ export default {
     },
 } as Meta<UseFloatingStoryProps>;
 
-export const Sandbox: Story<UseFloatingStoryProps> = ({
+export const Sandbox: StoryFn<UseFloatingStoryProps> = ({
     open,
     placement,
     arrangement,
@@ -203,7 +201,7 @@ Sandbox.parameters = {
     },
 };
 
-export const ManualPosition: Story<UseFloatingStoryProps> = () => {
+export const ManualPosition: StoryFn<UseFloatingStoryProps> = () => {
     const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
 
     const floatingRef = useRef(null);

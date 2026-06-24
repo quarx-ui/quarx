@@ -11,10 +11,8 @@ import {
     PaletteBackgroundTextFieldKey,
     PaletteBorderFocusKey,
 } from '@core/styles/engine/theme/palette/types';
-import { Story } from '@storybook/react/types-6-0';
-import { Meta } from '@storybook/react';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 interface ColorsStoryProps {
     type: PaletteColor;
@@ -35,7 +33,7 @@ const defaultArgs: ColorsStoryProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.style('colors'),
+    title: 'core/style/colors',
     argTypes: {
         type: {
             description: 'Тип цвета',
@@ -150,7 +148,7 @@ const useStylesSandbox = makeStyles((
     });
 });
 
-export const Sandbox: Story<ColorsStoryProps> = ({
+export const Sandbox: StoryFn<ColorsStoryProps> = ({
     type,
     value,
     border,
@@ -380,7 +378,7 @@ const ColorItem: FC<TemplateItemProps> = ({
     );
 };
 
-const Template: Story<{ type: PaletteColor }> = ({ type }) => {
+const Template: StoryFn<{ type: PaletteColor }> = ({ type }) => {
     const styles = useStylesColor({ params: { type } });
 
     return (
@@ -442,7 +440,7 @@ setStoryParams(Sandbox, {
     title: 'Цвета',
 });
 
-const colorToComponent: Record<PaletteColor, Story<{ type: PaletteColor }>> = {
+const colorToComponent: Record<PaletteColor, StoryFn<{ type: PaletteColor }>> = {
     brand: Brand,
     secondary: Secondary,
     info: Info,
@@ -451,7 +449,7 @@ const colorToComponent: Record<PaletteColor, Story<{ type: PaletteColor }>> = {
     danger: Danger,
 };
 
-(Object.entries(colorToComponent) as [PaletteColor, Story][]).forEach(([color, component]) => {
+(Object.entries(colorToComponent) as [PaletteColor, StoryFn][]).forEach(([color, component]) => {
     setStoryParams(component, {
         args: { type: color },
         code: getColorSource(color),

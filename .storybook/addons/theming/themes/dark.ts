@@ -1,6 +1,5 @@
-import { BaseThemeParams } from './base';
-import { create } from '@storybook/theming';
-import Logo from './assets/dark_logo.svg';
+import { create } from 'storybook/theming';
+import { BaseThemeParams } from './base.ts';
 
 const colors = {
     main: 'rgb(15, 17, 20)',
@@ -10,7 +9,6 @@ const colors = {
 
 export const StorybookDarkTheme = create({
     base: 'dark',
-    brandImage: Logo,
     appBg: colors.main,
     appContentBg: colors.secondary,
     barBg: colors.secondary,

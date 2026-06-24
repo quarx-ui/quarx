@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { HeadlineColor, Headline, HeadlineProps, PALETTE_TEXT_KEYS } from '@core';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const COLORS: HeadlineColor[] = [
     PALETTE_TEXT_KEYS.main,
@@ -13,7 +13,7 @@ const COLORS: HeadlineColor[] = [
     'crimson',
 ];
 
-export const ColorsStory: Story<HeadlineProps> = (props) => DisplayVariants({
+export const ColorsStory: StoryFn<HeadlineProps> = (props) => DisplayVariants({
     property: 'color',
     values: COLORS,
     component: Headline,

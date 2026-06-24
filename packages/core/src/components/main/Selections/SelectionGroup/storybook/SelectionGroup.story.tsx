@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { SelectionGroup, SelectionGroupProps } from '..';
 import { TemplateSelectionGroupProps } from './utils';
 
@@ -13,7 +12,8 @@ const defaultArgs: Partial<TemplateSelectionGroupProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Selections/SelectionGroup'),
+    title: 'core/components/main/Selections/SelectionGroup',
+    tags: ['autodocs'],
     component: SelectionGroup,
     parameters: {
         layout: 'fullscreen',

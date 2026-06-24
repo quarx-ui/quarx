@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import styled from '@emotion/styled';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Tabs } from '../..';
 import { TabsProps } from '../../types';
-import description from './description.md';
+import description from './description.md?raw';
 
 const DIV = styled('div')({
     display: 'flex',
@@ -13,7 +13,7 @@ const DIV = styled('div')({
     alignItems: 'center',
 });
 
-export const ControlledStory: Story<TabsProps> = (props) => {
+export const ControlledStory: StoryFn<TabsProps> = (props) => {
     // eslint-disable-next-line react/destructuring-assignment
     const [selectedTab, setSelectedTab] = useState(props.items[0]);
 

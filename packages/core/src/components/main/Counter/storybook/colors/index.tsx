@@ -1,5 +1,5 @@
 import { Counter, CounterColor, CounterProps } from '@core';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
@@ -12,7 +12,7 @@ const COLORS: CounterColor[] = [
     'text',
 ];
 
-export const ColorsStory: Story<CounterProps> = (props) => DisplayVariants({
+export const ColorsStory: StoryFn<CounterProps> = (props) => DisplayVariants({
     property: 'color',
     values: COLORS,
     component: Counter,

@@ -1,12 +1,12 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
 import { ElementType, forwardRef } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Tabs } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const CustomComponentStory: Story<TabsProps> = (props) => {
+export const CustomComponentStory: StoryFn<TabsProps> = (props) => {
     const Link: ElementType = forwardRef(({ to, ...rest }, ref) => (
         <div
             ref={ref}

@@ -1,9 +1,8 @@
 import React, { useRef, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
-import { Div } from '@storybook/components';
+import { StoryFn } from '@storybook/react-vite';
+import { Div } from 'storybook/internal/components';
 import { DATE_PICKER_ARG_TYPES } from '@core/components/experimental/DatePicker/components/Block/storybook/utils';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { Button, useBooleanState } from '@core';
 import { STORYBOOK_VIEWPORTS } from '@quarx-ui/core/storybook/constants';
 import { PeriodSelectedDates, DATE_PICKER_DISPLAY_TYPES } from '../../../../index';
@@ -22,7 +21,8 @@ const defaultArgs: Omit<StoryType, 'anchor' | 'open'> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.experimental('DatePicker/wrappers/Popup'),
+    title: 'core/components/experimental/DatePicker/wrappers/Popup',
+    tags: ['autodocs'],
     component: DatePicker,
     args: defaultArgs,
     argTypes: {
@@ -30,7 +30,7 @@ export default {
             table: {
                 type: {
                     summary: 'PopupProps',
-                    detail: `Описано в ${STORY_PATHS.core.components.system('Popup')}`,
+                    detail: `Описано в ${'core/components/system/Popup'}`,
                 },
             },
             control: { type: 'none' },
@@ -40,7 +40,7 @@ export default {
     parameters: STORYBOOK_VIEWPORTS,
 };
 
-export const Sandbox: Story<StoryType> = (props) => {
+export const Sandbox: StoryFn<StoryType> = (props) => {
     const [pickedDates, setPickedDates] = useState<PeriodSelectedDates | undefined>(undefined);
     const [isOpen, { setFalse: close, setTrue: open }] = useBooleanState(false);
     const anchor = useRef<HTMLButtonElement>(null);

@@ -1,10 +1,10 @@
 /* import { STORY_PATHS } from '@quarx-ui/storybook/utils'; */
-// import { Meta } from '@storybook/react';
+// import { Meta } from '@storybook/react-vite';
 // import { IfProps } from '@core/components/system/If';
 
 /*
 export default {
-    title: STORY_PATHS.core.components.system('If'),
+    title: 'core/components/system/If',
     component: If,
     args: { condition: true },
     argTypes: {

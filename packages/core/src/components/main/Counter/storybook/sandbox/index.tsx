@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Counter, CounterProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SandboxStory: Story<CounterProps> = (props) => (
+export const SandboxStory: StoryFn<CounterProps> = (props) => (
     <Counter {...props} />
 );
 

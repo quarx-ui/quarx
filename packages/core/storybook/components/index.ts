@@ -1,5 +1,6 @@
 export { Column } from './Column';
 export { CustomContent } from './CustomContent';
+export { MarkdownDocument } from './MarkdownDocument';
 export { Row } from './Row';
 export { StoryButton } from './StoryButton';
 export { StoryDarkerContainer } from './StoryDarkerContainer';

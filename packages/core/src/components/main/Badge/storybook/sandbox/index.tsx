@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Badge } from '@core';
 import {
     AttentionIconLarge,
@@ -9,7 +9,7 @@ import {
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StoryType } from '../types';
 
-export const SandboxStory: Story<StoryType> = ({
+export const SandboxStory: StoryFn<StoryType> = ({
     children,
     size = 'small',
     leftItemShown = true,

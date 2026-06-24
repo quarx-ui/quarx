@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Popup, PopupProps } from '..';
 import { StorybookPopupProps } from './types';
 
@@ -11,7 +10,8 @@ const defaultArgs: Partial<StorybookPopupProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.system('Popup'),
+    title: 'core/components/system/Popup',
+    tags: ['autodocs'],
     component: Popup,
     parameters: {
         layout: 'fullscreen',

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Collapse, CollapseProps } from '@core';
 import { Column, StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Children } from '../common';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const SandboxStory: Story<CollapseProps> = (props) => {
+export const SandboxStory: StoryFn<CollapseProps> = (props) => {
     const [open, setOpen] = useState(true);
 
     return (

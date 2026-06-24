@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import React, { useState } from 'react';
 import {
     DATE_PICKER_DISPLAY_TYPES, DATE_PICKER_TIME_TYPES, DatePickerBlock, PeriodSelectedDates,
@@ -6,9 +6,9 @@ import {
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const SizesAndDisplayTypesStory: Story<DatePickerStoryType> = (props) => {
+export const SizesAndDisplayTypesStory: StoryFn<DatePickerStoryType> = (props) => {
     const [selected, setSelected] = useState<PeriodSelectedDates>();
     return (
         <div

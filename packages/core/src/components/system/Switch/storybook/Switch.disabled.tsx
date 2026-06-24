@@ -1,10 +1,10 @@
 /* import { STORY_PATHS } from '@quarx-ui/storybook/utils'; */
-// import { Meta } from '@storybook/react';
+// import { Meta } from '@storybook/react-vite';
 // import { SwitchProps } from '@core/components/system/Switch';
 
 /*
 export default {
-    title: STORY_PATHS.core.components.system('Switch'),
+    title: 'core/components/system/Switch',
     component: Switch,
     args: { value: 'false' },
     argTypes: {

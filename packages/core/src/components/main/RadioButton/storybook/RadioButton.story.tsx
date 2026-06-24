@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { PALETTE_COLORS } from '@core/styles';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { RadioButton, RadioButtonProps } from '..';
 
 const defaultArgs: Partial<RadioButtonProps> = {
@@ -13,7 +12,8 @@ const defaultArgs: Partial<RadioButtonProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('RadioButton'),
+    title: 'core/components/main/RadioButton',
+    tags: ['autodocs'],
     component: RadioButton,
     args: defaultArgs,
     argTypes: {

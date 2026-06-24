@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { useBooleanState, Selection } from '@core';
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { CONTROLLER_OPTIONS, getController, SelectionTemplateProps } from '../utils';
 
-export const SandboxStory: Story<SelectionTemplateProps> = ({
+export const SandboxStory: StoryFn<SelectionTemplateProps> = ({
     children,
     ...props
 }) => {

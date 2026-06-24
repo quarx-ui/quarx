@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { DropdownItem, DropdownItemProps, DropdownItemSize, QX_SIZE } from '@core';
@@ -9,7 +9,7 @@ const SIZES: DropdownItemSize[] = Object.values([
     QX_SIZE.large,
 ]);
 
-export const SizesStory: Story<DropdownItemProps> = (storyProps) => DisplayVariants({
+export const SizesStory: StoryFn<DropdownItemProps> = (storyProps) => DisplayVariants({
     property: 'size',
     values: SIZES,
     componentProps: storyProps,

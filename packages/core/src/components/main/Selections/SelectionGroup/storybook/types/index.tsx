@@ -1,5 +1,5 @@
 import { Row, Column, Title, StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { SelectionGroup } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { SELECTION_GROUP_TYPE } from '../../styles/constants';
@@ -7,7 +7,7 @@ import { TemplateSelectionGroupProps, useTemplateChildren, getTemplateChildren }
 
 const types = [SELECTION_GROUP_TYPE.contained, SELECTION_GROUP_TYPE.text];
 
-export const TypesStory: Story<TemplateSelectionGroupProps> = (props) => {
+export const TypesStory: StoryFn<TemplateSelectionGroupProps> = (props) => {
     const { nodes, setNodes } = useTemplateChildren(props);
 
     return (

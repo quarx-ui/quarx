@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import { Chips, ChipsProps, ChipsSize, QX_SIZE } from '@core';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { EnvelopeIcon as EnvelopeIconSmallSize } from '@quarx-ui/icons/src/envelope/16px/stroke/rounded';
 import { EnvelopeIcon as EnvelopeIconMediumSize } from '@quarx-ui/icons/src/envelope/24px/stroke/rounded';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
@@ -10,7 +10,7 @@ const EnvelopeIcon: Record<ChipsSize, ReactElement> = {
     medium: <EnvelopeIconMediumSize />,
 };
 
-export const SandboxStory: Story<ChipsProps> = ({
+export const SandboxStory: StoryFn<ChipsProps> = ({
     size,
     ...props
 }) => (

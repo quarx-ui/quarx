@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@emotion/react';
-import { Description, Heading, Source, Subheading, Title } from '@storybook/addon-docs';
+import { Description, Heading, Source, Subheading, Title } from '@storybook/addon-docs/blocks';
 import { ComponentType, Fragment, ReactChild, useCallback, useMemo, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { createTheme, makeStyles, Modal, PaletteType, Tabs, TextField, valuesAsKeysFromArray } from '@core';
 import { noCase, pascalCase } from 'change-case';
 import { SourceTabs } from '../../../.storybook/custom-components/SourceTabs';
@@ -183,7 +183,7 @@ const useStyles = makeStyles(({ palette, elevations, transitions }) => ({
     },
 }), { name: 'AllIcons' });
 
-export const Icons: Story = () => {
+export const Icons: StoryFn = () => {
     interface IconMetadata {
         size: string;
         params: string[];
@@ -438,7 +438,7 @@ export const Icons: Story = () => {
     );
 };
 
-const ChangeColor: Story = () => {
+const ChangeColor: StoryFn = () => {
     const tabs = valuesAsKeysFromArray(['wrapper', 'icon'] as const);
     type Tab = keyof typeof tabs;
 

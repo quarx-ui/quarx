@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { Button, SelectionList, SelectionListProps, SelectionListStruct, SELECTION_LIST_UTILS } from '@core';
 import styled from '@emotion/styled';
@@ -22,7 +22,7 @@ const SPAN = styled('span')({
     margin: '24px 0 12px',
 });
 
-export const UtilsStory: Story<SelectionListProps> = ({
+export const UtilsStory: StoryFn<SelectionListProps> = ({
     nodes: externalNodes,
     ...props
 }) => {

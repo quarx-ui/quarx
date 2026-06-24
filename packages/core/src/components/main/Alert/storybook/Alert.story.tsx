@@ -1,9 +1,8 @@
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { Alert as AlertKit, ALERT_COLORS, ALERT_SIZE, ALERT_TYPE, ELEVATION_SIZE, ELEVATION_TYPE } from '@core';
 import { createDemoDescription } from '@quarx-ui/core/storybook/utils';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { StoryAlertProps } from './types';
 
 const defaultArgs: StoryAlertProps = {
@@ -27,7 +26,8 @@ const defaultArgs: StoryAlertProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Alert'),
+    title: 'core/components/main/Alert',
+    tags: ['autodocs'],
     component: AlertKit,
     args: defaultArgs,
     argTypes: {

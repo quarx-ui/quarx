@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { Breadcrumbs, BreadcrumbsProps, BreadCrumbStruct } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const onClick: BreadCrumbStruct['onClick'] = (crumb, event) => {
     event.preventDefault();
@@ -9,7 +8,8 @@ const onClick: BreadCrumbStruct['onClick'] = (crumb, event) => {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Breadcrumbs'),
+    title: 'core/components/main/Breadcrumbs',
+    tags: ['autodocs'],
     component: Breadcrumbs,
     parameters: {
         actions: { disable: true },

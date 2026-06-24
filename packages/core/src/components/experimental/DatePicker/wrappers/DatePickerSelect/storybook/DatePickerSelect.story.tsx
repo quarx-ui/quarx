@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { STORYBOOK_VIEWPORTS } from '@quarx-ui/core/storybook/constants';
 import { PeriodSelectedDates, DATE_PICKER_DISPLAY_TYPES } from '@core/components/experimental';
-import { Div } from '@storybook/components';
+import { Div } from 'storybook/internal/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { DatePickerSelectProps } from '../types';
 import { DatePickerSelect } from '../DatePickerSelect';
 
@@ -24,7 +23,8 @@ const defaultArgs: StoryType = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.experimental('DatePicker/wrappers/DatePickerSelect'),
+    title: 'core/components/experimental/DatePicker/wrappers/DatePickerSelect',
+    tags: ['autodocs'],
     component: DatePickerSelect,
     args: defaultArgs,
     argTypes: {
@@ -62,7 +62,7 @@ const SelectedPreviewer = ({ selected }: {selected: PeriodSelectedDates}) => (
     </React.Fragment>
 );
 
-export const Sandbox: Story<StoryType> = (props) => {
+export const Sandbox: StoryFn<StoryType> = (props) => {
     const [selectedPeriod, setSelectedPeriod] = useState<PeriodSelectedDates>({});
     return (
         <Div style={{ height: 1000 }}>

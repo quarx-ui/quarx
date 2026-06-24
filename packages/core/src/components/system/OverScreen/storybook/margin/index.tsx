@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { OVER_SCREEN_PLACEMENT } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps } from '../utils';
 import { OverScreen } from '../sandbox';
-import marginDescription from './description.md';
+import marginDescription from './description.md?raw';
 
-export const MarginStory: Story<StoryOverScreenProps> = (props) => DisplayVariants({
+export const MarginStory: StoryFn<StoryOverScreenProps> = (props) => DisplayVariants({
     ...commonDisplayProps,
     component: OverScreen,
     property: 'margin',

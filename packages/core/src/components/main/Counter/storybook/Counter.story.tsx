@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Counter, CounterProps } from '..';
 
 const defaultArgs: CounterProps = {
@@ -13,7 +12,8 @@ const defaultArgs: CounterProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Counter'),
+    title: 'core/components/main/Counter',
+    tags: ['autodocs'],
     component: Counter,
     args: defaultArgs,
     argTypes: {

@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Link, LinkProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const CustomTextStylesStory: Story<LinkProps> = (_) => (
+export const CustomTextStylesStory: StoryFn<LinkProps> = (_) => (
     // eslint-disable-next-line jsx-a11y/anchor-is-valid
     <Link
         styles={{

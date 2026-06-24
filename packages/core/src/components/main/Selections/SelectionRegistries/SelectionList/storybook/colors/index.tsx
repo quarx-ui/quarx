@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Row, Column, Title, StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { PALETTE_COLORS, SelectionList, SelectionListProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const ColorsStory: Story<SelectionListProps> = ({
+export const ColorsStory: StoryFn<SelectionListProps> = ({
     nodes,
     ...props
 }) => {

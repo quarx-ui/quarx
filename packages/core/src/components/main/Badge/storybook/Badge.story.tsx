@@ -1,8 +1,7 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { DEMONSTRATION_ALERT } from '@quarx-ui/core/storybook/constants';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Badge, BadgeProps } from '..';
 
 const defaultArgs: BadgeProps = {
@@ -15,7 +14,8 @@ const defaultArgs: BadgeProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Badge'),
+    title: 'core/components/main/Badge',
+    tags: ['autodocs'],
     component: Badge,
     args: defaultArgs,
     argTypes: {

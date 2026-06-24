@@ -1,5 +1,5 @@
-import { Story } from '@storybook/react/types-6-0';
-import { HR } from '@storybook/components';
+import { StoryFn } from '@storybook/react-vite';
+import { HR } from 'storybook/internal/components';
 import { FourSquaresIcon } from '@quarx-ui/icons/src/four-squares/24px/stroke/rounded';
 import { BookOpenIcon } from '@quarx-ui/icons/src/book-open/24px/stroke/rounded';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
@@ -15,7 +15,7 @@ const adornmentsDisplayProps: DisplayVariantsProps<SelectionProps> = {
     values: [false, true],
     component: Selection,
 };
-export const AdornmentStory: Story<SelectionTemplateProps> = ({
+export const AdornmentStory: StoryFn<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {

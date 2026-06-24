@@ -1,7 +1,7 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DropdownItem, DropdownItemProps, useBooleanState } from '@core';
 
-export const SandboxStory: Story<DropdownItemProps> = ({
+export const SandboxStory: StoryFn<DropdownItemProps> = ({
     state: externalState = false,
     ...props
 }) => {

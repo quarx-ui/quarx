@@ -1,12 +1,12 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { PALETTE_COLORS, QX_SIZE } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { DropdownItem, DropdownItemProps } from '..';
 import { DROPDOWN_ITEM_TYPE } from '../styles/constants';
 
 export default {
-    title: STORY_PATHS.core.components.main('Dropdown/DropdownItem'),
+    title: 'core/components/main/Dropdown/DropdownItem',
+    tags: ['autodocs'],
     component: DropdownItem,
     parameters: {
         actions: { disable: true },

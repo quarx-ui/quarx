@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Breadcrumbs, BreadcrumbsProps, PALETTE_COLORS } from '@core';
 import { Column, Row, Title } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const ColorsStory: Story<BreadcrumbsProps> = (props) => (
+export const ColorsStory: StoryFn<BreadcrumbsProps> = (props) => (
     <Column>
         <Title>Только для типа link</Title>
         <Row>

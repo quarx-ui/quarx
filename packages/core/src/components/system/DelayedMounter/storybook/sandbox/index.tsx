@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { DelayedMounterProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { FlexContainer, useDelayedMounterStoryState, createDelayedMounter } from '../components';
 
-export const SandboxStory: Story<DelayedMounterProps> = ({
+export const SandboxStory: StoryFn<DelayedMounterProps> = ({
     disableTimeout,
     timeout = disableTimeout ? 0 : 250,
     ...props

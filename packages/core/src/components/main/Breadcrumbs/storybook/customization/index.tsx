@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Breadcrumbs, BreadcrumbsProps, BreadCrumbVisualProps, focusable } from '@core';
 import { Column, Row, Title } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
@@ -20,7 +20,7 @@ const BreadcrumbComponent: FC<BreadCrumbVisualProps> = forwardRef<HTMLButtonElem
     </CustomComponent>
 ));
 
-export const CustomizationStory: Story<BreadcrumbsProps> = ({
+export const CustomizationStory: StoryFn<BreadcrumbsProps> = ({
     collapse = true,
     ...props
 }) => (

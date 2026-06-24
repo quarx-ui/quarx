@@ -1,12 +1,12 @@
 import { Row, Column, Title, StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { QX_SIZE } from '@core/enums';
 import { SelectionGroup } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { getTemplateChildren, TemplateSelectionGroupProps, useTemplateChildren } from '../utils';
 
 const sizes = [QX_SIZE.small, QX_SIZE.medium, QX_SIZE.large];
-export const SizesStory: Story<TemplateSelectionGroupProps> = (props) => {
+export const SizesStory: StoryFn<TemplateSelectionGroupProps> = (props) => {
     const { nodes, setNodes } = useTemplateChildren(props);
 
     return (

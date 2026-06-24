@@ -1,5 +1,5 @@
 import { FC, useState } from 'react';
-import { Source } from '@storybook/addon-docs'
+import { Source } from '@storybook/addon-docs/blocks'
 import { makeStyles } from '@core';
 
 interface SourceProps {

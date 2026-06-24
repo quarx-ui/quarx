@@ -1,7 +1,7 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 
 export const applyDefaultArgs = <Props extends object>(
-    stories: Story<Props>[],
+    stories: StoryFn<Props>[],
     args: Partial<Props>,
 ): void => {
     stories.forEach((variant, index) => {

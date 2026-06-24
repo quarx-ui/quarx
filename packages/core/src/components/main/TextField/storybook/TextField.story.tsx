@@ -1,14 +1,14 @@
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { DEMONSTRATION_ALERT } from '@quarx-ui/core/storybook/constants';
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { TextFieldProps } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { TextField } from '../TextField';
 import { defaultTextFieldStoryArgs } from './args';
 
 export default {
-    title: STORY_PATHS.core.components.main('TextField'),
+    title: 'core/components/main/TextField',
+    tags: ['autodocs'],
     component: TextField,
     args: defaultTextFieldStoryArgs,
     argTypes: {

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Collapse, CollapseProps } from '@core';
 import { Column, StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Children } from '../common';
 
-export const OrientationStory: Story<CollapseProps> = (props) => {
+export const OrientationStory: StoryFn<CollapseProps> = (props) => {
     const [open, setOpen] = useState(false);
     const [open2, setOpen2] = useState(false);
 

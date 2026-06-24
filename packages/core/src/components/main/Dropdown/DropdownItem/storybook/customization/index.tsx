@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import {
     DropdownItem,
     DropdownItemProps,
@@ -61,7 +61,7 @@ const Avatar: FC<{ size: DropdownItemSize }> = ({
     );
 };
 
-export const CustomizationStory: Story<DropdownItemProps> = ({ size, ...props }) => {
+export const CustomizationStory: StoryFn<DropdownItemProps> = ({ size, ...props }) => {
     const theme = useTheme();
     return (
         <Stack direction="column">

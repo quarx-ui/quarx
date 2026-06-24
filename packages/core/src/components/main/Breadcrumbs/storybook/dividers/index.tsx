@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { BREADCRUMB_TYPE, Breadcrumbs, BreadcrumbsProps } from '@core';
 import { Column, Row, Title } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const CustomDividersStory: Story<BreadcrumbsProps> = (props) => (
+export const CustomDividersStory: StoryFn<BreadcrumbsProps> = (props) => (
     <Row>
         {Object.values(BREADCRUMB_TYPE).map((value) => (
             <Column key={value}>

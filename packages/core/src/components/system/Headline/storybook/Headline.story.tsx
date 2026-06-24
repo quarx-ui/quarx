@@ -1,8 +1,7 @@
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { PALETTE_TEXT_KEYS, QX_SIZE, TYPOGRAPHY_WEIGHT } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { Headline, HeadlineProps } from '..';
 
 const defaultArgs: Partial<HeadlineProps> = {
@@ -13,7 +12,8 @@ const defaultArgs: Partial<HeadlineProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.system('typography/Headline'),
+    title: 'core/components/system/typography/Headline',
+    tags: ['autodocs'],
     component: Headline,
     args: defaultArgs,
     argTypes: {

@@ -1,7 +1,7 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DroppedBreadcrumb, DroppedBreadcrumbProps } from '@core';
 
-export const SandboxStory: Story<DroppedBreadcrumbProps> = ({ ...props }) => (
+export const SandboxStory: StoryFn<DroppedBreadcrumbProps> = ({ ...props }) => (
     <DroppedBreadcrumb {...props} />
 );
 

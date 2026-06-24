@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StackProps } from '../../types';
 import { Stack } from '../../Stack';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const WithDividerStory: Story<StackProps> = (props) => (
+export const WithDividerStory: StoryFn<StackProps> = (props) => (
     <Stack>
         <Stack {...props} direction="row" divider>
             <div>Главная</div>

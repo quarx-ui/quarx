@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { OVER_SCREEN_APPEARANCE } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps } from '../utils';
 import { OverScreen } from '../sandbox';
-import appearanceDescription from './description.md';
+import appearanceDescription from './description.md?raw';
 
-export const AppearancesStory: Story<StoryOverScreenProps> = (props) => DisplayVariants({
+export const AppearancesStory: StoryFn<StoryOverScreenProps> = (props) => DisplayVariants({
     ...commonDisplayProps,
     component: OverScreen,
     property: 'appearance',

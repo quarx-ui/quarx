@@ -1,10 +1,10 @@
 import { Accordion, AccordionProps } from '@core';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { AttentionHexagonIcon } from './AttentionHexagonIcon';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const LeftIconStory: Story<AccordionProps> = ({ ...props }) => (
+export const LeftIconStory: StoryFn<AccordionProps> = ({ ...props }) => (
     <Accordion
         {...props}
         leftIcon={<AttentionHexagonIcon />}

@@ -54,6 +54,15 @@ module.exports = {
         '@typescript-eslint/no-shadow': ['error'],
         'import/extensions': ['error', 'never', { svg: 'always', json: 'always' }],
         'import/no-extraneous-dependencies': 0,
+        'import/no-unresolved': ['error', {
+            ignore: [
+                '^@storybook/react-vite$',
+                '^@storybook/addon-docs/blocks$',
+                '^storybook/internal/components$',
+                '^storybook/internal/types$',
+                '^storybook/viewport$',
+            ],
+        }],
         'import/prefer-default-export': 0,
         'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
         'object-curly-newline': 0,

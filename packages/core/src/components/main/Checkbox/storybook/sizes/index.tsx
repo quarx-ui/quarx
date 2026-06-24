@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Checkbox, CheckboxProps } from '@core';
 import { useState } from 'react';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SizesStory: Story<CheckboxProps> = (props) => {
+export const SizesStory: StoryFn<CheckboxProps> = (props) => {
     const [bool, setBool] = useState(false);
     return DisplayVariants({
         property: 'size',

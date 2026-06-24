@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Text, TextProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SandboxStory: Story<TextProps> = ({ ...props }) => (
+export const SandboxStory: StoryFn<TextProps> = ({ ...props }) => (
     <Text {...props} />
 );
 

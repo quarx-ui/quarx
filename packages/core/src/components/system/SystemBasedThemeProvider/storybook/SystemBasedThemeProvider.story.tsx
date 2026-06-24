@@ -1,12 +1,12 @@
 import React from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Badge, PALETTE_TYPES, useTheme, SystemBasedThemeProviderProps } from '@core';
 import { useSystemTheme } from '@core/utils/hooks/useSystemTheme';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { SystemBasedThemeProvider } from '..';
 
 export default {
-    title: STORY_PATHS.core.components.system('SystemBaseThemeProvider'),
+    title: 'core/components/system/SystemBaseThemeProvider',
+    tags: ['autodocs'],
     component: SystemBasedThemeProvider,
     argTypes: {
         themeType: {
@@ -41,7 +41,7 @@ const BadgeCheckerCurrentTheme = () => {
     return <Badge css={{ marginTop: 10 }} type="ghosted" color="brand">{`Current Theme: ${type}`}</Badge>;
 };
 
-const Template: Story<SystemBasedThemeProviderProps> = (props) => {
+const Template: StoryFn<SystemBasedThemeProviderProps> = (props) => {
     const systemThemeType = useSystemTheme();
 
     return (

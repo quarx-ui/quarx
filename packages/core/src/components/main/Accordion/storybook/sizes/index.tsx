@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Accordion, AccordionSize, AccordionProps } from '@core';
 import { QX_SIZE } from '@core/enums';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const SIZES: AccordionSize[] = [
     QX_SIZE.xSmall,
@@ -12,7 +12,7 @@ const SIZES: AccordionSize[] = [
     QX_SIZE.large,
 ];
 
-export const SizesStory: Story<AccordionProps> = (props) => DisplayVariants({
+export const SizesStory: StoryFn<AccordionProps> = (props) => DisplayVariants({
     property: 'size',
     values: SIZES,
     containerAlign: 'unset',

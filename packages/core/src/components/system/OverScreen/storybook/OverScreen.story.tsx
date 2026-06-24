@@ -1,8 +1,7 @@
 import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OVER_SCREEN_PLACEMENT, OverScreen as OverScreenKit } from '@core';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { OverScreenProps } from '..';
 
 const defaultArgs: Partial<OverScreenProps> = {
@@ -18,7 +17,8 @@ const defaultArgs: Partial<OverScreenProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.system('OverScreen'),
+    title: 'core/components/system/OverScreen',
+    tags: ['autodocs'],
     component: OverScreenKit,
     args: defaultArgs,
     argTypes: {

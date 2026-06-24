@@ -1,7 +1,7 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Accordion, AccordionProps } from '@core';
 
-export const SandboxStory: Story<AccordionProps> = ({ ...props }) => (
+export const SandboxStory: StoryFn<AccordionProps> = ({ ...props }) => (
     <Accordion {...props} />
 );
 

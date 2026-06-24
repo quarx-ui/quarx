@@ -1,8 +1,7 @@
 import { ModalProps, Modal as KitModal } from '@core';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 
 const defaultArgs: ModalProps = {
     title: 'Headline',
@@ -33,7 +32,8 @@ const defaultArgs: ModalProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Modal'),
+    title: 'core/components/main/Modal',
+    tags: ['autodocs'],
     component: KitModal,
     args: defaultArgs,
     argTypes: {

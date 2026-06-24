@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { OVER_SCREEN_APPEARANCE, OVER_SCREEN_ORIGIN, OverScreenProps } from '@core';
 import { DisplayVariants, DisplayVariantsProps } from '@quarx-ui/core/storybook/DisplayVariants/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StoryOverScreenProps, commonDisplayProps, Grid } from '../utils';
 import { OverScreen } from '../sandbox';
-import originDescription from './description.md';
+import originDescription from './description.md?raw';
 
-export const OriginsStory: Story<OverScreenProps> = (props) => {
+export const OriginsStory: StoryFn<OverScreenProps> = (props) => {
     const variantProps = {
         ...commonDisplayProps,
         property: 'origin',

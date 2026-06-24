@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Button, Dropdown, DropdownProps, Stack, useBooleanState } from '@core';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
 import styled from '@emotion/styled';
@@ -26,7 +26,7 @@ const useCustomizationState = () => {
     };
 };
 
-export const CustomizationStory: Story<DropdownProps> = (props) => {
+export const CustomizationStory: StoryFn<DropdownProps> = (props) => {
     const headerCustom = useCustomizationState();
     const bodyCustom = useCustomizationState();
     const footerCustom = useCustomizationState();

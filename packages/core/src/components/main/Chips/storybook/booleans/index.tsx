@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import styled from '@emotion/styled';
@@ -21,7 +21,7 @@ const ColumnFlex = styled('div')({
 
 const ACTIVE_VARIANTS: boolean[] = [false, true];
 const DISABLED_VARIANTS: boolean[] = [true];
-export const BooleanParamsStory: Story<ChipsProps> = (props) => (
+export const BooleanParamsStory: StoryFn<ChipsProps> = (props) => (
     <ColumnFlex>
         <ColumnFlex>
             <Title size="primary">Active</Title>

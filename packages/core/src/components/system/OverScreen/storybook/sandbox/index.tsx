@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Fragment, useState } from 'react';
 import { OverScreen as KitOverScreen } from '@core';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StoryOverScreenProps, Block } from '../utils';
 
-export const OverScreen: Story<StoryOverScreenProps> = ({
+export const OverScreen: StoryFn<StoryOverScreenProps> = ({
     buttonText = 'Открыть',
     ...props
 }) => {

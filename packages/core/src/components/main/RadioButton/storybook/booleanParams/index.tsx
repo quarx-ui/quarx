@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Button, QX_SIZE, RadioButton, RadioButtonProps } from '@core';
 import { Fragment, useState } from 'react';
 import { DisplayVariantsMap } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const BooleanParamsStory: Story<RadioButtonProps> = (props) => {
+export const BooleanParamsStory: StoryFn<RadioButtonProps> = (props) => {
     const [bool, setBool] = useState(false);
 
     return (

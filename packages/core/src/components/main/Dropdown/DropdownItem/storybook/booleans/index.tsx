@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DropdownItem, DropdownItemProps, Stack, Theme } from '@core';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
@@ -32,7 +32,7 @@ const Padding = styled.div({
     padding: 16,
 });
 
-export const BooleansStory: Story<DropdownItemProps> = (props) => (
+export const BooleansStory: StoryFn<DropdownItemProps> = (props) => (
     <Stack direction="column">
         <Frame>
             <Stack direction="column">

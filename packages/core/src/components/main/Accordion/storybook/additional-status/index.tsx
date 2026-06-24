@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Accordion, AccordionProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 import { CheckmarkCircleIcon } from './CheckmarkCircleIcon';
 
-export const AdditionalStatusStory: Story<AccordionProps> = ({ ...props }) => (
+export const AdditionalStatusStory: StoryFn<AccordionProps> = ({ ...props }) => (
     <Accordion
         {...props}
         statusIcon={<CheckmarkCircleIcon />}

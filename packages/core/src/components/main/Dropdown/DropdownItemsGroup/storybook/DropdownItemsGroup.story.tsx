@@ -1,10 +1,10 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { DropdownItemsGroup, DropdownItemsGroupProps } from '..';
 
 export default {
-    title: STORY_PATHS.core.components.main('Dropdown/DropdownItemsGroup'),
+    title: 'core/components/main/Dropdown/DropdownItemsGroup',
+    tags: ['autodocs'],
     component: DropdownItemsGroup,
     parameters: {
         actions: { disable: true },

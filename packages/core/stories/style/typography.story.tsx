@@ -1,13 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
 import styled from '@emotion/styled';
-import { Div, H2, P, Code } from '@storybook/components';
-import { Meta } from '@storybook/react';
+import { Div, H2, P, Code } from 'storybook/internal/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { BaseTypographySize, BaseTypographyType } from '@core';
 import { CSSProperties } from 'react';
 import { typography } from '@core/styles/engine/theme/typography/typography';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -73,7 +71,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: STORY_PATHS.core.style('typography'),
+    title: 'core/style/typography',
     argTypes: defaultArgTypes,
     parameters: {
         viewMode: 'docs',
@@ -94,7 +92,7 @@ interface TypographySandbox {
     text: string;
 }
 
-export const Sandbox: Story<TypographySandbox> = ({
+export const Sandbox: StoryFn<TypographySandbox> = ({
     type,
     size,
     weight,
@@ -131,7 +129,7 @@ const RowContent = styled('td')({
     borderRadius: 5,
 });
 
-export const Examples: Story = () => (
+export const Examples: StoryFn = () => (
     <table style={{ width: '100%' }}>
         <tbody>
             <Row>

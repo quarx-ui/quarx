@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { StackProps } from '../../types';
 import { Stack } from '../../Stack';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const CustomComponentStory: Story<StackProps> = (props) => (
+export const CustomComponentStory: StoryFn<StackProps> = (props) => (
     <Stack {...props} component="ol">
         <li>Главная</li>
         <li>Профиль</li>

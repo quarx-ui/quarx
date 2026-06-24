@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Modal as KitModal, ModalProps } from '@core';
 import { useState } from 'react';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const SecondModalStory: Story<ModalProps> = (props) => {
+export const SecondModalStory: StoryFn<ModalProps> = (props) => {
     const [isOpened, setIsOpened] = useState(false);
     const [secondIsOpened, setSecondIsOpened] = useState(false);
 

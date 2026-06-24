@@ -1,6 +1,5 @@
 import { DelayedMounter, DelayedMounterProps } from '@core';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 
 const defaultArgs: Partial<DelayedMounterProps> = {
     disableTimeout: false,
@@ -8,7 +7,8 @@ const defaultArgs: Partial<DelayedMounterProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.system('DelayedMounter'),
+    title: 'core/components/system/DelayedMounter',
+    tags: ['autodocs'],
     component: DelayedMounter,
     args: defaultArgs,
     argTypes: {

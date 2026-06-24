@@ -3,13 +3,19 @@ declare module '*.md' {
     export const MarkDown: string;
     export default MarkDown;
 }
+declare module '*.md?raw' {
+    export const MarkDown: string;
+    export default MarkDown;
+}
 declare module '*.svg';
 declare module '*.svg' {
-    // eslint-disable-next-line import/newline-after-import
-    import { SFC, SVGProps } from 'react';
-    export const ReactComponent: SFC<SVGProps<SVGSVGElement>>;
+    export const ReactComponent: import('react').SFC<import('react').SVGProps<SVGSVGElement>>;
     const src: string;
     export default src;
+}
+declare module '*.svg?react' {
+    const ReactComponent: import('react').SFC<import('react').SVGProps<SVGSVGElement>>;
+    export default ReactComponent;
 }
 
 interface ObjectConstructor {

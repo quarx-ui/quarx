@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { SwitcherProps } from '../../types';
 import { Switcher } from '../../Switcher';
 
-export const SandboxStory: Story<SwitcherProps> = ({ checked: externalChecked, ...props }) => {
+export const SandboxStory: StoryFn<SwitcherProps> = ({ checked: externalChecked, ...props }) => {
     const [checked, setChecked] = useState(externalChecked);
 
     return (

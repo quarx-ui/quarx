@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { ModalProps } from '@core';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { FOOTER_DIRECTION } from '@core/components/system/FooterBlock/constants';
 import { ModalStory } from '../modal';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const FooterDirectionStory: Story<ModalProps> = (props) => DisplayVariants({
+export const FooterDirectionStory: StoryFn<ModalProps> = (props) => DisplayVariants({
     component: ModalStory,
     property: 'footerDirection',
     values: Object.values(FOOTER_DIRECTION),

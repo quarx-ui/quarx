@@ -1,8 +1,8 @@
 import { Link, LinkProps, LinkUnderline } from '@core';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const UNDERLINES: LinkUnderline[] = [
     'always',
@@ -10,7 +10,7 @@ const UNDERLINES: LinkUnderline[] = [
     'none',
 ];
 
-export const UnderlinesStory: Story<LinkProps> = (props) => DisplayVariants({
+export const UnderlinesStory: StoryFn<LinkProps> = (props) => DisplayVariants({
     property: 'underline',
     values: UNDERLINES,
     component: Link,

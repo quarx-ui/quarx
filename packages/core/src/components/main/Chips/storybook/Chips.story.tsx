@@ -2,8 +2,7 @@ import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { ChipsProps, ChipsPropsWithoutHtml, QX_SIZE } from '@core';
 import { EnvelopeIcon as EnvelopeIconMediumSize } from '@quarx-ui/icons/src/envelope/24px/stroke/rounded';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Chips } from '../index';
 import { CHIPS_VARIANT } from '../constants';
 
@@ -32,7 +31,8 @@ Required<ChipsPropsWithoutHtml>,
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Chips'),
+    title: 'core/components/main/Chips',
+    tags: ['autodocs'],
     component: Chips,
     args: defaultArgs,
     argTypes: {

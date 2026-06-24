@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { PALETTE_COLORS } from '@core/styles';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Checkbox, CheckboxProps } from '..';
 
 const defaultArgs: Partial<CheckboxProps> = {
@@ -13,7 +12,8 @@ const defaultArgs: Partial<CheckboxProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Checkbox'),
+    title: 'core/components/main/Checkbox',
+    tags: ['autodocs'],
     component: Checkbox,
     args: defaultArgs,
     argTypes: {

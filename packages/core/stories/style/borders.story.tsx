@@ -1,11 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
 import { BordersSide, BordersSize, BordersStyle, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@quarx-ui/core/storybook/DisplayVariants';
-import { Div, H2, P, Code, UL, LI } from '@storybook/components';
-import { Meta } from '@storybook/react';
+import { Div, H2, P, Code, UL, LI } from 'storybook/internal/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -60,7 +58,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: STORY_PATHS.core.style('borders'),
+    title: 'core/style/borders',
     argTypes: defaultArgTypes,
     args: {
         size: 'medium',
@@ -108,7 +106,7 @@ const useStyles = makeStyles((
     },
 }), { name: 'Sandbox' });
 
-const Template: Story<BordersStory> = ({ size = 'medium', style = 'solid', side = 'all' }) => {
+const Template: StoryFn<BordersStory> = ({ size = 'medium', style = 'solid', side = 'all' }) => {
     const styles = useStyles({ params: { size, style, side } });
 
     return (
@@ -118,9 +116,9 @@ const Template: Story<BordersStory> = ({ size = 'medium', style = 'solid', side 
     );
 };
 
-export const Sandbox: Story<BordersStory> = (props) => <Template {...props} />;
+export const Sandbox: StoryFn<BordersStory> = (props) => <Template {...props} />;
 
-export const Sizes: Story<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
+export const Sizes: StoryFn<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
     variants: {
         size: ['small', 'medium', 'large'],
     },
@@ -129,7 +127,7 @@ export const Sizes: Story<BordersStory> = (props) => DisplayVariantsMap<BordersS
     shownTitle: false,
 });
 
-export const Styles: Story<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
+export const Styles: StoryFn<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
     component: Template,
     variants: {
         style: ['solid', 'dashed', 'dotted', 'double', 'ridge'],
@@ -141,7 +139,7 @@ export const Styles: Story<BordersStory> = (props) => DisplayVariantsMap<Borders
     shownTitle: false,
 });
 
-export const Sides: Story<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
+export const Sides: StoryFn<BordersStory> = (props) => DisplayVariantsMap<BordersStory>({
     variants: {
         side: ['top', 'right', 'bottom', 'left', 'all'],
     },

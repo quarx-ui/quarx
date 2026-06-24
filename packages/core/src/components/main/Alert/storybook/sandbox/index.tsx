@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Alert as AlertKit } from '@core';
 import { StoryAlertProps } from '@core/components/main/Alert/storybook/types';
 
-export const SandboxStory: Story<StoryAlertProps> = ({
+export const SandboxStory: StoryFn<StoryAlertProps> = ({
     descriptionShown = true,
     actionButtonsShown = true,
     closeButtonShown = true,

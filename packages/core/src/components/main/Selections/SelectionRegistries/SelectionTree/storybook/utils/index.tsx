@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { SelectionTree, SelectionTreeProps, SELECTION_TREE_UTILS } from '@core';
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
@@ -21,7 +21,7 @@ const UL = styled('ul')({ margin: 0 });
 
 const LI = styled('li')({ margin: 4 });
 
-export const UtilsStory: Story<SelectionTreeProps> = ({
+export const UtilsStory: StoryFn<SelectionTreeProps> = ({
     nodes,
     color,
     ...props

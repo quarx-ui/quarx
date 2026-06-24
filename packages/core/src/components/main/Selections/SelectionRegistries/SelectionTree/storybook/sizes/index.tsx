@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Row, Column, Title, StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { QX_SIZE, SelectionTree, SelectionTreeProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
 const sizes = [QX_SIZE.small, QX_SIZE.medium, QX_SIZE.large];
 
-export const SizesStory: Story<SelectionTreeProps> = ({
+export const SizesStory: StoryFn<SelectionTreeProps> = ({
     nodes,
     ...props
 }) => {

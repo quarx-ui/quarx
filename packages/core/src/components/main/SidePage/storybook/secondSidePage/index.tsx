@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import secondWindowDescription from '@core/components/main/Modal/storybook/secondModal/description.md';
-import { Story } from '@storybook/react/types-6-0';
+import secondWindowDescription from '@core/components/main/Modal/storybook/secondModal/description.md?raw';
+import { StoryFn } from '@storybook/react-vite';
 import { SidePageProps, SidePage } from '@core';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SecondSidePageStory: Story<SidePageProps> = (props) => {
+export const SecondSidePageStory: StoryFn<SidePageProps> = (props) => {
     const [isOpened, setIsOpened] = useState(false);
     const [secondIsOpened, setSecondIsOpened] = useState(false);
 

@@ -1,10 +1,8 @@
 import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { ElevationSize, ElevationType, makeStyles } from '@core';
-import { Div, H2, P, Code } from '@storybook/components';
-import { Meta } from '@storybook/react';
+import { Div, H2, P, Code } from 'storybook/internal/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -56,7 +54,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: STORY_PATHS.core.style('elevations'),
+    title: 'core/style/elevations',
     argTypes: defaultArgTypes,
     args: {
         size: 'medium',
@@ -96,7 +94,7 @@ const useStyles = makeStyles((
     },
 }), { name: 'Sandbox' });
 
-export const Sandbox: Story<ElevationStory> = (params) => {
+export const Sandbox: StoryFn<ElevationStory> = (params) => {
     const styles = useStyles({ params });
 
     return (

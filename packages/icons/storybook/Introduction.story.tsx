@@ -1,6 +1,6 @@
-import ReadmeMD from '@quarx-ui/icons/README.md';
-import { Story } from '@storybook/react/types-6-0';
-import { Description } from '@storybook/components';
+import ReadmeMD from '@quarx-ui/icons/README.md?raw';
+import { StoryFn } from '@storybook/react-vite';
+import { Description } from '@storybook/addon-docs/blocks';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 
 export default {
@@ -24,4 +24,4 @@ export default {
     },
 };
 
-export const Introduction: Story = () => <div />;
+export const Introduction: StoryFn = () => <div />;

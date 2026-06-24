@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { SwitcherProps } from '../../types';
 import { Switcher } from '../../Switcher';
 
-export const SizesStory: Story<SwitcherProps> = (props) => {
+export const SizesStory: StoryFn<SwitcherProps> = (props) => {
     const [checked, setChecked] = useState(false);
 
     return DisplayVariants({

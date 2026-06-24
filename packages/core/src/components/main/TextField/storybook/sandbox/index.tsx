@@ -1,11 +1,11 @@
 import { useRef } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { defaultTextFieldStoryArgs } from '../args';
 import { StoryTextFieldProps } from '../utils';
 
-export const SandboxStory: Story<StoryTextFieldProps> = ({
+export const SandboxStory: StoryFn<StoryTextFieldProps> = ({
     leftIconShown,
     rightIconShown,
     leftItem,

@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Row, Column, Title, StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { PALETTE_COLORS } from '@core/styles';
 import { SelectionGroup } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TemplateSelectionGroupProps, getTemplateChildren, useTemplateChildren } from '../utils';
 
-export const ColorsStory: Story<TemplateSelectionGroupProps> = (props) => {
+export const ColorsStory: StoryFn<TemplateSelectionGroupProps> = (props) => {
     const { nodes, setNodes } = useTemplateChildren(props);
 
     return (

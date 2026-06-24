@@ -1,8 +1,7 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { PALETTE_COLORS, QX_SIZE, SelectionTree, SelectionTreeProps } from '@core';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { SELECTION_TREE_TYPE } from '../styles/constants';
 import { DEFAULT_SELECTION_TREE_CONTROLLERS } from '../constants';
 import { EXAMPLE_TREE } from './example';
@@ -17,7 +16,8 @@ const defaultArgs = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Selections/SelectionTree'),
+    title: 'core/components/main/Selections/SelectionTree',
+    tags: ['autodocs'],
     component: SelectionTree,
     parameters: {
         layout: 'fullscreen',

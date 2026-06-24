@@ -1,13 +1,13 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Tabs } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
 import { TABS_TYPES } from '../../common';
 import { iconItems } from '../utils';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const IconsStory: Story<TabsProps> = (props) => (
+export const IconsStory: StoryFn<TabsProps> = (props) => (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Tabs
             {...props}

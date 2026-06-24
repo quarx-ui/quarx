@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DropdownItem, DropdownItemProps, Stack } from '@core';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 
-export const TextStory: Story<DropdownItemProps> = (props) => (
+export const TextStory: StoryFn<DropdownItemProps> = (props) => (
     <Stack direction="column">
         <Title size="primary">
             With title

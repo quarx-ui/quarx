@@ -1,10 +1,10 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { PALETTE_COLORS, QX_SIZE, Breadcrumb, BreadcrumbProps, BREADCRUMB_TYPE } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 export default {
-    title: STORY_PATHS.core.components.main('Breadcrumbs/Breadcrumb'),
+    title: 'core/components/main/Breadcrumbs/Breadcrumb',
+    tags: ['autodocs'],
     component: Breadcrumb,
     parameters: {
         actions: { disable: true },

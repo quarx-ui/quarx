@@ -1,9 +1,9 @@
 import { Badge, BadgeColor, BadgeProps } from '@core';
 import styled from '@emotion/styled';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const COLORS: BadgeColor[] = ['brand', 'secondary', 'info', 'success', 'warning', 'danger', 'text'];
 
@@ -12,7 +12,7 @@ const Flex = styled('div')({
     justifyContent: 'space-around',
 });
 
-export const ColorsStory: Story<BadgeProps> = (props) => (
+export const ColorsStory: StoryFn<BadgeProps> = (props) => (
     <Flex>
         {DisplayVariants<BadgeProps>({
             property: 'color',

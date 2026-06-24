@@ -1,5 +1,4 @@
 import { STORYBOOK_VIEWPORTS } from '@quarx-ui/core/storybook/constants';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { DATE_PICKER_ARG_TYPES } from './utils';
 import { DatePickerStoryType } from './types';
 import { DatePickerBlock,
@@ -15,7 +14,8 @@ const defaultArgs: DatePickerStoryType = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.experimental('DatePicker/block'),
+    title: 'core/components/experimental/DatePicker/block',
+    tags: ['autodocs'],
     component: DatePickerBlock,
     args: defaultArgs,
     argTypes: {

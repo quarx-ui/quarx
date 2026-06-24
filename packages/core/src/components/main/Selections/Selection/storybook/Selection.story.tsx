@@ -2,12 +2,11 @@ import LinkTo from '@storybook/addon-links/react';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { Selection } from '@core';
-import { ArgsTable, Description, Primary, PRIMARY_STORY, Stories, Subtitle, Title } from '@storybook/addon-docs';
-import { Div } from '@storybook/components';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Controls, Description, Primary, Stories, Subtitle, Title } from '@storybook/addon-docs/blocks';
+import { Div } from 'storybook/internal/components';
+import { Meta } from '@storybook/react-vite';
 import { CONTROLLER_OPTIONS, SelectionTemplateProps } from './utils';
-import description from './description.md';
+import description from './description.md?raw';
 
 const defaultArgs: SelectionTemplateProps = {
     children: CONTROLLER_OPTIONS.Checkbox,
@@ -17,7 +16,8 @@ const defaultArgs: SelectionTemplateProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Selections/Selection'),
+    title: 'core/components/main/Selections/Selection',
+    tags: ['autodocs'],
     component: Selection,
     args: defaultArgs,
     argTypes: {
@@ -68,7 +68,7 @@ export default {
                     </LinkTo>
                     <Primary />
                     <Subtitle>Описание пропсов</Subtitle>
-                    <ArgsTable story={PRIMARY_STORY} />
+                    <Controls />
                     <Stories title="Примеры использования" />
                 </Div>
             ),

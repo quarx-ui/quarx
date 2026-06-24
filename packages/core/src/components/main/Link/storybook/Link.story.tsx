@@ -2,14 +2,14 @@
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { DEMONSTRATION_ALERT } from '@quarx-ui/core/storybook/constants';
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { LinkProps } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { Link } from '../Link';
 import { defaultLinkArgs } from './constants';
 
 export default {
-    title: STORY_PATHS.core.components.main('Link'),
+    title: 'core/components/main/Link',
+    tags: ['autodocs'],
     component: Link,
     args: defaultLinkArgs,
     argTypes: {

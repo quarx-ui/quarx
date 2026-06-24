@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { createElement, useRef, useState } from 'react';
 import { Button, ClickAwayListener } from '@core';
 import { If } from '@core/components/system/If';
@@ -7,7 +7,7 @@ import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Column, Title } from '@quarx-ui/core/storybook/components';
 import { SandBoxClickAwayListenerProps, SimpleModal } from '../utils';
 
-export const SandboxStory: Story<SandBoxClickAwayListenerProps> = ({
+export const SandboxStory: StoryFn<SandBoxClickAwayListenerProps> = ({
     usePortal = false,
     ...props
 }) => {

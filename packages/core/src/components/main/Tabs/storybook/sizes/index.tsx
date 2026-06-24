@@ -1,15 +1,15 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { Tabs, TabsProps } from '@core';
 import { QX_SIZE } from '@core/enums';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Title } from '../utils';
-import description from './description.md';
+import description from './description.md?raw';
 import { TABS_TYPES } from '../../common';
 
 const SIZES = [QX_SIZE.large, QX_SIZE.medium, QX_SIZE.small];
 
-export const SizesStory: Story<TabsProps> = (props) => (
+export const SizesStory: StoryFn<TabsProps> = (props) => (
     <div>
         {Object.values(SIZES).map((value) => (
             <div>

@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { SidePage as KitSidePage, SidePageProps } from '..';
 
 const defaultArgs: SidePageProps = {
@@ -32,7 +31,8 @@ const defaultArgs: SidePageProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('SidePage'),
+    title: 'core/components/main/SidePage',
+    tags: ['autodocs'],
     component: KitSidePage,
     args: defaultArgs,
     argTypes: {

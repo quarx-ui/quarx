@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Stack, StackProps } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SandboxStory: Story<StackProps> = ({ ...props }) => (
+export const SandboxStory: StoryFn<StackProps> = ({ ...props }) => (
     <Stack {...props} />
 );
 

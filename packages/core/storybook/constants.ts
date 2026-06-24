@@ -1,4 +1,4 @@
-import { ViewportMap } from '@storybook/addon-viewport/dist/ts3.9/models';
+import { ViewportMap } from 'storybook/viewport';
 
 export const DEMONSTRATION_ALERT = '<br /><small>Доступно только для демонстрации</small>';
 

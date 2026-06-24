@@ -3,11 +3,11 @@ import path from 'path';
 export const sandboxStory = (
     componentName: string,
 ) => `\
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { ${componentName}, ${componentName}Props } from '@core';
 import description from './description.md';
 
-export const SandboxStory: Story<${componentName}Props> = ({ ...props }) => {
+export const SandboxStory: StoryFn<${componentName}Props> = ({ ...props }) => {
     return (
         <${componentName} {...props} />
     );
@@ -20,7 +20,7 @@ setStoryParams(SandboxStory, {
 `;
 
 export const sizesStory = (componentName: string): string => `\
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { ${componentName}, ${componentName}Size, ${componentName}Props } from '@core';
 import { QX_SIZE } from '@core/enums';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
@@ -32,7 +32,7 @@ const SIZES: ${componentName}Size[] = [
     QX_SIZE.large,
 ];
 
-export const SizesStory: Story<${componentName}Props> = (props) => DisplayVariants({
+export const SizesStory: StoryFn<${componentName}Props> = (props) => DisplayVariants({
     property: 'size',
     values: SIZES,
     component: ${componentName},
@@ -51,8 +51,8 @@ export const storybook = (
     componentType: string,
     parent: string,
 ): string => `\
-import { Story } from '@storybook/react/types-6-0';
-import { Meta } from '@storybook/react';
+import { StoryFn } from '@storybook/react-vite';
+import { Meta } from '@storybook/react-vite';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';

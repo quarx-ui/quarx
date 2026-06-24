@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { TextFieldProps } from '@core/components/main/TextField/types';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { defaultTextFieldStoryArgs } from '../args';
-import overflowDescription from './description.md';
+import overflowDescription from './description.md?raw';
 
-export const OverflowStory: Story<TextFieldProps> = (props) => DisplayVariants({
+export const OverflowStory: StoryFn<TextFieldProps> = (props) => DisplayVariants({
     property: 'overflow',
     values: [false, true],
     component: TextField,

@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import directionDescription from '@core/components/main/Modal/storybook/footerDirection/description.md';
-import { Story } from '@storybook/react/types-6-0';
+import directionDescription from '@core/components/main/Modal/storybook/footerDirection/description.md?raw';
+import { StoryFn } from '@storybook/react-vite';
 import { SidePage, SidePageProps } from '@core';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { FlexRow } from '../utils';
 
-export const FooterDirectionStory: Story<SidePageProps> = ({
+export const FooterDirectionStory: StoryFn<SidePageProps> = ({
     open: externalOpen,
     ...props
 }) => {

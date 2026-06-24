@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DropdownItem, DropdownItemProps, useBooleanState } from '@core';
 import { Column, Row, Title } from '@quarx-ui/core/storybook/components';
 import styled from '@emotion/styled';
@@ -7,7 +7,7 @@ const WidthLimiter = styled('div')({
     width: 230,
 });
 
-export const EllipsisStory: Story<DropdownItemProps> = ({
+export const EllipsisStory: StoryFn<DropdownItemProps> = ({
     state: externalState = false,
     ...props
 }) => {

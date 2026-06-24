@@ -1,12 +1,12 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Stack, StackProps } from '..';
 import { defaultArgs } from './defaultArgs';
 
 export default {
-    title: STORY_PATHS.core.components.system('Stack'),
+    title: 'core/components/system/Stack',
+    tags: ['autodocs'],
     component: Stack,
     args: defaultArgs,
     argTypes: {

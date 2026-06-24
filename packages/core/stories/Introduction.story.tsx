@@ -1,9 +1,13 @@
-import ReadmeMD from '@quarx-ui/core/README.md';
-import { Story } from '@storybook/react/types-6-0';
-import { ArgsTable, PRIMARY_STORY, Subtitle, Description } from '@storybook/addon-docs';
-import { Div } from '@storybook/components';
-import { Meta } from '@storybook/react';
+import ReadmeMD from '@quarx-ui/core/README.md?raw';
+import { StoryFn, Meta } from '@storybook/react-vite';
+import { MarkdownDocument } from '@quarx-ui/core/storybook/components';
 import { BASE_ARG_TYPES } from '../storybook/BASE_ARG_TYPES';
+
+const description = `${ReadmeMD}
+
+## Стандартные свойства компонентов
+У каждого компонента есть ряд стандартных свойств.
+`;
 
 export default {
     title: 'core/Introduction',
@@ -16,19 +20,10 @@ export default {
         },
         docs: {
             page: (): JSX.Element => (
-                <Div>
-                    <Description markdown={ReadmeMD} />
-                    <Subtitle>
-                        Стандартные свойства компонентов
-                    </Subtitle>
-                    <Description>
-                        У каждого компонента есть ряд стандартных свойств:
-                    </Description>
-                    <ArgsTable story={PRIMARY_STORY} />
-                </Div>
+                <MarkdownDocument markdown={description} />
             ),
         },
     },
 } as Meta;
 
-export const Introduction: Story = () => <div />;
+export const Introduction: StoryFn = () => <MarkdownDocument markdown={description} />;

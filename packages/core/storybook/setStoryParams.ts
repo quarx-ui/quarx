@@ -1,6 +1,5 @@
 /* eslint-disable no-param-reassign */
-import { Story } from '@storybook/react/types-6-0';
-import { ArgTypes } from '@storybook/react';
+import { ArgTypes, StoryFn } from '@storybook/react-vite';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 
 interface SetStoryParamsOptions<T extends Record<string, any> = Record<string, any>> {
@@ -13,7 +12,7 @@ interface SetStoryParamsOptions<T extends Record<string, any> = Record<string, a
 }
 
 export const setStoryParams = <T extends Record<string, any> = Record<string, any>>(
-    story: Story<T>,
+    story: StoryFn<T>,
     options: SetStoryParamsOptions<T> = {},
 ) => {
     const {

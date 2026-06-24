@@ -1,11 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { withDocsPage } from '@quarx-ui/core/storybook/docsPage';
 import { BorderRadiusSide, QxBorderSize, makeStyles } from '@core';
 import { DisplayVariantsMap } from '@quarx-ui/core/storybook/DisplayVariants';
-import { H2, Div, P, Code } from '@storybook/components';
-import { Meta } from '@storybook/react';
+import { H2, Div, P, Code } from 'storybook/internal/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 const Documentation = () => (
     <Div>
@@ -39,7 +37,7 @@ const defaultArgTypes = {
 };
 
 export default {
-    title: STORY_PATHS.core.style('borderRadii'),
+    title: 'core/style/borderRadii',
     argTypes: defaultArgTypes,
     args: {
         size: 'medium',
@@ -81,7 +79,7 @@ const useStyles = makeStyles((
     },
 }), { name: 'Sandbox' });
 
-const Template: Story<BorderRadiiStory> = ({ size = 'medium', side = 'all' }) => {
+const Template: StoryFn<BorderRadiiStory> = ({ size = 'medium', side = 'all' }) => {
     const styles = useStyles({ params: { size, side } });
 
     return (
@@ -91,9 +89,9 @@ const Template: Story<BorderRadiiStory> = ({ size = 'medium', side = 'all' }) =>
     );
 };
 
-export const Sandbox: Story<BorderRadiiStory> = (props) => <Template {...props} />;
+export const Sandbox: StoryFn<BorderRadiiStory> = (props) => <Template {...props} />;
 
-export const Sizes: Story<BorderRadiiStory> = (props) => DisplayVariantsMap<BorderRadiiStory>({
+export const Sizes: StoryFn<BorderRadiiStory> = (props) => DisplayVariantsMap<BorderRadiiStory>({
     variants: {
         size: ['xSmall', 'small', 'medium', 'large', 'xLarge', 'max'],
     },
@@ -102,7 +100,7 @@ export const Sizes: Story<BorderRadiiStory> = (props) => DisplayVariantsMap<Bord
     shownTitle: false,
 });
 
-export const Sides: Story<BorderRadiiStory> = (props) => DisplayVariantsMap<BorderRadiiStory>({
+export const Sides: StoryFn<BorderRadiiStory> = (props) => DisplayVariantsMap<BorderRadiiStory>({
     variants: {
         side: ['top', 'right', 'bottom', 'left', 'top-left', 'top-right', 'bottom-left', 'bottom-right', 'all'],
     },

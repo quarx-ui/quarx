@@ -1,7 +1,7 @@
-import { Story } from '@storybook/react/types-6-0';
-import { Description } from '@storybook/components';
+import { StoryFn } from '@storybook/react-vite';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
-import ReadmeMD from '../README.md';
+import { MarkdownDocument } from '@quarx-ui/core/storybook/components';
+import ReadmeMD from '../README.md?raw';
 
 export default {
     title: 'Introduction',
@@ -14,12 +14,10 @@ export default {
         },
         docs: {
             page: (): JSX.Element => (
-                <Description
-                    markdown={ReadmeMD}
-                />
+                <MarkdownDocument markdown={ReadmeMD} />
             ),
         },
     },
 };
 
-export const Introduction: Story = () => <div />;
+export const Introduction: StoryFn = () => <MarkdownDocument markdown={ReadmeMD} />;

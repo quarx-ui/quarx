@@ -1,13 +1,13 @@
 /* eslint-disable-line @typescript-eslint/ban-ts-comment */ // @ts-nocheck
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { Tabs } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TabsProps } from '../../types';
 import { TABS_TYPES } from '../../common';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const CounterStory: Story<TabsProps> = ({ items: tabItems, ...props }) => (
+export const CounterStory: StoryFn<TabsProps> = ({ items: tabItems, ...props }) => (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         {DisplayVariants({
             property: 'type',

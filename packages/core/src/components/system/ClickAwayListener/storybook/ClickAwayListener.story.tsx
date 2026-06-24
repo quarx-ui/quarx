@@ -1,11 +1,11 @@
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { ClickAwayListener, ClickAwayListenerProps } from '..';
 import { defaultClickAwayListenerArgs } from './utils';
 
 export default {
-    title: STORY_PATHS.core.components.system('ClickAwayListener'),
+    title: 'core/components/system/ClickAwayListener',
+    tags: ['autodocs'],
     component: ClickAwayListener,
     args: defaultClickAwayListenerArgs,
     argTypes: {

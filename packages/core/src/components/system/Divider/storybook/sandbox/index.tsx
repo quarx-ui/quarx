@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Badge, Divider, DividerProps, ORIENTATIONS, Stack } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { STACK_DIRECTION } from '../../../Stack/styles/constants';
 
-export const SandboxStory: Story<DividerProps> = ({ ...props }) => (
+export const SandboxStory: StoryFn<DividerProps> = ({ ...props }) => (
     <Stack
         inline
         direction={props.orientation === ORIENTATIONS.vertical

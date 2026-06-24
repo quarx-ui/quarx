@@ -1,8 +1,7 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { PALETTE_COLORS, QX_SIZE, SelectionListProps } from '@core';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import {
     SelectionList,
     SELECTION_LIST_TYPE,
@@ -19,7 +18,8 @@ const defaultArgs = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Selections/SelectionList'),
+    title: 'core/components/main/Selections/SelectionList',
+    tags: ['autodocs'],
     component: SelectionList,
     parameters: {
         layout: 'fullscreen',

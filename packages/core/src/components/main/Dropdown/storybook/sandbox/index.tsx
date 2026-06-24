@@ -1,10 +1,10 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Button, Dropdown, DropdownProps, useBooleanState } from '@core';
 import { Fragment, useRef } from 'react';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { createDropdownChildren } from '../template';
 
-export const SandboxStory: Story<DropdownProps> = ({
+export const SandboxStory: StoryFn<DropdownProps> = ({
     open,
     size,
     ...props

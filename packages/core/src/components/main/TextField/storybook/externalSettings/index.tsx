@@ -1,13 +1,13 @@
 import { Fragment, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Button } from '@core';
 import { TextFieldProps } from '@core/components/main/TextField/types';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { Grid } from '../utils';
-import externalSettingsDescription from './description.md';
+import externalSettingsDescription from './description.md?raw';
 
-export const ExternalSettingsStory: Story<TextFieldProps> = (props) => {
+export const ExternalSettingsStory: StoryFn<TextFieldProps> = (props) => {
     const [value, setValue] = useState('');
     const [focused, setFocused] = useState<boolean | undefined>(false);
     const [filled, setFilled] = useState<boolean | undefined>(false);

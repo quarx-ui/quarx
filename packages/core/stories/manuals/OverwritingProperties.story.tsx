@@ -1,9 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
-import { Description, Title } from '@storybook/addon-docs';
-import { Story } from '@storybook/react/types-6-0';
-import { Div } from '@storybook/components';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { MarkdownDocument } from '@quarx-ui/core/storybook/components';
+import { StoryFn, Meta } from '@storybook/react-vite';
 
 const descriptionMarkDown = `
 Компоненты, которые перезаписывают одинаковые свойства, работают по следующим принципам синхронизации:
@@ -61,8 +58,11 @@ const descriptionMarkDown = `
 \`\`\`
 ` as const;
 
+const description = `# Перезапись свойств дочернего компонента
+${descriptionMarkDown}`;
+
 export default {
-    title: STORY_PATHS.core.manuals(),
+    title: 'core/manuals',
     argTypes: BASE_ARG_TYPES,
     parameters: {
         viewMode: 'docs',
@@ -72,18 +72,11 @@ export default {
         },
         docs: {
             page: (): JSX.Element => (
-                <Div>
-                    <Title>
-                        Перезапись свойств дочернего компонента
-                    </Title>
-                    <Description
-                        markdown={descriptionMarkDown}
-                    />
-                </Div>
+                <MarkdownDocument markdown={description} />
             ),
         },
     },
 } as Meta;
 
-export const OverwritingProperties: Story = () => <div />;
+export const OverwritingProperties: StoryFn = () => <MarkdownDocument markdown={description} />;
 OverwritingProperties.storyName = 'Перезапись свойств дочерних компонентов';

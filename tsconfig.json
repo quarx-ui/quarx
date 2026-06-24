@@ -11,6 +11,7 @@
     "declaration": true,
     "strict": true,
     "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
     "esModuleInterop": true,
     "preserveSymlinks": true,
     "allowUmdGlobalAccess": true,

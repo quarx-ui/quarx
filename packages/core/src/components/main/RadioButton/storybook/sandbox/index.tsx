@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { RadioButton, RadioButtonProps } from '@core';
 import { Fragment } from 'react';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SandboxStory: Story<RadioButtonProps> = ({ checked, ...props }) => (
+export const SandboxStory: StoryFn<RadioButtonProps> = ({ checked, ...props }) => (
     <Fragment>
         <RadioButton
             checked={checked}

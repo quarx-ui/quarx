@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Breadcrumb, BreadcrumbProps } from '@core';
 import { Column, Row, Title } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
 const booleans = [false, true];
 
-export const BooleanParamsStory: Story<BreadcrumbProps> = (props) => (
+export const BooleanParamsStory: StoryFn<BreadcrumbProps> = (props) => (
     <Row>
         <Column>
             <Title>

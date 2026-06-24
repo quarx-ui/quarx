@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { defaultTextFieldStoryArgs } from '../args';
 import { Flex, StoryTextFieldProps } from '../utils';
-import helperDescription from './description.md';
+import helperDescription from './description.md?raw';
 
-export const HelpersStory: Story<StoryTextFieldProps> = (props) => (
+export const HelpersStory: StoryFn<StoryTextFieldProps> = (props) => (
     <Flex>
         <TextField {...props} helperText="Helper Text" />
         <TextField {...props} helperText="Helper Text" counter />

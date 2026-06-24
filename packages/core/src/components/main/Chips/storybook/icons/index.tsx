@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { Chips, CHIPS_VARIANT, ChipsProps, QX_SIZE } from '@core';
@@ -22,7 +22,7 @@ const ColumnFlex = styled('div')({
     justifyContent: 'center',
 });
 
-export const IconsStory: Story<ChipsProps> = (props) => (
+export const IconsStory: StoryFn<ChipsProps> = (props) => (
     <Flex>
         <ColumnFlex>
             <Title size="primary">Default icons</Title>

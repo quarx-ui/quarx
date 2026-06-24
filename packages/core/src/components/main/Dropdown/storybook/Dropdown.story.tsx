@@ -1,15 +1,15 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { QX_SIZE } from '@core';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { SandboxStory } from './sandbox';
 import { CustomizationStory } from './customization';
 import { SizesStory } from './sizes';
 import { Dropdown, DROPDOWN_WIDTH_PRESETS, DropdownProps } from '..';
 
 export default {
-    title: STORY_PATHS.core.components.main('Dropdown'),
+    title: 'core/components/main/Dropdown',
+    tags: ['autodocs'],
     component: Dropdown,
     argTypes: {
         ...defineCategory('Стилевые параметры', {

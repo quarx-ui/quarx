@@ -1,13 +1,13 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import React, { useState } from 'react';
 import { Button } from '@core';
 import { DatePickerBlock, SelectedDates } from '@core/components/experimental';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
 import { isPicker } from '../../types';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const Sandbox: Story<DatePickerStoryType> = ({ ...props }) => {
+export const Sandbox: StoryFn<DatePickerStoryType> = ({ ...props }) => {
     const [selected, setSelected] = useState<SelectedDates>(undefined);
     return (
         <React.Fragment>

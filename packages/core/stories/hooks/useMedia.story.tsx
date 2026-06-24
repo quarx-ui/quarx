@@ -1,13 +1,11 @@
 import { Fragment, useEffect, useState } from 'react';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn, Meta } from '@storybook/react-vite';
 import { QX_DEVICE, QxDevice, useMedia, useTheme } from '@core';
 import styled from '@emotion/styled';
-import { Meta } from '@storybook/react';
 import { deviceToBreakpoint } from '@core/styles/engine/theme/hooks/useMedia/helpers';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 
 export default {
-    title: STORY_PATHS.core.hooks('useMedia'),
+    title: 'core/hooks/useMedia',
     argTypes: {
         stringQuery: {
             description: 'Строковое значение медиа-запроса, согласно спецификации css',
@@ -101,7 +99,7 @@ const GridHead = styled('div')({
     fontWeight: 'bold',
 });
 
-export const Sandbox: Story<SandboxArgs> = ({
+export const Sandbox: StoryFn<SandboxArgs> = ({
     stringQuery = '(min-width:600px)',
     device = QX_DEVICE.mobile,
 }) => {
@@ -135,7 +133,7 @@ export const Sandbox: Story<SandboxArgs> = ({
     );
 };
 
-export const Device: Story = () => {
+export const Device: StoryFn = () => {
     const { breakpoints } = useTheme();
 
     return (

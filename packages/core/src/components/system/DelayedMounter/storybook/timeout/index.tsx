@@ -1,11 +1,11 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DelayedMounterProps } from '@core';
 import { StoryButton } from '@quarx-ui/core/storybook/components';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import timeoutDescription from './description.md';
+import timeoutDescription from './description.md?raw';
 import { FlexContainer, createDelayedMounter, useDelayedMounterStoryState, FlexRow } from '../components';
 
-export const TimeoutStory: Story<DelayedMounterProps> = ({
+export const TimeoutStory: StoryFn<DelayedMounterProps> = ({
     ...props
 }) => {
     const smallTimeout = 250;

@@ -1,5 +1,5 @@
-import { ArgTypes } from '@storybook/react';
-import { Args } from '@storybook/api';
+import { ArgTypes } from '@storybook/react-vite';
+import { Args } from 'storybook/internal/types';
 
 export const hiddenDocsTab = {
     previewTabs: {

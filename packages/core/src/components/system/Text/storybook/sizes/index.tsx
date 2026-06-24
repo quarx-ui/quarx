@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { BaseTypographySize, Text, TextProps } from '@core';
 import { QX_SIZE } from '@core/enums';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const SIZES: BaseTypographySize[] = [
     QX_SIZE.xSmall,
@@ -13,7 +13,7 @@ const SIZES: BaseTypographySize[] = [
     QX_SIZE.xLarge,
 ];
 
-export const SizesStory: Story<TextProps> = (props) => DisplayVariants({
+export const SizesStory: StoryFn<TextProps> = (props) => DisplayVariants({
     property: 'size',
     values: SIZES,
     componentProps: props,

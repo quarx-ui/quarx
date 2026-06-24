@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import styled from '@emotion/styled';
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
@@ -11,7 +11,7 @@ const SPAN = styled('span')({
 });
 
 const Booleans: Array<keyof SelectionProps> = ['reverse', 'disabled', 'disableFocus', 'hover'];
-export const BooleanParamsStory: Story<SelectionTemplateProps> = ({
+export const BooleanParamsStory: StoryFn<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {

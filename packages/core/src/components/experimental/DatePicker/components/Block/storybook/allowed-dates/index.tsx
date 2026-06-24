@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import React, { useState } from 'react';
 import { DatePickerBlock, PickerSelectedDate } from '@core/components/experimental';
 import { addDays } from 'date-fns';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { DatePickerStoryType } from '../types';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const AllowedDatesStory: Story<DatePickerStoryType> = (props) => {
+export const AllowedDatesStory: StoryFn<DatePickerStoryType> = (props) => {
     const [selected, setSelected] = useState<PickerSelectedDate | undefined>(undefined);
     return (
         <div style={{

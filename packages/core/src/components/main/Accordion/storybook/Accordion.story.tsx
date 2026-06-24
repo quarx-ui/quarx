@@ -1,8 +1,7 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { Accordion, AccordionProps, QX_SIZE } from '@core';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 
 const defaultArgs: Partial<AccordionProps> = {
     title: 'Название',
@@ -19,7 +18,8 @@ const defaultArgs: Partial<AccordionProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Accordion'),
+    title: 'core/components/main/Accordion',
+    tags: ['autodocs'],
     component: Accordion,
     args: defaultArgs,
     argTypes: {

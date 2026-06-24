@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { StoryDarkerContainer } from '@quarx-ui/core/storybook/components';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { useBooleanState, Selection, SelectionProps } from '@core';
@@ -6,7 +6,7 @@ import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { SELECTION_TYPE } from '../../styles/constants';
 import { SelectionTemplateProps, CONTROLLER_OPTIONS, getController } from '../utils';
 
-export const TypesStory: Story<SelectionTemplateProps> = ({
+export const TypesStory: StoryFn<SelectionTemplateProps> = ({
     children: externalChildren,
     ...externalProps
 }) => {

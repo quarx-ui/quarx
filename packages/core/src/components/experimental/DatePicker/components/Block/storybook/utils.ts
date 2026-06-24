@@ -1,6 +1,6 @@
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
-import { ArgTypes } from '@storybook/react';
+import { ArgTypes } from '@storybook/react-vite';
 import { DatePickerStoryType } from './types';
 
 export const DATE_PICKER_ARG_TYPES: ArgTypes<DatePickerStoryType> = ({

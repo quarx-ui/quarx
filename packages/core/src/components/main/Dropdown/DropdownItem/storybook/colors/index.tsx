@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import {
     DROPDOWN_ITEM_TYPE,
     DropdownItem,
@@ -11,7 +11,7 @@ import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 
 const COLORS: PaletteColor[] = Object.values(PALETTE_COLORS);
 
-export const ColorsStory: Story<DropdownItemProps> = (storyProps) => DisplayVariants({
+export const ColorsStory: StoryFn<DropdownItemProps> = (storyProps) => DisplayVariants({
     property: 'color',
     values: COLORS,
     component: DropdownItem,

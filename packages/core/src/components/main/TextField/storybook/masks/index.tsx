@@ -1,13 +1,13 @@
 import InputMask from 'react-input-mask';
 import { PatternFormat } from 'react-number-format';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { TextFieldProps } from '@core/components/main/TextField/types';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { TextField } from '../..';
 import { Grid } from '../utils';
-import masksDescription from './description.md';
+import masksDescription from './description.md?raw';
 
-export const MasksStory: Story<TextFieldProps> = () => (
+export const MasksStory: StoryFn<TextFieldProps> = () => (
     <Grid>
         <InputMask mask="9999 9999 9999 9999" maskChar="*">
             {(inputProp: TextFieldProps) => <TextField label="Text Field" {...inputProp} />}

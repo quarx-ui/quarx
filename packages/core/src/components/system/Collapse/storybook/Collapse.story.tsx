@@ -1,11 +1,11 @@
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { Collapse, CollapseProps, DEFAULT_ENTER_ANIMATION_FUNCTION, DEFAULT_EXIT_ANIMATION_FUNCTION } from '..';
 
 export default {
-    title: STORY_PATHS.core.components.system('Collapse'),
+    title: 'core/components/system/Collapse',
+    tags: ['autodocs'],
     component: Collapse,
     args: {
         open: false,

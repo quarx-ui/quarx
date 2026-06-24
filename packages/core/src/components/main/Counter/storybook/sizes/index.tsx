@@ -1,5 +1,5 @@
 import { Counter, CounterProps, CounterSize } from '@core';
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
@@ -9,7 +9,7 @@ const SIZES: CounterSize[] = [
     'large',
 ];
 
-export const SizesStory: Story<CounterProps> = (props) => DisplayVariants({
+export const SizesStory: StoryFn<CounterProps> = (props) => DisplayVariants({
     property: 'size',
     values: SIZES,
     component: Counter,

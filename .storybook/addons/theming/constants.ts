@@ -1,10 +1,10 @@
-import { StorybookLightTheme } from './themes/light';
-import { StorybookDarkTheme } from './themes/dark';
+import { StorybookLightTheme } from './themes/light.ts';
+import { StorybookDarkTheme } from './themes/dark.ts';
 
 const ThemeTypes = {
     light: 'light',
     dark: 'dark',
-};
+} as const;
 
 const AddonID = 'storybook/quarx-theming';
 
@@ -21,3 +21,5 @@ export const ThemeAddonConstants = {
     StoryBookThemes,
     ThemeTypes,
 };
+
+export type ThemeType = typeof ThemeTypes[keyof typeof ThemeTypes];

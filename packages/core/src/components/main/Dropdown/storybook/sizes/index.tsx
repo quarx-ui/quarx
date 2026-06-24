@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Button, Dropdown, DropdownProps, QX_SIZE, Stack, useBooleanState } from '@core';
 import { Fragment, useRef } from 'react';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
@@ -24,7 +24,7 @@ const useSizeState = () => {
     };
 };
 
-export const SizesStory: Story<DropdownProps> = ({
+export const SizesStory: StoryFn<DropdownProps> = ({
     open,
     size,
     ...props

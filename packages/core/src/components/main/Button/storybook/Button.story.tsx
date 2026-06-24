@@ -1,8 +1,7 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { defineCategory } from '@quarx-ui/core/storybook/templateParams';
 import { DEMONSTRATION_ALERT } from '@quarx-ui/core/storybook/constants';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Button, ButtonProps } from '..';
 import { PaperClipIcon, ChevronDownIcon } from './assets';
 
@@ -20,7 +19,8 @@ const defaultArgs: ButtonProps = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Button'),
+    title: 'core/components/main/Button',
+    tags: ['autodocs'],
     component: Button,
     args: defaultArgs,
     argTypes: {

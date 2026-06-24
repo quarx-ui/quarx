@@ -1,13 +1,13 @@
 import { defineCategory, excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
-import { Meta } from '@storybook/react';
+import { Meta } from '@storybook/react-vite';
 import { TabsProps } from '@core';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
 import { Tabs } from '../Tabs';
 import { defaultTabsStoryArgs } from './args';
 
 export default {
-    title: STORY_PATHS.core.components.main('Tabs'),
+    title: 'core/components/main/Tabs',
+    tags: ['autodocs'],
     component: Tabs,
     args: defaultTabsStoryArgs,
     argTypes: {

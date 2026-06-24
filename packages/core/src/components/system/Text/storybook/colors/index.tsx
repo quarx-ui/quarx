@@ -1,8 +1,8 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Text, TextColor, TextProps, PALETTE_TEXT_KEYS } from '@core';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
-import description from './description.md';
+import description from './description.md?raw';
 
 const COLORS: TextColor[] = [
     PALETTE_TEXT_KEYS.main,
@@ -13,7 +13,7 @@ const COLORS: TextColor[] = [
     'crimson',
 ];
 
-export const ColorsStory: Story<TextProps> = (props) => DisplayVariants({
+export const ColorsStory: StoryFn<TextProps> = (props) => DisplayVariants({
     property: 'color',
     values: COLORS,
     component: Text,

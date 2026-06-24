@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { excludeProp } from '@quarx-ui/core/storybook/templateParams';
 import { createStoryDescription } from '@quarx-ui/core/storybook/utils';
 import { DropdownItemsGroup, DropdownItemsGroupProps, DropdownItemSize, Stack } from '@core';
 import { Title } from '@quarx-ui/core/storybook/DisplayVariants/styledComponents';
 import { createTemplateChildren } from '../template';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const LimitersStory: Story<DropdownItemsGroupProps> = ({
+export const LimitersStory: StoryFn<DropdownItemsGroupProps> = ({
     title,
     size,
     ...props

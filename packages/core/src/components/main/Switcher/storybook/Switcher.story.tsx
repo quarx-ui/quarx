@@ -1,7 +1,6 @@
 import { BASE_ARG_TYPES } from '@quarx-ui/core/storybook/BASE_ARG_TYPES';
 import { PALETTE_COLORS } from '@core/styles';
-import { Meta } from '@storybook/react';
-import { STORY_PATHS } from '@quarx-ui/../.storybook/utils';
+import { Meta } from '@storybook/react-vite';
 import { Switcher, SWITCHER_POSITION, SwitcherProps } from '..';
 
 const defaultArgs: Partial<SwitcherProps> = {
@@ -12,7 +11,8 @@ const defaultArgs: Partial<SwitcherProps> = {
 };
 
 export default {
-    title: STORY_PATHS.core.components.main('Switcher'),
+    title: 'core/components/main/Switcher',
+    tags: ['autodocs'],
     component: Switcher,
     args: defaultArgs,
     argTypes: {

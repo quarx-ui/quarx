@@ -1,12 +1,12 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { QX_BORDER_SIZE, Tabs, TabsProps } from '@core';
 import { DisplayVariants } from '@quarx-ui/core/storybook/DisplayVariants';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 import { Title } from '../utils';
 import { TABS_TYPES } from '../../common';
-import description from './description.md';
+import description from './description.md?raw';
 
-export const RadiiStory: Story<TabsProps> = (props) => (
+export const RadiiStory: StoryFn<TabsProps> = (props) => (
     <div>
         {Object.values(QX_BORDER_SIZE).map((value) => (
             <div>

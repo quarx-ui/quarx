@@ -1,9 +1,9 @@
-import { Story } from '@storybook/react/types-6-0';
+import { StoryFn } from '@storybook/react-vite';
 import { Case, Switch, SwitchProps } from '@core/components/system/Switch';
 import { Button } from '@core';
 import { setStoryParams } from '@quarx-ui/core/storybook/setStoryParams';
 
-export const SandboxStory: Story<SwitchProps> = ({ value }) => (
+export const SandboxStory: StoryFn<SwitchProps> = ({ value }) => (
     <Button>
         <Switch value={value}>
             <Case value="false">
