@@ -18,10 +18,10 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lock') }}
       - uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 1.0.20
+          bun-version: 1.2.15
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
@@ -39,10 +39,10 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lock') }}
       - uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 1.0.20
+          bun-version: 1.2.15
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
@@ -60,10 +60,10 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lock') }}
       - uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 1.0.20
+          bun-version: 1.2.15
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
@@ -81,10 +81,10 @@ jobs:
           path: |
             **/node_modules
             ./node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lockb') }}
+          key: ${{ runner.os }}-nm-${{ hashFiles('**/bun.lock') }}
       - uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 1.0.20
+          bun-version: 1.2.15
       - uses: actions/setup-node@v3
         with:
           node-version: 16.19.1
