@@ -391,7 +391,7 @@ export const useStyles = makeStyles((
             vertCenter,
             {
                 height: '100%',
-            }
+            },
         ],
         closeIcon: [
             {

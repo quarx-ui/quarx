@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import {ALERT_COLORS, QX_SIZE, usePropsOverwrites} from '@core';
+import { ALERT_COLORS, QX_SIZE, usePropsOverwrites } from '@core';
 import { If } from '@core/components/system/If';
 import { LeftItemProps } from './types';
 import { useStyles } from './styles';

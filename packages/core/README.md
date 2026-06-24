@@ -19,11 +19,8 @@
 # Для NPM
 npm install @quarx-ui/core @emotion/react @emotion/styled
  
-# Для yarn
-yarn add @quarx-ui/core @emotion/react @emotion/styled
-
 # Для Bun
-bun install @quarx-ui/core @emotion/react @emotion/styled
+bun add @quarx-ui/core @emotion/react @emotion/styled
 ```
 
 ### Использование

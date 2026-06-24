@@ -1,5 +1,5 @@
 {
-  "npmClient": "yarn",
+  "npmClient": "bun",
   "useWorkspaces": true,
   "packages": [
     "packages/*"

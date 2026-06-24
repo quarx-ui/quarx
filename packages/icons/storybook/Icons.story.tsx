@@ -12,7 +12,7 @@ import { allIcons, groupByName, groupBySize } from './groups';
 const code = {
     install: {
         npm: `npm i ${packageName}`,
-        yarn: `yarn add ${packageName}`,
+        bun: `bun add ${packageName}`,
     },
     color: {
         wrapper: {
@@ -75,8 +75,8 @@ export default {
                                         code: code.install.npm,
                                         language: 'shell',
                                     },
-                                    yarn: {
-                                        code: code.install.yarn,
+                                    bun: {
+                                        code: code.install.bun,
                                         language: 'shell',
                                     },
                                 }}

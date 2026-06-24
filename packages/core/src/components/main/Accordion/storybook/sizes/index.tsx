@@ -19,7 +19,7 @@ export const SizesStory: Story<AccordionProps> = (props) => DisplayVariants({
     direction: 'vertical',
     component: Accordion,
     componentProps: { ...props,
-        // @ts-expect-error
+        // @ts-expect-error DisplayVariants passes css through componentProps for story layout.
         css: { width: '100%' },
     },
 });

@@ -18,8 +18,8 @@
 # Для NPM
 npm install @quarx-ui/icons
  
-# Для yarn
-yarn add @quarx-ui/icons
+# Для Bun
+bun add @quarx-ui/icons
 ```
 
 ## Обратная связь

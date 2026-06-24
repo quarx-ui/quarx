@@ -1,7 +1,6 @@
 import { FC } from 'react';
-import { IconButton, QX_SIZE, usePropsOverwrites } from '@core';
+import { ALERT_TYPE, IconButton, QX_SIZE, usePropsOverwrites } from '@core';
 import { If } from '@core/components/system/If';
-import { ALERT_TYPE } from '@core';
 import { CloseButtonProps } from './types';
 import { useStyles } from './styles';
 import { sizeToIcon } from './maps';

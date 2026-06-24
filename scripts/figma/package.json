@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "update:all": "npx ts-node index",
-    "update:icons": "npx ts-node src/icons/main && cd ../../ && eslint 'packages/icons/**' --ext .ts,.tsx --fix",
+    "update:all": "bunx ts-node index",
+    "update:icons": "bunx ts-node src/icons/main && cd ../../ && eslint 'packages/icons/**' --ext .ts,.tsx --fix",
     "lint": "tsc --noEmit && eslint 'packages/**'"
   },
   "author": "",
